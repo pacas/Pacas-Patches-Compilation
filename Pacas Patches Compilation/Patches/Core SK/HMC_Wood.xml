@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>HMC Biomes</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="IronWoodLogHMC"]/graphicData</xpath>
+                    <value>
+                        <graphicData>
+                            <texPath>Things/Item/WoodLogStacked</texPath>
+                            <color>(135,155,153)</color>
+                            <graphicClass>Graphic_StackCount</graphicClass>
+                        </graphicData>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

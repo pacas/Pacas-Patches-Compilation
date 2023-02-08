@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimJobWorld - Licentia Labs</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[@Name="LL_SerumBase"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>Serums</li>
+                        </thingCategories>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+	
+</Patch>

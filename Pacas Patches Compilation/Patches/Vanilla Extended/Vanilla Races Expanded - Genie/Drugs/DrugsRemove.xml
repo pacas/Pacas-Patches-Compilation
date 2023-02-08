@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Genie</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/XenotypeDef[defName="Genie"]/genes/li[text()="AddictionResistant_VRE_Antibiotics"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VRE_Antibiotics"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ChemicalDef[defName="VRE_Antibiotics"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/NeedDef[defName="VRE_Chemical_Antibiotics"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh_NoImmunity"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh_VeryWeak"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh_Weak"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsTolerance"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/HediffDef[defName="VRE_AntibioticsAddiction"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

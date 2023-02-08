@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>A RimWorld of Magic</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="TM_RawPomanasyrrium"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>FruitFoodRaw</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="TM_RawPomanaMash"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>BadPlantRaw</li>
+                            <li>Animalfood</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[@Name="MagicResourceBase_Textile"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>HTextiles</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="TM_Arcalleum"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>USLDBar</li>
+                        </thingCategories>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+	
+</Patch>

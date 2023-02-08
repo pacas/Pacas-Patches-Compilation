@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>S16's Extension</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="S16GirlCum"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>CookingSupplies</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ThingCategoryDef[defName="S16Food"]</xpath>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[@Name="S16CookMealBase"]/fixedIngredientFilter</xpath>
+                    <value>
+                        <fixedIngredientFilter>
+                            <categories>
+                                <li>PlantFoodRaw</li>
+                            </categories>
+                            <thingDefs>
+                                <li>S16GirlCum</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[@Name="S16CookMealCumOnly"]/fixedIngredientFilter</xpath>
+                    <value>
+                        <fixedIngredientFilter>
+                            <thingDefs>
+                                <li>S16GirlCum</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="S16CookLoveCookie"]/ingredients</xpath>
+                    <value>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>S16GirlCum</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>0.1</count>
+                            </li>
+                            <li>
+                                <filter>
+                                    <categories>
+                                        <li>PlantFoodRaw</li>
+                                    </categories>
+                                </filter>
+                                <count>0.25</count>
+                            </li>
+                        </ingredients>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="S16CookLoveCookieBulk"]/ingredients</xpath>
+                    <value>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>S16GirlCum</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>0.4</count>
+                            </li>
+                            <li>
+                                <filter>
+                                    <categories>
+                                        <li>PlantFoodRaw</li>
+                                    </categories>
+                                </filter>
+                                <count>1.0</count>
+                            </li>
+                        </ingredients>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="S16CookLoveNectar"]/ingredients</xpath>
+                    <value>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>S16GirlCum</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>0.5</count>
+                            </li>
+                        </ingredients>
+                    </value>
+                </li>
+                <!-- ======================================== -->
+            </operations>
+        </match>
+    </Operation>
+</Patch>

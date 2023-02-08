@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Simple Storage SK</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="JDS_Industrial_Dumpster_Chunk" or defName="JDSwheelbarrow"]/building/fixedStorageSettings/filter/categories</xpath>
+                    <value>
+                        <li>SoftStoneChunks</li>
+                        <li>HardStoneChunks</li>
+                        <li>UltraHardStoneChunks</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

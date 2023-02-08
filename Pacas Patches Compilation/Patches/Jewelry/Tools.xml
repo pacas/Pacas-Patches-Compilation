@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Jewelry</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="Diamond"]</xpath>
+                    <value>
+                        <li Class="SurvivalToolsLite.StuffPropsTool">
+                            <toolStatFactors>
+                                <TreeFellingSpeed>1.5</TreeFellingSpeed>
+                                <PlantHarvestingSpeed>1.8</PlantHarvestingSpeed>
+                                <PlantSowingSpeed>1.2</PlantSowingSpeed>
+                                <DiggingSpeed>1.8</DiggingSpeed>
+                                <MiningYieldDigging>1.4</MiningYieldDigging>
+                                <ConstructionSpeed>0.8</ConstructionSpeed>
+                                <SmithingSpeed>0.8</SmithingSpeed>
+                            </toolStatFactors>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="Ruby"]</xpath>
+                    <value>
+                        <li Class="SurvivalToolsLite.StuffPropsTool">
+                            <toolStatFactors>
+                                <TreeFellingSpeed>1.1</TreeFellingSpeed>
+                                <PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
+                                <PlantSowingSpeed>1.1</PlantSowingSpeed>
+                                <DiggingSpeed>1.2</DiggingSpeed>
+                                <MiningYieldDigging>1.9</MiningYieldDigging>
+                                <ConstructionSpeed>0.7</ConstructionSpeed>
+                                <SmithingSpeed>0.7</SmithingSpeed>
+                            </toolStatFactors>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="Sapphire"]</xpath>
+                    <value>
+                        <li Class="SurvivalToolsLite.StuffPropsTool">
+                            <toolStatFactors>
+                                <TreeFellingSpeed>1.1</TreeFellingSpeed>
+                                <PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
+                                <PlantSowingSpeed>1.1</PlantSowingSpeed>
+                                <DiggingSpeed>1.2</DiggingSpeed>
+                                <MiningYieldDigging>1.9</MiningYieldDigging>
+                                <ConstructionSpeed>0.7</ConstructionSpeed>
+                                <SmithingSpeed>0.7</SmithingSpeed>
+                            </toolStatFactors>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

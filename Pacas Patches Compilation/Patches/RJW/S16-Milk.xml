@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>S16's Milk Economy</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="S16_Milk"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>CookingSupplies</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ThingCategoryDef[defName="S16_Milk"]</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Lactine"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>RJWDrugs</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Lactine_A"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>RJWDrugs</li>
+                        </thingCategories>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+	
+</Patch>

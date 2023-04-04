@@ -27,6 +27,9 @@
         <li>thelonetec.assortedtweaks</li>
         <li>void.charactereditor</li>
         <li>sandy.rpgstyleinventory.avilmask.revamped</li>
+        <li>Zeitloser.BirdsBeyond.FW</li>
+        <li>Zeitloser.BirdsBeyond.TF</li>
+        <li>Zeitloser.BirdsBeyond.TRF</li>
     </loadAfter>
     <loadBefore>
         <li>thelonetec.tsap</li>

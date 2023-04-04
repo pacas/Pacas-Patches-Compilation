@@ -5,7 +5,7 @@
 <img src="https://i.imgur.com/svEwA2k.png"><br><br>
 This repository contains a special mod that patches the mods described below without having to download them separately each time. There will only be patches for mods with small changes, otherwise look for mods [here](https://github.com/pacas/RW-Pacas-HSK-Patches).<br><br>
 Это репозиторий содержит специальный мод, который патчит описанные ниже моды без необходимости отдельно скачивать их каждый раз. Здесь будут патчи только при необходимости внесения небольших изменений, в иных случаях моды искать [тут](https://github.com/pacas/RW-Pacas-HSK-Patches).<br>
-## Donate / Order a patch / Поддержать:<br>
+## Donate / Order a patch | Поддержать / Заказать патч:<br>
 You can thank me for the work done and donate:<br>
 - [Donate items on Steam](https://steamcommunity.com/tradeoffer/new/?partner=93729960&token=dgWxX8tO) (preferably TF2 keys)
 ___
@@ -17,7 +17,9 @@ ___
 Для пользователей из других стран:<br>
 - [Подарить предметы в стиме](https://steamcommunity.com/tradeoffer/new/?partner=93729960&token=dgWxX8tO) (желательно ключики тф2)
 
-## Custom patches:
+# Patch list | Список патчей:
+
+## Custom patches | Особые патчи:
 
 **HSK Core**<br>
 One day I will tell you
@@ -28,16 +30,19 @@ Removed local antibiotics in favour of HSK version
 **[Vanilla Races Expanded - Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390)**<br>
 Blacklisted weapons for HSK
 
+**[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
+Patch for both [Tropical Rainforest](https://steamcommunity.com/sharedfiles/filedetails/?id=2794752505) and [Temperate Forest](https://steamcommunity.com/sharedfiles/filedetails/?id=2591791695). Additional Russian translation included (all credits to Mewn Goddess and [this mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2950642433)).
+
 **[Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016)**<br>
 Chunks storage fix for non-vanilla chunks
 
-**[Jewelry](https://steamcommunity.com/sharedfiles/filedetails/?id=2020964421)**<br>
+**[Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768)**<br>
 New jewels category and SurvivalTools stats
 
 **[RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
 HSK races patch
 
-### Categories swap: 
+### Categories swap | Замена категорий предметов: 
 **[RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
 
 **[Megafauna](https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938)**<br>
@@ -47,7 +52,7 @@ HSK races patch
 **[Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998)**<br>
 An additional category that has no place in default coversion
 
-## Only CE patch: 
+## Only CE patch | Патч для CE:
 
 **[Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495)**<br>
 

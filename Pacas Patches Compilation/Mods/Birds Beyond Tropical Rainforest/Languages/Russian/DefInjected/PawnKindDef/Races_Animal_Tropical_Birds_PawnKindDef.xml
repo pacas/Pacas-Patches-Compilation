@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: cockatoo -->
+  <BB_Cockatoo.label>какаду</BB_Cockatoo.label>
+  <!-- EN: cockatoo -->
+  <BB_Cockatoo.lifeStages.0.label>птенец какаду</BB_Cockatoo.lifeStages.0.label>
+  <!-- EN: Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.0.labelPlural>птенцы какаду</BB_Cockatoo.lifeStages.0.labelPlural>
+  <!-- EN: Male cockatoo -->
+  <BB_Cockatoo.lifeStages.0.labelMale>птенец какаду</BB_Cockatoo.lifeStages.0.labelMale>
+  <!-- EN: Male Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.0.labelMalePlural>птенцы какаду</BB_Cockatoo.lifeStages.0.labelMalePlural>
+  <!-- EN: Female cockatoo -->
+  <BB_Cockatoo.lifeStages.0.labelFemale>птенец какаду</BB_Cockatoo.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.0.labelFemalePlural>птенцы какаду</BB_Cockatoo.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.1.labelPlural>молодые какаду</BB_Cockatoo.lifeStages.1.labelPlural>
+  <!-- EN: Male cockatoo -->
+  <BB_Cockatoo.lifeStages.1.labelMale>молодой какаду</BB_Cockatoo.lifeStages.1.labelMale>
+  <!-- EN: Male Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.1.labelMalePlural>молодые какаду</BB_Cockatoo.lifeStages.1.labelMalePlural>
+  <!-- EN: Female cockatoo -->
+  <BB_Cockatoo.lifeStages.1.labelFemale>молодой какаду</BB_Cockatoo.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.1.labelFemalePlural>молодые какаду</BB_Cockatoo.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.2.labelPlural>какаду</BB_Cockatoo.lifeStages.2.labelPlural>
+  <!-- EN: Male cockatoo -->
+  <BB_Cockatoo.lifeStages.2.labelMale>какаду</BB_Cockatoo.lifeStages.2.labelMale>
+  <!-- EN: Male Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.2.labelMalePlural>какаду</BB_Cockatoo.lifeStages.2.labelMalePlural>
+  <!-- EN: Female cockatoo -->
+  <BB_Cockatoo.lifeStages.2.labelFemale>какаду</BB_Cockatoo.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural cockatoo -->
+  <BB_Cockatoo.lifeStages.2.labelFemalePlural>какаду</BB_Cockatoo.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural cockatoo -->
+  <BB_Cockatoo.labelPlural>какаду</BB_Cockatoo.labelPlural>
+  <!-- EN: Male cockatoo -->
+  <BB_Cockatoo.labelMale>какаду</BB_Cockatoo.labelMale>
+  <!-- EN: Male Plural cockatoo -->
+  <BB_Cockatoo.labelMalePlural>какаду</BB_Cockatoo.labelMalePlural>
+  <!-- EN: Female cockatoo -->
+  <BB_Cockatoo.labelFemale>какаду</BB_Cockatoo.labelFemale>
+  <!-- EN: Female Plural cockatoo -->
+  <BB_Cockatoo.labelFemalePlural>какаду</BB_Cockatoo.labelFemalePlural>
+  
+  
+  <!-- EN: hornbill -->
+  <BB_Hornbill.label>птица-носорог</BB_Hornbill.label>
+  <!-- EN: chick -->
+  <BB_Hornbill.lifeStages.0.label>птенец птицы-носорога</BB_Hornbill.lifeStages.0.label>
+  <!-- EN: Plural hornbill -->
+  <BB_Hornbill.lifeStages.0.labelPlural>птенцы птицы-носорога</BB_Hornbill.lifeStages.0.labelPlural>
+  <!-- EN: Male hornbill -->
+  <BB_Hornbill.lifeStages.0.labelMale>птенец птицы-носорога</BB_Hornbill.lifeStages.0.labelMale>
+  <!-- EN: Male Plural hornbill -->
+  <BB_Hornbill.lifeStages.0.labelMalePlural>птенцы птицы-носорога</BB_Hornbill.lifeStages.0.labelMalePlural>
+  <!-- EN: Female hornbill -->
+  <BB_Hornbill.lifeStages.0.labelFemale>птенец птицы-носорога</BB_Hornbill.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural hornbill -->
+  <BB_Hornbill.lifeStages.0.labelFemalePlural>птенцы птицы-носорога</BB_Hornbill.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural hornbill -->
+  <BB_Hornbill.lifeStages.1.labelPlural>молодые птицы-носороги</BB_Hornbill.lifeStages.1.labelPlural>
+  <!-- EN: Male hornbill -->
+  <BB_Hornbill.lifeStages.1.labelMale>молодая птица-носорог</BB_Hornbill.lifeStages.1.labelMale>
+  <!-- EN: Male Plural hornbill -->
+  <BB_Hornbill.lifeStages.1.labelMalePlural>молодые птицы-носороги</BB_Hornbill.lifeStages.1.labelMalePlural>
+  <!-- EN: Female hornbill -->
+  <BB_Hornbill.lifeStages.1.labelFemale>молодая птица-носорог</BB_Hornbill.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural hornbill -->
+  <BB_Hornbill.lifeStages.1.labelFemalePlural>молодые птицы-носороги</BB_Hornbill.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural hornbill -->
+  <BB_Hornbill.lifeStages.2.labelPlural>птицы-носороги</BB_Hornbill.lifeStages.2.labelPlural>
+  <!-- EN: Male hornbill -->
+  <BB_Hornbill.lifeStages.2.labelMale>птица-носорог</BB_Hornbill.lifeStages.2.labelMale>
+  <!-- EN: Male Plural hornbill -->
+  <BB_Hornbill.lifeStages.2.labelMalePlural>птицы-носороги</BB_Hornbill.lifeStages.2.labelMalePlural>
+  <!-- EN: Female hornbill -->
+  <BB_Hornbill.lifeStages.2.labelFemale>птица-носорог</BB_Hornbill.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural hornbill -->
+  <BB_Hornbill.lifeStages.2.labelFemalePlural>птицы-носороги</BB_Hornbill.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural hornbill -->
+  <BB_Hornbill.labelPlural>птицы-носороги</BB_Hornbill.labelPlural>
+  <!-- EN: Male hornbill -->
+  <BB_Hornbill.labelMale>птица-носорог</BB_Hornbill.labelMale>
+  <!-- EN: Male Plural hornbill -->
+  <BB_Hornbill.labelMalePlural>птицы-носороги</BB_Hornbill.labelMalePlural>
+  <!-- EN: Female hornbill -->
+  <BB_Hornbill.labelFemale>птица-носорог</BB_Hornbill.labelFemale>
+  <!-- EN: Female Plural hornbill -->
+  <BB_Hornbill.labelFemalePlural>птицы-носороги</BB_Hornbill.labelFemalePlural>
+  
+  
+  <!-- EN: Parrot -->
+  <BB_Parrot.label>попугай</BB_Parrot.label>
+  <!-- EN: chick -->
+  <BB_Parrot.lifeStages.0.label>птенец попугая</BB_Parrot.lifeStages.0.label>
+  <!-- EN: Plural Parrot -->
+  <BB_Parrot.lifeStages.0.labelPlural>птенцы попугая</BB_Parrot.lifeStages.0.labelPlural>
+  <!-- EN: Male Parrot -->
+  <BB_Parrot.lifeStages.0.labelMale>птенец попугая</BB_Parrot.lifeStages.0.labelMale>
+  <!-- EN: Male Plural Parrot -->
+  <BB_Parrot.lifeStages.0.labelMalePlural>птенцы попугая</BB_Parrot.lifeStages.0.labelMalePlural>
+  <!-- EN: Female Parrot -->
+  <BB_Parrot.lifeStages.0.labelFemale>птенец попугая</BB_Parrot.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural Parrot -->
+  <BB_Parrot.lifeStages.0.labelFemalePlural>птенцы попугая</BB_Parrot.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural Parrot -->
+  <BB_Parrot.lifeStages.1.labelPlural>молодые попугаи</BB_Parrot.lifeStages.1.labelPlural>
+  <!-- EN: Male Parrot -->
+  <BB_Parrot.lifeStages.1.labelMale>молодой попугай</BB_Parrot.lifeStages.1.labelMale>
+  <!-- EN: Male Plural Parrot -->
+  <BB_Parrot.lifeStages.1.labelMalePlural>молодые попугаи</BB_Parrot.lifeStages.1.labelMalePlural>
+  <!-- EN: Female Parrot -->
+  <BB_Parrot.lifeStages.1.labelFemale>молодой попугай</BB_Parrot.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural Parrot -->
+  <BB_Parrot.lifeStages.1.labelFemalePlural>молодые попугаи</BB_Parrot.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural Parrot -->
+  <BB_Parrot.lifeStages.2.labelPlural>попугаи</BB_Parrot.lifeStages.2.labelPlural>
+   <!-- EN: Male Parrot -->
+  <BB_Parrot.lifeStages.2.labelMale>попугай</BB_Parrot.lifeStages.2.labelMale>
+  <!-- EN: Male Plural Parrot -->
+  <BB_Parrot.lifeStages.2.labelMalePlural>попугаи</BB_Parrot.lifeStages.2.labelMalePlural>
+  <!-- EN: Female Parrot -->
+  <BB_Parrot.lifeStages.2.labelFemale>попугай</BB_Parrot.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural Parrot -->
+  <BB_Parrot.lifeStages.2.labelFemalePlural>попугаи</BB_Parrot.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural Parrot -->
+  <BB_Parrot.labelPlural>попугаи</BB_Parrot.labelPlural>
+   <!-- EN: Male Parrot -->
+  <BB_Parrot.labelMale>попугай</BB_Parrot.labelMale>
+  <!-- EN: Male Plural Parrot -->
+  <BB_Parrot.labelMalePlural>попугаи</BB_Parrot.labelMalePlural>
+  <!-- EN: Female Parrot -->
+  <BB_Parrot.labelFemale>попугай</BB_Parrot.labelFemale>
+  <!-- EN: Female Plural Parrot -->
+  <BB_Parrot.labelFemalePlural>попугаи</BB_Parrot.labelFemalePlural>
+  
+  
+  <!-- EN: toucan -->
+  <BB_Toucan.label>тукан</BB_Toucan.label>
+  <!-- EN: chick -->
+  <BB_Toucan.lifeStages.0.label>птенец тукана</BB_Toucan.lifeStages.0.label>
+  <!-- EN: Plural toucan -->
+  <BB_Toucan.lifeStages.0.labelPlural>птенцы тукана</BB_Toucan.lifeStages.0.labelPlural>
+  <!-- EN: Male toucan -->
+  <BB_Toucan.lifeStages.0.labelMale>птенец тукана</BB_Toucan.lifeStages.0.labelMale>
+  <!-- EN: Male Plural toucan -->
+  <BB_Toucan.lifeStages.0.labelMalePlural>птенцы тукана</BB_Toucan.lifeStages.0.labelMalePlural>
+  <!-- EN: Female toucan -->
+  <BB_Toucan.lifeStages.0.labelFemale>птенец тукана</BB_Toucan.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural toucan -->
+  <BB_Toucan.lifeStages.0.labelFemalePlural>птенцы тукана</BB_Toucan.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural toucan -->
+  <BB_Toucan.lifeStages.1.labelPlural>молодые туканы</BB_Toucan.lifeStages.1.labelPlural>
+  <!-- EN: Male toucan -->
+  <BB_Toucan.lifeStages.1.labelMale>молодой тукан</BB_Toucan.lifeStages.1.labelMale>
+  <!-- EN: Male Plural toucan -->
+  <BB_Toucan.lifeStages.1.labelMalePlural>молодые туканы</BB_Toucan.lifeStages.1.labelMalePlural>
+  <!-- EN: Female toucan -->
+  <BB_Toucan.lifeStages.1.labelFemale>молодой тукан</BB_Toucan.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural toucan -->
+  <BB_Toucan.lifeStages.1.labelFemalePlural>молодые туканы</BB_Toucan.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural toucan -->
+  <BB_Toucan.lifeStages.2.labelPlural>туканы</BB_Toucan.lifeStages.2.labelPlural>
+  <!-- EN: Male toucan -->
+  <BB_Toucan.lifeStages.2.labelMale>тукан</BB_Toucan.lifeStages.2.labelMale>
+  <!-- EN: Male Plural toucan -->
+  <BB_Toucan.lifeStages.2.labelMalePlural>туканы</BB_Toucan.lifeStages.2.labelMalePlural>
+  <!-- EN: Female toucan -->
+  <BB_Toucan.lifeStages.2.labelFemale>тукан</BB_Toucan.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural toucan -->
+  <BB_Toucan.lifeStages.2.labelFemalePlural>туканы</BB_Toucan.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural toucan -->
+  <BB_Toucan.labelPlural>туканы</BB_Toucan.labelPlural>
+  <!-- EN: Male toucan -->
+  <BB_Toucan.labelMale>тукан</BB_Toucan.labelMale>
+  <!-- EN: Male Plural toucan -->
+  <BB_Toucan.labelMalePlural>туканы</BB_Toucan.labelMalePlural>
+  <!-- EN: Female toucan -->
+  <BB_Toucan.labelFemale>тукан</BB_Toucan.labelFemale>
+  <!-- EN: Female Plural toucan -->
+  <BB_Toucan.labelFemalePlural>туканы</BB_Toucan.labelFemalePlural>
+</LanguageData>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: barn owl egg (unfert.) -->
+  <EggBarnOwlUnfertilized.label>яйцо сипухи (неопл.)</EggBarnOwlUnfertilized.label>
+  <!-- EN: An unfertilized barn owl egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggBarnOwlUnfertilized.description>Неоплодотворённое яйцо сипухи. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggBarnOwlUnfertilized.description>
+  <!-- EN: barn owl egg (fert.) -->
+  <EggBarnOwlFertilized.label>яйцо сипухи (опл.)</EggBarnOwlFertilized.label>
+  <!-- EN: A fertilized barn owl egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggBarnOwlFertilized.description>Оплодотворённое яйцо сипухи. Если всё пойдёт хорошо, в скором времени из него вылупится птенец сипухи. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggBarnOwlFertilized.description>
+  
+  <!-- EN: eagle owl egg (unfert.) -->
+  <EggEagleOwlUnfertilized.label>яйцо филина (неопл.)</EggEagleOwlUnfertilized.label>
+  <!-- EN: An unfertilized eagle owl egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggEagleOwlUnfertilized.description>Неоплодотворённое яйцо филина. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggEagleOwlUnfertilized.description>
+  <!-- EN: eagle owl egg (fert.) -->
+  <EggEagleOwlFertilized.label>яйцо филина (опл.)</EggEagleOwlFertilized.label>
+  <!-- EN: A fertilized eagle owl egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggEagleOwlFertilized.description>Оплодотворённое яйцо филина. Если всё пойдёт хорошо, в скором времени из него вылупится птенец филина. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggEagleOwlFertilized.description>
+  
+  <!-- EN: kestrel egg (unfert.) -->
+  <EggKestrelUnfertilized.label>яйцо пустельги (неопл.)</EggKestrelUnfertilized.label>
+  <!-- EN: An unfertilized kestrel egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggKestrelUnfertilized.description>Неоплодотворённое яйцо пустельги. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggKestrelUnfertilized.description>
+  <!-- EN: kestrel egg (fert.) -->
+  <EggKestrelFertilized.label>яйцо пустельги (опл.)</EggKestrelFertilized.label>
+  <!-- EN: A fertilized kestrel egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggKestrelFertilized.description>Оплодотворённое яйцо пустельги. Если всё пойдёт хорошо, в скором времени из него вылупится птенец пустельги. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggKestrelFertilized.description>
+  
+  <!-- EN: crow egg (unfert.) -->
+  <EggCrowUnfertilized.label>яйцо ворона (неопл.)</EggCrowUnfertilized.label>
+  <!-- EN: An unfertilized crow egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggCrowUnfertilized.description>Неоплодотворённое яйцо ворона. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCrowUnfertilized.description>
+  <!-- EN: crow egg (fert.) -->
+  <EggCrowFertilized.label>яйцо ворона (опл.)</EggCrowFertilized.label>
+  <!-- EN: A fertilized crow egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggCrowFertilized.description>Оплодотворённое яйцо ворона. Если всё пойдёт хорошо, в скором времени из него вылупится птенец ворона. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCrowFertilized.description>
+</LanguageData>

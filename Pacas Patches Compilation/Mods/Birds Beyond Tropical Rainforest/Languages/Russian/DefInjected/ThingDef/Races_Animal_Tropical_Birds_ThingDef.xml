@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: cockatoo -->
+  <BB_Cockatoo.label>какаду</BB_Cockatoo.label>
+  <!-- EN: A very intelligent parrot with distinctive crestfeathers. Their strong beak is able to crack nuts. -->
+  <BB_Cockatoo.description>Очень умный представитель отряда попугаеобразных. Его отличительным признаком является наличие хохолка — удлинённых перьев на затылке. Своим сильным клювом какаду в состоянии расщеплять твёрдую скорлупу различных орехов. Его летательные способности достаточно хороши, но ещё лучше он лазает по деревьям.</BB_Cockatoo.description>
+  <!-- EN: talons -->
+  <BB_Cockatoo.tools.0.label>когти</BB_Cockatoo.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Cockatoo.tools.1.label>клюв</BB_Cockatoo.tools.1.label>
+  <!-- EN: head -->
+  <BB_Cockatoo.tools.2.label>голова</BB_Cockatoo.tools.2.label>
+  
+  <!-- EN: hornbill -->
+  <BB_Hornbill.label>птица-носорог</BB_Hornbill.label>
+  <!-- EN: This big tropical bird has a very distinctive beak, hence it's name. They are often found roaming forests for fruit-carrying trees. -->
+  <BB_Hornbill.description>Большая тропическая птица, получившая своё название из-за большого, загнутого вниз клюва. Их часто можно увидеть летающими по лесу и высматривающими деревья, на которых можно найти фрукты.</BB_Hornbill.description>
+  <!-- EN: talons -->
+  <BB_Hornbill.tools.0.label>когти</BB_Hornbill.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Hornbill.tools.1.label>клюв</BB_Hornbill.tools.1.label>
+  <!-- EN: head -->
+  <BB_Hornbill.tools.2.label>голова</BB_Hornbill.tools.2.label>
+  
+  <!-- EN: Parrot -->
+  <BB_Parrot.label>попугай</BB_Parrot.label>
+  <!-- EN: A treasured avian companion for pirates and collectors alike. The parrot is very well known for it's intelligence, strong beak and ability to mimic speech. -->
+  <BB_Parrot.description>Пернатый компаньон, который ценится как пиратами, так и коллекционерами. Попугай хорошо известен развитым интеллектом, сильным клювом и способностью подражать человеческой речи.</BB_Parrot.description>
+  <!-- EN: talons -->
+  <BB_Parrot.tools.0.label>когти</BB_Parrot.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Parrot.tools.1.label>клюв</BB_Parrot.tools.1.label>
+  <!-- EN: head -->
+  <BB_Parrot.tools.2.label>голова</BB_Parrot.tools.2.label>
+  
+  <!-- EN: toucan -->
+  <BB_Toucan.label>тукан</BB_Toucan.label>
+  <!-- EN: A black bird with a colorful beak. -->
+  <BB_Toucan.description>Самый крупный представитель отряда дятлообразных. Его легко узнать по огромному и очень лёгкому жёлтому клюву, длина которого достигает почти половины длины тела.</BB_Toucan.description>
+  <!-- EN: talons -->
+  <BB_Toucan.tools.0.label>когти</BB_Toucan.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Toucan.tools.1.label>клюв</BB_Toucan.tools.1.label>
+  <!-- EN: head -->
+  <BB_Toucan.tools.2.label>голова</BB_Toucan.tools.2.label>
+</LanguageData>

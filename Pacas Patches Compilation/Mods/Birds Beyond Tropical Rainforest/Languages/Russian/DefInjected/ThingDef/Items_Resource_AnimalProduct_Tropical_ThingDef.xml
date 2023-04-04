@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: cockatoo egg (unfert.) -->
+  <EggCockatooUnfertilized.label>яйцо какаду (неопл.)</EggCockatooUnfertilized.label>
+  <!-- EN: An unfertilized cockatoo egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggCockatooUnfertilized.description>Неоплодотворённое яйцо какаду. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCockatooUnfertilized.description>
+  <!-- EN: cockatoo egg (fert.) -->
+  <EggCockatooFertilized.label>яйцо какаду (опл.)</EggCockatooFertilized.label>
+  <!-- EN: A fertilized cockatoo egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggCockatooFertilized.description>Оплодотворённое яйцо какаду. Если всё пойдёт хорошо, в скором времени из него вылупится птенец какаду. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCockatooFertilized.description>
+  
+  <!-- EN: hornbill egg (unfert.) -->
+  <EggHornbillUnfertilized.label>яйцо птицы-носорога (неопл.)</EggHornbillUnfertilized.label>
+  <!-- EN: An unfertilized hornbill egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggHornbillUnfertilized.description>Неоплодотворённое яйцо птицы-носорога. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggHornbillUnfertilized.description>
+  <!-- EN: hornbill egg (fert.) -->
+  <EggHornbillFertilized.label>яйцо птицы-носорога (опл.)</EggHornbillFertilized.label>
+  <!-- EN: A fertilized hornbill egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggHornbillFertilized.description>Оплодотворённое яйцо птицы-носорога. Если всё пойдёт хорошо, в скором времени из него вылупится птенец птицы-носорога. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggHornbillFertilized.description>
+  
+  <!-- EN: parrot egg (unfert.) -->
+  <EggParrotUnfertilized.label>яйцо попугая (неопл.)</EggParrotUnfertilized.label>
+  <!-- EN: An unfertilized parrot egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggParrotUnfertilized.description>Неоплодотворённое яйцо попугая. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggParrotUnfertilized.description>
+  <!-- EN: parrot egg (fert.) -->
+  <EggParrotFertilized.label>яйцо попугая (опл.)</EggParrotFertilized.label>
+  <!-- EN: A fertilized parrot egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggParrotFertilized.description>Оплодотворённое яйцо попугая. Если всё пойдёт хорошо, в скором времени из него вылупится птенец попугая. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggParrotFertilized.description>
+  
+  <!-- EN: toucan egg (unfert.) -->
+  <EggToucanUnfertilized.label>яйцо тукана (неопл.)</EggToucanUnfertilized.label>
+  <!-- EN: An unfertilized toucan egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggToucanUnfertilized.description>Неоплодотворённое яйцо тукана. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggToucanUnfertilized.description>
+  <!-- EN: toucan egg (fert.) -->
+  <EggToucanFertilized.label>яйцо тукана (опл.)</EggToucanFertilized.label>
+  <!-- EN: A fertilized toucan egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked. -->
+  <EggToucanFertilized.description>Оплодотворённое яйцо тукана. Если всё пойдёт хорошо, в скором времени из него вылупится птенец тукана. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggToucanFertilized.description>
+</LanguageData>

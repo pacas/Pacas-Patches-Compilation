@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: barn owl -->
+  <BB_BarnOwl.label>сипуха</BB_BarnOwl.label>
+  <!-- EN: A medium-sized owl with a distinctive, heart-shaped face. They are renowned for their eerie, drawn-out shrieking calls. Barn owls prey upon small mammals which they locate with their excellent hearing. -->
+  <BB_BarnOwl.description>Среднего размера сова с характерной головой сердцевидной формы. Она известна своими жуткими пронзительными криками. Сипуха охотится на мелких млекопитающих, которых хорошо находит благодаря своему превосходному слуху.</BB_BarnOwl.description>
+  <!-- EN: talons -->
+  <BB_BarnOwl.tools.0.label>когти</BB_BarnOwl.tools.0.label>
+  <!-- EN: beak -->
+  <BB_BarnOwl.tools.1.label>клюв</BB_BarnOwl.tools.1.label>
+  <!-- EN: head -->
+  <BB_BarnOwl.tools.2.label>голова</BB_BarnOwl.tools.2.label>
+  
+  
+  <!-- EN: eagle owl -->
+  <BB_EagleOwl.label>филин</BB_EagleOwl.label>
+  <!-- EN: One of the largest species of owl, the eagle-owl has characteristic ear tufts, orange eyes and an 'Uhu' call that makes it instantly recognisable. Due to its large size, it can take a wide variety of prey but typically favours small mammals and birds. -->
+  <BB_EagleOwl.description>Один из наиболее крупных представителей отряда совообразных. Филина легко узнать по ярко-оранжевым глазам и пучкам удлинённых перьев над ними, называемым перьевыми ушами, а также по характерному издаваемому им «ухающему» звуку. Благодаря своим крупным размерам он способен охотиться на самых разных животных, но обычно предпочитает мелких млекопитающих и птиц.</BB_EagleOwl.description>
+  <!-- EN: talons -->
+  <BB_EagleOwl.tools.0.label>когти</BB_EagleOwl.tools.0.label>
+  <!-- EN: beak -->
+  <BB_EagleOwl.tools.1.label>клюв</BB_EagleOwl.tools.1.label>
+  <!-- EN: head -->
+  <BB_EagleOwl.tools.2.label>голова</BB_EagleOwl.tools.2.label>
+  
+  
+  <!-- EN: Kestrel -->
+  <BB_Kestrel.label>пустельга</BB_Kestrel.label>
+  <!-- EN: A falcon noted for the prominent sexual dimorphism of their plumage, with the males having a blue-grey cap. The kestrel feeds almost exclusively upon small mammals, aided by its ability to see near ultraviolet light, and performs a characteristic hovering flight whilst hunting. -->
+  <BB_Kestrel.description>Птица из семейства соколиных. Ярким признаком, отличающим самцов от самок, является окраска головы. У самца голова светло-серая, в то время как самка однородного буро-коричневого цвета. Пустельга питается главным образом мелкими млекопитающими, в этом ей помогает способность видеть ультрафиолетовый свет. Её характерной особенностью является так называемый «трепещущий полёт» — высматривая добычу, пустельга висит в воздухе, часто трепеща крыльями.</BB_Kestrel.description>
+  <!-- EN: talons -->
+  <BB_Kestrel.tools.0.label>когти</BB_Kestrel.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Kestrel.tools.1.label>клюв</BB_Kestrel.tools.1.label>
+  <!-- EN: head -->
+  <BB_Kestrel.tools.2.label>голова</BB_Kestrel.tools.2.label>
+
+
+  <!-- EN: crow -->
+  <BB_Crow.label>ворон</BB_Crow.label>
+  <!-- EN: A passerine in the corvid family, the crow is a highly intelligent bird that sustains itself primarily through scavenging, although it will forage on occasion. Due to their dietary habits, they have been considered ill-omens, and associated with war and the occult. -->
+  <BB_Crow.description>Вид птиц, относящийся к отряду воробьинообразных. Ворон всеяден и способен находить пищу в самых разных источниках — от насекомых, ягод и фруктов до мелких животных и пищевых отходов человека. Однако, падаль является наиболее значимым элементом в их рационе. Из-за таких пищевых привычек ворон часто считается птицей, предвещающей беду и его появление связывают с войной и оккультными силами.</BB_Crow.description>
+  <!-- EN: talons -->
+  <BB_Crow.tools.0.label>когти</BB_Crow.tools.0.label>
+  <!-- EN: beak -->
+  <BB_Crow.tools.1.label>клюв</BB_Crow.tools.1.label>
+  <!-- EN: head -->
+  <BB_Crow.tools.2.label>голова</BB_Crow.tools.2.label>
+</LanguageData>

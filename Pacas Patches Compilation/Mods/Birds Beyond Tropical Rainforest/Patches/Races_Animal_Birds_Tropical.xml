@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Birds Beyond: Tropical Rainforest</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- ================== Barn Owl ===================-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BB_Cockatoo"]</xpath>
+					<value>
+						<li Class="CombatExtended.RacePropertiesExtensionCE">
+							<bodyShape>Birdlike</bodyShape>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BB_Cockatoo"]/statBases</xpath>
+					<value>
+						<MeleeDodgeChance>0.24</MeleeDodgeChance>
+						<MeleeCritChance>0.03</MeleeCritChance>
+						<MeleeParryChance>0.01</MeleeParryChance>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BB_Cockatoo"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>talons</label>
+								<capacities>
+									<li>Scratch</li>
+								</capacities>
+								<power>3</power>
+								<cooldownTime>1</cooldownTime>
+								<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>beak</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>3</power>
+								<cooldownTime>1.45</cooldownTime>
+								<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.20</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>2</power>
+								<cooldownTime>20</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>0.30</armorPenetrationBlunt>
+								<chanceFactor>0.8</chanceFactor>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+				<!-- ================== Eagle Owl ===================-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BB_Hornbill"]</xpath>
+					<value>
+						<li Class="CombatExtended.RacePropertiesExtensionCE">
+							<bodyShape>Birdlike</bodyShape>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BB_Hornbill"]/statBases</xpath>
+					<value>
+						<MeleeDodgeChance>0.25</MeleeDodgeChance>
+						<MeleeCritChance>0.03</MeleeCritChance>
+						<MeleeParryChance>0.01</MeleeParryChance>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BB_Hornbill"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>talons</label>
+								<capacities>
+									<li>Scratch</li>
+								</capacities>
+								<power>6</power>
+								<cooldownTime>1</cooldownTime>
+								<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>beak</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>6</power>
+								<cooldownTime>1.45</cooldownTime>
+								<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.20</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>3</power>
+								<cooldownTime>20</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>0.30</armorPenetrationBlunt>
+								<chanceFactor>0.8</chanceFactor>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+				<!-- ================== Kestrel ===================-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BB_Parrot"]</xpath>
+					<value>
+						<li Class="CombatExtended.RacePropertiesExtensionCE">
+							<bodyShape>Birdlike</bodyShape>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BB_Parrot"]/statBases</xpath>
+					<value>
+						<MeleeDodgeChance>0.24</MeleeDodgeChance>
+						<MeleeCritChance>0.03</MeleeCritChance>
+						<MeleeParryChance>0.01</MeleeParryChance>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BB_Parrot"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>talons</label>
+								<capacities>
+									<li>Scratch</li>
+								</capacities>
+								<power>3</power>
+								<cooldownTime>1</cooldownTime>
+								<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>beak</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>3</power>
+								<cooldownTime>1.45</cooldownTime>
+								<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.20</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>2</power>
+								<cooldownTime>20</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>0.30</armorPenetrationBlunt>
+								<chanceFactor>0.8</chanceFactor>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+				<!-- ================== Crow ===================-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BB_Toucan"]</xpath>
+					<value>
+						<li Class="CombatExtended.RacePropertiesExtensionCE">
+							<bodyShape>Birdlike</bodyShape>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BB_Toucan"]/statBases</xpath>
+					<value>
+						<MeleeDodgeChance>0.24</MeleeDodgeChance>
+						<MeleeCritChance>0.03</MeleeCritChance>
+						<MeleeParryChance>0.01</MeleeParryChance>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BB_Toucan"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>talons</label>
+								<capacities>
+									<li>Scratch</li>
+								</capacities>
+								<power>4</power>
+								<cooldownTime>1</cooldownTime>
+								<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>beak</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>5</power>
+								<cooldownTime>1.45</cooldownTime>
+								<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+								<armorPenetrationSharp>0.20</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>2</power>
+								<cooldownTime>20</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>0.30</armorPenetrationBlunt>
+								<chanceFactor>0.8</chanceFactor>
+							</li>
+						</tools>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="EggCockatooUnfertilized" or defName="EggHornbillUnfertilized" or defName="EggParrotUnfertilized" or defName="EggToucanUnfertilized"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_EggUnfertBase</value>
+                </li>
+                
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="EggCockatooFertilized" or defName="EggHornbillFertilized" or defName="EggParrotFertilized" or defName="EggToucanFertilized"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_EggFertBase</value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="EggCockatooFertilized" or defName="EggHornbillFertilized" or defName="EggParrotFertilized" or defName="EggToucanFertilized"]/comps</xpath>
+                    <value>
+                        <li Class="CompProperties_TemperatureRuinable">
+                            <minSafeTemperature>10</minSafeTemperature>
+                            <maxSafeTemperature>45</maxSafeTemperature>
+                            <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+                        </li>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BB_Cockatoo" or defName="BB_Hornbill" or defName="BB_Parrot" or defName="BB_Toucan"]/race/useMeatFrom</xpath>
+                    <value>
+                        <useMeatFrom>Elephant</useMeatFrom>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="BB_Cockatoo" or defName="BB_Hornbill" or defName="BB_Parrot" or defName="BB_Toucan"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_AnimalThingBase</value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BB_Cockatoo"]/race</xpath>
+                    <value>
+                        <leatherDef>Leather_Bird</leatherDef>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BB_Cockatoo" or defName="BB_Hornbill" or defName="BB_Parrot" or defName="BB_Toucan"]/statBases</xpath>
+                    <value>
+                        <MeatAmount>20</MeatAmount>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BB_Cockatoo" or defName="BB_Hornbill" or defName="BB_Parrot" or defName="BB_Toucan"]/race/wildBiomes</xpath>
+                    <value>
+                        <TropicalSwamp>0.4</TropicalSwamp>
+                        <TropicalArchipelago>0.4</TropicalArchipelago>
+                        <TropicalSwampArchipelago>0.3</TropicalSwampArchipelago>
+                    </value>
+                </li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

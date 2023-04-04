@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: barn owl -->
+  <BB_BarnOwl.label>сипуха</BB_BarnOwl.label>
+  <!-- EN: barn owl -->
+  <BB_BarnOwl.lifeStages.0.label>птенец сипухи</BB_BarnOwl.lifeStages.0.label>
+  <!-- EN: Plural barn owl -->
+  <BB_BarnOwl.lifeStages.0.labelPlural>птенцы сипухи</BB_BarnOwl.lifeStages.0.labelPlural>
+  <!-- EN: Male barn owl -->
+  <BB_BarnOwl.lifeStages.0.labelMale>птенец сипухи</BB_BarnOwl.lifeStages.0.labelMale>
+  <!-- EN: Male Plural barn owl -->
+  <BB_BarnOwl.lifeStages.0.labelMalePlural>птенцы сипухи</BB_BarnOwl.lifeStages.0.labelMalePlural>
+  <!-- EN: Female barn owl -->
+  <BB_BarnOwl.lifeStages.0.labelFemale>птенец сипухи</BB_BarnOwl.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural barn owl -->
+  <BB_BarnOwl.lifeStages.0.labelFemalePlural>птенцы сипухи</BB_BarnOwl.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural barn owl -->
+  <BB_BarnOwl.lifeStages.1.labelPlural>молодые сипухи</BB_BarnOwl.lifeStages.1.labelPlural>
+  <!-- EN: Male barn owl -->
+  <BB_BarnOwl.lifeStages.1.labelMale>молодая сипуха</BB_BarnOwl.lifeStages.1.labelMale>
+  <!-- EN: Male Plural barn owl -->
+  <BB_BarnOwl.lifeStages.1.labelMalePlural>молодые сипухи</BB_BarnOwl.lifeStages.1.labelMalePlural>
+  <!-- EN: Female barn owl -->
+  <BB_BarnOwl.lifeStages.1.labelFemale>молодая сипуха</BB_BarnOwl.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural barn owl -->
+  <BB_BarnOwl.lifeStages.1.labelFemalePlural>молодые сипухи</BB_BarnOwl.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural barn owl -->
+  <BB_BarnOwl.lifeStages.2.labelPlural>сипухи</BB_BarnOwl.lifeStages.2.labelPlural>
+  <!-- EN: Male barn owl -->
+  <BB_BarnOwl.lifeStages.2.labelMale>сипуха</BB_BarnOwl.lifeStages.2.labelMale>
+  <!-- EN: Male Plural barn owl -->
+  <BB_BarnOwl.lifeStages.2.labelMalePlural>сипухи</BB_BarnOwl.lifeStages.2.labelMalePlural>
+  <!-- EN: Female barn owl -->
+  <BB_BarnOwl.lifeStages.2.labelFemale>сипуха</BB_BarnOwl.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural barn owl -->
+  <BB_BarnOwl.lifeStages.2.labelFemalePlural>сипухи</BB_BarnOwl.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural barn owl -->
+  <BB_BarnOwl.labelPlural>сипухи</BB_BarnOwl.labelPlural>
+  <!-- EN: Male barn owl -->
+  <BB_BarnOwl.labelMale>сипуха</BB_BarnOwl.labelMale>
+  <!-- EN: Male Plural barn owl -->
+  <BB_BarnOwl.labelMalePlural>сипухи</BB_BarnOwl.labelMalePlural>
+  <!-- EN: Female barn owl -->
+  <BB_BarnOwl.labelFemale>сипуха</BB_BarnOwl.labelFemale>
+  <!-- EN: Female Plural barn owl -->
+  <BB_BarnOwl.labelFemalePlural>сипухи</BB_BarnOwl.labelFemalePlural>
+  
+  
+  <!-- EN: eagle owl -->
+  <BB_EagleOwl.label>филин</BB_EagleOwl.label>
+  <!-- EN: chick -->
+  <BB_EagleOwl.lifeStages.0.label>птенец филина</BB_EagleOwl.lifeStages.0.label>
+  <!-- EN: Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.0.labelPlural>птенцы филина</BB_EagleOwl.lifeStages.0.labelPlural>
+  <!-- EN: Male eagle owl -->
+  <BB_EagleOwl.lifeStages.0.labelMale>птенец филина</BB_EagleOwl.lifeStages.0.labelMale>
+  <!-- EN: Male Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.0.labelMalePlural>птенцы филина</BB_EagleOwl.lifeStages.0.labelMalePlural>
+  <!-- EN: Female eagle owl -->
+  <BB_EagleOwl.lifeStages.0.labelFemale>птенец филина</BB_EagleOwl.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.0.labelFemalePlural>птенцы филина</BB_EagleOwl.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.1.labelPlural>молодые филины</BB_EagleOwl.lifeStages.1.labelPlural>
+  <!-- EN: Male eagle owl -->
+  <BB_EagleOwl.lifeStages.1.labelMale>молодой филин</BB_EagleOwl.lifeStages.1.labelMale>
+  <!-- EN: Male Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.1.labelMalePlural>молодые филины</BB_EagleOwl.lifeStages.1.labelMalePlural>
+  <!-- EN: Female eagle owl -->
+  <BB_EagleOwl.lifeStages.1.labelFemale>молодой филин</BB_EagleOwl.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.1.labelFemalePlural>молодые филины</BB_EagleOwl.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.2.labelPlural>филины</BB_EagleOwl.lifeStages.2.labelPlural>
+  <!-- EN: Male eagle owl -->
+  <BB_EagleOwl.lifeStages.2.labelMale>филин</BB_EagleOwl.lifeStages.2.labelMale>
+  <!-- EN: Male Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.2.labelMalePlural>филины</BB_EagleOwl.lifeStages.2.labelMalePlural>
+  <!-- EN: Female eagle owl -->
+  <BB_EagleOwl.lifeStages.2.labelFemale>филин</BB_EagleOwl.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural eagle owl -->
+  <BB_EagleOwl.lifeStages.2.labelFemalePlural>филины</BB_EagleOwl.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural eagle owl -->
+  <BB_EagleOwl.labelPlural>филины</BB_EagleOwl.labelPlural>
+  <!-- EN: Male eagle owl -->
+  <BB_EagleOwl.labelMale>филин</BB_EagleOwl.labelMale>
+  <!-- EN: Male Plural eagle owl -->
+  <BB_EagleOwl.labelMalePlural>филины</BB_EagleOwl.labelMalePlural>
+  <!-- EN: Female eagle owl -->
+  <BB_EagleOwl.labelFemale>филин</BB_EagleOwl.labelFemale>
+  <!-- EN: Female Plural eagle owl -->
+  <BB_EagleOwl.labelFemalePlural>филины</BB_EagleOwl.labelFemalePlural>
+  
+  
+  <!-- EN: kestrel -->
+  <BB_Kestrel.label>пустельга</BB_Kestrel.label>
+  <!-- EN: chick -->
+  <BB_Kestrel.lifeStages.0.label>птенец пустельги</BB_Kestrel.lifeStages.0.label>
+  <!-- EN: Plural kestrel -->
+  <BB_Kestrel.lifeStages.0.labelPlural>птенцы пустельги</BB_Kestrel.lifeStages.0.labelPlural>
+  <!-- EN: Male kestrel -->
+  <BB_Kestrel.lifeStages.0.labelMale>птенец пустельги</BB_Kestrel.lifeStages.0.labelMale>
+  <!-- EN: Male Plural kestrel -->
+  <BB_Kestrel.lifeStages.0.labelMalePlural>птенцы пустельги</BB_Kestrel.lifeStages.0.labelMalePlural>
+  <!-- EN: Female kestrel -->
+  <BB_Kestrel.lifeStages.0.labelFemale>птенец пустельги</BB_Kestrel.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural kestrel -->
+  <BB_Kestrel.lifeStages.0.labelFemalePlural>птенцы пустельги</BB_Kestrel.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural kestrel -->
+  <BB_Kestrel.lifeStages.1.labelPlural>молодые пустельги</BB_Kestrel.lifeStages.1.labelPlural>
+  <!-- EN: Male kestrel -->
+  <BB_Kestrel.lifeStages.1.labelMale>молодая пустельга</BB_Kestrel.lifeStages.1.labelMale>
+  <!-- EN: Male Plural kestrel -->
+  <BB_Kestrel.lifeStages.1.labelMalePlural>молодые пустельги</BB_Kestrel.lifeStages.1.labelMalePlural>
+  <!-- EN: Female kestrel -->
+  <BB_Kestrel.lifeStages.1.labelFemale>молодая пустельга</BB_Kestrel.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural kestrel -->
+  <BB_Kestrel.lifeStages.1.labelFemalePlural>молодые пустельги</BB_Kestrel.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural kestrel -->
+  <BB_Kestrel.lifeStages.2.labelPlural>пустельги</BB_Kestrel.lifeStages.2.labelPlural>
+  <!-- EN: Male kestrel -->
+  <BB_Kestrel.lifeStages.2.labelMale>пустельга</BB_Kestrel.lifeStages.2.labelMale>
+  <!-- EN: Male Plural kestrel -->
+  <BB_Kestrel.lifeStages.2.labelMalePlural>пустельги</BB_Kestrel.lifeStages.2.labelMalePlural>
+  <!-- EN: Female kestrel -->
+  <BB_Kestrel.lifeStages.2.labelFemale>пустельга</BB_Kestrel.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural kestrel -->
+  <BB_Kestrel.lifeStages.2.labelFemalePlural>пустельги</BB_Kestrel.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural kestrel -->
+  <BB_Kestrel.labelPlural>пустельги</BB_Kestrel.labelPlural>
+  <!-- EN: Male kestrel -->
+  <BB_Kestrel.labelMale>пустельга</BB_Kestrel.labelMale>
+  <!-- EN: Male Plural kestrel -->
+  <BB_Kestrel.labelMalePlural>пустельги</BB_Kestrel.labelMalePlural>
+  <!-- EN: Female kestrel -->
+  <BB_Kestrel.labelFemale>пустельга</BB_Kestrel.labelFemale>
+  <!-- EN: Female Plural kestrel -->
+  <BB_Kestrel.labelFemalePlural>пустельги</BB_Kestrel.labelFemalePlural>
+  
+  
+  <!-- EN: crow -->
+  <BB_Crow.label>ворон</BB_Crow.label>
+  <!-- EN: chick -->
+  <BB_Crow.lifeStages.0.label>птенец ворона</BB_Crow.lifeStages.0.label>
+  <!-- EN: Plural crow -->
+  <BB_Crow.lifeStages.0.labelPlural>птенцы ворона</BB_Crow.lifeStages.0.labelPlural>
+  <!-- EN: Male crow -->
+  <BB_Crow.lifeStages.0.labelMale>птенец ворона</BB_Crow.lifeStages.0.labelMale>
+  <!-- EN: Male Plural crow -->
+  <BB_Crow.lifeStages.0.labelMalePlural>птенцы ворона</BB_Crow.lifeStages.0.labelMalePlural>
+  <!-- EN: Female crow -->
+  <BB_Crow.lifeStages.0.labelFemale>птенец ворона</BB_Crow.lifeStages.0.labelFemale>
+  <!-- EN: Female Plural crow -->
+  <BB_Crow.lifeStages.0.labelFemalePlural>птенцы ворона</BB_Crow.lifeStages.0.labelFemalePlural>
+  <!-- EN: Plural crow -->
+  <BB_Crow.lifeStages.1.labelPlural>молодые вороны</BB_Crow.lifeStages.1.labelPlural>
+  <!-- EN: Male crow -->
+  <BB_Crow.lifeStages.1.labelMale>молодой ворон</BB_Crow.lifeStages.1.labelMale>
+  <!-- EN: Male Plural crow -->
+  <BB_Crow.lifeStages.1.labelMalePlural>молодые вороны</BB_Crow.lifeStages.1.labelMalePlural>
+  <!-- EN: Female crow -->
+  <BB_Crow.lifeStages.1.labelFemale>молодой ворон</BB_Crow.lifeStages.1.labelFemale>
+  <!-- EN: Female Plural crow -->
+  <BB_Crow.lifeStages.1.labelFemalePlural>молодые вороны</BB_Crow.lifeStages.1.labelFemalePlural>
+  <!-- EN: Plural crow -->
+  <BB_Crow.lifeStages.2.labelPlural>вороны</BB_Crow.lifeStages.2.labelPlural>
+  <!-- EN: Male crow -->
+  <BB_Crow.lifeStages.2.labelMale>ворон</BB_Crow.lifeStages.2.labelMale>
+  <!-- EN: Male Plural crow -->
+  <BB_Crow.lifeStages.2.labelMalePlural>вороны</BB_Crow.lifeStages.2.labelMalePlural>
+  <!-- EN: Female crow -->
+  <BB_Crow.lifeStages.2.labelFemale>ворон</BB_Crow.lifeStages.2.labelFemale>
+  <!-- EN: Female Plural crow -->
+  <BB_Crow.lifeStages.2.labelFemalePlural>вороны</BB_Crow.lifeStages.2.labelFemalePlural>
+  <!-- EN: Plural crow -->
+  <BB_Crow.labelPlural>вороны</BB_Crow.labelPlural>
+  <!-- EN: Male crow -->
+  <BB_Crow.labelMale>ворон</BB_Crow.labelMale>
+  <!-- EN: Male Plural crow -->
+  <BB_Crow.labelMalePlural>вороны</BB_Crow.labelMalePlural>
+  <!-- EN: Female crow -->
+  <BB_Crow.labelFemale>ворон</BB_Crow.labelFemale>
+  <!-- EN: Female Plural crow -->
+  <BB_Crow.labelFemalePlural>вороны</BB_Crow.labelFemalePlural>
+</LanguageData>

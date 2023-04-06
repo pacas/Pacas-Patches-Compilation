@@ -14,7 +14,7 @@
                                 <TreeFellingSpeed>1.5</TreeFellingSpeed>
                                 <PlantHarvestingSpeed>1.8</PlantHarvestingSpeed>
                                 <PlantSowingSpeed>1.2</PlantSowingSpeed>
-                                <DiggingSpeed>1.8</DiggingSpeed>
+                                <MiningSpeed>1.8</MiningSpeed>
                                 <MiningYieldDigging>1.4</MiningYieldDigging>
                                 <ConstructionSpeed>0.8</ConstructionSpeed>
                                 <SmithingSpeed>0.8</SmithingSpeed>
@@ -30,7 +30,7 @@
                                 <TreeFellingSpeed>1.1</TreeFellingSpeed>
                                 <PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
                                 <PlantSowingSpeed>1.1</PlantSowingSpeed>
-                                <DiggingSpeed>1.2</DiggingSpeed>
+                                <MiningSpeed>1.2</MiningSpeed>
                                 <MiningYieldDigging>1.9</MiningYieldDigging>
                                 <ConstructionSpeed>0.7</ConstructionSpeed>
                                 <SmithingSpeed>0.7</SmithingSpeed>
@@ -46,7 +46,7 @@
                                 <TreeFellingSpeed>1.1</TreeFellingSpeed>
                                 <PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
                                 <PlantSowingSpeed>1.1</PlantSowingSpeed>
-                                <DiggingSpeed>1.2</DiggingSpeed>
+                                <MiningSpeed>1.2</MiningSpeed>
                                 <MiningYieldDigging>1.9</MiningYieldDigging>
                                 <ConstructionSpeed>0.7</ConstructionSpeed>
                                 <SmithingSpeed>0.7</SmithingSpeed>

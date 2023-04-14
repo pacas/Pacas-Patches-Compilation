@@ -23,14 +23,6 @@
                         <alienRace>
                             <generalSettings>
                                 <alienPartGenerator>
-                                    <aliencrowntypes>
-                                        <li>Average_Normal</li>
-                                        <li>Average_Pointy</li>
-                                        <li>Average_Wide</li>
-                                        <li>Narrow_Normal</li>
-                                        <li>Narrow_Pointy</li>
-                                        <li>Narrow_Wide</li>
-                                    </aliencrowntypes>
                                     <bodyAddons>
                                     </bodyAddons>
                                 </alienPartGenerator>

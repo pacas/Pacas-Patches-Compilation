@@ -5,28 +5,20 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Erin's Au Ra</li>
+            <li>Twi'lek Race (Continued)</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationConditional">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="AURA_AuRa"]/alienRace/generalSettings/alienPartGenerator</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Twilek"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="AURA_AuRa"]/alienRace/generalSettings</xpath>
-                        <value><alienPartGenerator/></value>
-                    </nomatch>
-                </li>
-                <li Class="PatchOperationConditional">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="AURA_AuRa"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
-                    <success>Always</success>
-                    <nomatch Class="PatchOperationAdd">
-                        <xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="AURA_AuRa"]/alienRace/generalSettings/alienPartGenerator</xpath>
+                        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Twilek"]/alienRace/generalSettings/alienPartGenerator</xpath>
                         <value><bodyAddons/></value>
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="AURA_AuRa"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Twilek"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
                     <value>
                         <li>
                             <path>Genitals/FeaturelessCrotch</path>
@@ -270,7 +262,7 @@
                                 <MissingBodyPart>Injuries/crotch_missing</MissingBodyPart>
                                 <!-- race support -->
                                 <!-- ghoul -->
-                                <GhoulPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhoulPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -282,7 +274,7 @@
                                     </severity>
                                 </GhoulPenis>
                                 <!-- orc -->
-                                <OrcPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <OrcPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_orc_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_orc_huge</a1.01>
@@ -294,7 +286,7 @@
                                     </severity>
                                 </OrcPenis>
                                 <!-- elf -->
-                                <ElfPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <ElfPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -306,7 +298,7 @@
                                     </severity>
                                 </ElfPenis>
                                 <!-- monkey -->
-                                <MonkeyPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <MonkeyPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -318,7 +310,7 @@
                                     </severity>
                                 </MonkeyPenis>
                                 <!-- pig -->
-                                <PigPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <PigPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_screw_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_screw_huge</a1.01>
@@ -330,7 +322,7 @@
                                     </severity>
                                 </PigPenis>
                                 <!-- bear -->
-                                <BearPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <BearPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -342,7 +334,7 @@
                                     </severity>
                                 </BearPenis>
                                 <!-- turtle -->
-                                <TurtlePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <TurtlePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -354,7 +346,7 @@
                                     </severity>
                                 </TurtlePenis>
                                 <!-- elephant -->
-                                <ElephantPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <ElephantPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -366,7 +358,7 @@
                                     </severity>
                                 </ElephantPenis>
                                 <!-- bovine -->
-                                <BovinePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <BovinePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_tiny_large</path>
                                     <severity>
                                         <a1.01>Genitals/penis_thin_huge</a1.01>
@@ -378,7 +370,7 @@
                                     </severity>
                                 </BovinePenis>
                                 <!-- marine -->
-                                <MarinePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <MarinePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -390,7 +382,7 @@
                                     </severity>
                                 </MarinePenis>
                                 <!-- stone -->
-                                <GolemPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GolemPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_rock_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_rock_huge</a1.01>
@@ -402,7 +394,7 @@
                                     </severity>
                                 </GolemPenis>
                                 <!-- alien tentacles -->
-                                <TentaclePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <TentaclePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_alien_huge</a1.01>
@@ -414,7 +406,7 @@
                                     </severity>
                                 </TentaclePenis>
                                 <!-- tree -->
-                                <TreePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <TreePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -426,7 +418,7 @@
                                     </severity>
                                 </TreePenis>
                                 <!-- ghost -->
-                                <GhostPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhostPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_ghost_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_ghost_huge</a1.01>
@@ -438,7 +430,7 @@
                                     </severity>
                                 </GhostPenis>
                                 <!-- dead -->
-                                <NecroPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <NecroPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_rotten_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_rotten_huge</a1.01>
@@ -450,7 +442,7 @@
                                     </severity>
                                 </NecroPenis>
                                 <!-- dino -->
-                                <DinoPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <DinoPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/penis_micro</path>
                                     <severity>
                                         <a1.01>Genitals/penis_huge</a1.01>
@@ -560,7 +552,7 @@
                                 <MissingBodyPart>Injuries/crotch_missing</MissingBodyPart>
                                 <!-- race support -->
                                 <!-- ghoul -->
-                                <GhoulVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhoulVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -572,7 +564,7 @@
                                     </severity>
                                 </GhoulVagina>
                                 <!-- orc -->
-                                <OrcVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <OrcVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -584,7 +576,7 @@
                                     </severity>
                                 </OrcVagina>
                                 <!-- elf -->
-                                <ElfVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <ElfVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -596,7 +588,7 @@
                                     </severity>
                                 </ElfVagina>
                                 <!-- tentacle female -->
-                                <DemonTentaclesF MayRequire="Abraxas.RJW.RaceSupport">
+                                <DemonTentaclesF MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -608,7 +600,7 @@
                                     </severity>
                                 </DemonTentaclesF>
                                 <!-- tree -->
-                                <TreeVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <TreeVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -620,9 +612,9 @@
                                     </severity>
                                 </TreeVagina>
                                 <!-- ghost -->
-                                <GhostVagina MayRequire="Abraxas.RJW.RaceSupport">Genitals/vagina_ghost</GhostVagina>
+                                <GhostVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">Genitals/vagina_ghost</GhostVagina>
                                 <!-- dead -->
-                                <NecroVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <NecroVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -634,7 +626,7 @@
                                     </severity>
                                 </NecroVagina>
                                 <!-- dino -->
-                                <DinoVagina MayRequire="Abraxas.RJW.RaceSupport">
+                                <DinoVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/vagina_micro</path>
                                     <severity>
                                         <a1.01>Genitals/vagina_lips</a1.01>
@@ -690,7 +682,7 @@
                             <hediffGraphics>
                                 <CatVagina>Genitals/Pubes/Pubes4</CatVagina>
                                 <DemonVagina>Genitals/Pubes/Pubes_Demon</DemonVagina>
-                                <GhostVagina MayRequire="Abraxas.RJW.RaceSupport">Genitals/Pubes/Pubes_Ghost</GhostVagina>
+                                <GhostVagina MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">Genitals/Pubes/Pubes_Ghost</GhostVagina>
                             </hediffGraphics>
                             <offsets>
                                 <south>
@@ -797,7 +789,7 @@
                                 <MissingBodyPart>Injuries/breasts_missing_left</MissingBodyPart>
                                 <!-- race support -->
                                 <!-- ghoul -->
-                                <GhoulBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhoulBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_left</a1.01>
@@ -809,7 +801,7 @@
                                     </severity>
                                 </GhoulBreasts>
                                 <!-- orc -->
-                                <OrcBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <OrcBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_left</a1.01>
@@ -821,7 +813,7 @@
                                     </severity>
                                 </OrcBreasts>
                                 <!-- scale -->
-                                <ScaleBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <ScaleBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_scalie_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_scalie_huge_left</a1.01>
@@ -833,7 +825,7 @@
                                     </severity>
                                 </ScaleBreasts>
                                 <!-- tree -->
-                                <TreeBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <TreeBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_left</a1.01>
@@ -845,7 +837,7 @@
                                     </severity>
                                 </TreeBreasts>
                                 <!-- ghost -->
-                                <GhostBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhostBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/Ghost/breasts_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/Ghost/breasts_huge_left</a1.01>
@@ -857,7 +849,7 @@
                                     </severity>
                                 </GhostBreasts>
                                 <!-- dead -->
-                                <NecroBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <NecroBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_left</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_left</a1.01>
@@ -975,7 +967,7 @@
                                 <MissingBodyPart>Injuries/breasts_missing_right</MissingBodyPart>
                                 <!-- race support -->
                                 <!-- ghoul -->
-                                <GhoulBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhoulBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_right</a1.01>
@@ -987,7 +979,7 @@
                                     </severity>
                                 </GhoulBreasts>
                                 <!-- orc -->
-                                <OrcBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <OrcBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_right</a1.01>
@@ -999,7 +991,7 @@
                                     </severity>
                                 </OrcBreasts>
                                 <!-- scale -->
-                                <ScaleBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <ScaleBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_scalie_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_scalie_huge_right</a1.01>
@@ -1011,7 +1003,7 @@
                                     </severity>
                                 </ScaleBreasts>
                                 <!-- tree -->
-                                <TreeBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <TreeBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_right</a1.01>
@@ -1023,7 +1015,7 @@
                                     </severity>
                                 </TreeBreasts>
                                 <!-- ghost -->
-                                <GhostBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhostBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/Ghost/breasts_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/Ghost/breasts_huge_right</a1.01>
@@ -1035,7 +1027,7 @@
                                     </severity>
                                 </GhostBreasts>
                                 <!-- dead -->
-                                <NecroBreasts MayRequire="Abraxas.RJW.RaceSupport">
+                                <NecroBreasts MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Breasts/breasts_micro_right</path>
                                     <severity>
                                         <a1.01>Breasts/breasts_huge_right</a1.01>
@@ -1168,7 +1160,7 @@
                                 <MissingBodyPart>Injuries/crotch_missing</MissingBodyPart>
                                 <!-- race support -->
                                 <!-- ghoul -->
-                                <GhoulPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhoulPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1177,7 +1169,7 @@
                                     </severity>
                                 </GhoulPenis>
                                 <!-- orc -->
-                                <OrcPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <OrcPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_average</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_huge</a0.6>
@@ -1186,7 +1178,7 @@
                                     </severity>
                                 </OrcPenis>
                                 <!-- elf -->
-                                <ElfPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <ElfPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1195,7 +1187,7 @@
                                     </severity>
                                 </ElfPenis>
                                 <!-- monkey -->
-                                <MonkeyPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <MonkeyPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1204,7 +1196,7 @@
                                     </severity>
                                 </MonkeyPenis>
                                 <!-- pig -->
-                                <PigPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <PigPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1213,7 +1205,7 @@
                                     </severity>
                                 </PigPenis>
                                 <!-- bear -->
-                                <BearPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <BearPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1222,7 +1214,7 @@
                                     </severity>
                                 </BearPenis>
                                 <!-- turtle -->
-                                <TurtlePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <TurtlePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1231,7 +1223,7 @@
                                     </severity>
                                 </TurtlePenis>
                                 <!-- elephant -->
-                                <ElephantPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <ElephantPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1240,7 +1232,7 @@
                                     </severity>
                                 </ElephantPenis>
                                 <!-- bovine -->
-                                <BovinePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <BovinePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1249,7 +1241,7 @@
                                     </severity>
                                 </BovinePenis>
                                 <!-- marine -->
-                                <MarinePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <MarinePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1258,7 +1250,7 @@
                                     </severity>
                                 </MarinePenis>
                                 <!-- stone -->
-                                <GolemPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GolemPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_stone_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_stone_large</a0.6>
@@ -1267,7 +1259,7 @@
                                     </severity>
                                 </GolemPenis>
                                 <!-- tree -->
-                                <TreePenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <TreePenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1276,7 +1268,7 @@
                                     </severity>
                                 </TreePenis>
                                 <!-- ghost -->
-                                <GhostPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <GhostPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>
@@ -1285,7 +1277,7 @@
                                     </severity>
                                 </GhostPenis>
                                 <!-- dead -->
-                                <NecroPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <NecroPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_rot_large</a0.6>
@@ -1294,7 +1286,7 @@
                                     </severity>
                                 </NecroPenis>
                                 <!-- dino -->
-                                <DinoPenis MayRequire="Abraxas.RJW.RaceSupport">
+                                <DinoPenis MayRequire="Abraxas.RJW.RaceSupport,asmr.rjw.racesupport">
                                     <path>Genitals/Testicles/balls_micro</path>
                                     <severity>
                                         <a0.6>Genitals/Testicles/balls_large</a0.6>

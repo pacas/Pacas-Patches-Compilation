@@ -110,5 +110,24 @@
             </match>
         </match>
     </Operation>
+    
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
+        <match Class="PatchOperationConditional">
+            <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/Farming</iconPath>
+                </value>
+            </nomatch>
+            <match Class="PatchOperationReplace">
+                <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/farming</iconPath>
+                </value>
+            </match>
+        </match>
+    </Operation>
 
 </Patch>

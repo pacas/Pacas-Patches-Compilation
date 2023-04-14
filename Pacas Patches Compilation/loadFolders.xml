@@ -4,18 +4,17 @@
 		<li>/</li>
 		<li>1.3</li>
 		<li>Common</li>
-		<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Birds Beyond Framework</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Birds Beyond Temperate Forest</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Birds Beyond Tropical Rainforest</li>
+		<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude/1.3</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
 	</v1.3>
     <v1.4>
 		<li>/</li>
 		<li>1.4</li>
 		<li>Common</li>
-		<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Birds Beyond Framework</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Birds Beyond Temperate Forest</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Birds Beyond Tropical Rainforest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
 	</v1.4>
 </loadFolders>

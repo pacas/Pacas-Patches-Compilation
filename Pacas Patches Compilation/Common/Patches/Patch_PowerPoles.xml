@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimForge - Only Power Poles</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RF_WallConnector"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <Plasteel>5</Plasteel>
+                            <Wire>5</Wire>
+                            <Rubber>1</Rubber>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RF_PowerPole"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <WoodLog>15</WoodLog>
+                            <Plasteel>10</Plasteel>
+                            <Wire>10</Wire>
+                            <Rubber>3</Rubber>
+                        </costList>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

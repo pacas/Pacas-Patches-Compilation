@@ -27,6 +27,18 @@
                         </costList>
                     </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RF_PowerPole"]/description</xpath>
+                    <value>
+                        <description>A wooden power pole, using tin or copper cables to carry an electrical current. Connect to other power poles using the 'link' button, or select multiple power poles and press the 'auto-link' button.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RF_WallConnector"]/description</xpath>
+                    <value>
+                        <description>An endpoint for power cables that is built into a wall. This is a good way to connect power poles up to a building's power grid. Make sure that there is not already a power cable in the spot you are trying to build this in!</description>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

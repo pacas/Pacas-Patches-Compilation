@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Brainwash_MessagePrisonerWillBroken>Воля заключенного {0_nameDef} была сломлена путем промывания мозгов.</Brainwash_MessagePrisonerWillBroken>
+  <Brainwash_MessagePrisonerResistanceBroken>Заключенный {PRISONER_labelShort}'сопротивление было сломлено промыванием мозгов.</Brainwash_MessagePrisonerResistanceBroken>
+
+
+  <Brainwash_ChangePersonality>Изменить личность</Brainwash_ChangePersonality>
+  <Brainwash_SelectTrait>Добавить черту</Brainwash_SelectTrait>
+  <Brainwash_StartBrainwash>Начинайте промывать мозги</Brainwash_StartBrainwash>
+  <Brainwash_PawnHavingBreakdown>{PAWN_nameDef} у него кататонический срыв после того, как ему промыли мозги.</Brainwash_PawnHavingBreakdown>
+  <Brainwash_Passions>Страсти</Brainwash_Passions>
+  <Brainwash_SelectBackstory>Выберите предысторию</Brainwash_SelectBackstory>
+  <Brainwash_Backstories>Предыстории</Brainwash_Backstories>
+  <Brainwash_Select>Выбрать</Brainwash_Select>
+  <Brainwash_Search>Поиск</Brainwash_Search>
+  <Brainwash_AllowModifyingSkillsDuringBrainwashing>Разрешить изменять уровни навыков</Brainwash_AllowModifyingSkillsDuringBrainwashing>
+  <Brainwash_AllowModifyingBackstoriesDuringBrainwashing>Разрешить изменение предысторий</Brainwash_AllowModifyingBackstoriesDuringBrainwashing>
+  <Brainwash_ChangeOwnPersonality>Измените собственную личность</Brainwash_ChangeOwnPersonality>
+  <Brainwash_TakeForBrainwashPersonality>Возьмем для промывания мозгов личности</Brainwash_TakeForBrainwashPersonality>
+
+</LanguageData>

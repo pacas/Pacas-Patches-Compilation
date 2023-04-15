@@ -8,6 +8,8 @@
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
+        <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
+        <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
 	</v1.3>
     <v1.4>
 		<li>/</li>
@@ -16,5 +18,7 @@
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
+        <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
+        <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
 	</v1.4>
 </loadFolders>

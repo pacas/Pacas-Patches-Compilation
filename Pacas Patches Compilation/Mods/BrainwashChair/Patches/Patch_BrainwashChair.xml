@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_ArtableFurnitureBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentSpacer>3</ComponentSpacer>
+                        <AdvMechanism>3</AdvMechanism>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>VitalsMonitor</li>
+                        <li>TubeTelevision</li>
+                        <li>ComplexFurniture</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <RF_PowerPole.label>Столб электропередач</RF_PowerPole.label>
+    <RF_PowerPole.description>Деревянный столб электропередач, по которому проходит электрический ток по проводам. Соедините с другими столбами с помощью кнопки "связать" или выберите несколько столбов и нажмите кнопку "автоматическая связь".</RF_PowerPole.description>
+    <RF_WallConnector.label>Энергопередатчик</RF_WallConnector.label>
+    <RF_WallConnector.description>Конечная точка для силовых кабелей, встраиваемая в стену. Это хороший способ подключения силовых столбов к электросети здания. Убедитесь, что в том месте, где вы хотите его проложить, уже нет силового кабеля!</RF_WallConnector.description>
+</LanguageData>

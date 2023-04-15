@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <RF.ModName>RimForge</RF.ModName>
+    <RF.None>Ничего</RF.None>
+    <RF.Cancel>Отмена</RF.Cancel>
+    <RF.PowerPoleName>Столб электропередач</RF.PowerPoleName>
+    <RF.WallConnectorName>Энергопередатчик</RF.WallConnectorName>
+    <RF.LDP.LinkLabel>Соединить с...</RF.LDP.LinkLabel>
+    <RF.LDP.UnLinkLabel>Отключить от...</RF.LDP.UnLinkLabel>
+    <RF.LDP.UnLinkAllLabel>Отсоединить от всего</RF.LDP.UnLinkAllLabel>
+    <RF.LDP.AutoLinkLabel>Автосоединение</RF.LDP.AutoLinkLabel>
+    <RF.LDP.AutoLinkDesc>Автоматическое соединение всех выбранных {0}.\nПримечание: при этом будут удалены все внешние соединения.</RF.LDP.AutoLinkDesc>
+    <RF.LDP.AutoLinkDisabled>Вам нужно выбрать несколько {0}, чтобы соединить их вместе.</RF.LDP.AutoLinkDisabled>
+    <RF.LDP.RemovedLinkRoofBuilt>Над {0} была построена крыша, поэтому связь была прервана.</RF.LDP.RemovedLinkRoofBuilt>
+    <RF.LDP.RemovedLinkRoofBuiltSelf>Над {0} была построена крыша, поэтому связь была прервана.</RF.LDP.RemovedLinkRoofBuiltSelf>
+    <RF.WallConnector.MustPlaceWithFreeSpace>Для подключения кабелей должно быть пустое пространство.</RF.WallConnector.MustPlaceWithFreeSpace>
+    <!-- Settings -->
+    <RFS.Header>Наведите курсор на параметр, чтобы показать его описание. Щелкните правой кнопкой мыши на параметре, чтобы сбросить его на значение по умолчанию.</RFS.Header>
+    <RFS.Default>По умолчанию: {0}</RFS.Default>
+    <RFS.Yes>Да</RFS.Yes>
+    <RFS.No>Нет</RFS.No>
+    <RFS.ShowAdvanced>Показать расширенные настройки</RFS.ShowAdvanced>
+    <RFS.ShowAdvancedDesc>Показывает или скрывает расширенные настройки. Расширенные настройки следует настраивать только в том случае, если вы знаете, что делаете!</RFS.ShowAdvancedDesc>
+    <RFS.CatCables>Столбы электропередач</RFS.CatCables>
+    <RFS.CableSegmentsPerCell>Разрешение кабелей: Изменяет разрешение изображения кабелей столбов. Увеличение означает более гладкие кабели, но возможно снижение производительности.</RFS.CableSegmentsPerCell>
+    <RFS.CableMaxDistance>Дальность кабеля: Изменяет максимальное расстояние, допустимое между столбами. Это личное предпочтение, которое не влияет на производительность.</RFS.CableMaxDistance>
+</LanguageData>

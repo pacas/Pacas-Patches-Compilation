@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AllowProsthesesIncomplete.label>разрешить неполные</AllowProsthesesIncomplete.label>
+  <AllowProsthesesIncomplete.description>Разрешить протезы, в которых отсутствуют некоторые составные части для выбранной версии.</AllowProsthesesIncomplete.description>
+  <AllowProsthesesComplete.label>разрешить полные</AllowProsthesesComplete.label>
+  <AllowProsthesesComplete.description>Разрешите использовать протезы, в которых не отсутствует ни одна деталь.</AllowProsthesesComplete.description>
+</LanguageData>

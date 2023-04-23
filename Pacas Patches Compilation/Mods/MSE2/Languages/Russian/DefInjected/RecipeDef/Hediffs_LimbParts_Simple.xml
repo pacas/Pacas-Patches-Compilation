@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- arm -->
+  <InstallSimpleProstheticArm.label>установить протез руки</InstallSimpleProstheticArm.label>
+  <InstallSimpleProstheticArm.description>Установите протез руки.</InstallSimpleProstheticArm.description>
+  <InstallSimpleProstheticArm.jobString>Установка протеза руки.</InstallSimpleProstheticArm.jobString>
+  <!-- forearm -->
+  <InstallSimpleProstheticForearm.label>установить протеза предплечья</InstallSimpleProstheticForearm.label>
+  <InstallSimpleProstheticForearm.description>Устанавливает протез предплечья.</InstallSimpleProstheticForearm.description>
+  <InstallSimpleProstheticForearm.jobString>Установка протеза предплечья.</InstallSimpleProstheticForearm.jobString>
+  <!-- hand -->
+  <InstallSimpleProstheticHand.label>установить протеза кисти</InstallSimpleProstheticHand.label>
+  <InstallSimpleProstheticHand.description>Установите протез кисти.</InstallSimpleProstheticHand.description>
+  <InstallSimpleProstheticHand.jobString>Установка протеза кисти.</InstallSimpleProstheticHand.jobString>
+  <!-- finger -->
+  <InstallSimpleProstheticFinger.label>установить протеза пальца</InstallSimpleProstheticFinger.label>
+  <InstallSimpleProstheticFinger.description>Установите протез пальца.</InstallSimpleProstheticFinger.description>
+  <InstallSimpleProstheticFinger.jobString>Установка протеза пальца.</InstallSimpleProstheticFinger.jobString>
+  <!-- leg -->
+  <InstallSimpleProstheticLeg.label>установить протеза ноги</InstallSimpleProstheticLeg.label>
+  <InstallSimpleProstheticLeg.description>Установите протез ноги.</InstallSimpleProstheticLeg.description>
+  <InstallSimpleProstheticLeg.jobString>Установка протеза ноги.</InstallSimpleProstheticLeg.jobString>
+  <!-- foot -->
+  <InstallSimpleProstheticFoot.label>установить протеза стопы</InstallSimpleProstheticFoot.label>
+  <InstallSimpleProstheticFoot.description>Установите протез стопы.</InstallSimpleProstheticFoot.description>
+  <InstallSimpleProstheticFoot.jobString>Установка протеза стопы.</InstallSimpleProstheticFoot.jobString>
+  <!-- toe -->
+  <InstallSimpleProstheticToe.label>установить протеза пальца стопы</InstallSimpleProstheticToe.label>
+  <InstallSimpleProstheticToe.description>Установите протез пальца ноги.</InstallSimpleProstheticToe.description>
+  <InstallSimpleProstheticToe.jobString>Установка протеза пальца стопы.</InstallSimpleProstheticToe.jobString>
+</LanguageData>

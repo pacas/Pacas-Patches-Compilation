@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ranged platform module -->
+
+  <RangedPlatformModule.label>модуль платформы дальнего боя</RangedPlatformModule.label>
+  <RangedPlatformModule.description>Установленный модуль платформы дальнего боя.</RangedPlatformModule.description>
+  <RangedPlatformModule.labelNoun>модуль платформы дальнего боя</RangedPlatformModule.labelNoun>
+
+
+  <!-- melee platform module -->
+
+  <MeleePlatformModule.label>модуль платформы ближнего боя</MeleePlatformModule.label>
+  <MeleePlatformModule.description>Установленный модуль платформы ближнего боя.</MeleePlatformModule.description>
+  <MeleePlatformModule.labelNoun>модуль платформы ближнего боя</MeleePlatformModule.labelNoun>
+
+  <!-- eff mod -->
+
+  <ModuleEfficiency_Effector.label>расширенный модуль эффективности</ModuleEfficiency_Effector.label>
+  <ModuleEfficiency_Effector.description>Установленный расширенный модуль эффективности.</ModuleEfficiency_Effector.description>
+  <ModuleEfficiency_Effector.labelNoun>расширенный модуль эффективности</ModuleEfficiency_Effector.labelNoun>
+
+  <ModuleEfficiency.label>расширенный модуль эффективности</ModuleEfficiency.label>
+  <ModuleEfficiency.description>Установленный расширенный модуль эффективности.</ModuleEfficiency.description>
+  <ModuleEfficiency.labelNoun>расширенный модуль эффективности</ModuleEfficiency.labelNoun>
+
+
+  <!-- Crafting tools module -->
+
+  <CraftingToolsModule.label>модуль рабочего</CraftingToolsModule.label>
+  <CraftingToolsModule.description>Установленный модуль инструментов для крафта.</CraftingToolsModule.description>
+  <CraftingToolsModule.labelNoun>модуль рабочего</CraftingToolsModule.labelNoun>
+
+
+</LanguageData>

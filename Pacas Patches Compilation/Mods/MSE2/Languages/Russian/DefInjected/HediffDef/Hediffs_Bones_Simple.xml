@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- sternum -->
+
+  <SimpleProstheticSternum.label>протез грудины</SimpleProstheticSternum.label>
+  <SimpleProstheticSternum.description>Установленный протез грудины.</SimpleProstheticSternum.description>
+  <SimpleProstheticSternum.labelNoun>протез грудины</SimpleProstheticSternum.labelNoun>
+
+
+  <!-- clavicle -->
+
+  <SimpleProstheticClavicle.label>простой протез ключицы</SimpleProstheticClavicle.label>
+  <SimpleProstheticClavicle.description>Установленный протез ключицы.</SimpleProstheticClavicle.description>
+  <SimpleProstheticClavicle.labelNoun>простой протез ключицы</SimpleProstheticClavicle.labelNoun>
+
+
+  <!-- humerus -->
+
+  <SimpleProstheticHumerus.label>простой протез плечевой кости</SimpleProstheticHumerus.label>
+  <SimpleProstheticHumerus.description>Установленный протез плечевой кости.</SimpleProstheticHumerus.description>
+  <SimpleProstheticHumerus.labelNoun>простой протез плечевой кости</SimpleProstheticHumerus.labelNoun>
+
+
+  <!-- radius -->
+
+  <SimpleProstheticRadius.label>простой протез лучевой кости</SimpleProstheticRadius.label>
+  <SimpleProstheticRadius.description>Установленный протез лучевой кости.</SimpleProstheticRadius.description>
+  <SimpleProstheticRadius.labelNoun>простой протез лучевой кости</SimpleProstheticRadius.labelNoun>
+
+
+  <!-- femur -->
+
+  <SimpleProstheticFemur.label>простой протез бедренной кости</SimpleProstheticFemur.label>
+  <SimpleProstheticFemur.description>Установленный протез бедренной кости.</SimpleProstheticFemur.description>
+  <SimpleProstheticFemur.labelNoun>простой протез бедренной кости</SimpleProstheticFemur.labelNoun>
+
+
+  <!-- tibia -->
+
+  <SimpleProstheticTibia.label>простой протез большой берцовой кости</SimpleProstheticTibia.label>
+  <SimpleProstheticTibia.description>Установленный протез большеберцовой кости.</SimpleProstheticTibia.description>
+  <SimpleProstheticTibia.labelNoun>простой протез большой берцовой кости</SimpleProstheticTibia.labelNoun>
+
+
+</LanguageData>

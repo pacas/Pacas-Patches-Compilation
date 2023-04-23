@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- internal support -->
+  <InstallArchotechInternalSupport.label>установить кибернетическую внутреннюю опору</InstallArchotechInternalSupport.label>
+  <InstallArchotechInternalSupport.description>Установить кибернетическую внутреннюю опору.</InstallArchotechInternalSupport.description>
+  <InstallArchotechInternalSupport.jobString>Установка кибернетической внутренней опоры.</InstallArchotechInternalSupport.jobString>
+  <!-- arm -->
+  <InstallArchotechArm.label>установить кибернетическую руку</InstallArchotechArm.label>
+  <InstallArchotechArm.description>Установить кибернетическую руку.</InstallArchotechArm.description>
+  <InstallArchotechArm.jobString>Установка кибернетической руки.</InstallArchotechArm.jobString>
+  <!-- archotech forearm -->
+  <InstallArchotechForearm.label>установить кибернетическое предплечье</InstallArchotechForearm.label>
+  <InstallArchotechForearm.description>Установить кибернетическое предплечье.</InstallArchotechForearm.description>
+  <InstallArchotechForearm.jobString>Установка кибернетического предплечья.</InstallArchotechForearm.jobString>
+  <!-- hand -->
+  <InstallArchotechHand.label>установить кибернетическую кисть</InstallArchotechHand.label>
+  <InstallArchotechHand.description>Установить кибернетическую кисть.</InstallArchotechHand.description>
+  <InstallArchotechHand.jobString>Установка кибернетической кисти.</InstallArchotechHand.jobString>
+  <!-- finger -->
+  <InstallArchotechFinger.label>установить кибернетический палец</InstallArchotechFinger.label>
+  <InstallArchotechFinger.description>Установить кибернетический палец.</InstallArchotechFinger.description>
+  <InstallArchotechFinger.jobString>Установка кибернетического пальца.</InstallArchotechFinger.jobString>
+  <!-- leg -->
+  <InstallArchotechLeg.label>установить кибернетическую ногу</InstallArchotechLeg.label>
+  <InstallArchotechLeg.description>Установить кибернетическую ногу.</InstallArchotechLeg.description>
+  <InstallArchotechLeg.jobString>Установка кибернетической ноги.</InstallArchotechLeg.jobString>
+  <!-- foot -->
+  <InstallArchotechFoot.label>установить кибернетическую ступню</InstallArchotechFoot.label>
+  <InstallArchotechFoot.description>Установить кибернетическую ступню.</InstallArchotechFoot.description>
+  <InstallArchotechFoot.jobString>Установка кибернетической ступни.</InstallArchotechFoot.jobString>
+  <!-- toe -->
+  <InstallArchotechToe.label>установить кибернетический палец ноги</InstallArchotechToe.label>
+  <InstallArchotechToe.description>Установить кибернетический палец ноги.</InstallArchotechToe.description>
+  <InstallArchotechToe.jobString>Установка кибернетического пальца ноги.</InstallArchotechToe.jobString>
+</LanguageData>

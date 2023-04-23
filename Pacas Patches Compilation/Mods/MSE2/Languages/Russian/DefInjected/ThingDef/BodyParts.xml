@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- replacement internal support -->
+
+  <MechanicalInternalSupport.label>механическая внутренняя опора</MechanicalInternalSupport.label>
+  <MechanicalInternalSupport.description>Механическая внутренняя опора. Полезная запасная часть, которую нужно иметь при поломке какого-либо внутреннего компонента бурового наконечника.</MechanicalInternalSupport.description>
+
+
+  <!-- Mechanical Manipulator -->
+
+  <MechanicalManipulator.label>механический манипулятор</MechanicalManipulator.label>
+  <MechanicalManipulator.description>Универсальный манипулятор, не так хорош, как обычная рука, но лучше, чем ничего. Может устанавливаться только на буровую установку.</MechanicalManipulator.description>
+
+
+  <!-- Mechanical Finger -->
+
+  <MechanicalFinger.label>механический палец руки</MechanicalFinger.label>
+  <MechanicalFinger.description>Механический палец общего назначения. Может быть установлен только на механический манипулятор.</MechanicalFinger.description>
+
+
+  <!-- field hand -->
+
+  <FieldHand.label>полевая-рука</FieldHand.label>
+  <FieldHand.description>Эта механическая замена руки предназначена для ускорения посевных и уборочных работ фермера. Несколько телескопических пальцеобразных выступов могут одновременно собирать урожай с нескольких точек на одном и том же растении или точно засевать сразу несколько лунок. Он также имеет универсальный манипулятор. Он несколько неуклюж, что немного замедляет движение.</FieldHand.description>
+
+
+  <!-- Field Fingers -->
+
+  <FieldFinger.label>полевой палец руки</FieldFinger.label>
+  <FieldFinger.description>Эта механическая замена пальцев предназначена для ускорения посевных и уборочных работ фермера, она может собирать урожай с нескольких точек на одном и том же растении или точно засевать сразу несколько лунок. Может быть установлен только на полевой руке.</FieldFinger.description>
+
+
+</LanguageData>

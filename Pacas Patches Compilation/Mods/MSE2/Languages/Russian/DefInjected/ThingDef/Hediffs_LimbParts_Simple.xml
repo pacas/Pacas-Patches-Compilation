@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- arm -->
+  <SimpleProstheticArm.label>протез руки</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>Протез руки. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, она уступает настоящей руке.</SimpleProstheticArm.description>
+  <!-- forearm -->
+  <SimpleProstheticForearm.label>протез предплечья</SimpleProstheticForearm.label>
+  <SimpleProstheticForearm.description>Протез предплечья. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, он уступает настоящему предплечью.</SimpleProstheticForearm.description>
+  <!-- hand -->
+  <SimpleProstheticHand.label>простой протез кисти</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>Протез руки. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, он уступает настоящей руке.</SimpleProstheticHand.description>
+  <!-- finger -->
+  <SimpleProstheticFinger.label>простой протез пальца руки</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>Протез пальца. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, он уступает настоящему пальцу.</SimpleProstheticFinger.description>
+  <!-- leg -->
+  <SimpleProstheticLeg.label>протез ноги</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>Протез ноги. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, она уступает настоящей ноге.</SimpleProstheticLeg.description>
+  <!-- foot -->
+  <SimpleProstheticFoot.label>простой протез ступни</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>Протез стопы. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, она уступает настоящей ноге.</SimpleProstheticFoot.description>
+  <!-- toe -->
+  <SimpleProstheticToe.label>простой протез пальца ноги</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>Протез большого пальца ноги. Хотя у него отсутствует нейронный интерфейс, его сложное расположение внутренних суставов позволяет ему довольно убедительно имитировать естественное движение. Тем не менее, он уступает настоящему пальцу ноги.</SimpleProstheticToe.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeshiftRepair.label>временный ремонт</MakeshiftRepair.label>
+  <MakeshiftRepair.description>Это временный ремонт протеза, он хуже, чем оригинальная деталь, но это лучше, чем ничего.</MakeshiftRepair.description>
+  <MakeshiftRepair.labelNoun>временная замена протеза</MakeshiftRepair.labelNoun>
+
+
+</LanguageData>

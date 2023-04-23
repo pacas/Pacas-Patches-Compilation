@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Gameplay Commands -->
+
+  <!-- Command_AddExistingSubpart -->
+  <CommandAddExistingSubpart_Label>Добавить подчасти</CommandAddExistingSubpart_Label>
+  <CommandAddExistingSubpart_Description>Выберите подчасти, чтобы добавить к этой части.</CommandAddExistingSubpart_Description>
+  <CommandAddExistingSubpart_AddTo>{0} (в {1})</CommandAddExistingSubpart_AddTo>
+  <CommandAddExistingSubpart_CouldNotFindPart>Не удалось найти совместимую деталь для добавления.</CommandAddExistingSubpart_CouldNotFindPart>
+
+  <!-- Command_SetTargetLimb -->
+  <Command_SetTargetLimb_Label>Выберите версию</Command_SetTargetLimb_Label>
+  <Command_SetTargetLimb_Description>Выберите, какую конечность это заменит</Command_SetTargetLimb_Description>
+  <Command_SetTargetLimb_NoTarget>Сегмент</Command_SetTargetLimb_NoTarget>
+
+  <!-- Command_SplitOffSubpart -->
+  <CommandSplitOffSubpart_Label>Удалить подчасть</CommandSplitOffSubpart_Label>
+  <CommandSplitOffSubpart_Description>Выберите подчасть, которую нужно удалить из этой части.</CommandSplitOffSubpart_Description>
+  <CommandSplitOffSubpart_RemoveFrom>{0} (из {1})</CommandSplitOffSubpart_RemoveFrom>
+
+</LanguageData>

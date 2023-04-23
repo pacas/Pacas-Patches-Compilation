@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- internal support -->
+
+  <BionicInternalSupport.label>бионическая внутренняя опора</BionicInternalSupport.label>
+  <BionicInternalSupport.description>Установленная бионическая внутренняя опора.</BionicInternalSupport.description>
+  <BionicInternalSupport.labelNoun>бионическая внутренняя опора</BionicInternalSupport.labelNoun>
+
+
+  <!-- bionic arm -->
+
+  <BionicArm.label>бионическая рука</BionicArm.label>
+  <BionicArm.description>Установленная бионическая рука.</BionicArm.description>
+  <BionicArm.labelNoun>бионическая рука</BionicArm.labelNoun>
+
+
+  <!-- bionic forearm -->
+
+  <BionicForearm.label>бионическое предплечье</BionicForearm.label>
+  <BionicForearm.description>Установленная бионическое предплечье.</BionicForearm.description>
+  <BionicForearm.labelNoun>бионическое предплечье</BionicForearm.labelNoun>
+
+
+  <!-- hand -->
+
+  <BionicHand.label>бионическая кисть</BionicHand.label>
+  <BionicHand.description>Установленная бионическая кисть.</BionicHand.description>
+  <BionicHand.labelNoun>бионическая кисть</BionicHand.labelNoun>
+
+
+  <!-- finger -->
+
+  <BionicFinger.label>бионический палец руки</BionicFinger.label>
+  <BionicFinger.description>Установленный бионический палец.</BionicFinger.description>
+  <BionicFinger.labelNoun>бионический палец руки</BionicFinger.labelNoun>
+
+
+  <!-- leg -->
+
+  <BionicLeg.label>бионическая нога</BionicLeg.label>
+  <BionicLeg.description>Установленная бионическая нога.</BionicLeg.description>
+  <BionicLeg.labelNoun>бионическая нога</BionicLeg.labelNoun>
+
+
+  <!-- foot -->
+
+  <BionicFoot.label>бионическая ступня</BionicFoot.label>
+  <BionicFoot.description>Установленная бионическая ступня.</BionicFoot.description>
+  <BionicFoot.labelNoun>бионическая ступня</BionicFoot.labelNoun>
+
+
+  <!-- toe -->
+
+  <BionicToe.label>бионический палец ноги</BionicToe.label>
+  <BionicToe.description>Установленный бионический палец ноги.</BionicToe.description>
+  <BionicToe.labelNoun>бионический палец ноги</BionicToe.labelNoun>
+
+
+</LanguageData>

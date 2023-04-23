@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- internal support -->
+
+  <ArchotechInternalSupport.label>кибернетическая внутренняя опора</ArchotechInternalSupport.label>
+  <ArchotechInternalSupport.description>Установленная внутренняя поддержка archotech.</ArchotechInternalSupport.description>
+  <ArchotechInternalSupport.labelNoun>кибернетическая внутренняя опора</ArchotechInternalSupport.labelNoun>
+
+
+  <!-- arm -->
+
+  <ArchotechArm.label>кибернетическая рука</ArchotechArm.label>
+  <ArchotechArm.description>Установленная кибернетическая рука.</ArchotechArm.description>
+  <ArchotechArm.labelNoun>кибернетическая рука</ArchotechArm.labelNoun>
+
+
+  <!-- archotech forearm -->
+
+  <ArchotechForearm.label>кибернетическое предплечье</ArchotechForearm.label>
+  <ArchotechForearm.description>Установленное кибернетическое предплечье.</ArchotechForearm.description>
+  <ArchotechForearm.labelNoun>кибернетическое предплечье</ArchotechForearm.labelNoun>
+
+
+  <!-- hand -->
+
+  <ArchotechHand.label>кибернетическая кисть</ArchotechHand.label>
+  <ArchotechHand.description>Установленная кибернетическая кисть.</ArchotechHand.description>
+  <ArchotechHand.labelNoun>кибернетическая кисть</ArchotechHand.labelNoun>
+
+
+  <!-- finger -->
+
+  <ArchotechFinger.label>кибернетический палец руки</ArchotechFinger.label>
+  <ArchotechFinger.description>Установленный кибернетический палец.</ArchotechFinger.description>
+  <ArchotechFinger.labelNoun>кибернетический палец руки</ArchotechFinger.labelNoun>
+
+
+  <!-- leg -->
+
+  <ArchotechLeg.label>кибернетическая нога</ArchotechLeg.label>
+  <ArchotechLeg.description>Установленная кибернетическая нога.</ArchotechLeg.description>
+  <ArchotechLeg.labelNoun>кибернетическая нога</ArchotechLeg.labelNoun>
+
+
+  <!-- foot -->
+
+  <ArchotechFoot.label>кибернетическая ступня</ArchotechFoot.label>
+  <ArchotechFoot.description>Установленная кибернетическая ступн.</ArchotechFoot.description>
+  <ArchotechFoot.labelNoun>кибернетическая ступня</ArchotechFoot.labelNoun>
+
+
+  <!-- toe -->
+
+  <ArchotechToe.label>кибернетический палец ноги</ArchotechToe.label>
+  <ArchotechToe.description>Установленный кибернетический палец.</ArchotechToe.description>
+  <ArchotechToe.labelNoun>кибернетический палец ноги</ArchotechToe.labelNoun>
+
+
+</LanguageData>

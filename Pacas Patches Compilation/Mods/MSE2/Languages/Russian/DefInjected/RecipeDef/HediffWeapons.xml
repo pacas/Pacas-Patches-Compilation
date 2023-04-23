@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Hand Talon -->
+  <InstallHandTalonModule.label>установить модуль ручного когтя</InstallHandTalonModule.label>
+  <InstallHandTalonModule.description>Установите модуль ручного когтя.</InstallHandTalonModule.description>
+  <InstallHandTalonModule.jobString>Установка модуля ручного когтя.</InstallHandTalonModule.jobString>
+  <!-- Elbow blade -->
+  <InstallElbowBladeModule.label>установить модуль лезвия локтя</InstallElbowBladeModule.label>
+  <InstallElbowBladeModule.description>Установите модуль лезвия локтя.</InstallElbowBladeModule.description>
+  <InstallElbowBladeModule.jobString>Установка модуля лезвия локтя.</InstallElbowBladeModule.jobString>
+  <!-- Knee spike -->
+  <InstallKneeSpikeModule.label>установить модуль шипа колена</InstallKneeSpikeModule.label>
+  <InstallKneeSpikeModule.description>Установите модуль коленного шипа.</InstallKneeSpikeModule.description>
+  <InstallKneeSpikeModule.jobString>Установка модуля коленного шипа.</InstallKneeSpikeModule.jobString>
+  <!-- Venom talon -->
+  <InstallVenomTalonModule.label>установить модуль ядовитого когтя</InstallVenomTalonModule.label>
+  <InstallVenomTalonModule.description>Установите модуль ядовитого когтя.</InstallVenomTalonModule.description>
+  <InstallVenomTalonModule.jobString>Установка модуля ядовитого когтя.</InstallVenomTalonModule.jobString>
+</LanguageData>

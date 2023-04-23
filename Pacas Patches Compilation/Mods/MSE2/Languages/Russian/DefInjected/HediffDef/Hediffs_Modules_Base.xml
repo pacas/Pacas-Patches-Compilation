@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- module slot -->
+
+  <MSE_ModuleSlot.label>слот модуля</MSE_ModuleSlot.label>
+  <MSE_ModuleSlot.description>Слот для модуля</MSE_ModuleSlot.description>
+  <MSE_ModuleSlot.labelNoun>слот модуля</MSE_ModuleSlot.labelNoun>
+
+
+</LanguageData>

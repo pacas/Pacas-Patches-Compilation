@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- paw -->
+  <InstallSimpleProstheticPawAnimal.label>установить животному простой протез лапы</InstallSimpleProstheticPawAnimal.label>
+  <InstallSimpleProstheticPawAnimal.description>Устанавливает животному простой протез лапы.</InstallSimpleProstheticPawAnimal.description>
+  <InstallSimpleProstheticPawAnimal.jobString>Установка простого протеза лапы животного.</InstallSimpleProstheticPawAnimal.jobString>
+  <!-- hoof -->
+  <InstallSimpleProstheticHoofAnimal.label>установить животному простой протез копыта</InstallSimpleProstheticHoofAnimal.label>
+  <InstallSimpleProstheticHoofAnimal.description>Устанавливает животному простой протез копыта.</InstallSimpleProstheticHoofAnimal.description>
+  <InstallSimpleProstheticHoofAnimal.jobString>Установка простого протеза копыта животного.</InstallSimpleProstheticHoofAnimal.jobString>
+  <!-- foot -->
+  <InstallSimpleProstheticFootAnimal.label>установить простой протез стопы животного</InstallSimpleProstheticFootAnimal.label>
+  <InstallSimpleProstheticFootAnimal.description>Устанавливает животному простой протез стопы.</InstallSimpleProstheticFootAnimal.description>
+  <InstallSimpleProstheticFootAnimal.jobString>Установка простого протеза стопы животного.</InstallSimpleProstheticFootAnimal.jobString>
+  <!-- toe -->
+  <InstallSimpleProstheticToeAnimal.label>установка простого протеза пальца стопы животного</InstallSimpleProstheticToeAnimal.label>
+  <InstallSimpleProstheticToeAnimal.description>Устанавливает животному простой протез большого пальца ноги.</InstallSimpleProstheticToeAnimal.description>
+  <InstallSimpleProstheticToeAnimal.jobString>Установка простого протеза пальца стопы животного.</InstallSimpleProstheticToeAnimal.jobString>
+</LanguageData>

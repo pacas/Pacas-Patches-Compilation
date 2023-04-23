@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- HediffHideModeSetting -->
+  <HediffHideModeSetting_Title>Скрыть стандартные части</HediffHideModeSetting_Title>
+  <HediffHideModeSetting_Description>Выберите, когда стандартные части должны быть скрыты на вкладке Обзор работоспособности.
+ - Всегда: стандартные подчасти всегда будут скрыты
+ - Никогда: стандартные составные подчасти всегда будут видны
+ - Очистить: стандартные подчасти будут скрыты, когда с их стороны нет других хедифов.
+ - Очистить или модули: стандартные подчасти будут скрыты, когда с их стороны нет других хедифов или у них есть только модули</HediffHideModeSetting_Description>
+  <HediffHideModeSetting_Always>Всегда</HediffHideModeSetting_Always>
+  <HediffHideModeSetting_Never>Никогда</HediffHideModeSetting_Never>
+  <HediffHideModeSetting_Clean>Чистый</HediffHideModeSetting_Clean>
+  <HediffHideModeSetting_CleanOrModules>Очистка или модули</HediffHideModeSetting_CleanOrModules>
+
+  <!-- RemoveAllFromSegmentSetting -->
+  <RemoveAllFromSegmentSetting_Title>Удалить все подчасти из версии сегмента</RemoveAllFromSegmentSetting_Title>
+  <RemoveAllFromSegmentSetting_Description>Включение этого параметра приведет к удалению и появлению всех составных подчастей после переключения протеза на сегментную версию.</RemoveAllFromSegmentSetting_Description>
+
+  <!-- HideModuleSlotsSetting -->
+  <HideModuleSlotsSetting_Title>Скрыть слоты модулей</HideModuleSlotsSetting_Title>
+  <HideModuleSlotsSetting_Description>При включении слоты модулей не будут отображаться на вкладке "Работоспособность".</HideModuleSlotsSetting_Description>
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- sternum -->
+  <PlasteelSternum.label>бионическая грудина</PlasteelSternum.label>
+  <PlasteelSternum.description>Усовершенствованная искусственная грудина.</PlasteelSternum.description>
+  <!-- clavicle -->
+  <PlasteelClavicle.label>бионическая ключица</PlasteelClavicle.label>
+  <PlasteelClavicle.description>Усовершенствованная искусственная ключица. Для его установки требуется исследование пластальных костей.</PlasteelClavicle.description>
+  <!-- humerus -->
+  <PlasteelHumerus.label>бионическая плечевая кость</PlasteelHumerus.label>
+  <PlasteelHumerus.description>Усовершенствованная искусственная плечевая кость.</PlasteelHumerus.description>
+  <!-- radius -->
+  <PlasteelRadius.label>бионическая лучевая кость</PlasteelRadius.label>
+  <PlasteelRadius.description>Усовершенствованный искусственный лучевая кость.</PlasteelRadius.description>
+  <!-- femur -->
+  <PlasteelFemur.label>бионическая бедренная кость</PlasteelFemur.label>
+  <PlasteelFemur.description>Усовершенствованная искусственная бедренная кость.</PlasteelFemur.description>
+  <!-- tibia -->
+  <PlasteelTibia.label>бионическая большая берцовая кость</PlasteelTibia.label>
+  <PlasteelTibia.description>Усовершенствованная искусственная большеберцовая кость.</PlasteelTibia.description>
+</LanguageData>

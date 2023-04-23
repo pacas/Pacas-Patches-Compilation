@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hand Talon -->
+
+  <HandTalonModule.label>модуль кистевого когтя</HandTalonModule.label>
+  <HandTalonModule.description>An installed hand talon module.</HandTalonModule.description>
+  <HandTalonModule.labelNoun>модуль кистевого когтя</HandTalonModule.labelNoun>
+
+
+  <!-- Elbow blade -->
+
+  <ElbowBladeModule.label>модуль локтевого лезвия</ElbowBladeModule.label>
+  <ElbowBladeModule.description>An installed elbow blade module.</ElbowBladeModule.description>
+  <ElbowBladeModule.labelNoun>модуль локтевого лезвия</ElbowBladeModule.labelNoun>
+
+
+  <!-- Knee spike -->
+
+  <KneeSpikeModule.label>модуль коленного шипа</KneeSpikeModule.label>
+  <KneeSpikeModule.description>An installed knee spike module.</KneeSpikeModule.description>
+  <KneeSpikeModule.labelNoun>модуль коленного шипа</KneeSpikeModule.labelNoun>
+
+
+  <!-- Venom talon -->
+
+  <VenomTalonModule.label>модуль ядовитого когтя</VenomTalonModule.label>
+  <VenomTalonModule.description>An installed venom talon module.</VenomTalonModule.description>
+  <VenomTalonModule.labelNoun>модуль ядовитого когтя</VenomTalonModule.labelNoun>
+
+
+</LanguageData>

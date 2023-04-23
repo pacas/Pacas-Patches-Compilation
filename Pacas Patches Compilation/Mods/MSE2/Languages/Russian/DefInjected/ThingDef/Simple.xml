@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- paw -->
+  <SimpleProstheticPawAnimal.label>простой протез лапы животного</SimpleProstheticPawAnimal.label>
+  <SimpleProstheticPawAnimal.description>Простой протез лапы животного. Подходит для всех животных.</SimpleProstheticPawAnimal.description>
+  <!-- hoof -->
+  <SimpleProstheticHoofAnimal.label>простой протез копыта животного</SimpleProstheticHoofAnimal.label>
+  <SimpleProstheticHoofAnimal.description>Простой протез копыта животного. Подходит для всех животных.</SimpleProstheticHoofAnimal.description>
+  <!-- foot -->
+  <SimpleProstheticFootAnimal.label>простой протез стопы животного</SimpleProstheticFootAnimal.label>
+  <SimpleProstheticFootAnimal.description>Простой протез ноги животного. Подходит для всех животных.</SimpleProstheticFootAnimal.description>
+  <!-- toe -->
+  <SimpleProstheticToeAnimal.label>простой протез палец ноги животного</SimpleProstheticToeAnimal.label>
+  <SimpleProstheticToeAnimal.description>Простой протез животного пальца ноги. Подходит для всех животных.</SimpleProstheticToeAnimal.description>
+
+</LanguageData>

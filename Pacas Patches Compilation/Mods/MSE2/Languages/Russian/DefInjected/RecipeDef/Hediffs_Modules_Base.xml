@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Modules Removal Surgery -->
+  <MSE_RemoveModules.label>удалить модули</MSE_RemoveModules.label>
+  <MSE_RemoveModules.description>Удалить модули из части тела.</MSE_RemoveModules.description>
+  <MSE_RemoveModules.jobString>Удаление модулей.</MSE_RemoveModules.jobString>
+</LanguageData>

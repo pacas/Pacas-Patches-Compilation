@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ranged platform module -->
+  <RangedPlatformModule.label>модуль платформы дальнего боя</RangedPlatformModule.label>
+  <RangedPlatformModule.description>Усовершенствованный модуль платформы дальнего боя. Со стабилизатором и системой наведения может дать вашей пешке большую точность и улучшить боевые способности вашей пешки на дальнем расстоянии.</RangedPlatformModule.description>
+  <!-- melee platform module -->
+  <MeleePlatformModule.label>модуль платформы ближнего боя</MeleePlatformModule.label>
+  <MeleePlatformModule.description>Усовершенствованный модуль платформы ближнего боя. С сенсорной моторикой и системой наведения вы можете нанести вашей пешке большой урон в ближнем бою и улучшить боевые способности вашей пешки в ближнем бою.</MeleePlatformModule.description>
+  <!-- eff mod -->
+  <ModuleEfficiency.label>расширенный модуль эффективности</ModuleEfficiency.label>
+  <ModuleEfficiency.description>Дополнительная вычислительная мощность для оптимизации и повышения производительности бионического протеза. Это повысит эффективность части, на которой он установлен, и любой подключенной бионики.</ModuleEfficiency.description>
+  <!-- Crafting tools module -->
+  <CraftingToolsModule.label>модуль рабочего</CraftingToolsModule.label>
+  <CraftingToolsModule.description>Модуль рабочего. Предоставляет отвертки, ножницы, сварочные аппараты и другие миниатюрные механические инструменты, помогающие в кузнечном деле, производстве изделий и строительстве. Инструменты могут быть убраны, чтобы обеспечить нормальную функциональность детали, однако ее общая неуклюжесть немного замедляет движение.</CraftingToolsModule.description>
+  <!--<MSE_RangedPlatformModule.label>платформенный модуль дальнего боя</MSE_RangedPlatformModule.label>-->
+  <!--<MSE_RangedPlatformModule.description>An advanced ranged platform module. With stabilizer and targeting system can give your pawn great accuracy and improve your pawn's ranged combat ability.</MSE_RangedPlatformModule.description>-->
+  <!--<MSE_MeleePlatformModule.label>платформенный модуль ближнего боя</MSE_MeleePlatformModule.label>-->
+  <!--<MSE_MeleePlatformModule.description>An advanced melee platform module. With sensory motor and targeting system can give your pawn great melee damage and improve your pawn's melee combat ability.</MSE_MeleePlatformModule.description>-->
+</LanguageData>

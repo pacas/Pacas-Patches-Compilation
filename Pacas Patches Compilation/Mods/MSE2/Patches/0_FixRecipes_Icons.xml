@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- all mse parts without icons -->
+	<!-- <li Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="SimpleProstheticFoot" or defName="SimpleProstheticToe" or defName="SimpleProstheticHand" or defName="SimpleProstheticFinger" or defName="SimpleProstheticClavicle" or defName="SimpleProstheticHumerus" or defName="SimpleProstheticRadius" or defName="SimpleProstheticFemur" or defName="SimpleProstheticTibia" or defName="BionicInternalSupport" or defName="BionicForearm" or defName="BionicFoot" or defName="BionicToe" or defName="BionicHand" or defName="BionicFinger" or defName="PlasteelClavicle" or defName="PlasteelHumerus" or defName="PlasteelRadius" or defName="PlasteelFemur" or defName="PlasteelTibia" or defName="MSE_RangedPlatformModule" or defName="MSE_MeleePlatformModule" or defName="ArchotechInternalSupport" or defName="ArchotechForearm" or defName="ArchotechToe" or defName="ArchotechFinger" or defName="MSE_AdvancedRangedPlatformModule" or defName="MSE_AdvancedMeleePlatformModule"]/graphicData</xpath>
+	</li>
+
+
+-->
+	<!-- replace icon -->
+
+	<!-- Simple -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb"][defName="SimpleProstheticArm" or defName="SimpleProstheticForearm" or defName="SimpleProstheticHand" or defName="SimpleProstheticFinger" or defName="SimpleProstheticLeg" or defName="SimpleProstheticFoot" or defName="SimpleProstheticToe"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItem</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+				<color>(154,124,104)</color>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone"][defName="SimpleProstheticSternum" or defName="SimpleProstheticClavicle" or defName="SimpleProstheticHumerus" or defName="SimpleProstheticRadius" or defName="SimpleProstheticFemur" or defName="SimpleProstheticTibia"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItem</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+				<color>(154,124,104)</color>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<!-- Bionic -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb"][defName="BionicInternalSupport" or defName="BionicArm" or defName="BionicForearm" or defName="BionicHand" or defName="BionicFinger" or defName="BionicLeg" or defName="BionicFoot" or defName="BionicToe"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItemBionic3</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone"][defName="PlasteelSternum" or defName="PlasteelClavicle" or defName="PlasteelHumerus" or defName="PlasteelRadius" or defName="PlasteelFemur" or defName="PlasteelTibia"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItemBionic3</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic_Combat"][defName="RangedPlatformModule" or defName="MeleePlatformModule"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItemBionic3</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic"][defName="ModuleEfficiency" or defName="CraftingToolsModule"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItemBionic3</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<!-- Archotech -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb"][defName="ArchotechInternalSupport" or defName="ArchotechArm" or defName="ArchotechForearm" or defName="ArchotechHand" or defName="ArchotechFinger" or defName="ArchotechLeg" or defName="ArchotechFoot" or defName="ArchotechToe"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/Health/HealthItemArchotech3</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+	<!-- Royality -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DrillArm" or defName="MechanicalInternalSupport" or defName="MechanicalManipulator" or defName="MechanicalFinger" or defName="FieldHand" or defName="FieldFinger"]</xpath>
+					<value>
+						<graphicData>
+							<texPath>Things/Item/Health/HealthItemBionic3</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>0.80</drawSize>
+						</graphicData>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

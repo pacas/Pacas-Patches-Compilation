@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--
+		* - used hsk recipe
+
+		BionicLegAnimal
+		BionicPawAnimal
+		BionicHoofAnimal
+		SimpleProstheticLegAnimal
+		SimpleProstheticPawAnimal
+		SimpleProstheticHoofAnimal
+		SimpleProstheticFootAnimal
+		SimpleProstheticToeAnimal
+	-->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>A Dog Said... Animal Prosthetics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="BionicLegAnimal" and costList/Plasteel]/costList</xpath>
+				</li>
+				<li Class="PatchOperationAddCopy">
+					<xpath>/Defs/ThingDef[defName="BionicLegAnimal" and not(costList)]</xpath>
+					<fromxpath>/Defs/ThingDef[defName="BionicLegAnimal" and costList/Biomatter]/costList</fromxpath>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="BionicPawAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentAdvanced>6</ComponentAdvanced>
+								<Biomatter>40</Biomatter>
+								<SyntheticFibers>20</SyntheticFibers>
+								<ArtificialBone>5</ArtificialBone>
+								<Microchips>1</Microchips>
+							-->
+							<ComponentAdvanced>1</ComponentAdvanced>
+							<Biomatter>10</Biomatter>
+							<SyntheticFibers>5</SyntheticFibers>
+							<ArtificialBone>1</ArtificialBone>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="BionicHoofAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentAdvanced>6</ComponentAdvanced>
+								<Biomatter>40</Biomatter>
+								<SyntheticFibers>20</SyntheticFibers>
+								<ArtificialBone>5</ArtificialBone>
+								<Microchips>1</Microchips>
+							-->
+							<ComponentAdvanced>1</ComponentAdvanced>
+							<Biomatter>10</Biomatter>
+							<SyntheticFibers>5</SyntheticFibers>
+							<ArtificialBone>1</ArtificialBone>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Steel]/costList</xpath>
+				</li>
+				<li Class="PatchOperationAddCopy">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and not(costList)]</xpath>
+					<fromxpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Plastic]/costList</fromxpath>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticPawAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentIndustrial>12</ComponentIndustrial>
+								<Plastic>15</Plastic>
+								<Mechanism>4</Mechanism>
+								<Rubber>12</Rubber>
+							-->
+							<ComponentIndustrial>3</ComponentIndustrial>
+							<Plastic>4</Plastic>
+							<Mechanism>1</Mechanism>
+							<Rubber>3</Rubber>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticHoofAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentIndustrial>12</ComponentIndustrial>
+								<Plastic>15</Plastic>
+								<Mechanism>4</Mechanism>
+								<Rubber>12</Rubber>
+							-->
+							<ComponentIndustrial>3</ComponentIndustrial>
+							<Plastic>4</Plastic>
+							<Mechanism>1</Mechanism>
+							<Rubber>3</Rubber>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticFootAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentIndustrial>12</ComponentIndustrial>
+								<Plastic>15</Plastic>
+								<Mechanism>4</Mechanism>
+								<Rubber>12</Rubber>
+							-->
+							<ComponentIndustrial>3</ComponentIndustrial>
+							<Plastic>4</Plastic>
+							<Mechanism>1</Mechanism>
+							<Rubber>3</Rubber>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SimpleProstheticToeAnimal"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- Leg
+								<ComponentIndustrial>12</ComponentIndustrial>
+								<Plastic>15</Plastic>
+								<Mechanism>4</Mechanism>
+								<Rubber>12</Rubber>
+							-->
+							<Plastic>1</Plastic>
+							<Mechanism>1</Mechanism>
+							<Rubber>1</Rubber>
+						</costList>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

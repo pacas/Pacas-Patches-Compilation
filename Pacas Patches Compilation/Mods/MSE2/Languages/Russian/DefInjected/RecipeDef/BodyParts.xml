@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- replacement internal support -->
+  <InstallMechanicalInternalSupport.label>установить механическую внутреннюю опору</InstallMechanicalInternalSupport.label>
+  <InstallMechanicalInternalSupport.description>Установите механическую внутреннюю опору.</InstallMechanicalInternalSupport.description>
+  <InstallMechanicalInternalSupport.jobString>Установка сменной механической внутренней опоры.</InstallMechanicalInternalSupport.jobString>
+  <!-- Mechanical Manipulator -->
+  <InstallMechanicalManipulator.label>установить механический манипулятор</InstallMechanicalManipulator.label>
+  <InstallMechanicalManipulator.description>Установите механический манипулятор.</InstallMechanicalManipulator.description>
+  <InstallMechanicalManipulator.jobString>Установка механического манипулятора.</InstallMechanicalManipulator.jobString>
+  <!-- Mechanical Finger -->
+  <InstallMechanicalFinger.label>установите механический палец</InstallMechanicalFinger.label>
+  <InstallMechanicalFinger.description>Установите механический палец.</InstallMechanicalFinger.description>
+  <InstallMechanicalFinger.jobString>Установка механического пальца.</InstallMechanicalFinger.jobString>
+  <!-- Field Fingers -->
+  <InstallFieldFinger.label>установить полевой палец</InstallFieldFinger.label>
+  <InstallFieldFinger.description>Установите полевой палец.</InstallFieldFinger.description>
+  <InstallFieldFinger.jobString>Установка полевого пальца.</InstallFieldFinger.jobString>
+</LanguageData>

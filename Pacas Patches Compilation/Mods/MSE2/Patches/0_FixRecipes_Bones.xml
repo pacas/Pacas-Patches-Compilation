@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--
+		* - used hsk recipe
+
+		PlasteelSternum(грудина)
+		PlasteelClavicle(ключица)
+		PlasteelHumerus(плечевая кость)
+		PlasteelRadius(луевая кость)
+		PlasteelFemur(бедреная кость)
+		PlasteelTibia(большая берцовая кость)
+
+		SimpleProstheticSternum(грудина)
+		SimpleProstheticClavicle(ключица)
+		SimpleProstheticHumerus(плечевая кость)
+		SimpleProstheticRadius(луевая кость)
+		SimpleProstheticFemur(бедреная кость)
+		SimpleProstheticTibia(большая берцовая кость)
+
+	-->
+
+	<!-- Simple -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticSternum"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>4</Plastic>
+				<ComponentIndustrial>6</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticClavicle"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>10</Plastic>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticHumerus"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>10</Plastic>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticRadius"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>10</Plastic>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticFemur"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>10</Plastic>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticTibia"]/costList</xpath>
+		<value>
+			<costList>
+				<Plastic>10</Plastic>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	
+
+	<!-- Bionic -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelSternum"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>5</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelClavicle"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>7</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelHumerus"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>7</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelRadius"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>7</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelFemur"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>7</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelTibia"]/costList</xpath>
+		<value>
+			<costList>
+				<Biomatter>7</Biomatter>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+</Patch>

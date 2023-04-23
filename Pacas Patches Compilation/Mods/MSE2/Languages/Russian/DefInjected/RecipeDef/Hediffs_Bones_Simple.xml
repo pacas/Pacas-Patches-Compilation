@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- sternum -->
+  <InstallSimpleProstheticSternum.label>установить протез грудины</InstallSimpleProstheticSternum.label>
+  <InstallSimpleProstheticSternum.description>Установить протез грудины.</InstallSimpleProstheticSternum.description>
+  <InstallSimpleProstheticSternum.jobString>Установка протеза грудины.</InstallSimpleProstheticSternum.jobString>
+  <!-- clavicle -->
+  <InstallSimpleProstheticClavicle.label>установить протез ключицы</InstallSimpleProstheticClavicle.label>
+  <InstallSimpleProstheticClavicle.description>Установить протез ключицы.</InstallSimpleProstheticClavicle.description>
+  <InstallSimpleProstheticClavicle.jobString>Установка протеза ключицы.</InstallSimpleProstheticClavicle.jobString>
+  <!-- humerus -->
+  <InstallSimpleProstheticHumerus.label>установить протез плечевой кости</InstallSimpleProstheticHumerus.label>
+  <InstallSimpleProstheticHumerus.description>Установить протез плечевой кости.</InstallSimpleProstheticHumerus.description>
+  <InstallSimpleProstheticHumerus.jobString>Установка протеза плечевой кости.</InstallSimpleProstheticHumerus.jobString>
+  <!-- radius -->
+  <InstallSimpleProstheticRadius.label>установить протез лучевой кости</InstallSimpleProstheticRadius.label>
+  <InstallSimpleProstheticRadius.description>Установить протез лучевой кости.</InstallSimpleProstheticRadius.description>
+  <InstallSimpleProstheticRadius.jobString>Установка протеза лучевой кости.</InstallSimpleProstheticRadius.jobString>
+  <!-- femur -->
+  <InstallSimpleProstheticFemur.label>установить протез бедренной кости</InstallSimpleProstheticFemur.label>
+  <InstallSimpleProstheticFemur.description>Установить протез бедренной кости.</InstallSimpleProstheticFemur.description>
+  <InstallSimpleProstheticFemur.jobString>Установка протеза бедренной кости.</InstallSimpleProstheticFemur.jobString>
+  <!-- tibia -->
+  <InstallSimpleProstheticTibia.label>установить протез большеберцовой кости</InstallSimpleProstheticTibia.label>
+  <InstallSimpleProstheticTibia.description>Установить протез большеберцовой кости.</InstallSimpleProstheticTibia.description>
+  <InstallSimpleProstheticTibia.jobString>Установка протеза большеберцовой кости.</InstallSimpleProstheticTibia.jobString>
+</LanguageData>

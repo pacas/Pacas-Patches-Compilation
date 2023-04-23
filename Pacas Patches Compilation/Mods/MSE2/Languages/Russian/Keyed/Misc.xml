@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- version labeling -->
+  <LimbComplete>полный</LimbComplete>
+  <LimbSegment>сегмент</LimbSegment>
+  <LimbSimple>простой</LimbSimple>
+  <LimbVersion>версия</LimbVersion>
+  <LimbCompatible>совместимый</LimbCompatible>
+  <LimbIncompatible>не совместимы</LimbIncompatible>
+  <LimbSelected>(текущая версия)</LimbSelected>
+
+  <!-- Recipe Generation -->
+  <RecipeMakeSegment>сделать сегмент {0}</RecipeMakeSegment>
+
+  <RecipeMakeUpgrade>собрать {0}</RecipeMakeUpgrade>
+
+  <RecipeMakeForLimb>сделать {0} ({1})</RecipeMakeForLimb>
+  <RecipeMakeForLimbNoComparison>сделать {0}</RecipeMakeForLimbNoComparison>
+  <RecipeMakeForLimbDescription>Сделать {0} {1}.  Его можно будет установить на следующих рассах: {2}.</RecipeMakeForLimbDescription>
+  <RecipeMakeForLimbJobString>Изготовление {0} ({1}).</RecipeMakeForLimbJobString>
+
+  <!-- Dialog StatsReports -->
+
+  <StatsReport_ValueOfSubParts>Включает {0}: {1}</StatsReport_ValueOfSubParts>
+  <StatsReport_MassOfSubParts>Содержит {0}: {1}</StatsReport_MassOfSubParts>
+
+
+  <!-- CompIncludedChildParts -->
+  <CompIncludedChildParts_InspectStringIncludes>Включает {0} непосредственных частей.</CompIncludedChildParts_InspectStringIncludes>
+  <CompIncludedChildParts_InspectStringTarget>Версия: {0}</CompIncludedChildParts_InspectStringTarget>
+  <CompIncludedChildParts_InspectStringMissing>({0} недостающих частей)</CompIncludedChildParts_InspectStringMissing>
+  <CompIncludedChildParts_StatIncludedParts_Label>Включенные части</CompIncludedChildParts_StatIncludedParts_Label>
+  <CompIncludedChildParts_StatIncludedParts_Description>При имплантации он также установит эти:</CompIncludedChildParts_StatIncludedParts_Description>
+  <CompIncludedChildParts_StatCompatibility_Label>Совместимые версии</CompIncludedChildParts_StatCompatibility_Label>
+  <CompIncludedChildParts_StatCompatibility_Value>{0} из {1}</CompIncludedChildParts_StatCompatibility_Value>
+  <CompIncludedChildParts_StatMissing_Label>Недостающие части</CompIncludedChildParts_StatMissing_Label>
+  <CompIncludedChildParts_StatMissing_Description>Отсутствуют следующие части:</CompIncludedChildParts_StatMissing_Description>
+  <CompIncludedChildParts_StatMissing_Desc_None>Нет недостающих частей.</CompIncludedChildParts_StatMissing_Desc_None>
+
+  <!-- ModuleHolder -->
+  <ModuleHolder_Compatible_Label>Слоты модулей</ModuleHolder_Compatible_Label>
+  <ModuleHolder_Compatible_ReportText>В слоты, принадлежащие этому бионику, можно установить следующие модули:</ModuleHolder_Compatible_ReportText>
+
+
+  <!-- Bills -->
+  <Bill_MedicalLimbAware_AllowIncomplete>Разрешить установку неполных протезов.</Bill_MedicalLimbAware_AllowIncomplete>
+  <Bill_MedicalLimbAware_OnlyComplete>Разрешить установку только полных протезов.</Bill_MedicalLimbAware_OnlyComplete>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ranged platform module -->
+  <InstallRangedPlatformModule.label>установить модуль платформы дальнего боя</InstallRangedPlatformModule.label>
+  <InstallRangedPlatformModule.description>Установите модуль платформы дальнего боя.</InstallRangedPlatformModule.description>
+  <InstallRangedPlatformModule.jobString>Установка модуля платформы дальнего боя.</InstallRangedPlatformModule.jobString>
+  <!-- melee platform module -->
+  <InstallMeleePlatformModule.label>установить модуль платформы ближнего боя</InstallMeleePlatformModule.label>
+  <InstallMeleePlatformModule.description>Установите модуль платформы ближнего боя.</InstallMeleePlatformModule.description>
+  <InstallMeleePlatformModule.jobString>Установка модуля платформы ближнего боя.</InstallMeleePlatformModule.jobString>
+  <!-- eff mod -->
+  <InstallModuleEfficiency.label>установить модуль эффективности</InstallModuleEfficiency.label>
+  <InstallModuleEfficiency.description>Установите расширенный модуль эффективности.</InstallModuleEfficiency.description>
+  <InstallModuleEfficiency.jobString>Установка расширенного модуля эффективности.</InstallModuleEfficiency.jobString>
+  <!-- Crafting tools module -->
+  <InstallCraftingToolsModule.label>установить модуль рабочего</InstallCraftingToolsModule.label>
+  <InstallCraftingToolsModule.description>Установите модуль рабочего.</InstallCraftingToolsModule.description>
+  <InstallCraftingToolsModule.jobString>Установка модуля рабочего.</InstallCraftingToolsModule.jobString>
+
+</LanguageData>

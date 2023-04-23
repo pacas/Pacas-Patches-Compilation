@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[@Name="BodyPartBionic_Bone" and @ParentName="BodyPartBionicBase"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[@Name="BodyPartProsthetic_Bone" and @ParentName="BodyPartProstheticMakeableBase"]</xpath>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[@Name="MSE_ModuleBionic" and @ParentName="BodyPartBase"]</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ThingDef Name="MSE_ModuleBionic" ParentName="BodyPartBase_Bionic" Abstract="True">
+                <techLevel>Spacer</techLevel>
+                <thingCategories Inherit="False"><!-- TODO -->
+                    <li>MSE2Modules</li>
+                </thingCategories>
+                <graphicData>
+                    <texPath>Things/Item/Health/HealthItemBionic3</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>0.80</drawSize>
+                </graphicData>
+                <statBases>
+                    <WorkToMake>20000</WorkToMake>
+                    <Mass>3</Mass>
+                </statBases>
+                <recipeMaker>
+                    <skillRequirements>
+                        <Crafting>17</Crafting>
+                    </skillRequirements>
+                </recipeMaker>
+            </ThingDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ThingDef Name="BodyPartBionic_Bone" ParentName="SK_BodyPartBase" Abstract="True">
+                <techLevel>Spacer</techLevel>
+                <thingCategories>
+                    <li>SyntheticOrgans</li>
+                    <!-- <li>BonePartsPlasteel</li> -->
+                </thingCategories>
+                <statBases>
+                    <WorkToMake>14000</WorkToMake>
+                    <DeteriorationRate>1.0</DeteriorationRate>
+                    <MaxHitPoints>80</MaxHitPoints>
+                </statBases>
+                <tradeTags>
+                    <li>TechHediff</li>
+                </tradeTags>
+                <techHediffsTags>
+                    <li>Advanced</li>
+                </techHediffsTags>
+                <thingSetMakerTags>
+                    <li>RewardStandardMidFreq</li>
+                </thingSetMakerTags>
+                <recipeMaker>
+                    <workSpeedStat>SmithingSpeed</workSpeedStat>
+                    <workSkillLearnPerTick>0.8</workSkillLearnPerTick>
+                    <workSkill>Crafting</workSkill>
+                    <workAmount>3550</workAmount>
+                    <effectWorking>Smith</effectWorking>
+                    <soundWorking>EPOEAssembling</soundWorking>
+                    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+                    <skillRequirements>
+                        <Crafting>12</Crafting>
+                    </skillRequirements>
+                    <researchPrerequisite>Bionics</researchPrerequisite><!-- Original research: BoneProstheticsPlasteel -->
+                    <recipeUsers>
+                        <li>TableSynthetics</li>
+                    </recipeUsers>
+                </recipeMaker>
+            </ThingDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ThingDef Name="BodyPartProsthetic_Bone" ParentName="SK_BodyPartBase" Abstract="True">
+                <techLevel>Industrial</techLevel>
+                <thingCategories>
+                    <li>SimpleProstheses</li>
+                </thingCategories>
+                <tradeTags>
+                    <li>TechHediff</li>
+                </tradeTags>
+                <techHediffsTags>
+                    <li>Simple</li>
+                </techHediffsTags>
+                <statBases>
+                    <DeteriorationRate>1.0</DeteriorationRate>
+                </statBases>
+                <recipeMaker>
+                    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                    <workSkillLearnPerTick>0.8</workSkillLearnPerTick>
+                    <workSkill>Crafting</workSkill>
+                    <workAmount>3000</workAmount>
+                    <effectWorking>Smith</effectWorking>
+                    <soundWorking>EPOEAssembling</soundWorking>
+                    <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+                    <skillRequirements>
+                        <Crafting>3</Crafting>
+                    </skillRequirements>
+                    <recipeUsers>
+                        <li>TableBasicProsthetic</li>
+                    </recipeUsers>
+                </recipeMaker>
+            </ThingDef>
+        </value>
+    </Operation>
+</Patch>

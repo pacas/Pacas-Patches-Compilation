@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- sternum -->
+  <InstallPlasteelSternum.label>установка бионической грудины</InstallPlasteelSternum.label>
+  <InstallPlasteelSternum.description>Установить бионическую грудину.</InstallPlasteelSternum.description>
+  <InstallPlasteelSternum.jobString>Установка бионической грудины.</InstallPlasteelSternum.jobString>
+  <!-- clavicle -->
+  <InstallPlasteelClavicle.label>установить пластилиновую ключицу</InstallPlasteelClavicle.label>
+  <InstallPlasteelClavicle.description>Установить пластичную ключицу.</InstallPlasteelClavicle.description>
+  <InstallPlasteelClavicle.jobString>Установка бионической ключицы.</InstallPlasteelClavicle.jobString>
+  <!-- humerus -->
+  <InstallPlasteelHumerus.label>установить бионическую плечевую кость</InstallPlasteelHumerus.label>
+  <InstallPlasteelHumerus.description>Установить бионическую плечевую кость.</InstallPlasteelHumerus.description>
+  <InstallPlasteelHumerus.jobString>Установка бионической плечевой кости.</InstallPlasteelHumerus.jobString>
+  <!-- radius -->
+  <InstallPlasteelRadius.label>установить бионическую лучевую кость</InstallPlasteelRadius.label>
+  <InstallPlasteelRadius.description>Установить бионическую лучевую кость.</InstallPlasteelRadius.description>
+  <InstallPlasteelRadius.jobString>Установка бионической лучевой кости.</InstallPlasteelRadius.jobString>
+  <!-- femur -->
+  <InstallPlasteelFemur.label>установить бионическую бедренную кость</InstallPlasteelFemur.label>
+  <InstallPlasteelFemur.description>Установить бионическую бедренную кость.</InstallPlasteelFemur.description>
+  <InstallPlasteelFemur.jobString>Установка бионической бедренной кости.</InstallPlasteelFemur.jobString>
+  <!-- tibia -->
+  <InstallPlasteelTibia.label>установить бионическую большую берцовую кость</InstallPlasteelTibia.label>
+  <InstallPlasteelTibia.description>Установить бионическую большую берцовую кость.</InstallPlasteelTibia.description>
+  <InstallPlasteelTibia.jobString>Установка бионической большеберцовой кости.</InstallPlasteelTibia.jobString>
+</LanguageData>

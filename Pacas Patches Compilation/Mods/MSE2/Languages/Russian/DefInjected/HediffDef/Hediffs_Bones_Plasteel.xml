@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- sternum -->
+
+  <PlasteelSternum.label>бионическая грудина</PlasteelSternum.label>
+  <PlasteelSternum.description>Установленная бионическая грудина.</PlasteelSternum.description>
+  <PlasteelSternum.labelNoun>бионическая грудина</PlasteelSternum.labelNoun>
+
+
+  <!-- clavicle -->
+
+  <PlasteelClavicle.label>бионическая ключица</PlasteelClavicle.label>
+  <PlasteelClavicle.description>установленная бионическая ключица.</PlasteelClavicle.description>
+  <PlasteelClavicle.labelNoun>бионическая ключица</PlasteelClavicle.labelNoun>
+
+
+  <!-- humerus -->
+
+  <PlasteelHumerus.label>бионическая плечевая кость</PlasteelHumerus.label>
+  <PlasteelHumerus.description>установленная бионическая .</PlasteelHumerus.description>
+  <PlasteelHumerus.labelNoun>бионическая плечевая кость</PlasteelHumerus.labelNoun>
+
+
+  <!-- radius -->
+
+  <PlasteelRadius.label>бионическая лучевая кость</PlasteelRadius.label>
+  <PlasteelRadius.description>установленная бионическая лучевая кость.</PlasteelRadius.description>
+  <PlasteelRadius.labelNoun>бионическая лучевая кость</PlasteelRadius.labelNoun>
+
+
+  <!-- femur -->
+
+  <PlasteelFemur.label>бионическая бедренная кость</PlasteelFemur.label>
+  <PlasteelFemur.description>установленная бионическая бедренная кость.</PlasteelFemur.description>
+  <PlasteelFemur.labelNoun>бионическая бедренная кость</PlasteelFemur.labelNoun>
+
+
+  <!-- tibia -->
+
+  <PlasteelTibia.label>бионическая большая берцовая кость</PlasteelTibia.label>
+  <PlasteelTibia.description>установленная бионическая  большая берцовая кость.</PlasteelTibia.description>
+  <PlasteelTibia.labelNoun>бионическая большая берцовая кость</PlasteelTibia.labelNoun>
+
+
+</LanguageData>

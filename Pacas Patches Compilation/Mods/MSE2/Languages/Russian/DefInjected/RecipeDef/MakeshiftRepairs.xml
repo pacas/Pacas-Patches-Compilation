@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeshiftRepair.label>временный ремонт</MakeshiftRepair.label>
+  <MakeshiftRepair.description>Восстановите протез с использованием сырья.</MakeshiftRepair.description>
+  <MakeshiftRepair.jobString>Ремонт протеза.</MakeshiftRepair.jobString>
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- arm -->
+
+  <SimpleProstheticArm.label>протез руки</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>Установленный протез руки.</SimpleProstheticArm.description>
+  <SimpleProstheticArm.labelNoun>протез руки</SimpleProstheticArm.labelNoun>
+
+
+  <!-- forearm -->
+
+  <SimpleProstheticForearm.label>протез предплечья</SimpleProstheticForearm.label>
+  <SimpleProstheticForearm.description>Установленный протез предплечья.</SimpleProstheticForearm.description>
+  <SimpleProstheticForearm.labelNoun>протез предплечья</SimpleProstheticForearm.labelNoun>
+
+
+  <!-- hand -->
+
+  <SimpleProstheticHand.label>простой протез кисти</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>Установленный протез кисти.</SimpleProstheticHand.description>
+  <SimpleProstheticHand.labelNoun>простой протез кисти</SimpleProstheticHand.labelNoun>
+
+
+  <!-- finger -->
+
+  <SimpleProstheticFinger.label>простой протез пальца руки</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>Установленный протез пальца.</SimpleProstheticFinger.description>
+  <SimpleProstheticFinger.labelNoun>простой протез пальца руки</SimpleProstheticFinger.labelNoun>
+
+
+  <!-- leg -->
+
+  <SimpleProstheticLeg.label>протез ноги</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>Установленный протез ноги.</SimpleProstheticLeg.description>
+  <SimpleProstheticLeg.labelNoun>протез ноги</SimpleProstheticLeg.labelNoun>
+
+
+  <!-- foot -->
+
+  <SimpleProstheticFoot.label>простой протез ступни</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>Установленный протез стопы.</SimpleProstheticFoot.description>
+  <SimpleProstheticFoot.labelNoun>простой протез ступни</SimpleProstheticFoot.labelNoun>
+
+
+  <!-- toe -->
+
+  <SimpleProstheticToe.label>простой протез пальца ноги</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>Установленный протез пальца ноги.</SimpleProstheticToe.description>
+  <SimpleProstheticToe.labelNoun>простой протез пальца ноги</SimpleProstheticToe.labelNoun>
+
+
+</LanguageData>

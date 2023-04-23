@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- sternum -->
+  <SimpleProstheticSternum.label>протез грудины</SimpleProstheticSternum.label>
+  <SimpleProstheticSternum.description>Протез грудины. Она уступает настоящей грудине.</SimpleProstheticSternum.description>
+  <!-- clavicle -->
+  <SimpleProstheticClavicle.label>простой протез ключицы</SimpleProstheticClavicle.label>
+  <SimpleProstheticClavicle.description>Протез ключицы. Она уступает настоящей ключице.</SimpleProstheticClavicle.description>
+  <!-- humerus -->
+  <SimpleProstheticHumerus.label>простой протез плечевой кости</SimpleProstheticHumerus.label>
+  <SimpleProstheticHumerus.description>Протез плечевой кости. Она уступает настоящей плечевой кости.</SimpleProstheticHumerus.description>
+  <!-- radius -->
+  <SimpleProstheticRadius.label>простой протез лучевой кости</SimpleProstheticRadius.label>
+  <SimpleProstheticRadius.description>Протез лучевой кости. Он уступает реальному радиусу.</SimpleProstheticRadius.description>
+  <!-- femur -->
+  <SimpleProstheticFemur.label>простой протез бедренной кости</SimpleProstheticFemur.label>
+  <SimpleProstheticFemur.description>Протез бедренной кости. Она уступает настоящей бедренной кости.</SimpleProstheticFemur.description>
+  <!-- tibia -->
+  <SimpleProstheticTibia.label>простой протез большой берцовой кости</SimpleProstheticTibia.label>
+  <SimpleProstheticTibia.description>Протез большеберцовой кости. Она уступает настоящей большеберцовой кости.</SimpleProstheticTibia.description>
+</LanguageData>

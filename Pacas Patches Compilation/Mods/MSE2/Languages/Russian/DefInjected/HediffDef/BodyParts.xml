@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- replacement internal support -->
+
+  <MechanicalInternalSupport.label>механическая внутренняя опора</MechanicalInternalSupport.label>
+  <MechanicalInternalSupport.description>Внутренняя механическая опора.</MechanicalInternalSupport.description>
+  <MechanicalInternalSupport.labelNoun>механическая внутренняя опора</MechanicalInternalSupport.labelNoun>
+
+
+  <!-- Mechanical Manipulator -->
+
+  <MechanicalManipulator.label>механический манипулятор</MechanicalManipulator.label>
+  <MechanicalManipulator.description>Установленный механический манипулятор.</MechanicalManipulator.description>
+  <MechanicalManipulator.labelNoun>механический манипулятор</MechanicalManipulator.labelNoun>
+
+
+  <!-- Mechanical Finger -->
+
+  <MechanicalFinger.label>механический палец руки</MechanicalFinger.label>
+  <MechanicalFinger.description>Установленный механический палец.</MechanicalFinger.description>
+  <MechanicalFinger.labelNoun>механический палец руки</MechanicalFinger.labelNoun>
+
+
+  <!-- Field Fingers -->
+
+  <FieldFinger.label>полевой палец руки</FieldFinger.label>
+  <FieldFinger.description>Установленный полевой палец.</FieldFinger.description>
+  <FieldFinger.labelNoun>полевой палец руки</FieldFinger.labelNoun>
+
+
+</LanguageData>

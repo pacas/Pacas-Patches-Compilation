@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- remove hsk parts(use from MSE) -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="GTHand" or defName="GTFoot"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="GTHand" or defName="GTFoot"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/RecipeDef[defName="InstallGTHand" or defName="InstallGTFoot"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="BaseHumanlikePawn" and @ParentName="SK_BasePawn"]/recipes/li[text()="InstallGTHand"]</xpath>
+		<value>
+			<li>InstallArchotechHand</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="BaseHumanlikePawn" and @ParentName="SK_BasePawn"]/recipes/li[text()="InstallGTFoot"]</xpath>
+		<value>
+			<li>InstallArchotechFoot</li>
+		</value>
+	</Operation>
+
+
+	<!-- Adjusted MSE patches for HSK -->
+	<!-- Items_BodyParts_Medieval.xml -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/HediffDef[defName="PegLeg" or defName="WoodenFoot" or defName="WoodenHand" or defName="HookHand"]</xpath>
+		<value>
+			<li Class="MSE2.IgnoreSubParts">
+				<ignoreAll>true</ignoreAll>
+			</li>
+		</value>
+	</Operation>
+
+
+	<!-- Items_BodyParts_Bionic.xml -->
+	<!-- Remove MSE patch and apply fixed -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Bionic"][defName="BionicHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddOrMerge">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Bionic"][defName="BionicHand"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Bionic"][defName="BionicHand"]/comps</xpath>
+		<fromxpath>/Defs/HediffDef[@ParentName="HediffBodyPartBase_Bionic"][defName="BionicArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</fromxpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[@ParentName="HediffBodyPartBase_Bionic"][defName="BionicArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+
+
+	<!-- Items_BodyParts_Archotech.xml -->
+	<!-- Remove MSE patch and apply fixed -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Archotech"][defName="ArchotechHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddOrMerge">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Archotech"][defName="ArchotechHand"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/HediffDef[@ParentName="AddedBodyPart_Limb_Archotech"][defName="ArchotechHand"]/comps</xpath>
+		<fromxpath>/Defs/HediffDef[@ParentName="HediffBodyPartBase_Cybernetic"][defName="ArchotechArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</fromxpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[@ParentName="HediffBodyPartBase_Cybernetic"][defName="ArchotechArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+
+	<!-- Hediffs_AddedParts_BionicSpecial.xml -->
+	<!-- Remove MSE patch and apply fixed -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[@ParentName="MSE_ModuleAddedBionic"][defName="PowerClaw"]/*[name()="comps" or name()="stages"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddOrMergeCopy">
+		<xpath>/Defs/HediffDef[@ParentName="MSE_ModuleAddedBionic"][defName="PowerClaw"]</xpath>
+		<fromxpath>/Defs/HediffDef[@ParentName="HediffBodyPartBase_MechanoidSpecial"][defName="PowerClaw"]/*[name()="comps" or name()="stages"]</fromxpath>
+	</Operation>
+
+</Patch>

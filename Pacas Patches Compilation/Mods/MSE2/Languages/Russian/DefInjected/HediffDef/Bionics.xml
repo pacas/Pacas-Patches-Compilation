@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- paw -->
+
+  <BionicPawAnimal.label>бионическая лапа животного</BionicPawAnimal.label>
+  <BionicPawAnimal.description>Бионическая лапа животного.</BionicPawAnimal.description>
+  <BionicPawAnimal.comps.0.tools.0.label>бионическая лапа животного</BionicPawAnimal.comps.0.tools.0.label>
+
+
+  <!-- hoof -->
+
+  <BionicHoofAnimal.label>бионическое копыто животного</BionicHoofAnimal.label>
+  <BionicHoofAnimal.description>Бионическое копыто животного.</BionicHoofAnimal.description>
+  <BionicHoofAnimal.comps.0.tools.0.label>бионическое копыто животного</BionicHoofAnimal.comps.0.tools.0.label>
+
+
+</LanguageData>

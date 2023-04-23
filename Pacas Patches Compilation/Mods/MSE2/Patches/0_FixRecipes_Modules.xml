@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--
+		* - used hsk recipe
+
+		RangedPlatformModule
+		MeleePlatformModule
+		*PowerClaw
+		ModuleEfficiency
+		CraftingToolsModule
+
+	-->
+	
+	<!-- Bionic -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@MSE="True" and defName="PowerClaw"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@MSE="True" and defName="PowerClaw"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Bionic" and defName="PowerClaw" and costList/Biomatter]/costList</fromxpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic_Combat" and defName="RangedPlatformModule"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: AuxiliaryAI_Commando
+				<MAAI_Chip>4</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>4</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+				-->
+				<MAAI_Chip>4</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>4</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic_Combat" and defName="MeleePlatformModule"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: AuxiliaryAI_Commando
+				<MAAI_Chip>4</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>4</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+				-->
+				<MAAI_Chip>4</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>4</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic" and defName="ModuleEfficiency"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: ConstructorCore
+				<MAAI_Chip>2</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>5</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+				-->
+				<MAAI_Chip>3</MAAI_Chip>
+				<Gold>4</Gold>
+				<CarbonAlloy>7</CarbonAlloy>
+				<ComponentUltra>4</ComponentUltra>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="MSE_ModuleBionic" and defName="CraftingToolsModule"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: ConstructorCore
+				<MAAI_Chip>2</MAAI_Chip>
+				<Gold>3</Gold>
+				<CarbonAlloy>5</CarbonAlloy>
+				<ComponentUltra>3</ComponentUltra>
+				-->
+				<MAAI_Chip>1</MAAI_Chip>
+				<Gold>2</Gold>
+				<CarbonAlloy>2</CarbonAlloy>
+				<ComponentUltra>2</ComponentUltra>
+			</costList>
+		</value>
+	</Operation>
+
+</Patch>

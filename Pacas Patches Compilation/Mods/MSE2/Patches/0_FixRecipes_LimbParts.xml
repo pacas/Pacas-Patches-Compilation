@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--
+		* - used hsk recipe
+
+		*ArchotechArm
+			ArchotechForearm(предплечье)
+				*ArchotechHand
+					ArchotechFinger
+				ArchotechInternalSupport
+			ArchotechInternalSupport
+
+		*ArchotechLeg
+			*ArchotechFoot
+				ArchotechToe
+			ArchotechInternalSupport
+
+		*BionicArm
+			BionicForearm(предплечье)
+				*BionicHand
+					BionicFinger
+				BionicInternalSupport
+			BionicInternalSupport
+
+		*BionicLeg
+			*BionicFoot
+				BionicToe
+			BionicInternalSupport
+
+		*DrillArm (RECIPE PATCHED FROM HSK!)
+			MechanicalManipulator
+				MechanicalFinger
+			MechanicalInternalSupport
+		*FieldHand (RECIPE PATCHED FROM HSK!)
+			FieldFinger
+		*ANN_OuterBlade
+		*ANN_EnergyFist
+		*ANN_HoverFeet
+
+		*SimpleProstheticArm
+			SimpleProstheticForearm(предплечье)
+				*SimpleProstheticHand
+					SimpleProstheticFinger
+					
+		*SimpleProstheticLeg
+			*SimpleProstheticFoot
+				SimpleProstheticToe
+
+	-->
+
+	<!-- Simple -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticArm"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticArm"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Simple" and defName="SimpleProstheticArm"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticForearm"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: SimpleProstheticArm
+				<ComponentIndustrial>10</ComponentIndustrial>
+				<Plastic>11</Plastic>
+				<Mechanism>4</Mechanism>
+				<Rubber>11</Rubber>
+				-->
+				<ComponentIndustrial>10</ComponentIndustrial>
+				<Plastic>12</Plastic>
+				<Mechanism>4</Mechanism>
+				<Rubber>12</Rubber>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticHand"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticHand"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Simple" and defName="SimpleProstheticHand"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticFinger"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: SimpleProstheticArm
+				<ComponentIndustrial>10</ComponentIndustrial>
+				<Plastic>11</Plastic>
+				<Mechanism>4</Mechanism>
+				<Rubber>11</Rubber>
+				-->
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<Plastic>2</Plastic>
+				<Mechanism>1</Mechanism>
+				<Rubber>2</Rubber>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticLeg"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticLeg"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Simple" and defName="SimpleProstheticLeg"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticFoot"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticFoot"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Simple" and defName="SimpleProstheticFoot"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb" and defName="SimpleProstheticToe"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: SimpleProstheticArm
+				<ComponentIndustrial>10</ComponentIndustrial>
+				<Plastic>11</Plastic>
+				<Mechanism>4</Mechanism>
+				<Rubber>11</Rubber>
+				-->
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<Plastic>2</Plastic>
+				<Mechanism>1</Mechanism>
+				<Rubber>2</Rubber>
+			</costList>
+		</value>
+	</Operation>
+
+
+
+	<!-- Bionic -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicInternalSupport"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: BionicArm
+				<ComponentAdvanced>5</ComponentAdvanced>
+				<Biomatter>30</Biomatter>
+				<SyntheticFibers>15</SyntheticFibers>
+				<ArtificialBone>5</ArtificialBone>
+				<Microchips>1</Microchips>
+				-->
+				<ComponentAdvanced>2</ComponentAdvanced>
+				<Biomatter>12</Biomatter>
+				<SyntheticFibers>6</SyntheticFibers>
+				<ArtificialBone>2</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicArm"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicArm"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Bionic" and defName="BionicArm"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicForearm"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: BionicArm
+				<ComponentAdvanced>5</ComponentAdvanced>
+				<Biomatter>30</Biomatter>
+				<SyntheticFibers>15</SyntheticFibers>
+				<ArtificialBone>5</ArtificialBone>
+				<Microchips>1</Microchips>
+				-->
+				<ComponentAdvanced>7</ComponentAdvanced>
+				<Biomatter>43</Biomatter>
+				<SyntheticFibers>21</SyntheticFibers>
+				<ArtificialBone>7</ArtificialBone>
+				<Microchips>1</Microchips>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicHand"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicHand"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Bionic" and defName="BionicHand"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicFinger"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: BionicArm
+				<ComponentAdvanced>5</ComponentAdvanced>
+				<Biomatter>30</Biomatter>
+				<SyntheticFibers>15</SyntheticFibers>
+				<ArtificialBone>5</ArtificialBone>
+				<Microchips>1</Microchips>
+				-->
+				<ComponentAdvanced>1</ComponentAdvanced>
+				<Biomatter>6</Biomatter>
+				<SyntheticFibers>3</SyntheticFibers>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicLeg"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicLeg"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Bionic" and defName="BionicLeg"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicFoot"]/costList</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicFoot"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Bionic" and defName="BionicFoot"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb" and defName="BionicToe"]/costList</xpath>
+		<value>
+			<costList>
+				<!-- from: BionicArm
+				<ComponentAdvanced>5</ComponentAdvanced>
+				<Biomatter>30</Biomatter>
+				<SyntheticFibers>15</SyntheticFibers>
+				<ArtificialBone>5</ArtificialBone>
+				<Microchips>1</Microchips>
+				-->
+				<ComponentAdvanced>1</ComponentAdvanced>
+				<Biomatter>6</Biomatter>
+				<SyntheticFibers>3</SyntheticFibers>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+
+
+	<!-- Cybernetic -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechInternalSupport"]</xpath>
+		<value>
+			<costList>
+				<!-- from: ArchotechArm
+				<ComponentUltra>4</ComponentUltra>
+				<Biomatter>40</Biomatter>
+				<SyntheticFibers>12</SyntheticFibers>
+				<BioMicrochips>1</BioMicrochips>
+				<ArtificialBone>5</ArtificialBone>
+				-->
+				<ComponentUltra>2</ComponentUltra>
+				<Biomatter>16</Biomatter>
+				<SyntheticFibers>5</SyntheticFibers>
+				<ArtificialBone>2</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechArm"]/costList</xpath>
+	</Operation> -->
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechArm"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Cybernetic" and defName="ArchotechArm"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechForearm"]</xpath>
+		<value>
+			<costList>
+				<!-- from: ArchotechArm
+				<ComponentUltra>4</ComponentUltra>
+				<Biomatter>40</Biomatter>
+				<SyntheticFibers>12</SyntheticFibers>
+				<BioMicrochips>1</BioMicrochips>
+				<ArtificialBone>5</ArtificialBone>
+				-->
+				<ComponentUltra>6</ComponentUltra>
+				<Biomatter>57</Biomatter>
+				<SyntheticFibers>17</SyntheticFibers>
+				<BioMicrochips>1</BioMicrochips>
+				<ArtificialBone>7</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechHand"]/costList</xpath>
+	</Operation> -->
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechHand"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Cybernetic" and defName="GTHand"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechFinger"]</xpath>
+		<value>
+			<costList>
+				<!-- from: ArchotechArm
+				<ComponentUltra>4</ComponentUltra>
+				<Biomatter>40</Biomatter>
+				<SyntheticFibers>12</SyntheticFibers>
+				<BioMicrochips>1</BioMicrochips>
+				<ArtificialBone>5</ArtificialBone>
+				-->
+				<ComponentUltra>1</ComponentUltra>
+				<Biomatter>8</Biomatter>
+				<SyntheticFibers>2</SyntheticFibers>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechLeg"]/costList</xpath>
+	</Operation> -->
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechLeg"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Cybernetic" and defName="ArchotechLeg"]/costList</fromxpath>
+	</Operation>
+
+	<!-- <Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechFoot"]/costList</xpath>
+	</Operation> -->
+	<Operation Class="PatchOperationAddCopy">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechFoot"]</xpath>
+		<fromxpath>/Defs/ThingDef[@ParentName="BodyPartBase_Cybernetic" and defName="GTFoot"]/costList</fromxpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb" and defName="ArchotechToe"]</xpath>
+		<value>
+			<costList>
+				<!-- from: ArchotechArm
+				<ComponentUltra>4</ComponentUltra>
+				<Biomatter>40</Biomatter>
+				<SyntheticFibers>12</SyntheticFibers>
+				<BioMicrochips>1</BioMicrochips>
+				<ArtificialBone>5</ArtificialBone>
+				-->
+				<ComponentUltra>1</ComponentUltra>
+				<Biomatter>8</Biomatter>
+				<SyntheticFibers>2</SyntheticFibers>
+				<ArtificialBone>1</ArtificialBone>
+			</costList>
+		</value>
+	</Operation>
+
+
+	<!-- Royalty -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@ParentName="BodyPartProstheticImperialBase" and defName="MechanicalManipulator"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- from: DrillArm
+							<ComponentAdvanced>8</ComponentAdvanced>
+							<Biomatter>35</Biomatter>
+							<SyntheticFibers>10</SyntheticFibers>
+							<ArtificialBone>6</ArtificialBone>
+							<Microchips>1</Microchips>
+							-->
+							<ComponentAdvanced>2</ComponentAdvanced>
+							<Biomatter>7</Biomatter>
+							<SyntheticFibers>2</SyntheticFibers>
+							<ArtificialBone>1</ArtificialBone>
+						</costList>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@ParentName="BodyPartProstheticImperialBase" and defName="MechanicalFinger"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- from: DrillArm
+							<ComponentAdvanced>8</ComponentAdvanced>
+							<Biomatter>35</Biomatter>
+							<SyntheticFibers>10</SyntheticFibers>
+							<ArtificialBone>6</ArtificialBone>
+							<Microchips>1</Microchips>
+							-->
+							<ComponentAdvanced>2</ComponentAdvanced>
+							<Biomatter>7</Biomatter>
+							<SyntheticFibers>2</SyntheticFibers>
+							<ArtificialBone>1</ArtificialBone>
+						</costList>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@ParentName="BodyPartProstheticImperialBase" and defName="MechanicalInternalSupport"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- from: DrillArm
+							<ComponentAdvanced>8</ComponentAdvanced>
+							<Biomatter>35</Biomatter>
+							<SyntheticFibers>10</SyntheticFibers>
+							<ArtificialBone>6</ArtificialBone>
+							<Microchips>1</Microchips>
+							-->
+							<ComponentAdvanced>3</ComponentAdvanced>
+							<Biomatter>14</Biomatter>
+							<SyntheticFibers>4</SyntheticFibers>
+							<ArtificialBone>2</ArtificialBone>
+						</costList>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@ParentName="BodyPartProstheticImperialBase" and defName="FieldFinger"]/costList</xpath>
+					<value>
+						<costList>
+							<!-- from: FieldHand
+							<ComponentAdvanced>8</ComponentAdvanced>
+							<Biomatter>35</Biomatter>
+							<SyntheticFibers>10</SyntheticFibers>
+							<ArtificialBone>6</ArtificialBone>
+							<Microchips>1</Microchips>
+							<Rubber>35</Rubber>
+							-->
+							<ComponentAdvanced>2</ComponentAdvanced>
+							<Biomatter>7</Biomatter>
+							<SyntheticFibers>2</SyntheticFibers>
+							<ArtificialBone>1</ArtificialBone>
+							<Rubber>7</Rubber>
+						</costList>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+
+	<!-- CONN -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Cybernetic Organism and Neural Network</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ANN_EnergyFist"]/costList/GTHand</xpath>
+					<value>
+						<ArchotechHand>1</ArchotechHand>
+					</value>
+				</li>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[@ParentName="CombatAdvancedBionicsBase_Module" and defName="ANN_OuterBlade"]/costList</xpath>
+				</li>
+				<li Class="PatchOperationAddCopy">
+					<xpath>/Defs/ThingDef[@ParentName="CombatAdvancedBionicsBase_Module" and defName="ANN_OuterBlade"]</xpath>
+					<fromxpath>/Defs/ThingDef[@ParentName="CombatAdvancedBionicsBase" and defName="ANN_OuterBlade"]/costList</fromxpath>
+				</li>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[@ParentName="CombatBionicsBase_Module" and defName="ANN_EnergyFist"]/costList</xpath>
+				</li>
+				<li Class="PatchOperationAddCopy">
+					<xpath>/Defs/ThingDef[@ParentName="CombatBionicsBase_Module" and defName="ANN_EnergyFist"]</xpath>
+					<fromxpath>/Defs/ThingDef[@ParentName="CombatBionicsBase" and defName="ANN_EnergyFist"]/costList</fromxpath>
+				</li>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[@ParentName="ProductiveBionicsBase_Module" and defName="ANN_HoverFeet"]/costList</xpath>
+				</li>
+				<li Class="PatchOperationAddCopy">
+					<xpath>/Defs/ThingDef[@ParentName="ProductiveBionicsBase_Module" and defName="ANN_HoverFeet"]</xpath>
+					<fromxpath>/Defs/ThingDef[@ParentName="ProductiveBionicsBase" and defName="ANN_HoverFeet"]/costList</fromxpath>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- paw -->
+  <InstallBionicPawAnimal.label>установите бионическую лапу животного</InstallBionicPawAnimal.label>
+  <InstallBionicPawAnimal.description>Устанавливает бионическую лапу животного.</InstallBionicPawAnimal.description>
+  <InstallBionicPawAnimal.jobString>Установка бионической лапы животного.</InstallBionicPawAnimal.jobString>
+  <!-- hoof -->
+  <InstallBionicHoofAnimal.label>установите бионическое копыто животного</InstallBionicHoofAnimal.label>
+  <InstallBionicHoofAnimal.description>Устанавливает бионическое копыто животного.</InstallBionicHoofAnimal.description>
+  <InstallBionicHoofAnimal.jobString>Установка бионического копыта животного.</InstallBionicHoofAnimal.jobString>
+  <!-- power claw -->
+  <InstallPowerClawAnimal.label>установить модуль силового когтя</InstallPowerClawAnimal.label>
+  <InstallPowerClawAnimal.description>Установите силовой коготь.</InstallPowerClawAnimal.description>
+  <InstallPowerClawAnimal.jobString>Установка силового когтя.</InstallPowerClawAnimal.jobString>
+</LanguageData>

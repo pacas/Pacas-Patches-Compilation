@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- internal support -->
+  <InstallBionicInternalSupport.label>установить бионическую внутреннюю опорую</InstallBionicInternalSupport.label>
+  <InstallBionicInternalSupport.description>Установить бионическую внутреннюю опору.</InstallBionicInternalSupport.description>
+  <InstallBionicInternalSupport.jobString>Установка бионической внутренней опоры.</InstallBionicInternalSupport.jobString>
+  <!-- bionic arm -->
+  <InstallBionicArm.label>установить бионическую руку</InstallBionicArm.label>
+  <InstallBionicArm.description>Установить бионическую руку.</InstallBionicArm.description>
+  <InstallBionicArm.jobString>Установка бионической руки.</InstallBionicArm.jobString>
+  <!-- bionic forearm -->
+  <InstallBionicForearm.label>установить бионическое предплечье</InstallBionicForearm.label>
+  <InstallBionicForearm.description>Устанавливает бионическое предплечье.</InstallBionicForearm.description>
+  <InstallBionicForearm.jobString>Установка бионического предплечья.</InstallBionicForearm.jobString>
+  <!-- hand -->
+  <InstallBionicHand.label>установить бионическую руку</InstallBionicHand.label>
+  <InstallBionicHand.description>Установить бионическую руку.</InstallBionicHand.description>
+  <InstallBionicHand.jobString>Установка бионической руки.</InstallBionicHand.jobString>
+  <!-- finger -->
+  <InstallBionicFinger.label>установить бионический палец</InstallBionicFinger.label>
+  <InstallBionicFinger.description>Установить бионический палец.</InstallBionicFinger.description>
+  <InstallBionicFinger.jobString>Установка бионического пальца.</InstallBionicFinger.jobString>
+  <!-- leg -->
+  <InstallBionicLeg.label>установить бионическую ногу</InstallBionicLeg.label>
+  <InstallBionicLeg.description>Установить бионическую ногу.</InstallBionicLeg.description>
+  <InstallBionicLeg.jobString>Установка бионической ноги.</InstallBionicLeg.jobString>
+  <!-- foot -->
+  <InstallBionicFoot.label>установить бионическую ступню</InstallBionicFoot.label>
+  <InstallBionicFoot.description>Установить бионическую ступню.</InstallBionicFoot.description>
+  <InstallBionicFoot.jobString>Установка бионической ступни.</InstallBionicFoot.jobString>
+  <!-- toe -->
+  <InstallBionicToe.label>установить бионический палец ноги</InstallBionicToe.label>
+  <InstallBionicToe.description>Установить бионический палец ноги.</InstallBionicToe.description>
+  <InstallBionicToe.jobString>Установка бионического пальца ноги.</InstallBionicToe.jobString>
+</LanguageData>

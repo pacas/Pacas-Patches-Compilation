@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="AdvancedArchotechArm"]/comps</xpath>
+                <value>
+                    <comps>
+                    <li Class="HediffCompProperties_VerbGiver">
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>fist</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>20</power>
+                            <cooldownTime>1.05</cooldownTime>
+                            <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+                        </li>
+                    </tools>
+                    </li>
+                </comps>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="ArchotechObliterator"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>fist</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>1</power>
+                            <cooldownTime>0.05</cooldownTime>
+                            <armorPenetrationBlunt>21.5</armorPenetrationBlunt>
+                            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="ArchotechMembrane"]/stages/li/statOffsets</xpath>
+                <value>
+                    <statOffsets>
+                        <MeleeDodgeChance>2</MeleeDodgeChance>
+                        <ArmorRating_Sharp>14</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>21</ArmorRating_Blunt>
+                        <ArmorRating_Heat>0.8</ArmorRating_Heat>
+                        <GeneralLaborSpeed>1.3</GeneralLaborSpeed>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="ArchotechDeathClaw"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>claw</label>
+                            <capacities>
+                                <li>Scratch</li>
+                            </capacities>
+                            <power>21</power>
+                            <cooldownTime>0.89</cooldownTime>
+                            <armorPenetrationSharp>15</armorPenetrationSharp>
+                            <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

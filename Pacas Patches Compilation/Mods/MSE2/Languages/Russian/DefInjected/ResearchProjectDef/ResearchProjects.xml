@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <BoneProstheticsSimple.label>замена костей</BoneProstheticsSimple.label>
-  <BoneProstheticsSimple.description>Создавайте простые протезы для замены костей.</BoneProstheticsSimple.description>
-  <BoneProstheticsPlasteel.label>усовершенствованная замена костной ткани</BoneProstheticsPlasteel.label>
-  <BoneProstheticsPlasteel.description>Создавайте бионические протезы для замены костей.</BoneProstheticsPlasteel.description>
-  <BionicModules.label>Бионические модули</BionicModules.label>
-  <BionicModules.description>Позволяет создавать модули для улучшения бионических протезов.</BionicModules.description>
-</LanguageData>

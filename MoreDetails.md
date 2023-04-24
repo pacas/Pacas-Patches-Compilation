@@ -10,6 +10,12 @@ Removed local antibiotics in favour of HSK version.
 **[Vanilla Races Expanded - Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390)**<br>
 Blacklisted weapons for HSK.
 
+**[Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586)**<br>
+Updated all patches from 1.3 conversion by PirateBy.
+
+**[Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976)**<br>
+Full convertion with patched MSE2 support.
+
 **[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
 Patch for both [Tropical Rainforest](https://steamcommunity.com/sharedfiles/filedetails/?id=2794752505) and [Temperate Forest](https://steamcommunity.com/sharedfiles/filedetails/?id=2591791695). Don't forget to install [Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049).
   Changes:

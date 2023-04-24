@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--<li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[@Name="BodyPartProstheticBase" and @ParentName="BodyPartBase"]</xpath>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/RecipeDef[@Name="SurgeryInstallBodyPartProstheticBase" and @ParentName="SurgeryInstallBodyPartArtificialBase"]</xpath>
+            </li>
+    
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[@Name="BodyPartProstheticMakeableBase" and @ParentName="BodyPartProstheticBase"]</xpath>
+            </li>-->
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <HediffDef Name="HediffBodyPartBase_ArchotechImplants" ParentName="ImplantHediffBase" Abstract="True">
+                        <hediffClass>Hediff_Implant</hediffClass>
+                        <defaultLabelColor>(255,197,64)</defaultLabelColor>
+                        <isBad>false</isBad>
+                        <priceImpact>true</priceImpact>
+                    </HediffDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <HediffDef Name="HediffBodyPartBase_Archotech" ParentName="ImplantHediffBase" Abstract="True">
+                        <hediffClass>Hediff_AddedPart</hediffClass>
+                        <defaultLabelColor>(255,197,64)</defaultLabelColor>
+                        <isBad>false</isBad>
+                        <priceImpact>true</priceImpact>
+                        <addedPartProps>
+                            <solid>true</solid>
+                            <betterThanNatural>true</betterThanNatural>
+                        </addedPartProps>
+                    </HediffDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ThingDef Name="BodyPartBase_Archotech" ParentName="BodyPartBase_Bionic" Abstract="True">
+                        <graphicData>
+                            <texPath>Things/Item/Health/HealthItem</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>0.80</drawSize>
+                            <color>(154,124,104)</color>
+                        </graphicData>
+                        <techLevel>Archotech</techLevel>
+                        <thingCategories Inherit="False">
+                            <li>BodyPartsUltra</li>
+                        </thingCategories>
+                        <statBases>
+                            <WorkToMake>36000</WorkToMake>
+                            <DeteriorationRate>0.0</DeteriorationRate>
+                            <MaxHitPoints>200</MaxHitPoints>
+                        </statBases>
+                        <techHediffsTags Inherit="False">
+                            <li>Futuristic</li>
+                        </techHediffsTags>
+                        <thingSetMakerTags>
+                            <li>RewardStandardLowFreq</li>
+                        </thingSetMakerTags>
+                        <recipeMaker>
+                            <workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+                            <workSkillLearnPerTick>0.8</workSkillLearnPerTick>
+                            <workSkill>Crafting</workSkill>
+                            <workAmount>28000</workAmount>
+                            <effectWorking>Smith</effectWorking>
+                            <soundWorking>EPOEAssembling</soundWorking>
+                            <unfinishedThingDef>UnfinishedHealthItemCybernetic</unfinishedThingDef>
+                            <skillRequirements>
+                                <Crafting>19</Crafting>
+                            </skillRequirements>
+                            <productCount>1</productCount>
+                            <recipeUsers>
+                                <li>UpgradingStation</li>
+                            </recipeUsers>
+                        </recipeMaker>
+                    </ThingDef>
+                    <ThingDef Name="BodyPartBase_ArchotechBodyPart" ParentName="BodyPartBase_Archotech" Abstract="True">
+                        <recipeMaker>
+                            <researchPrerequisite>Prosthesis_making_F1</researchPrerequisite>
+                        </recipeMaker>
+                    </ThingDef>
+                    <ThingDef Name="BodyPartBase_ArchotechModule" ParentName="BodyPartBase_Archotech" Abstract="True">
+                        <recipeMaker>
+                            <researchPrerequisite>Prosthesis_making_F2</researchPrerequisite>
+                        </recipeMaker>
+                    </ThingDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <RecipeDef Name="SK_SurgeryInstallArchotechImplantBase" ParentName="SK_SurgeryInstallImplantBase" Abstract="True">
+                        <workAmount>3500</workAmount>
+                        <skillRequirements>
+                            <Medicine>11</Medicine>
+                        </skillRequirements>
+                        <researchPrerequisite>Prosthesis_install_F1</researchPrerequisite>
+                    </RecipeDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <RecipeDef Name="SK_SurgeryInstallArchotechBodyPartBase" ParentName="SK_SurgeryInstallImplantBase" Abstract="True">
+                        <workAmount>3500</workAmount>
+                        <skillRequirements>
+                            <Medicine>11</Medicine>
+                        </skillRequirements>
+                        <researchPrerequisite>Prosthesis_install_F1</researchPrerequisite>
+                    </RecipeDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

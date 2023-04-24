@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--ModSpecific/ArchotechExpandedProsthetics/Defs/ArchotechExpandedProsthetics/Hediffs_LimbParts_AdvancedArchotech.xml-->
+    <!-- advanced archotech internal support -->
+    <AdvancedArchotechInternalSupport.label>внутренняя часть архопротеза</AdvancedArchotechInternalSupport.label>
+    <!-- an advanced archotech internal support -->
+    <AdvancedArchotechInternalSupport.labelNoun>внутренняя часть архопротеза</AdvancedArchotechInternalSupport.labelNoun>
+    <!-- An installed advanced archotech internal support. -->
+    <AdvancedArchotechInternalSupport.description>Вживлённая внутренняя часть архопротеза.</AdvancedArchotechInternalSupport.description>
+    <!-- advanced archotech forearm -->
+    <AdvancedArchotechForearm.label>архопредплечье</AdvancedArchotechForearm.label>
+    <!-- an advanced archotech forearm -->
+    <AdvancedArchotechForearm.labelNoun>архопредплечье</AdvancedArchotechForearm.labelNoun>
+    <!-- An installed advanced archotech forearm. -->
+    <AdvancedArchotechForearm.description>Вживлённое архопредплечье.</AdvancedArchotechForearm.description>
+    <!-- advanced archotech hand -->
+    <AdvancedArchotechHand.label>архокисть</AdvancedArchotechHand.label>
+    <!-- an advanced archotech hand -->
+    <AdvancedArchotechHand.labelNoun>архокисть</AdvancedArchotechHand.labelNoun>
+    <!-- An installed advanced archotech hand. -->
+    <AdvancedArchotechHand.description>Вживлённая архокисть.</AdvancedArchotechHand.description>
+    <!-- advanced archotech finger -->
+    <AdvancedArchotechFinger.label>архопалец</AdvancedArchotechFinger.label>
+    <!-- an advanced archotech finger -->
+    <AdvancedArchotechFinger.labelNoun>архопалец</AdvancedArchotechFinger.labelNoun>
+    <!-- An installed advanced archotech finger. -->
+    <AdvancedArchotechFinger.description>Вживлённый архопалец.</AdvancedArchotechFinger.description>
+    <!-- advanced archotech foot -->
+    <AdvancedArchotechFoot.label>архостопа</AdvancedArchotechFoot.label>
+    <!-- an advanced archotech foot -->
+    <AdvancedArchotechFoot.labelNoun>архостопа</AdvancedArchotechFoot.labelNoun>
+    <!-- An installed advanced archotech foot. -->
+    <AdvancedArchotechFoot.description>Вживлённая архостопа.</AdvancedArchotechFoot.description>
+    <!-- advanced archotech toe -->
+    <AdvancedArchotechToe.label>архопалец ноги</AdvancedArchotechToe.label>
+    <!-- an advanced archotech toe -->
+    <AdvancedArchotechToe.labelNoun>архопалец ноги</AdvancedArchotechToe.labelNoun>
+    <!-- An installed advanced archotech toe. -->
+    <AdvancedArchotechToe.description>Вживлённый архопалец ноги.</AdvancedArchotechToe.description>
+</LanguageData>

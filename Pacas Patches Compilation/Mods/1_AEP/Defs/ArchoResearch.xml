@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchProjectDef ParentName="HitechLabStationBase">
+        <defName>Prosthesis_install_F1</defName>
+		<label>Prosthesis install XI</label>
+		<description>description</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>Prosthesis_install_E2</li>
+		</prerequisites>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>64.00</researchViewY>
+		<tab>Medicine_SK</tab>
+        <modExtensions>
+            <li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+        </modExtensions>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="HitechLabStationBase">
+        <defName>Prosthesis_making_F1</defName>
+		<label>Prosthesis making XV</label>
+		<description>description</description>
+		<baseCost>15000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>Prosthesis_making_E3</li>
+			<li>Prosthesis_making_E6</li>
+		</prerequisites>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>65.00</researchViewY>
+		<tab>Medicine_SK</tab>
+        <modExtensions>
+            <li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+        </modExtensions>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef ParentName="HitechLabStationBase">
+        <defName>Prosthesis_making_F2</defName>
+		<label>Prosthesis making XVI</label>
+		<description>description</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>Prosthesis_making_F1</li>
+		</prerequisites>
+		<researchViewX>26.00</researchViewX>
+		<researchViewY>65.00</researchViewY>
+		<tab>Medicine_SK</tab>
+        <modExtensions>
+            <li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+        </modExtensions>
+    </ResearchProjectDef>
+</Defs>

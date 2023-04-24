@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medical System Expansion 2</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="AdvancedArchotechInternalSupport"]/addedPartProps/partEfficiency</xpath>
+                    <value>
+                        <partEfficiency>1.6</partEfficiency>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechForearm"]</xpath>
+                    <value>
+                        <costList>
+                            <ComponentUltra>3</ComponentUltra>
+                            <Biomatter>10</Biomatter>
+                            <BetaPoly>10</BetaPoly>
+                            <SyntheticFibers>15</SyntheticFibers>
+                            <BioMicrochips>1</BioMicrochips>
+                            <MagneticMaterial>5</MagneticMaterial>
+                            <BiosyntheticMaterial>10</BiosyntheticMaterial>
+                            <Hexcell>1</Hexcell>
+                            <ArtificialBone>2</ArtificialBone>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechHand"]</xpath>
+                    <value>
+                        <costList>
+                            <ComponentUltra>2</ComponentUltra>
+                            <Biomatter>10</Biomatter>
+                            <BetaPoly>10</BetaPoly>
+                            <SyntheticFibers>15</SyntheticFibers>
+                            <BioMicrochips>1</BioMicrochips>
+                            <BiosyntheticMaterial>10</BiosyntheticMaterial>
+                            <Hexcell>1</Hexcell>
+                            <ArtificialBone>1</ArtificialBone>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechFinger"]</xpath>
+                    <value>
+                        <costList>
+                            <Electronics>2</Electronics>
+                            <Biomatter>5</Biomatter>
+                            <BetaPoly>3</BetaPoly>
+                            <SyntheticFibers>5</SyntheticFibers>
+                            <BiosyntheticMaterial>5</BiosyntheticMaterial>
+                            <Hexcell>1</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechFoot"]</xpath>
+                    <value>
+                        <costList>
+                            <ComponentUltra>2</ComponentUltra>
+                            <Biomatter>10</Biomatter>
+                            <BetaPoly>10</BetaPoly>
+                            <SyntheticFibers>15</SyntheticFibers>
+                            <BioMicrochips>1</BioMicrochips>
+                            <BiosyntheticMaterial>10</BiosyntheticMaterial>
+                            <Hexcell>1</Hexcell>
+                            <ArtificialBone>1</ArtificialBone>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechToe"]</xpath>
+                    <value>
+                        <costList>
+                            <Electronics>2</Electronics>
+                            <Biomatter>5</Biomatter>
+                            <BetaPoly>3</BetaPoly>
+                            <SyntheticFibers>5</SyntheticFibers>
+                            <BiosyntheticMaterial>5</BiosyntheticMaterial>
+                            <Hexcell>1</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechInternalSupport"]</xpath>
+                    <value>
+                        <costList>
+                            <ComponentUltra>5</ComponentUltra>
+                            <AlphaPoly>15</AlphaPoly>
+                            <Biomatter>25</Biomatter>
+                            <SyntheticFibers>10</SyntheticFibers>
+                            <BioMicrochips>1</BioMicrochips>
+                            <BiosyntheticMaterial>20</BiosyntheticMaterial>
+                            <Hexcell>5</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

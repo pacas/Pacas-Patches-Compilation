@@ -20,7 +20,8 @@
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
-        <li IfModActive="MSE2.Core">Mods/MSE2</li>
+        <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
+        <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModNotActive="ViTech.HCSKWood">Mods/CoreSK_Wood</li>
 	</v1.4>
 </loadFolders>

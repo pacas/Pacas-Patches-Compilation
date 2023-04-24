@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- Archotech Leg -->
+    <AdvancedArchotechLeg.label>Архонога</AdvancedArchotechLeg.label>
+    <AdvancedArchotechLeg.description>Вживлённая архонога.</AdvancedArchotechLeg.description>
+    <AdvancedArchotechLeg.labelNoun>Архонога</AdvancedArchotechLeg.labelNoun>
+    <!-- Archotech Arm -->
+    <AdvancedArchotechArm.label>Архорука</AdvancedArchotechArm.label>
+    <AdvancedArchotechArm.description>Вживлённая архорука.</AdvancedArchotechArm.description>
+    <AdvancedArchotechArm.comps.0.tools.0.label>Рука</AdvancedArchotechArm.comps.0.tools.0.label>
+    <AdvancedArchotechArm.labelNoun>архорука</AdvancedArchotechArm.labelNoun>
+    <!-- Archotech Obliterator -->
+    <ArchotechObliterator.label>Архоуничтожитель</ArchotechObliterator.label>
+    <ArchotechObliterator.description>Вживлённый архоуничтожитель.</ArchotechObliterator.description>
+    <ArchotechObliterator.comps.0.tools.0.label>уничтожитель</ArchotechObliterator.comps.0.tools.0.label>
+    <ArchotechObliterator.labelNoun>архоуничтожитель</ArchotechObliterator.labelNoun>
+    <!-- Archotech Obliterator -->
+    <ArchotechDeathClaw.label>Архокоготь</ArchotechDeathClaw.label>
+    <ArchotechDeathClaw.description>Вживлённый архокоготь.</ArchotechDeathClaw.description>
+    <ArchotechDeathClaw.comps.0.tools.0.label>коготь</ArchotechDeathClaw.comps.0.tools.0.label>
+    <ArchotechDeathClaw.labelNoun>архокоготь</ArchotechDeathClaw.labelNoun>
+    <!-- Archotech Eye -->
+    <ArchotechEye.label>Архоглаз</ArchotechEye.label>
+    <ArchotechEye.description>Вживлённый архоглаз.</ArchotechEye.description>
+    <ArchotechEye.labelNoun>архоглаз</ArchotechEye.labelNoun>
+    <!-- Archotech Ear -->
+    <ArchotechEar.label>Архоухо</ArchotechEar.label>
+    <ArchotechEar.description>Вживлённое архоухо.</ArchotechEar.description>
+    <ArchotechEar.labelNoun>Архоухо</ArchotechEar.labelNoun>
+    <!-- Archotech Nose -->
+    <ArchotechNose.label>Архонос</ArchotechNose.label>
+    <ArchotechNose.description>Вживлённый архонос.</ArchotechNose.description>
+    <ArchotechNose.labelNoun>Архонос</ArchotechNose.labelNoun>
+    <!-- Archotech Spine -->
+    <ArchotechSpine.label>Архопозвоночник</ArchotechSpine.label>
+    <ArchotechSpine.description>Вживлённый архопозвоночник.</ArchotechSpine.description>
+    <ArchotechSpine.labelNoun>Архопозвоночник</ArchotechSpine.labelNoun>
+    <!-- Archotech Pelvis -->
+    <ArchotechPelvis.label>Архотаз</ArchotechPelvis.label>
+    <ArchotechPelvis.description>Вживлённые архотаз.</ArchotechPelvis.description>
+    <ArchotechPelvis.labelNoun>Архотаз</ArchotechPelvis.labelNoun>
+    <!-- Archotech Lung -->
+    <ArchotechLung.label>Архолёгкое</ArchotechLung.label>
+    <ArchotechLung.description>Вживлённое архолёгкое.</ArchotechLung.description>
+    <ArchotechLung.labelNoun>Архолёгкое</ArchotechLung.labelNoun>
+    <!-- Archotech Stomach -->
+    <ArchotechStomach.label>Архожелудок</ArchotechStomach.label>
+    <ArchotechStomach.description>Вживлённый архожелудок.</ArchotechStomach.description>
+    <ArchotechStomach.labelNoun>Архожелудок</ArchotechStomach.labelNoun>
+    <!-- Archotech Heart -->
+    <ArchotechHeart.label>Архосердце</ArchotechHeart.label>
+    <ArchotechHeart.description>Вживлённое архосердце.</ArchotechHeart.description>
+    <ArchotechHeart.labelNoun>Архосердце</ArchotechHeart.labelNoun>
+    <!-- Archotech Kidney -->
+    <ArchotechKidney.label>Архопочка</ArchotechKidney.label>
+    <ArchotechKidney.description>Вживлённая архопочка.</ArchotechKidney.description>
+    <ArchotechKidney.labelNoun>Архопочка</ArchotechKidney.labelNoun>
+    <!-- Archotech Liver -->
+    <ArchotechLiver.label>Архопечень</ArchotechLiver.label>
+    <ArchotechLiver.description>Вживлённая архопечень.</ArchotechLiver.description>
+    <ArchotechLiver.labelNoun>Архопечень</ArchotechLiver.labelNoun>
+    <!-- Archotech Denture -->
+    <ArchotechDenture.label>Архочелюсть</ArchotechDenture.label>
+    <ArchotechDenture.description>Вживлённая архочелюсть.</ArchotechDenture.description>
+    <ArchotechDenture.labelNoun>Архочелюсть</ArchotechDenture.labelNoun>
+    <!-- Archotech BrainMelder -->
+    <ArchotechBrainMelder.label>Архоплавитель мозгов</ArchotechBrainMelder.label>
+    <ArchotechBrainMelder.description>Вживлённый архоплавитель мозгов</ArchotechBrainMelder.description>
+    <ArchotechDenture.labelNoun>Архоплавитель мозгов</ArchotechDenture.labelNoun>
+    <!-- Archotech Membrane -->
+    <ArchotechMembrane.label>Архомембрана</ArchotechMembrane.label>
+    <ArchotechMembrane.description>Вживлённая архомембрана</ArchotechMembrane.description>
+    <ArchotechDenture.labelNoun>Архомембрана</ArchotechDenture.labelNoun>
+</LanguageData>

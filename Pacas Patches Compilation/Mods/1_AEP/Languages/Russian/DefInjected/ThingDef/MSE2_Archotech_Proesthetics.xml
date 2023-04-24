@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- advanced archotech internal support -->
+    <AdvancedArchotechInternalSupport.label>внутренняя часть архопротеза</AdvancedArchotechInternalSupport.label>
+    <!-- An artificial internal support built by an archotech. Useful replacement to have on hand for when an internal component of an advanced archotech prosthesis breaks. -->
+    <AdvancedArchotechInternalSupport.description>Искусственная внутренняя часть протеза, созданная архотеком. Полезная замена, которую можно иметь под рукой на случай поломки внутреннего компонента продвинутого архопротеза.</AdvancedArchotechInternalSupport.description>
+    <!-- advanced archotech forearm -->
+    <AdvancedArchotechForearm.label>архопредплечье</AdvancedArchotechForearm.label>
+    <!-- An advanced version of the archotech's artificial forearm. It looks the same, but studies on glitterworlds have proven the forearm to be sentient. This added feature allows the forearm to make quick descisions a human brain couldn't possibly make. Its internal workings are a mystery to all human minds. -->
+    <AdvancedArchotechForearm.description>Выглядит обычно, но исследования, проведенные в центральных мирах, доказали, что предплечье является разумным. Эта функция позволяет предплечью быстро принимать решения, которые не успевает принять человеческий мозг.</AdvancedArchotechForearm.description>
+    <!-- advanced archotech hand -->
+    <AdvancedArchotechHand.label>архокисть</AdvancedArchotechHand.label>
+    <!-- An advanced version of the archotech's artificial hand. It looks the same, but studies on glitterworlds have proven the hand to be sentient. This added feature allows the hand to make quick descisions a human brain couldn't possibly make. Its internal workings are a mystery to all human minds. -->
+    <AdvancedArchotechHand.description>Выглядит обычно, но исследования, проведенные в центральных мирах, доказали, что кисть является разумной. Эта функция позволяет кисти быстро принимать решения, которые не успевает принять человеческий мозг.</AdvancedArchotechHand.description>
+    <!-- advanced archotech finger -->
+    <AdvancedArchotechFinger.label>архопалец</AdvancedArchotechFinger.label>
+    <!-- An advanced version of the archotech's artificial finger. Its internal workings are a mystery to all human minds. -->
+    <AdvancedArchotechFinger.description>Улучшенный архопалец.</AdvancedArchotechFinger.description>
+    <!-- advanced archotech foot -->
+    <AdvancedArchotechFoot.label>архостопа</AdvancedArchotechFoot.label>
+    <!-- An advanced version of the archotech's artificial foot. It looks the same as a regular foot, but allows you much faster movement. Its internal workings are a mystery to all human minds. -->
+    <AdvancedArchotechFoot.description>Она выглядит так же, как и обычная стопа, но позволяет двигаться гораздо быстрее.</AdvancedArchotechFoot.description>
+    <!-- advanced archotech toe -->
+    <AdvancedArchotechToe.label>архопалец ноги</AdvancedArchotechToe.label>
+    <!-- An advanced version of the archotech's artificial toe. It looks the same as a regular toe, but allows you much faster movement. Its internal workings are a mystery to all human minds. -->
+    <AdvancedArchotechToe.description>Он выглядит так же, как и обычный палец, но позволяет двигаться гораздо быстрее.</AdvancedArchotechToe.description>
+</LanguageData>

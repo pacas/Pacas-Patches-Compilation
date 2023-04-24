@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <Prosthesis_install_F1.label>Установка протезов XI</Prosthesis_install_F1.label>
+  <Prosthesis_install_F1.description>description</Prosthesis_install_F1.description>
+
+
+  <Prosthesis_making_F1.label>Производство протезов XV</Prosthesis_making_F1.label>
+  <Prosthesis_making_F1.description>description</Prosthesis_making_F1.description>
+
+
+  <Prosthesis_making_F2.label>Производство протезов XVI</Prosthesis_making_F2.label>
+  <Prosthesis_making_F2.description>description</Prosthesis_making_F2.description>
+
+</LanguageData>

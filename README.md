@@ -12,10 +12,12 @@ This repository contains a special mod that patches the mods described below wit
 
 **HSK Core**<br>
 **[Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998)**<br>
+**[Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976)**<br>
 **[Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
 **[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
 **[Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768)**<br>
 **[Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421)**<br>
+**[Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586)**<br>
 **[RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117)**<br>
 **[RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460)**<br>
 **[RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530)**<br>

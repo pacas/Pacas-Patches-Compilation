@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/HediffDef[
+                defName="AdvancedArchotechLeg" or
+                defName="AdvancedArchotechArm" or
+                defName="ArchotechObliterator" or
+                defName="ArchotechHeart" or
+                defName="ArchotechKidney" or
+                defName="ArchotechLiver" or
+                defName="ArchotechPelvis" or
+                defName="ArchotechSpine" or
+                defName="ArchotechLung" or
+                defName="ArchotechStomach" or
+                defName="ArchotechDenture" or
+                defName="ArchotechEar" or
+                defName="ArchotechDeathClaw"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>HediffBodyPartBase_Archotech</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/HediffDef[
+                defName="ArchotechBrainMelder" or
+                defName="ArchotechMembrane"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>HediffBodyPartBase_ArchotechImplants</value>
+            </li>
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[
+                defName="AdvancedArchotechLeg" or
+                defName="AdvancedArchotechArm" or
+                defName="ArchotechObliterator" or
+                defName="ArchotechHeart" or
+                defName="ArchotechKidney" or
+                defName="ArchotechLiver" or
+                defName="ArchotechPelvis" or
+                defName="ArchotechSpine" or
+                defName="ArchotechLung" or
+                defName="ArchotechStomach" or
+                defName="ArchotechDenture" or
+                defName="ArchotechEar" or
+                defName="ArchotechDeathClaw"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BodyPartBase_ArchotechBodyPart</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[
+                defName="ArchotechBrainMelder" or
+                defName="ArchotechMembrane"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BodyPartBase_ArchotechModule</value>
+            </li>
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/RecipeDef[
+                defName="InstallAdvancedArchotechLeg" or
+                defName="InstallAdvancedArchotechArm" or
+                defName="InstallArchotechObliterator" or
+                defName="InstallArchotechHeart" or
+                defName="InstallArchotechKidney" or
+                defName="InstallArchotechLiver" or
+                defName="InstallArchotechPelvis" or
+                defName="InstallArchotechSpine" or
+                defName="InstallArchotechLung" or
+                defName="InstallArchotechStomach" or
+                defName="InstallArchotechDenture" or
+                defName="InstallArchotechEar" or
+                defName="InstallArchotechDeathClaw"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_SurgeryInstallArchotechBodyPartBase</value>
+            </li>
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>/Defs/RecipeDef[
+                defName="InstallArchotechBrainMelder" or
+                defName="InstallArchotechMembrane"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_SurgeryInstallArchotechImplantBase</value>
+            </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+                <value>
+                    <li>InstallAdvancedArchotechLeg</li>
+                    <li>InstallAdvancedArchotechArm</li>
+                    <li>InstallArchotechObliterator</li>
+                    <li>InstallArchotechHeart</li>
+                    <li>InstallArchotechKidney</li>
+                    <li>InstallArchotechLiver</li>
+                    <li>InstallArchotechPelvis</li>
+                    <li>InstallArchotechSpine</li>
+                    <li>InstallArchotechLung</li>
+                    <li>InstallArchotechStomach</li>
+                    <li>InstallArchotechDenture</li>
+                    <li>InstallArchotechEar</li>
+                    <li>InstallArchotechBrainMelder</li>
+                    <li>InstallArchotechMembrane</li>
+                    <li>InstallArchotechDeathClaw</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

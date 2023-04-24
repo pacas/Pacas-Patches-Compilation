@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- Archotech Leg -->
+    <AdvancedArchotechLeg.label>Архонога</AdvancedArchotechLeg.label>
+    <AdvancedArchotechLeg.description>Усовершенствованная версия искусственной ноги. Выглядит так же, как и обычная нога, но позволяет двигаться гораздо быстрее.</AdvancedArchotechLeg.description>
+    <!-- Archotech Arm -->
+    <AdvancedArchotechArm.label>Архорука</AdvancedArchotechArm.label>
+    <AdvancedArchotechArm.description>Усовершенствованная версия искусственной руки. Она выглядит так же, но исследователи с центральных миров доказали, что рука является разумной. Эта дополнительная функция позволяет руке быстро принимать решения, которые не успеет принять человеческий мозг.</AdvancedArchotechArm.description>
+    <!-- Archotech Obliterator -->
+    <ArchotechObliterator.label>Архоуничтожитель</ArchotechObliterator.label>
+    <ArchotechObliterator.description>Искусственная рука, использующая все преимущества обычной архоруки, но включающая новые возможности рукопашного боя, основанные на истощении и захвате противника. Благодаря чрезвычайно быстрым сервоприводам кулак способен выдвигаться и втягиваться с поразительной скоростью, вызывая миниатюрную ударную волну перед кулаком.</ArchotechObliterator.description>
+    <!-- Archotech DeathClaw -->
+    <ArchotechDeathClaw.label>Архокоготь</ArchotechDeathClaw.label>
+    <ArchotechDeathClaw.description>Искусственная рука, созданная архотеком. Из руки торчат гигантские шипы и когти, которые пронзают и разрубают всё, что приближается слишком близко.</ArchotechDeathClaw.description>
+    <!-- Archotech Denture -->
+    <ArchotechDenture.label>Архочелюсть</ArchotechDenture.label>
+    <ArchotechDenture.description>Искусственный зубной протез, изготовленный архотеком. После установки во рту человека он быстро покрывает другие зубы до полного покрытия и заменяет отсутствующие зубы.</ArchotechDenture.description>
+    <!-- Archotech Ear -->
+    <ArchotechEar.label>Архоухо</ArchotechEar.label>
+    <ArchotechEar.description>Искусственное ухо, созданное архотеком. После установки в основание уха пользователь может слышать на много миль вперед без потери качества, что позволяет ему слышать биение крыльев мухи на расстоянии многих миль, если он того пожелает.</ArchotechEar.description>
+    <!-- Archotech Spine -->
+    <ArchotechSpine.label>Архопозвоночник</ArchotechSpine.label>
+    <ArchotechSpine.description>Искусственный позвоночник, созданный архотеком. Каждый отдельный диск и сектор позвоночника взаимодействует с волей своего хозяина и настраивается на оптимальную осанку.</ArchotechSpine.description>
+    <!-- Archotech Pelvis -->
+    <ArchotechPelvis.label>Архотаз</ArchotechPelvis.label>
+    <ArchotechPelvis.description>Искусственный таз, созданный архотеком. Он не делает многого, но позволяет улучшить общее состояние носителя, а также предоставляет немного брони.</ArchotechPelvis.description>
+    <!-- Archotech Lung -->
+    <ArchotechLung.label>Архолёгкое</ArchotechLung.label>
+    <ArchotechLung.description>Искусственное легкое, созданное архотеком. Оптимизация дыхания позволяет даже самым маленьким вдохам длиться минуты.</ArchotechLung.description>
+    <!-- Archotech Stomach -->
+    <ArchotechStomach.label>Архожелудок</ArchotechStomach.label>
+    <ArchotechStomach.description>Искусственный желудок, созданный архотеком. Его хозяин может есть столько, сколько захочет, так как желудок автоматически заботится о питании. Он полностью осведомлен о том, что нужно его хозяину, от витаминов до минералов, и сообщает ему об этом с помощью медиума.</ArchotechStomach.description>
+    <!-- Archotech Heart -->
+    <ArchotechHeart.label>Архосердце</ArchotechHeart.label>
+    <ArchotechHeart.description>Искусственное сердце, созданное архотеком. Циркуляция крови происходит не за счет перекачки, а за счет постоянного потока, при необходимости выпускающего в кровь маленькие наномашины. Эти маленькие машины проверяют наличие холестерина и других вредных веществ в артериях и капиллярах и перерабатывают их в новые наномашины или в отходы.</ArchotechHeart.description>
+    <!-- Archotech Kidney -->
+    <ArchotechKidney.label>Архопочка</ArchotechKidney.label>
+    <ArchotechKidney.description>Искусственная почка, созданная архотеком. Ее способность отфильтровывать отходы и лишнюю воду из крови хозяина настолько эффективна, что отходов почти не остается, вместо этого они преобразуются в полезные антитела и витамины.</ArchotechKidney.description>
+    <!-- Archotech Liver -->
+    <ArchotechLiver.label>Архопечень</ArchotechLiver.label>
+    <ArchotechLiver.description>Искусственная печень, созданная архотеком. Ее пользователь способен метаболизировать практически все, начиная от возможности пить чистый зерновой спирт и заканчивая метаболизмом самых вредных наркотиков.</ArchotechLiver.description>
+    <!-- Archotech BrainMelder -->
+    <ArchotechBrainMelder.label>Архоплавитель мозгов</ArchotechBrainMelder.label>
+    <ArchotechBrainMelder.description>Впечатляющий подвиг медицинской инженерии, не похожий ни на что другое. Из того, что удалось узнать тем, кто исследует архотехнологии, кажется, что он накачивает аттомашины по всему телу из своего центрального ядра, которые заживляют все шрамы. Кроме того, он стимулирует допаминовые и сератониновые рецепторы мозга, доставляя пользователю огромное удовольствие. Ученые до сих пор не могут понять, как ему удается делать это, сохраняя сознание, или как он каким-то образом улучшает интеллект и способность к обучению.</ArchotechBrainMelder.description>
+    <!-- Archotech Membrane -->
+    <ArchotechMembrane.label>Архомембрана</ArchotechMembrane.label>
+    <ArchotechMembrane.description>Очень тонкая мембрана, покрывающая все тело. Она имеет множество различных назначений, но в основном используется для защиты.</ArchotechMembrane.description>
+</LanguageData>

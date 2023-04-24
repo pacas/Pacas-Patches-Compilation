@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- Archotech Leg -->
+    <InstallAdvancedArchotechLeg.label>вживить архоногу</InstallAdvancedArchotechLeg.label>
+    <InstallAdvancedArchotechLeg.description>Вживить архоногу.</InstallAdvancedArchotechLeg.description>
+    <InstallAdvancedArchotechLeg.jobString>Вживление архоноги.</InstallAdvancedArchotechLeg.jobString>
+    <!-- Archotech Arm -->
+    <InstallAdvancedArchotechArm.label>вживить архоруку</InstallAdvancedArchotechArm.label>
+    <InstallAdvancedArchotechArm.description>Вживить архоруку.</InstallAdvancedArchotechArm.description>
+    <InstallAdvancedArchotechArm.jobString>Вживление архоруки.</InstallAdvancedArchotechArm.jobString>
+    <!-- Archotech Obliterator -->
+    <InstallArchotechObliterator.label>вживить архоуничтожитель</InstallArchotechObliterator.label>
+    <InstallArchotechObliterator.description>Вживить архоуничтожитель.</InstallArchotechObliterator.description>
+    <InstallArchotechObliterator.jobString>Вживление архоуничтожителя.</InstallArchotechObliterator.jobString>
+    <!-- Archotech Obliterator -->
+    <InstallArchotechDeathClaw.label>вживить архокоготь</InstallArchotechDeathClaw.label>
+    <InstallArchotechDeathClaw.description>Вживить архокоготь.</InstallArchotechDeathClaw.description>
+    <InstallArchotechDeathClaw.jobString>Вживление архокогтя.</InstallArchotechDeathClaw.jobString>
+    <!-- Archotech Ear -->
+    <InstallArchotechEar.label>вживить архоухо</InstallArchotechEar.label>
+    <InstallArchotechEar.description>Вживить архоухо.</InstallArchotechEar.description>
+    <InstallArchotechEar.jobString>Вживление архоуха.</InstallArchotechEar.jobString>
+    <!-- Archotech Spine -->
+    <InstallArchotechSpine.label>вживить архопозвоночник</InstallArchotechSpine.label>
+    <InstallArchotechSpine.description>Вживить архопозвоночник.</InstallArchotechSpine.description>
+    <InstallArchotechSpine.jobString>Вживление архопозвоночника.</InstallArchotechSpine.jobString>
+    <!-- Archotech Pelvis -->
+    <InstallArchotechPelvis.label>вживить архокости-таза</InstallArchotechPelvis.label>
+    <InstallArchotechPelvis.description>Вживить архокости-таза.</InstallArchotechPelvis.description>
+    <InstallArchotechPelvis.jobString>Вживление архокостей-таза.</InstallArchotechPelvis.jobString>
+    <!-- Archotech Lung -->
+    <InstallArchotechLung.label>вживить архолёгкое</InstallArchotechLung.label>
+    <InstallArchotechLung.description>Вживить архолёгкое.</InstallArchotechLung.description>
+    <InstallArchotechLung.jobString>Вживление архолёгкого.</InstallArchotechLung.jobString>
+    <!-- Archotech Stomach -->
+    <InstallArchotechStomach.label>вживить архожелудок</InstallArchotechStomach.label>
+    <InstallArchotechStomach.description>Вживить архожелудок.</InstallArchotechStomach.description>
+    <InstallArchotechStomach.jobString>Вживление архожелудка.</InstallArchotechStomach.jobString>
+    <!-- Archotech Heart -->
+    <InstallArchotechHeart.label>вживить архосердце</InstallArchotechHeart.label>
+    <InstallArchotechHeart.description>Вживить архосердце.</InstallArchotechHeart.description>
+    <InstallArchotechHeart.jobString>Вживление архосердца.</InstallArchotechHeart.jobString>
+    <!-- Archotech Kidney -->
+    <InstallArchotechKidney.label>вживить архопочку</InstallArchotechKidney.label>
+    <InstallArchotechKidney.description>Вживить архопочку.</InstallArchotechKidney.description>
+    <InstallArchotechKidney.jobString>Вживление архопочки.</InstallArchotechKidney.jobString>
+    <!-- Archotech Liver -->
+    <InstallArchotechLiver.label>вживить архопечень</InstallArchotechLiver.label>
+    <InstallArchotechLiver.description>Вживить архопечень.</InstallArchotechLiver.description>
+    <InstallArchotechLiver.jobString>Вживление архопечени.</InstallArchotechLiver.jobString>
+    <!-- Archotech Denture -->
+    <InstallArchotechDenture.label>вживить архочелюсть</InstallArchotechDenture.label>
+    <InstallArchotechDenture.description>Вживить архочелюсть.</InstallArchotechDenture.description>
+    <InstallArchotechDenture.jobString>Вживление архочелюсти.</InstallArchotechDenture.jobString>
+    <!-- Archotech BrainMelder -->
+    <ArchotechBrainMelder.label>вживить архоплавитель мозгов</ArchotechBrainMelder.label>
+    <ArchotechBrainMelder.description>Вживить архоплавитель мозгов.</ArchotechBrainMelder.description>
+    <ArchotechBrainMelder.jobString>Вживление архоплавителя мозгов.</ArchotechBrainMelder.jobString>
+    <!-- Archotech Membrane -->
+    <ArchotechMembrane.label>вживить архомембрану</ArchotechMembrane.label>
+    <ArchotechMembrane.description>Вживить архомембрану.</ArchotechMembrane.description>
+    <ArchotechMembrane.jobString>Вживление архомембраны.</ArchotechMembrane.jobString>
+</LanguageData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--ModSpecific/ArchotechExpandedProsthetics/Defs/ArchotechExpandedProsthetics/Hediffs_LimbParts_AdvancedArchotech.xml-->
+    <!-- install advanced archotech internal support -->
+    <InstallAdvancedArchotechInternalSupport.label>вживить внутреннюю часть архопротеза</InstallAdvancedArchotechInternalSupport.label>
+    <!-- Install an advanced archotech internal support. -->
+    <InstallAdvancedArchotechInternalSupport.description>Вживить внутреннюю часть архопротеза.</InstallAdvancedArchotechInternalSupport.description>
+    <!-- Installing advanced archotech internal support. -->
+    <InstallAdvancedArchotechInternalSupport.jobString>Вживляет внутреннюю часть архопротеза.</InstallAdvancedArchotechInternalSupport.jobString>
+    <!-- install advanced archotech forearm -->
+    <InstallAdvancedArchotechForearm.label>вживить архопредплечье</InstallAdvancedArchotechForearm.label>
+    <!-- Install an advanced archotech forearm. -->
+    <InstallAdvancedArchotechForearm.description>Вживить архопредплечье.</InstallAdvancedArchotechForearm.description>
+    <!-- Installing advanced archotech forearm. -->
+    <InstallAdvancedArchotechForearm.jobString>Вживляет архопредплечье.</InstallAdvancedArchotechForearm.jobString>
+    <!-- install advanced archotech hand -->
+    <InstallAdvancedArchotechHand.label>вживить архокисть</InstallAdvancedArchotechHand.label>
+    <!-- Install an advanced archotech hand. -->
+    <InstallAdvancedArchotechHand.description>Вживить архокисть.</InstallAdvancedArchotechHand.description>
+    <!-- Installing advanced archotech hand. -->
+    <InstallAdvancedArchotechHand.jobString>Вживляет архокисть.</InstallAdvancedArchotechHand.jobString>
+    <!-- install advanced archotech finger -->
+    <InstallAdvancedArchotechFinger.label>вживить архопалец</InstallAdvancedArchotechFinger.label>
+    <!-- Install an advanced archotech finger. -->
+    <InstallAdvancedArchotechFinger.description>Вживить архопалец.</InstallAdvancedArchotechFinger.description>
+    <!-- Installing advanced archotech finger. -->
+    <InstallAdvancedArchotechFinger.jobString>Вживляет архопалец.</InstallAdvancedArchotechFinger.jobString>
+    <!-- install advanced archotech foot -->
+    <InstallAdvancedArchotechFoot.label>вживить архостопу</InstallAdvancedArchotechFoot.label>
+    <!-- Install an advanced archotech foot. -->
+    <InstallAdvancedArchotechFoot.description>Вживить архостопу.</InstallAdvancedArchotechFoot.description>
+    <!-- Installing advanced archotech foot. -->
+    <InstallAdvancedArchotechFoot.jobString>Вживляет архостопу.</InstallAdvancedArchotechFoot.jobString>
+    <!-- install advanced archotech toe -->
+    <InstallAdvancedArchotechToe.label>вживить архопалец ноги</InstallAdvancedArchotechToe.label>
+    <!-- Install an advanced archotech toe. -->
+    <InstallAdvancedArchotechToe.description>Вживить архопалец ноги.</InstallAdvancedArchotechToe.description>
+    <!-- Installing advanced archotech toe. -->
+    <InstallAdvancedArchotechToe.jobString>Вживляет архопалец ноги.</InstallAdvancedArchotechToe.jobString>
+</LanguageData>

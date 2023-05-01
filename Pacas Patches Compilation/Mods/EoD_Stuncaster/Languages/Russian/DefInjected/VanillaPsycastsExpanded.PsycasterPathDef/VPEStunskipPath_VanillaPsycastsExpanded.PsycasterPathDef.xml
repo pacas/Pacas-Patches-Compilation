@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--Defs/PsycasterPathDefs/VPEStunskipPath.xml-->
+    <!-- Stuncaster -->
+    <VPEStunskipPath.label>Оглушитель</VPEStunskipPath.label>
+    <!-- Become one with the ablity to manipulate the perceptions of enemies and friends alike. -->
+    <VPEStunskipPath.description>Станьте тем, кто способен манипулировать восприятием как врагов, так и друзей.</VPEStunskipPath.description>
+    <!-- Stuncaster have the abilities to stun enemies and allies for a short duration, allowing only the caster to move and act during the stun duration. When used by the right person, it can become dangerous as it opens up various opportunities in the battlefield. -->
+    <VPEStunskipPath.tooltip>Оглушитель обладает способностью оглушать кого бы то ни было, будь то врагов или союзников, на непродолжительное время. В правильных руках, он может стать отличным инструментом для манипулирования полем боя.</VPEStunskipPath.tooltip>
+</LanguageData>

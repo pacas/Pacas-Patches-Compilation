@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--Defs/AbilityDefs/Air_Barrage.xml-->
+    <!-- air thrust -->
+    <VPE_Air_Barrage_Projectile.label>воздушный поток</VPE_Air_Barrage_Projectile.label>
+    <!-- An air thrust in high velocity, resulting in a high damaging strike. -->
+    <VPE_Air_Barrage_Projectile.description>Воздушный поток, устремляется к цели на высокой скорости, нанося при этом ударный урон.</VPE_Air_Barrage_Projectile.description>
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="VPE_Air_Barrage_Projectile"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_BaseBullet</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="VPE_Air_Barrage_Projectile"]/projectile</xpath>
+                <attribute>Class</attribute>
+                <value>CombatExtended.ProjectilePropertiesCE</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VPE_Air_Barrage_Projectile"]/projectile</xpath>
+                <value>
+                    <armorPenetrationSharp>8</armorPenetrationSharp>
+                    <armorPenetrationBlunt>24</armorPenetrationBlunt>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

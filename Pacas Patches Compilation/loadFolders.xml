@@ -23,5 +23,6 @@
         <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModNotActive="ViTech.HCSKWood">Mods/CoreSK_Wood</li>
+        <li IfModActive="rabbit.stuncastervpe2">Mods/EoD_Stuncaster</li>
 	</v1.4>
 </loadFolders>

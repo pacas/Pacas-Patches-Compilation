@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--Defs/HediffDefs/AbilityHediff.xml-->
+    <!-- perception freeze -->
+    <VPE_PerceptionFreeze.label>притуплённое восприятие</VPE_PerceptionFreeze.label>
+    <!-- The sense of perception of this creature is virtually frozen, making them unable to feel pain and completely frozen in place. -->
+    <VPE_PerceptionFreeze.description>У существа практически полностью заглушено восприятие, что делает его неспособным чувствовать боль и шевелиться.</VPE_PerceptionFreeze.description>
+    <!-- enhanced perception -->
+    <VPE_EnhancedMelee.label>усиленное восприятие</VPE_EnhancedMelee.label>
+    <!-- Psychically enhanced perception, improving multiple elements of one's close quarter capabilities. -->
+    <VPE_EnhancedMelee.description>Психически усиленное восприятие улучшает многие аспекты ближнего боя пешки.</VPE_EnhancedMelee.description>
+</LanguageData>

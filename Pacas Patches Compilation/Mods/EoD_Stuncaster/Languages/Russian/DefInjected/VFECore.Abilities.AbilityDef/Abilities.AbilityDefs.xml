@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- TranslationReport.txt -->
+    <VPE_Air_Barrage.jobReportString>Применяет способность: {0}</VPE_Air_Barrage.jobReportString>
+    <VPE_Air_Barrage.verbProperties.label>воздушный поток</VPE_Air_Barrage.verbProperties.label>
+    <VPE_Enhanced_Melee.jobReportString>Применяет способность: {0}</VPE_Enhanced_Melee.jobReportString>
+    <VPE_Enhanced_Melee.verbProperties.label>усиленное восприятие</VPE_Enhanced_Melee.verbProperties.label>
+    <VPE_stunskip_i.jobReportString>Применяет способность: {0}</VPE_stunskip_i.jobReportString>
+    <VPE_stunskip_i.verbProperties.label>оглушение I</VPE_stunskip_i.verbProperties.label>
+    <VPE_stunskip_ii.jobReportString>Применяет способность: {0}</VPE_stunskip_ii.jobReportString>
+    <VPE_stunskip_ii.verbProperties.label>оглушение II</VPE_stunskip_ii.verbProperties.label>
+    <VPE_stunskip_restrain_i.jobReportString>Применяет способность: {0}</VPE_stunskip_restrain_i.jobReportString>
+    <VPE_stunskip_restrain_i.verbProperties.label>оглушение: сдерживание I</VPE_stunskip_restrain_i.verbProperties.label>
+    <VPE_stunskip_restrain_ii.jobReportString>Применяет способность: {0}</VPE_stunskip_restrain_ii.jobReportString>
+    <VPE_stunskip_restrain_ii.verbProperties.label>оглушение: сдерживание II</VPE_stunskip_restrain_ii.verbProperties.label>
+    <VPE_stunskip_strike_i.jobReportString>Применяет способность: {0}</VPE_stunskip_strike_i.jobReportString>
+    <VPE_stunskip_strike_i.verbProperties.label>оглушающий удар I</VPE_stunskip_strike_i.verbProperties.label>
+    <VPE_stunskip_strike_ii.jobReportString>Применяет способность: {0}</VPE_stunskip_strike_ii.jobReportString>
+    <VPE_stunskip_strike_ii.verbProperties.label>оглушающий удар II</VPE_stunskip_strike_ii.verbProperties.label>
+    <VPE_stunskip_teleport_i.jobReportString>Применяет способность: {0}</VPE_stunskip_teleport_i.jobReportString>
+    <VPE_stunskip_teleport_i.verbProperties.label>оглушающий телепорт I</VPE_stunskip_teleport_i.verbProperties.label>
+    <VPE_stunskip_teleport_ii.jobReportString>Применяет способность: {0}</VPE_stunskip_teleport_ii.jobReportString>
+    <VPE_stunskip_teleport_ii.verbProperties.label>оглушающий телепорт II</VPE_stunskip_teleport_ii.verbProperties.label>
+    
+    <VPE_Air_Barrage.label>воздушный поток</VPE_Air_Barrage.label>
+    <VPE_Air_Barrage.description>Обрушьте поток воздуха с огромной силой с помощью псисилы, нанеся цели большой ударный урон.</VPE_Air_Barrage.description>
+    
+    <VPE_air_push.label>воздушный толчок</VPE_air_push.label>
+    <VPE_air_push.description>Управляя воздухом вокруг, переместите цель в указанное место вдали от её первоначального положения, избегая любого вреда.</VPE_air_push.description>
+    
+    <VPE_Enhanced_Melee.label>усиление тела</VPE_Enhanced_Melee.label>
+    <VPE_Enhanced_Melee.description>Психически усиленное сознание позволяет улучшить работу и рефлексы, что в свою очередь сильно увеличивает скорость передвижения и атаки в ближнем бою, правда за счёт значительного снижения силы ближнего боя. Длится 10 секунд.</VPE_Enhanced_Melee.description>
+    
+    <VPE_Enhanced_Ranged.label>концентрация внимания</VPE_Enhanced_Ranged.label>
+    <VPE_Enhanced_Ranged.description>Психически усиленное восприятие улучшает зрение и координацию, эффективно удваивая дальние атаки и резко повышая скорость стрельбы, ценой значительного снижения дальнего удара. Длится 10 секунд.</VPE_Enhanced_Ranged.description>
+    
+    <VPE_deception.label>обман</VPE_deception.label>
+    <VPE_deception.description>Психически манипулирует восприятием мира, заставляя всех на короткое время не воспринимать заклинателя. Атака разрушает иллюзию. Используется для выхода из опасных ситуаций.</VPE_deception.description>
+    
+    <VPE_dreaded_scream.label>ужасающий крик</VPE_dreaded_scream.label>
+    <VPE_dreaded_scream.description>Усиленный пси-крик безумия и ужаса, способный пошатнуть нервы каждого человека в радиусе действия крика, заставляя их бежать от страха в течение короткого времени.</VPE_dreaded_scream.description>
+    
+    <VPE_stunskip_strike_i.label>оглушающий удар I</VPE_stunskip_strike_i.label>
+    <VPE_stunskip_strike_i.description>Псионик притупляет восприятие цели, и стремительно двигаясь к ней, нанося удары и оглушая её при сближении. Для жертвы это выглядит словно телепортация.</VPE_stunskip_strike_i.description>
+    
+    <VPE_stunskip_strike_ii.label>оглушающий удар II</VPE_stunskip_strike_ii.label>
+    <VPE_stunskip_strike_ii.description>Став более искусным оглушителем, псионик теперь может нападать с удвоенной дистанции, с меньшими затратами пси-концентрации и уменьшенным нейроперегревом.</VPE_stunskip_strike_ii.description>
+    
+    <VPE_stunskip_teleport_i.label>оглушающий телепорт I</VPE_stunskip_teleport_i.label>
+    <VPE_stunskip_teleport_i.description>Притупляет восприятия всех существ, стремительно двигаясь к указанному месту. Со стороны это выглядит словно телепортация.</VPE_stunskip_teleport_i.description>
+    
+    <VPE_stunskip_teleport_ii.label>оглушающий телепорт II</VPE_stunskip_teleport_ii.label>
+    <VPE_stunskip_teleport_ii.description>Став более искусным оглушителем, псионик теперь может применять способность на удвоенную дистанцию, с меньшими затратами пси-концентрации и уменьшенным нейроперегревом.</VPE_stunskip_teleport_ii.description>
+    
+    <VPE_stunskip_i.label>оглушение I</VPE_stunskip_i.label>
+    <VPE_stunskip_i.description>На 3 секунды оглушает всех существ на карте, будь то врагов, союзников или животных, кроме самого псионика.</VPE_stunskip_i.description>
+    
+    <VPE_stunskip_ii.label>оглушение II</VPE_stunskip_ii.label>
+    <VPE_stunskip_ii.description>На 7 секунд оглушает всех существ на карте, будь то врагов, союзников или животных, кроме самого псионика.</VPE_stunskip_ii.description>
+    
+    <VPE_stunskip_restrain_i.label>оглушение: сдерживание I</VPE_stunskip_restrain_i.label>
+    <VPE_stunskip_restrain_i.description>Став более искусным оглушителем, псионик применяет «оглушение» на 5 секунд, с меньшими затратами пси-концентрации и уменьшенным нейроперегревом.</VPE_stunskip_restrain_i.description>
+    
+    <VPE_stunskip_restrain_ii.label>оглушение: сдерживание II</VPE_stunskip_restrain_ii.label>
+    <VPE_stunskip_restrain_ii.description>Став более искусным оглушителем, псионик применяет «оглушение» на 10 секунд, с меньшими затратами пси-концентрации и уменьшенным нейроперегревом.</VPE_stunskip_restrain_ii.description>
+</LanguageData>

@@ -145,22 +145,6 @@
                         <Hexcell>2</Hexcell>
                     </costList>
                 </value>
-            </li><li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="ArchotechSpine"]</xpath>
-                <value>
-                    <costList>
-                        <ComponentUltra>10</ComponentUltra>
-                        <AlphaPoly>30</AlphaPoly>
-                        <BetaPoly>30</BetaPoly>
-                        <Biomatter>20</Biomatter>
-                        <SyntheticFibers>65</SyntheticFibers>
-                        <BioMicrochips>2</BioMicrochips>
-                        <BiosyntheticMaterial>30</BiosyntheticMaterial>
-                        <CarbonAlloy>50</CarbonAlloy>
-                        <Hexcell>10</Hexcell>
-                        <ArtificialBone>10</ArtificialBone>
-                    </costList>
-                </value>
             </li>
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="ArchotechStomach"]</xpath>
@@ -172,22 +156,6 @@
                         <BioMicrochips>1</BioMicrochips>
                         <BiosyntheticMaterial>30</BiosyntheticMaterial>
                         <Hexcell>2</Hexcell>
-                    </costList>
-                </value>
-            </li><li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="ArchotechSpine"]</xpath>
-                <value>
-                    <costList>
-                        <ComponentUltra>10</ComponentUltra>
-                        <AlphaPoly>30</AlphaPoly>
-                        <BetaPoly>30</BetaPoly>
-                        <Biomatter>20</Biomatter>
-                        <SyntheticFibers>65</SyntheticFibers>
-                        <BioMicrochips>2</BioMicrochips>
-                        <BiosyntheticMaterial>30</BiosyntheticMaterial>
-                        <CarbonAlloy>50</CarbonAlloy>
-                        <Hexcell>10</Hexcell>
-                        <ArtificialBone>10</ArtificialBone>
                     </costList>
                 </value>
             </li>

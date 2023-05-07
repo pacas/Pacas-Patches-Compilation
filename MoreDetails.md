@@ -68,6 +68,8 @@ Will be expanded
 
 **[Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
 
+**[Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
+
 **[Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069)**<br>
 
 **[RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117)**<br>

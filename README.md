@@ -9,29 +9,31 @@ This repository contains a special mod that patches the mods described below wit
 # Patch list | Список патчей:
 
 ***ALL Details in file MoreDetails.yaml***
-
-**HSK Core**<br>
-**[Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998)**<br>
-**[Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976)**<br>
-**[Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
-**[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
-**[Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768)**<br>
-**[Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421)**<br>
-**[Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586)**<br>
-**[RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117)**<br>
-**[RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460)**<br>
-**[RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
-**[RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
-**[Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783)**<br>
-**[Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016)**<br>
-**[Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182)**<br>
-**[Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720)**<br>
-**[Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)**<br>
-**[Vanilla Races Expanded - Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390)**<br>
-**[Vanilla Races Expanded - Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)**<br>
-**[Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495)**<br>
-**[Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069)**<br>
-**[Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519)**<br>
+| Mod title | In actual state | Notes |
+| --- | --- | --- |
+| HSK Core | :white_check_mark: | --- |
+| [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- |
+| [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | :white_check_mark: | --- |
+| [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- |
+| [Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049) | :white_check_mark: | --- |
+| [Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2952773198) | :white_check_mark: | Require Vanilla Psycasts Expanded |
+| [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- |
+| [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- |
+| [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark: | Problems with CONN, [fix](https://discord.com/channels/272340793174392832/1073005757697634384/1101298920015015966) |
+| [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- |
+| [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :x: | --- |
+| [RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530) | :x: | 1.3 only for now |
+| [RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530) | :white_check_mark: | --- |
+| [Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783) | :white_check_mark: | --- |
+| [Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016) | :white_check_mark: | --- |
+| [Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182) | :white_check_mark: | --- |
+| [Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720) | :white_check_mark: | --- |
+| [Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072) | :white_check_mark: | --- |
+| [Vanilla Races Expanded - Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390) | :white_check_mark: | --- |
+| [Vanilla Races Expanded - Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805) | :white_check_mark: | --- |
+| [Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495) | :white_check_mark: | --- |
+| [Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069) | :white_check_mark: | --- |
+| [Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519) | :white_check_mark: | --- |
 
 ## Donate / Order a patch | Поддержать / Заказать патч:<br>
 You can thank me for the work done and donate:<br>

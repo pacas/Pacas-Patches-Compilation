@@ -7,7 +7,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="AB_RawRedSlime"]/thingCategories</xpath>
+                    <xpath>Defs/ThingDef[defName="AB_RawRedSlime"]/thingCategories</xpath>
                     <value>
                         <thingCategories Inherit="False">
                             <li>BadPlantRaw</li>
@@ -15,7 +15,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="AA_RottingMoundItem"]</xpath>
+                    <xpath>Defs/ThingDef[defName="AA_RottingMoundItem"]</xpath>
                     <value>
                         <thingCategories Inherit="False">
                             <li>BadPlantRaw</li>

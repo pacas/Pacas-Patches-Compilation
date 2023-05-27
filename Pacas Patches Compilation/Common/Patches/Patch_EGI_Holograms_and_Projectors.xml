@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>EGI Holograms and Projectors</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="SmallProjector"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>20</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SmallProjector"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentSpacer>1</ComponentSpacer>
+                            <ComponentIndustrial>5</ComponentIndustrial>
+                            <ElectronicComponents>5</ElectronicComponents>
+                            <Electronics>3</Electronics>
+                            <Mechanism>2</Mechanism>
+                            <Titanium>10</Titanium>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="LargeProjector"]/recipeMaker/recipeUsers</xpath>
+                    <value>
+                        <recipeUsers>
+                            <li>FabricationBench</li>
+                            <li>AdvToolBench</li>
+                        </recipeUsers>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="LargeProjector"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>50</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="LargeProjector"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentSpacer>2</ComponentSpacer>
+                            <ComponentIndustrial>8</ComponentIndustrial>
+                            <ElectronicComponents>8</ElectronicComponents>
+                            <Electronics>5</Electronics>
+                            <Mechanism>5</Mechanism>
+                            <Titanium>25</Titanium>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="LargeProjector"]/recipeMaker/recipeUsers</xpath>
+                    <value>
+                        <recipeUsers>
+                            <li>AdvToolBench</li>
+                        </recipeUsers>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="GrandProjector"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>100</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GrandProjector"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentSpacer>3</ComponentSpacer>
+                            <ComponentUltra>1</ComponentUltra>
+                            <ComponentIndustrial>15</ComponentIndustrial>
+                            <ElectronicComponents>15</ElectronicComponents>
+                            <Electronics>10</Electronics>
+                            <Microchips>1</Microchips>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Titanium>50</Titanium>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GrandProjector"]/recipeMaker/recipeUsers</xpath>
+                    <value>
+                        <recipeUsers>
+                            <li>RobAssem</li>
+                        </recipeUsers>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="ProjectorThrone"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>150</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ProjectorThrone"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentSpacer>4</ComponentSpacer>
+                            <ComponentIndustrial>7</ComponentIndustrial>
+                            <ElectronicComponents>7</ElectronicComponents>
+                            <Electronics>4</Electronics>
+                            <Titanium>70</Titanium>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="GrandProjectorThrone"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>300</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GrandProjectorThrone"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentSpacer>5</ComponentSpacer>
+                            <ComponentUltra>1</ComponentUltra>
+                            <ComponentIndustrial>15</ComponentIndustrial>
+                            <ElectronicComponents>15</ElectronicComponents>
+                            <Electronics>10</Electronics>
+                            <Microchips>1</Microchips>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Titanium>150</Titanium>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                    defName="SmallProjector" or
+                    defName="LargeProjector" or
+                    defName="GrandProjector"
+                    ]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>
+                            <li>Enjoyment_D1</li>
+                        </researchPrerequisite>
+                    </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                    defName="GrandProjector" or
+                    defName="ProjectorThrone" or
+                    defName="GrandProjectorThrone"
+                    ]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Enjoyment_D1</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Res_Projectors"]</xpath>
+                </li>
+                
+                <li Class="XmlExtensions.FindMod">
+                    <mods>
+                        <li>Royalty</li>
+                    </mods>
+                    <caseTrue>
+                        <Operation Class="PatchOperationAdd">
+                            <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RoyaltyStuff"]/defNames</xpath>
+                            <value>
+                                <li>ProjectorThrone</li>
+                                <li>GrandProjectorThrone</li>
+                            </value>
+                        </Operation>
+                    </caseTrue>
+                    <caseFalse>
+                        <Operation Class="PatchOperationRemove">
+                            <xpath>Defs/ThingDef[defName="ProjectorThrone" or defName="GrandProjectorThrone"]</xpath>
+                        </Operation>
+                    </caseFalse>
+                 </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

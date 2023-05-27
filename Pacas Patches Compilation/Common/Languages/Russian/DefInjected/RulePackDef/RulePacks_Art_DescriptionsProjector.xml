@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArtDescription_Projector.rulePack.rulesStrings.0>r_art_description->[base_description]</ArtDescription_Projector.rulePack.rulesStrings.0>
+  <ArtDescription_Projector.rulePack.rulesStrings.1>base_description->The projector was built by AuthorName and offers [adjective] [part_of_projection] quality</ArtDescription_Projector.rulePack.rulesStrings.1>
+  <ArtDescription_Projector.rulePack.rulesStrings.2>base_description->The projector was built by AuthorName and offers [adjective] [part_of_projection] quality</ArtDescription_Projector.rulePack.rulesStrings.2>
+  <ArtDescription_Projector.rulePack.rulesStrings.3>base_description->Should the projections be observed for long enough you hear faint excerpts from the song [meme_songs]</ArtDescription_Projector.rulePack.rulesStrings.3>
+  <ArtDescription_Projector.rulePack.rulesStrings.4>base_description->[subject] displayed by this device are [adjective] and run with [num_of_glitches] glitches</ArtDescription_Projector.rulePack.rulesStrings.4>
+  <ArtDescription_Projector.rulePack.rulesStrings.5>base_description->[subject] displayed by this device are [adjective] and run with [num_of_glitches] glitches</ArtDescription_Projector.rulePack.rulesStrings.5>
+  <ArtDescription_Projector.rulePack.rulesStrings.6>base_description->The images [freq_of_error] [type_of_error], making users [adverb] [reaction_of_onlookers]</ArtDescription_Projector.rulePack.rulesStrings.6>
+  <ArtDescription_Projector.rulePack.rulesStrings.7>base_description->The images [freq_of_error] [type_of_error], making users [adverb] [reaction_of_onlookers]</ArtDescription_Projector.rulePack.rulesStrings.7>
+  <ArtDescription_Projector.rulePack.rulesStrings.8>adjective->sub-par</ArtDescription_Projector.rulePack.rulesStrings.8>
+  <ArtDescription_Projector.rulePack.rulesStrings.9>adjective->incredible</ArtDescription_Projector.rulePack.rulesStrings.9>
+  <ArtDescription_Projector.rulePack.rulesStrings.10>adjective->breath-taking</ArtDescription_Projector.rulePack.rulesStrings.10>
+  <ArtDescription_Projector.rulePack.rulesStrings.11>adjective->mediocre</ArtDescription_Projector.rulePack.rulesStrings.11>
+  <ArtDescription_Projector.rulePack.rulesStrings.12>adjective->generic</ArtDescription_Projector.rulePack.rulesStrings.12>
+  <ArtDescription_Projector.rulePack.rulesStrings.13>adjective->underwhelming</ArtDescription_Projector.rulePack.rulesStrings.13>
+  <ArtDescription_Projector.rulePack.rulesStrings.14>adjective->awe-inspiring</ArtDescription_Projector.rulePack.rulesStrings.14>
+  <ArtDescription_Projector.rulePack.rulesStrings.15>part_of_projection->audio</ArtDescription_Projector.rulePack.rulesStrings.15>
+  <ArtDescription_Projector.rulePack.rulesStrings.16>part_of_projection->video</ArtDescription_Projector.rulePack.rulesStrings.16>
+  <ArtDescription_Projector.rulePack.rulesStrings.17>meme_songs->"Never Gonna Give you Up"</ArtDescription_Projector.rulePack.rulesStrings.17>
+  <ArtDescription_Projector.rulePack.rulesStrings.18>meme_songs->"Banana Man"</ArtDescription_Projector.rulePack.rulesStrings.18>
+  <ArtDescription_Projector.rulePack.rulesStrings.19>meme_songs->"Ruler of Everything"</ArtDescription_Projector.rulePack.rulesStrings.19>
+  <ArtDescription_Projector.rulePack.rulesStrings.20>meme_songs->"Africa"</ArtDescription_Projector.rulePack.rulesStrings.20>
+  <ArtDescription_Projector.rulePack.rulesStrings.21>meme_songs->"Photograph"</ArtDescription_Projector.rulePack.rulesStrings.21>
+  <ArtDescription_Projector.rulePack.rulesStrings.22>meme_songs->"Mr. Brightside"</ArtDescription_Projector.rulePack.rulesStrings.22>
+  <ArtDescription_Projector.rulePack.rulesStrings.23>meme_songs->"Take On Me"</ArtDescription_Projector.rulePack.rulesStrings.23>
+  <ArtDescription_Projector.rulePack.rulesStrings.24>meme_songs->"September"</ArtDescription_Projector.rulePack.rulesStrings.24>
+  <ArtDescription_Projector.rulePack.rulesStrings.25>meme_songs->"Megalovania"</ArtDescription_Projector.rulePack.rulesStrings.25>
+  <ArtDescription_Projector.rulePack.rulesStrings.26>meme_songs->"All Star"</ArtDescription_Projector.rulePack.rulesStrings.26>
+  <ArtDescription_Projector.rulePack.rulesStrings.27>meme_songs->"He's a Pirate"</ArtDescription_Projector.rulePack.rulesStrings.27>
+  <ArtDescription_Projector.rulePack.rulesStrings.28>meme_songs->"Ride of the Valkyries"</ArtDescription_Projector.rulePack.rulesStrings.28>
+  <ArtDescription_Projector.rulePack.rulesStrings.29>meme_songs->"Beethoven"</ArtDescription_Projector.rulePack.rulesStrings.29>
+  <ArtDescription_Projector.rulePack.rulesStrings.30>meme_songs->"Mozart"</ArtDescription_Projector.rulePack.rulesStrings.30>
+  <ArtDescription_Projector.rulePack.rulesStrings.31>meme_songs->"The Coconut song"</ArtDescription_Projector.rulePack.rulesStrings.31>
+  <ArtDescription_Projector.rulePack.rulesStrings.32>subject->portraits</ArtDescription_Projector.rulePack.rulesStrings.32>
+  <ArtDescription_Projector.rulePack.rulesStrings.33>subject->videos</ArtDescription_Projector.rulePack.rulesStrings.33>
+  <ArtDescription_Projector.rulePack.rulesStrings.34>subject->signs</ArtDescription_Projector.rulePack.rulesStrings.34>
+  <ArtDescription_Projector.rulePack.rulesStrings.35>subject->animations</ArtDescription_Projector.rulePack.rulesStrings.35>
+  <ArtDescription_Projector.rulePack.rulesStrings.36>subject->slideshows</ArtDescription_Projector.rulePack.rulesStrings.36>
+  <ArtDescription_Projector.rulePack.rulesStrings.37>subject->media</ArtDescription_Projector.rulePack.rulesStrings.37>
+  <ArtDescription_Projector.rulePack.rulesStrings.38>subject->artworks</ArtDescription_Projector.rulePack.rulesStrings.38>
+  <ArtDescription_Projector.rulePack.rulesStrings.39>subject->literatures</ArtDescription_Projector.rulePack.rulesStrings.39>
+  <ArtDescription_Projector.rulePack.rulesStrings.40>num_of_glitches->an astounding number of</ArtDescription_Projector.rulePack.rulesStrings.40>
+  <ArtDescription_Projector.rulePack.rulesStrings.41>num_of_glitches->a surpising lack of</ArtDescription_Projector.rulePack.rulesStrings.41>
+  <ArtDescription_Projector.rulePack.rulesStrings.42>num_of_glitches->little</ArtDescription_Projector.rulePack.rulesStrings.42>
+  <ArtDescription_Projector.rulePack.rulesStrings.43>num_of_glitches->a few too many</ArtDescription_Projector.rulePack.rulesStrings.43>
+  <ArtDescription_Projector.rulePack.rulesStrings.44>num_of_glitches->an unbelievable number of</ArtDescription_Projector.rulePack.rulesStrings.44>
+  <ArtDescription_Projector.rulePack.rulesStrings.45>num_of_glitches->a refreshingly small number of</ArtDescription_Projector.rulePack.rulesStrings.45>
+  <ArtDescription_Projector.rulePack.rulesStrings.46>num_of_glitches->a miserable amount of</ArtDescription_Projector.rulePack.rulesStrings.46>
+  <ArtDescription_Projector.rulePack.rulesStrings.47>num_of_glitches->a couple of</ArtDescription_Projector.rulePack.rulesStrings.47>
+  <ArtDescription_Projector.rulePack.rulesStrings.48>freq_of_error->rarely</ArtDescription_Projector.rulePack.rulesStrings.48>
+  <ArtDescription_Projector.rulePack.rulesStrings.49>freq_of_error->often</ArtDescription_Projector.rulePack.rulesStrings.49>
+  <ArtDescription_Projector.rulePack.rulesStrings.50>freq_of_error->constantly</ArtDescription_Projector.rulePack.rulesStrings.50>
+  <ArtDescription_Projector.rulePack.rulesStrings.51>freq_of_error->never</ArtDescription_Projector.rulePack.rulesStrings.51>
+  <ArtDescription_Projector.rulePack.rulesStrings.52>freq_of_error->sometimes</ArtDescription_Projector.rulePack.rulesStrings.52>
+  <ArtDescription_Projector.rulePack.rulesStrings.53>freq_of_error->almost never</ArtDescription_Projector.rulePack.rulesStrings.53>
+  <ArtDescription_Projector.rulePack.rulesStrings.54>freq_of_error->frequently</ArtDescription_Projector.rulePack.rulesStrings.54>
+  <ArtDescription_Projector.rulePack.rulesStrings.55>type_of_error->flicker</ArtDescription_Projector.rulePack.rulesStrings.55>
+  <ArtDescription_Projector.rulePack.rulesStrings.56>type_of_error->experience slight hue-shifts</ArtDescription_Projector.rulePack.rulesStrings.56>
+  <ArtDescription_Projector.rulePack.rulesStrings.57>type_of_error->warp by a large degree</ArtDescription_Projector.rulePack.rulesStrings.57>
+  <ArtDescription_Projector.rulePack.rulesStrings.58>type_of_error->warp by a small degree</ArtDescription_Projector.rulePack.rulesStrings.58>
+  <ArtDescription_Projector.rulePack.rulesStrings.59>type_of_error->jiggle</ArtDescription_Projector.rulePack.rulesStrings.59>
+  <ArtDescription_Projector.rulePack.rulesStrings.60>type_of_error->wobble</ArtDescription_Projector.rulePack.rulesStrings.60>
+  <ArtDescription_Projector.rulePack.rulesStrings.61>type_of_error->ripple</ArtDescription_Projector.rulePack.rulesStrings.61>
+  <ArtDescription_Projector.rulePack.rulesStrings.62>type_of_error->sway</ArtDescription_Projector.rulePack.rulesStrings.62>
+  <ArtDescription_Projector.rulePack.rulesStrings.63>type_of_error->cut out for a brief amount of time</ArtDescription_Projector.rulePack.rulesStrings.63>
+  <ArtDescription_Projector.rulePack.rulesStrings.64>type_of_error->switch places</ArtDescription_Projector.rulePack.rulesStrings.64>
+  <ArtDescription_Projector.rulePack.rulesStrings.65>type_of_error->start playback</ArtDescription_Projector.rulePack.rulesStrings.65>
+  <ArtDescription_Projector.rulePack.rulesStrings.66>type_of_error->stop playback</ArtDescription_Projector.rulePack.rulesStrings.66>
+  <ArtDescription_Projector.rulePack.rulesStrings.67>type_of_error->depict files from the wrong folder</ArtDescription_Projector.rulePack.rulesStrings.67>
+  <ArtDescription_Projector.rulePack.rulesStrings.68>type_of_error->interrupted by ads</ArtDescription_Projector.rulePack.rulesStrings.68>
+  <ArtDescription_Projector.rulePack.rulesStrings.69>adverb->violently</ArtDescription_Projector.rulePack.rulesStrings.69>
+  <ArtDescription_Projector.rulePack.rulesStrings.70>adverb->slightly</ArtDescription_Projector.rulePack.rulesStrings.70>
+  <ArtDescription_Projector.rulePack.rulesStrings.71>adverb->indecisivly</ArtDescription_Projector.rulePack.rulesStrings.71>
+  <ArtDescription_Projector.rulePack.rulesStrings.72>adverb->understandably</ArtDescription_Projector.rulePack.rulesStrings.72>
+  <ArtDescription_Projector.rulePack.rulesStrings.73>adverb->enthusiastically</ArtDescription_Projector.rulePack.rulesStrings.73>
+  <ArtDescription_Projector.rulePack.rulesStrings.74>adverb->apathetically</ArtDescription_Projector.rulePack.rulesStrings.74>
+  <ArtDescription_Projector.rulePack.rulesStrings.75>adverb->mysteriously</ArtDescription_Projector.rulePack.rulesStrings.75>
+  <ArtDescription_Projector.rulePack.rulesStrings.76>adverb->undeservingly</ArtDescription_Projector.rulePack.rulesStrings.76>
+  <ArtDescription_Projector.rulePack.rulesStrings.77>adverb->madly</ArtDescription_Projector.rulePack.rulesStrings.77>
+  <ArtDescription_Projector.rulePack.rulesStrings.78>reaction_of_onlookers->depressive</ArtDescription_Projector.rulePack.rulesStrings.78>
+  <ArtDescription_Projector.rulePack.rulesStrings.79>reaction_of_onlookers->annoyed</ArtDescription_Projector.rulePack.rulesStrings.79>
+  <ArtDescription_Projector.rulePack.rulesStrings.80>reaction_of_onlookers->sad</ArtDescription_Projector.rulePack.rulesStrings.80>
+  <ArtDescription_Projector.rulePack.rulesStrings.81>reaction_of_onlookers->frustrated</ArtDescription_Projector.rulePack.rulesStrings.81>
+  <ArtDescription_Projector.rulePack.rulesStrings.82>reaction_of_onlookers->faint</ArtDescription_Projector.rulePack.rulesStrings.82>
+  <ArtDescription_Projector.rulePack.rulesStrings.83>reaction_of_onlookers->uncooperable</ArtDescription_Projector.rulePack.rulesStrings.83>
+  <ArtDescription_Projector.rulePack.rulesStrings.84>reaction_of_onlookers->indecisive</ArtDescription_Projector.rulePack.rulesStrings.84>
+  <ArtDescription_Projector.rulePack.rulesStrings.85>reaction_of_onlookers->fickle</ArtDescription_Projector.rulePack.rulesStrings.85>
+  <ArtDescription_Projector.rulePack.rulesStrings.86>reaction_of_onlookers->stressed</ArtDescription_Projector.rulePack.rulesStrings.86>
+  <ArtDescription_Projector.rulePack.rulesStrings.87>reaction_of_onlookers->anxious</ArtDescription_Projector.rulePack.rulesStrings.87>
+
+
+</LanguageData>

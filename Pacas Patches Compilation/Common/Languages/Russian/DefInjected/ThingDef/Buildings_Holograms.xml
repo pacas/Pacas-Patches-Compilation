@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UnfinishedHologram.label>незаконченная голограмма</UnfinishedHologram.label>
+
+  <SmallProjector.label>небольшой проектор</SmallProjector.label>
+  <SmallProjector.description>Прототипы проекторов для официального использования, такие как этот, оснащены 2 омни-оптическими линзами, а также ранним голографическим проектором, которые в сочетании с аудиосистемой высокого класса предлагают приятные, если не революционные впечатления.</SmallProjector.description>
+  <SmallProjector_Blueprint_Install.label>небольшой проектор (чертеж)</SmallProjector_Blueprint_Install.label>
+
+  <LargeProjector.label>большой проектор</LargeProjector.label>
+  <LargeProjector.description>Как наиболее часто используемый вид проекторов, эта версия предлагает в общей сложности 5 омниоптических линз, теперь включающих новые частоты света, не учитываемые ранее, для создания более визуально ошеломляющих и убедительных изображений.\n\nЭто в сочетании с улучшенными алгоритмами, мощными голографическими проекторами и передовыми вычислительными мощностями позволяет этой модели расширить масштаб проекций своего предшественника и предложить радикально улучшенные аудиовизуальные впечатления.</LargeProjector.description>
+  <LargeProjector_Blueprint_Install.label>большой проектор (чертеж)</LargeProjector_Blueprint_Install.label>
+
+  <GrandProjector.label>огромный проектор</GrandProjector.label>
+  <GrandProjector.description>Самое дорогое и инновационное поколение, которое может позволить себе большинство колоний. Эта модель проектора оснащена огромным количеством из 12 омни-оптических линз, которые теперь могут быть использованы с большей эффективностью благодаря обновленному расположению внутренних компонентов.\n\nГолографические проекционные механизмы были значительно улучшены, а основной процессор может похвастаться невероятной производительностью, способной без проблем справиться с любой задачей в плане визуального моделирования.\n\nКульминацией десятилетий исследований стало то, что это поколение проекторов обладает невиданным ранее диапазоном аудио-визуальных развлечений.</GrandProjector.description>
+  <GrandProjector_Blueprint_Install.label>большой проектор (чертеж)</GrandProjector_Blueprint_Install.label>
+
+  <ProjectorThrone.label>проекционный трон</ProjectorThrone.label>
+  <ProjectorThrone.description>Это высокотехнологичное место для сидения, которое обычно используется богатыми и влиятельными людьми в различных утопических мирах, состоит из довольно мощного голографического проектора в сочетании со сложным массивом из 10 всенаправленных линз.\n\nЭто позволяет пользователю быстро и эффективно предоставить соответствующий визуальный и звуковой материал, чтобы подчеркнуть то, что он хочет донести до публики.</ProjectorThrone.description>
+
+  <GrandProjectorThrone.label>большой проекционный трон</GrandProjectorThrone.label>
+  <GrandProjectorThrone.description>Для самых эксцентричных правителей техники утопических миров разработали этот захватывающий дух образец голографического проектора, который также является очень удобным креслом.\n\n\nДля находящихся в высших эшелонах королевской власти, эти великолепные образцы высокотехнологичной инженерии позволяют заставить подчиненных дрожать от потрясающих дисплеев, которые способно производить это устройство.\n\nБлагодаря сложнейшим массивам всенаправленных линз, в сочетании с высокоэффективным и мощным программным обеспечением для оптимизации любых процессов, это аудиовизуальное чудовище заливает целые тронные залы потрясающими визуальными эффектами.</GrandProjectorThrone.description>
+
+
+  <!-- Small
+	Bodges -->
+
+  <SmallAwfulArtBodge.label>небольшой проектор</SmallAwfulArtBodge.label>
+  <SmallPoorArtBodge.label>небольшой проектор</SmallPoorArtBodge.label>
+  <SmallNormalArtBodge.label>небольшой проектор</SmallNormalArtBodge.label>
+  <SmallGoodArtBodge.label>небольшой проектор</SmallGoodArtBodge.label>
+  <SmallExcellentArtBodge.label>небольшой проектор</SmallExcellentArtBodge.label>
+  <SmallMasterworkArtBodge.label>небольшой проектор</SmallMasterworkArtBodge.label>
+  <SmallLegendaryArtBodge.label>небольшой проектор</SmallLegendaryArtBodge.label>
+
+
+  <!-- Large
+	Bodges -->
+
+  <LargeAwfulArtBodge.label>большой проектор</LargeAwfulArtBodge.label>
+  <LargePoorArtBodge.label>большой проектор</LargePoorArtBodge.label>
+  <LargeNormalArtBodge.label>большой проектор</LargeNormalArtBodge.label>
+  <LargeGoodArtBodge.label>большой проектор</LargeGoodArtBodge.label>
+  <LargeExcellentArtBodge.label>большой проектор</LargeExcellentArtBodge.label>
+  <LargeMasterworkArtBodge.label>большой проектор</LargeMasterworkArtBodge.label>
+  <LargeLegendaryArtBodge.label>большой проектор</LargeLegendaryArtBodge.label>
+
+
+  <!-- Grand
+	Bodges -->
+
+  <GrandAwfulArtBodge.label>огромный проектор</GrandAwfulArtBodge.label>
+  <GrandPoorArtBodge.label>огромный проектор</GrandPoorArtBodge.label>
+  <GrandNormalArtBodge.label>огромный проектор</GrandNormalArtBodge.label>
+  <GrandGoodArtBodge.label>огромный проектор</GrandGoodArtBodge.label>
+  <GrandExcellentArtBodge.label>огромный проектор</GrandExcellentArtBodge.label>
+  <GrandMasterworkArtBodge.label>огромный проектор</GrandMasterworkArtBodge.label>
+  <GrandLegendaryArtBodge.label>огромный проектор</GrandLegendaryArtBodge.label>
+
+
+  <!-- Throne
+	Bodges -->
+
+  <ThroneAwfulArtBodge.label>проекционный трон</ThroneAwfulArtBodge.label>
+  <ThronePoorArtBodge.label>проекционный трон</ThronePoorArtBodge.label>
+  <ThroneNormalArtBodge.label>проекционный трон</ThroneNormalArtBodge.label>
+  <ThroneGoodArtBodge.label>проекционный трон</ThroneGoodArtBodge.label>
+  <ThroneExcellentArtBodge.label>проекционный трон</ThroneExcellentArtBodge.label>
+  <ThroneMasterworkArtBodge.label>проекционный трон</ThroneMasterworkArtBodge.label>
+  <ThroneLegendaryArtBodge.label>проекционный трон</ThroneLegendaryArtBodge.label>
+
+
+  <!-- Grand
+	Throne Bodges -->
+
+  <GrandThroneAwfulArtBodge.label>большой проекционный трон</GrandThroneAwfulArtBodge.label>
+  <GrandThronePoorArtBodge.label>большой проекционный трон</GrandThronePoorArtBodge.label>
+  <GrandThroneNormalArtBodge.label>большой проекционный трон</GrandThroneNormalArtBodge.label>
+  <GrandThroneGoodArtBodge.label>большой проекционный трон</GrandThroneGoodArtBodge.label>
+  <GrandThroneExcellentArtBodge.label>большой проекционный трон</GrandThroneExcellentArtBodge.label>
+  <GrandThroneMasterworkArtBodge.label>большой проекционный трон</GrandThroneMasterworkArtBodge.label>
+  <GrandThroneLegendaryArtBodge.label>большой проекционный трон</GrandThroneLegendaryArtBodge.label>
+
+
+</LanguageData>

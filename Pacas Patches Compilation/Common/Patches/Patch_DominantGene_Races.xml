@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.FindMod">
+        <mods>
+            <li>Dominant Gene</li>
+            <li>Vanilla Races Expanded - Phytokin</li>
+        </mods>
+        <logic>and</logic>
+        <caseTrue> 
+            <Operation Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="VRE_Poluxkin"]/genes</xpath>
+                <value>
+                    <li>DominantGene</li>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.FindMod">
+        <mods>
+            <li>Dominant Gene</li>
+            <li>AsariRace</li>
+        </mods>
+        <logic>and</logic>
+        <caseTrue> 
+            <Operation Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="Baseline_Asari"]/genes</xpath>
+                <value>
+                    <li>DominantGene</li>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+</Patch>

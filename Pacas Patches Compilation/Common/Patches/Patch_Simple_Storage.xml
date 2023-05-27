@@ -7,7 +7,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="JDS_Industrial_Dumpster_Chunk" or defName="JDSwheelbarrow"]/building/fixedStorageSettings/filter/categories</xpath>
+                    <xpath>Defs/ThingDef[defName="JDS_Industrial_Dumpster_Chunk" or defName="JDSwheelbarrow"]/building/fixedStorageSettings/filter/categories</xpath>
                     <value>
                         <li>SoftStoneChunks</li>
                         <li>HardStoneChunks</li>

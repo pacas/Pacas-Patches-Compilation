@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_SmallProjector.label>сделать небольшой проектор</Make_SmallProjector.label>
+  <Make_SmallProjector.description>Cделать небольшой проектор.</Make_SmallProjector.description>
+  <Make_SmallProjector.jobString>Делает небольшой проектор.</Make_SmallProjector.jobString>
+
+  <Make_LargeProjector.label>сделать большой проектор</Make_LargeProjector.label>
+  <Make_LargeProjector.description>Cделать большой проектор.</Make_LargeProjector.description>
+  <Make_LargeProjector.jobString>Делает большой проектор.</Make_LargeProjector.jobString>
+
+  <Make_GrandProjector.label>сделать огромный проектор</Make_GrandProjector.label>
+  <Make_GrandProjector.description>Сделать огромный проектор.</Make_GrandProjector.description>
+  <Make_GrandProjector.jobString>Делает огромный проектор.</Make_GrandProjector.jobString>
+
+
+</LanguageData>

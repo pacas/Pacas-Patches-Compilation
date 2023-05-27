@@ -6,13 +6,12 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
+                <!--Всякая хрень для переставления-->
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "CommsConsole"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "CommsConsole"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "CommsConsole"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "CommsConsole"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                             <thingCategories>
@@ -22,19 +21,17 @@
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "CommsConsole"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "CommsConsole"]/statBases</xpath>
                     <value>
                         <Bulk>70</Bulk>
                         <Mass>35</Mass>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "CommsConsole"]/building
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "CommsConsole"]/building</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "CommsConsole"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "CommsConsole"]</xpath>
                         <value>
                             <building>
                                 <uninstallWork>800</uninstallWork>
@@ -42,57 +39,51 @@
                         </value>
                     </nomatch>
                     <match Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName="CommsConsole"]/building</xpath>
+                        <xpath>Defs/ThingDef[defName="CommsConsole"]/building</xpath>
                         <value>
                             <uninstallWork>800</uninstallWork>
                         </value>
                     </match>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "SimpleResearchBench"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "SimpleResearchBench"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                         </value>
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/statBases</xpath>
                     <value>
                         <Bulk>60</Bulk>
                         <Mass>30</Mass>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "HiTechResearchBench"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                         </value>
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/statBases</xpath>
                     <value>
                         <Bulk>70</Bulk>
                         <Mass>50</Mass>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "GroundPenetratingScanner"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                             <thingCategories>
@@ -102,19 +93,17 @@
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/statBases</xpath>
                     <value>
                         <Bulk>200</Bulk>
                         <Mass>100</Mass>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "GroundPenetratingScanner"]/building
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/building</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
                         <value>
                             <building>
                                 <uninstallWork>1200</uninstallWork>
@@ -122,19 +111,17 @@
                         </value>
                     </nomatch>
                     <match Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]/building</xpath>
+                        <xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]/building</xpath>
                         <value>
                             <uninstallWork>1200</uninstallWork>
                         </value>
                     </match>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "ElectricStove"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "ElectricStove"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "ElectricStove"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                             <thingCategories>
@@ -144,19 +131,17 @@
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "ElectricStove"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove"]/statBases</xpath>
                     <value>
                         <Mass>80</Mass>
                         <Bulk>200</Bulk>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "ElectricStove"]/building
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove"]/building</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "ElectricStove"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "ElectricStove"]</xpath>
                         <value>
                             <building>
                                 <uninstallWork>1250</uninstallWork>
@@ -164,19 +149,17 @@
                         </value>
                     </nomatch>
                     <match Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName="ElectricStove"]/building</xpath>
+                        <xpath>Defs/ThingDef[defName="ElectricStove"]/building</xpath>
                         <value>
                             <uninstallWork>1250</uninstallWork>
                         </value>
                     </match>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "ElectricStove_Pro"]/minifiedDef
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]/minifiedDef</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "ElectricStove_Pro"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]</xpath>
                         <value>
                             <minifiedDef>MinifiedThing</minifiedDef>
                             <thingCategories>
@@ -186,19 +169,17 @@
                     </nomatch>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName = "ElectricStove_Pro"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]/statBases</xpath>
                     <value>
                         <Mass>80</Mass>
                         <Bulk>200</Bulk>
                     </value>
                 </li>
                 <li Class="PatchOperationConditional">
-                    <xpath>
-                          /Defs/ThingDef[defName = "ElectricStove_Pro"]/building
-                            </xpath>
+                    <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]/building</xpath>
                     <success>Always</success>
                     <nomatch Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName = "ElectricStove_Pro"]</xpath>
+                        <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]</xpath>
                         <value>
                             <building>
                                 <uninstallWork>1500</uninstallWork>
@@ -206,11 +187,74 @@
                         </value>
                     </nomatch>
                     <match Class="PatchOperationAdd">
-                        <xpath>/Defs/ThingDef[defName="ElectricStove_Pro"]/building</xpath>
+                        <xpath>Defs/ThingDef[defName="ElectricStove_Pro"]/building</xpath>
                         <value>
                             <uninstallWork>1500</uninstallWork>
                         </value>
                     </match>
+                </li>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]/minifiedDef</xpath>
+                    <success>Always</success>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]</xpath>
+                        <value>
+                            <minifiedDef>MinifiedThing</minifiedDef>
+                            <thingCategories>
+                                <li>BuildingsMisc</li>
+                            </thingCategories>
+                        </value>
+                    </nomatch>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]/statBases</xpath>
+                    <value>
+                        <Mass>80</Mass>
+                        <Bulk>200</Bulk>
+                    </value>
+                </li>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]/building</xpath>
+                    <success>Always</success>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName = "AncientCryptosleepCasket"]</xpath>
+                        <value>
+                            <building>
+                                <uninstallWork>1250</uninstallWork>
+                            </building>
+                        </value>
+                    </nomatch>
+                    <match Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="AncientCryptosleepCasket"]/building</xpath>
+                        <value>
+                            <uninstallWork>1250</uninstallWork>
+                        </value>
+                    </match>
+                </li>
+                <!--Полезный тяжелый провод-->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName = "HeavyPowerConduit"]/statBases/MaxHitPoints</xpath>
+                    <value>
+                        <MaxHitPoints>400</MaxHitPoints>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName = "HeavyPowerConduit"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <Wire>2</Wire>
+                            <Rubber>1</Rubber>
+                            <ConcreteResource>1</ConcreteResource>
+                            <Plasteel>1</Plasteel>
+                        </costList>
+                    </value>
+                </li>
+                <!--Категории-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="TrayRackSingle" or defName="FoodDisplayCounter"]/building/fixedStorageSettings/filter/categories</xpath>
+                    <value>
+                        <li>Energetics</li>
+                    </value>
                 </li>
             </operations>
         </match>

@@ -16,6 +16,9 @@ Updated all patches from 1.3 conversion by PirateBy.
 **[Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976)**<br>
 Full convertion with patched MSE2 support.
 
+**[Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898)**<br>
+Dominant gene for Asari (if enabled) and Phytokins from VRE (if installed).
+
 **[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
 Patch for both [Tropical Rainforest](https://steamcommunity.com/sharedfiles/filedetails/?id=2794752505) and [Temperate Forest](https://steamcommunity.com/sharedfiles/filedetails/?id=2591791695). Don't forget to install [Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049).
   Changes:
@@ -35,9 +38,13 @@ New jewels category and SurvivalTools stats.
 **[RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
 HSK races patch (1.3 only until Har is fixed)
 
-### Construction cost change | Изменение стоимости строительства: 
+### Construction/Recipes cost change | Изменение стоимости строительства/рецептов: 
+
+**[EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490)**<br>
+Plus changed research to Enjoyment D1
 
 **[RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460)**<br>
+**[Simple Slavery Collars](https://steamcommunity.com/sharedfiles/filedetails/?id=2557274194)**<br>
 **[Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720)**<br>
 
 ### Categories swap | Замена категорий предметов: 
@@ -48,28 +55,16 @@ HSK races patch (1.3 only until Har is fixed)
 **[Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998)**<br>
 An additional category that has no place in default coversion
 
-## Only CE patch | Патч для CE:
+## Only CombatExtended patch | Только патч для CombatExtended:
 
+**[Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502)**<br>
 **[Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495)**<br>
-
 **[Vanilla Races Expanded - Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)**<br>
-
 **[Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783)**<br>
-Will be expanded
-
 **[Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421)**<br>
-Will be expanded
-
 **[Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182)**<br>
-Will be expanded
-
 **[Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519)**<br>
-Will be expanded
-
 **[Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
-
 **[Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331)**<br>
-
 **[Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069)**<br>
-
 **[RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117)**<br>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/TorannMagic.MagicRecipeDef/ingredients/li[1]/filter/thingDefs</xpath>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.IfStatement">
+                <condition Class="XmlExtensions.Boolean.Comparison">
+                    <value1>{DEF}/ingredients/li[1]/filter/thingDefs/li</value1>
+                    <fromXml1>true</fromXml1>
+                    <value2>RawMagicyte</value2>
+                    <relation>eq</relation>
+                    <nonNumeric>true</nonNumeric>
+                </condition>
+                <caseTrue> 
+                    <Operation Class="XmlExtensions.PatchOperationMath">
+                        <xpath>{DEF}/ingredients/li[1]/count</xpath>
+                        <value>0.25</value>
+                        <operation>*</operation>
+                    </Operation>
+                    <Operation Class="XmlExtensions.CreateVariable">
+                        <storeIn>rawMagicyteCount</storeIn>
+                        <value>{DEF}/ingredients/li[1]/count</value>
+                        <fromXml>true</fromXml>
+                        <operation>roundnearest</operation>
+                        <apply>
+                            <Operation Class="XmlExtensions.PatchOperationReplace">
+                                <xpath>{DEF}/ingredients/li[1]/filter/thingDefs</xpath>
+                                <value>
+                                    <thingDefs>
+                                        <li>PureMagicyteBar</li>
+                                    </thingDefs>
+                                </value>
+                            </Operation>
+                            <!--just for the roundnearest operation-->
+                            <Operation Class="XmlExtensions.PatchOperationReplace">
+                                <xpath>{DEF}/ingredients/li[1]/count</xpath>
+                                <value>
+                                    <count>{rawMagicyteCount}</count>
+                                </value>
+                            </Operation>
+                        </apply>
+                    </Operation>
+                </caseTrue>
+            </Operation>
+        </apply>
+    </Operation>
+</Patch>

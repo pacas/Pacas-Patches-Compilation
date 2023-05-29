@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimJobWorld</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!--<li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadHD"]/disablesNeeds</xpath>
+                    <value>
+                        <li>Sex</li>
+                    </value>
+                </li>-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadHD"]/stages/node()</xpath>
+                    <value>
+                        <statFactors MayRequire="Ludeon.RimWorld.Biotech">
+                            <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
+                            <SexFrequency>0</SexFrequency>
+                        </statFactors>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadHD"]/stages/node()/capMods</xpath>
+                    <value>
+                        <li>
+                            <capacity>RJW_Fertility</capacity>
+                            <setMax>0</setMax>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    
+    <!--<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RJW Race Support</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadHD"]/stages/node()</xpath>
+                    <value>
+                        <hediffGivers>
+                            <li Class="RoM_SupportUtility.HediffGiver_Once_GenderSpecific">
+                                <hediff>HeartAttack</hediff>
+                                <female>
+                                    <hediffs>
+                                        <li>NecroBreasts</li>
+                                        <li>NecroAnus</li>
+                                        <li>NecroVagina</li>
+                                    </hediffs>
+                                    <parts>
+                                        <li>Chest</li>
+                                        <li>Anus</li>
+                                        <li>Genitals</li>
+                                    </parts>
+                                </female>
+                                <male>
+                                    <hediffs>
+                                        <!{2}**<li>NecroBreasts</li>**{2}>
+                                        <li>NecroAnus</li>
+                                        <li>NecroPenis</li>
+                                    </hediffs>
+                                    <parts>
+                                        <!{2}**<li>Chest</li>**{2}>
+                                        <li>Anus</li>
+                                        <li>Genitals</li>
+                                    </parts>
+                                </male>
+                            </li>
+                        </hediffGivers>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadAnimalHD"]/stages/node()</xpath>
+                    <value>
+                        <hediffGivers>
+                            <li Class="RoM_SupportUtility.HediffGiver_Once_GenderSpecific">
+                                <hediff>HeartAttack</hediff>
+                                <female>
+                                    <hediffs>
+                                        <li>NecroAnus</li>
+                                        <li>NecroVagina</li>
+                                    </hediffs>
+                                    <parts>
+                                        <li>Anus</li>
+                                        <li>Genitals</li>
+                                    </parts>
+                                </female>
+                                <male>
+                                    <hediffs>
+                                        <li>NecroAnus</li>
+                                        <li>NecroPenis</li>
+                                    </hediffs>
+                                    <parts>
+                                        <li>Anus</li>
+                                        <li>Genitals</li>
+                                    </parts>
+                                </male>
+                            </li>
+                        </hediffGivers>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffDef[defName="TM_UndeadStageHD"]/stages/li[2]</xpath>
+                    <value>
+                        <hediffGivers>
+                            <li Class="RoM_SupportUtility.HediffRemover_Once_GenderSpecific">
+                                <hediff>HeartAttack</hediff>
+                                <female>
+                                    <hediffs>
+                                        <li>NecroAnus</li>
+                                        <li>NecroVagina</li>
+                                    </hediffs>
+                                </female>
+                                <male>
+                                    <hediffs>
+                                        <li>NecroAnus</li>
+                                        <li>NecroPenis</li>
+                                    </hediffs>
+                                </male>
+                            </li>
+                        </hediffGivers>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>-->
+</Patch>

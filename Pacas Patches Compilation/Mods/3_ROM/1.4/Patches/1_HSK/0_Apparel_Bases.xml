@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ThingDef Name="TM_ApparelBase_SK" ParentName="SK_ApparelBase" Abstract="True">
+                <thingCategories>
+                    <li>TM_MagicApparel</li>
+                </thingCategories>
+                <techLevel>Medieval</techLevel>
+                <modExtensions Inherit="False"/>
+                <tradeTags>
+                    <li>Arcane</li>
+                </tradeTags>
+                <inspectorTabs>
+                    <li>TorannMagic.Enchantment.ITab_Enchantment</li>
+                </inspectorTabs>
+            </ThingDef>
+    
+            <ThingDef Name="TM_CraftableApparelBase_SK" ParentName="TM_ApparelBase_SK" Abstract="True">
+                <recipeMaker>
+                    <workSpeedStat>TailoringSpeed</workSpeedStat>
+                    <workSkill>Crafting</workSkill>
+                    <effectWorking>Tailor</effectWorking>
+                    <soundWorking>Recipe_Tailor</soundWorking>
+                    <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                </recipeMaker>
+            </ThingDef>
+    
+            <ThingDef Name="TM_CraftableApparelBasic_SK" ParentName="TM_CraftableApparelBase_SK" Abstract="True">
+                <recipeMaker>
+                    <recipeUsers>
+                        <li>HandTailoringBench</li>
+                        <li>ElectricTailoringBench</li>
+                    </recipeUsers>
+                    <skillRequirements>
+                        <Intellectual>3</Intellectual>
+                        <Crafting>5</Crafting>
+                    </skillRequirements>
+                    <researchPrerequisite>
+                        <li>TM_ArcaneCrafting</li>
+                    </researchPrerequisite>
+                </recipeMaker>
+            </ThingDef>
+    
+            <ThingDef Name="TM_CraftableApparelMid_SK" ParentName="TM_CraftableApparelBase_SK" Abstract="True">
+                <recipeMaker>
+                    <recipeUsers>
+                        <li>HandTailoringBench</li>
+                        <li>ElectricTailoringBench</li>
+                    </recipeUsers>
+                    <skillRequirements>
+                        <Intellectual>6</Intellectual>
+                        <Crafting>9</Crafting>
+                    </skillRequirements>
+                    <researchPrerequisite>
+                        <li>TM_ArcaneApparel</li>
+                    </researchPrerequisite>
+                </recipeMaker>
+            </ThingDef>
+    
+            <ThingDef Name="TM_CraftableApparelArt_SK" ParentName="TM_CraftableApparelBase_SK" Abstract="True">
+                <recipeMaker>
+                    <recipeUsers>
+                        <li>TableArcaneForge</li>
+                    </recipeUsers>
+                    <skillRequirements>
+                        <Intellectual>10</Intellectual>
+                        <Crafting>15</Crafting>
+                    </skillRequirements>
+                    <researchPrerequisite>
+                        <li>TM_ArcaneArtifacts</li>
+                    </researchPrerequisite>
+                </recipeMaker>
+            </ThingDef>
+    
+            <ThingDef Name="TM_CraftableArmorBase_SK" ParentName="TM_ApparelBase_SK" Abstract="True">
+                <thingCategories Inherit="False">
+                    <li>TM_MagicArmor</li>
+                </thingCategories>
+                <recipeMaker>
+                    <workSpeedStat>SmithingSpeed</workSpeedStat>
+                    <workSkill>Crafting</workSkill>
+                    <effectWorking>Smith</effectWorking>
+                    <soundWorking>Recipe_Machining</soundWorking>
+                    <recipeUsers>
+                        <li>FueledSmithy</li>
+                        <li>ElectricSmithy</li>
+                    </recipeUsers>
+                    <skillRequirements>
+                        <Intellectual>6</Intellectual>
+                        <Crafting>12</Crafting>
+                    </skillRequirements>
+                    <researchPrerequisite>
+                        <li>TM_ArcaneApparel</li>
+                    </researchPrerequisite>
+                    <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                </recipeMaker>
+            </ThingDef>
+        </value>
+    </Operation>
+			
+</Patch>

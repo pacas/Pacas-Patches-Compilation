@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]/workSpeedStat</xpath>
+                <value>
+                    <workSpeedStat>TailoringSpeed</workSpeedStat>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]/workAmount</xpath>
+                <value>
+                    <workAmount>3000</workAmount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]/workSkill</xpath>
+                <value>
+                    <workSkill>Crafting</workSkill>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>4</Intellectual>
+                        <Crafting>5</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]</xpath>
+                <value>
+                    <recipeUsers>
+                        <li>TableLoom</li>
+                    </recipeUsers>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeManaweave"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Cloth</li>
+                                </thingDefs>
+                            </filter>
+                            <count>30</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableArcaneForge"]/recipes</xpath>
+                <value>
+                    <recipes>
+                        <li>TM_MakeArcalleum</li>
+                    </recipes>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeArcalleum"]/description</xpath>
+                <value>
+                    <description>Meld iron ore, jade, silver and raw magicyte into arcalleum alloy. Produces 25.</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeArcalleum"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>7</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeArcalleum"]/products</xpath>
+                <value>
+                    <products>
+                        <TM_Arcalleum>25</TM_Arcalleum>
+                    </products>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_MakeArcalleum"]/workSkill</xpath>
+                <value>
+                    <workSkill>Crafting</workSkill>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="ManaPotion"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="ManaPotion"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="ManaPotion"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>VG_DrugBase</value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="ManaPotion"]/recipeMaker</xpath>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_LightPodLeaving.label>луч света (уходящий)</TM_LightPodLeaving.label>
+  <TM_LightPodIncoming.label>световой луч (входящий)</TM_LightPodIncoming.label>
+  <TM_ActiveLightPod.label>световой пучок</TM_ActiveLightPod.label>
+
+  <TM_Firestorm_Large.label>огненный шторм (большой)</TM_Firestorm_Large.label>
+  <TM_Firestorm_Small.label>огненный шторм (маленький)</TM_Firestorm_Small.label>
+  <TM_Firestorm_Tiny.label>огненный шторм (крошечный)</TM_Firestorm_Tiny.label>
+  <TM_Blizzard_Tiny.label>буря (крошечный)</TM_Blizzard_Tiny.label>
+  <TM_Blizzard_Small.label>буря (маленький)</TM_Blizzard_Small.label>
+  <TM_Blizzard_Large.label>буря (большой)</TM_Blizzard_Large.label>
+  <TM_ArrowStorm.label>град стрел</TM_ArrowStorm.label>
+  <TM_ScornLeaving.label>презрительный уход</TM_ScornLeaving.label>
+  <TM_ScornIncoming.label>презрительный уход</TM_ScornIncoming.label>
+  <TM_Meteorite.label>метеорит</TM_Meteorite.label>
+  <TM_Meteorite_I.label>метеорит</TM_Meteorite_I.label>
+  <TM_Meteorite_II.label>метеорит</TM_Meteorite_II.label>
+  <TM_Meteorite_III.label>метеорит</TM_Meteorite_III.label>
+
+
+</LanguageData>

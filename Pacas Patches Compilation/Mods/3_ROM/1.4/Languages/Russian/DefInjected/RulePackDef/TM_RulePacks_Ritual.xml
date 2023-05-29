@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<NamerRitualGifting.rulePack.rulesStrings.0>r_ritualName->[ritNoun] [keyDeity]</NamerRitualGifting.rulePack.rulesStrings.0>
+<NamerRitualGifting.rulePack.rulesStrings.1>r_ritualName->[ritNoun] [chosenTheme]</NamerRitualGifting.rulePack.rulesStrings.1>
+<NamerRitualGifting.rulePack.rulesStrings.2>r_ritualName->[ritNoun] [memeConcept]</NamerRitualGifting.rulePack.rulesStrings.2>
+<NamerRitualGifting.rulePack.rulesStrings.3>r_ritualName->[memeAdjective] [ritNoun]</NamerRitualGifting.rulePack.rulesStrings.3>
+<NamerRitualGifting.rulePack.rulesStrings.4>ritNoun->одаривание</NamerRitualGifting.rulePack.rulesStrings.4>
+<NamerRitualGifting.rulePack.rulesStrings.5>ritNoun->восходящий</NamerRitualGifting.rulePack.rulesStrings.5>
+<NamerRitualGifting.rulePack.rulesStrings.6>ritNoun->становящийся</NamerRitualGifting.rulePack.rulesStrings.6>
+<NamerRitualGifting.rulePack.rulesStrings.7>ritNoun->просветление</NamerRitualGifting.rulePack.rulesStrings.7>
+<NamerRitualGifting.rulePack.rulesStrings.8>ritNoun->наведение мостов</NamerRitualGifting.rulePack.rulesStrings.8>
+<NamerRitualGifting.rulePack.rulesStrings.9>ritNoun->связывающий</NamerRitualGifting.rulePack.rulesStrings.9>
+<NamerRitualGifting.rulePack.rulesStrings.10>ritNoun->слияние</NamerRitualGifting.rulePack.rulesStrings.10>
+<NamerRitualGifting.rulePack.rulesStrings.11>ritNoun->зовущий</NamerRitualGifting.rulePack.rulesStrings.11>
+<NamerRitualGifting.rulePack.rulesStrings.12>ritNoun->ясность</NamerRitualGifting.rulePack.rulesStrings.12>
+<NamerRitualGifting.rulePack.rulesStrings.13>ritNoun->восхождение</NamerRitualGifting.rulePack.rulesStrings.13>
+<NamerRitualGifting.rulePack.rulesStrings.14>ritNoun->пробуждение</NamerRitualGifting.rulePack.rulesStrings.14>
+<NamerRitualGifting.rulePack.rulesStrings.15>ritNoun->вызывающий</NamerRitualGifting.rulePack.rulesStrings.15>
+
+<NamerRitualMindMutilation.rulePack.rulesStrings.0>r_ritualName->[ritNoun] [keyDeity]</NamerRitualMindMutilation.rulePack.rulesStrings.0>
+<NamerRitualMindMutilation.rulePack.rulesStrings.1>r_ritualName->[ritNoun] [chosenTheme]</NamerRitualMindMutilation.rulePack.rulesStrings.1>
+<NamerRitualMindMutilation.rulePack.rulesStrings.2>r_ritualName->[ritNoun] [memeConcept]</NamerRitualMindMutilation.rulePack.rulesStrings.2>
+<NamerRitualMindMutilation.rulePack.rulesStrings.3>r_ritualName->[memeAdjective] [ritNoun]</NamerRitualMindMutilation.rulePack.rulesStrings.3>
+<NamerRitualMindMutilation.rulePack.rulesStrings.4>ritNoun->увечье духа</NamerRitualMindMutilation.rulePack.rulesStrings.4>
+<NamerRitualMindMutilation.rulePack.rulesStrings.5>ritNoun->режущая душу</NamerRitualMindMutilation.rulePack.rulesStrings.5>
+<NamerRitualMindMutilation.rulePack.rulesStrings.6>ritNoun->разрезание души</NamerRitualMindMutilation.rulePack.rulesStrings.6>
+<NamerRitualMindMutilation.rulePack.rulesStrings.7>ritNoun->разрывающий</NamerRitualMindMutilation.rulePack.rulesStrings.7>
+<NamerRitualMindMutilation.rulePack.rulesStrings.8>ritNoun->захват разума</NamerRitualMindMutilation.rulePack.rulesStrings.8>
+<NamerRitualMindMutilation.rulePack.rulesStrings.9>ritNoun->разрывающий разум</NamerRitualMindMutilation.rulePack.rulesStrings.9>
+<NamerRitualMindMutilation.rulePack.rulesStrings.10>ritNoun->калечащая душу</NamerRitualMindMutilation.rulePack.rulesStrings.10>
+<NamerRitualMindMutilation.rulePack.rulesStrings.11>ritNoun->вырезание разума</NamerRitualMindMutilation.rulePack.rulesStrings.11>
+<NamerRitualMindMutilation.rulePack.rulesStrings.12>ritNoun->укрепление духа</NamerRitualMindMutilation.rulePack.rulesStrings.12>
+<NamerRitualMindMutilation.rulePack.rulesStrings.13>ritNoun->душераздирающий</NamerRitualMindMutilation.rulePack.rulesStrings.13>
+<NamerRitualMindMutilation.rulePack.rulesStrings.14>ritNoun->молчание</NamerRitualMindMutilation.rulePack.rulesStrings.14>
+<NamerRitualMindMutilation.rulePack.rulesStrings.15>ritNoun->успокаивающий</NamerRitualMindMutilation.rulePack.rulesStrings.15>
+<NamerRitualMindMutilation.rulePack.rulesStrings.16>ritNoun->подавление</NamerRitualMindMutilation.rulePack.rulesStrings.16>
+
+</LanguageData>

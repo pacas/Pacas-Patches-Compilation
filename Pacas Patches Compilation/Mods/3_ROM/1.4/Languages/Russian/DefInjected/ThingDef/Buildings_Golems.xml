@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_MechaGolem_Workstation.label>бездействующий меха-голем</TM_MechaGolem_Workstation.label>
+  <TM_MechaGolem_Workstation.description>Бездействующий меха-голем. Дизайн меха-голема сочетает в себе промышленную инженерию с магическими атрибутами, чтобы воплотить в жизнь роботизированную конструкцию. Этот голем может подключаться к существующим электросетям, чтобы ускорить скорость зарядки. В дополнение к основным задачам, таким как транспортировка и очистка, меха-голем может быть оснащен шахтным лазером для быстрого бурения в горной породе. Меха-големы сочетают в своем арсенале как промышленное, так и простое оружие и броню.
+
+В состоянии покоя голем может быть изменен или улучшен. Меха-голем медленно перезаряжает энергию сам по себе, но доступ к источникам энергии увеличит скорость перезарядки. Голем также может подавать энергию в электрическую сеть, когда возникает дефицит электроэнергии.</TM_MechaGolem_Workstation.description>
+  <TM_MechaGolem_Workstation_Blueprint_Install.label>бездействующий меха-голем (чертеж)</TM_MechaGolem_Workstation_Blueprint_Install.label>
+
+  <TM_UnfinishedMechaGolem.label>незаконченный меха-голем</TM_UnfinishedMechaGolem.label>
+  <TM_UnfinishedMechaGolem.description>Незаконченный меха-голем.</TM_UnfinishedMechaGolem.description>
+
+  <TM_UnfinishedMechaGolemUpgrade.label>незавершенное обновление меха-голема</TM_UnfinishedMechaGolemUpgrade.label>
+  <TM_UnfinishedMechaGolemUpgrade.description>Незавершенное обновление меха-голема.</TM_UnfinishedMechaGolemUpgrade.description>
+
+  <TM_FleshGolem_Workstation.label>спящий голем из плоти</TM_FleshGolem_Workstation.label>
+  <TM_FleshGolem_Workstation.description>Спящий голем из плоти. Големы из плоти - это двуногая масса органического вещества, состоящая в основном из частей тел умерших существ. Голем из плоти - грозный боец с множеством атак и способностей, которые еще больше увеличивают его смертоносность. В дополнение к основным задачам, таким как транспортировка и уборка, голем из плоти может использовать прикрепленные тесаки для сбора урожая деревьев или растений. 
+	
+В состоянии покоя голем может быть изменен или улучшен. Голем из плоти медленно перезаряжает энергию сам по себе, но снабжение его свежим мясом увеличит скорость перезарядки.</TM_FleshGolem_Workstation.description>
+  <TM_FleshGolem_Workstation_Blueprint_Install.label>спящий голем из плоти (чертеж)</TM_FleshGolem_Workstation_Blueprint_Install.label>
+
+  <TM_UnfinishedFleshGolem.label>незаконченный голем из плоти</TM_UnfinishedFleshGolem.label>
+  <TM_UnfinishedFleshGolem.description>Незаконченный голем из плоти.</TM_UnfinishedFleshGolem.description>
+
+  <TM_UnfinishedFleshGolemUpgrade.label>незавершенный апгрейд голема из плоти</TM_UnfinishedFleshGolemUpgrade.label>
+  <TM_UnfinishedFleshGolemUpgrade.description>Незавершенное обновление голема из плоти.</TM_UnfinishedFleshGolemUpgrade.description>
+
+  <TM_HollowGolem_Workstation.label>дремлющий полый голем</TM_HollowGolem_Workstation.label>
+  <TM_HollowGolem_Workstation.description>Дремлющий полый голем. Пустотелые големы представляют собой комбинацию конденсированной маны, привязанной и защищенной различными частями брони. В своей бездействующей форме полый голем выглядит как пустой доспех. Этот голем использует окружающую ману для подпитки себя, что может привести к общему снижению, даже отрицательному, скорости регенерации маны для магов. Это сокращение сочетается с существующими магами и паразитическими колючими кустами. В дополнение к основным задачам, таким как транспортировка и уборка, полый голем может быть оснащен для обеспечения освещения, увеличения исследований и действия в качестве минометной системы. Будучи существом с анимированной маной, они способны использовать множество форм магической энергии, не страдая от человеческих слабостей.
+	
+В состоянии покоя голем может быть изменен или улучшен. Полый голем медленно перезаряжает энергию сам по себе, но может быть переключен на получение маны от ближайших магов.</TM_HollowGolem_Workstation.description>
+  <TM_HollowGolem_Workstation_Blueprint_Install.label>спящий полый голем (чертеж)</TM_HollowGolem_Workstation_Blueprint_Install.label>
+
+  <TM_UnfinishedHollowGolem.label>незаконченный полый голем</TM_UnfinishedHollowGolem.label>
+  <TM_UnfinishedHollowGolem.description>Незаконченный полый голем.</TM_UnfinishedHollowGolem.description>
+
+  <TM_UnfinishedHollowGolemUpgrade.label>незавершенный апгрейд голема</TM_UnfinishedHollowGolemUpgrade.label>
+  <TM_UnfinishedHollowGolemUpgrade.description>Незаконченный апгрейд голема.</TM_UnfinishedHollowGolemUpgrade.description>
+
+  <TM_StoneGolem_Workstation.label>спящий каменный голем</TM_StoneGolem_Workstation.label>
+  <TM_StoneGolem_Workstation.description>Каменные големы применяют основные принципы големантии и представляют собой простые конструкции из камня и породы, придающие им гуманоидную форму. Несмотря на простоту и дешевизну, каменный голем не обработан и в значительной степени зависит от магических рун для мобильности. Материальный вес и зависимость от магической силы для оживления делают каменного голема медленным, но его трудно уничтожить. В своей бездействующей форме каменный голем может быть усилен с помощью уплотнителя породы, который представляет собой автоматизированный процесс, который дробит породу и формирует из нее кирпичи. Этот процесс требует энергии и каменных кусков, которые должны быть помещены в голема.
+
+В состоянии покоя голем может быть изменен или улучшен. Полый голем медленно перезаряжает энергию сам по себе. Активация этого голема занимает до 10 секунд.</TM_StoneGolem_Workstation.description>
+  <TM_StoneGolem_Workstation_Blueprint_Install.label>спящий каменный голем (чертеж)</TM_StoneGolem_Workstation_Blueprint_Install.label>
+
+  <TM_UnfinishedStoneGolem.label>Незаконченный каменный голем.</TM_UnfinishedStoneGolem.label>
+  <TM_UnfinishedStoneGolem.description>Незаконченный каменный голем.</TM_UnfinishedStoneGolem.description>
+
+  <TM_UnfinishedStoneGolemUpgrade.label>незавершенный апгрейд голема</TM_UnfinishedStoneGolemUpgrade.label>
+  <TM_UnfinishedStoneGolemUpgrade.description>Незаконченный апгрейд голема.</TM_UnfinishedStoneGolemUpgrade.description>
+
+  <TM_MaharalGolem_Workstation.label>спящий голем махарал</TM_MaharalGolem_Workstation.label>
+  <TM_MaharalGolem_Workstation.description>Големы Махарала применяют основные принципы големантии и представляют собой простые конструкции из глины, завернутые в кожу. Голем махарал способен выполнять основные задачи и защищаться. В своей спящей форме голем махарал может быть усилен, чтобы выделять небольшое количество тепла и энергии.
+	
+В состоянии покоя голем может быть изменен или улучшен. Полый голем медленно перезаряжает энергию сам по себе. Активация этого голема занимает до 5 секунд.</TM_MaharalGolem_Workstation.description>
+  <TM_MaharalGolem_Workstation_Blueprint_Install.label>бездействующий голем махарал (чертеж)</TM_MaharalGolem_Workstation_Blueprint_Install.label>
+
+  <TM_UnfinishedMaharalGolem.label>Незаконченный голем махарала.</TM_UnfinishedMaharalGolem.label>
+  <TM_UnfinishedMaharalGolem.description>Незаконченный голем махарала.</TM_UnfinishedMaharalGolem.description>
+
+  <TM_UnfinishedMaharalGolemUpgrade.label>незавершенный апгрейд голема</TM_UnfinishedMaharalGolemUpgrade.label>
+  <TM_UnfinishedMaharalGolemUpgrade.description>Незаконченный апгрейд голема.</TM_UnfinishedMaharalGolemUpgrade.description>
+
+
+</LanguageData>

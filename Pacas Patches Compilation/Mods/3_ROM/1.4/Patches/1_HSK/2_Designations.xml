@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<DesignationCategoryDef>
+				<defName>MagicRoM</defName>
+				<label>magic</label>
+				<order>9</order>
+			</DesignationCategoryDef>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@ParentName="MagicBenchBase" or @ParentName="TM_BuildingBase"]/designationCategory[text()]</xpath>
+		<value>
+			<designationCategory>MagicRoM</designationCategory>
+		</value>
+	</Operation>
+			
+</Patch>

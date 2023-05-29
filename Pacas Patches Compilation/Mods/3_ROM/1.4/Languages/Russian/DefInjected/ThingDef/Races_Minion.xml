@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Minion Race -->
+
+  <TM_MinionR.label>миньон</TM_MinionR.label>
+  <TM_MinionR.description>Миньоны-это озорные, ленивые, жестокие трусы, которые приходят из жалкого плана существования.  Они выглядят как плавающие фрикадельки с гигантским глазом.  У них короткие руки, рот, который, кажется, застыл в мерзкой улыбке, и два или три рога.
+Непонятно, как они передвигаются, хотя можно только предположить, что это как-то связано с горячим, гнилостным зловонием, которое преследует их повсюду.
+Их полезность открыта для обсуждения; они мало обладают боевыми способностями и скорее убегут, чем вступят в бой.  Они-могут-выполнять простые задачи, такие как транспортировка и очистка (хотя у них, кажется, есть другое определение "чистого").  Тем не менее, кажется более вероятным, что они будут бездельничать возле телевизора или курить косяк (или и то, и другое), чем делать что-либо продуктивное.
+Они могут быть вызваны легковерными... э-э, обученные маги, и в обмен на то, чтобы дать им отдохнуть от их "дьявольского босса", они готовы "помогать" по всему дому.
+Иногда они выражают желание ударить по предметам, и их можно (как правило) убедить ударить по каким-нибудь близлежащим камням.
+Если им становится слишком тяжело или им становится скучно, они убегают туда, откуда пришли.</TM_MinionR.description>
+  <TM_MinionR.tools.0.label>рога</TM_MinionR.tools.0.label>
+  <TM_MinionR.tools.1.label>укус</TM_MinionR.tools.1.label>
+  <TM_MinionR_Leather.label>кожа миньона</TM_MinionR_Leather.label>
+  <TM_MinionR_Leather.description>кожа миньона</TM_MinionR_Leather.description>
+  <TM_MinionR_Leather.stuffProps.stuffAdjective>кожа миньона</TM_MinionR_Leather.stuffProps.stuffAdjective>
+  <TM_MinionR_Meat.label>таинственное мясо</TM_MinionR_Meat.label>
+  <TM_MinionR_Meat.description>таинственное мясо</TM_MinionR_Meat.description>
+  <TM_MinionR_Corpse.label>труп миньона</TM_MinionR_Corpse.label>
+  <TM_MinionR_Corpse.description>труп миньона</TM_MinionR_Corpse.description>
+
+  <TM_GreaterMinionR.label>большой миньон</TM_GreaterMinionR.label>
+  <TM_GreaterMinionR.description>Миньоны-это озорные, ленивые, жестокие трусы, которые приходят из жалкого плана существования.  Они выглядят как плавающие фрикадельки с гигантским глазом.  У них короткие руки, рот, который, кажется, застыл в мерзкой улыбке, и два или три рога.
+Непонятно, как они передвигаются, хотя можно только предположить, что это как-то связано с горячим, гнилостным зловонием, которое преследует их повсюду.
+Их полезность открыта для обсуждения; они мало обладают боевыми способностями и скорее убегут, чем вступят в бой.  Они-могут-выполнять простые задачи, такие как транспортировка и очистка (хотя у них, кажется, есть другое определение "чистого").  Тем не менее, кажется более вероятным, что они будут бездельничать возле телевизора или курить косяк (или и то, и другое), чем делать что-либо продуктивное.
+Они могут быть вызваны легковерными... э-э, обученные маги, и в обмен на то, чтобы дать им отдохнуть от их "дьявольского босса", они готовы "помогать" по всему дому.
+Иногда они выражают желание ударить по предметам, и их можно (как правило) убедить ударить по каким-нибудь близлежащим камням.
+Если им становится слишком тяжело или им становится скучно, они убегают туда, откуда пришли.</TM_GreaterMinionR.description>
+  <TM_GreaterMinionR.tools.0.label>рога</TM_GreaterMinionR.tools.0.label>
+  <TM_GreaterMinionR.tools.1.label>укус</TM_GreaterMinionR.tools.1.label>
+  <TM_GreaterMinionR_Leather.label>большая кожа миньона</TM_GreaterMinionR_Leather.label>
+  <TM_GreaterMinionR_Leather.description>большая кожа миньона</TM_GreaterMinionR_Leather.description>
+  <TM_GreaterMinionR_Leather.stuffProps.stuffAdjective>большая кожа миньона</TM_GreaterMinionR_Leather.stuffProps.stuffAdjective>
+  <TM_GreaterMinionR_Meat.label>таинственное мясо</TM_GreaterMinionR_Meat.label>
+  <TM_GreaterMinionR_Meat.description>таинственное мясо</TM_GreaterMinionR_Meat.description>
+  <TM_GreaterMinionR_Corpse.label>большой труп миньона</TM_GreaterMinionR_Corpse.label>
+  <TM_GreaterMinionR_Corpse.description>большой труп миньона</TM_GreaterMinionR_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]/recipeUsers</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/recipeUsers</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+                    <value>
+                        <li>Regrowth</li>
+                        <li>UniversalRegrowth</li>
+                        <li>TM_RuneCarveBodyPart</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/workSpeedStat</xpath>
+                    <value>
+                        <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/ingredients/li[3]</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>60</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/fixedIngredientFilter/thingDefs</xpath>
+                    <value>
+                        <thingDefs>
+                            <li>ManaPotion</li>
+                            <li>PureMagicyteBar</li>
+                        </thingDefs>
+                    </value>
+                </li>
+            </operations>
+    </Operation>
+</Patch>

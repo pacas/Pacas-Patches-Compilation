@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>TM_MagicGems</defName>
+        <label>Gems</label>
+        <parent>TM_MagicItems</parent>
+        <iconPath>Items/Gemstones/magicinsight</iconPath>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>TM_MagicArmor</defName>
+        <label>Armor</label>
+        <parent>TM_MagicEquipment</parent>
+        <iconPath>Equipment/ancientmail_Male_south</iconPath>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>TM_MagicGloves</defName>
+        <label>Gloves</label>
+        <parent>TM_MagicEquipment</parent>
+        <iconPath>Items/artifact_bracers_metal</iconPath>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>TM_MagicHeadsets</defName>
+        <label>Headsets</label>
+        <parent>TM_MagicEquipment</parent>
+        <iconPath>Equipment/WizHat_north</iconPath>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>TM_MagicPendant</defName>
+        <label>Pendants</label>
+        <parent>TM_MagicArtifacts</parent>
+        <iconPath>Items/artifact_pendant</iconPath>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>TM_MagicRings</defName>
+        <label>Rings</label>
+        <parent>TM_MagicArtifacts</parent>
+        <iconPath>Items/artifact_goldring</iconPath>
+    </ThingCategoryDef>
+    
+</Defs>

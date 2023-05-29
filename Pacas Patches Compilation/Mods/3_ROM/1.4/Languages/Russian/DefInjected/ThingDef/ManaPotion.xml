@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ManaPotion.label>Зелье маны</ManaPotion.label>
+  <ManaPotion.description>Магическое дополнение, которое позволяет магам быстро восстанавливать ману. Зелья маны работают, действуя как естественный подавитель сопротивлений поглощения маны телами \n\n пользователи предупреждены, что обход естественных сопротивлений может вызвать умственные и сенсорные повреждения.</ManaPotion.description>
+  <ManaPotion.ingestible.ingestCommandString>Потреблено {0}</ManaPotion.ingestible.ingestCommandString>
+  <ManaPotion.ingestible.ingestReportString>Потреблено {0}.</ManaPotion.ingestible.ingestReportString>
+
+
+</LanguageData>

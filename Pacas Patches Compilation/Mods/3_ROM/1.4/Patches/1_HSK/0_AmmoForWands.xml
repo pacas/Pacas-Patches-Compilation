@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+				defName="TM_LightningWand" or
+				defName="TM_IceWand" or
+				defName="TM_DefenderStaff" or
+				defName="TM_BlazingPowerStaff" or
+				defName="TM_WinterStaff" or
+				defName="TM_FireWand"
+				]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_AmmoUser">
+                        <magazineSize>10</magazineSize>
+                        <reloadTime>0.5</reloadTime>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+				defName="TM_LightningWand" or
+				defName="TM_IceWand" or
+				defName="TM_DefenderStaff" or
+				defName="TM_BlazingPowerStaff" or
+				defName="TM_WinterStaff" or
+				defName="TM_FireWand"
+				]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>CE_OneHandedWeapon</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+				defName="Seer_FireRing" or
+				defName="Seer_IceRing" or
+				defName="Seer_LightningRing"
+				]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_AmmoUser">
+                        <magazineSize>10</magazineSize>
+                        <reloadTime>0.5</reloadTime>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+				defName="Seer_FireRing" or
+				defName="Seer_IceRing" or
+				defName="Seer_LightningRing"
+				]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>CE_OneHandedWeapon</li>
+                    </weaponTags>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

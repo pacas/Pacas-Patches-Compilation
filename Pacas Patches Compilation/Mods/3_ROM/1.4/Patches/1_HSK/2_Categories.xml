@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="TM_Arcalleum"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>USLDBar</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="TM_RawPomanasyrrium"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>FruitFoodRaw</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TM_RawPomanaMash"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>BadPlantRaw</li>
+                            <li>Animalfood</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RawMagicyte"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>TM_Magicyte</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="MagicResourceBase_Magicyte"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>TM_MagicGems</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="MagicResourceBase_Textile"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>HTextiles</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="TM_ThrumBow" or defName="TM_ElephantBow"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>BowRanged</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Portfuel"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>FuelCat</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_Magicyte"]/label</xpath>
+                    <value>
+                        <label>Magic gems</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicItems"]/parent</xpath>
+                    <value>
+                        <parent>Items</parent>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsMelee"]/label</xpath>
+                    <value>
+                        <label>Magical</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsMelee"]/parent</xpath>
+                    <value>
+                        <parent>WeaponsMelee</parent>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsRanged"]/label</xpath>
+                    <value>
+                        <label>Magical</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsRanged"]/parent</xpath>
+                    <value>
+                        <parent>WeaponsRanged</parent>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsFoci"]/label</xpath>
+                    <value>
+                        <label>Staffs and wands</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeaponsFoci"]/parent</xpath>
+                    <value>
+                        <parent>WeaponsRanged</parent>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingCategoryDef[defName="TM_MagicWeapons"]</xpath>
+                </li>
+            </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- leap as a flying object -->
+    <TM_CompVerb.label>целеуказатель</TM_CompVerb.label>
+    <TM_CompVerb.description>используется для целеуказания</TM_CompVerb.description>
+</LanguageData>

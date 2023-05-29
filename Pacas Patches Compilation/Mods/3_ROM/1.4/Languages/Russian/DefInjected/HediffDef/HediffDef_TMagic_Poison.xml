@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <TM_Poison_HD.label>Яд</TM_Poison_HD.label>
+    <TM_Poison_HD.description>Повреждения, вызванные ядом.</TM_Poison_HD.description>
+    <TM_Poison_HD.comps.0.labelTendedWell>перевязанный</TM_Poison_HD.comps.0.labelTendedWell>
+    <TM_Poison_HD.comps.0.labelTendedWellInner>зашитый</TM_Poison_HD.comps.0.labelTendedWellInner>
+    <TM_Poison_HD.comps.0.labelSolidTendedWell>зажило</TM_Poison_HD.comps.0.labelSolidTendedWell>
+    <TM_Poison_HD.comps.1.permanentLabel>увядший навсегда</TM_Poison_HD.comps.1.permanentLabel>
+    <TM_Poison_HD.injuryProps.destroyedLabel>высохший</TM_Poison_HD.injuryProps.destroyedLabel>
+    <TM_Poison_HD.injuryProps.destroyedOutLabel>высохший</TM_Poison_HD.injuryProps.destroyedOutLabel>
+    <TM_Poisoned_HD.label>Отравленный</TM_Poisoned_HD.label>
+    <TM_Poisoned_HD.description>Побочные эффекты яда.</TM_Poisoned_HD.description>
+    <TM_Poisoned_HD.stages.0.label>незначительный</TM_Poisoned_HD.stages.0.label>
+    <TM_Poisoned_HD.stages.1.label>умеренный</TM_Poisoned_HD.stages.1.label>
+    <TM_Poisoned_HD.stages.2.label>сильный</TM_Poisoned_HD.stages.2.label>
+</LanguageData>

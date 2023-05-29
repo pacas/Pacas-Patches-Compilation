@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- leap as a flying object -->
+
+  <FlyingObject_Spinning.label>летающий объект, который вращается</FlyingObject_Spinning.label>
+  <FlyingObject_SpinningBone.label>летающий объект, который вращается</FlyingObject_SpinningBone.label>
+  <FlyingObject_Advanced.label>летающий объект, который делает много вещей</FlyingObject_Advanced.label>
+  <Projectile_Default.label>по умолчанию</Projectile_Default.label>
+  <TM_CompVerb.label>вторичный целеуказатель</TM_CompVerb.label>
+  <TM_CompVerb.description>слово, используемая во вторичном целеуказании</TM_CompVerb.description>
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- demon special attack manuevers -->
+
+  <TM_DemonR.label>Демон</TM_DemonR.label>
+  <TM_DemonR.description>Освобожденный из преисподней, этот демон обрушит свою ничем не сдерживаемую злобу на любое существо на своем пути. Нет никакого рассудка и шансв подчинить демона; уничтожьте его или будете уничтожены.</TM_DemonR.description>
+  <TM_DemonR.tools.0.label>левая лапа</TM_DemonR.tools.0.label>
+  <TM_DemonR.tools.1.label>правая лапа</TM_DemonR.tools.1.label>
+  <TM_DemonR.tools.2.label>копыта</TM_DemonR.tools.2.label>
+  <!-- No Leather: Butcher Products -->
+  <!-- Meat Amount: 0 -->
+  <TM_DemonR_Corpse.label>Труп демона </TM_DemonR_Corpse.label>
+  <TM_DemonR_Corpse.description>Труп демона </TM_DemonR_Corpse.description>
+
+  <TM_LesserDemonR.label>Меньший Демон</TM_LesserDemonR.label>
+  <TM_LesserDemonR.description>Выпущенный из преисподней, этот низший демон обрушит свою ничем не сдерживаемую злобу на все без исключения существа на своем пути. Нет никакого рассуждения или подчинения демона; уничтожьте его или будьте уничтожены.</TM_LesserDemonR.description>
+  <TM_LesserDemonR.tools.0.label>левая лапа</TM_LesserDemonR.tools.0.label>
+  <TM_LesserDemonR.tools.1.label>правая лапа</TM_LesserDemonR.tools.1.label>
+  <TM_LesserDemonR.tools.2.label>копыта</TM_LesserDemonR.tools.2.label>
+  <!-- No Leather: Butcher Products -->
+  <!-- Meat Amount: 0 -->
+  <TM_LesserDemonR_Corpse.label>Труп Меньшего Демона</TM_LesserDemonR_Corpse.label>
+  <TM_LesserDemonR_Corpse.description>Труп Меньшего Демона</TM_LesserDemonR_Corpse.description>
+
+</LanguageData>

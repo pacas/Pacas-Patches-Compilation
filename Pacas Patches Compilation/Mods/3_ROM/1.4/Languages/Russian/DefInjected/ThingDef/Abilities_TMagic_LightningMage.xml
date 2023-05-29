@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Buff_AMP.label>УМС</Buff_AMP.label>
+
+<Projectile_LightningCloud.label>Грозовое облако</Projectile_LightningCloud.label>
+
+<Laser_LightningBolt.label>Удар молнии</Laser_LightningBolt.label>
+
+<Projectile_LightningStorm.label>Грозовой шторм</Projectile_LightningStorm.label>
+
+<FlyingObject_EyeOfTheStorm.label>летающий объект</FlyingObject_EyeOfTheStorm.label>
+
+<Projectile_EyeOfTheStorm.label>Око бури</Projectile_EyeOfTheStorm.label>
+
+</LanguageData>

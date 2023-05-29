@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="TM_Base_SpiritAnimal" or @Name="TM_SpiritWolf"]/statBases</xpath>
+        <value>
+            <LeatherAmount>0</LeatherAmount>
+        </value>
+    </Operation>
+</Patch>

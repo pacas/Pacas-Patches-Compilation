@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- <ThingDef Class="TorannMagic.TMAbilityDef" ParentName="BaseAbility"> -->
+    <TM_P_RayofHope.label>Луч надежды</TM_P_RayofHope.label>
+    <TM_P_RayofHope.description>Создает вокруг заклинателя ауру надежды, которая периодически усиливает союзника.
+		
+Луч надежды: магическое усиление, которое помогает пешке, улучшая физические возможности и настроение.
+	
+Частота применения: 80-90с	
+Продолжительность: 200-223с
+Манипуляция, передвижение: +15%
+Повышение настроения: +3
+
+Требует 40 маны для поддержания и снижает регенерацию маны на 30%; чтобы деактивировать, кастуйте ещё раз. Паладин получает опыт каждый раз, когда союзник получает усиление.</TM_P_RayofHope.description>
+    <TM_Heal.label>Лечение</TM_Heal.label>
+    <TM_Heal.description>Призывает святую силу, чтобы исцелить раны цели. Базовое исцеление восстанавливает 8 здоровья для 3-х ран. Невозможно отрастить отсутствующие части тела.</TM_Heal.description>
+    <!-- Shield start -->
+    <TM_Shield.label>Щит</TM_Shield.label>
+    <TM_Shield.description>Защищает паладина от повреждений в течение 50 секунд или до тех пор, пока щит не будет сломан.
+Поглощает до 100 урона.</TM_Shield.description>
+    <TM_Shield_I.label>Щит</TM_Shield_I.label>
+    <TM_Shield_I.description>Защищает паладина от повреждений в течение 50 секунд или до тех пор, пока щит не будет сломан.
+Поглощает до 120 урона
+Уменьшает перезарядку до 30s.</TM_Shield_I.description>
+    <TM_Shield_II.label>Щит</TM_Shield_II.label>
+    <TM_Shield_II.description>Защищает паладина от повреждений в течение 50 секунд или до тех пор, пока щит не будет сломан.
+Поглощает до 135 урона
+Уменьшает перезарядку до 27s.</TM_Shield_II.description>
+    <TM_Shield_III.label>Щит</TM_Shield_III.label>
+    <TM_Shield_III.description>Защищает паладина от повреждений в течение 50 секунд или до тех пор, пока щит не будет сломан.
+Поглощает до 150 урона
+Уменьшает перезарядку до 25s.</TM_Shield_III.description>
+    <!-- Valiant Charge -->
+    <TM_ValiantCharge.label>Заряд доблести</TM_ValiantCharge.label>
+    <TM_ValiantCharge.description>Паладин летит с крыльями ангела, чтобы долететь до отдаленного места, разбивая землю святой силой при приземлении.</TM_ValiantCharge.description>
+    <!-- Overwhelm start -->
+    <TM_Overwhelm.label>Потрясение</TM_Overwhelm.label>
+    <TM_Overwhelm.description>Священная сила высвобождается из паладина, подавляя физические и ментальные чувства всех находящихся поблизости существ.</TM_Overwhelm.description>
+    <!-- Holy Wrath -->
+    <TM_HolyWrath.label>Святой гнев</TM_HolyWrath.label>
+    <TM_HolyWrath.description>Призывает святой гнев на землю.</TM_HolyWrath.description>
+</LanguageData>

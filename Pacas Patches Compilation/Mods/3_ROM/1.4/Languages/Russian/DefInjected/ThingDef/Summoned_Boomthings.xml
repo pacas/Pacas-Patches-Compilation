@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- leap as a flying object -->
+
+  <FlyingObject_Leap.label>прыжок</FlyingObject_Leap.label>
+
+
+  <!-- Torann Magic poppi thingdef -->
+
+  <TM_Poppi.label>Поппи</TM_Poppi.label>
+  <TM_Poppi.description>Обманчиво безобидные и невероятно милые, эти маленькие твари не хотят ничего больше, чем прыгнуть в ваши объятия и "осветить" вашу жизнь.</TM_Poppi.description>
+  <TM_Poppi.tools.0.label>прижался</TM_Poppi.tools.0.label>
+  <TM_Poppi_Leather.label>кожа Поппи</TM_Poppi_Leather.label>
+  <TM_Poppi_Leather.description>кожа Поппи</TM_Poppi_Leather.description>
+  <TM_Poppi_Leather.stuffProps.stuffAdjective>кожа Поппи</TM_Poppi_Leather.stuffProps.stuffAdjective>
+  <!-- Meat Amount: 0 -->
+  <TM_Poppi_Corpse.label>Поппи труп</TM_Poppi_Corpse.label>
+  <TM_Poppi_Corpse.description>Поппи труп</TM_Poppi_Corpse.description>
+
+
+</LanguageData>

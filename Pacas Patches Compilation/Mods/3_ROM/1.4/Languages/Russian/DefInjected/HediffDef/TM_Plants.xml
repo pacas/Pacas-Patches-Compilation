@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <TM_PomanaSenseHD.label>чувство поманы</TM_PomanaSenseHD.label>
+    <TM_PomanaSenseHD.description>Расслабление и обострение чувств от употребления сырых фруктов поманы.</TM_PomanaSenseHD.description>
+    <TM_PomanaSenseHD.stages.0.label/>
+    <TM_SyrriumSenseHD.label>чувство сириума</TM_SyrriumSenseHD.label>
+    <TM_SyrriumSenseHD.description>Повышенные чувства, возникающие в результате употребления конденсированного сириума.</TM_SyrriumSenseHD.description>
+    <TM_SyrriumSenseHD.stages.0.label/>
+    <TM_SyrriumSenseHD.stages.1.label/>
+    <!-- Syrrium addiction -->
+    <TM_SyrriumTolerance.label>толерантность к сириуму</TM_SyrriumTolerance.label>
+    <TM_SyrriumTolerance.description>Естественная корректировка для нормализации эффекта потребления конденсированного сириума.</TM_SyrriumTolerance.description>
+    <TM_SyrriumAddiction.label>зависимость от сириума</TM_SyrriumAddiction.label>
+    <TM_SyrriumAddiction.description>Желание ощутить воздействие сириума переросло в потребность.</TM_SyrriumAddiction.description>
+    <TM_SyrriumAddiction.stages.1.label>выведение</TM_SyrriumAddiction.stages.1.label>
+</LanguageData>

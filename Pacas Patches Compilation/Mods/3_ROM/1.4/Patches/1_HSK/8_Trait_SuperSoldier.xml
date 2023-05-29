@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TorannMagic.WeaponCategoryList[defName="TM_Category_Pistols"]/weaponDefNames</xpath>
+		<value>
+			<li MayRequire="arpomo6.hmc.project">Gun_TT33_HMC</li> <!-- Пистолет ТТ-33 -->
+			<li>RF_Gun_Tecnine</li> <!-- ПП Tec-9 "Гвоздодёр" -->
+			<li>RF_Gun_GreaseGun</li> <!-- ПП M3A1 GreaseGun -->
+			<li>RF_Gun_TMP</li> <!-- АП TMP с глушителем -->
+			<li>RF_Gun_Skorpion</li> <!-- ПП HK MP5K -->
+			<li>RF_Gun_Vector</li> <!-- ПП Kriss Vector K10 -->
+			<li>Gun_MP5Gun</li> <!-- ПП HK MP5A3 -->
+			<li>Gun_UMP45Gun</li> <!-- ПП HK UMP45 -->
+			<li>RF_Gun_Deringer</li> <!-- Револьвер Smith&Wesson M1917 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_Ppsh41_HMC</li> <!-- Пистолет-пулемет ППШ-41 -->
+			<li MayRequire="arpomo6.hmc.project">HMC_PlasmaSMG</li>
+			<li>RF_Gun_AT2K</li> <!-- Пистолет Sphinx AT 2000 -->
+			<li>RF_Gun_93R</li> <!-- Пистолет Beretta 93R -->
+			<li>RF_Gun_VektorCP</li> <!-- Пистолет Vector CP1 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_GreaterDesertEagle</li> <!-- пустынный арёль -->
+			<li MayRequire="arpomo6.hmc.project">Gun_RSH12s</li> <!-- револьвер РШ-12 -->
+			<li MayRequire="arpomo6.hmc.project">RK_Gun_PP19Bizon</li> <!-- пистолет-пулемет ПП-19 бизон-2-07 -->
+			<li MayRequire="arpomo6.hmc.project">HMC_Gun_Petuch</li> <!-- пистолет-пулемет петуч-90 -->		
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_SP</li> <!-- пистолет для выживания sturer -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_SR</li> <!-- пистолет для выживания медуза -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_C96M</li> <!-- пистолет mauser C96 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_M712S</li> <!-- пистолет M712 "Скорострельный" -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_SW50B</li> <!-- SW.50B revolver -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Suomi</li> <!-- пистолет-пулемет suomi КР-31 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MP18B</li> <!-- MP 18 SMG -->
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_CombatHandgun</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_HandCannon</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_LightSMG</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_ChargeSMG</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_CompactSMG</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_ChargePistol</li>
+            <li MayRequire="Seventh.Seraph.Weapons.SK">HC_SeventhSeraphOfficerRevolver</li>
+            <li MayRequire="Seventh.Seraph.Weapons.SK">SI_SeventhSeraphSI</li>
+            <li MayRequire="Seventh.Seraph.Weapons.SK">SMG_SeventhSeraphVY</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TorannMagic.WeaponCategoryList[defName="TM_Category_Rifles"]/weaponDefNames</xpath>
+		<value>
+			<li>Gun_Phalanx</li> <!-- Бластер A-1 Phalanx -->
+			<li>Gun_BlackWidow</li> <!-- Бластер A-1BW Black Widow -->
+			<li>Gun_Predator</li> <!-- Бластер A-2S Predator -->
+			<li>Gun_Hurricane</li> <!-- Бластер A-3S Hurricane -->
+			<li>Gun_AvengerA</li> <!-- Бластер A-10 Avenger -->
+			<li>RF_Gun_CXfour</li> <!-- Карабин Beretta CX4 -->
+			<li>RF_Gun_USC</li> <!-- Карабин HK USC -->
+			<li>Gun_M4A1Gun</li> <!-- Карабин M4A1 -->
+			<li>Gun_Splitter</li> <!-- Энерговинтовка R6 Splitter -->		
+			<li>RF_Gun_Galil</li> <!-- Пулемёт Galil ACE -->
+			<li>Gun_HHMG</li> <!-- Пулемёт M249 SAW -->
+			<li>Gun_Minigun</li> <!-- Микроган XM214 -->
+			<li>Gun_M56_USCM</li> <!-- Пулемёт АМ M56 Smartgun -->
+			<li>Gun_M60GPMG</li> <!-- Единый пулемёт M60E4 -->
+			<li>Gun_Mantis</li> <!-- Лазер M-6 Mantis -->
+			<li>HeavyLasergun</li> <!-- Лазер M-10 Spiker -->
+			<li>BurstLasergun</li> <!-- Лазер M-12 Intercessor -->
+			<li>Gun_SKS_HMC</li> <!-- Карабин СКС -->
+			<li MayRequire="arpomo6.hmc.project">Gun_AKS74U</li> <!-- Карабин АКС-74У -->
+			<li MayRequire="arpomo6.hmc.project">Gun_RPK74M_HMC</li> <!-- Пулемет РПК-74М -->
+			<li MayRequire="arpomo6.hmc.project">Gun_HMC_PKM</li> <!-- Пулемет ПКМ -->
+			<li>Gun_SawGun</li> <!-- Пулемёт OG-165 -->
+			<li>Gun_lightmechblaster</li> <!-- Энерговинтовка Unc-P6 -->
+			<li>Gun_InfernoCannon</li> <!-- инферно-пушка -->
+			<li>Gun_mechlaser</li> <!-- Лазерный пульсар Unc-L3 -->
+			<li>Gun_mechheavylaser</li> <!-- Лазерный пульсар Unc-L9 -->
+			<li>Gun_MechPlasma</li> <!-- Плазмо-бластер Unc-PB18 -->
+			<li>Gun_SharpsCarbine</li> <!-- Карабин Шарпса -->
+			<li>Gun_BrownBess</li> <!-- Карабин Смуглая Бесс -->
+			<li>Gun_PlasmaPrecision</li> <!-- Плазмер C2 Moonspell -->
+			<li>Gun_PlasmaCarbine</li> <!-- Плазмер C3 Conjurer -->
+			<li>Gun_RailgunMKI</li> <!-- Рейлган XZero -->
+			<li>Gun_AK47Gun</li> <!-- Винтовка AK-47 -->
+			<li>Gun_SG553Gun</li> <!-- Винтовка SIG SG553 -->
+			<li>Gun_AUG</li> <!-- Винтовка Steyr AUG A3 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_AK74M_HMC</li> <!-- Винтовка АК74М -->
+			<li MayRequire="arpomo6.hmc.project">Gun_OZ14G_HMC</li> <!-- Винтовка ОЦ-14 Гроза-4 -->
+			<li>Gun_SCAR_H</li> <!-- Винтовка FN SCAR-H -->
+			<li>RF_Gun_XMeight</li> <!-- Винтовка HK XM8 -->
+			<li>Gun_FAMAS</li> <!-- Винтовка Famas G2 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_Saiga12k</li> <!-- карабин сайга-12К -->
+			<li MayRequire="arpomo6.hmc.project">Gun_VersatileCarbine_HMC</li> <!-- универсальный 5 мм карабин -->
+			<li MayRequire="arpomo6.hmc.project">Gun_VTC9_HMC</li> <!-- универсальный карабин VTC-9m -->
+			<li MayRequire="arpomo6.hmc.project">Gun_CK901_HMC</li> <!-- карабин colt CK-901 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_RPD_HMC</li> <!-- пулемет РПД -->
+			<li MayRequire="arpomo6.hmc.project">Gun_HMC_PKP</li> <!-- пулемет ПКП "Печеньек" -->
+			<li MayRequire="arpomo6.hmc.project">Gun_MG3_HMC</li> <!-- пулемет MG3 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_6P62_HMC</li> <!-- пулемет 6П62 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_LWMMG_HMC</li> <!-- пулемет LWMMG 338 -->
+			<li MayRequire="arpomo6.hmc.project">Mag_MG_HMC</li> <!-- магнитный пулемет -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Delisle</li> <!-- карабин де лиль коммандос -->
+			<li MayRequire="arpomo6.hmc.project">Gun_SKS</li> <!-- карабин СКС -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_M4Beowulf</li> <!-- M4.50 beowulf SC -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Calico</li> <!-- карабин calico M960(M) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_K90M</li> <!-- карабин обр.1890 г. -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_K98k</li> <!-- карабин mauser 98k(R) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_VG</li> <!-- gustloff VG 1-5 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Lewis</li> <!-- льюис LMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MG0815L</li> <!-- MG 08/15 LMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Madsen</li> <!-- madsen LMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MG30L</li> <!-- MG 30 LMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MG34L</li> <!-- MG 34 GPMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MG42L</li> <!-- MG 42 GPMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MG45H</li> <!-- MG 45/1 hybrid GPMG -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Mk14M</li> <!-- Mk.14 Mod.0 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Huot</li> <!-- автоматическая винтовка хоут -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_FG42F</li> <!-- FG 42 тип F (II) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_MKb42H</li> <!-- MKb 42(H) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_StG44AR</li> <!-- StG 44/MP 44 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_StG45M</li> <!-- StG 45(M) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Tommy</li> <!-- томпсон M1928A1 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Mk12SPR</li> <!-- Mk.12 SPR -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_Mk1250SPR</li> <!-- Mk.12 SPR(B) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_K98S</li> <!-- mauser karabiner 98k(R) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_XM16E1FPW</li> <!-- XM16E1 FPW -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_HK51k</li> <!-- HK51k -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_M1A1_30PDW</li> <!-- M1A1 .30 PDW -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_M1A1C</li> <!-- M1A1 carabine -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_M2C</li> <!-- M2 carabine -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_HK21EK</li> <!-- HK21Ek -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_HK25K</li> <!-- HK25(K) -->
+			<li MayRequire="AhnDemi.PanieltheAutomata.sk">PN_Machinegun</li> <!-- пулемет ПнЛ -->
+            <li MayRequire="Seventh.Seraph.Weapons.SK">AR_seventhseraphcarbine</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_AssaultCarbine</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_BullpupRifle</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_BattleRifle</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_HMG</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_ChargeLMG</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TorannMagic.WeaponCategoryList[defName="TM_Category_Shotguns"]/weaponDefNames</xpath>
+		<value>
+			<li MayRequire="arpomo6.hmc.project">HMC_Gun_Dvustvolka</li> <!-- Дедушкино ружьё -->
+			<li>Gun_M37A2_USCM</li> <!-- Дробовик M37A2 -->
+			<li MayRequire="arpomo6.hmc.project">Gun_700NE_HMC</li> <!-- штуцер .700 nitro express -->
+			<li MayRequire="arpomo6.hmc.project">Gun_Dvustvolka</li> <!-- дедушкино ружьё -->
+			<li MayRequire="arpomo6.hmc.project">Spas12_HMC</li> <!-- дробовик SPS-14 -->
+			<li MayRequire="arpomo6.hmc.project">HMC_TozHighTech</li> <!-- дедушкино энергоружьё -->
+			<li MayRequire="FS.ReviaRace">ReviaFlechetteCannon</li> <!-- флешеттное ружьё -->		
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_DP</li> <!-- двуствольный дробовик DP-12 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_CAWS</li> <!-- HK CAWS -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_SSS</li> <!-- serbu super shorty -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_W1887L</li> <!-- винчестер модель 1887 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_W1887S</li> <!-- винчестер модель 1887(S) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_W1897T</li> <!-- винчестер модель 1897г(T) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_W1897L</li> <!-- винчестер модель 1897(L) -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_BA5L</li> <!-- browning auto-5 -->
+			<li MayRequire="XxNelsonxX.Parabellum">Pa_BA5S</li> <!-- sawed-off browning auto-5 -->
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_ShotgunHandgun</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_LeverActionShotgun</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_SemiAutomaticShotgun</li>
+            <li MayRequire="Mlie.ApexRimworldLegends.SK">ARL_ChargeShotgun</li>
+            <li MayRequire="Seventh.Seraph.Weapons.SK">SG_SeventhSeraphCQC</li>
+		</value>
+	</Operation>
+			
+	
+</Patch>

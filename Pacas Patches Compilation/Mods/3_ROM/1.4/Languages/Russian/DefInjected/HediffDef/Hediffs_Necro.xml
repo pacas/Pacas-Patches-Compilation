@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_UndeadHD.label>Нежить</TM_UndeadHD.label>
+  <TM_UndeadHD.description>Пешка, оживленная некротической энергией. Эта пешка не обладает собственным помыслом и требует от некроманта постоянного управления и энергии.</TM_UndeadHD.description>
+  <TM_UndeadHD.stages.0.label>I</TM_UndeadHD.stages.0.label>
+  <TM_UndeadHD.stages.1.label>II</TM_UndeadHD.stages.1.label>
+  <TM_UndeadHD.stages.2.label>III</TM_UndeadHD.stages.2.label>
+  <TM_UndeadHD.stages.3.label>IV</TM_UndeadHD.stages.3.label>
+
+  <TM_LichHD.label>Лич</TM_LichHD.label>
+  <TM_LichHD.description>Пешка, которая обрела бессмертие, разорвав свою связь с круговоротом жизни и смерти.</TM_LichHD.description>
+  <TM_LichHD.stages.0.label>Нежить</TM_LichHD.stages.0.label>
+
+  <TM_UndeadAnimalHD.label>Нежить</TM_UndeadAnimalHD.label>
+  <TM_UndeadAnimalHD.description>Пешка, оживленная некротической энергией. Эта пешка не обладает собственным помыслом и требует от некроманта постоянного управления и энергии.</TM_UndeadAnimalHD.description>
+  <TM_UndeadAnimalHD.stages.0.label>I</TM_UndeadAnimalHD.stages.0.label>
+  <TM_UndeadAnimalHD.stages.1.label>II</TM_UndeadAnimalHD.stages.1.label>
+  <TM_UndeadAnimalHD.stages.2.label>III</TM_UndeadAnimalHD.stages.2.label>
+  <TM_UndeadAnimalHD.stages.3.label>IV</TM_UndeadAnimalHD.stages.3.label>
+
+  <TM_DeathMarkHD.label>Метка смерти</TM_DeathMarkHD.label>
+  <TM_DeathMarkHD.description>Отмеченная смертью, эта пешка скоро умрет и будет реанимирована как нежить. (не используемый)</TM_DeathMarkHD.description>
+
+  <TM_DeathMarkCurse.label>Метка смерти</TM_DeathMarkCurse.label>
+  <TM_DeathMarkCurse.description>Отмеченная смертью, эта пешка не может сосредоточиться на настоящем из-за концентрации на своей неизбежной смерти.</TM_DeathMarkCurse.description>
+  <TM_DeathMarkCurse.stages.0.label>Неумелый</TM_DeathMarkCurse.stages.0.label>
+  <TM_DeathMarkCurse.stages.1.label>Бормотание</TM_DeathMarkCurse.stages.1.label>
+  <TM_DeathMarkCurse.stages.2.label>Проклятый</TM_DeathMarkCurse.stages.2.label>
+
+  <TM_TormentHD.label>Мучение</TM_TormentHD.label>
+  <TM_TormentHD.description>Боль, вызванная темной энергией.</TM_TormentHD.description>
+  <TM_TormentHD.comps.0.labelTendedWell>забинтованная</TM_TormentHD.comps.0.labelTendedWell>
+  <TM_TormentHD.comps.0.labelTendedWellInner>зашита</TM_TormentHD.comps.0.labelTendedWellInner>
+  <TM_TormentHD.comps.0.labelSolidTendedWell>зажило</TM_TormentHD.comps.0.labelSolidTendedWell>
+  <TM_TormentHD.comps.1.permanentLabel>гнилой</TM_TormentHD.comps.1.permanentLabel>
+  <TM_TormentHD.injuryProps.destroyedLabel>оплавленная</TM_TormentHD.injuryProps.destroyedLabel>
+  <TM_TormentHD.injuryProps.destroyedOutLabel>оплавившийся</TM_TormentHD.injuryProps.destroyedOutLabel>
+
+  <TM_DeathBoltHD.label>смертельный болт</TM_DeathBoltHD.label>
+  <TM_DeathBoltHD.description>Разрушительная энергия, которая убивает все живое.</TM_DeathBoltHD.description>
+  <TM_DeathBoltHD.comps.0.labelTendedWell>забинтованная</TM_DeathBoltHD.comps.0.labelTendedWell>
+  <TM_DeathBoltHD.comps.0.labelTendedWellInner>зашита</TM_DeathBoltHD.comps.0.labelTendedWellInner>
+  <TM_DeathBoltHD.comps.0.labelSolidTendedWell>зажило</TM_DeathBoltHD.comps.0.labelSolidTendedWell>
+  <TM_DeathBoltHD.injuryProps.destroyedLabel>оплавленная</TM_DeathBoltHD.injuryProps.destroyedLabel>
+  <TM_DeathBoltHD.injuryProps.destroyedOutLabel>оплавившийся</TM_DeathBoltHD.injuryProps.destroyedOutLabel>
+
+  <TM_Torment_HD.label>Измученный</TM_Torment_HD.label>
+  <TM_Torment_HD.description>Мучительно терзаемый темной магией.</TM_Torment_HD.description>
+  <TM_Torment_HD.stages.0.label>боль</TM_Torment_HD.stages.0.label>
+  <TM_Torment_HD.stages.1.label>агония</TM_Torment_HD.stages.1.label>
+  <TM_Torment_HD.stages.2.label>мучение</TM_Torment_HD.stages.2.label>
+
+  <TM_UndeadStageHD.label>Стадия тела</TM_UndeadStageHD.label>
+  <TM_UndeadStageHD.description>Нынешняя стадия нежити.</TM_UndeadStageHD.description>
+  <TM_UndeadStageHD.stages.0.label>Гниющий</TM_UndeadStageHD.stages.0.label>
+  <TM_UndeadStageHD.stages.1.label>Иссушенный</TM_UndeadStageHD.stages.1.label>
+
+  <TM_BrittleBonesHD.label>Хрупкие кости</TM_BrittleBonesHD.label>
+  <TM_BrittleBonesHD.description>Возникает при воздействии экстремально низких температур и приводит к тому, что кости и связки становятся хрупкими, что уменьшает движение и манипуляции. Нежить с таким состоянием требует 50% дополнительной маны для поддержания жизни.</TM_BrittleBonesHD.description>
+  <TM_BrittleBonesHD.stages.0.label>I</TM_BrittleBonesHD.stages.0.label>
+  <TM_BrittleBonesHD.stages.1.label>II</TM_BrittleBonesHD.stages.1.label>
+  <TM_BrittleBonesHD.stages.2.label>III</TM_BrittleBonesHD.stages.2.label>
+
+  <TM_SlaggedHD.label>Зашлакован</TM_SlaggedHD.label>
+  <TM_SlaggedHD.description>Возникает при воздействии чрезвычайно высоких температур и приводит к разложению и даже расплавлению органического вещества. Нежить, пораженная этим состоянием, требует на 50% больше маны для поддержания жизни.</TM_SlaggedHD.description>
+  <TM_SlaggedHD.stages.0.label>I</TM_SlaggedHD.stages.0.label>
+  <TM_SlaggedHD.stages.1.label>II</TM_SlaggedHD.stages.1.label>
+  <TM_SlaggedHD.stages.2.label>III</TM_SlaggedHD.stages.2.label>
+
+
+</LanguageData>

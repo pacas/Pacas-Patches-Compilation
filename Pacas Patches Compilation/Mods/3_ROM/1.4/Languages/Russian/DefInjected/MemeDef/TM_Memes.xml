@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<TM_Transcendent.label>трансцендентный</TM_Transcendent.label>
+<TM_Transcendent.description>Тех, кто способен изменить свою собственную судьбу, следует бояться и уважать; уничтожайте их, следуйте за ними или подчиняйтесь им.</TM_Transcendent.description>
+
+<TM_Transcendent.generalRules.rulesStrings.0>memeAdjective->трансцендентный</TM_Transcendent.generalRules.rulesStrings.0>
+<TM_Transcendent.generalRules.rulesStrings.1>memeAdjective->чемпион</TM_Transcendent.generalRules.rulesStrings.1>
+<TM_Transcendent.generalRules.rulesStrings.2>memeAdjective->герой</TM_Transcendent.generalRules.rulesStrings.2>
+<TM_Transcendent.generalRules.rulesStrings.3>memeAdjective->маг</TM_Transcendent.generalRules.rulesStrings.3>
+<TM_Transcendent.generalRules.rulesStrings.4>memeAdjective->превосходный</TM_Transcendent.generalRules.rulesStrings.4>
+<TM_Transcendent.generalRules.rulesStrings.5>memeAdjective->колдун</TM_Transcendent.generalRules.rulesStrings.5>
+<TM_Transcendent.generalRules.rulesStrings.6>memeAdjective->заклинатель</TM_Transcendent.generalRules.rulesStrings.6>
+<TM_Transcendent.generalRules.rulesStrings.7>memeCreed->братство</TM_Transcendent.generalRules.rulesStrings.7>
+<TM_Transcendent.generalRules.rulesStrings.8>memeCreed->сгиб</TM_Transcendent.generalRules.rulesStrings.8>
+<TM_Transcendent.generalRules.rulesStrings.9>memeCreed->гильдия</TM_Transcendent.generalRules.rulesStrings.9>
+<TM_Transcendent.generalRules.rulesStrings.10>memeCreed->избранный</TM_Transcendent.generalRules.rulesStrings.10>
+<TM_Transcendent.generalRules.rulesStrings.11>memeCreed->мастера</TM_Transcendent.generalRules.rulesStrings.11>
+<TM_Transcendent.generalRules.rulesStrings.12>memeConcept->магия</TM_Transcendent.generalRules.rulesStrings.12>
+<TM_Transcendent.generalRules.rulesStrings.13>memeConcept->одаренный</TM_Transcendent.generalRules.rulesStrings.13>
+<TM_Transcendent.generalRules.rulesStrings.14>memeConcept->избранный</TM_Transcendent.generalRules.rulesStrings.14>
+<TM_Transcendent.generalRules.rulesStrings.15>memeConcept->проклятый</TM_Transcendent.generalRules.rulesStrings.15>
+<TM_Transcendent.generalRules.rulesStrings.16>memeConcept->разрушенный</TM_Transcendent.generalRules.rulesStrings.16>
+<TM_Transcendent.generalRules.rulesStrings.17>memeLeaderNoun->верховный маг</TM_Transcendent.generalRules.rulesStrings.17>
+<TM_Transcendent.generalRules.rulesStrings.18>memeLeaderNoun->мастер</TM_Transcendent.generalRules.rulesStrings.18>
+<TM_Transcendent.generalRules.rulesStrings.19>memeLeaderNoun->волшебник</TM_Transcendent.generalRules.rulesStrings.19>
+<TM_Transcendent.generalRules.rulesStrings.20>memeLeaderNoun->маг</TM_Transcendent.generalRules.rulesStrings.20>
+<TM_Transcendent.generalRules.rulesStrings.21>memeLeaderNoun->император</TM_Transcendent.generalRules.rulesStrings.21>
+<TM_Transcendent.generalRules.rulesStrings.22>memeLeaderAdjective->избранный</TM_Transcendent.generalRules.rulesStrings.22>
+<TM_Transcendent.generalRules.rulesStrings.23>memeLeaderAdjective->трансцендентный</TM_Transcendent.generalRules.rulesStrings.23>
+<TM_Transcendent.generalRules.rulesStrings.24>memeLeaderAdjective->священный</TM_Transcendent.generalRules.rulesStrings.24>
+<TM_Transcendent.generalRules.rulesStrings.25>memeLeaderAdjective->таинственный</TM_Transcendent.generalRules.rulesStrings.25>
+<TM_Transcendent.generalRules.rulesStrings.26>memeMoralist->прорицатель</TM_Transcendent.generalRules.rulesStrings.26>
+<TM_Transcendent.generalRules.rulesStrings.27>memeMoralist->оратор</TM_Transcendent.generalRules.rulesStrings.27>
+<TM_Transcendent.generalRules.rulesStrings.28>memeMoralist->хранитель знаний</TM_Transcendent.generalRules.rulesStrings.28>
+<TM_Transcendent.generalRules.rulesStrings.29>memeMoralist->сенешаль</TM_Transcendent.generalRules.rulesStrings.29>
+<TM_Transcendent.generalRules.rulesStrings.30>memeMoralist->стюард</TM_Transcendent.generalRules.rulesStrings.30>
+<TM_Transcendent.generalRules.rulesStrings.31>TM_stormType->огонь</TM_Transcendent.generalRules.rulesStrings.31>
+<TM_Transcendent.generalRules.rulesStrings.32>TM_stormType->лед</TM_Transcendent.generalRules.rulesStrings.32>
+<TM_Transcendent.generalRules.rulesStrings.33>TM_stormType->ветер</TM_Transcendent.generalRules.rulesStrings.33>
+<TM_Transcendent.generalRules.rulesStrings.34>TM_stormType->гравий</TM_Transcendent.generalRules.rulesStrings.34>
+<TM_Transcendent.generalRules.rulesStrings.35>TM_stormType->молния</TM_Transcendent.generalRules.rulesStrings.35>
+<TM_Transcendent.generalRules.rulesStrings.36>TM_stormType->хаос</TM_Transcendent.generalRules.rulesStrings.36>
+<TM_Transcendent.generalRules.rulesStrings.37>TM_stormType->камень</TM_Transcendent.generalRules.rulesStrings.37>
+<TM_Transcendent.generalRules.rulesStrings.38>TM_stormType->эмоция</TM_Transcendent.generalRules.rulesStrings.38>
+<TM_Transcendent.generalRules.rulesStrings.39>TM_stormType->необработанная тайная энергия</TM_Transcendent.generalRules.rulesStrings.39>
+<TM_Transcendent.generalRules.rulesStrings.40>TM_stormType->ярость</TM_Transcendent.generalRules.rulesStrings.40>
+<TM_Transcendent.generalRules.rulesStrings.41>TM_stormType->духи</TM_Transcendent.generalRules.rulesStrings.41>
+<TM_Transcendent.generalRules.rulesStrings.42>TM_stormType->вода</TM_Transcendent.generalRules.rulesStrings.42>
+
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_TM_Transcendent)             ->Дрейфуя в вечности магии, [deity0_name] смотрел на физические миры и видел страдания и раздоры, где немногие использовали силу машин и архотехнологий, чтобы охотиться на многих. Желая восстановить равновесие, [deity0_name] вплел нити силы [deity0_possessive] в сущность всего человечества, даровав им способность прикасаться и волю использовать магию.</TM_Transcendent.descriptionMaker.rules.rulesStrings.0>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_TM_Transcendent)       ->Магия, дарованная как добру, так и злу, использовалась безжалостно и угрожала расколоть землю, причинив всем боль и хаос. [deity0_name], видя, что человечество еще не достигло зрелости для самоконтроля, сократило поток маны до тонкой струйки, удалив знания о ее использовании из умов своих вейлдеров. Таким образом, магия стала редкостью, где ее использование требовало самоотверженности и энергии ее управляющих.</TM_Transcendent.descriptionMaker.rules.rulesStrings.1>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_TM_Transcendent)                ->В [place_summary] [place_name] ритуал истинного рождения начался в [diety0_type] [altarRoomLabel] [deity0_name], где напуганный, но отчаявшийся [founderName] с энтузиазмом и рвением прокладывал путь с помощью чистой силы воли. [diety0_name], став свидетелем этой непостижимой силы духа, даровал [founderName] связь с магией.</TM_Transcendent.descriptionMaker.rules.rulesStrings.2>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_TM_Transcendent)             ->Жестокий [foeLeader] попытался захватить эту власть, убив многих, чтобы добраться до [place_name].</TM_Transcendent.descriptionMaker.rules.rulesStrings.3>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_TM_Transcendent)          ->[deity0_name] приказал [founderName] изучить способы магии и защитить племя [founder_possessive]. [founderName] проводил каждый час бодрствования, общаясь с [deity0_name] в [altarRoomLabel].</TM_Transcendent.descriptionMaker.rules.rulesStrings.4>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_TM_Transcendent)              ->Поглощенный океаном злобы, [foeLeader] двинул [foeLeader_possessive] армии на [place_name], чтобы убить [founderName]. Тем не менее, в день расплаты [founderName] вышел из [founder_possessive] общения с [diety0_name] и вызвал бурю [TM_stormType] и [TM_stormType], полностью уничтожив армии [foeLeader]. Таким образом, родословная магии закрепилась и начала распространять свои корни по всему [place_summary].</TM_Transcendent.descriptionMaker.rules.rulesStrings.5>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_TM_Transcendent)                ->[founderName] сражался во многих битвах за своих повелителей подземного мира, видя много горя, страданий и смертей. Измученный бессмысленностью, [founder_pronoun] выбросил свое оружие и поклялся [diety0_name] сформировать будущее [founder_possessive] в стремлении к миру и процветанию вместо насилия.</TM_Transcendent.descriptionMaker.rules.rulesStrings.6>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_TM_Transcendent)         ->[founderName] проповедовал мирный путь как истинный путь к вечной жизни и получил могущественную магию [diety0_type] от своего покровителя [diety0_name].</TM_Transcendent.descriptionMaker.rules.rulesStrings.7>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_TM_Transcendent)          ->Чтобы расширить свои возможности, мы должны сначала отказаться от технологий и хитроумных приспособлений, которые тормозят наш рост. Только тогда борьба за выживание может изменить нас.</TM_Transcendent.descriptionMaker.rules.rulesStrings.8>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_TM_Transcendent)               ->Мы растем и адаптируемся, преодолевая трудности.</TM_Transcendent.descriptionMaker.rules.rulesStrings.9>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_TM_Transcendent) ->Чтобы достичь истинной силы, мы должны отказаться от объектов, которые обеспечивают стабильность и позволяют нам оставаться слабыми.</TM_Transcendent.descriptionMaker.rules.rulesStrings.10>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_TM_Transcendent)        ->Когда появились архотехи, они никогда не заботились о внешности; они показали нам, что разум стоит выше физической формы.</TM_Transcendent.descriptionMaker.rules.rulesStrings.11>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_TM_Transcendent)         ->Архотехи не предвидели зарождения магии в человечестве, и их инструкции по достижению просветления приняли непредвиденный оборот.</TM_Transcendent.descriptionMaker.rules.rulesStrings.12>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_TM_Transcendent)     ->[inTheEnd] человечество смогло достичь новой формы просветления через откровение и связь с магией.</TM_Transcendent.descriptionMaker.rules.rulesStrings.13>
+<TM_Transcendent.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_TM_Transcendent)         ->Царство духов становится все ближе с проникновением магии; завеса духов может быть на мгновение приоткрыта для тех, кто силен в магии, и даже пересечена, если будет заплачена цена.</TM_Transcendent.descriptionMaker.rules.rulesStrings.14>
+
+</LanguageData>

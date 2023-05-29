@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Projectile_TM_SpawnThing.label>спавн магического предмета</Projectile_TM_SpawnThing.label>
+
+
+  <!-- Heater -->
+
+  <Projectile_Heater.label>спавн магического обогревателя</Projectile_Heater.label>
+
+
+  <!-- Cooler -->
+
+  <Projectile_Cooler.label>спавн магического кулера</Projectile_Cooler.label>
+
+
+  <!-- Power Node -->
+
+  <Projectile_PowerNode.label>спавн магической силовой ноды</Projectile_PowerNode.label>
+
+
+  <!-- Light Node -->
+
+  <Projectile_Sunlight.label>спавн магического света</Projectile_Sunlight.label>
+
+
+  <!-- Remove Moisture -->
+
+  <Projectile_DryGround.label>осушение земли</Projectile_DryGround.label>
+
+
+  <!-- Add Moisture -->
+
+  <Projectile_WetGround.label>увлажнение грунта</Projectile_WetGround.label>
+
+
+  <!-- Charge Battery -->
+
+  <Projectile_ChargeBattery.label>зарядка батареи</Projectile_ChargeBattery.label>
+
+
+  <!-- Smoke Cloud -->
+
+  <Projectile_SmokeCloud.label>облако дыма</Projectile_SmokeCloud.label>
+
+
+  <!-- Extinguish -->
+
+  <Projectile_Extinguish.label>тушить</Projectile_Extinguish.label>
+
+
+  <!-- EMP -->
+
+  <Projectile_EMP.label>ЭМИ</Projectile_EMP.label>
+
+
+  <!-- Transfer mana -->
+
+  <Projectile_TransferMana.label>передача маны</Projectile_TransferMana.label>
+
+
+  <!-- siphon mana -->
+
+  <Projectile_SiphonMana.label>сифон маны</Projectile_SiphonMana.label>
+
+
+  <!-- Flight -->
+
+  <FlyingObject_Flight.label>летающий объект</FlyingObject_Flight.label>
+  <Projectile_Flight.label>полет</Projectile_Flight.label>
+
+
+  <!-- Fertile land -->
+
+  <Projectile_FertileLands.label>плодородные земли</Projectile_FertileLands.label>
+
+
+  <!-- dirt devil -->
+
+  <Projectile_DirtDevil.label>земляной дьявол</Projectile_DirtDevil.label>
+  <FlyingObject_DirtDevil.label>летающий объект</FlyingObject_DirtDevil.label>
+
+
+  <!-- Arcane Bolt -->
+
+  <Projectile_ArcaneBolt.label>магический болт</Projectile_ArcaneBolt.label>
+
+
+  <!-- Throwing Knife -->
+
+  <Projectile_ThrowingKnife.label>Метательный Нож</Projectile_ThrowingKnife.label>
+
+
+  <!-- Lightning Trap -->
+
+  <FlyingObject_LightningTrap.label>молния</FlyingObject_LightningTrap.label>
+
+
+  <!-- briar patch -->
+
+  <Projectile_BriarPatch.label>терновый куст </Projectile_BriarPatch.label>
+
+
+  <!-- Tempest Strike -->
+
+  <Projectile_TempestStrike.label>Штормовой удар</Projectile_TempestStrike.label>
+
+
+</LanguageData>

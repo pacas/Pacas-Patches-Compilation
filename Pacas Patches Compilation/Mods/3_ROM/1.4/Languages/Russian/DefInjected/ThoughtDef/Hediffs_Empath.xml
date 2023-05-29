@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_PositiveEmpathyTD.stages.0.label>позитивные вибрации</TM_PositiveEmpathyTD.stages.0.label>
+  <TM_PositiveEmpathyTD.stages.0.description>Эмоции, полученные через сопереживание.</TM_PositiveEmpathyTD.stages.0.description>
+
+  <TM_NegativeEmpathyTD.stages.0.label>негативные вибрации</TM_NegativeEmpathyTD.stages.0.label>
+  <TM_NegativeEmpathyTD.stages.0.description>Эмоции, полученные через сопереживание.</TM_NegativeEmpathyTD.stages.0.description>
+
+  <TM_SuppressiveAuraTD.stages.0.label>Похититель эмоций</TM_SuppressiveAuraTD.stages.0.label>
+  <TM_SuppressiveAuraTD.stages.0.description>Я испытываю глубокое чувство печали и потери, когда лишаю других способности чувствовать.</TM_SuppressiveAuraTD.stages.0.description>
+
+  <TM_EmotionalWeightTD.stages.0.label>Эмоциональный багаж</TM_EmotionalWeightTD.stages.0.label>
+  <TM_EmotionalWeightTD.stages.0.description>Несущий на себе тяжесть эмоций каждого.</TM_EmotionalWeightTD.stages.0.description>
+
+  <TM_SymbiosisThought.stages.0.label>симбиоз</TM_SymbiosisThought.stages.0.label>
+  <TM_SymbiosisThought.stages.0.description>Эмоциональная стойкость обеспечивается симбиотической связью с эмпатом.</TM_SymbiosisThought.stages.0.description>
+
+  <TM_OutOfBodyThought.stages.0.label>вне тела</TM_OutOfBodyThought.stages.0.label>
+  <TM_OutOfBodyThought.stages.0.description>Эмоциональная энергия используется для усиления другой пешки.</TM_OutOfBodyThought.stages.0.description>
+
+
+</LanguageData>

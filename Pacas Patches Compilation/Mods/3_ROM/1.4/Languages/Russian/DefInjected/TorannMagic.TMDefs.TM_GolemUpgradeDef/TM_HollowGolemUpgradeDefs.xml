@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_Golem_HollowRestore.label>восстановите часть</TM_Golem_HollowRestore.label>
+
+  <TM_Golem_HollowMaxEnergy.label>ячейка маны</TM_Golem_HollowMaxEnergy.label>
+  <TM_Golem_HollowMaxEnergy.description>Увеличивает максимальную энергию на 500 за уровень. Начальная максимальная энергия составляет 2500.</TM_Golem_HollowMaxEnergy.description>
+
+  <TM_Golem_HollowEnergyEfficiency.label>преобразователь маны</TM_Golem_HollowEnergyEfficiency.label>
+  <TM_Golem_HollowEnergyEfficiency.description>Повышает энергоэффективность на 10% за уровень. Начальная энергоэффективность составляет 50%.</TM_Golem_HollowEnergyEfficiency.description>
+
+  <TM_Golem_HollowEnergyRate.label>аттрактор маны</TM_Golem_HollowEnergyRate.label>
+  <TM_Golem_HollowEnergyRate.description>Увеличивает скорость заряда энергии на 20% за уровень. Начальная скорость перезарядки составляет 30 энергозатрат в час.</TM_Golem_HollowEnergyRate.description>
+
+  <TM_Golem_HollowAxe.label>полый топор</TM_Golem_HollowAxe.label>
+  <TM_Golem_HollowAxe.description>Добавляет массивный боевой топор, который пронзает нескольких противников с каждым ударом. Выдолбленный топор занимает слот для оружия; может быть снаряжено только одно оружие.</TM_Golem_HollowAxe.description>
+
+  <TM_Golem_HollowStaff.label>Полый Посох</TM_Golem_HollowStaff.label>
+  <TM_Golem_HollowStaff.description>Позволяет проводить дальнюю магическую атаку. Выдолбленный посох занимает слот для оружия; может быть снаряжено только одно оружие.</TM_Golem_HollowStaff.description>
+
+  <TM_Golem_HollowBreastPlate.label>нагрудный знак</TM_Golem_HollowBreastPlate.label>
+  <TM_Golem_HollowBreastPlate.description>Увеличивает броню для груди и туловища:
+Тупой урон:	+21%
+Режущий урон:	+32%
+Температура:	+14%</TM_Golem_HollowBreastPlate.description>
+
+  <TM_Golem_HollowHelm.label>шлем</TM_Golem_HollowHelm.label>
+  <TM_Golem_HollowHelm.description>Защищает голову и череп:
+Тупой урон:	+22%
+Режущий урон:	+7%
+Температура:	+9%</TM_Golem_HollowHelm.description>
+
+  <TM_Golem_HollowShoulders.label>наплечные щитки</TM_Golem_HollowShoulders.label>
+  <TM_Golem_HollowShoulders.description>Защищает плечи, воротник и шею:
+Тупой урон:	+8%
+Режущий урон:	+19%
+Температура:	+6%</TM_Golem_HollowShoulders.description>
+
+  <TM_Golem_HollowCrown.label>Венец пробуждения</TM_Golem_HollowCrown.label>
+  <TM_Golem_HollowCrown.description>Пассивно усиливает волю владельца для защиты от магических атак и обеспечивает незначительную физическую защиту. Активная способность обнаруживает и аннулирует магию других заклинаний.
+
+Отражение заклинания
+Затраты на энергию: 50
+Время перезарядки: 6,6с
+Диапазон: 100
+Урон и радиус варьируются в зависимости от стоимости маны отраженного заклинания</TM_Golem_HollowCrown.description>
+
+  <TM_Golem_HollowCloak.label>Исчезающий плащ</TM_Golem_HollowCloak.label>
+  <TM_Golem_HollowCloak.description>Плащ с эффектом исчезновения пассивно увеличивает базовую скорость передвижения пользователя, обеспечивая при этом небольшую степень защиты. Он также позволяет владельцу мгновенно перемещаться в другое место на карте, затрачивая энергию. Если владелец исчезает в месте рядом с врагами, взрыв распада поразит каждого врага вблизи места назначения.
+
+Тупой урон: +10%
+Режущий урон: +5%
+Температура: +15%
+Гармония: +5%
+Скорость перемещения +.4c/s
+
+Увядший Распад
+Затраты на энергию: 30
+Время перезарядки: 20 секунд
+Минимальный диапазон: 10c
+Максимальный диапазон: 200c
+Радиус распада: 4c
+Шанс попадания: 80%</TM_Golem_HollowCloak.description>
+
+  <TM_HollowGolem_CoAFire.label>Герб: Огонь</TM_HollowGolem_CoAFire.label>
+  <TM_HollowGolem_CoAFire.description>Пассивно увеличивает статистику и улучшает касание распада, чтобы нанести бонусный урон 10 + 5* уровнь повреждения от ожогов.:
+Движение: +[0.2c/0.3c/0.35c]
+Тепловая броня: +[30%/50%/60%]
+Перезарядка способностей: -[10%/20%/30%]
+Обработка: +[10%/20%/30%]
+
+Поглощать Огонь
+Затраты на энергию: 0
+Время перезарядки: 4,2с
+Диапазон: 2c
+Здоровье, восстановленное за огонь: 7</TM_HollowGolem_CoAFire.description>
+
+  <TM_HollowGolem_CoAIce.label>Coat of Arms: Water</TM_HollowGolem_CoAIce.label>
+  <TM_HollowGolem_CoAIce.description>Passively increases stats and improves decay touch to heal the golem for 8 + 4*level and another nearby pawn for the same amount.
+Armor:		+[5%/10%/15%]
+Cooldown:	-[10%/20%/30%]
+Processing:	+[10%/20%/30%]</TM_HollowGolem_CoAIce.description>
+
+  <TM_HollowGolem_CoAArcane.label>Герб: Тайный</TM_HollowGolem_CoAArcane.label>
+  <TM_HollowGolem_CoAArcane.description>Пассивно увеличивает статистику и улучшает прикосновение к разрушению, восстанавливает 20 + 5* энергии уровня за удар.
+Перезарядка способностей: -[12%/24%/36%]
+Урон Способности: +[10%/20%/30%]
+Обработка: +[15%/30%/45%]</TM_HollowGolem_CoAArcane.description>
+
+  <TM_HollowGolem_CoADeath.label>Coat of Arms: Death</TM_HollowGolem_CoADeath.label>
+  <TM_HollowGolem_CoADeath.description>Passively increases stats and improves decay touch to be 50% more effective and strike twice.
+Armor:		+[5%/10%/15%]
+Ability Cooldown:	-[8%/16%/24%]
+Ability Damage:	+[10%/20%/30%]
+Processing:	+[15%/30%/45%]</TM_HollowGolem_CoADeath.description>
+
+  <TM_Golem_HollowPGFire.label>Защитный камень: Огонь</TM_Golem_HollowPGFire.label>
+  <TM_Golem_HollowPGFire.description>Камень защиты от огня позволяет голему окружить себя огнем с помощью щита Пылающей ярости. Пылающая ярость снижает урон от всех атак на 35%, прижигает раны, предотвращает шатание и сжигает ближайших врагов.
+
+Стоимость энергии: 120
+Время перезарядки: 1200 секунд
+Продолжительность: 100 секунд</TM_Golem_HollowPGFire.description>
+
+  <TM_Golem_HollowPGIce.label>Защитный камень: Вода</TM_Golem_HollowPGIce.label>
+  <TM_Golem_HollowPGIce.description>Камень защиты от воды позволяет голему уклоняться от входящих атак. Шанс уклониться от атаки пропорционален проценту энергии голема. Каждое уклонение уменьшает энергию големов на 5. Эта способность сохраняется до тех пор, пока энергетический порог голема превышает минимум, необходимый для использования способностей.</TM_Golem_HollowPGIce.description>
+
+  <TM_Golem_HollowPGArcane.label>Защитный камень: Тайный</TM_Golem_HollowPGArcane.label>
+  <TM_Golem_HollowPGArcane.description>Тайный защитный камень позволяет голему окружать вражеских дальнобойщиков обратным щитом под названием Колодец Отчаяния. Колодец отчаяния пропускает снаряды внутрь, но блокирует все снаряды наружу.
+		
+Затраты на электроэнергию: 60
+Время перезарядки: 480
+Диапазон: 50
+Продолжительность: 20 секунд</TM_Golem_HollowPGArcane.description>
+
+  <TM_Golem_HollowPGDeath.label>Камень защиты: Смерть</TM_Golem_HollowPGDeath.label>
+  <TM_Golem_HollowPGDeath.description>Камень защиты от смерти окружает голема проклятой аурой. Враги в пределах 15 клеток могут быть поражены проклятием, которое ухудшает силу воли и боевые способности. Затраты энергии всегда равны 10, независимо от того, сколько врагов пострадало.
+
+Диапазон ауры: 15
+Частота импульса: 12 с
+затраты энергии: 10 энергии на импульс</TM_Golem_HollowPGDeath.description>
+
+  <TM_Golem_HollowPGDoom.label>Защитный камень: Бездна Смерти</TM_Golem_HollowPGDoom.label>
+  <TM_Golem_HollowPGDoom.description>Камень защиты Бездны Смерти проклинает врагов тяжестью их смертности. Враги в пределах 36 клеток могут быть поражены проклятием, замедляющим движение.
+
+Диапазон ауры: 36
+Частота импульса: 10 с
+затраты энергии: 8 энергии за пешку</TM_Golem_HollowPGDoom.description>
+
+  <TM_Golem_HollowFGFire.label>Фокус камень: Огонь</TM_Golem_HollowFGFire.label>
+  <TM_Golem_HollowFGFire.description>Камень фокусировки огня позволяет голему концентрировать стихийный огонь в яростную вспышку огненных зарядов. Запускает 16 огненных зарядов во врагов в пределах 8 клеток от цели.
+
+Затраты на энергию: 40
+Минимальный диапазон: 6
+Максимальный диапазон: 50</TM_Golem_HollowFGFire.description>
+
+  <TM_Golem_HollowFGIce.label>Фокус камень: Лед</TM_Golem_HollowFGIce.label>
+  <TM_Golem_HollowFGIce.description>Камень ледяного фокуса позволяет голему концентрировать элементальный лед в быстрый поток ледяных разрядов. Запускает 16 ледяных болитов во врагов в пределах 12 клеток от цели.
+
+Затраты на энергию: 60
+Минимальный диапазон: 10
+Максимальный диапазон: 70</TM_Golem_HollowFGIce.description>
+
+  <TM_Golem_HollowFGArcane.label>Фокус камень: Тайный</TM_Golem_HollowFGArcane.label>
+  <TM_Golem_HollowFGArcane.description>Камень тайного фокуса позволяет голему концентрировать темную энергию в виде массивного теневого разряда. Запускает одиночную взрывную молнию тени в цель. Экстремальный диапазон.
+
+Затраты на электроэнергию: 50
+Минимальный диапазон: 10
+Максимальная дальность действия: 150</TM_Golem_HollowFGArcane.description>
+
+  <TM_Golem_HollowFGDeath.label>Фокус камень: Смерть</TM_Golem_HollowFGDeath.label>
+  <TM_Golem_HollowFGDeath.description>Камень фокуса смерти окружает голема полем, излучающим энергию смерти. Периодически наносит удары по ближайшим врагам. Получает бонусный удар, когда любая пешка умирает в пределах 10 клеток от голема.
+
+Затраты на энергию: 20
+Диапазон: 10</TM_Golem_HollowFGDeath.description>
+
+  <TM_Golem_HollowAffinityFire.label>сродство к огню</TM_Golem_HollowAffinityFire.label>
+  <TM_Golem_HollowAffinityFire.description>Тайная энергия внутри полого голема вплетена в элементальный огонь. Для каждого голема допускается только одно сродство. Это сродство заставляет глаза голема светиться красновато-оранжевым. Сродство к огню дает голему дополнительные характеристики:
+Движение: +[25/40/50]%
+Здоровье: +[40/60/75]%</TM_Golem_HollowAffinityFire.description>
+
+  <TM_Golem_HollowAffinityIce.label>сродство к воде</TM_Golem_HollowAffinityIce.label>
+  <TM_Golem_HollowAffinityIce.description>Тайная энергия внутри полого голема вплетена в элементальную воду. Для каждого голема допускается только одно сродство. Это сродство заставляет глаза голема светиться светло-голубым. Сродство к воде дает голему дополнительные характеристики:
+Движение: +[20/30/35]%
+Здоровье: +[50/75/90]%</TM_Golem_HollowAffinityIce.description>
+
+  <TM_Golem_HollowAffinityArcane.label>тайное сродство</TM_Golem_HollowAffinityArcane.label>
+  <TM_Golem_HollowAffinityArcane.description>Тайная энергия внутри полого голема еще больше усиливается. Для каждого голема допускается только одно сродство. Это сродство заставляет глаза голема светиться пурпурным цветом. Тайное сродство дает голему дополнительные характеристики:
+Движение: +[15/25/30]%
+Здоровье: +[55/85/100]%</TM_Golem_HollowAffinityArcane.description>
+
+  <TM_Golem_HollowAffinityDeath.label>близость к смерти</TM_Golem_HollowAffinityDeath.label>
+  <TM_Golem_HollowAffinityDeath.description>Тайная энергия внутри полого голема вплетена в магию смерти. Для каждого голема допускается только одно сродство. Это сродство заставляет глаза голема светиться зеленым. Близость к смерти дает голему дополнительные характеристики:
+Движение: +[15.10.2010]%
+Здоровье: +[65/90/110]%</TM_Golem_HollowAffinityDeath.description>
+
+  <TM_Golem_HollowOrbOfExtinguishedFlames.label>Шар потухшего пламени</TM_Golem_HollowOrbOfExtinguishedFlames.label>
+  <TM_Golem_HollowOrbOfExtinguishedFlames.description>Очки, набранные за активную исследовательскую технологию, будут увеличиваться за каждую убитую пешку на карте. Шар также может быть переключен для обнаружения и поглощения любого огня в пределах 25 ячеек и излучает слабый серебристый свет. Эти эффекты активны только тогда, когда полый голем находится в состоянии покоя.</TM_Golem_HollowOrbOfExtinguishedFlames.description>
+
+  <TM_Golem_HollowFlamesOfDevouringApathy.label>Пламя всепожирающей апатии</TM_Golem_HollowFlamesOfDevouringApathy.label>
+  <TM_Golem_HollowFlamesOfDevouringApathy.description>Активно регулирует температуру и уничтожает любую грязь в пределах 25 ячеек. Излучает слабый мистический свет. Эти эффекты активны только тогда, когда полый голем находится в состоянии покоя.</TM_Golem_HollowFlamesOfDevouringApathy.description>
+
+
+</LanguageData>

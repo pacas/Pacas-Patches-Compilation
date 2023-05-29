@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/ThingDef[
+        @ParentName="ArcaneSpellBase" or 
+        @ParentName="FighterSkillBase" or 
+        @ParentName="WritableScriptBase" or 
+        @ParentName="UsableGemstoneBase"]/costList/RawMagicyte</xpath>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ScrollDefs</docName>
+                <xpath>{DEF}</xpath>
+            </Operation>
+        </apply>
+    </Operation>
+    <Operation Class="XmlExtensions.ForEach">
+        <xmlDoc>ScrollDefs</xmlDoc>
+        <xpath>ScrollDefs/ThingDef/defName</xpath>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>ScrollDefs</xmlDoc>
+                <xpath>{DEF}/costList/RawMagicyte</xpath>
+                <value>0.25</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.CreateVariable">
+                <xmlDoc>ScrollDefs</xmlDoc>
+                <storeIn>rawMagicyteCount</storeIn>
+                <value>{DEF}/costList/RawMagicyte</value>
+                <fromXml>true</fromXml>
+                <operation>roundnearest</operation>
+                <apply>
+                    <Operation Class="XmlExtensions.PatchOperationReplace">
+                        <xmlDoc>ScrollDefs</xmlDoc>
+                        <xpath>{DEF}/costList/RawMagicyte</xpath>
+                        <value>
+                            <PureMagicyteBar>{rawMagicyteCount}</PureMagicyteBar>
+                        </value>
+                    </Operation>
+                </apply>
+            </Operation>
+        </apply>
+    </Operation>
+    <Operation Class="XmlExtensions.MergeDocument">
+        <docName>ScrollDefs</docName>
+    </Operation>
+</Patch>

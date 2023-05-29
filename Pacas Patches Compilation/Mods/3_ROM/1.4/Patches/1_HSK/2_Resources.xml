@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="TM_SpiritBear"]/race/leatherDef</xpath>
+                <value>
+                    <leatherDef>Leather_Light</leatherDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                    statBases/MeatAmount="0" and not(race/useMeatFrom) and starts-with(race/thinkTreeMain, "TM_") or
+                    defName="TM_GreaterMinionR"
+                ]/race</xpath>
+                <value>
+                    <useMeatFrom>TM_MinionR</useMeatFrom>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_Dire_WolfR" or @Name="TM_Base_SpiritAnimal"]/race</xpath>
+                <value>
+                    <useMeatFrom>Elephant</useMeatFrom>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_SpiritTD"]/race</xpath>
+                <value>
+                    <useMeatFrom>Human</useMeatFrom>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dungeons Core (Continued)</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/statBases/MeatAmount</xpath>
+                    <value>
+                        <MeatAmount>0</MeatAmount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/statBases/LeatherAmount</xpath>
+                    <value>
+                        <LeatherAmount>0</LeatherAmount>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/race</xpath>
+                    <value>
+                        <useMeatFrom>Human</useMeatFrom>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

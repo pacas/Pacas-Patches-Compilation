@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<TM_SpiritBear.label>дух медведя</TM_SpiritBear.label>
+<TM_SpiritBear.labelPlural>духи медведей</TM_SpiritBear.labelPlural>
+<TM_SpiritBear.labelMale>самец дух медведя</TM_SpiritBear.labelMale>
+<TM_SpiritBear.labelMalePlural>самцы духи медведи</TM_SpiritBear.labelMalePlural>
+<TM_SpiritBear.labelFemale>самка дух медведя</TM_SpiritBear.labelFemale>
+<TM_SpiritBear.labelFemalePlural>самки духи медведи</TM_SpiritBear.labelFemalePlural>
+
+<TM_SpiritMongoose.label>дух мангуста</TM_SpiritMongoose.label>
+<TM_SpiritMongoose.labelPlural>духи мангустов</TM_SpiritMongoose.labelPlural>
+<TM_SpiritMongoose.labelMale>самец дух мангуста</TM_SpiritMongoose.labelMale>
+<TM_SpiritMongoose.labelMalePlural>самцы духи мангустов</TM_SpiritMongoose.labelMalePlural>
+<TM_SpiritMongoose.labelFemale>самка дух мангуста</TM_SpiritMongoose.labelFemale>
+<TM_SpiritMongoose.labelFemalePlural>самки духи мангустов</TM_SpiritMongoose.labelFemalePlural>
+  
+<TM_SpiritCrow.label>дух ворона</TM_SpiritCrow.label>
+<TM_SpiritCrow.labelPlural>духи воронов</TM_SpiritCrow.labelPlural>
+<TM_SpiritCrow.lifeStages.0.label>полет 1</TM_SpiritCrow.lifeStages.0.label>
+<TM_SpiritCrow.lifeStages.0.labelPlural>перелет</TM_SpiritCrow.lifeStages.0.labelPlural>
+<TM_SpiritCrow.lifeStages.0.labelMale>мужской полет 1</TM_SpiritCrow.lifeStages.0.labelMale>
+<TM_SpiritCrow.lifeStages.0.labelMalePlural>мужской перелет</TM_SpiritCrow.lifeStages.0.labelMalePlural>
+<TM_SpiritCrow.lifeStages.0.labelFemale>женский полет 1</TM_SpiritCrow.lifeStages.0.labelFemale>
+<TM_SpiritCrow.lifeStages.0.labelFemalePlural>женский перелет</TM_SpiritCrow.lifeStages.0.labelFemalePlural>
+<TM_SpiritCrow.lifeStages.1.label>полет 2</TM_SpiritCrow.lifeStages.1.label>
+<TM_SpiritCrow.lifeStages.1.labelPlural>перелеты</TM_SpiritCrow.lifeStages.1.labelPlural>
+<TM_SpiritCrow.lifeStages.1.labelMale>мужской полет 2</TM_SpiritCrow.lifeStages.1.labelMale>
+<TM_SpiritCrow.lifeStages.1.labelMalePlural>мужские перелеты</TM_SpiritCrow.lifeStages.1.labelMalePlural>
+<TM_SpiritCrow.lifeStages.1.labelFemale>женский полет 2</TM_SpiritCrow.lifeStages.1.labelFemale>
+<TM_SpiritCrow.lifeStages.1.labelFemalePlural>женские полеты</TM_SpiritCrow.lifeStages.1.labelFemalePlural>
+<TM_SpiritCrow.lifeStages.2.label>птенец вороны</TM_SpiritCrow.lifeStages.2.label>
+<TM_SpiritCrow.lifeStages.2.labelPlural>птенцы вороны</TM_SpiritCrow.lifeStages.2.labelPlural>
+<TM_SpiritCrow.lifeStages.2.labelMale>самец вороньего птенца</TM_SpiritCrow.lifeStages.2.labelMale>
+<TM_SpiritCrow.lifeStages.2.labelMalePlural>птенцы самца вороны</TM_SpiritCrow.lifeStages.2.labelMalePlural>
+<TM_SpiritCrow.lifeStages.2.labelFemale>самка вороньего птенца</TM_SpiritCrow.lifeStages.2.labelFemale>
+<TM_SpiritCrow.lifeStages.2.labelFemalePlural>птенцы самки вороны</TM_SpiritCrow.lifeStages.2.labelFemalePlural>
+<TM_SpiritCrow.lifeStages.3.label>птенец вороны</TM_SpiritCrow.lifeStages.3.label>
+<TM_SpiritCrow.lifeStages.3.labelPlural>птенцы вороны</TM_SpiritCrow.lifeStages.3.labelPlural>
+<TM_SpiritCrow.lifeStages.3.labelMale>оперившийся самец вороны</TM_SpiritCrow.lifeStages.3.labelMale>
+<TM_SpiritCrow.lifeStages.3.labelMalePlural>птенцы самца вороны</TM_SpiritCrow.lifeStages.3.labelMalePlural>
+<TM_SpiritCrow.lifeStages.3.labelFemale>оперившаяся самка вороны</TM_SpiritCrow.lifeStages.3.labelFemale>
+<TM_SpiritCrow.lifeStages.3.labelFemalePlural>птенцы самки вороны</TM_SpiritCrow.lifeStages.3.labelFemalePlural>
+<TM_SpiritCrow.lifeStages.4.label>дух ворона</TM_SpiritCrow.lifeStages.4.label>
+<TM_SpiritCrow.lifeStages.4.labelPlural>духи ворон</TM_SpiritCrow.lifeStages.4.labelPlural>
+<TM_SpiritCrow.lifeStages.4.labelMale>мужской дух ворона</TM_SpiritCrow.lifeStages.4.labelMale>
+<TM_SpiritCrow.lifeStages.4.labelMalePlural>мужские духи ворон</TM_SpiritCrow.lifeStages.4.labelMalePlural>
+<TM_SpiritCrow.lifeStages.4.labelFemale>женский дух ворона</TM_SpiritCrow.lifeStages.4.labelFemale>
+<TM_SpiritCrow.lifeStages.4.labelFemalePlural>женские духи ворон</TM_SpiritCrow.lifeStages.4.labelFemalePlural>
+<TM_SpiritCrow.labelMale>мужской дух ворона</TM_SpiritCrow.labelMale>
+<TM_SpiritCrow.labelMalePlural>мужские духи ворон</TM_SpiritCrow.labelMalePlural>
+<TM_SpiritCrow.labelFemale>женский дух ворона</TM_SpiritCrow.labelFemale>
+<TM_SpiritCrow.labelFemalePlural>женские духи ворон</TM_SpiritCrow.labelFemalePlural>
+
+</LanguageData>

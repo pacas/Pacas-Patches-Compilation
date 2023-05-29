@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+    <!--TM_PlantCultivation-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_PlantCultivation"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_PlantCultivation"]/baseCost</xpath>
+                <value>
+                    <baseCost>700</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_PlantCultivation"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>8.00</researchViewY>
+                </value>
+            </li>
+    <!--TM_ArcaneConstruction-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneConstruction"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneConstruction"]/baseCost</xpath>
+                <value>
+                    <baseCost>400</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneConstruction"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>1.00</researchViewX>
+                </value>
+            </li>
+    <!--TM_ArcaneFundamentals-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneFundamentals"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneFundamentals"]/baseCost</xpath>
+                <value>
+                    <baseCost>400</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneFundamentals"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>2.00</researchViewX>
+                </value>
+            </li>
+    <!--TM_MagicCircle-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicCircle"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicCircle"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicCircle"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>2.00</researchViewX>
+                </value>
+            </li>
+    <!--TM_Portals-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Portals"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Portals"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Portals"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Portals"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_ManaStorage</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_ManaStorage-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ManaStorage"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ManaStorage"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ManaStorage"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>4.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ManaStorage"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>0.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ManaStorage"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_MagicCircle</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_MagicyteRefining-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicyteRefining"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicyteRefining"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>1.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicyteRefining"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>3.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicyteRefining"]/label</xpath>
+                <value>
+                    <label>magicyte cutting</label>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicyteRefining"]/description</xpath>
+                <value>
+                    <description>Experimental research that identifies ways to use magicyte to create magical items.</description>
+                </value>
+            </li>
+    <!--TM_ArcaneCrafting-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/description</xpath>
+                <value>
+                    <description>The first step in understanding the link between the arcane and physical. Enables construction of powerful gems of insight and basic equipment.</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/baseCost</xpath>
+                <value>
+                    <baseCost>900</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>0.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneCrafting"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_MagicyteRefining</li>
+                        <li>Smithing</li>
+                        <li>Greatbow</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_ArcaneForging-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]/baseCost</xpath>
+                <value>
+                    <baseCost>1000</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>1.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneForging"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Stonecutting</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_ForgeReplication-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ForgeReplication"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ForgeReplication"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ForgeReplication"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>7.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ForgeReplication"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>0.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ForgeReplication"]/techLevel</xpath>
+                <value>
+                    <techLevel>Industrial</techLevel>
+                </value>
+            </li>
+    <!--TM_ArcaneApparel-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]/baseCost</xpath>
+                <value>
+                    <baseCost>1000</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>6.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>3.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneApparel"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_ArcaneCrafting</li>
+                        <li>TM_ArcaneForging</li>
+                        <li>Apparel_B1</li>
+                        <li>PlateArmor</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_ArcaneArtifacts-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]/baseCost</xpath>
+                <value>
+                    <baseCost>900</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>7.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>3.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]/techLevel</xpath>
+                <value>
+                    <techLevel>Industrial</techLevel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ArcaneArtifacts"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_ArcaneApparel</li>
+                        <li>TM_ArcaneWeapons</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_GolemCraftRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_GolemCraftRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_GolemCraftRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_GolemCraftRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>2.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_GolemCraftRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>4.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ResearchProjectDef[defName="TM_GolemCraftRD"]/prerequisites</xpath>
+            </li>
+    <!--TM_HollowGolemRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>4.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_HollowGolemEquipmentRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemEquipmentRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemEquipmentRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemEquipmentRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemEquipmentRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>4.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemEquipmentRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_HollowGolemArtifactsRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemArtifactsRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemArtifactsRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemArtifactsRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>8.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemArtifactsRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>4.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_HollowGolemArtifactsRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Industrial</techLevel>
+                </value>
+            </li>
+    <!--TM_MechaGolemRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>10.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Industrial</techLevel>
+                </value>
+            </li>
+    <!--TM_MechaGolemEquipmentRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemEquipmentRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemEquipmentRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemEquipmentRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>11.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemEquipmentRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Industrial</techLevel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MechaGolemEquipmentRD"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>TM_MechaGolemRD</li>
+                        <li>Apparel_C2</li>
+                        <li>Armor_C1</li>
+                        <li>Melee_C1</li>
+                    </prerequisites>
+                </value>
+            </li>
+    <!--TM_FleshGolemRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>5.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_FleshGolemEquipmentRD-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemEquipmentRD"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemEquipmentRD"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemEquipmentRD"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemEquipmentRD"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>5.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_FleshGolemEquipmentRD"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_MagicScribing-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicScribing"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicScribing"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicScribing"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>2.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MagicScribing"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>6.00</researchViewY>
+                </value>
+            </li>      
+    <!--TM_AdvancedScribing-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedScribing"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedScribing"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedScribing"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>3.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedScribing"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>6.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedScribing"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_MasterScribing-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MasterScribing"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MasterScribing"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MasterScribing"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>4.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MasterScribing"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>6.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_MasterScribing"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_Enchanting-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Enchanting"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Enchanting"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Enchanting"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>2.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_Enchanting"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>7.00</researchViewY>
+                </value>
+            </li>          
+    <!--TM_AdvancedEnchanting-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedEnchanting"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedEnchanting"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedEnchanting"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>3.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedEnchanting"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>7.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_AdvancedEnchanting"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+    <!--TM_ExpertEnchanting-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ExpertEnchanting"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ExpertEnchanting"]/baseCost</xpath>
+                <value>
+                    <baseCost>1200</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ExpertEnchanting"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>4.00</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ExpertEnchanting"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>7.00</researchViewY>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="TM_ExpertEnchanting"]/techLevel</xpath>
+                <value>
+                    <techLevel>Medieval</techLevel>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

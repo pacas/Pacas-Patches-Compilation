@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_ExtractSyrrium.label>извлечь сириум</TM_ExtractSyrrium.label>
+  <TM_ExtractSyrrium.description>Кипятите поманасириум до тех пор, пока не будет возможно откачать сириум из смеси поманы.</TM_ExtractSyrrium.description>
+  <TM_ExtractSyrrium.jobString>Извлекает сириум</TM_ExtractSyrrium.jobString>
+  
+  <ExtractSeed_Pomanasyrrium.label>Получить семена поманасириума</ExtractSeed_Pomanasyrrium.label>
+  <ExtractSeed_Pomanasyrrium.description>Извлечь семена из фруктов поманы.</ExtractSeed_Pomanasyrrium.description>
+  <ExtractSeed_Pomanasyrrium.jobString>Извлекает семена поманасириума</ExtractSeed_Pomanasyrrium.jobString>
+  
+  <ExtractSeed_Paracyte.label>Получить семена парацита-терновника</ExtractSeed_Paracyte.label>
+  <ExtractSeed_Paracyte.description>Получить зачарованные семена из необработанного магицита и фруктов поманы.</ExtractSeed_Paracyte.description>
+  <ExtractSeed_Paracyte.jobString>Извлекает семена парацита-терновника</ExtractSeed_Paracyte.jobString>
+
+
+</LanguageData>

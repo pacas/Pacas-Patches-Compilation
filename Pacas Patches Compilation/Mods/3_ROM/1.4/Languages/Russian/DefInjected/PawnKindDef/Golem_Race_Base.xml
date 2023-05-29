@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STONE GOLEM -->
+
+  <TM_StoneGolemK.label>каменный голем</TM_StoneGolemK.label>
+  <TM_StoneGolemK.labelPlural>каменные големы</TM_StoneGolemK.labelPlural>
+
+  <TM_SandstoneGolemK.label>песчаннный голем</TM_SandstoneGolemK.label>
+  <TM_SandstoneGolemK.labelPlural>песчаннные големы</TM_SandstoneGolemK.labelPlural>
+
+  <TM_LimestoneGolemK.label>известняковый голем</TM_LimestoneGolemK.label>
+  <TM_LimestoneGolemK.labelPlural>известняковые големы</TM_LimestoneGolemK.labelPlural>
+
+  <TM_GraniteGolemK.label>гранитный голем</TM_GraniteGolemK.label>
+  <TM_GraniteGolemK.labelPlural>гранитные големы</TM_GraniteGolemK.labelPlural>
+
+  <TM_SlateGolemK.label>сланцевый голем</TM_SlateGolemK.label>
+  <TM_SlateGolemK.labelPlural>сланцевые големы</TM_SlateGolemK.labelPlural>
+
+  <TM_MarbleGolemK.label>мраморный голем</TM_MarbleGolemK.label>
+  <TM_MarbleGolemK.labelPlural>мраморные големы</TM_MarbleGolemK.labelPlural>
+
+
+  <!-- MECHA GOLEM -->
+
+  <TM_MechaGolemK.label>меха-голем</TM_MechaGolemK.label>
+  <TM_MechaGolemK.labelPlural>меха-големы</TM_MechaGolemK.labelPlural>
+
+
+  <!-- FLESH GOLEM -->
+
+  <TM_FleshGolemK.label>голем из плоти</TM_FleshGolemK.label>
+  <TM_FleshGolemK.labelPlural>големы из плоти</TM_FleshGolemK.labelPlural>
+
+
+  <!-- HOLLOW GOLEM -->
+
+  <TM_HollowGolemK.label>пустотелый голем</TM_HollowGolemK.label>
+  <TM_HollowGolemK.labelPlural>пустотелые големы</TM_HollowGolemK.labelPlural>
+
+
+  <!-- MAHARAL GOLEM -->
+
+  <TM_MaharalGolemK.label>махарал-голем</TM_MaharalGolemK.label>
+  <TM_MaharalGolemK.labelPlural>махарал-големы</TM_MaharalGolemK.labelPlural>
+
+
+</LanguageData>

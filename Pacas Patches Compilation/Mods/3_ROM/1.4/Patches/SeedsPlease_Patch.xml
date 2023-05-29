@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.FindMod">
+        <mods>
+            <li>SeedsPlease</li>
+        </mods>
+        <caseTrue>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <SeedsPlease.SeedDef ParentName="SeedBase">
+                        <defName>Seed_Pomanasyrrium</defName>
+                        <label>pomanasyrrium seeds</label>
+                        <description>Seeds of pomanasyrrium plant.</description>
+                        <descriptionHyperlinks>
+                            <ThingDef>TM_Plant_Pomanasyrrium</ThingDef>
+                        </descriptionHyperlinks>
+                        <sources>
+                            <li>TM_Plant_Pomanasyrrium</li>
+                        </sources>
+                        <graphicData>
+                            <texPath>Seeds/Pomanasyrrium</texPath>
+                        </graphicData>
+                        <statBases>
+                            <MarketValue>15</MarketValue>
+                        </statBases>
+                    </SeedsPlease.SeedDef>
+                    <SeedsPlease.SeedDef ParentName="SeedBase">
+                        <defName>Seed_Paracyte</defName>
+                        <label>paracyte thornbush seeds</label>
+                        <description>Seeds of paracyte thornbush plant.</description>
+                        <descriptionHyperlinks>
+                            <ThingDef>TM_Plant_Paracyte</ThingDef>
+                        </descriptionHyperlinks>
+                        <sources>
+                            <li>TM_Plant_Paracyte</li>
+                        </sources>
+                        <graphicData>
+                            <texPath>Seeds/Paracyte</texPath>
+                        </graphicData>
+                        <statBases>
+                            <MarketValue>20</MarketValue>
+                        </statBases>
+                    </SeedsPlease.SeedDef>
+                    
+                    <RecipeDef ParentName="ExtractSeed">
+                        <defName>ExtractSeed_Pomanasyrrium</defName>
+                        <label>extract pomanasyrrium seeds</label>
+                        <description>Extract seeds from pomanasyrrium fruit</description>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>TM_RawPomanasyrrium</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>4</count>
+                            </li>
+                        </ingredients>
+                        <fixedIngredientFilter>
+                            <thingDefs>
+                                <li>TM_RawPomanasyrrium</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                        <products>
+                            <Seed_Pomanasyrrium>3</Seed_Pomanasyrrium>
+                        </products>
+                    </RecipeDef>
+                    <RecipeDef ParentName="ExtractSeed">
+                        <defName>ExtractSeed_Paracyte</defName>
+                        <label>extract paracyte seeds</label>
+                        <description>create paracyte seeds from magicyte and pomanasyrrium seeds</description>
+                        <ingredients>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>TM_RawPomanasyrrium</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>4</count>
+                            </li>
+                            <li>
+                                <filter>
+                                    <thingDefs>
+                                        <li>RawMagicyte</li>
+                                    </thingDefs>
+                                </filter>
+                                <count>15</count>
+                            </li>
+                        </ingredients>
+                        <fixedIngredientFilter>
+                            <thingDefs>
+                                <li>TM_RawPomanasyrrium</li>
+                                <li>RawMagicyte</li>
+                            </thingDefs>
+                        </fixedIngredientFilter>
+                        <products>
+                            <Seed_Paracyte>3</Seed_Paracyte>
+                        </products>
+                    </RecipeDef>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- demon special attack manuevers -->
+
+  <TM_Demon.label>демон</TM_Demon.label>
+  <TM_Demon.labelPlural>демоны</TM_Demon.labelPlural>
+  <TM_Demon.lifeStages.0.label>демон</TM_Demon.lifeStages.0.label>
+  <TM_Demon.lifeStages.0.labelPlural>демоны</TM_Demon.lifeStages.0.labelPlural>
+
+  <TM_LesserDemon.label>меньший демон</TM_LesserDemon.label>
+  <TM_LesserDemon.labelPlural>меньшие демоны</TM_LesserDemon.labelPlural>
+  <TM_LesserDemon.lifeStages.0.label>демон</TM_LesserDemon.lifeStages.0.label>
+  <TM_LesserDemon.lifeStages.0.labelPlural>демоны</TM_LesserDemon.lifeStages.0.labelPlural>
+
+</LanguageData>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ElephantSpear"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Plasteel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>20</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>WoodLog</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>30</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ElephantTusk</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ElephantSpear"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>5</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumboAxe"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Plasteel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>20</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>WoodLog</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>60</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Jade</li>
+                                </thingDefs>
+                            </filter>
+                            <count>20</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SilverBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ThrumboHorn</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumboAxe"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>9</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumboSaber"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Plasteel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>WoodLog</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>45</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Jade</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SilverBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ThrumboHorn</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumboSaber"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>9</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ElephantBow"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Plasteel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>WoodLog</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>30</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ElephantTusk</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ElephantBow"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>5</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumBow"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>WoodLog</li>
+                                </thingDefs>
+                            </filter>
+                            <count>15</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>PureMagicyteBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>60</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Jade</li>
+                                </thingDefs>
+                            </filter>
+                            <count>15</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>GoldBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SilverBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ThrumboHorn</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="ArcaneForge_ThrumBow"]/skillRequirements</xpath>
+                <value>
+                    <skillRequirements>
+                        <Intellectual>5</Intellectual>
+                        <Crafting>9</Crafting>
+                    </skillRequirements>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ElephantTusk"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Leather_Light>20</Leather_Light>
+                        <Plasteel>10</Plasteel>
+                        <ElephantTusk>1</ElephantTusk>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="TM_ElephantTusk"]/costStuffCount</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="TM_ElephantTusk"]/stuffCategories</xpath>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ElephantTusk"]/recipeMaker</xpath>
+                <value>
+                    <recipeMaker>
+                        <workSpeedStat>SmithingSpeed</workSpeedStat>
+                        <workSkill>Crafting</workSkill>
+                        <effectWorking>Smith</effectWorking>
+                        <soundWorking>Recipe_Smith</soundWorking>
+                        <recipeUsers>
+                            <li>ElectricSmithy</li>
+                            <li>FueledSmithy</li>
+                        </recipeUsers>
+                        <skillRequirements>
+                            <Crafting>5</Crafting>
+                        </skillRequirements>
+                        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+                        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="ArcaneForge_ElephantSpear" or
+                defName="ArcaneForge_ThrumboAxe" or
+                defName="ArcaneForge_ElephantBow" or
+                defName="ArcaneForge_ThrumBow"
+                ]/workAmount</xpath>
+                <value>
+                    <workAmount>12000</workAmount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="ArcaneForge_ThrumboSaber"
+                ]/workAmount</xpath>
+                <value>
+                    <workAmount>17000</workAmount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="ArcaneForge_ElephantSpear" or
+                defName="ArcaneForge_ThrumboAxe" or
+                defName="ArcaneForge_ElephantBow" or
+                defName="ArcaneForge_ThrumBow"
+                ]/workSkill</xpath>
+                <value>
+                    <workSkill>Crafting</workSkill>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="ArcaneForge_ElephantSpear" or
+                defName="ArcaneForge_ThrumboAxe" or
+                defName="ArcaneForge_ElephantBow" or
+                defName="ArcaneForge_ThrumBow"
+                ]/researchPrerequisite</xpath>
+                <value>
+                    <researchPrerequisite>TM_ArcaneWeapons</researchPrerequisite>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="TM_ElephantSpear" or
+                defName="TM_ElephantBow" or
+                defName="TM_ThrumboAxe" or
+                defName="TM_ThrumBow" or
+                defName="TM_GloryMaul" or
+                defName="TM_Decimation" or
+                defName="TM_DemonFang" or
+                defName="TM_ThrumboSaber"
+                ]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="TM_ElephantSpear" or
+                defName="TM_ElephantBow" or
+                defName="TM_ThrumboAxe" or
+                defName="TM_ThrumBow" or
+                defName="TM_GloryMaul" or
+                defName="TM_Decimation" or
+                defName="TM_DemonFang" or
+                defName="TM_ThrumboSaber"
+                ]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="TM_GloryMaul" or
+                defName="TM_DemonFang" or
+                defName="TM_Decimation"
+                ]/stuffCategories</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="TM_GloryMaul" or
+                defName="TM_DemonFang" or
+                defName="TM_Decimation"
+                ]/costStuffCount</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="TM_ElephantSpear" or
+                defName="TM_ElephantBow" or
+                defName="TM_ThrumboAxe" or
+                defName="TM_ThrumBow" or
+                defName="TM_GloryMaul" or
+                defName="TM_Decimation" or
+                defName="TM_DemonFang" or
+                defName="TM_ThrumboSaber"
+                ]/statBases/WorkToMake</xpath>
+            </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                defName="TM_ElephantSpear" or
+                defName="TM_ElephantBow" or
+                defName="TM_ThrumboAxe" or
+                defName="TM_GloryMaul" or
+                defName="TM_Decimation" or
+                defName="TM_DemonFang" or
+                defName="TM_ThrumBow" or
+                defName="TM_ThrumboSaber"
+                ]</xpath>
+                <value>
+                    <smeltProducts>
+                        <PureMagicyteBar>15</PureMagicyteBar>
+                        <Plasteel>5</Plasteel>
+                    </smeltProducts>
+                </value>
+            </li>
+            <!--разделить-->
+        </operations>
+    </Operation>
+</Patch>

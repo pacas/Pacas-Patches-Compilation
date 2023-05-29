@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_CommanderTD.stages.0.label>Харизматичная пешка</TM_CommanderTD.stages.0.label>
+  <TM_CommanderTD.stages.0.description>Я был эмоционально заряжен! Я не уверен, что именно, но хорошие вещи обязательно происходят вокруг такого харизматичного командира.</TM_CommanderTD.stages.0.description>
+
+  <TM_CommanderTD_I.stages.0.label>Харизматичный командир</TM_CommanderTD_I.stages.0.label>
+  <TM_CommanderTD_I.stages.0.description>Я был эмоционально заряжен! Хорошие вещи обязательно происходят вокруг такого харизматичного командира, хотя не совсем ясно, как именно.</TM_CommanderTD_I.stages.0.description>
+
+  <TM_CommanderTD_II.stages.0.label>Харизматичный лидер</TM_CommanderTD_II.stages.0.label>
+  <TM_CommanderTD_II.stages.0.description>Я был эмоционально заряжен! Вокруг такого харизматичного лидера обязательно происходят хорошие вещи.</TM_CommanderTD_II.stages.0.description>
+
+  <TM_CommanderTD_III.stages.0.label>Харизматичный провидец</TM_CommanderTD_III.stages.0.label>
+  <TM_CommanderTD_III.stages.0.description>Я был эмоционально заряжен! Вокруг такого харизматичного провидца обязательно происходят хорошие вещи.</TM_CommanderTD_III.stages.0.description>
+
+  <TM_TaskMasterTD.stages.0.label>Мастер задач</TM_TaskMasterTD.stages.0.label>
+  <TM_TaskMasterTD.stages.0.description>Каждый аспект моей жизни стал микроуправляемым; у меня едва хватает времени, чтобы нормально поесть.</TM_TaskMasterTD.stages.0.description>
+
+
+</LanguageData>

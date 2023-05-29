@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_PoisonTrap.label>Ловушка с ядом</TM_PoisonTrap.label>
+  <TM_PoisonTrap.description>Ловушка, созданная из палок и бечевки, она легко сливается с местностью для нетренированного глаза, но по запаху является безошибочным предупреждением для животных. Частицы друидического яда выбрасываются в воздух, когда жертва запускает ловушку. Этот яд токсичен и служит как для того, чтобы ранить, так и для того, чтобы вывести жертву из строя.</TM_PoisonTrap.description>
+
+  <TM_Trap_Lightning.label>Ловушка С Молнией</TM_Trap_Lightning.label>
+  <TM_Trap_Lightning.description>Ловушка, созданная путем содержания элементальной молнии внутри тайного барьера; она высвобождает разлитую по бутылкам энергию всякий раз, когда враг нарушает соседнюю тайную нить.</TM_Trap_Lightning.description>
+
+  <TM_ManaMine.label>Мина маны</TM_ManaMine.label>
+  <TM_ManaMine.description>Мощное взрывчатое вещество, созданное путем сжатия маны и материи. Щупальца психической силы тянутся от мины; когда жертва нарушает психическую нить, она разрушает сдерживающее поле и взрывает мину.  2.4м радиус взрыва.</TM_ManaMine.description>
+
+  <TM_ManaMine_I.label>Мина маны</TM_ManaMine_I.label>
+  <TM_ManaMine_I.description>Мощное взрывчатое вещество, созданное путем сжатия маны и материи. Щупальца психической силы тянутся от мины; когда жертва нарушает психическую нить, она разрушает сдерживающее поле и взрывает мину.  2.9м радиус взрыва.</TM_ManaMine_I.description>
+
+  <TM_ManaMine_II.label>Мина маны</TM_ManaMine_II.label>
+  <TM_ManaMine_II.description>Мощное взрывчатое вещество, созданное путем сжатия маны и материи. Щупальца психической силы тянутся от мины; когда жертва нарушает психическую нить, она разрушает сдерживающее поле и взрывает мину.  3.8м радиус взрыва.</TM_ManaMine_II.description>
+
+  <TM_ManaMine_III.label>Мина маны</TM_ManaMine_III.label>
+  <TM_ManaMine_III.description>Мощное взрывчатое вещество, созданное путем сжатия маны и материи. Щупальца психической силы тянутся от мины; когда жертва нарушает психическую нить, она разрушает сдерживающее поле и взрывает мину.  4.7м радиус взрыва.</TM_ManaMine_III.description>
+
+  <DefensePylon.label>магический защитный пилон</DefensePylon.label>
+  <DefensePylon.description>Магический защитный пилон. Создается путем материализации магической энергии для формирования основы, а затем направления тайного тока в фокусную точку, которая испускает всплески сырой энергии.</DefensePylon.description>
+
+  <Launcher_DefensePylon.label>точка энергетического фокуса</Launcher_DefensePylon.label>
+  <Launcher_DefensePylon.description>Фокусная точка тайного защитного пилона, способного собирать и испускать всплески сырой магической энергии.</Launcher_DefensePylon.description>
+
+  <Bullet_DefensePylon.label>целенаправленная магическая энергия</Bullet_DefensePylon.label>
+
+  <DefensePylon_I.label>магический защитный пилон (I)</DefensePylon_I.label>
+  <DefensePylon_I.description>A магический защитный пилон. Created by materializing magical energy to form a base, and then channeling arcane current into a focal point that emits bursts of raw energy.</DefensePylon_I.description>
+
+  <Launcher_DefensePylon_I.label>точка энергетического фокуса</Launcher_DefensePylon_I.label>
+  <Launcher_DefensePylon_I.description>Фокусная точка тайного защитного пилона, способного собирать и испускать всплески сырой магической энергии.</Launcher_DefensePylon_I.description>
+
+  <DefensePylon_II.label>магический защитный пилон (II)</DefensePylon_II.label>
+  <DefensePylon_II.description>A магический защитный пилон. Created by materializing magical energy to form a base, and then channeling arcane current into a focal point that emits bursts of raw energy.</DefensePylon_II.description>
+
+  <Launcher_DefensePylon_II.label>точка энергетического фокуса</Launcher_DefensePylon_II.label>
+  <Launcher_DefensePylon_II.description>Фокусная точка тайного защитного пилона, способного собирать и испускать всплески сырой магической энергии.</Launcher_DefensePylon_II.description>
+
+  <DefensePylon_III.label>магический защитный пилон (III)</DefensePylon_III.label>
+  <DefensePylon_III.description>A магический защитный пилон. Created by materializing magical energy to form a base, and then channeling arcane current into a focal point that emits bursts of raw energy.</DefensePylon_III.description>
+
+  <Launcher_DefensePylon_III.label>точка энергетического фокуса</Launcher_DefensePylon_III.label>
+  <Launcher_DefensePylon_III.description>Фокусная точка тайного защитного пилона, способного собирать и испускать всплески сырой магической энергии.</Launcher_DefensePylon_III.description>
+
+
+  <!-- Magic Walls -->
+
+  <TM_ArcaneBarrier.label>чародейский барьер</TM_ArcaneBarrier.label>
+  <TM_ArcaneBarrier.description>Непроходимая стена, сделанная из затвердевшей магической силы. Обеспечивает защиту или создает непроходимый барьер.</TM_ArcaneBarrier.description>
+
+
+  <!-- Techno Turret -->
+
+  <TM_TechnoTurret_Base.label>Mark-IV</TM_TechnoTurret_Base.label>
+  <TM_TechnoTurret_Base.description>Mark-IV-это развертываемая башня, которая обеспечивает огневую мощь системы тяжелого вооружения. Он использует миниатюризацию, чтобы позволить пользователю легко транспортировать систему, когда она не используется. Ключевым компонентом Mark-IV является преобразователь материи, который использует сырую энергию для ремонта и пополнения запасов башни, когда она находится в миниатюризированном состоянии, что позволяет осуществлять номинальное преобразование энергии в материю. Однако даже при использовании пластали и гиперволокна для укрепления системы вооружения этот материал просто не выдерживал давления, оказываемого на него в процессе конверсии, и был очень восприимчив к разрушению и отказу компонентов.
+  
+С тех пор техноманты адаптировали систему и используют свой контроль над тайной энергией, чтобы обеспечить башню боеприпасами во время развертывания и энергией для ремонта и процесса миниатюризации.
+
+Из-за своего веса Марк-IV не может быть перемещен во время развертывания.</TM_TechnoTurret_Base.description>
+
+  <TM_TechnoTurret_Base_RL.label>Mark-IV</TM_TechnoTurret_Base_RL.label>
+  <TM_TechnoTurret_Base_RL.description>Mark-IV-это развертываемая башня, которая обеспечивает огневую мощь системы тяжелого вооружения. Он использует миниатюризацию, чтобы позволить пользователю легко транспортировать систему, когда она не используется. Ключевым компонентом Mark-IV является преобразователь материи, который использует сырую энергию для ремонта и пополнения запасов башни, когда она находится в миниатюризированном состоянии, что позволяет осуществлять номинальное преобразование энергии в материю. Однако даже при использовании пластали и гиперволокна для укрепления системы вооружения этот материал просто не выдерживал давления, оказываемого на него в процессе конверсии, и был очень восприимчив к разрушению и отказу компонентов.
+  
+С тех пор техноманты адаптировали систему и используют свой контроль над тайной энергией, чтобы обеспечить башню боеприпасами во время развертывания и энергией для ремонта и процесса миниатюризации.
+
+Из-за своего веса Марк-IV не может быть перемещен во время развертывания.</TM_TechnoTurret_Base_RL.description>
+
+  <TM_TechnoTurret_Base_RL_MTR.label>Mark-IV</TM_TechnoTurret_Base_RL_MTR.label>
+  <TM_TechnoTurret_Base_RL_MTR.description>Mark-IV-это развертываемая башня, которая обеспечивает огневую мощь системы тяжелого вооружения. Он использует миниатюризацию, чтобы позволить пользователю легко транспортировать систему, когда она не используется. Ключевым компонентом Mark-IV является преобразователь материи, который использует сырую энергию для ремонта и пополнения запасов башни, когда она находится в миниатюризированном состоянии, что позволяет осуществлять номинальное преобразование энергии в материю. Однако даже при использовании пластали и гиперволокна для укрепления системы вооружения этот материал просто не выдерживал давления, оказываемого на него в процессе конверсии, и был очень восприимчив к разрушению и отказу компонентов.
+  
+С тех пор техноманты адаптировали систему и используют свой контроль над тайной энергией, чтобы обеспечить башню боеприпасами во время развертывания и энергией для ремонта и процесса миниатюризации.
+
+Из-за своего веса Марк-IV не может быть перемещен во время развертывания.</TM_TechnoTurret_Base_RL_MTR.description>
+
+  <Bullet_Mark-IV.label>Mark-IV пули</Bullet_Mark-IV.label>
+
+  <Gun_Mark-IV.label>Mark-IV оружейная система</Gun_Mark-IV.label>
+  <Gun_Mark-IV.description>Mark-IV ствол и система контроля огня.</Gun_Mark-IV.description>
+
+  <Gun_Mark-IV_RL.label>Mark-IV оружейная система</Gun_Mark-IV_RL.label>
+  <Gun_Mark-IV_RL.description>Mark-IV ствол и система контроля огня.</Gun_Mark-IV_RL.description>
+
+  <Gun_Mark-IV_RL_MTR.label>Mark-IV оружейная система</Gun_Mark-IV_RL_MTR.label>
+  <Gun_Mark-IV_RL_MTR.description>Mark-IV ствол и система контроля огня.</Gun_Mark-IV_RL_MTR.description>
+
+  <FlyingObject_RocketSmall.label>маленькая ракета</FlyingObject_RocketSmall.label>
+  <Bullet_Shell_TechnoTurretExplosive.label>HE снаряд</Bullet_Shell_TechnoTurretExplosive.label>
+
+
+  <!-- 60mm Mortar -->
+
+  <TM_60mmMortar_Base.label>60mm Минометная Труба</TM_60mmMortar_Base.label>
+  <TM_60mmMortar_Base.description>60-мм миномет-это лично переносимая и развертываемая система непрямого огня. Из-за веса системы оболочки обычно распределяются для транспортировки. Система предназначена для непрямого огня, и только любители пытаются использовать ее для прямой наводки, так как она одновременно неточна и разоблачает минометчика. 
+  
+  Дальность действия и огневая мощь системы ограничены по сравнению со стационарными системами из-за защитной способности минометной трубы и взрывного патрона.</TM_60mmMortar_Base.description>
+
+  <FlyingObject_60mmMortar.label>60mm снаряд</FlyingObject_60mmMortar.label>
+
+  <TM_LightningTotem.label>Тотем Молнии</TM_LightningTotem.label>
+  <TM_LightningTotem.description>Шаманский тотем, украшенный сложной, причудливой резьбой и потрескивающий стихийными молниями.</TM_LightningTotem.description>
+
+  <TM_HealingTotem.label>Исцеляющий Тотем</TM_HealingTotem.label>
+  <TM_HealingTotem.description>Шаманский тотем, украшенный плавными, дополняющими друг друга формами. Исцеляющий тотем способен привлекать дружественных духов, которые вернут силу и здоровье ближайшим союзникам.</TM_HealingTotem.description>
+
+  <TM_EarthTotem.label>Земной тотем</TM_EarthTotem.label>
+  <TM_EarthTotem.description>Шаманский тотем, украшенный симметричной резьбой и излучающий чувство единения. Связь тотема с землей позволяет ему вызывать сейсмические волны, которые поражают ближайших врагов.</TM_EarthTotem.description>
+
+</LanguageData>

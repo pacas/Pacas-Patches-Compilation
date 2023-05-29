@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.PatchDef Name="ROM_ApparelArmorValues" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>stuffmultiplier</li>
+            <li>sharp</li>
+            <li>blunt</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ApparelDoc</docName>
+                <xpath>Defs/ThingDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="{def}"]/statBases</xpath>
+                <value>
+                    <StuffEffectMultiplierArmor>{stuffmultiplier}</StuffEffectMultiplierArmor>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="{def}"]/statBases</xpath>
+                <value>
+                    <ArmorRating_Sharp>{sharp}</ArmorRating_Sharp>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="{def}"]/statBases</xpath>
+                <value>
+                    <ArmorRating_Blunt>{blunt}</ArmorRating_Blunt>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+</Defs>

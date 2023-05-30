@@ -47,7 +47,7 @@
 						</li>
                         
                         <!--<li Class="PatchOperationReplace">
-                            <xpath>/Defs/ThingDef[@Name="BasePawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
+                            <xpath>Defs/ThingDef[@Name="BasePawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
                             <value>
                                 <li>CombatExtended.ITab_Inventory</li>
                             </value>

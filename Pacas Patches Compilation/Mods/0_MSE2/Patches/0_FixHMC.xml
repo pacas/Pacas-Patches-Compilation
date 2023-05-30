@@ -9,14 +9,14 @@
 			<operations>
 			
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/PawnKindDef[@ParentName="HMCNorbalBase" and defName="HMCCyberNorbal"]/techHediffsRequired/li[text()="GTHand"]</xpath>
+					<xpath>Defs/PawnKindDef[@ParentName="HMCNorbalBase" and defName="HMCCyberNorbal"]/techHediffsRequired/li[text()="GTHand"]</xpath>
 					<value>
 						<li>ArchotechHand</li>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/PawnKindDef[@ParentName="HMCNorbalBase" and defName="HMCCyberNorbal"]/techHediffsRequired/li[text()="GTFoot"]</xpath>
+					<xpath>Defs/PawnKindDef[@ParentName="HMCNorbalBase" and defName="HMCCyberNorbal"]/techHediffsRequired/li[text()="GTFoot"]</xpath>
 					<value>
 						<li>ArchotechFoot</li>
 					</value>

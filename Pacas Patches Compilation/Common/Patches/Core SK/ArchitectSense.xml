@@ -2,17 +2,17 @@
 <Patch>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="MoreArchotechGarbage"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="MoreArchotechGarbage"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="MoreArchotechGarbage"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="MoreArchotechGarbage"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="MoreArchotechGarbage"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="MoreArchotechGarbage"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/MoreArchotechGarbage</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="MoreArchotechGarbage"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="MoreArchotechGarbage"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/MoreArchotechGarbage</iconPath>
                 </value>
@@ -22,11 +22,11 @@
 
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="SW_Warrants"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="SW_Warrants"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="SW_Warrants"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="SW_Warrants"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="SW_Warrants"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="SW_Warrants"]</xpath>
                 <value>
                     <minimized>True</minimized>
                     <iconPath>UI/ArchitectIcons/SW_Warrants</iconPath>
@@ -36,17 +36,17 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="Pathing"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="Pathing"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="Pathing"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="Pathing"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="Pathing"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="Pathing"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Pathing</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="Pathing"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="Pathing"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Pathing</iconPath>
                 </value>
@@ -55,17 +55,17 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/PropsandDecor</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/PropsandDecor</iconPath>
                 </value>
@@ -74,17 +74,17 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Golems</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Golems</iconPath>
                 </value>
@@ -93,17 +93,17 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Corpses</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Corpses</iconPath>
                 </value>
@@ -112,17 +112,17 @@
     </Operation>
     
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
+        <xpath>Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
         <match Class="PatchOperationConditional">
-            <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
+            <xpath>Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
             <nomatch Class="PatchOperationAdd">
-                <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
+                <xpath>Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/Farming</iconPath>
                 </value>
             </nomatch>
             <match Class="PatchOperationReplace">
-                <xpath>/Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
+                <xpath>Defs/MainButtonDef[defName="FarmingHysteresis_MainTabWindow_Hysteresis"]/iconPath</xpath>
                 <value>
                     <iconPath>UI/ArchitectIcons/farming</iconPath>
                 </value>

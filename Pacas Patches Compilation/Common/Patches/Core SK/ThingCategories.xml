@@ -4,7 +4,7 @@
         <operations>
             <!-- Wort ?-->
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName = "Wort"]/thingCategories</xpath>
+                <xpath>Defs/ThingDef[defName = "Wort"]/thingCategories</xpath>
                 <value>
 					<thingCategories>
                         <li>CookingSupplies</li>
@@ -14,7 +14,7 @@
 
             <!-- Alcohol -->
             <!-- <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName = "cider" or defName = "rum" or
+                <xpath>Defs/ThingDef[defName = "cider" or defName = "rum" or
                                       defName = "Wine" or defName = "strawberrywine" or
                                       defName = "saki" or defName = "vodka" or
                                       defName = "tequila" or defName = "whisky" or

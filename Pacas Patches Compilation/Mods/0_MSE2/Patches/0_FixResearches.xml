@@ -3,10 +3,10 @@
     <Operation Class="PatchOperationSequence">
         <operations>
             <li Class="PatchOperationRemove">
-                <xpath>/Defs/ResearchProjectDef[defName="BoneProstheticsSimple"]</xpath>
+                <xpath>Defs/ResearchProjectDef[defName="BoneProstheticsSimple"]</xpath>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>/Defs/ResearchProjectDef[defName="BoneProstheticsPlasteel"]</xpath>
+                <xpath>Defs/ResearchProjectDef[defName="BoneProstheticsPlasteel"]</xpath>
             </li>
             <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ResearchProjectDef[defName="BionicModules"]</xpath>

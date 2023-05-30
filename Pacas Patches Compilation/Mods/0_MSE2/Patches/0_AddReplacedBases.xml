@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationRemove">
-        <xpath>/Defs/ThingDef[@Name="BodyPartBionic_Bone" and @ParentName="BodyPartBionicBase"]</xpath>
+        <xpath>Defs/ThingDef[@Name="BodyPartBionic_Bone" and @ParentName="BodyPartBionicBase"]</xpath>
     </Operation>
 
     <Operation Class="PatchOperationRemove">
-        <xpath>/Defs/ThingDef[@Name="BodyPartProsthetic_Bone" and @ParentName="BodyPartProstheticMakeableBase"]</xpath>
+        <xpath>Defs/ThingDef[@Name="BodyPartProsthetic_Bone" and @ParentName="BodyPartProstheticMakeableBase"]</xpath>
     </Operation>
     
     <Operation Class="PatchOperationRemove">
-        <xpath>/Defs/ThingDef[@Name="MSE_ModuleBionic" and @ParentName="BodyPartBase"]</xpath>
+        <xpath>Defs/ThingDef[@Name="MSE_ModuleBionic" and @ParentName="BodyPartBase"]</xpath>
     </Operation>
 
     <Operation Class="PatchOperationAdd">

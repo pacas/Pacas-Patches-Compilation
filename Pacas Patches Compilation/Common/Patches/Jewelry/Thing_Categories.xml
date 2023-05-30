@@ -8,7 +8,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs</xpath>
+                    <xpath>Defs</xpath>
                     <value>
                         <ThingCategoryDef>
                             <defName>Jewels_HSK</defName>
@@ -20,7 +20,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="Diamond" or
+                    <xpath>Defs/ThingDef[defName="Diamond" or
                                           defName="Ruby" or
                                           defName="Sapphire"]
                     /thingCategories</xpath>

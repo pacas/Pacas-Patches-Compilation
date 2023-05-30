@@ -12,15 +12,11 @@
                         defName="AdvancedArchotechHand" or
                         defName="AdvancedArchotechFinger" or
                         defName="AdvancedArchotechFoot" or
+                        defName="AdvancedArchotechInternalSupport" or
                         defName="AdvancedArchotechToe"
                         ]</xpath>
                     <attribute>ParentName</attribute>
                     <value>HediffBodyPartBase_Archotech</value>
-                </li>
-                <li Class="PatchOperationAttributeSet">
-                    <xpath>Defs/HediffDef[defName="AdvancedArchotechInternalSupport"]</xpath>
-                    <attribute>ParentName</attribute>
-                    <value>HediffBodyPartBase_ArchotechImplants</value>
                 </li>
                 <li Class="PatchOperationAttributeSet">
                     <xpath>Defs/ThingDef[
@@ -28,33 +24,25 @@
                         defName="AdvancedArchotechHand" or
                         defName="AdvancedArchotechFinger" or
                         defName="AdvancedArchotechFoot" or
+                        defName="AdvancedArchotechInternalSupport" or
                         defName="AdvancedArchotechToe"
                         ]</xpath>
                     <attribute>ParentName</attribute>
                     <value>BodyPartBase_ArchotechBodyPart</value>
                 </li>
                 <li Class="PatchOperationAttributeSet">
-                    <xpath>Defs/ThingDef[defName="AdvancedArchotechInternalSupport"]</xpath>
-                    <attribute>ParentName</attribute>
-                    <value>BodyPartBase_ArchotechModule</value>
-                </li>
-                <li Class="PatchOperationAttributeSet">
                     <xpath>Defs/RecipeDef[
                         defName="InstallAdvancedArchotechForearm" or
                         defName="InstallAdvancedArchotechFinger" or
                         defName="InstallAdvancedArchotechFoot" or
+                        defName="InstallAdvancedArchotechInternalSupport" or
                         defName="InstallAdvancedArchotechToe"
                         ]</xpath>
                     <attribute>ParentName</attribute>
                     <value>SK_SurgeryInstallArchotechBodyPartBase</value>
                 </li>
-                <li Class="PatchOperationAttributeSet">
-                    <xpath>/Defs/RecipeDef[defName="InstallAdvancedArchotechInternalSupport"]</xpath>
-                    <attribute>ParentName</attribute>
-                    <value>SK_SurgeryInstallArchotechImplantBase</value>
-                </li>
                 <li Class="PatchOperationAddModExtension">
-                    <xpath>/Defs/RecipeDef[defName="InstallArchotechDeathClaw" or defName="InstallArchotechObliterator"]</xpath>
+                    <xpath>Defs/RecipeDef[defName="InstallArchotechDeathClaw" or defName="InstallArchotechObliterator"]</xpath>
                     <value>
                         <li Class="MSE2.AutoRecipeUsers">
                             <bodySizeRange>0~4</bodySizeRange>
@@ -62,7 +50,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/HediffDef[defName="ArchotechDeathClaw" or defName="ArchotechObliterator"]</xpath>
+                    <xpath>Defs/HediffDef[defName="ArchotechDeathClaw" or defName="ArchotechObliterator"]</xpath>
                     <value>
                     <hediffClass>MSE2.Hediff_ModuleAdded</hediffClass>
                     </value>

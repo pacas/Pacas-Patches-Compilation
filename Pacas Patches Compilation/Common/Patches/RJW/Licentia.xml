@@ -8,7 +8,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[@Name="LL_SerumBase"]/thingCategories</xpath>
+                    <xpath>Defs/ThingDef[@Name="LL_SerumBase"]/thingCategories</xpath>
                     <value>
                         <thingCategories Inherit="False">
                             <li>Serums</li>

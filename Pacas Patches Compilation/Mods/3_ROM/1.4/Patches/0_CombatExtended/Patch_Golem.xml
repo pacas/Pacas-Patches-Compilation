@@ -584,7 +584,7 @@
 				</value>
 			</li>
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="TM_HollowGolem"]/verbs</xpath>
+                <xpath>Defs/ThingDef[defName="TM_HollowGolem"]/verbs</xpath>
                 <value>
                     <verbs>
                         <li Class="CombatExtended.VerbPropertiesCE">

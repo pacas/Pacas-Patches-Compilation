@@ -12,6 +12,18 @@
                         <partEfficiency>1.6</partEfficiency>
                     </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechFinger"]/statBases/MarketValue</xpath>
+                    <value>
+                        <MarketValue>700</MarketValue>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AdvancedArchotechToe"]/statBases/MarketValue</xpath>
+                    <value>
+                        <MarketValue>650</MarketValue>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="AdvancedArchotechForearm"]</xpath>
                     <value>

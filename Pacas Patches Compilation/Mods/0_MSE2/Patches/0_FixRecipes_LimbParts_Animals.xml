@@ -22,15 +22,15 @@
 			<operations>
 
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="BionicLegAnimal" and costList/Plasteel]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="BionicLegAnimal" and costList/Plasteel]/costList</xpath>
 				</li>
 				<li Class="PatchOperationAddCopy">
-					<xpath>/Defs/ThingDef[defName="BionicLegAnimal" and not(costList)]</xpath>
-					<fromxpath>/Defs/ThingDef[defName="BionicLegAnimal" and costList/Biomatter]/costList</fromxpath>
+					<xpath>Defs/ThingDef[defName="BionicLegAnimal" and not(costList)]</xpath>
+					<fromxpath>Defs/ThingDef[defName="BionicLegAnimal" and costList/Biomatter]/costList</fromxpath>
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="BionicPawAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="BionicPawAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg
@@ -49,7 +49,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="BionicHoofAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="BionicHoofAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg
@@ -68,15 +68,15 @@
 				</li>
 
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Steel]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Steel]/costList</xpath>
 				</li>
 				<li Class="PatchOperationAddCopy">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and not(costList)]</xpath>
-					<fromxpath>/Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Plastic]/costList</fromxpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticLegAnimal" and not(costList)]</xpath>
+					<fromxpath>Defs/ThingDef[defName="SimpleProstheticLegAnimal" and costList/Plastic]/costList</fromxpath>
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticPawAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticPawAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg
@@ -94,7 +94,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticHoofAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticHoofAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg
@@ -112,7 +112,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticFootAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticFootAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg
@@ -130,7 +130,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="SimpleProstheticToeAnimal"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="SimpleProstheticToeAnimal"]/costList</xpath>
 					<value>
 						<costList>
 							<!-- Leg

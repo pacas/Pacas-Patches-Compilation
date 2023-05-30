@@ -3,28 +3,28 @@
 	
 	<!-- LimbParts -->
 	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[@Name="BodyPartProsthetic_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@Name="BodyPartProsthetic_Limb"]</xpath>
 	</Operation>
 	<Operation Class="PatchOperationAttributeSet">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Limb"]</xpath>
 		<attribute>ParentName</attribute>
 		<value>BodyPartBase_Simple</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[@Name="BodyPartBionic_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@Name="BodyPartBionic_Limb"]</xpath>
 	</Operation>
 	<Operation Class="PatchOperationAttributeSet">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Limb"]</xpath>
 		<attribute>ParentName</attribute>
 		<value>BodyPartBase_Bionic</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[@Name="BodyPartAchotech_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@Name="BodyPartAchotech_Limb"]</xpath>
 	</Operation>
 	<Operation Class="PatchOperationAttributeSet">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartAchotech_Limb"]</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartAchotech_Limb"]</xpath>
 		<attribute>ParentName</attribute>
 		<value>BodyPartBase_Cybernetic</value>
 	</Operation>

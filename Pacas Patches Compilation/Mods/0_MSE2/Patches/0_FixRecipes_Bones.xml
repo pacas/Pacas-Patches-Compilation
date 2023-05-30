@@ -22,7 +22,7 @@
 
 	<!-- Simple -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticSternum"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticSternum"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>4</Plastic>
@@ -32,7 +32,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticClavicle"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticClavicle"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>10</Plastic>
@@ -42,7 +42,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticHumerus"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticHumerus"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>10</Plastic>
@@ -52,7 +52,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticRadius"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticRadius"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>10</Plastic>
@@ -62,7 +62,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticFemur"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticFemur"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>10</Plastic>
@@ -72,7 +72,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticTibia"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProsthetic_Bone" and defName="SimpleProstheticTibia"]/costList</xpath>
 		<value>
 			<costList>
 				<Plastic>10</Plastic>
@@ -84,7 +84,7 @@
 
 	<!-- Bionic -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelSternum"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelSternum"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>5</Biomatter>
@@ -94,7 +94,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelClavicle"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelClavicle"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>7</Biomatter>
@@ -104,7 +104,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelHumerus"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelHumerus"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>7</Biomatter>
@@ -114,7 +114,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelRadius"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelRadius"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>7</Biomatter>
@@ -124,7 +124,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelFemur"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelFemur"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>7</Biomatter>
@@ -134,7 +134,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelTibia"]/costList</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionic_Bone" and defName="PlasteelTibia"]/costList</xpath>
 		<value>
 			<costList>
 				<Biomatter>7</Biomatter>

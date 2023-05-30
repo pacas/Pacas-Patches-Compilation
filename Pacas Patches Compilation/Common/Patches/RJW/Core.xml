@@ -34,11 +34,11 @@
                 </li>
                 
                 <li Class="PatchOperationRemove">
-                    <xpath>/Defs/ThingDef[defName="HumpShroom"]/thingCategories</xpath>
+                    <xpath>Defs/ThingDef[defName="HumpShroom"]/thingCategories</xpath>
                 </li>
                 
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="UsedCondom"]/thingCategories</xpath>
+                    <xpath>Defs/ThingDef[defName="UsedCondom"]/thingCategories</xpath>
                     <value>
                         <thingCategories Inherit="False">
                             <li>MeatSubRaw</li>
@@ -47,7 +47,7 @@
                 </li>
                 
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="Aphrodisiac" or
+                    <xpath>Defs/ThingDef[defName="Aphrodisiac" or
                                           defName="RJW_Contraceptive" or
                                           defName="RJW_FertPill" or
                                           defName="HumpShroom"]
@@ -60,7 +60,7 @@
                 </li>
                 
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="Hololock" or
+                    <xpath>Defs/ThingDef[defName="Hololock" or
                                           defName="Holokey" or
                                           defName="Condom"]/thingCategories
                     </xpath>

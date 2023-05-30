@@ -7,10 +7,130 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationRemove">
-                    <xpath>/Defs/RecipeDef[@ParentName="SK_SurgeryInstallBodyPartArtificialBase"][defName="ANN_InstallPowerArms"]</xpath>
+                    <xpath>Defs/RecipeDef[@ParentName="SK_SurgeryInstallBodyPartArtificialBase"][defName="ANN_InstallPowerArms"]</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>/Defs/ThingDef[@Name="BaseHumanlikePawn" and @ParentName="SK_BasePawn"]/recipes/li[text()="ANN_InstallPowerArms"]</xpath>
+                    <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn" and @ParentName="SK_BasePawn"]/recipes/li[text()="ANN_InstallPowerArms"]</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[
+                    defName="CONN_HoverFeet" or
+                    defName="CONN_EnergyFist" or
+                    defName="CONN_OuterBlade"
+                    ]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[
+                    defName="CONN_InstallHoverFeet" or
+                    defName="CONN_InstallEnergyFist" or
+                    defName="CONN_InstallOuterBlade"
+                    ]</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="CONN_hediff_HoverFeet"]</xpath>
+                    <value>
+                        <HediffDef ParentName="AddedBodyPartBase">
+                            <defName>CONN_hediff_HoverFeet</defName>
+                            <label>hover foot</label>
+                            <description>A self-sustaining hover board mounted on a rail adapter transplantation directly linked to the bones inside the foot. Young street gangs used this once upon a time to escape after committing crimes on Urbworlds. It enhances movement speed by gliding.</description>
+                            <labelNoun>an hover foot</labelNoun>
+                            <defaultLabelColor>(0.4, 0.6, 0.9)</defaultLabelColor>
+                            <addedPartProps>
+                                <solid>true</solid>
+                                <partEfficiency>1.25</partEfficiency>
+                                <betterThanNatural>true</betterThanNatural>
+                            </addedPartProps>
+                            <spawnThingOnRemoved>ANN_HoverFeet</spawnThingOnRemoved>
+                            <descriptionHyperlinks>
+                                <ThingDef>ANN_HoverFeet</ThingDef>
+                            </descriptionHyperlinks>
+                        </HediffDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="CONN_hediff_EnergyFist"]</xpath>
+                    <value>
+                        <HediffDef ParentName="AddedBodyPartBase">
+                            <defName>CONN_hediff_EnergyFist</defName>
+                            <label>energy fist</label>
+                            <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. The pump allows for quick, controlled punches. The mechanical trigger lets you have control about its sheer power with its powerful speed boosts bounded on neural connectors and energized by an ultratech micro-battery.</description>
+                            <labelNoun>an energy fist</labelNoun>
+                            <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+                            <comps>
+                                <li Class="HediffCompProperties_VerbGiver">
+                                    <tools>
+                                        <li Class="CombatExtended.ToolCE">
+                                            <label>arm</label>
+                                            <capacities>
+                                                <li>Poke</li>
+                                            </capacities>
+                                            <power>19.0</power>
+                                            <cooldownTime>0.9</cooldownTime>
+                                            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+                                            <armorPenetrationBlunt>35</armorPenetrationBlunt>
+                                        </li>
+                                    </tools>
+                                </li>
+                            </comps>
+                            <spawnThingOnRemoved>ANN_EnergyFist</spawnThingOnRemoved>
+                            <descriptionHyperlinks>
+                                <ThingDef>ANN_EnergyFist</ThingDef>
+                            </descriptionHyperlinks>
+                            <addedPartProps>
+                                <isGoodWeapon>true</isGoodWeapon>
+                                <solid>true</solid>
+                                <partEfficiency>1.50</partEfficiency>
+                                <betterThanNatural>true</betterThanNatural>
+                            </addedPartProps>
+                        </HediffDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="CONN_hediff_OuterBlade"]</xpath>
+                    <value>
+                        <HediffDef ParentName="AddedBodyPartBase">
+                            <defName>CONN_hediff_OuterBlade</defName>
+                            <label>outer blade</label>
+                            <description>A combat-oriented forearm transformation consisting of a mechanical implementation with a telescopic blade behind the ulna. It is deadly in combat, and its plasteel breakout weapon can pierce through nearly anything due to the hydraulic forces applied. The blade can be retracted and is easy to hide.</description>
+                            <labelNoun>an outer blade</labelNoun>
+                            <defaultLabelColor>(0, 0.6, 0.4)</defaultLabelColor>
+                            <comps>
+                                <li Class="HediffCompProperties_VerbGiver">
+                                    <tools>
+                                        <li Class="CombatExtended.ToolCE">
+                                            <label>arm</label>
+                                            <capacities>
+                                                <li>Stab</li>
+                                            </capacities>
+                                            <power>26</power>
+                                            <cooldownTime>1.3</cooldownTime>
+                                            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+                                            <armorPenetrationSharp>8</armorPenetrationSharp>
+                                            <armorPenetrationBlunt>4</armorPenetrationBlunt>
+                                        </li>
+                                    </tools>
+                                </li>
+                            </comps>
+                            <stages>
+                                <li>
+                                    <statOffsets>
+                                        <MeleeHitChance>+2</MeleeHitChance>
+                                        <SharpDamageMultiplier>1.25</SharpDamageMultiplier>
+                                    </statOffsets>
+                                </li>
+                            </stages>
+                            <spawnThingOnRemoved>ANN_OuterBlade</spawnThingOnRemoved>
+                            <descriptionHyperlinks>
+                                <ThingDef>ANN_OuterBlade</ThingDef>
+                            </descriptionHyperlinks>
+                            <addedPartProps>
+                                <isGoodWeapon>true</isGoodWeapon>
+                                <solid>true</solid>
+                                <partEfficiency>0.9</partEfficiency>
+                            </addedPartProps>
+                        </HediffDef>
+                    </value>
                 </li>
             </operations>
         </match>

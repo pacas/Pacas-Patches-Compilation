@@ -9,7 +9,7 @@
             <operations>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="S16GirlCum"]/thingCategories</xpath>
+                    <xpath>Defs/ThingDef[defName="S16GirlCum"]/thingCategories</xpath>
                     <value>
                         <thingCategories>
                             <li>CookingSupplies</li>
@@ -18,11 +18,11 @@
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationRemove">
-                    <xpath>/Defs/ThingCategoryDef[defName="S16Food"]</xpath>
+                    <xpath>Defs/ThingCategoryDef[defName="S16Food"]</xpath>
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/RecipeDef[@Name="S16CookMealBase"]/fixedIngredientFilter</xpath>
+                    <xpath>Defs/RecipeDef[@Name="S16CookMealBase"]/fixedIngredientFilter</xpath>
                     <value>
                         <fixedIngredientFilter>
                             <categories>
@@ -36,7 +36,7 @@
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/RecipeDef[@Name="S16CookMealCumOnly"]/fixedIngredientFilter</xpath>
+                    <xpath>Defs/RecipeDef[@Name="S16CookMealCumOnly"]/fixedIngredientFilter</xpath>
                     <value>
                         <fixedIngredientFilter>
                             <thingDefs>
@@ -47,7 +47,7 @@
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/RecipeDef[defName="S16CookLoveCookie"]/ingredients</xpath>
+                    <xpath>Defs/RecipeDef[defName="S16CookLoveCookie"]/ingredients</xpath>
                     <value>
                         <ingredients>
                             <li>
@@ -71,7 +71,7 @@
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/RecipeDef[defName="S16CookLoveCookieBulk"]/ingredients</xpath>
+                    <xpath>Defs/RecipeDef[defName="S16CookLoveCookieBulk"]/ingredients</xpath>
                     <value>
                         <ingredients>
                             <li>
@@ -95,7 +95,7 @@
                 </li>
                 <!-- ======================================== -->
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/RecipeDef[defName="S16CookLoveNectar"]/ingredients</xpath>
+                    <xpath>Defs/RecipeDef[defName="S16CookLoveNectar"]/ingredients</xpath>
                     <value>
                         <ingredients>
                             <li>

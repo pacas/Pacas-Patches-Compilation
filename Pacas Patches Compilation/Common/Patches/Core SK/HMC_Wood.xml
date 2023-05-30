@@ -7,7 +7,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="IronWoodLogHMC"]/graphicData</xpath>
+                    <xpath>Defs/ThingDef[defName="IronWoodLogHMC"]/graphicData</xpath>
                     <value>
                         <graphicData>
                             <texPath>Things/Item/WoodLogStacked</texPath>

@@ -3,15 +3,15 @@
     <Operation Class="PatchOperationSequence">
         <operations>
             <!--<li Class="PatchOperationRemove">
-                <xpath>/Defs/ThingDef[@Name="BodyPartProstheticBase" and @ParentName="BodyPartBase"]</xpath>
+                <xpath>Defs/ThingDef[@Name="BodyPartProstheticBase" and @ParentName="BodyPartBase"]</xpath>
             </li>
 
             <li Class="PatchOperationRemove">
-                <xpath>/Defs/RecipeDef[@Name="SurgeryInstallBodyPartProstheticBase" and @ParentName="SurgeryInstallBodyPartArtificialBase"]</xpath>
+                <xpath>Defs/RecipeDef[@Name="SurgeryInstallBodyPartProstheticBase" and @ParentName="SurgeryInstallBodyPartArtificialBase"]</xpath>
             </li>
     
             <li Class="PatchOperationRemove">
-                <xpath>/Defs/ThingDef[@Name="BodyPartProstheticMakeableBase" and @ParentName="BodyPartProstheticBase"]</xpath>
+                <xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase" and @ParentName="BodyPartProstheticBase"]</xpath>
             </li>-->
             
             <li Class="PatchOperationAdd">
@@ -36,6 +36,7 @@
                         <addedPartProps>
                             <solid>true</solid>
                             <betterThanNatural>true</betterThanNatural>
+                            <partEfficiency>1.8</partEfficiency>
                         </addedPartProps>
                     </HediffDef>
                 </value>
@@ -109,7 +110,7 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs</xpath>
                 <value>
-                    <RecipeDef Name="SK_SurgeryInstallArchotechBodyPartBase" ParentName="SK_SurgeryInstallImplantBase" Abstract="True">
+                    <RecipeDef Name="SK_SurgeryInstallArchotechBodyPartBase" ParentName="SK_SurgeryInstallBodyPartArtificialBase" Abstract="True">
                         <workAmount>3500</workAmount>
                         <skillRequirements>
                             <Medicine>11</Medicine>

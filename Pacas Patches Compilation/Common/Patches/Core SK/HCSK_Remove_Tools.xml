@@ -25,9 +25,6 @@
                     </li>
                     <!-- Drugs-->
                     <li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/tools</xpath>
-                    </li>
-                    <li Class="PatchOperationRemove">
                         <xpath>Defs/ThingDef[@Name="LiquorCloset"]/comps/li[2]</xpath>
                     </li>
                     <li Class="PatchOperationRemove">

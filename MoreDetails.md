@@ -51,6 +51,9 @@ New jewels category and SurvivalTools stats.
 **[RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530)**<br>
 HSK races patch (1.3 only until Har is fixed)
 
+**[Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708)**<br>
+Fixed all the errors with HSK and added categories for missing buildings. Also - please use [this retexture](https://steamcommunity.com/sharedfiles/filedetails/?id=2678376745)
+
 ### Construction/Recipes cost change | Изменение стоимости строительства/рецептов: 
 
 **[EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490)**<br>

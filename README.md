@@ -39,6 +39,7 @@ This repository contains a special mod that patches the mods described below wit
 | [Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495) | :white_check_mark: | --- | --- |
 | [Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069) | :white_check_mark: | --- | --- |
 | [Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519) | :grey_question: | --- | --- |
+| [Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708) | :white_check_mark: | --- | RU (50%) |
 
 ## Donate / Order a patch | Поддержать / Заказать патч:<br>
 You can thank me for the work done and donate:<br>

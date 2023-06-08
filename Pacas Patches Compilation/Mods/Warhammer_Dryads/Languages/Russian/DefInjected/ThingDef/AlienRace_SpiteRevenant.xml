@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadSpiteRevenant.label>spite-revenant</DryadSpiteRevenant.label>
+  <DryadSpiteRevenant.description>From the dark and deep woods comes the spite-revenant. Merciless, fast and deadly they come to do their duty and uphold that which once was.</DryadSpiteRevenant.description>
+  <DryadSpiteRevenant.tools.0.label>right shifting branch</DryadSpiteRevenant.tools.0.label>
+  <DryadSpiteRevenant.tools.1.label>left shifting branch</DryadSpiteRevenant.tools.1.label>
+  <DryadSpiteRevenant_Corpse.label>spite-revenant corpse</DryadSpiteRevenant_Corpse.label>
+  <DryadSpiteRevenant_Corpse.description>spite-revenant corpse</DryadSpiteRevenant_Corpse.description>
+
+  <DryadSpiteRevenantAnimal.label>spite-revenant</DryadSpiteRevenantAnimal.label>
+  <DryadSpiteRevenantAnimal.description>From the dark and deep woods comes the spite-revenant. Merciless, fast and deadly they come to do their duty and uphold that which once was.</DryadSpiteRevenantAnimal.description>
+  <DryadSpiteRevenantAnimal.tools.0.label>right shifting branch</DryadSpiteRevenantAnimal.tools.0.label>
+  <DryadSpiteRevenantAnimal.tools.1.label>left shifting branch</DryadSpiteRevenantAnimal.tools.1.label>
+  <DryadSpiteRevenantAnimal_Corpse.label>spite-revenant corpse</DryadSpiteRevenantAnimal_Corpse.label>
+  <DryadSpiteRevenantAnimal_Corpse.description>spite-revenant corpse</DryadSpiteRevenantAnimal_Corpse.description>
+
+
+</LanguageData>

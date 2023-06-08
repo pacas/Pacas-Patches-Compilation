@@ -10,6 +10,7 @@
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
+        <li IfModActive="kompadt.warhammer.dryad">Mods/Warhammer_Dryads</li>
 	</v1.3>
     <v1.4>
 		<li>/</li>
@@ -24,5 +25,6 @@
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModActive="rabbit.stuncastervpe2">Mods/EoD_Stuncaster</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>
+        <li IfModActive="mlie.warhammerishdryad">Mods/Warhammer_Dryads</li>
 	</v1.4>
 </loadFolders>

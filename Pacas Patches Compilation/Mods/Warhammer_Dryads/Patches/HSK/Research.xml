@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>DryadDryadic</li>
+                    <li>0</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>DryadRunes</li>
+                    <li>1</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>DryadCreation</li>
+                    <li>2</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>DryadOrgan</li>
+                    <li>3</li>
+                    <li>0</li>
+                    <li>Medieval</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>DryadicOrgan</li>
+                    <li>3</li>
+                    <li>1</li>
+                    <li>Medieval</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="DryadicOrgan"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                      <li>DryadCreation</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>DryadSculpture</li>
+                    <li>2</li>
+                    <li>1</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>DryadDecorative</li>
+                    <li>3</li>
+                    <li>2</li>
+                    <li>Medieval</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>DryadRevenant</li>
+                    <li>3</li>
+                    <li>3</li>
+                    <li>Medieval</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ResearchDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

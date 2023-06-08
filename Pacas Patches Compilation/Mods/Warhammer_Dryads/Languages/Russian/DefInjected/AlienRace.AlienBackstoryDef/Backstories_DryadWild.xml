@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KTWildDryadArtistic.title>творческая</KTWildDryadArtistic.title>
+  <KTWildDryadArtistic.titleShort>творческая</KTWildDryadArtistic.titleShort>
+  <KTWildDryadArtistic.baseDesc>[PAWN_nameDef] is seemingly less hostile than other dryads. But is it simply [PAWN_pronoun] doesn't care?</KTWildDryadArtistic.baseDesc>
+
+  <KTWildDryadCurious.title>любопытная</KTWildDryadCurious.title>
+  <KTWildDryadCurious.titleShort>любопытная</KTWildDryadCurious.titleShort>
+  <KTWildDryadCurious.baseDesc>[PAWN_nameDef] is a curious one. Often stalking and observing intruders and when in contact, [PAWN_pronoun] likes to prod em to see what makes them tick.</KTWildDryadCurious.baseDesc>
+
+  <KTWildDryadHarsh.title>резкая</KTWildDryadHarsh.title>
+  <KTWildDryadHarsh.titleShort>резкая</KTWildDryadHarsh.titleShort>
+  <KTWildDryadHarsh.baseDesc>[PAWN_nameDef] is harsh and viscious. [PAWN_pronoun] doesn't pull [PAWN_possessive] punches and will gladly poke others were it stings the most.</KTWildDryadHarsh.baseDesc>
+
+  <KTWildDryadHostile.title>враждебная</KTWildDryadHostile.title>
+  <KTWildDryadHostile.titleShort>враждебная</KTWildDryadHostile.titleShort>
+  <KTWildDryadHostile.baseDesc>[PAWN_nameDef] has that extra spite, keen to lash out and wants nothing more than to dance on [PAWN_possessive] enemies corpses.</KTWildDryadHostile.baseDesc>
+
+  <KTWildDryadMagic.title>невообразимая</KTWildDryadMagic.title>
+  <KTWildDryadMagic.titleShort>невообразимая</KTWildDryadMagic.titleShort>
+  <KTWildDryadMagic.baseDesc>What [PAWN_nameDef] is or was is not clear.</KTWildDryadMagic.baseDesc>
+
+  <KTWildDryadSprouted.title>проросшая</KTWildDryadSprouted.title>
+  <KTWildDryadSprouted.titleShort>проросшая</KTWildDryadSprouted.titleShort>
+  <KTWildDryadSprouted.baseDesc>[PAWN_nameDef] sprouted from the remains of unwilling or maybe even willing offering. It's clearly not the first time [PAWN_pronoun] has walked the land.</KTWildDryadSprouted.baseDesc>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_DryadsProduction</defName>
+		<label>Dryad Circles</label>
+		<description>Yes, I know they look like squares.</description>
+		<defNames>
+			<li>DryadCircle</li>
+			<li>DryadSculptureSpot</li>
+			<li>DryadFurnitureSpot</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+    
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_DryadsDefence</defName>
+		<label>Dryad Defences</label>
+		<description>Literally full forest of arms.</description>
+		<defNames>
+			<li>Turret_DryadArm</li>
+			<li>Turret_DryadRevenant</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+    
+</Defs>	

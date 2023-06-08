@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Seed Embedd -->
+
+  <WildDryadSeedLow.label>семя дикой дриады</WildDryadSeedLow.label>
+  <WildDryadSeedLow.description>Dryad seed.</WildDryadSeedLow.description>
+
+  <WildDryadSeedMid.label>семя дикой дриады</WildDryadSeedMid.label>
+  <WildDryadSeedMid.description>Dryad seed.</WildDryadSeedMid.description>
+
+  <WildDryadSeedHigh.label>семя дикой дриады</WildDryadSeedHigh.label>
+  <WildDryadSeedHigh.description>Dryad seed.</WildDryadSeedHigh.description>
+
+
+</LanguageData>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadBondedAnimalDied.stages.0.label>bonded animal {0} died</DryadBondedAnimalDied.stages.0.label>
+  <DryadBondedAnimalDied.stages.0.description>Woe is us.</DryadBondedAnimalDied.stages.0.description>
+
+  <DryadPawnWithGoodOpinionDied.stages.0.label>my friend {0} died</DryadPawnWithGoodOpinionDied.stages.0.label>
+  <DryadPawnWithGoodOpinionDied.stages.0.description>We will miss that one.</DryadPawnWithGoodOpinionDied.stages.0.description>
+
+  <DryadPawnWithBadOpinionDied.stages.0.label>my rival {0} died</DryadPawnWithBadOpinionDied.stages.0.label>
+  <DryadPawnWithBadOpinionDied.stages.0.description>Atlest you can be of use now.</DryadPawnWithBadOpinionDied.stages.0.description>
+
+  <DryadMySonDied.stages.0.label>my son {0} died</DryadMySonDied.stages.0.label>
+  <DryadMySonDied.stages.0.description>To the soil our little bud.</DryadMySonDied.stages.0.description>
+
+  <DryadMyDaughterDied.stages.0.label>my daughter {0} died</DryadMyDaughterDied.stages.0.label>
+  <DryadMyDaughterDied.stages.0.description>To the soil our little bud.</DryadMyDaughterDied.stages.0.description>
+
+  <DryadMyHusbandDied.stages.0.label>my husband {0} died</DryadMyHusbandDied.stages.0.label>
+  <DryadMyHusbandDied.stages.0.description>Our flower has wilted.</DryadMyHusbandDied.stages.0.description>
+
+  <DryadMyWifeDied.stages.0.label>my wife {0} died</DryadMyWifeDied.stages.0.label>
+  <DryadMyWifeDied.stages.0.description>Our flower has wilted.</DryadMyWifeDied.stages.0.description>
+
+  <DryadMyFianceDied.stages.0.label>my fiance {0} died</DryadMyFianceDied.stages.0.label>
+  <DryadMyFianceDied.stages.0.description>The bud has been nipped.</DryadMyFianceDied.stages.0.description>
+
+  <DryadMyFianceeDied.stages.0.label>my fiancée {0} died</DryadMyFianceeDied.stages.0.label>
+  <DryadMyFianceeDied.stages.0.description>The bud has been nipped.</DryadMyFianceeDied.stages.0.description>
+
+  <DryadMyLoverDied.stages.0.label>my lover {0} died</DryadMyLoverDied.stages.0.label>
+  <DryadMyLoverDied.stages.0.description>The bud never got to bloom.</DryadMyLoverDied.stages.0.description>
+
+  <DryadMyBrotherDied.stages.0.label>my brother {0} died</DryadMyBrotherDied.stages.0.label>
+  <DryadMyBrotherDied.stages.0.description>Back to once we came root-brother.</DryadMyBrotherDied.stages.0.description>
+
+  <DryadMySisterDied.stages.0.label>my sister {0} died</DryadMySisterDied.stages.0.label>
+  <DryadMySisterDied.stages.0.description>Back to once we came root-sister.</DryadMySisterDied.stages.0.description>
+
+  <DryadMyGrandchildDied.stages.0.label>my grandchild {0} died</DryadMyGrandchildDied.stages.0.label>
+  <DryadMyGrandchildDied.stages.0.description>The little podling is gone.</DryadMyGrandchildDied.stages.0.description>
+
+  <DryadMyFatherDied.stages.0.label>my father {0} died</DryadMyFatherDied.stages.0.label>
+  <DryadMyFatherDied.stages.0.description>Back from to once we came.</DryadMyFatherDied.stages.0.description>
+
+  <DryadMyMotherDied.stages.0.label>my mother {0} died</DryadMyMotherDied.stages.0.label>
+  <DryadMyMotherDied.stages.0.description>Back from to once we came.</DryadMyMotherDied.stages.0.description>
+
+  <DryadMyNieceDied.stages.0.label>my niece {0} died</DryadMyNieceDied.stages.0.label>
+  <DryadMyNieceDied.stages.0.description>The curious podling is gone.</DryadMyNieceDied.stages.0.description>
+
+  <DryadMyNephewDied.stages.0.label>my nephew {0} died</DryadMyNephewDied.stages.0.label>
+  <DryadMyNephewDied.stages.0.description>The curious podling is gone.</DryadMyNephewDied.stages.0.description>
+
+  <DryadMyHalfSiblingDied.stages.0.label>my half-sibling {0} died</DryadMyHalfSiblingDied.stages.0.label>
+  <DryadMyHalfSiblingDied.stages.0.description>We hailed from the same root.</DryadMyHalfSiblingDied.stages.0.description>
+
+  <DryadMyAuntDied.stages.0.label>my aunt {0} died</DryadMyAuntDied.stages.0.label>
+  <DryadMyAuntDied.stages.0.description>Back to once we came.</DryadMyAuntDied.stages.0.description>
+
+  <DryadMyUncleDied.stages.0.label>my uncle {0} died</DryadMyUncleDied.stages.0.label>
+  <DryadMyUncleDied.stages.0.description>Back to once we came.</DryadMyUncleDied.stages.0.description>
+
+  <DryadMyGrandparentDied.stages.0.label>my grandparent {0} died</DryadMyGrandparentDied.stages.0.label>
+  <DryadMyGrandparentDied.stages.0.description>Back to once we came.</DryadMyGrandparentDied.stages.0.description>
+
+  <DryadMyCousinDied.stages.0.label>my cousin {0} died</DryadMyCousinDied.stages.0.label>
+  <DryadMyCousinDied.stages.0.description>Back to once we came.</DryadMyCousinDied.stages.0.description>
+
+  <DryadMyKinDied.stages.0.label>my kin {0} died</DryadMyKinDied.stages.0.label>
+  <DryadMyKinDied.stages.0.description>My root kin is gone.</DryadMyKinDied.stages.0.description>
+
+  <DryadGotMarried.stages.0.label>got married to {0}</DryadGotMarried.stages.0.label>
+  <DryadGotMarried.stages.0.description>A curious thing this is, pleasant if anything.</DryadGotMarried.stages.0.description>
+
+  <DryadAttendedWedding.stages.0.label>attended wedding</DryadAttendedWedding.stages.0.label>
+  <DryadAttendedWedding.stages.0.description>Curiouser and curiouse.</DryadAttendedWedding.stages.0.description>
+
+  <DryadAttendedParty.stages.0.label>attended party</DryadAttendedParty.stages.0.label>
+  <DryadAttendedParty.stages.0.description>We used to have our own kind of gatherings.</DryadAttendedParty.stages.0.description>
+
+  <DryadKnowPrisonerSold.stages.0.label>a prisoner was sold</DryadKnowPrisonerSold.stages.0.label>
+  <DryadKnowPrisonerSold.stages.0.description>We don't like this, cruel man.</DryadKnowPrisonerSold.stages.0.description>
+
+  <DryadMyOrganHarvested.stages.0.label>my organ harvested</DryadMyOrganHarvested.stages.0.label>
+  <DryadMyOrganHarvested.stages.0.description>They are tearing ous apart, nipping our buds.</DryadMyOrganHarvested.stages.0.description>
+
+  <DryadWasImprisoned.stages.0.label>was imprisoned</DryadWasImprisoned.stages.0.label>
+  <DryadWasImprisoned.stages.0.description>They kept enclosed, away from the rest.</DryadWasImprisoned.stages.0.description>
+
+  <DryadNuzzled.stages.0.label>nuzzled</DryadNuzzled.stages.0.label>
+  <DryadNuzzled.stages.0.description>Curious creature.</DryadNuzzled.stages.0.description>
+
+  <DryadKnowBuriedInSarcophagus.stages.0.label>buried in sarcophagus</DryadKnowBuriedInSarcophagus.stages.0.label>
+  <DryadKnowBuriedInSarcophagus.stages.0.description>They are ruining it. Just wasting away, blocked from the rest.</DryadKnowBuriedInSarcophagus.stages.0.description>
+
+  <DryadSoakingWet.stages.0.label>soaking wet</DryadSoakingWet.stages.0.label>
+  <DryadSoakingWet.stages.0.description>How nice.</DryadSoakingWet.stages.0.description>
+
+  <DryadWitnessedDeathAlly.stages.0.label>witnessed ally's death</DryadWitnessedDeathAlly.stages.0.label>
+  <DryadWitnessedDeathAlly.stages.0.description>One of our joined the soil.</DryadWitnessedDeathAlly.stages.0.description>
+
+  <DryadWitnessedDeathNonAlly.stages.0.label>witnessed outsider's death</DryadWitnessedDeathNonAlly.stages.0.label>
+  <DryadWitnessedDeathNonAlly.stages.0.description>An other joins the soil</DryadWitnessedDeathNonAlly.stages.0.description>
+
+  <DryadWitnessedDeathFamily.stages.0.label>witnessed family member's death</DryadWitnessedDeathFamily.stages.0.label>
+  <DryadWitnessedDeathFamily.stages.0.description>Our kind joined fell.</DryadWitnessedDeathFamily.stages.0.description>
+
+  <DryadWitnessedDeathBloodlust.stages.0.label>witnessed death with bloodlust</DryadWitnessedDeathBloodlust.stages.0.label>
+  <DryadWitnessedDeathBloodlust.stages.0.description>Such a thrill.</DryadWitnessedDeathBloodlust.stages.0.description>
+
+  <DryadKilledHumanlikeBloodlust.stages.0.label>killed someone</DryadKilledHumanlikeBloodlust.stages.0.label>
+  <DryadKilledHumanlikeBloodlust.stages.0.description>They fell like prey!</DryadKilledHumanlikeBloodlust.stages.0.description>
+
+  <DryadDefeatedHostileFactionLeader.stages.0.label>defeated hostile leader {0}</DryadDefeatedHostileFactionLeader.stages.0.label>
+  <DryadDefeatedHostileFactionLeader.stages.0.description>We are not the prey here.</DryadDefeatedHostileFactionLeader.stages.0.description>
+
+  <DryadColonistBanished.stages.0.label>colonist banished</DryadColonistBanished.stages.0.label>
+  <DryadColonistBanished.stages.0.description>There's not enough for all here.</DryadColonistBanished.stages.0.description>
+
+  <DryadColonistBanishedToDie.stages.0.label>colonist banished to death</DryadColonistBanishedToDie.stages.0.label>
+  <DryadColonistBanishedToDie.stages.0.description>A waste, they be dead out there. We could have used the mulch atlest.</DryadColonistBanishedToDie.stages.0.description>
+
+  <DryadPrisonerBanishedToDie.stages.0.label>prisoner banished to death</DryadPrisonerBanishedToDie.stages.0.label>
+  <DryadPrisonerBanishedToDie.stages.0.description>We could have used the mulch.</DryadPrisonerBanishedToDie.stages.0.description>
+
+  <DryadBondedAnimalBanished.stages.0.label>bonded animal {0} banished</DryadBondedAnimalBanished.stages.0.label>
+  <DryadBondedAnimalBanished.stages.0.description>What evil could this creature have done.</DryadBondedAnimalBanished.stages.0.description>
+
+  <DryadFailedToRescueRelative.stages.0.label>failed to rescue {0}</DryadFailedToRescueRelative.stages.0.label>
+  <DryadFailedToRescueRelative.stages.0.description>The bud has been nipped.</DryadFailedToRescueRelative.stages.0.description>
+
+  <DryadRescuedRelative.stages.0.label>rescued {0}</DryadRescuedRelative.stages.0.label>
+  <DryadRescuedRelative.stages.0.description>Welcome sprout.</DryadRescuedRelative.stages.0.description>
+
+  <DryadRescued.stages.0.label>rescued</DryadRescued.stages.0.label>
+  <DryadRescued.stages.0.description>We will stick around for a while longer.</DryadRescued.stages.0.description>
+
+  <DryadSleptInBedroom.stages.0.label>awful bedroom</DryadSleptInBedroom.stages.0.label>
+  <DryadSleptInBedroom.stages.0.description>We don't want to sleep like this.</DryadSleptInBedroom.stages.0.description>
+  <DryadSleptInBedroom.stages.3.label>decent bedroom</DryadSleptInBedroom.stages.3.label>
+  <DryadSleptInBedroom.stages.3.description>We don't want to sleep like this.</DryadSleptInBedroom.stages.3.description>
+  <DryadSleptInBedroom.stages.4.label>slightly impressive bedroom</DryadSleptInBedroom.stages.4.label>
+  <DryadSleptInBedroom.stages.4.description>We don't want to sleep like this. It's getting to clutterd.</DryadSleptInBedroom.stages.4.description>
+  <DryadSleptInBedroom.stages.5.label>impressive bedroom</DryadSleptInBedroom.stages.5.label>
+  <DryadSleptInBedroom.stages.5.description>We don't want to sleep like this. Let us rest elsewhere.</DryadSleptInBedroom.stages.5.description>
+  <DryadSleptInBedroom.stages.6.label>very impressive bedroom</DryadSleptInBedroom.stages.6.label>
+  <DryadSleptInBedroom.stages.6.description>We don't want to sleep like this. Let us rest elsewhere.</DryadSleptInBedroom.stages.6.description>
+  <DryadSleptInBedroom.stages.7.label>extremely impressive bedroom</DryadSleptInBedroom.stages.7.label>
+  <DryadSleptInBedroom.stages.7.description>We don't want to sleep like this. Let us rest elsewhere.</DryadSleptInBedroom.stages.7.description>
+  <DryadSleptInBedroom.stages.8.label>unbelievably impressive bedroom</DryadSleptInBedroom.stages.8.label>
+  <DryadSleptInBedroom.stages.8.description>No! Clear it up, let us rest elsewhere.</DryadSleptInBedroom.stages.8.description>
+  <DryadSleptInBedroom.stages.9.label>wondrously impressive bedroom</DryadSleptInBedroom.stages.9.label>
+  <DryadSleptInBedroom.stages.9.description>No! Clear it up, let us rest elsewhere.</DryadSleptInBedroom.stages.9.description>
+
+  <DryadSleptInBarracks.stages.0.label>awful barrack</DryadSleptInBarracks.stages.0.label>
+  <DryadSleptInBarracks.stages.0.description>Cramped together in a confined place.</DryadSleptInBarracks.stages.0.description>
+  <DryadSleptInBarracks.stages.1.label>dull barrack</DryadSleptInBarracks.stages.1.label>
+  <DryadSleptInBarracks.stages.1.description>Let us sleep elsewhere.</DryadSleptInBarracks.stages.1.description>
+  <DryadSleptInBarracks.stages.2.label>mediocre barrack</DryadSleptInBarracks.stages.2.label>
+  <DryadSleptInBarracks.stages.2.description>Let us sleep elsewhere.</DryadSleptInBarracks.stages.2.description>
+  <DryadSleptInBarracks.stages.3.label>decent barrack</DryadSleptInBarracks.stages.3.label>
+  <DryadSleptInBarracks.stages.3.description>Let us sleep elsewhere, there's to much stuff.</DryadSleptInBarracks.stages.3.description>
+  <DryadSleptInBarracks.stages.4.label>slightly impressive barrack</DryadSleptInBarracks.stages.4.label>
+  <DryadSleptInBarracks.stages.4.description>We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.4.description>
+  <DryadSleptInBarracks.stages.5.label>impressive barrack</DryadSleptInBarracks.stages.5.label>
+  <DryadSleptInBarracks.stages.5.description>We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.5.description>
+  <DryadSleptInBarracks.stages.6.label>very impressive barrack</DryadSleptInBarracks.stages.6.label>
+  <DryadSleptInBarracks.stages.6.description>No! We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.6.description>
+  <DryadSleptInBarracks.stages.7.label>extremely impressive barrack</DryadSleptInBarracks.stages.7.label>
+  <DryadSleptInBarracks.stages.7.description>No! We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.7.description>
+  <DryadSleptInBarracks.stages.8.label>unbelievably impressive barrack</DryadSleptInBarracks.stages.8.label>
+  <DryadSleptInBarracks.stages.8.description>No! We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.8.description>
+  <DryadSleptInBarracks.stages.9.label>wondrously impressive barrack</DryadSleptInBarracks.stages.9.label>
+  <DryadSleptInBarracks.stages.9.description>No! We can't take this. Let us rest elsewhere.</DryadSleptInBarracks.stages.9.description>
+
+  <DryadInsultedMood.stages.0.label>insulted</DryadInsultedMood.stages.0.label>
+  <DryadInsultedMood.stages.0.description>Such thing to come out of a mouth.</DryadInsultedMood.stages.0.description>
+
+  <DryadKindWordsMood.stages.0.label>kind words</DryadKindWordsMood.stages.0.label>
+  <DryadKindWordsMood.stages.0.description>Is this flattery?!</DryadKindWordsMood.stages.0.description>
+
+  <DryadSoldMyLovedOne.stages.0.label>loved one sold</DryadSoldMyLovedOne.stages.0.label>
+  <DryadSoldMyLovedOne.stages.0.labelSocial>sold my loved one</DryadSoldMyLovedOne.stages.0.labelSocial>
+  <DryadSoldMyLovedOne.stages.0.description>Cruel. Cruel, Creature.</DryadSoldMyLovedOne.stages.0.description>
+
+  <DryadSoldMyBondedAnimal.stages.0.label>bonded animal sold</DryadSoldMyBondedAnimal.stages.0.label>
+  <DryadSoldMyBondedAnimal.stages.0.labelSocial>sold my bonded animal</DryadSoldMyBondedAnimal.stages.0.labelSocial>
+  <DryadSoldMyBondedAnimal.stages.0.description>Cruel. Cruel, Creature.</DryadSoldMyBondedAnimal.stages.0.description>
+
+  <DryadRebuffedMyRomanceAttemptMood.stages.0.label>rebuffed by {0}</DryadRebuffedMyRomanceAttemptMood.stages.0.label>
+  <DryadRebuffedMyRomanceAttemptMood.stages.0.description>Was there no flowers between us?</DryadRebuffedMyRomanceAttemptMood.stages.0.description>
+
+  <DryadFailedRomanceAttemptOnMeLowOpinionMood.stages.0.label>had to rebuff {0}</DryadFailedRomanceAttemptOnMeLowOpinionMood.stages.0.label>
+  <DryadFailedRomanceAttemptOnMeLowOpinionMood.stages.0.description>What do you see between us?</DryadFailedRomanceAttemptOnMeLowOpinionMood.stages.0.description>
+
+  <DryadBrokeUpWithMeMood.stages.0.label>broken up with by {0}</DryadBrokeUpWithMeMood.stages.0.label>
+  <DryadBrokeUpWithMeMood.stages.0.description>We never saw that the flower had wilted.</DryadBrokeUpWithMeMood.stages.0.description>
+
+  <DryadCheatedOnMe.stages.0.label>cheated on me</DryadCheatedOnMe.stages.0.label>
+
+  <DryadCheatedOnMeMood.stages.0.label>cheated on by {0}</DryadCheatedOnMeMood.stages.0.label>
+  <DryadCheatedOnMeMood.stages.0.description>What a wierd feeling... We don't like it.</DryadCheatedOnMeMood.stages.0.description>
+
+  <DryadDivorcedMe.stages.0.label>divorced me</DryadDivorcedMe.stages.0.label>
+
+  <DryadRejectedMyProposalMood.stages.0.label>my proposal was rejected by {0}</DryadRejectedMyProposalMood.stages.0.label>
+  <DryadRejectedMyProposalMood.stages.0.description>Have we read it wrong?.</DryadRejectedMyProposalMood.stages.0.description>
+
+  <DryadGotSomeLovin.stages.0.label>got some lovin’</DryadGotSomeLovin.stages.0.label>
+  <DryadGotSomeLovin.stages.0.description>What curious activities.</DryadGotSomeLovin.stages.0.description>
+
+  <DryadSleptOutside.stages.0.label>slept outside</DryadSleptOutside.stages.0.label>
+  <DryadSleptOutside.stages.0.description>We got to sleep outside.</DryadSleptOutside.stages.0.description>
+
+  <DryadSleptOnGround.stages.0.label>slept on ground</DryadSleptOnGround.stages.0.label>
+  <DryadSleptOnGround.stages.0.description>We got to sleep close to the ground.</DryadSleptOnGround.stages.0.description>
+
+  <DryadFamilyLost.stages.0.label>member {0} lost</DryadFamilyLost.stages.0.label>
+  <DryadFamilyLost.stages.0.description>We will miss them. We hope they will get back to us someday.</DryadFamilyLost.stages.0.description>
+
+
+</LanguageData>

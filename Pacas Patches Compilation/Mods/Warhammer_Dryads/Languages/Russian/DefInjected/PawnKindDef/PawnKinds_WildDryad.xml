@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BranchHunter.label>охотник ветвей</BranchHunter.label>
+  <BranchHunter.labelPlural>охотники ветвей</BranchHunter.labelPlural>
+  <BranchHunter.labelMale>охотник ветвей</BranchHunter.labelMale>
+  <BranchHunter.labelMalePlural>охотники ветвей</BranchHunter.labelMalePlural>
+  <BranchHunter.labelFemale>охотница ветвей</BranchHunter.labelFemale>
+  <BranchHunter.labelFemalePlural>охотницы ветвей</BranchHunter.labelFemalePlural>
+
+  <BranchWraith.label>гнев ветвей</BranchWraith.label>
+  <BranchWraith.labelPlural>гнев ветвей</BranchWraith.labelPlural>
+  <BranchWraith.labelMale>гнев ветвей</BranchWraith.labelMale>
+  <BranchWraith.labelMalePlural>гнев ветвей</BranchWraith.labelMalePlural>
+  <BranchWraith.labelFemale>гнев ветвей</BranchWraith.labelFemale>
+  <BranchWraith.labelFemalePlural>гнев ветвей</BranchWraith.labelFemalePlural>
+
+
+  <!-- Tribal -->
+
+  <DryadTribal_Penitent.label>покаятель</DryadTribal_Penitent.label>
+  <DryadTribal_Penitent.labelPlural>покаятели</DryadTribal_Penitent.labelPlural>
+
+  <DryadTribal_Warrior.label>воитель</DryadTribal_Warrior.label>
+  <DryadTribal_Warrior.labelPlural>воители</DryadTribal_Warrior.labelPlural>
+
+  <DryadTribal_Berserker.label>берсерк</DryadTribal_Berserker.label>
+  <DryadTribal_Berserker.labelPlural>берсерки</DryadTribal_Berserker.labelPlural>
+
+  <DryadTribal_ChiefMelee.label>древесный владыка</DryadTribal_ChiefMelee.label>
+  <DryadTribal_ChiefMelee.labelPlural>древесные владыки</DryadTribal_ChiefMelee.labelPlural>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+  <SubCategory_DryadsProduction.label>Круги дриад</SubCategory_DryadsProduction.label>
+  <SubCategory_DryadsProduction.description>Да, я знаю что они выглядят как квадраты.</SubCategory_DryadsProduction.description>
+  
+  <SubCategory_DryadsDefence.label>Защита дриад</SubCategory_DryadsDefence.label>
+  <SubCategory_DryadsDefence.description>Буквально лес рук.</SubCategory_DryadsDefence.description>
+  
+</LanguageData>

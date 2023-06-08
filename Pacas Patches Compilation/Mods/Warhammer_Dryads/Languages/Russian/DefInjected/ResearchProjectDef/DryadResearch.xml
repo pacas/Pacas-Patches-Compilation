@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Research Tabs -->
+
+  <DryadDryadic.label>Дриады</DryadDryadic.label>
+  <DryadDryadic.description>Начните путешествие в мир дриад.</DryadDryadic.description>
+
+  <DryadRunes.label>Руны</DryadRunes.label>
+  <DryadRunes.description>Расшифруйте руны дриад.</DryadRunes.description>
+
+  <DryadCreation.label>Создание дриад</DryadCreation.label>
+  <DryadCreation.description>Узнайте как создать дриаду.</DryadCreation.description>
+
+  <DryadOrgan.label>Органы дриад</DryadOrgan.label>
+  <DryadOrgan.description>Узнайте как создавать органы дриад.</DryadOrgan.description>
+
+  <DryadicOrgan.label>Части тел дриад</DryadicOrgan.label>
+  <DryadicOrgan.description>Узнайте как создавать части тел дриад.</DryadicOrgan.description>
+
+  <DryadSculpture.label>Скульптуры дриад</DryadSculpture.label>
+  <DryadSculpture.description>Создавайте статуи дриад.</DryadSculpture.description>
+
+  <DryadDecorative.label>Декорации дриад</DryadDecorative.label>
+  <DryadDecorative.description>Создавайте декорации в стиле дриад.</DryadDecorative.description>
+
+  <DryadRevenant.label>Защита дриад</DryadRevenant.label>
+  <DryadRevenant.description>Научите своих дриад строить специальные турели.</DryadRevenant.description>
+
+
+</LanguageData>

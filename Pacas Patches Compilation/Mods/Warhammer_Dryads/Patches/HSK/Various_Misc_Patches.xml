@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--<li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="TM_Dire_WolfR"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_AnimalThingBase</value>
+            </li>-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/PawnKindDef[
+                defName="DryadCorpseRevenant" or
+                defName="DryadSpiteRevenant" or
+                defName="DryadOakAspect" or
+                defName="DryadWillowAspect" or
+                defName="DryadSpiteRevenantAnimal"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_AnimalKindBase</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/PawnKindDef[
+                defName="DryadCorpseRevenant" or
+                defName="DryadSpiteRevenant" or
+                defName="DryadOakAspect" or
+                defName="DryadWillowAspect"
+                ]</xpath>
+                <value>
+                    <defaultFactionType>KTWildDryad</defaultFactionType>
+                    <destroyGearOnDrop>true</destroyGearOnDrop>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dryad"]/race</xpath>
+                <value>
+                    <useMeatFrom>Human</useMeatFrom>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_DryadWild"]/race/useMeatFrom</xpath>
+                <value>
+                    <useMeatFrom>Human</useMeatFrom>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="DryadDeadRevenant" or
+                defName="DryadDeadRevenantFoe" or
+                defName="DryadOakAspect" or
+                defName="DryadWillowAspect" or
+                defName="DryadSpiteRevenant" or
+                defName="DryadSpiteRevenantAnimal"
+                ]/race/useMeatFrom</xpath>
+                <value>
+                    <useMeatFrom>Human</useMeatFrom>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

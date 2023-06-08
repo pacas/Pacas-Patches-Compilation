@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- DryadOrgans -->
+    <InstallDryadOrgan.label>install dryad organ</InstallDryadOrgan.label>
+    <InstallDryadOrgan.description>Install a dryad organ.</InstallDryadOrgan.description>
+    <InstallDryadOrgan.jobString>Installing organ.</InstallDryadOrgan.jobString>
+    <InstallDryadicOrgan.label>install dryadic organ</InstallDryadicOrgan.label>
+    <InstallDryadicOrgan.description>Install a dryadic organ.</InstallDryadicOrgan.description>
+    <InstallDryadicOrgan.jobString>Installing organ.</InstallDryadicOrgan.jobString>
+    <!-- Heart -->
+    <InstallDryadicHeart.label>install dryadic heart</InstallDryadicHeart.label>
+    <InstallDryadicHeart.description>Install a dryadic heart.</InstallDryadicHeart.description>
+    <InstallDryadicHeart.jobString>Installing heart.</InstallDryadicHeart.jobString>
+    <!-- Lung -->
+    <InstallDryadicLung.label>install dryadic lung</InstallDryadicLung.label>
+    <InstallDryadicLung.description>Install a dryadic lung.</InstallDryadicLung.description>
+    <InstallDryadicLung.jobString>Installing lung.</InstallDryadicLung.jobString>
+    <!-- Liver -->
+    <InstallDryadicLiver.label>install dryadic liver</InstallDryadicLiver.label>
+    <InstallDryadicLiver.description>Install a dryadic liver.</InstallDryadicLiver.description>
+    <InstallDryadicLiver.jobString>Installing liver.</InstallDryadicLiver.jobString>
+    <!-- Kidney -->
+    <InstallDryadicKidney.label>install dryadic kidney</InstallDryadicKidney.label>
+    <InstallDryadicKidney.description>Install a dryadic kidney.</InstallDryadicKidney.description>
+    <InstallDryadicKidney.jobString>Installing kidney.</InstallDryadicKidney.jobString>
+    <!-- Eye -->
+    <InstallDryadicEye.label>install dryadic eye</InstallDryadicEye.label>
+    <InstallDryadicEye.description>Install a eye.</InstallDryadicEye.description>
+    <InstallDryadicEye.jobString>Installing eye.</InstallDryadicEye.jobString>
+    <!-- Nose -->
+    <InstallDryadicNose.label>install dryadic nose</InstallDryadicNose.label>
+    <InstallDryadicNose.description>Install a nose.</InstallDryadicNose.description>
+    <InstallDryadicNose.jobString>Installing nose.</InstallDryadicNose.jobString>
+    <!-- Ear -->
+    <InstallDryadicEar.label>install dryadic ear</InstallDryadicEar.label>
+    <InstallDryadicEar.description>Install a ear.</InstallDryadicEar.description>
+    <InstallDryadicEar.jobString>Installing nose.</InstallDryadicEar.jobString>
+    <!-- Hand -->
+    <InstallDryadicHand.label>install dryadic hand</InstallDryadicHand.label>
+    <InstallDryadicHand.description>Install a hand.</InstallDryadicHand.description>
+    <InstallDryadicHand.jobString>Installing hand.</InstallDryadicHand.jobString>
+    <!-- Foot -->
+    <InstallDryadicFoot.label>install dryadic foot</InstallDryadicFoot.label>
+    <InstallDryadicFoot.description>Install a foot.</InstallDryadicFoot.description>
+    <InstallDryadicFoot.jobString>Installing foot.</InstallDryadicFoot.jobString>
+    <!-- Leg -->
+    <InstallDryadLeg.label>install dryad leg</InstallDryadLeg.label>
+    <InstallDryadLeg.description>Install a dryad leg.</InstallDryadLeg.description>
+    <InstallDryadLeg.jobString>Installing leg.</InstallDryadLeg.jobString>
+    <!-- Arm -->
+    <InstallDryadArm.label>install dryad arm</InstallDryadArm.label>
+    <InstallDryadArm.description>Install a dryad arm.</InstallDryadArm.description>
+    <InstallDryadArm.jobString>Installing arm.</InstallDryadArm.jobString>
+    <!-- Seed Embedd -->
+    <InstallDryadSeed.label>embed seed</InstallDryadSeed.label>
+    <InstallDryadSeed.description>Embed a dryad seed.</InstallDryadSeed.description>
+    <InstallDryadSeed.jobString>Embedding seed.</InstallDryadSeed.jobString>
+    <InstallDryadSeedCluster.label>embed cluster</InstallDryadSeedCluster.label>
+    <InstallDryadSeedCluster.description>Embed the spine.</InstallDryadSeedCluster.description>
+    <InstallDryadSeedCluster.jobString>Embedding seeds.</InstallDryadSeedCluster.jobString>
+</LanguageData>

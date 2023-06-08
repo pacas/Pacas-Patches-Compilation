@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadDeadRevenant.label>труп-мститель</DryadDeadRevenant.label>
+  <DryadDeadRevenant.description>Труп, оживленный семенем дриады. Они медлительны и недолговечны, но просты в обращении и требуют очень мало пищи.</DryadDeadRevenant.description>
+  <DryadDeadRevenant.tools.0.label>правая ветвь</DryadDeadRevenant.tools.0.label>
+  <DryadDeadRevenant.tools.1.label>левая ветвь</DryadDeadRevenant.tools.1.label>
+  <DryadDeadRevenant_Corpse.label>убитый труп-мститель</DryadDeadRevenant_Corpse.label>
+  <DryadDeadRevenant_Corpse.description>убитый труп-мститель</DryadDeadRevenant_Corpse.description>
+
+  <DryadDeadRevenantFoe.label>труп-мститель</DryadDeadRevenantFoe.label>
+  <DryadDeadRevenantFoe.description>Труп, оживленный семенем дриады. Они медлительны и недолговечны, но просты в обращении и требуют очень мало пищи.</DryadDeadRevenantFoe.description>
+  <DryadDeadRevenantFoe.tools.0.label>правая ветвь</DryadDeadRevenantFoe.tools.0.label>
+  <DryadDeadRevenantFoe.tools.1.label>левая ветвь</DryadDeadRevenantFoe.tools.1.label>
+  <DryadDeadRevenantFoe_Corpse.label>убитый труп-мститель</DryadDeadRevenantFoe_Corpse.label>
+  <DryadDeadRevenantFoe_Corpse.description>убитый труп-мститель</DryadDeadRevenantFoe_Corpse.description>
+
+
+</LanguageData>

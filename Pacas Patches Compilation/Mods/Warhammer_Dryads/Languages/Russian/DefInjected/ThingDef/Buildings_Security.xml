@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_DryadArm.label>защитная рука</Turret_DryadArm.label>
+  <Turret_DryadArm.description>Слабая рука, хватающаяся за любого врага, который находится в пределах досягаемости.</Turret_DryadArm.description>
+  <Turret_DryadArm_Blueprint.label>защитная рука (чертеж)</Turret_DryadArm_Blueprint.label>
+  <Turret_DryadArm_Blueprint_Install.label>защитная рука (чертеж)</Turret_DryadArm_Blueprint_Install.label>
+  <Turret_DryadArm_Frame.label>защитная рука (строение)</Turret_DryadArm_Frame.label>
+  <Turret_DryadArm_Frame.description>Слабая рука, хватающаяся за любого врага, который находится в пределах досягаемости.</Turret_DryadArm_Frame.description>
+
+  <Bullet_ArmTurret.label>revenant projectile</Bullet_ArmTurret.label>
+
+  <Gun_DryadArm.label>рука дриады</Gun_DryadArm.label>
+  <Gun_DryadArm.description>The arm of a guard turret.</Gun_DryadArm.description>
+
+  <Turret_DryadRevenant.label>связанный мститель</Turret_DryadRevenant.label>
+  <Turret_DryadRevenant.description>Слабый мститель, который нападает на приближающихся врагов. У него небольшой радиус действия, и при смерти он взрывается в небольшом радиусе.</Turret_DryadRevenant.description>
+  <Turret_DryadRevenant_Blueprint.label>связанный мститель (чертеж)</Turret_DryadRevenant_Blueprint.label>
+  <Turret_DryadRevenant_Blueprint_Install.label>связанный мститель (чертеж)</Turret_DryadRevenant_Blueprint_Install.label>
+  <Turret_DryadRevenant_Frame.label>связанный мститель (строение)</Turret_DryadRevenant_Frame.label>
+  <Turret_DryadRevenant_Frame.description>Слабый мститель, который нападает на приближающихся врагов. У него небольшой радиус действия, и при смерти он взрывается в небольшом радиусе.</Turret_DryadRevenant_Frame.description>
+
+  <Bullet_RevenantTurret.label>revenant projectile</Bullet_RevenantTurret.label>
+
+  <Gun_DryadRevenant.label>рука мстителя</Gun_DryadRevenant.label>
+  <Gun_DryadRevenant.description>The hand of a guarding revenant.</Gun_DryadRevenant.description>
+
+
+</LanguageData>

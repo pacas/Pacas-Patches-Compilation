@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsUseDryadCircle.label>создавать вещи у круга дриад</DoBillsUseDryadCircle.label>
+  <DoBillsUseDryadCircle.verb>лепить</DoBillsUseDryadCircle.verb>
+  <DoBillsUseDryadCircle.gerund>лепит у</DoBillsUseDryadCircle.gerund>
+
+  <DoBillsUseDryadSculptureSpot.label>создавать вещи у круга скульптур</DoBillsUseDryadSculptureSpot.label>
+  <DoBillsUseDryadSculptureSpot.verb>лепить</DoBillsUseDryadSculptureSpot.verb>
+  <DoBillsUseDryadSculptureSpot.gerund>лепит у</DoBillsUseDryadSculptureSpot.gerund>
+
+  <DoBillsUseDryadFurnitureSpot.label>создавать вещи у круга строений</DoBillsUseDryadFurnitureSpot.label>
+  <DoBillsUseDryadFurnitureSpot.verb>лепить</DoBillsUseDryadFurnitureSpot.verb>
+  <DoBillsUseDryadFurnitureSpot.gerund>лепит у</DoBillsUseDryadFurnitureSpot.gerund>
+
+
+</LanguageData>

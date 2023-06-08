@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadCorpseRevenant.label>corpse-revenant</DryadCorpseRevenant.label>
+  <DryadCorpseRevenant.labelPlural>corpse-revenants</DryadCorpseRevenant.labelPlural>
+  <DryadCorpseRevenant.lifeStages.0.label>corpse-revenant</DryadCorpseRevenant.lifeStages.0.label>
+  <DryadCorpseRevenant.lifeStages.0.labelPlural>corpse-revenant</DryadCorpseRevenant.lifeStages.0.labelPlural>
+  <DryadCorpseRevenant.lifeStages.1.label>corpse-revenant</DryadCorpseRevenant.lifeStages.1.label>
+  <DryadCorpseRevenant.lifeStages.1.labelPlural>corpse-revenant</DryadCorpseRevenant.lifeStages.1.labelPlural>
+  <DryadCorpseRevenant.lifeStages.2.label>corpse-revenant</DryadCorpseRevenant.lifeStages.2.label>
+  <DryadCorpseRevenant.lifeStages.2.labelPlural>corpse-revenant</DryadCorpseRevenant.lifeStages.2.labelPlural>
+
+  <DryadSpiteRevenant.label>spite-revenant</DryadSpiteRevenant.label>
+  <DryadSpiteRevenant.labelPlural>spite-revenants</DryadSpiteRevenant.labelPlural>
+  <DryadSpiteRevenant.lifeStages.0.label>spite-revenant</DryadSpiteRevenant.lifeStages.0.label>
+  <DryadSpiteRevenant.lifeStages.0.labelPlural>spite-revenant</DryadSpiteRevenant.lifeStages.0.labelPlural>
+  <DryadSpiteRevenant.lifeStages.1.label>spite-revenant</DryadSpiteRevenant.lifeStages.1.label>
+  <DryadSpiteRevenant.lifeStages.1.labelPlural>spite-revenant</DryadSpiteRevenant.lifeStages.1.labelPlural>
+  <DryadSpiteRevenant.lifeStages.2.label>spite-revenant</DryadSpiteRevenant.lifeStages.2.label>
+  <DryadSpiteRevenant.lifeStages.2.labelPlural>spite-revenant</DryadSpiteRevenant.lifeStages.2.labelPlural>
+
+  <DryadOakAspect.label>oak aspect</DryadOakAspect.label>
+  <DryadOakAspect.labelPlural>oak aspects</DryadOakAspect.labelPlural>
+  <DryadOakAspect.lifeStages.0.label>oak aspect</DryadOakAspect.lifeStages.0.label>
+  <DryadOakAspect.lifeStages.0.labelPlural>oak aspect</DryadOakAspect.lifeStages.0.labelPlural>
+  <DryadOakAspect.lifeStages.1.label>oak aspect</DryadOakAspect.lifeStages.1.label>
+  <DryadOakAspect.lifeStages.1.labelPlural>oak aspect</DryadOakAspect.lifeStages.1.labelPlural>
+  <DryadOakAspect.lifeStages.2.label>oak aspect</DryadOakAspect.lifeStages.2.label>
+  <DryadOakAspect.lifeStages.2.labelPlural>oak aspect</DryadOakAspect.lifeStages.2.labelPlural>
+
+  <DryadWillowAspect.label>willow aspect</DryadWillowAspect.label>
+  <DryadWillowAspect.labelPlural>willow aspects</DryadWillowAspect.labelPlural>
+  <DryadWillowAspect.lifeStages.0.label>willow aspect</DryadWillowAspect.lifeStages.0.label>
+  <DryadWillowAspect.lifeStages.0.labelPlural>willow aspects</DryadWillowAspect.lifeStages.0.labelPlural>
+  <DryadWillowAspect.lifeStages.1.label>willow aspect</DryadWillowAspect.lifeStages.1.label>
+  <DryadWillowAspect.lifeStages.1.labelPlural>willow aspects</DryadWillowAspect.lifeStages.1.labelPlural>
+  <DryadWillowAspect.lifeStages.2.label>willow aspect</DryadWillowAspect.lifeStages.2.label>
+  <DryadWillowAspect.lifeStages.2.labelPlural>willow aspects</DryadWillowAspect.lifeStages.2.labelPlural>
+
+  <DryadSpiteRevenantAnimal.label>spite-revenant</DryadSpiteRevenantAnimal.label>
+  <DryadSpiteRevenantAnimal.labelPlural>spite-revenants</DryadSpiteRevenantAnimal.labelPlural>
+  <DryadSpiteRevenantAnimal.lifeStages.0.label>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.0.label>
+  <DryadSpiteRevenantAnimal.lifeStages.0.labelPlural>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.0.labelPlural>
+  <DryadSpiteRevenantAnimal.lifeStages.1.label>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.1.label>
+  <DryadSpiteRevenantAnimal.lifeStages.1.labelPlural>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.1.labelPlural>
+  <DryadSpiteRevenantAnimal.lifeStages.2.label>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.2.label>
+  <DryadSpiteRevenantAnimal.lifeStages.2.labelPlural>spite-revenant</DryadSpiteRevenantAnimal.lifeStages.2.labelPlural>
+
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UnfinishedDryadSculpture.label>незаконченная скульптура дриад</UnfinishedDryadSculpture.label>
+  <UnfinishedDryadBody.label>незаконченная часть тела дриады</UnfinishedDryadBody.label>
+
+  <DryadHusk.label>оболочка дриады</DryadHusk.label>
+  <DryadHusk.description>Пустая оболочка дриады.</DryadHusk.description>
+
+  <DryadBody.label>тело дриады</DryadBody.label>
+  <DryadBody.description>Тело дриады. Используйте его для пробужения.</DryadBody.description>
+  <DryadBody.comps.1.useLabel>Пробудить дриаду</DryadBody.comps.1.useLabel>
+
+  <DryadicBody.label>тело дриады</DryadicBody.label>
+  <DryadicBody.description>Тело дриады. Используйте его для пробужения.</DryadicBody.description>
+  <DryadicBody.comps.1.useLabel>Пробудить дриаду</DryadicBody.comps.1.useLabel>
+
+
+</LanguageData>

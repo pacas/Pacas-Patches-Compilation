@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadOakAspect.label>дубовая дриада</DryadOakAspect.label>
+  <DryadOakAspect.description>Дубовая дриада - это видоизменённая дриада. Приняв облик дуба, они становятся крупными и выносливыми врагами.</DryadOakAspect.description>
+  <DryadOakAspect.tools.0.label>left branch</DryadOakAspect.tools.0.label>
+  <DryadOakAspect.tools.1.label>right branch</DryadOakAspect.tools.1.label>
+  <DryadOakAspect.tools.2.label>left branch</DryadOakAspect.tools.2.label>
+  <DryadOakAspect.tools.3.label>right branch</DryadOakAspect.tools.3.label>
+  <DryadOakAspect.tools.4.label>teeth</DryadOakAspect.tools.4.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Meat Amount: 0 -->
+  <DryadOakAspect_Corpse.label>труп дубовой дриады</DryadOakAspect_Corpse.label>
+  <DryadOakAspect_Corpse.description>труп дубовой дриады</DryadOakAspect_Corpse.description>
+
+
+</LanguageData>

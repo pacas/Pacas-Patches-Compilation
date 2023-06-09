@@ -12,10 +12,17 @@
 		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
 	</description>
     <modDependencies>
-	</modDependencies>
+        <li>
+            <packageId>Imranfish.XMLExtensions</packageId>
+            <displayName>XML Extensions</displayName>
+            <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>
+    </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Royalty</li>
+        <li>Imranfish.XMLExtensions</li>
         <li>erdelf.HumanoidAlienRaces</li>
         <li>CETeam.CombatExtended</li>
         <li>skyarkhangel.HSK</li>
@@ -25,6 +32,7 @@
         <li>yanzihko.KANDFLS</li>
         <li>Ryflamer.Rimcraft.Core</li>
         <li>thelonetec.assortedtweaks</li>
+        <li>Torann.ARimworldOfMagic</li>
         <li>void.charactereditor</li>
         <li>sandy.rpgstyleinventory.avilmask.revamped</li>
     </loadAfter>

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.PatchDef Name="Research_Positions" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>x</li>
+            <li>y</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="Research_Positions_Tab" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>x</li>
+            <li>y</li>
+            <li>tab</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <tab>{tab}</tab>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="Research_Positions_Cost" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>cost</li>
+            <li>x</li>
+            <li>y</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/baseCost</xpath>
+                <value>
+                    <baseCost>{cost}</baseCost>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="Research_Positions_Techlevel" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>x</li>
+            <li>y</li>
+            <li>lvl</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <techLevel>{lvl}</techLevel>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="Research_Positions_Tab_Techlevel" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>x</li>
+            <li>y</li>
+            <li>tab</li>
+            <li>lvl</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <tab>{tab}</tab>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <techLevel>{lvl}</techLevel>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="Research_Positions_Cost_Techlevel" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>cost</li>
+            <li>x</li>
+            <li>y</li>
+            <li>lvl</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/baseCost</xpath>
+                <value>
+                    <baseCost>{cost}</baseCost>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>{x}</researchViewX>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>{y}</researchViewY>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <techLevel>{lvl}</techLevel>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <!--Add Tables and Facilities-->
+    <XmlExtensions.PatchDef Name="Research_Tables_Primitive" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>PrimitiveResearchBench</requiredResearchBuilding>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>PrimitiveResearchBench</li>
+                                <li>SimpleResearchBench</li>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                    <tags>
+                        <li>ClassicStart</li>
+                    </tags>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    <XmlExtensions.PatchDef Name="Research_Tables_Medieval" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>SimpleResearchBench</li>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    <XmlExtensions.PatchDef Name="Research_Tables_Industrial" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>SimpleResearchBench</li>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                    <requiredResearchFacilities>
+                        <li>LabTerminal</li>
+                    </requiredResearchFacilities>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    <XmlExtensions.PatchDef Name="Research_Tables_Hitech" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+                    <requiredResearchFacilities>
+                        <li>LabTerminal</li>
+                    </requiredResearchFacilities>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    <XmlExtensions.PatchDef Name="Research_Tables_HitechMulti" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+                    <requiredResearchFacilities>
+                        <li>MultiAnalyzer</li>
+                    </requiredResearchFacilities>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    <XmlExtensions.PatchDef Name="Research_Tables_HitechLabStation" Abstract="True">
+        <parameters>
+            <li>def</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ResearchDoc</docName>
+                <xpath>Defs/ResearchProjectDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="{def}"]</xpath>
+                <value>
+                    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+                    <requiredResearchFacilities>
+                        <li>LabStation</li>
+                    </requiredResearchFacilities>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                        <li Class="ResearchTreeSK.ResearchTreeSKModExtension" />
+                    </modExtensions>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+</Defs>

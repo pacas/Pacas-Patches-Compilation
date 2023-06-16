@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RedHorse_Brainwash.label>рекрут для промывания мозгов</RedHorse_Brainwash.label>
-  <RedHorse_Brainwash.description>Надзиратели отведут их к креслу для промывания мозгов с телевизором для промывания мозго.</RedHorse_Brainwash.description>
-
+  <RedHorse_Brainwash.label>промывать мозги</RedHorse_Brainwash.label>
+  <RedHorse_Brainwash.description>Надзиратель отведёт пленника к креслу с телевизором для промывания мозгов.</RedHorse_Brainwash.description>
 
 </LanguageData>

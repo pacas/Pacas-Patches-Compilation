@@ -2,11 +2,6 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <li Class="PatchOperationAttributeSet">
-                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]</xpath>
-                <attribute>ParentName</attribute>
-                <value>SK_ArtableFurnitureBase</value>
-            </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/stuffCategories</xpath>
                 <value>
@@ -16,8 +11,60 @@
                 </value>
             </li>
             <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/building</xpath>
+                <value>
+                    <uninstallWork>700</uninstallWork>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]</xpath>
                 <value>
+                    <fillPercent>0.6</fillPercent>
+                    <useHitPoints>True</useHitPoints>
+                    <rotatable>true</rotatable>
+                    <comps>
+                        <li>
+                            <compClass>SK.CompFadingShadowThrower</compClass>
+                        </li>
+                    </comps>
+                    <damageMultipliers>
+                        <li>
+                            <damageDef>Bullet</damageDef>
+                            <multiplier>0.5</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Arrow</damageDef>
+                            <multiplier>0.2</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Beanbag</damageDef>
+                            <multiplier>0.1</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Optic</damageDef>
+                            <multiplier>0.7</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Microwave</damageDef>
+                            <multiplier>0.8</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Blunt</damageDef>
+                            <multiplier>1.2</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Cut</damageDef>
+                            <multiplier>0.7</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>Bite</damageDef>
+                            <multiplier>0.55</multiplier>
+                        </li>
+                        <li>
+                            <damageDef>KineticPulse</damageDef>
+                            <multiplier>1.2</multiplier>
+                        </li>
+                    </damageMultipliers>
                     <costList>
                         <ComponentSpacer>3</ComponentSpacer>
                         <AdvMechanism>3</AdvMechanism>

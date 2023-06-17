@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_PistolSpec_Base0"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>pistol whip</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>7</power>
+                            <cooldownTime>1</cooldownTime>
+                            <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_RifleSpec_Base0"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>rifle stock</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>7</power>
+                            <cooldownTime>1</cooldownTime>
+                            <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ShotgunSpec_Base0"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>weapon smash</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>7</power>
+                            <cooldownTime>1</cooldownTime>
+                            <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -413,6 +413,7 @@
                         <categories>
                             <li>SLDBar</li>
                             <li>USLDBar</li>
+                            <li>Chemical</li>
                         </categories>
                     </fixedIngredientFilter>
                 </value>

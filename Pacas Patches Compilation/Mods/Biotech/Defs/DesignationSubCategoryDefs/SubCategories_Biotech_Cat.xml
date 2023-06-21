@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_MechRechargers</defName>
+		<label>Mechanoid Recharger</label>
+		<description>Maintain stable power supply with these devices!</description>
+		<defNames>
+			<li>BasicRecharger</li>
+			<li>StandardRecharger</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_MechGestators</defName>
+		<label>Mechanoid Gestators</label>
+		<description>Create new mechanoids with these devices!</description>
+		<defNames>
+			<li>MechGestator</li>
+			<li>LargeMechGestator</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_MechSubcores</defName>
+		<label>Subcores Stations</label>
+		<description>Make new subcores for your mechanoids with these devices!</description>
+		<defNames>
+			<li>SubcoreEncoder</li>
+			<li>SubcoreSoftscanner</li>
+			<li>SubcoreRipscanner</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+</Defs>	

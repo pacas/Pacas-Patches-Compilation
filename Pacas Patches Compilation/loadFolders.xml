@@ -18,6 +18,7 @@
 		<li>1.4</li>
 		<li>Common</li>
 		<li>Multiversion_Patches</li>
+        <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>

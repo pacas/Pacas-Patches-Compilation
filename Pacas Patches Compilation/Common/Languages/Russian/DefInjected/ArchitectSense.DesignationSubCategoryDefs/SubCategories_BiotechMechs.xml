@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_MechRechargers.label>Зарядные станции</SubCategory_MechRechargers.label>
+    <SubCategory_MechRechargers.description>Поддерживайте стабильное электропитание механоидов с помощью этих устройств!</SubCategory_MechRechargers.description>
+
+    <SubCategory_MechGestators.label>Гестаторы механоидов</SubCategory_MechGestators.label>
+    <SubCategory_MechGestators.description>Создавайте новых механоидов с помощью этих устройств!</SubCategory_MechGestators.description>
+    
+    <SubCategory_MechSubcores.label>Станции ядер механоидов</SubCategory_MechSubcores.label>
+    <SubCategory_MechSubcores.description>Создавайте новые ядра для механоидов с помощью этих устройств!</SubCategory_MechSubcores.description>
+  
+</LanguageData>

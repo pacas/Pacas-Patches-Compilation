@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Aura.label>аура</AM_Aura.label>
+  <AM_Aura.labelPlural>ауры</AM_Aura.labelPlural>
+  <AM_Aura.lifeStages.0.label>аура</AM_Aura.lifeStages.0.label>
+  <AM_Aura.lifeStages.0.labelPlural>аура</AM_Aura.lifeStages.0.labelPlural>
+  <AM_Aura.lifeStages.0.labelMale>мужчина аура</AM_Aura.lifeStages.0.labelMale>
+  <AM_Aura.lifeStages.0.labelMalePlural>мужчины ауры</AM_Aura.lifeStages.0.labelMalePlural>
+  <AM_Aura.lifeStages.0.labelFemale>женщина аура</AM_Aura.lifeStages.0.labelFemale>
+  <AM_Aura.lifeStages.0.labelFemalePlural>женщины ауры</AM_Aura.lifeStages.0.labelFemalePlural>
+  <AM_Aura.lifeStages.1.label>аура</AM_Aura.lifeStages.1.label>
+  <AM_Aura.lifeStages.1.labelPlural>аура</AM_Aura.lifeStages.1.labelPlural>
+  <AM_Aura.lifeStages.1.labelMale>мужчина аура</AM_Aura.lifeStages.1.labelMale>
+  <AM_Aura.lifeStages.1.labelMalePlural>мужчины ауры</AM_Aura.lifeStages.1.labelMalePlural>
+  <AM_Aura.lifeStages.1.labelFemale>женщина аура</AM_Aura.lifeStages.1.labelFemale>
+  <AM_Aura.lifeStages.1.labelFemalePlural>женщины ауры</AM_Aura.lifeStages.1.labelFemalePlural>
+  <AM_Aura.labelMale>мужчина аура</AM_Aura.labelMale>
+  <AM_Aura.labelMalePlural>мужчины ауры</AM_Aura.labelMalePlural>
+  <AM_Aura.labelFemale>женщина аура</AM_Aura.labelFemale>
+  <AM_Aura.labelFemalePlural>женщины ауры</AM_Aura.labelFemalePlural>
+
+
+</LanguageData>

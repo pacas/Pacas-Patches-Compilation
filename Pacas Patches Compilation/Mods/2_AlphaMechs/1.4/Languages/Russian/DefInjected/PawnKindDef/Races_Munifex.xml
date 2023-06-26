@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Munifex -->
+
+  <AM_Mech_Munifex.label>мунифекс</AM_Mech_Munifex.label>
+  <AM_Mech_Munifex.labelPlural>мунифексы</AM_Mech_Munifex.labelPlural>
+  <AM_Mech_Munifex.lifeStages.0.label>мунифекс</AM_Mech_Munifex.lifeStages.0.label>
+  <AM_Mech_Munifex.lifeStages.0.labelPlural>мунифексы</AM_Mech_Munifex.lifeStages.0.labelPlural>
+  <AM_Mech_Munifex.lifeStages.1.label>мунифекс</AM_Mech_Munifex.lifeStages.1.label>
+  <AM_Mech_Munifex.lifeStages.1.labelPlural>мунифексы</AM_Mech_Munifex.lifeStages.1.labelPlural>
+
+
+</LanguageData>

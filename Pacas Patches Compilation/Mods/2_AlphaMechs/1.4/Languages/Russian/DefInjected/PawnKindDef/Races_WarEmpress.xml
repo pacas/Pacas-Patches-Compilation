@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- War empress -->
+
+  <AM_WarEmpress.label>королева войны</AM_WarEmpress.label>
+  <AM_WarEmpress.labelPlural>королевы войны</AM_WarEmpress.labelPlural>
+  <AM_WarEmpress.lifeStages.0.label>королева войны</AM_WarEmpress.lifeStages.0.label>
+  <AM_WarEmpress.lifeStages.0.labelPlural>королевы войны</AM_WarEmpress.lifeStages.0.labelPlural>
+  <AM_WarEmpress.lifeStages.1.label>королева войны</AM_WarEmpress.lifeStages.1.label>
+  <AM_WarEmpress.lifeStages.1.labelPlural>королевы войны</AM_WarEmpress.lifeStages.1.labelPlural>
+
+
+</LanguageData>

@@ -4,7 +4,7 @@
 **HSK Core**<br>
 One day I will tell you.
 
-**[Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)**<br>
+**[A Rimworld of Magic](https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956)**<br>
 Reworking research (including new ones) + prescription discovery system;
 Major balance changes;
 Corrected many bugs;
@@ -12,10 +12,20 @@ Changed many categories in the storage menu;
 Removed all meat except mystery meat;
 A new material - pure magicyte - to unify recipes to HSK system;
 Completely changed most recipes, moving crafting to different crafting stations;
-Fixed problems with the usual CE patch - now all parts of the mod are compatible;
-Completely patched and adpted golems and their improvements;
+Fixed problems with the default CE patch - now all parts of the mod are compatible;
+Completely patched and adapted golems and their improvements;
 Fixed seeds for the SeedsPlease mod;
 A ton of fixes for the localization - edits, additional translations and fixes.
+
+**[Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)**<br>
+Reworking research (for Biotech);
+Subcategories intgration;
+CE danger points rebalance;
+New set in storage category for mechanitor;
+Changed all recipes for mechs, buildings and new items;
+Patched mechs for additional mods - Rimatomics, VE Books, VE Fishing;
+Fixed compatibility problem with default CE patch and HSK;
+Fixed Russian and English localizations to fix HSK.
 
 **[Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)**<br>
 Removed local antibiotics in favour of HSK version.

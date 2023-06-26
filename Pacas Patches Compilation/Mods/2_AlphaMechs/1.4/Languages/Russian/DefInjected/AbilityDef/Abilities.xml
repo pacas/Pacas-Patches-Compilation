@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_SwapWeapon.label>сменить оружие</AM_SwapWeapon.label>
+  <AM_SwapWeapon.description>Сменить оружие, между бластером и игломётом.</AM_SwapWeapon.description>
+
+  <AM_MechConversion.label>Взломать IFF меха</AM_MechConversion.label>
+  <AM_MechConversion.description>Взломать удалённо IFF датчики механоида, чтобы временно поменять его кодекс поведения. Это продлится один день, после чего механоид вернется к своему прежнему кодексу и будет атаковать без разбора.</AM_MechConversion.description>
+
+
+</LanguageData>

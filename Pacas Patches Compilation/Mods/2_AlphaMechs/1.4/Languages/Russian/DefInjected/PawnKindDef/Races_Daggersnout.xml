@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Daggersnout.label>даггернот</AM_Daggersnout.label>
+  <AM_Daggersnout.labelPlural>daggersnouts</AM_Daggersnout.labelPlural>
+  <AM_Daggersnout.lifeStages.0.label>даггернот</AM_Daggersnout.lifeStages.0.label>
+  <AM_Daggersnout.lifeStages.0.labelPlural>даггернот</AM_Daggersnout.lifeStages.0.labelPlural>
+  <AM_Daggersnout.lifeStages.0.labelMale>мужчина даггернот</AM_Daggersnout.lifeStages.0.labelMale>
+  <AM_Daggersnout.lifeStages.0.labelMalePlural>мужчины даггерноты</AM_Daggersnout.lifeStages.0.labelMalePlural>
+  <AM_Daggersnout.lifeStages.0.labelFemale>женщина даггернот</AM_Daggersnout.lifeStages.0.labelFemale>
+  <AM_Daggersnout.lifeStages.0.labelFemalePlural>женщины даггерноты</AM_Daggersnout.lifeStages.0.labelFemalePlural>
+  <AM_Daggersnout.lifeStages.1.label>даггернот</AM_Daggersnout.lifeStages.1.label>
+  <AM_Daggersnout.lifeStages.1.labelPlural>даггернот</AM_Daggersnout.lifeStages.1.labelPlural>
+  <AM_Daggersnout.lifeStages.1.labelMale>мужчина даггернот</AM_Daggersnout.lifeStages.1.labelMale>
+  <AM_Daggersnout.lifeStages.1.labelMalePlural>мужчины даггерноты</AM_Daggersnout.lifeStages.1.labelMalePlural>
+  <AM_Daggersnout.lifeStages.1.labelFemale>женщина даггернот</AM_Daggersnout.lifeStages.1.labelFemale>
+  <AM_Daggersnout.lifeStages.1.labelFemalePlural>женщины даггерноты</AM_Daggersnout.lifeStages.1.labelFemalePlural>
+  <AM_Daggersnout.labelMale>мужчина даггернот</AM_Daggersnout.labelMale>
+  <AM_Daggersnout.labelMalePlural>мужчины даггерноты</AM_Daggersnout.labelMalePlural>
+  <AM_Daggersnout.labelFemale>женщина даггернот</AM_Daggersnout.labelFemale>
+  <AM_Daggersnout.labelFemalePlural>женщины даггерноты</AM_Daggersnout.labelFemalePlural>
+
+
+</LanguageData>

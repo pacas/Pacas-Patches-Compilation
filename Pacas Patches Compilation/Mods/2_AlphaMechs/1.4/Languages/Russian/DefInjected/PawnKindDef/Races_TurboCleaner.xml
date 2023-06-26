@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Turbocleaner -->
+
+  <AM_Mech_TurboCleaner.label>турбо уборщик</AM_Mech_TurboCleaner.label>
+  <AM_Mech_TurboCleaner.labelPlural>турбо уборщики</AM_Mech_TurboCleaner.labelPlural>
+  <AM_Mech_TurboCleaner.lifeStages.0.label>турбо уборщик</AM_Mech_TurboCleaner.lifeStages.0.label>
+  <AM_Mech_TurboCleaner.lifeStages.0.labelPlural>турбо уборщики</AM_Mech_TurboCleaner.lifeStages.0.labelPlural>
+  <AM_Mech_TurboCleaner.lifeStages.1.label>турбо уборщик</AM_Mech_TurboCleaner.lifeStages.1.label>
+  <AM_Mech_TurboCleaner.lifeStages.1.labelPlural>турбо уборщики</AM_Mech_TurboCleaner.lifeStages.1.labelPlural>
+
+</LanguageData>

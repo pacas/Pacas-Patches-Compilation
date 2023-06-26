@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Siegebreaker.label>штурмовик</AM_Siegebreaker.label>
+  <AM_Siegebreaker.labelPlural>штурмовики</AM_Siegebreaker.labelPlural>
+  <AM_Siegebreaker.lifeStages.0.label>штурмовик</AM_Siegebreaker.lifeStages.0.label>
+  <AM_Siegebreaker.lifeStages.0.labelPlural>штурмовик</AM_Siegebreaker.lifeStages.0.labelPlural>
+  <AM_Siegebreaker.lifeStages.0.labelMale>мужчина штурмовик</AM_Siegebreaker.lifeStages.0.labelMale>
+  <AM_Siegebreaker.lifeStages.0.labelMalePlural>мужчины штурмовики</AM_Siegebreaker.lifeStages.0.labelMalePlural>
+  <AM_Siegebreaker.lifeStages.0.labelFemale>женщина штурмовик</AM_Siegebreaker.lifeStages.0.labelFemale>
+  <AM_Siegebreaker.lifeStages.0.labelFemalePlural>женщины штурмовики</AM_Siegebreaker.lifeStages.0.labelFemalePlural>
+  <AM_Siegebreaker.lifeStages.1.label>штурмовик</AM_Siegebreaker.lifeStages.1.label>
+  <AM_Siegebreaker.lifeStages.1.labelPlural>штурмовик</AM_Siegebreaker.lifeStages.1.labelPlural>
+  <AM_Siegebreaker.lifeStages.1.labelMale>мужчина штурмовик</AM_Siegebreaker.lifeStages.1.labelMale>
+  <AM_Siegebreaker.lifeStages.1.labelMalePlural>мужчины штурмовики</AM_Siegebreaker.lifeStages.1.labelMalePlural>
+  <AM_Siegebreaker.lifeStages.1.labelFemale>женщина штурмовик</AM_Siegebreaker.lifeStages.1.labelFemale>
+  <AM_Siegebreaker.lifeStages.1.labelFemalePlural>женщины штурмовики</AM_Siegebreaker.lifeStages.1.labelFemalePlural>
+  <AM_Siegebreaker.labelMale>мужчина штурмовик</AM_Siegebreaker.labelMale>
+  <AM_Siegebreaker.labelMalePlural>мужчины штурмовики</AM_Siegebreaker.labelMalePlural>
+  <AM_Siegebreaker.labelFemale>женщина штурмовик</AM_Siegebreaker.labelFemale>
+  <AM_Siegebreaker.labelFemalePlural>женщины штурмовики</AM_Siegebreaker.labelFemalePlural>
+
+
+</LanguageData>

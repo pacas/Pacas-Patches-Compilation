@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_AuraRecipe.label>вырастить ауру</AM_AuraRecipe.label>
+  <AM_AuraRecipe.description>Вырастить ауру.</AM_AuraRecipe.description>
+
+  <AM_LuxRecipe.label>вырастить люкс</AM_LuxRecipe.label>
+  <AM_LuxRecipe.description>Вырастить люкс.</AM_LuxRecipe.description>
+
+  <AM_PolychoronRecipe.label>вырастить полихорона</AM_PolychoronRecipe.label>
+  <AM_PolychoronRecipe.description>Вырастить полихорона.</AM_PolychoronRecipe.description>
+
+  <AM_OptioRecipe.label>вырастить оптиона</AM_OptioRecipe.label>
+  <AM_OptioRecipe.description>Вырастить оптиона.</AM_OptioRecipe.description>
+
+  <AM_MunifexRecipe.label>вырастить минифекса</AM_MunifexRecipe.label>
+  <AM_MunifexRecipe.description>Вырастить минифекса.</AM_MunifexRecipe.description>
+
+  <AM_Mech_SagittariusRecipe.label>вырастить сагитаруса</AM_Mech_SagittariusRecipe.label>
+  <AM_Mech_SagittariusRecipe.description>Вырастить сагитаруса.</AM_Mech_SagittariusRecipe.description>
+
+  <AM_PristineStriderRecipe.label>вырастить первобытного бродягу</AM_PristineStriderRecipe.label>
+  <AM_PristineStriderRecipe.description>Вырастить первобытного бродягу.</AM_PristineStriderRecipe.description>
+
+  <AM_PristineAssemblerRecipe.label>вырастить первобытного сборщика</AM_PristineAssemblerRecipe.label>
+  <AM_PristineAssemblerRecipe.description>Вырастить первобытного сборщика.</AM_PristineAssemblerRecipe.description>
+
+  <AM_PristineSlurrypedeRecipe.label>вырастить слизнепеду</AM_PristineSlurrypedeRecipe.label>
+  <AM_PristineSlurrypedeRecipe.description>Вырастить слизнепеду.</AM_PristineSlurrypedeRecipe.description>
+
+
+</LanguageData>

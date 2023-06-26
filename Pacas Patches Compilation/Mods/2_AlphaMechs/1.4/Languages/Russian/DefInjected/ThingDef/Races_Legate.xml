@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Legate -->
+
+  <AM_Mech_Legate.label>Легат</AM_Mech_Legate.label>
+  <AM_Mech_Legate.description>Сверхтяжелый мех со встроенным усовершенствованным генератором щита. У «Легата» нет турели с точечной защитой, которая есть в «Центурионах», но взамен он вооружен сверхмощным бластером, который намного опаснее стандартных.</AM_Mech_Legate.description>
+  <AM_Mech_Legate.tools.0.label>голова</AM_Mech_Legate.tools.0.label>
+
+
+</LanguageData>

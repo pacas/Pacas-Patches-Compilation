@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_GreaterRecharger"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>300</costStuffCount>
+                        <costList>
+                            <Plastic>50</Plastic>
+                            <Rubber>50</Rubber>
+                            <ElectronicComponents>12</ElectronicComponents>
+                            <Mechanism>5</Mechanism>
+                            <Electronics>5</Electronics>
+                            <Microchips>1</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_GreaterRecharger"]/constructionSkillPrerequisite</xpath>
+                    <value>
+                        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_BeamcasterBandNode"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>200</costStuffCount>
+                        <costList>
+                            <ComponentIndustrial>4</ComponentIndustrial>
+                            <ElectronicComponents>4</ElectronicComponents>
+                            <Electronics>4</Electronics>
+                            <Microchips>2</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_GreaterBandNode"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>200</costStuffCount>
+                        <costList>
+                            <ComponentIndustrial>8</ComponentIndustrial>
+                            <ElectronicComponents>8</ElectronicComponents>
+                            <Electronics>8</Electronics>
+                            <Microchips>4</Microchips>
+                            <BioMicrochips>2</BioMicrochips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_InfernusMechlinkBooster"]/label</xpath>
+                    <value>
+                        <label>mechband beamcaster</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_InfernusMechlinkBooster"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>75</costStuffCount>
+                        <costList>
+                            <ComponentAdvanced>5</ComponentAdvanced>
+                            <Electronics>2</Electronics>
+                            <Microchips>2</Microchips>
+                            <BiosyntheticMaterial>10</BiosyntheticMaterial>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_WarEmpressMechlinkBooster"]/label</xpath>
+                    <value>
+                        <label>voidlink relay</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_WarEmpressMechlinkBooster"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>95</costStuffCount>
+                        <costList>
+                            <Hexcell>10</Hexcell>
+                            <ComponentSpacer>5</ComponentSpacer>
+                            <Electronics>7</Electronics>
+                            <Microchips>2</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_ApoptosisMechlinkBooster"]/label</xpath>
+                    <value>
+                        <label>quantum pulse complex</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_ApoptosisMechlinkBooster"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>120</costStuffCount>
+                        <costList>
+                            <AlphaPoly>15</AlphaPoly>
+                            <BetaPoly>15</BetaPoly>
+                            <Antimatter>15</Antimatter>
+                            <ComponentUltra>5</ComponentUltra>
+                            <Electronics>10</Electronics>
+                            <Microchips>4</Microchips>
+                            <BioMicrochips>2</BioMicrochips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_GreaterMechBooster"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>75</costStuffCount>
+                        <costList>
+                            <Hexcell>10</Hexcell>
+                            <ComponentAdvanced>5</ComponentAdvanced>
+                            <ElectronicComponents>10</ElectronicComponents>
+                            <Microchips>3</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                defName="AM_MechEfficiencyBooster" or
+                defName="AM_MechArmorBooster" or
+                defName="AM_MechTargettingBooster" or
+                defName="AM_MechDisruptor"
+                ]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>75</costStuffCount>
+                        <costList>
+                            <Glass>20</Glass>
+                            <ComponentAdvanced>2</ComponentAdvanced>
+                            <ElectronicComponents>4</ElectronicComponents>
+                            <Microchips>2</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_MechRechargers"]/defNames</xpath>
+                    <value>
+                        <li>AM_GreaterRecharger</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

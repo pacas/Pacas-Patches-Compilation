@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Polychoron -->
+
+  <AM_Mech_Nucleotron.label>нуклеотрон</AM_Mech_Nucleotron.label>
+  <AM_Mech_Nucleotron.labelPlural>нуклеотроны</AM_Mech_Nucleotron.labelPlural>
+  <AM_Mech_Nucleotron.lifeStages.0.label>нуклеотрон</AM_Mech_Nucleotron.lifeStages.0.label>
+  <AM_Mech_Nucleotron.lifeStages.0.labelPlural>нуклеотроны</AM_Mech_Nucleotron.lifeStages.0.labelPlural>
+  <AM_Mech_Nucleotron.lifeStages.1.label>нуклеотрон</AM_Mech_Nucleotron.lifeStages.1.label>
+  <AM_Mech_Nucleotron.lifeStages.1.labelPlural>нуклеотроны</AM_Mech_Nucleotron.lifeStages.1.labelPlural>
+
+</LanguageData>

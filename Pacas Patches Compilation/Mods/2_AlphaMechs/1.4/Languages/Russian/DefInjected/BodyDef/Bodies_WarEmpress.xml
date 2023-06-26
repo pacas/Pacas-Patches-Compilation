@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Mech_WarEmpress.label>королева войны</AM_Mech_WarEmpress.label>
+  <AM_Mech_WarEmpress.corePart.parts.0.parts.1.customLabel>левый датчик прицеливания</AM_Mech_WarEmpress.corePart.parts.0.parts.1.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.0.parts.2.customLabel>правый датчик прицеливания</AM_Mech_WarEmpress.corePart.parts.0.parts.2.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.0.parts.3.customLabel>левый датчик слуха</AM_Mech_WarEmpress.corePart.parts.0.parts.3.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.0.parts.4.customLabel>правый датчик слуха</AM_Mech_WarEmpress.corePart.parts.0.parts.4.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.2.customLabel>левое плечо</AM_Mech_WarEmpress.corePart.parts.2.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.2.parts.0.customLabel>левая рука</AM_Mech_WarEmpress.corePart.parts.2.parts.0.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.2.parts.0.parts.0.customLabel>левый силовой коготь</AM_Mech_WarEmpress.corePart.parts.2.parts.0.parts.0.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.3.customLabel>правое плечо</AM_Mech_WarEmpress.corePart.parts.3.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.3.parts.0.customLabel>правая рука</AM_Mech_WarEmpress.corePart.parts.3.parts.0.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.3.parts.0.parts.0.customLabel>правый силовой коготь</AM_Mech_WarEmpress.corePart.parts.3.parts.0.parts.0.customLabel>
+  <AM_Mech_WarEmpress.corePart.parts.4.customLabel>шариковая турель</AM_Mech_WarEmpress.corePart.parts.4.customLabel>
+
+
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+                <ThingCategoryDef>
+                    <defName>SetMechanitor</defName>
+                    <label>Mechanitor Set</label>
+                    <parent>Sets</parent>
+                </ThingCategoryDef>
+            </value>
+        </match>
+    </Operation>
+</Patch>

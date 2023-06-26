@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <AM_MechanoidWing.label>лопасть крыла</AM_MechanoidWing.label>
+  <AM_MechanoidBeeWing.label>механическое крыло</AM_MechanoidBeeWing.label>
+  <AM_TankTurret.label>турель</AM_TankTurret.label>
+  <AM_MechanicalClaw.label>коготь</AM_MechanicalClaw.label>
+
+  <AM_TankPlateFirst.label>лобовая металлическая пластина</AM_TankPlateFirst.label>
+  <AM_TankPlateFirst.labelShort>корпус</AM_TankPlateFirst.labelShort>
+
+  <AM_TankPlateSecond.label>вспомогательная лобовая металлическая пластина</AM_TankPlateSecond.label>
+  <AM_TankPlateSecond.labelShort>корпус</AM_TankPlateSecond.labelShort>
+
+  <AM_TankPlateThird.label>центральная металлическая пластина</AM_TankPlateThird.label>
+  <AM_TankPlateThird.labelShort>корпус</AM_TankPlateThird.labelShort>
+
+  <AM_TankPlateFourth.label>вспомогательная центральная металлическая пластина</AM_TankPlateFourth.label>
+  <AM_TankPlateFourth.labelShort>корпус</AM_TankPlateFourth.labelShort>
+
+  <AM_TankPlateFifth.label>задняя металлическая пластина</AM_TankPlateFifth.label>
+  <AM_TankPlateFifth.labelShort>корпус</AM_TankPlateFifth.labelShort>
+
+  <AM_TankPlateSixth.label>вспомогательная задняя металлическая пластина</AM_TankPlateSixth.label>
+  <AM_TankPlateSixth.labelShort>корпус</AM_TankPlateSixth.labelShort>
+
+
+</LanguageData>

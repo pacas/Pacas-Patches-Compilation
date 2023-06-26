@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Turbocleaner -->
+
+  <AM_Mech_TurboCleaner.label>турбоуборщик</AM_Mech_TurboCleaner.label>
+  <AM_Mech_TurboCleaner.description>По сути, это уборочная машина, установленная на двух небольших гиростабилизированных турбинных двигателях. Турбоуборщик парит над поверхностью, используя вакуумную насадку для всасывания грязи и другого мусора. Абсурдно бесполезен в бою.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt; Парит над местностью, игнорируя затраты на передвижение по местности.</AM_Mech_TurboCleaner.description>
+  <AM_Mech_TurboCleaner.tools.0.label>голова</AM_Mech_TurboCleaner.tools.0.label>
+
+
+</LanguageData>

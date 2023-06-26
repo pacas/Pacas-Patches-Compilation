@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_BeamcasterPack.label>антенна механитора</AM_BeamcasterPack.label>
+  <AM_BeamcasterPack.description>Рюкзак, содержащий лучевую антенну для более большого охвата всех управляемых механоидов. Это может значительно увеличить максимальную общую пропускную способность механитора.</AM_BeamcasterPack.description>
+
+  <AM_VoidlinkPack.label>ретранслятор нуль-сети</AM_VoidlinkPack.label>
+  <AM_VoidlinkPack.description>Рюкзак, содержащий ретранслятор нуль-сети для доступа к огромным объемам данных, присутствующих в механоидной нуль-сети этой системы. Это может значительно увеличить максимальную общую пропускную способность механитора.</AM_VoidlinkPack.description>
+
+  <AM_CryptoPack.label>крипто-декодер</AM_CryptoPack.label>
+  <AM_CryptoPack.description>Рюкзак, содержащий набор механоидных шифровальных декодеров. Это позволяет механиторам управлять дополнительной группой управления, одновременно значительно увеличивая максимальную общую пропускную способность механитора.</AM_CryptoPack.description>
+
+
+</LanguageData>

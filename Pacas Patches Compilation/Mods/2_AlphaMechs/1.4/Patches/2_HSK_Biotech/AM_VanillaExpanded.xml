@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Vanilla Books Expanded</li>
+            </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/RecipeDef[defName="AM_Gestate_Librarian"]/ingredients</xpath>
+                        <value>
+                            <ingredients Inherit="False">
+                                <li>
+                                    <filter>
+                                        <categories>
+                                            <li>SLDBar</li>
+                                            <li>USLDBar</li>
+                                        </categories>
+                                    </filter>
+                                    <count>80</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Electronics</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>4</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ComponentIndustrial</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>3</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Mechanism</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>2</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>SyntheticFibers</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>SubcoreHigh</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>1</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <categories>
+                                    <li>SLDBar</li>
+                                    <li>USLDBar</li>
+                                </categories>
+                                <thingDefs>
+                                    <li>Electronics</li>
+                                    <li>ComponentIndustrial</li>
+                                    <li>Mechanism</li>
+                                    <li>SyntheticFibers</li>
+                                    <li>SubcoreHigh</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+        </match>
+    </Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Vanilla Fishing Expanded</li>
+            </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/RecipeDef[defName="AM_Gestate_Angler"]/ingredients</xpath>
+                        <value>
+                            <ingredients Inherit="False">
+                                <li>
+                                    <filter>
+                                        <categories>
+                                            <li>SLDBar</li>
+                                            <li>USLDBar</li>
+                                        </categories>
+                                    </filter>
+                                    <count>100</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Electronics</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>3</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ComponentIndustrial</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>2</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Mechanism</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>2</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>SubcoreRegular</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>1</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <categories>
+                                    <li>SLDBar</li>
+                                    <li>USLDBar</li>
+                                </categories>
+                                <thingDefs>
+                                    <li>Electronics</li>
+                                    <li>ComponentIndustrial</li>
+                                    <li>Mechanism</li>
+                                    <li>SubcoreRegular</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+        </match>
+    </Operation>
+</Patch>

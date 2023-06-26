@@ -18,16 +18,19 @@
 		<li>1.4</li>
 		<li>Common</li>
 		<li>Multiversion_Patches</li>
+        <!--Order semi-important mods-->
+        <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
+        <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
+        <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
+        <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>        
+        <!--Simple mods-->
         <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
-        <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
-        <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModActive="rabbit.stuncastervpe2">Mods/EoD_Stuncaster</li>
-        <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>
-        <li IfModActive="mlie.warhammerishdryad">Mods/Warhammer_Dryads</li>
+        <li IfModActive="mlie.warhammerishdryad">Mods/Warhammer_Dryads</li> 
 	</v1.4>
 </loadFolders>

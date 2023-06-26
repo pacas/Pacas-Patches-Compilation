@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Infernus -->
+
+  <AM_Infernus.label>инфернус</AM_Infernus.label>
+  <AM_Infernus.labelPlural>инфернусы</AM_Infernus.labelPlural>
+  <AM_Infernus.lifeStages.0.label>инфернус</AM_Infernus.lifeStages.0.label>
+  <AM_Infernus.lifeStages.0.labelPlural>инфернусы</AM_Infernus.lifeStages.0.labelPlural>
+  <AM_Infernus.lifeStages.1.label>инфернус</AM_Infernus.lifeStages.1.label>
+  <AM_Infernus.lifeStages.1.labelPlural>инфернусы</AM_Infernus.lifeStages.1.labelPlural>
+
+
+</LanguageData>

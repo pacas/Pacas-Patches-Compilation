@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!--MechCommanderSuit-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>HeavyFullArmorCat</li>
+                            <li>SetMechanitor</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <NanostructuringChip>1</NanostructuringChip>
+                            <PowerfocusChip>1</PowerfocusChip>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <Carbon>20</Carbon>
+                            <MagneticMaterial>2</MagneticMaterial>
+                            <SyntheticFibers>10</SyntheticFibers>
+                            <Hexcell>4</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MechBandwidth>18</MechBandwidth>
+                            <MoveSpeed>-0.4</MoveSpeed>
+                            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+                            <CarryWeight>10</CarryWeight>
+                            <CarryBulk>10</CarryBulk>
+                            <WorkSpeedGlobal>-0.22</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.07</AimingDelayFactor>
+                            <MeleeHitChance>-0.03</MeleeHitChance>
+                            <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                            <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                            <Suppressability>-0.2</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.04</GermResistance>
+                            <GermContainment>0.04</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>75</costStuffCount>
+                    </value>
+                </li>
+                <!--MechCommanderHelm-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>HeavyHelmetsCat</li>
+                            <li>SetMechanitor</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/costList</xpath>
+                    <value>
+                        <costList Inherit="False">
+                            <NanostructuringChip>1</NanostructuringChip>
+                            <PowerfocusChip>1</PowerfocusChip>
+                            <Carbon>8</Carbon>
+                            <Compaste>15</Compaste>
+                            <SyntheticFibers>5</SyntheticFibers>
+                            <MagneticMaterial>1</MagneticMaterial>
+                            <Hexcell>3</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MechBandwidth>18</MechBandwidth>
+                            <MoveSpeed>-0.18</MoveSpeed>
+                            <WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+                            <Suppressability>-0.09</Suppressability>
+                            <ArmorRating_Toxin>0.2</ArmorRating_Toxin>
+                            <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+                            <SmokeSensitivity>-1</SmokeSensitivity>
+                            <Radiation>-0.25</Radiation>
+                            <GermResistance>0.70</GermResistance>
+                            <GermContainment>0.80</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>55</costStuffCount>
+                    </value>
+                </li>
+                <!--MechBreakerArmor-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>HeavyFullArmorCat</li>
+                            <li>SetMechanitor</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <AM_QuantumMatrixChip>1</AM_QuantumMatrixChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <Carbon>25</Carbon>
+                            <MagneticMaterial>3</MagneticMaterial>
+                            <SyntheticFibers>12</SyntheticFibers>
+                            <Hexcell>6</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MechBandwidth>24</MechBandwidth>
+                            <PainShockThreshold>0.05</PainShockThreshold>
+                            <MoveSpeed>-1.1</MoveSpeed>
+                            <CarryWeight>30</CarryWeight>
+                            <CarryBulk>15</CarryBulk>
+                            <WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <ShootingAccuracyPawn>-0.06</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.04</AimingDelayFactor>
+                            <MeleeHitChance>-0.04</MeleeHitChance>
+                            <MeleeWeapon_CooldownMultiplier>0.12</MeleeWeapon_CooldownMultiplier>
+                            <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                            <Suppressability>-0.22</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.04</GermResistance>
+                            <GermContainment>0.03</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>85</costStuffCount>
+                    </value>
+                </li>
+                <!--MechBreakerHelm-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>HeavyHelmetsCat</li>
+                            <li>SetMechanitor</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]/costList</xpath>
+                    <value>
+                        <costList Inherit="False">
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <Carbon>8</Carbon>
+                            <Compaste>15</Compaste>
+                            <SyntheticFibers>5</SyntheticFibers>
+                            <MagneticMaterial>1</MagneticMaterial>
+                            <Hexcell>3</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MechBandwidth>24</MechBandwidth>
+                            <PainShockThreshold>0.05</PainShockThreshold>
+                            <MoveSpeed>-0.22</MoveSpeed>
+                            <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <ShootingAccuracyPawn>-0.07</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeHitChance>0.2</MeleeHitChance>
+                            <Suppressability>-0.14</Suppressability>
+                            <ArmorRating_Toxin>0.25</ArmorRating_Toxin>
+                            <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+                            <SmokeSensitivity>-1</SmokeSensitivity>
+                            <Radiation>-0.3</Radiation>
+                            <GermResistance>0.70</GermResistance>
+                            <GermContainment>0.80</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>65</costStuffCount>
+                    </value>
+                </li>
+                <!--BeamcasterPack-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_BeamcasterPack"]/thingCategories</xpath>
+                    <value>
+                        <li>SetMechanitor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_BeamcasterPack"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <NanostructuringChip>1</NanostructuringChip>
+                            <ComponentIndustrial>2</ComponentIndustrial>
+                            <ElectronicComponents>5</ElectronicComponents>
+                            <AdvMechanism>3</AdvMechanism>
+                            <Electronics>2</Electronics>
+                            <Microchips>1</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_BeamcasterPack"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>90</costStuffCount>
+                    </value>
+                </li>
+                <!--VoidlinkPack-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/thingCategories</xpath>
+                    <value>
+                        <li>SetMechanitor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <ElectronicComponents>5</ElectronicComponents>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Electronics>5</Electronics>
+                            <Microchips>5</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>90</costStuffCount>
+                    </value>
+                </li>
+                <!--CryptoPack-->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_CryptoPack"]/thingCategories</xpath>
+                    <value>
+                        <li>SetMechanitor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_CryptoPack"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <AM_QuantumMatrixChip>1</AM_QuantumMatrixChip>
+                            <ElectronicComponents>5</ElectronicComponents>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Electronics>3</Electronics>
+                            <Microchips>2</Microchips>
+                            <BioMicrochips>1</BioMicrochips>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_CryptoPack"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>130</costStuffCount>
+                    </value>
+                </li>
+                
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/thingCategories</xpath>
+                    <value>
+                        <li>SetMechanitor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/thingCategories</xpath>
+                    <value>
+                        <li>SetMechanitor</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

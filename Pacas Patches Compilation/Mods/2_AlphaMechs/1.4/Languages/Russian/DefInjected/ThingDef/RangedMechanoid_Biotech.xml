@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Orbital strike targetter -->
+
+  <AM_Gun_HellsphereOrbital.label>указатель для орбитальной бомбардировки</AM_Gun_HellsphereOrbital.label>
+  <AM_Gun_HellsphereOrbital.description>Прицельный луч, который выберет определенную позицию на земле для удара с орбитальной ракетной платформы. Очень, очень медленно выбирает свои цели, но со значительной площадью поражения.</AM_Gun_HellsphereOrbital.description>
+  <AM_Gun_HellsphereOrbital.tools.0.label>ствол</AM_Gun_HellsphereOrbital.tools.0.label>
+
+  <AM_Bullet_HellsphereCannonGun.label>орбитальный указатель</AM_Bullet_HellsphereCannonGun.label>
+
+
+  <!-- Coil lance -->
+
+  <AM_Gun_CoilLance.label>спиральное копьё</AM_Gun_CoilLance.label>
+  <AM_Gun_CoilLance.description>Механоидное копьё, которое с помощью электромагнита разгоняет пронзающие металлические осколки до огромных скоростей.</AM_Gun_CoilLance.description>
+  <AM_Gun_CoilLance.tools.0.label>хранилище</AM_Gun_CoilLance.tools.0.label>
+  <AM_Gun_CoilLance.tools.1.label>ствол</AM_Gun_CoilLance.tools.1.label>
+
+
+  <!-- Super Heavy blaster -->
+
+  <AM_Gun_SuperHeavyChargeBlaster.label>супер тяжёлый бластер</AM_Gun_SuperHeavyChargeBlaster.label>
+  <AM_Gun_SuperHeavyChargeBlaster.description>Более мощная версия тяжёлого бластера. Производит больше очередей, которые наносят немного больший урон.</AM_Gun_SuperHeavyChargeBlaster.description>
+  <AM_Gun_SuperHeavyChargeBlaster.tools.0.label>ствол</AM_Gun_SuperHeavyChargeBlaster.tools.0.label>
+
+  <AM_Bullet_ChargeBlasterHeavy_Red.label>charge blaster shot</AM_Bullet_ChargeBlasterHeavy_Red.label>
+
+
+  <!-- Acid spewer -->
+
+  <AM_Gun_AcidSpewer.label>кислотная пушка</AM_Gun_AcidSpewer.label>
+  <AM_Gun_AcidSpewer.description>Разрушительное оружие, предназначенное для того, чтобы обрушивать на свои цели поток кислоты. Оснащенный передовыми резервуарами для химикатов и механизмами распыления, он способен распылять на обширную площадь сильнодействующую кислоту, способную растворять даже самые прочные материалы.</AM_Gun_AcidSpewer.description>
+  <AM_Gun_AcidSpewer.tools.0.label>ствол</AM_Gun_AcidSpewer.tools.0.label>
+
+
+  <!-- Heavy Laser -->
+
+  <AM_Bullet_LaserRifle.label>лазерный выстрел</AM_Bullet_LaserRifle.label>
+  <AM_Bullet_LaserRifle.description>Сфокусированный лазерный луч.</AM_Bullet_LaserRifle.description>
+
+  <AM_BeamGraphic.label>лазерный луч</AM_BeamGraphic.label>
+
+  <AM_Gun_HeavyLaser.label>тяжёный лазер</AM_Gun_HeavyLaser.label>
+  <AM_Gun_HeavyLaser.description>Мощное энергетическое оружие, предназначенное для того, чтобы направлять на цели обжигающий луч сфокусированного света, способный пробить даже самую прочную броню.</AM_Gun_HeavyLaser.description>
+  <AM_Gun_HeavyLaser.verbs.0.label>Стандарт</AM_Gun_HeavyLaser.verbs.0.label>
+  <AM_Gun_HeavyLaser.tools.0.label>ствол</AM_Gun_HeavyLaser.tools.0.label>
+  <AM_Gun_HeavyLaser.tools.1.label>рукоять</AM_Gun_HeavyLaser.tools.1.label>
+
+
+  <!-- Siegemelter firethrower -->
+
+  <AM_SiegemelterTurret.label>штурмовой огнемёт</AM_SiegemelterTurret.label>
+  <AM_SiegemelterTurret.description>Гигантский огнемет, установленный на корпус штурмовика. Его огонь достигает невероятно высоких температур.</AM_SiegemelterTurret.description>
+  <AM_SiegemelterTurret.tools.0.label>ствол</AM_SiegemelterTurret.tools.0.label>
+
+
+  <!-- Tesla gun -->
+
+  <AM_TeslaGun.label>цепная тесла пушка</AM_TeslaGun.label>
+  <AM_TeslaGun.description>Грозное энергетическое оружие, предназначенное для того, чтобы обрушивать каскад электромагнитной энергии на свои цели. Способен генерировать заряд электромагнитной энергии, который может оглушать и выводить из строя механоидов одним выстрелом. В то же время он высвобождает обжигающий разряд электрической энергии, который может прожигать органические цели насквозь, оставляя их тлеющими и уязвимыми.</AM_TeslaGun.description>
+  <AM_TeslaGun.tools.0.label>ствол</AM_TeslaGun.tools.0.label>
+
+  <AM_Bullet_Tesla.label>разряд электричества</AM_Bullet_Tesla.label>
+
+
+  <!-- Starfire cannon -->
+
+  <AM_StarfireTurret.label>пушка звёздного огня</AM_StarfireTurret.label>
+  <AM_StarfireTurret.description>Гигантская пушка, установленная на корпус штурмовика. Он запускает медленно движущуюся нестабильную сингулярность, которая уничтожит все, к чему прикоснется при ударе.</AM_StarfireTurret.description>
+  <AM_StarfireTurret.tools.0.label>ствол</AM_StarfireTurret.tools.0.label>
+
+  <AM_Bullet_Starfire.label>нестабильная сингулярность</AM_Bullet_Starfire.label>
+  <AM_Bullet_Starfire_Secondary.label>выброс энергии</AM_Bullet_Starfire_Secondary.label>
+
+
+  <!-- Tactical shotgun -->
+
+  <AM_Gun_TacticalShotgun.label>тактический дробовик</AM_Gun_TacticalShotgun.label>
+  <AM_Gun_TacticalShotgun.description>Скорострельный дробовик малой дальности, предназначенный для установки на легкого боевого механоида.</AM_Gun_TacticalShotgun.description>
+
+  <AM_Bullet_TacticalShotgun.label>дробь тактического дробовика</AM_Bullet_TacticalShotgun.label>
+
+
+  <!-- Graser cannon -->
+
+  <AM_BeamGraserCannon.label>гразерная пушка</AM_BeamGraserCannon.label>
+  <AM_BeamGraserCannon.description>Гамма-лазерное оружие, использующее высокоэнергетический луч для уничтожения целей на предельных расстояниях. Его размашистый луч может пробить даже самую прочную броню, а невероятная выходная мощность позволяет ему за считанные секунды превращать в пар целые отряды солдат.</AM_BeamGraserCannon.description>
+  <AM_BeamGraserCannon.tools.0.label>ствол</AM_BeamGraserCannon.tools.0.label>
+
+
+  <!-- Rotary needle launcher -->
+
+  <AM_MechanoidGunRotaryNeedle.label>ротационная игломётная пушка</AM_MechanoidGunRotaryNeedle.label>
+  <AM_MechanoidGunRotaryNeedle.description>Универсальное оружие, способное стрелять непрерывным потоком иглообразных снарядов. Его вращающийся ствол позволяет вести непрерывный огонь, что делает его эффективным против полчищ врагов. Хотя ему не хватает точности, присущей его однозарядному аналогу, вращающийся игольчатый пистолет с лихвой компенсирует это своей высокой скорострельностью и способностью подавлять большие площади.</AM_MechanoidGunRotaryNeedle.description>
+  <AM_MechanoidGunRotaryNeedle.tools.0.label>ствол</AM_MechanoidGunRotaryNeedle.tools.0.label>
+
+  <AM_Bullet_NeedleGun.label>игла</AM_Bullet_NeedleGun.label>
+
+
+  <!-- Mini needle gun -->
+
+  <AM_Gun_MiniNeedle.label>мини игломёт</AM_Gun_MiniNeedle.label>
+  <AM_Gun_MiniNeedle.description>Дальнобойное оружие, используемое артиллеронами. Стреляет с большой точностью на очень большие расстояния, но наносит очень мало урона.</AM_Gun_MiniNeedle.description>
+  <AM_Gun_MiniNeedle.tools.0.label>ствол</AM_Gun_MiniNeedle.tools.0.label>
+
+  <AM_Bullet_MiniNeedleGun.label>мини игла</AM_Bullet_MiniNeedleGun.label>
+
+
+  <!-- Mortar -->
+
+  <AM_MechanoidMortar.label>мортира</AM_MechanoidMortar.label>
+  <AM_MechanoidMortar.description>Небольшой миномет, установленный на механоиде, который стреляет разрывными снарядами.</AM_MechanoidMortar.description>
+  <AM_MechanoidMortar.tools.0.label>ствол</AM_MechanoidMortar.tools.0.label>
+
+  <AM_MortarCanister.label>разрывной снаряд</AM_MortarCanister.label>
+
+
+</LanguageData>

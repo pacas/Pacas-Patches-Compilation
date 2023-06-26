@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Daggersnout.label>даггернот</AM_Daggersnout.label>
+  <AM_Daggersnout.description>Даггернот очень быстрый, стиль боя похож на насекомых, один огромный клинок на голове. Они не так опасны, как другие механоиды ближнего боя, такие как Жнецы, но обычно они появляются в большем количестве.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt; Если включить режим "Не спавнить" с помощью настройки мода, они будут заменены на Жнецов.</AM_Daggersnout.description>
+  <AM_Daggersnout.tools.0.label>лицевой клинок</AM_Daggersnout.tools.0.label>
+  <AM_Daggersnout.tools.1.label>голова</AM_Daggersnout.tools.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Guttersnipe -->
+
+  <AM_Mech_Guttersnipe.label>гуттерснайп</AM_Mech_Guttersnipe.label>
+  <AM_Mech_Guttersnipe.labelPlural>гуттерснайперы</AM_Mech_Guttersnipe.labelPlural>
+  <AM_Mech_Guttersnipe.lifeStages.0.label>гуттерснайп</AM_Mech_Guttersnipe.lifeStages.0.label>
+  <AM_Mech_Guttersnipe.lifeStages.0.labelPlural>гуттерснайперы</AM_Mech_Guttersnipe.lifeStages.0.labelPlural>
+  <AM_Mech_Guttersnipe.lifeStages.1.label>гуттерснайпe</AM_Mech_Guttersnipe.lifeStages.1.label>
+  <AM_Mech_Guttersnipe.lifeStages.1.labelPlural>гуттерснайперы</AM_Mech_Guttersnipe.lifeStages.1.labelPlural>
+
+
+</LanguageData>

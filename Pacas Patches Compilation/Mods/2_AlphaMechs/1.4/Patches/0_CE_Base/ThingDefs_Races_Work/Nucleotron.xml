@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="AM_Mech_Nucleotron"]</xpath>
+                <value>
+                    <li Class="CombatExtended.RacePropertiesExtensionCE">
+                        <bodyShape>Vehicle</bodyShape>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AM_Mech_Nucleotron"]</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>lifters</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>2</power>
+                            <cooldownTime>2</cooldownTime>
+                            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                            <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AM_Mech_Nucleotron"]/statBases</xpath>
+                <value>
+                    <AimingAccuracy>1.0</AimingAccuracy>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.01</MeleeDodgeChance>
+                    <MeleeCritChance>0.01</MeleeCritChance>
+                    <MeleeParryChance>0.01</MeleeParryChance>
+                    <MaxHitPoints>100</MaxHitPoints>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

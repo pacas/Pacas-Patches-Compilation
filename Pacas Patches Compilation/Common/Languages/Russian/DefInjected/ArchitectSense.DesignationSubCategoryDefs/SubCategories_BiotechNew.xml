@@ -7,7 +7,13 @@
     <SubCategory_MechGestators.label>Гестаторы механоидов</SubCategory_MechGestators.label>
     <SubCategory_MechGestators.description>Создавайте новых механоидов с помощью этих устройств!</SubCategory_MechGestators.description>
     
-    <SubCategory_MechSubcores.label>Станции ядер механоидов</SubCategory_MechSubcores.label>
+    <SubCategory_MechSubcores.label>Станции субъядер</SubCategory_MechSubcores.label>
     <SubCategory_MechSubcores.description>Создавайте новые ядра для механоидов с помощью этих устройств!</SubCategory_MechSubcores.description>
+    
+    <SubCategory_GenesStations.label>Генетика</SubCategory_GenesStations.label>
+    <SubCategory_GenesStations.description>Устройства для модификации, хранения и извлечения генов.</SubCategory_GenesStations.description>
+    
+    <SubCategory_GemoStations.label>Торпор</SubCategory_GemoStations.label>
+    <SubCategory_GemoStations.description>Устройства для гемофагов.</SubCategory_GemoStations.description>
   
 </LanguageData>

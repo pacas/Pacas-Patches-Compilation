@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.PatchDef Name="MechRecipeCost_Regular" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>modifier1</li>
+            <li>modifier2</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>MechanoidRecipeDoc</docName>
+                <xpath>Defs/RecipeDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients</xpath>
+                <value>
+                    <ingredients Inherit="False">
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>USLDBar</li>
+                                </categories>
+                            </filter>
+                            <count>80</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Electronics</li>
+                                </thingDefs>
+                            </filter>
+                            <count>4</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ComponentIndustrial</li>
+                                </thingDefs>
+                            </filter>
+                            <count>6</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Mechanism</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SubcoreRegular</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                    <fixedIngredientFilter>
+                        <categories>
+                            <li>USLDBar</li>
+                        </categories>
+                        <thingDefs>
+                            <li>Electronics</li>
+                            <li>ComponentIndustrial</li>
+                            <li>Mechanism</li>
+                            <li>SubcoreRegular</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[1]/count</xpath>
+                <value>{modifier1}</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[2]/count</xpath>
+                <value>{modifier2}</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[3]/count</xpath>
+                <value>{modifier2}</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[4]/count</xpath>
+                <value>{modifier2}</value>
+                <operation>*</operation>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+
+    <XmlExtensions.PatchDef Name="MechRecipeCost_RegularOne" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>modifier</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>MechanoidRecipeDoc</docName>
+                <xpath>Defs/RecipeDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients</xpath>
+                <value>
+                    <ingredients Inherit="False">
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>USLDBar</li>
+                                </categories>
+                            </filter>
+                            <count>80</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Electronics</li>
+                                </thingDefs>
+                            </filter>
+                            <count>4</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ComponentIndustrial</li>
+                                </thingDefs>
+                            </filter>
+                            <count>6</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Mechanism</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SubcoreRegular</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                    <fixedIngredientFilter>
+                        <categories>
+                            <li>USLDBar</li>
+                        </categories>
+                        <thingDefs>
+                            <li>Electronics</li>
+                            <li>ComponentIndustrial</li>
+                            <li>Mechanism</li>
+                            <li>SubcoreRegular</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[1]/count</xpath>
+                <value>{modifier}</value>
+                <operation>*</operation>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="MechRecipeCost_RegularTwo" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>modifier</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>MechanoidRecipeDoc</docName>
+                <xpath>Defs/RecipeDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients</xpath>
+                <value>
+                    <ingredients Inherit="False">
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>USLDBar</li>
+                                </categories>
+                            </filter>
+                            <count>80</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Electronics</li>
+                                </thingDefs>
+                            </filter>
+                            <count>4</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>ComponentIndustrial</li>
+                                </thingDefs>
+                            </filter>
+                            <count>6</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Mechanism</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>SubcoreRegular</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                    <fixedIngredientFilter>
+                        <categories>
+                            <li>USLDBar</li>
+                        </categories>
+                        <thingDefs>
+                            <li>Electronics</li>
+                            <li>ComponentIndustrial</li>
+                            <li>Mechanism</li>
+                            <li>SubcoreRegular</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[2]/count</xpath>
+                <value>{modifier}</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[3]/count</xpath>
+                <value>{modifier}</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>MechanoidRecipeDoc</xmlDoc>
+                <xpath>MechanoidRecipeDoc/RecipeDef[defName="{def}"]/ingredients/li[4]/count</xpath>
+                <value>{modifier}</value>
+                <operation>*</operation>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+   
+</Defs>

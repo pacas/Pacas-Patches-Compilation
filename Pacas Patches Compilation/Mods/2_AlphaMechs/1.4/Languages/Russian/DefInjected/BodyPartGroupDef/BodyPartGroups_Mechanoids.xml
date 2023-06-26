@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_WingBlades.label>лопасти крыльев</AM_WingBlades.label>
+  <AM_WingBlades.labelShort>лопасть крыла</AM_WingBlades.labelShort>
+
+  <AM_MechaClaws.label>механические когти</AM_MechaClaws.label>
+  <AM_MechaClaws.labelShort>механический коготь</AM_MechaClaws.labelShort>
+
+  <AM_NoseBlade.label>лицевые клинки</AM_NoseBlade.label>
+  <AM_NoseBlade.labelShort>лицевой клинок</AM_NoseBlade.labelShort>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Lux -->
+
+  <AM_Mech_Lux.label>люкс</AM_Mech_Lux.label>
+  <AM_Mech_Lux.description>Люкс - это изящный и маневренный гуманоидный механоид, предназначенный для быстро меняющихся боевых операций. Оснащенный мощным тяжелым лазерным оружием, он способен наносить сокрушительный урон как наземным, так и воздушным целям с предельной точностью. Маневренность Люкса достигается ценой прочности, и он должен полагаться на свою скорость и уклонение, чтобы выжить на поле боя.</AM_Mech_Lux.description>
+  <AM_Mech_Lux.tools.0.label>левый кулак</AM_Mech_Lux.tools.0.label>
+  <AM_Mech_Lux.tools.1.label>правый кулак</AM_Mech_Lux.tools.1.label>
+  <AM_Mech_Lux.tools.2.label>голова</AM_Mech_Lux.tools.2.label>
+
+
+</LanguageData>

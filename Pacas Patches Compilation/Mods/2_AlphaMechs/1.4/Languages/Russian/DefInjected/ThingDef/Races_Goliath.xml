@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Goliath.label>голиаф</AM_Goliath.label>
+  <AM_Goliath.description>Голиаф - тяжелый боевой механоид с гуманоидным телосложением. Они быстрее сентипед и обычно вооружены тяжелым бластером или игломётом.\n\n&lt;color=#E5E54C&gt;Эффект геймплея:&lt;/color&gt; Быстрее сентипед, но быстрее погибают. Если будет за игрока, можно будет сменить оружие кнопкой. Если включить "Не спавнить" с помощью настройки мода, они будут заменены на пулемётных Сентипед.</AM_Goliath.description>
+  <AM_Goliath.tools.0.label>голова</AM_Goliath.tools.0.label>
+
+
+</LanguageData>

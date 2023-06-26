@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_WorkerStandardMechtech.label>лёгкие альфа мехи</AM_WorkerStandardMechtech.label>
+  <AM_WorkerStandardMechtech.description>Мехи-рабочие, не особо хорошы в бою.</AM_WorkerStandardMechtech.description>
+
+  <AM_StandardMechtech.label>стандартные альфа мехи</AM_StandardMechtech.label>
+  <AM_StandardMechtech.description>Технология для создания стандартных альфа мехов.</AM_StandardMechtech.description>
+
+  <AM_HeavyMechtech.label>тяжёлые альфа мехи</AM_HeavyMechtech.label>
+  <AM_HeavyMechtech.description>Технология для создания тяжёлых альфа мехов.</AM_HeavyMechtech.description>
+
+  <AM_UltraHeavyMechtech.label>ультратяжёлые альфа мехи</AM_UltraHeavyMechtech.label>
+  <AM_UltraHeavyMechtech.description>Продвинутая технология для создания ультратяжёлых альфа мехов.</AM_UltraHeavyMechtech.description>
+
+  <AM_MechanoidBeamcasting.label>улучшение пропускной способности</AM_MechanoidBeamcasting.label>
+  <AM_MechanoidBeamcasting.description>Исследовательская технология, использующая передовые методы манипулирования энергией для создания сфокусированных и направленных энергетических лучей, которые могут передаваться на огромные расстояния и позволяют вызывать грозного Инфернуса.</AM_MechanoidBeamcasting.description>
+
+  <AM_VoidLinkConnectivity.label>подключение к нуль-сети</AM_VoidLinkConnectivity.label>
+  <AM_VoidLinkConnectivity.description>Способ связи, который работает на базе ретрансляционных станций, расположенных по всей системе. Эти ретрансляционные станции, известные как нуль-станции, используют технологию подпространственной связи для передачи сообщений со скоростью, близкой к световой, что обеспечивает быструю связь на субзвездных расстояниях. Позволяет вызвать Королеву войны.</AM_VoidLinkConnectivity.description>
+
+  <AM_QuantumPulseMessaging.label>передачи квантовыми импульсами</AM_QuantumPulseMessaging.label>
+  <AM_QuantumPulseMessaging.description>Ультрасовременная система связи, которая использует принципы квантовой механики для передачи информации, используя нечто большее, чем просто двоичные состояния 0 и 1. Использование кубитов позволяет передавать сложные данные, инструкции или команды высокоэффективным и безопасным способом. Позволяет вызвать Апоптоза.</AM_QuantumPulseMessaging.description>
+
+  <AM_Cryptoharmonization.label>крипто-гармонизация</AM_Cryptoharmonization.label>
+  <AM_Cryptoharmonization.description>Технология, которая предполагает использование передовых криптографических алгоритмов для достижения идеальной синхронизации и координации между несколькими механоидными блоками или системами. Это обеспечивает бесперебойную коммуникацию, обмен информацией и координацию.</AM_Cryptoharmonization.description>
+
+
+</LanguageData>

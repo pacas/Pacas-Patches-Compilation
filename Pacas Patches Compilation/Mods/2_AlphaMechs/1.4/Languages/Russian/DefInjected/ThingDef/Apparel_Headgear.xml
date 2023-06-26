@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_MechCommanderHelm.label>шлем мех-мастера</AM_MechCommanderHelm.label>
+  <AM_MechCommanderHelm.description>Тяжёлый силовой шлем для механиторов чтобы защитить голову и улучшить пропускную способность.</AM_MechCommanderHelm.description>
+
+  <AM_MechBreakerHelm.label>шлем мех-разрушителя</AM_MechBreakerHelm.label>
+  <AM_MechBreakerHelm.description>Модифицированная версия шлема штурмовика, предназначенная для еще большего улучшения способностей механитора.</AM_MechBreakerHelm.description>
+
+
+</LanguageData>

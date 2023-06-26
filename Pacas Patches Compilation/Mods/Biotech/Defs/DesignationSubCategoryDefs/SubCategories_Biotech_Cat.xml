@@ -37,5 +37,35 @@
 		<designationCategory>Biotech</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
+    
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_GenesStations</defName>
+		<label>Genetics</label>
+		<description>Devices for gene modification, storage and extraction.</description>
+		<defNames>
+			<li>GeneAssembler</li>
+            <li>GeneExtractor</li>
+			<li>GeneProcessor</li>
+			<li>GeneBank</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+    
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_GemoStations</defName>
+		<label>Deathrest</label>
+		<description>Deathrest services.</description>
+		<defNames>
+			<li>DeathrestCasket</li>
+            <li>Hemopump</li>
+			<li>HemogenAmplifier</li>
+			<li>GlucosoidPump</li>
+			<li>PsychofluidPump</li>
+			<li>DeathrestAccelerator</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
 
 </Defs>	

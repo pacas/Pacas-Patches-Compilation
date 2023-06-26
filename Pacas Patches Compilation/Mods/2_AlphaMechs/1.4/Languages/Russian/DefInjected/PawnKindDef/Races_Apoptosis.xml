@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Apoptosis -->
+
+  <AM_Apoptosis.label>апоптоз</AM_Apoptosis.label>
+  <AM_Apoptosis.labelPlural>апоптозисы</AM_Apoptosis.labelPlural>
+  <AM_Apoptosis.lifeStages.0.label>апоптоз</AM_Apoptosis.lifeStages.0.label>
+  <AM_Apoptosis.lifeStages.0.labelPlural>апоптозисы</AM_Apoptosis.lifeStages.0.labelPlural>
+  <AM_Apoptosis.lifeStages.1.label>апоптоз</AM_Apoptosis.lifeStages.1.label>
+  <AM_Apoptosis.lifeStages.1.labelPlural>апоптозисы</AM_Apoptosis.lifeStages.1.labelPlural>
+
+</LanguageData>

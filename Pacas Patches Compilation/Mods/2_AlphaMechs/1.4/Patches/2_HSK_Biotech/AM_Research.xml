@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Ideology</li>
+                    </mods>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ResearchProjectDef[defName="NeuralSupercharger"]/researchViewY</xpath>
+                        <value>
+                            <researchViewY>68.00</researchViewY>
+                        </value>
+                    </match>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[@Name="AM_MechtechBase"]/techLevel</xpath>
+                </li>
+                <!--Vanilla-->
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Tab</patchName>
+                    <arguments>
+                        <li>BasicMechtech</li>
+                        <li>12</li>
+                        <li>71</li>
+                        <li>AM_AlphaMechs</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Tab</patchName>
+                    <arguments>
+                        <li>StandardMechtech</li>
+                        <li>15</li>
+                        <li>71</li>
+                        <li>AM_AlphaMechs</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Tab</patchName>
+                    <arguments>
+                        <li>HighMechtech</li>
+                        <li>19</li>
+                        <li>71</li>
+                        <li>AM_AlphaMechs</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Tab</patchName>
+                    <arguments>
+                        <li>UltraMechtech</li>
+                        <li>21</li>
+                        <li>71</li>
+                        <li>AM_AlphaMechs</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Tab</patchName>
+                    <arguments>
+                        <li>WastepackAtomizer</li>
+                        <li>15</li>
+                        <li>72</li>
+                        <li>AM_AlphaMechs</li>
+                    </arguments>
+                </li>
+                <!--New Mechs-->
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_WorkerStandardMechtech</li>
+                        <li>250</li>
+                        <li>13</li>
+                        <li>72</li>
+                        <li>Industrial</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_StandardMechtech</li>
+                        <li>1000</li>
+                        <li>16</li>
+                        <li>72</li>
+                        <li>Industrial</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_HeavyMechtech</li>
+                        <li>2000</li>
+                        <li>20</li>
+                        <li>72</li>
+                        <li>Spacer</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_UltraHeavyMechtech</li>
+                        <li>3000</li>
+                        <li>22</li>
+                        <li>72</li>
+                        <li>Ultra</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_Industrial</patchName>
+                    <arguments>
+                        <li>AM_WorkerStandardMechtech</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_Hitech</patchName>
+                    <arguments>
+                        <li>AM_StandardMechtech</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechMulti</patchName>
+                    <arguments>
+                        <li>AM_HeavyMechtech</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechLabStation</patchName>
+                    <arguments>
+                        <li>AM_UltraHeavyMechtech</li>
+                    </arguments>
+                </li>
+                <!--New Techs-->
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_MechanoidBeamcasting</li>
+                        <li>500</li>
+                        <li>22</li>
+                        <li>73</li>
+                        <li>Ultra</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_VoidLinkConnectivity</li>
+                        <li>750</li>
+                        <li>23</li>
+                        <li>73</li>
+                        <li>Ultra</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_QuantumPulseMessaging</li>
+                        <li>1000</li>
+                        <li>24</li>
+                        <li>73</li>
+                        <li>Ultra</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost_Techlevel</patchName>
+                    <arguments>
+                        <li>AM_Cryptoharmonization</li>
+                        <li>2000</li>
+                        <li>25</li>
+                        <li>73</li>
+                        <li>Archotech</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechLabStation</patchName>
+                    <arguments>
+                        <li>AM_MechanoidBeamcasting</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechLabStation</patchName>
+                    <arguments>
+                        <li>AM_VoidLinkConnectivity</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechLabStation</patchName>
+                    <arguments>
+                        <li>AM_QuantumPulseMessaging</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Tables_HitechLabStation</patchName>
+                    <arguments>
+                        <li>AM_Cryptoharmonization</li>
+                    </arguments>
+                </li>
+                <li Class="XmlExtensions.MergeDocument">
+                    <docName>ResearchDoc</docName>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

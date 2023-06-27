@@ -23,25 +23,8 @@
                         <attribute>ParentName</attribute>
                         <value>ResourceBase</value>
                     </li>
-                    <!-- Drugs-->
-                    <!--<li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/tools</xpath>
-                    </li>-->
-                    <li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/comps/li[3]</xpath>
-                    </li>
-                    <li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/comps/li[2]</xpath>
-                    </li>
-                    <li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/equippedAngleOffset</xpath>
-                    </li>
-                    <li Class="PatchOperationRemove">
-                        <xpath>Defs/ThingDef[@Name="LiquorCloset"]/equipmentType</xpath>
-                    </li>
                 </operations>
             </Operation>
         </caseFalse>
     </Operation>
-    
 </Patch>

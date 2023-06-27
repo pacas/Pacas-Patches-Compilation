@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<caseTrue>
+            <Operation Class="XmlExtensions.ForEach">
+                <xpath>Defs/SeedsPlease.SeedDef</xpath>
+                <storeIn>DEF</storeIn>
+                <apply>
+                    <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+                        <xpath>{DEF}</xpath>
+                        <value>
+                            <statBases>
+                                <MarketValue>3</MarketValue>
+                            </statBases>
+                        </value>
+                    </Operation>
+                </apply>
+            </Operation>
+		</caseTrue>
+	</Operation>
+</Patch>

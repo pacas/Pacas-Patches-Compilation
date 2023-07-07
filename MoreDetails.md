@@ -17,7 +17,7 @@ Completely patched and adapted golems and their improvements;
 Fixed seeds for the SeedsPlease mod;
 A ton of fixes for the localization - edits, additional translations and fixes.
 
-**[Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)**<br>
+**[Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158)**<br>
 Reworking research (for Biotech);
 Subcategories intgration;
 CE danger points rebalance;

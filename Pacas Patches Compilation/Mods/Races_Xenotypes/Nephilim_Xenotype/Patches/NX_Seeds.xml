@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>SeedsPlease</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <SeedsPlease.SeedDef ParentName="SeedBase">
+                            <defName>SeedHolyLilly</defName>
+                            <label>Hollilly seeds</label>
+                            <sources>
+                                <li>Plant_HolyLilly</li>
+                            </sources>
+                            <graphicData>
+                                <texPath>Things/Item/Seeds/HolyLilly</texPath>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>28</MarketValue>
+                            </statBases>
+                        </SeedsPlease.SeedDef>
+                        <RecipeDef ParentName="ExtractSeed">
+                            <defName>ExtractSeedHolyLilly</defName>
+                            <label>extract hollilly seeds</label>
+                            <description>Extract seeds from hollilly petals.</description>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>HolyPowder</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>HolyPowder</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <SeedHolyLilly>2</SeedHolyLilly>
+                            </products>
+                            <researchPrerequisite>Drug_plants_A2</researchPrerequisite>
+                        </RecipeDef>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -71,7 +71,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/PawnKindDef[defName="AM_Starfire"]/combatPower</xpath>
 						<value>
-							<combatPower>750</combatPower>
+							<combatPower>950</combatPower>
 						</value>
 					</li>
 

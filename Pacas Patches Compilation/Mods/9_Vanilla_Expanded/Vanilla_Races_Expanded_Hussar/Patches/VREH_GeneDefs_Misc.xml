@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/GeneDef[defName="VREH_BulletproofSkin"]</xpath>
+                <value>
+                    <statOffsets>
+                        <ArmorRating_Sharp>5.0</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>5.0</ArmorRating_Blunt>
+                    </statOffsets>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

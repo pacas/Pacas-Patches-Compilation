@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="PatchOperationFindMod">
-
-				<mods>
-					<li>Combat Extended</li>
-				</mods>
-
-				<match Class="PatchOperationSequence">
-					<operations>
-
-						<li Class="PatchOperationConditional">
-							<xpath>*/ThingDef[@Name="BasePawn"]/comps</xpath>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Combat Extended</li>
+                </mods>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationConditional">
+                            <xpath>Defs/ThingDef[@Name="BasePawn"]/comps</xpath>
                             <nomatch Class="PatchOperationAdd">
-                                <xpath>*/ThingDef[@Name="BasePawn"]</xpath>
+                                <xpath>Defs/ThingDef[@Name="BasePawn"]</xpath>
                                 <value>
                                     <comps>
-                                        <li Class="CombatExtended.CompProperties_Suppressable" />
+                                        <li Class="CombatExtended.CompProperties_Suppressable"/>
                                         <li Class="CombatExtended.CompProperties_Inventory" />
+                                        <li>
+                                            <compClass>CombatExtended.CompAmmoGiver</compClass>
+                                        </li>
                                         <li>
                                             <compClass>CombatExtended.CompPawnGizmo</compClass>
                                         </li>
@@ -26,35 +26,63 @@
                                 </value>
                             </nomatch>
                             <match Class="PatchOperationAdd">
-                                <xpath>*/ThingDef[@Name="BasePawn"]/comps</xpath>
+                                <xpath>Defs/ThingDef[@Name="BasePawn"]/comps</xpath>
                                 <value>
-                                    <li Class="CombatExtended.CompProperties_Suppressable" />
+                                    <li Class="CombatExtended.CompProperties_Suppressable"/>
                                     <li Class="CombatExtended.CompProperties_Inventory" />
+                                    <li>
+                                        <compClass>CombatExtended.CompAmmoGiver</compClass>
+                                    </li>
                                     <li>
                                         <compClass>CombatExtended.CompPawnGizmo</compClass>
                                     </li>
                                 </value>
                             </match>
-						</li>
-                        
+                        </li>
+                        <li Class="PatchOperationConditional">
+                            <xpath>Defs/ThingDef[@Name="AnimalThingBase"]/comps</xpath>
+                            <nomatch Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[@Name="AnimalThingBase"]</xpath>
+                                <value>
+                                    <comps Inherit="False">
+                                        <li>
+                                            <compClass>CompAttachBase</compClass>
+                                        </li>
+                                        <li Class="CombatExtended.CompProperties_Inventory" />
+                                    </comps>
+                                </value>
+                            </nomatch>
+                            <match Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[@Name="BasePawn"]/comps</xpath>
+                                <value>
+                                    <li Class="CombatExtended.CompProperties_Inventory" />
+                                </value>
+                            </match>
+                        </li>
                         <li Class="PatchOperationAddModExtension">
-							<xpath>*/ThingDef[@Name="BasePawn"]</xpath>
-							<value>
-								<li Class="CombatExtended.RacePropertiesExtensionCE">
-									<bodyShape>Humanoid</bodyShape>
-								</li>
-							</value>
-						</li>
-                        
+                            <xpath>Defs/ThingDef[@Name="BasePawn"]</xpath>
+                            <value>
+                                <li Class="CombatExtended.RacePropertiesExtensionCE">
+                                    <bodyShape>Humanoid</bodyShape>
+                                </li>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[@Name="AnimalThingBase"]</xpath>
+                            <value>
+                                <modExtensions Inherit="False">
+                                </modExtensions>
+                            </value>
+                        </li>
                         <!--<li Class="PatchOperationReplace">
                             <xpath>Defs/ThingDef[@Name="BasePawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
                             <value>
                                 <li>CombatExtended.ITab_Inventory</li>
                             </value>
                         </li>-->
-					</operations>
-				</match>
-			</li>
-		</operations>
-	</Operation>
+                    </operations>
+                </match>
+            </li>
+        </operations>
+    </Operation>
 </Patch>

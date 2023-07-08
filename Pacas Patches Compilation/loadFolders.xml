@@ -5,32 +5,57 @@
 		<li>1.3</li>
 		<li>Common</li>
 		<li>Multiversion_Patches</li>
+        <!-- Simple mods -->
 		<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude/1.3</li>
+        <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
-        <li IfModActive="kompadt.warhammer.dryad">Mods/Warhammer_Dryads</li>
+        <li IfModActive="kikohi.jewelry">Mods/Jewelry</li>
+        <!-- Races mods -->
+        <li IfModActive="yanzihko.sfp">Mods/Races_Xenotypes/Sylveon</li>
+        <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
+        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
+        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
+        <li IfModActive="kompadt.warhammer.dryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <!-- VE mods -->
+        <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
 	</v1.3>
     <v1.4>
 		<li>/</li>
 		<li>1.4</li>
 		<li>Common</li>
 		<li>Multiversion_Patches</li>
-        <!--Order semi-important mods-->
+        <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
+        <!-- Order semi-important mods -->
         <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>        
-        <!--Simple mods-->
-        <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
+        <!-- Simple mods -->
+        <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>
+        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
+        <li IfModActive="kikohi.jewelry">Mods/Jewelry</li>
         <li IfModActive="rabbit.stuncastervpe2">Mods/EoD_Stuncaster</li>
-        <li IfModActive="mlie.warhammerishdryad">Mods/Warhammer_Dryads</li> 
+        <!-- Races mods -->
+        <li IfModActive="yanzihko.sfp">Mods/Races_Xenotypes/Sylveon</li>
+        <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
+        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
+        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype</li>
+        <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <!-- VE mods -->
+        <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
+        <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
+        <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
+        <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
+        <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
 	</v1.4>
 </loadFolders>

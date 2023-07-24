@@ -42,6 +42,9 @@ Full convertion with patched MSE2 support.
 **[Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898)**<br>
 Dominant gene for Asari (if enabled) and Phytokins from VRE (if installed).
 
+**[Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585)**<br>
+Patch for the mod plant and drug for HSK researches + seeds.
+
 **[Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049)**<br>
 Patch for both [Tropical Rainforest](https://steamcommunity.com/sharedfiles/filedetails/?id=2794752505) and [Temperate Forest](https://steamcommunity.com/sharedfiles/filedetails/?id=2591791695). Don't forget to install [Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049).
   Changes:

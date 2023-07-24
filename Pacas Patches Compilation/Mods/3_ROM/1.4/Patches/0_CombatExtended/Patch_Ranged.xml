@@ -612,7 +612,7 @@
 					
                         <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseArrowProjectile">
                             <defName>Projectile_GreatArrowRoMThrumbo_Venom</defName>
-                            <label>great arrow (poison)</label>
+                            <label>great arrow (venom)</label>
                             <graphicData>
                                 <texPath>Things/Projectile/Arrows/Arrow_Venom</texPath>
                                 <graphicClass>Graphic_Single</graphicClass>
@@ -627,7 +627,7 @@
                                 <armorPenetrationSharp>2.9</armorPenetrationSharp>
                                 <armorPenetrationBlunt>4.84</armorPenetrationBlunt>
                                 <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
-                                <preExplosionSpawnThingDef>Ammo_Arrow_Poison</preExplosionSpawnThingDef>
+                                <preExplosionSpawnThingDef>Ammo_Arrow_Venom</preExplosionSpawnThingDef>
                                 <secondaryDamage>
                                     <li>
                                         <def>ArrowHighVelocity</def>

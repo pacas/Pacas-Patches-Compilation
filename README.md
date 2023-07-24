@@ -27,6 +27,7 @@ This repository contains a special mod that patches the mods described below wit
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |
 | - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark: | Ignore 2 duplicated errors | RU |
+| - | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | RU |
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :white_check_mark: | --- | RU |
 | - | [RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530) | :x: | 1.3 only for now | --- |

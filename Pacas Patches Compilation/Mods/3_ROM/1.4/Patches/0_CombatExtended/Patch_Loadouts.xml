@@ -26,7 +26,7 @@
 						  </li>
 						  <li>
 							<choiceChance>25</choiceChance>
-							<thingDef>Ammo_Arrow_Poison</thingDef>
+							<thingDef>Ammo_Arrow_Venom</thingDef>
 							<countRange>
 							  <min>20</min>
 							  <max>60</max>

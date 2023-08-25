@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ArchitectSense.DesignationSubCategoryDef>
+        <defName>SubCategory_MiningCoProjectors</defName>
+        <label>Projectors</label>
+        <description>Blind your enemies with style!</description>
+        <defNames>
+            <li>ProjectorTower</li>
+            <li>ProjectorTurret</li>
+        </defNames>
+        <designationCategory>Security</designationCategory>
+        <debug>false</debug>
+    </ArchitectSense.DesignationSubCategoryDef>
+</Defs>	

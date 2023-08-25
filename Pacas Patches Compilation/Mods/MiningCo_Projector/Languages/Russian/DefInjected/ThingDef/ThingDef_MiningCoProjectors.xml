@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <ProjectorTurret.label>Прожектор</ProjectorTurret.label>
+    <ProjectorTurret.description>Прожектор, установленный на шасси турели. Может автоматически наводиться на ближайшего противника. Может быть построен под крышей.</ProjectorTurret.description>
+    
+    <ProjectorTower.label>Прожекторная башня</ProjectorTower.label>
+    <ProjectorTower.description>Проектор, установленный на высокой металлической башне. Может автоматически наводиться на ближайшего противника даже через стены. Не может быть построен под крышей.</ProjectorTower.description>
+  
+</LanguageData>

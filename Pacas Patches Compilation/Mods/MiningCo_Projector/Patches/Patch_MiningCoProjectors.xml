@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ResearchProjectDef[defName="ResearchProjector"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ResearchTabDef[defName="MiningCo"]</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ProjectorTower" or defName="ProjectorTurret"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>Light_C5</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ProjectorTower" or defName="ProjectorTurret"]/constructionSkillPrerequisite</xpath>
+                <value>
+                    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+                </value>
+            </li>
+                
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ProjectorTower" or defName="ProjectorTurret"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>800</basePowerConsumption>
+                </value>
+            </li>
+                
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ProjectorTower"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>60</costStuffCount>
+                    <costList>
+                        <Plastic>20</Plastic>
+                        <ComponentIndustrial>7</ComponentIndustrial>
+                        <ElectronicComponents>7</ElectronicComponents>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="ProjectorTurret"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>50</costStuffCount>
+                    <costList>
+                        <Plastic>15</Plastic>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <ElectronicComponents>10</ElectronicComponents>
+                    </costList>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

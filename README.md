@@ -21,12 +21,13 @@ This repository contains a special mod that patches the mods described below wit
 | - | [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | :white_check_mark: | --- | RU |
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- | --- |
 | - | [Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049) | :white_check_mark: | --- | RU |
-| - | [Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898) | :white_check_mark: | --- | --- |
+| :star: | [Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898) | :white_check_mark: | --- | --- |
 | - | [Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2952773198) | :white_check_mark: | --- | RU |
 | - | [EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490) | :white_check_mark: | --- | RU |
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |
 | - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark: | Ignore 2 duplicated errors | RU |
+| - | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | :white_check_mark: | ---- | RU |
 | - | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | RU |
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :white_check_mark: | --- | RU |

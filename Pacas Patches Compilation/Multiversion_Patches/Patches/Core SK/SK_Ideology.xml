@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ideology</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/StatDef[defName="PruningSpeed"]/statFactors</xpath>
+                    <value>
+                        <statFactors>
+                            <li>PlantWorkSpeed</li>
+                        </statFactors>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

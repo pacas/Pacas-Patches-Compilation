@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hemogen Extractor</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_GemoStations"]/defNames</xpath>
+                    <value>
+                        <li>HemogenExtractor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="HemogenExtractor"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>50</costStuffCount>
+                        <costList>
+                            <ComponentIndustrial>2</ComponentIndustrial>
+                            <ElectronicComponents>3</ElectronicComponents>
+                            <Mechanism>3</Mechanism>
+                            <Glass>50</Glass>
+                            <Electronics>2</Electronics>
+                            <Plastic>5</Plastic>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="HemogenExtractor"]/researchPrerequisites</xpath>
+                    <value>
+                        <li>Electronics_C2</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

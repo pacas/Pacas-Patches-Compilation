@@ -80,6 +80,13 @@
                                 <compClass>CombatExtended.CompPawnGizmo</compClass>
                             </li>
                             <li Class="CombatExtended.CompProperties_Inventory" />
+                            <li>
+                                <compClass>CombatExtended.CompAmmoGiver</compClass>
+                            </li>
+                            <li Class="CombatExtended.CompProperties_MechAmmo">
+                                <gizmoIconSetMagCount>UI/Buttons/SetMagCount</gizmoIconSetMagCount>
+                                <gizmoIconTakeAmmoNow>UI/Buttons/TakeAmmoNow</gizmoIconTakeAmmoNow>
+                            </li>
                             <li Class="CompProperties_CanBeDormant" />
                             <li Class="CompProperties_WakeUpDormant">
                                 <wakeUpOnDamage>true</wakeUpOnDamage>
@@ -93,9 +100,6 @@
                                 <feralCascadeRadialDistance>25</feralCascadeRadialDistance>
                             </li>
                             <li MayRequire="Ludeon.Rimworld.Biotech" Class="CompProperties_MechRepairable" />
-                            <li>
-                                <compClass>CombatExtended.CompAmmoGiver</compClass>
-                            </li>
                         </comps>
                     </ThingDef>
                     <ThingDef ParentName="AM_MechanoidThingBase" Name="AM_MechanoidWalkerThingBase" Abstract="True">

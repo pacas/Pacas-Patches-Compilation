@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Door Lockdown</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="SK_DoorBase"]/comps</xpath>
+			<value>
+				<li>
+					<compClass>DoorLockdown.DoorButtonAddToLockdown</compClass>
+				</li>
+				<li>
+					<compClass>DoorLockdown.DoorButtonStartLockdown</compClass>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

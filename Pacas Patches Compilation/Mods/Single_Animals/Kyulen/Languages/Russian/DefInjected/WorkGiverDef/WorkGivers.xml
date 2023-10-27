@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Firefighter for Animals -->
+
+  <FightFiresNinetail.label>тушение пожаров</FightFiresNinetail.label>
+  <FightFiresNinetail.verb>тушить</FightFiresNinetail.verb>
+  <FightFiresNinetail.gerund>тушит</FightFiresNinetail.gerund>
+
+
+  <!-- DoctorFeedHumanlikes for Animals -->
+
+  <NinetailDoctorFeedHumanlikes.label>кормить пациентов</NinetailDoctorFeedHumanlikes.label>
+  <NinetailDoctorFeedHumanlikes.verb>кормить</NinetailDoctorFeedHumanlikes.verb>
+  <NinetailDoctorFeedHumanlikes.gerund>кормит</NinetailDoctorFeedHumanlikes.gerund>
+
+
+  <!-- FeedPrisoner for Animals -->
+
+  <NinetailFeedPrisoner.label>кормить заключенных</NinetailFeedPrisoner.label>
+  <NinetailFeedPrisoner.verb>кормить</NinetailFeedPrisoner.verb>
+  <NinetailFeedPrisoner.gerund>кормит</NinetailFeedPrisoner.gerund>
+
+
+  <!-- DeliverFoodToPrisoner for Animals -->
+
+  <NinetailDeliverFoodToPrisoner.label>доставлять еду заключенным</NinetailDeliverFoodToPrisoner.label>
+  <NinetailDeliverFoodToPrisoner.verb>доставлять еду для</NinetailDeliverFoodToPrisoner.verb>
+  <NinetailDeliverFoodToPrisoner.gerund>доставлять еду для</NinetailDeliverFoodToPrisoner.gerund>
+
+
+  <!-- Hunting for Animals -->
+
+  <NinetailHunterHunt.label>охотиться</NinetailHunterHunt.label>
+  <NinetailHunterHunt.verb>охотиться</NinetailHunterHunt.verb>
+  <NinetailHunterHunt.gerund>охотится</NinetailHunterHunt.gerund>
+
+
+</LanguageData>

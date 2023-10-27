@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Animal Beat Fire -->
+
+  <Job_AnimalBeatFire.reportString>тушение пожара</Job_AnimalBeatFire.reportString>
+
+
+  <!-- Medical -->
+
+  <AnimalFeedPatient.reportString>Кормить TargetB TargetA.</AnimalFeedPatient.reportString>
+
+
+</LanguageData>

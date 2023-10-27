@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoxFlame.label>Пламя</FoxFlame.label>
+  <FoxFlame.deathMessage>{0} был сожжен.</FoxFlame.deathMessage>
+
+  <FoxFlamewt.label>Пламя</FoxFlamewt.label>
+  <FoxFlamewt.deathMessage>{0} был сожжен.</FoxFlamewt.deathMessage>
+
+
+</LanguageData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <defName>PPC_Settings</defName>
+        <modId>PPC.Pacas.Settings</modId>
+        <label>Pacas Patches Compilation</label>
+        <settings>
+            <li Class="XmlExtensions.Setting.TabView">
+                <tabs>
+                    <li>
+                        <label>HSK</label>
+                        <settings>
+                                <li Class="XmlExtensions.Setting.Gap"/>
+                                <li Class="XmlExtensions.Setting.Text">
+                                    <text>HSK Game Changes</text>
+                                    <tKey>Game_Changes</tKey>
+                                    <font>Medium</font>
+                                    <anchor>Middle</anchor>
+                                </li>
+                                <li Class="XmlExtensions.Setting.GapLine"/>
+                                <li Class="XmlExtensions.Setting.Checkbox">
+                                    <key>Updated_Reinforced_Wire</key>
+                                    <label>Useful reinforced wire</label>
+                                    <tKey>Updated_Reinforced_Wire</tKey>
+                                    <defaultValue>true</defaultValue>
+                                    <tooltip>Modifies the reinforced wire recipe and its stats</tooltip>
+                                    <tKeyTip>Updated_Reinforced_Wire_Tooltip</tKeyTip>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Gap">
+                                    <spacing>12</spacing>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Checkbox">
+                                    <key>More_Movable_Things</key>
+                                    <label>More Movable Things</label>
+                                    <tKey>More_Movable_Things</tKey>
+                                    <defaultValue>true</defaultValue>
+                                    <tooltip>More variuos buildings now can be minified and moved</tooltip>
+                                    <tKeyTip>More_Movable_Things_Tooltip</tKeyTip>
+                                </li>
+                        </settings>
+                    </li>
+                    <li>
+                        <label>Textures</label>
+                        <settings>
+                                <li Class="XmlExtensions.Setting.Gap"/>
+                                <li Class="XmlExtensions.Setting.Text">
+                                    <text>Retextures and Visual Fixes</text>
+                                    <tKey>Texture_Changes</tKey>
+                                    <font>Medium</font>
+                                    <anchor>Middle</anchor>
+                                </li>
+                                <li Class="XmlExtensions.Setting.GapLine"/>
+                                <li Class="XmlExtensions.Setting.Checkbox">
+                                    <key>Updated_Wires_Textures</key>
+                                    <label>New wire textures</label>
+                                    <tKey>Updated_Wires_Textures</tKey>
+                                    <defaultValue>true</defaultValue>
+                                    <tooltip>Now all wires (except invisible) will have new awesome textures</tooltip>
+                                    <tKeyTip>Updated_Wires_Textures_Tooltip</tKeyTip>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Text">
+                                    <text>Based on «Power Conduit Retexture»</text>
+                                    <tKey>Based_Power</tKey>
+                                </li>
+                        </settings>
+                    </li>
+                </tabs>
+            </li>
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.ResetSettings"/>
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>All options require restart to apply</text>
+                <tKey>Restart_Required</tKey>
+            </li>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</ARA_Combat_RangedFire.rulePack.rulesStrings.0>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite] [INITIATOR_projectile_label] [shot_a] [burst] at [RECIPIENT_definite].</ARA_Combat_RangedFire.rulePack.rulesStrings.1>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.2>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [INITIATOR_projectile_label].</ARA_Combat_RangedFire.rulePack.rulesStrings.2>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.3>shot_a(p=2)->[verb_shot] a</ARA_Combat_RangedFire.rulePack.rulesStrings.3>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.4>shot_a->[skill_Adv] [verb_shot] a</ARA_Combat_RangedFire.rulePack.rulesStrings.4>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.5>shotat->shot [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.5>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.6>shotat->[skill_Adv] shot [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.6>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.7>shotat(p=0.5)->tried to shoot [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.7>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.8>shotat(p=0.3)->took a shot at</ARA_Combat_RangedFire.rulePack.rulesStrings.8>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.9>shotat(p=0.2)->[skill_Adv] took a shot at</ARA_Combat_RangedFire.rulePack.rulesStrings.9>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.10>shotat->fired [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.10>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.11>shotat->fired [aburst] [skill_Adv] at</ARA_Combat_RangedFire.rulePack.rulesStrings.11>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.12>shotat(p=0.5)->aimed and fired [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.12>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.13>shotat(p=0.5)->[skill_Adv] aimed and fired [aburst] at</ARA_Combat_RangedFire.rulePack.rulesStrings.13>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.14>shotat(p=0.3)->opened fire at</ARA_Combat_RangedFire.rulePack.rulesStrings.14>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.15>aburst-></ARA_Combat_RangedFire.rulePack.rulesStrings.15>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.16>aburst(BURST==True,p=3)->a burst</ARA_Combat_RangedFire.rulePack.rulesStrings.16>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.17>burst-></ARA_Combat_RangedFire.rulePack.rulesStrings.17>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.18>burst(BURST==True,p=3)->burst</ARA_Combat_RangedFire.rulePack.rulesStrings.18>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.19>verb_shot->shot</ARA_Combat_RangedFire.rulePack.rulesStrings.19>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.20>verb_shot->fired</ARA_Combat_RangedFire.rulePack.rulesStrings.20>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.21>verb_shot(p=0.2)->discharged</ARA_Combat_RangedFire.rulePack.rulesStrings.21>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.22>skill_Adv->incompetently</ARA_Combat_RangedFire.rulePack.rulesStrings.22>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.23>skill_Adv->ineptly</ARA_Combat_RangedFire.rulePack.rulesStrings.23>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.24>skill_Adv->wildly</ARA_Combat_RangedFire.rulePack.rulesStrings.24>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.25>skill_Adv->randomly</ARA_Combat_RangedFire.rulePack.rulesStrings.25>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.26>skill_Adv->flailingly</ARA_Combat_RangedFire.rulePack.rulesStrings.26>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.27>skill_Adv->awkwardly</ARA_Combat_RangedFire.rulePack.rulesStrings.27>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.28>skill_Adv->clumsily</ARA_Combat_RangedFire.rulePack.rulesStrings.28>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.29>skill_Adv->fearfully</ARA_Combat_RangedFire.rulePack.rulesStrings.29>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.30>skill_Adv->falteringly</ARA_Combat_RangedFire.rulePack.rulesStrings.30>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.31>skill_Adv->foolishly</ARA_Combat_RangedFire.rulePack.rulesStrings.31>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.32>skill_Adv->hesitantly</ARA_Combat_RangedFire.rulePack.rulesStrings.32>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.33>skill_Adv->reluctantly</ARA_Combat_RangedFire.rulePack.rulesStrings.33>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.34>skill_Adv->slowly</ARA_Combat_RangedFire.rulePack.rulesStrings.34>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.35>skill_Adv->tentatively</ARA_Combat_RangedFire.rulePack.rulesStrings.35>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.36>skill_Adv->inexpertly</ARA_Combat_RangedFire.rulePack.rulesStrings.36>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.37>skill_Adv->amateurishly</ARA_Combat_RangedFire.rulePack.rulesStrings.37>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.38>skill_Adv->timidly</ARA_Combat_RangedFire.rulePack.rulesStrings.38>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.39>skill_Adv->enthusiastically</ARA_Combat_RangedFire.rulePack.rulesStrings.39>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.40>skill_Adv->proficiently</ARA_Combat_RangedFire.rulePack.rulesStrings.40>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.41>skill_Adv->competently</ARA_Combat_RangedFire.rulePack.rulesStrings.41>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.42>skill_Adv->professionally</ARA_Combat_RangedFire.rulePack.rulesStrings.42>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.43>skill_Adv->deftly</ARA_Combat_RangedFire.rulePack.rulesStrings.43>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.44>skill_Adv->aptly</ARA_Combat_RangedFire.rulePack.rulesStrings.44>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.45>skill_Adv->cleverly</ARA_Combat_RangedFire.rulePack.rulesStrings.45>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.46>skill_Adv->dexterously</ARA_Combat_RangedFire.rulePack.rulesStrings.46>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.47>skill_Adv->skillfully</ARA_Combat_RangedFire.rulePack.rulesStrings.47>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.48>skill_Adv->adeptly</ARA_Combat_RangedFire.rulePack.rulesStrings.48>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.49>skill_Adv->slickly</ARA_Combat_RangedFire.rulePack.rulesStrings.49>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.50>skill_Adv->expertly</ARA_Combat_RangedFire.rulePack.rulesStrings.50>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.51>skill_Adv->precisely</ARA_Combat_RangedFire.rulePack.rulesStrings.51>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.52>skill_Adv->masterfully</ARA_Combat_RangedFire.rulePack.rulesStrings.52>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.53>skill_Adv->artistically</ARA_Combat_RangedFire.rulePack.rulesStrings.53>
+  <ARA_Combat_RangedFire.rulePack.rulesStrings.54>skill_Adv->gracefully</ARA_Combat_RangedFire.rulePack.rulesStrings.54>
+
+
+  <!-- <RulePackDef>
+    <defName>Combat_RangedFire_Thrown</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [INITIATOR_projectile_label] at [RECIPIENT_definite].</li>
+        <li>r_logentry->[INITIATOR_definite] [threw_a] [INITIATOR_projectile_label] at [RECIPIENT_definite].</li>
+        <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [INITIATOR_projectile_label].</li>
+        <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [INITIATOR_projectile_label].</li>
+
+        <li>threw_a->[adverb_threw] [verb_threw] a</li>
+        <li>threw_a(p=2)->[verb_threw] a</li>
+
+        <li>threw(p=2)->[verb_threw]</li>
+        <li>threw->[adverb_threw] [verb_threw]</li>
+        
+        <li>verb_threw->threw</li>
+        <li>verb_threw->flung</li>
+        <li>verb_threw->launched</li>
+
+        <li>adverb_threw->carefully</li>
+        <li>adverb_threw->quickly</li>
+        <li>adverb_threw->precisely</li>
+        <li>adverb_threw->deliberately</li>
+        <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
+        <li>adverb_threw->precisely</li>
+        <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
+
+        <li>adjective_threw->careful</li>
+        <li>adjective_threw->quick</li>
+        <li>adjective_threw->deliberate</li>
+        <li>adjective_threw->precise</li>
+        <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef> -->
+
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite]'s [INITIATOR_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.0>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite]'s [INITIATOR_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [to] [destroyed_suffix].</ARA_Combat_RangedDamage.rulePack.rulesStrings.1>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.2>r_logentry(p=2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite] and [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.2>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.3>r_logentry(p=2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.3>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.4>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] by [INITIATOR_definite]'s [INITIATOR_projectile_label].</ARA_Combat_RangedDamage.rulePack.rulesStrings.4>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.5>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] into [destroyed_suffix] by [INITIATOR_definite]'s [INITIATOR_projectile_label].</ARA_Combat_RangedDamage.rulePack.rulesStrings.5>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.6>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.6>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.7>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.7>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.8>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite]'s [damaged_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.8>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.9>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [INITIATOR_projectile_label].</ARA_Combat_RangedDamage.rulePack.rulesStrings.9>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.10>r_logentry(p=3)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.10>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.11>r_logentry(p=6)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets].</ARA_Combat_RangedDamage.rulePack.rulesStrings.11>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.12>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [INITIATOR_projectile_label].</ARA_Combat_RangedDamage.rulePack.rulesStrings.12>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.13>r_logentry(p=0.2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] hit [RECIPIENT_definite].</ARA_Combat_RangedDamage.rulePack.rulesStrings.13>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.14>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [INITIATOR_projectile_label].</ARA_Combat_RangedDamage.rulePack.rulesStrings.14>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.15>r_logentry(p=0.4)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite].</ARA_Combat_RangedDamage.rulePack.rulesStrings.15>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.16>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [INITIATOR_projectile_label] intended for [ORIGINALTARGET_definite].</ARA_Combat_RangedDamage.rulePack.rulesStrings.16>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.17>INITIATOR_projectile_label(p=0.05)->shot</ARA_Combat_RangedDamage.rulePack.rulesStrings.17>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.18>destroyed_past->shattered</ARA_Combat_RangedDamage.rulePack.rulesStrings.18>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.19>destroyed_past->crushed</ARA_Combat_RangedDamage.rulePack.rulesStrings.19>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.20>destroyed_past->obliterated</ARA_Combat_RangedDamage.rulePack.rulesStrings.20>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.21>destroyed_past->annihilated</ARA_Combat_RangedDamage.rulePack.rulesStrings.21>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.22>destroyed_past->pierced</ARA_Combat_RangedDamage.rulePack.rulesStrings.22>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.23>destroyed_past->perforated</ARA_Combat_RangedDamage.rulePack.rulesStrings.23>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.24>destroyed_past->punctured</ARA_Combat_RangedDamage.rulePack.rulesStrings.24>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.25>destroyed_present->shattering</ARA_Combat_RangedDamage.rulePack.rulesStrings.25>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.26>destroyed_present->crushing</ARA_Combat_RangedDamage.rulePack.rulesStrings.26>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.27>destroyed_present->obliterating</ARA_Combat_RangedDamage.rulePack.rulesStrings.27>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.28>destroyed_present->annihilating</ARA_Combat_RangedDamage.rulePack.rulesStrings.28>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.29>destroyed_present->piercing</ARA_Combat_RangedDamage.rulePack.rulesStrings.29>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.30>destroyed_present->perforating</ARA_Combat_RangedDamage.rulePack.rulesStrings.30>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.31>destroyed_present->puncturing</ARA_Combat_RangedDamage.rulePack.rulesStrings.31>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.32>destroyed_suffix->pieces</ARA_Combat_RangedDamage.rulePack.rulesStrings.32>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.33>destroyed_suffix->bits</ARA_Combat_RangedDamage.rulePack.rulesStrings.33>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.34>destroyed_suffix->a fine mist</ARA_Combat_RangedDamage.rulePack.rulesStrings.34>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.35>destroyed_suffix->fragments</ARA_Combat_RangedDamage.rulePack.rulesStrings.35>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.36>destroyed_suffix(p=0.5)->a holey mess</ARA_Combat_RangedDamage.rulePack.rulesStrings.36>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.37>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</ARA_Combat_RangedDamage.rulePack.rulesStrings.37>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.38>damaged_past->wounded</ARA_Combat_RangedDamage.rulePack.rulesStrings.38>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.39>damaged_past->injured</ARA_Combat_RangedDamage.rulePack.rulesStrings.39>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.40>damaged_past->pierced</ARA_Combat_RangedDamage.rulePack.rulesStrings.40>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.41>damaged_past->damaged</ARA_Combat_RangedDamage.rulePack.rulesStrings.41>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.42>damaged_past->shot</ARA_Combat_RangedDamage.rulePack.rulesStrings.42>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.43>damaged_present->wounding</ARA_Combat_RangedDamage.rulePack.rulesStrings.43>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.44>damaged_present->injuring</ARA_Combat_RangedDamage.rulePack.rulesStrings.44>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.45>damaged_present->piercing</ARA_Combat_RangedDamage.rulePack.rulesStrings.45>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.46>damaged_present->damaging</ARA_Combat_RangedDamage.rulePack.rulesStrings.46>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.47>damaged_present->shooting</ARA_Combat_RangedDamage.rulePack.rulesStrings.47>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.48>damaged_suffix->in an ugly fashion</ARA_Combat_RangedDamage.rulePack.rulesStrings.48>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.49>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</ARA_Combat_RangedDamage.rulePack.rulesStrings.49>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.50>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</ARA_Combat_RangedDamage.rulePack.rulesStrings.50>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.51>to->to</ARA_Combat_RangedDamage.rulePack.rulesStrings.51>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.52>to->into</ARA_Combat_RangedDamage.rulePack.rulesStrings.52>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.53>missed->missed</ARA_Combat_RangedDamage.rulePack.rulesStrings.53>
+  <ARA_Combat_RangedDamage.rulePack.rulesStrings.54>missed->narrowly missed</ARA_Combat_RangedDamage.rulePack.rulesStrings.54>
+
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite]'s [INITIATOR_projectile_label] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.0>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.1>r_logentry(p=2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.1>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.2>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] was [damaged_past] by [INITIATOR_definite]'s [INITIATOR_projectile_label] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.2>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.3>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [INITIATOR_projectile_label] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.3>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.4>r_logentry(p=0.2)->[INITIATOR_definite]'s [INITIATOR_projectile_label] hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.4>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.5>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [INITIATOR_projectile_label] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.5>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.6>r_logentry(p=0.4)->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.6>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.7>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [INITIATOR_projectile_label] intended for [ORIGINALTARGET_definite] [deflected_result].</ARA_Combat_RangedDeflect.rulePack.rulesStrings.7>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.8>INITIATOR_projectile_label(p=0.05)->shot</ARA_Combat_RangedDeflect.rulePack.rulesStrings.8>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.9>damaged_target_possessive_opt-></ARA_Combat_RangedDeflect.rulePack.rulesStrings.9>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.10>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [recipient_part_damaged0_label]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.10>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.11>deflected_result-> [adverb_deflected]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.11>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.12>deflected_result->, [deflected_consequence]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.12>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.13>adverb_deflected_opt(p=4)-></ARA_Combat_RangedDeflect.rulePack.rulesStrings.13>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.14>adverb_deflected_opt->[adverb_deflected]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.14>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.15>adverb_deflected->harmlessly</ARA_Combat_RangedDeflect.rulePack.rulesStrings.15>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.16>adverb_deflected->uselessly</ARA_Combat_RangedDeflect.rulePack.rulesStrings.16>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.17>deflected_consequence->but it [scraped_past] off [adverb_deflected_opt]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.17>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.18>deflected_consequence->[scraped_present] off [RECIPIENT_possessive] armor [adverb_deflected_opt]</ARA_Combat_RangedDeflect.rulePack.rulesStrings.18>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.19>scraped_past->ricocheted</ARA_Combat_RangedDeflect.rulePack.rulesStrings.19>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.20>scraped_present->ricocheting</ARA_Combat_RangedDeflect.rulePack.rulesStrings.20>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.21>missed->missed</ARA_Combat_RangedDeflect.rulePack.rulesStrings.21>
+  <ARA_Combat_RangedDeflect.rulePack.rulesStrings.22>missed->narrowly missed</ARA_Combat_RangedDeflect.rulePack.rulesStrings.22>
+
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite]'s [INITIATOR_projectile_label] [missed].</ARA_Combat_RangedMiss.rulePack.rulesStrings.0>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite] missed [ORIGINALTARGET_definite].</ARA_Combat_RangedMiss.rulePack.rulesStrings.1>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.2>r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite]'s [INITIATOR_projectile_label] [missing].</ARA_Combat_RangedMiss.rulePack.rulesStrings.2>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.3>missed(p=4)->missed</ARA_Combat_RangedMiss.rulePack.rulesStrings.3>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.4>missed(p=2)->missed by a small margin</ARA_Combat_RangedMiss.rulePack.rulesStrings.4>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.5>missed(p=2)->missed by a wide margin</ARA_Combat_RangedMiss.rulePack.rulesStrings.5>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.6>missed->went wide</ARA_Combat_RangedMiss.rulePack.rulesStrings.6>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.7>missed->flew into the air</ARA_Combat_RangedMiss.rulePack.rulesStrings.7>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.8>missed->flew high into the air</ARA_Combat_RangedMiss.rulePack.rulesStrings.8>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.9>missed->dug into the ground</ARA_Combat_RangedMiss.rulePack.rulesStrings.9>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.10>missed->skipped off the ground and was lost</ARA_Combat_RangedMiss.rulePack.rulesStrings.10>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.11>missed->dug a divot out of the ground</ARA_Combat_RangedMiss.rulePack.rulesStrings.11>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.12>missed(p=0.2)->passed within millimeters of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.12>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.13>missed->passed within centimeters of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.13>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.14>missed->passed within a meter of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.14>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.15>missed->was blown off course</ARA_Combat_RangedMiss.rulePack.rulesStrings.15>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.16>missing->missing</ARA_Combat_RangedMiss.rulePack.rulesStrings.16>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.17>missing->missing by a small margin</ARA_Combat_RangedMiss.rulePack.rulesStrings.17>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.18>missing->missing by a wide margin</ARA_Combat_RangedMiss.rulePack.rulesStrings.18>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.19>missing->going wide</ARA_Combat_RangedMiss.rulePack.rulesStrings.19>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.20>missing->flying into the air</ARA_Combat_RangedMiss.rulePack.rulesStrings.20>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.21>missing->flying high into the air</ARA_Combat_RangedMiss.rulePack.rulesStrings.21>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.22>missing->digging into the ground</ARA_Combat_RangedMiss.rulePack.rulesStrings.22>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.23>missing->skipping off the ground and becoming lost</ARA_Combat_RangedMiss.rulePack.rulesStrings.23>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.24>missing->digging a divot out of the ground</ARA_Combat_RangedMiss.rulePack.rulesStrings.24>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.25>missing(p=0.2)->passing within millimeters of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.25>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.26>missing->passing within centimeters of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.26>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.27>missing->passing within a meter of [ORIGINALTARGET_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.27>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.28>missing->blowing offcourse</ARA_Combat_RangedMiss.rulePack.rulesStrings.28>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.29>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] aside at the last [moment]</ARA_Combat_RangedMiss.rulePack.rulesStrings.29>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.30>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] behind [COVER_definite]</ARA_Combat_RangedMiss.rulePack.rulesStrings.30>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.31>moved->moved</ARA_Combat_RangedMiss.rulePack.rulesStrings.31>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.32>moved->jerked</ARA_Combat_RangedMiss.rulePack.rulesStrings.32>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.33>moved->jolted</ARA_Combat_RangedMiss.rulePack.rulesStrings.33>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.34>moved->ducked</ARA_Combat_RangedMiss.rulePack.rulesStrings.34>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.35>moment->moment</ARA_Combat_RangedMiss.rulePack.rulesStrings.35>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.36>moment->second</ARA_Combat_RangedMiss.rulePack.rulesStrings.36>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.37>moment->instant</ARA_Combat_RangedMiss.rulePack.rulesStrings.37>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.38>ducked->ducked</ARA_Combat_RangedMiss.rulePack.rulesStrings.38>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.39>ducked->crouched</ARA_Combat_RangedMiss.rulePack.rulesStrings.39>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.40>ducked->bent down</ARA_Combat_RangedMiss.rulePack.rulesStrings.40>
+  <ARA_Combat_RangedMiss.rulePack.rulesStrings.41>ducked->hid</ARA_Combat_RangedMiss.rulePack.rulesStrings.41>
+
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.0>prefix->The [blast] [fromof] [INITIATOR_definite]'s [INITIATOR_projectile_label]</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.0>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.1>prefix->The [blast] [fromof] [INITIATOR_definite]'s [INITIATOR_projectile_label]</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.1>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.2>prefix->[INITIATOR_definite]'s [blast]</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.2>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.3>prefix->[INITIATOR_definite]'s [INITIATOR_projectile_label] [blast]</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.3>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.4>prefix->[INITIATOR_definite]'s [INITIATOR_projectile_label]</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.4>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.5>r_logentry->[prefix] [injured] [RECIPIENT_definite].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.5>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.6>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.6>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.7>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [strikeAdv].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.7>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.8>r_logentry->[prefix] [strikeAdv] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.8>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.9>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.9>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.10>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.10>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.11>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite]'s [damaged_targets] [strikeAdv].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.11>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.12>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.12>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.13>r_logentry->[RECIPIENT_definite] was [damaged_past] by [INITIATOR_definite].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.13>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.14>r_logentry->[RECIPIENT_definite] was [damaged_past] [strikeAdv] by [INITIATOR_definite].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.14>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.15>r_logentry->[RECIPIENT_definite] was [damaged_past].</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.15>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.16>r_logentry(p=0.001)->[RECIPIENT_definite] was caught in an explosion.</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.16>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.17>r_logentry(p=0.001)->[RECIPIENT_definite] was hit by an explosion.</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.17>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.18>blast->explosion</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.18>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.19>blast->blast</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.19>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.20>blast->shockwave</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.20>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.21>blast->detonation</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.21>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.22>blast->discharge</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.22>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.23>blast->impact</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.23>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.24>fromof->from</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.24>
+  <ARA_Combat_ExplosionImpact.rulePack.rulesStrings.25>fromof->of</ARA_Combat_ExplosionImpact.rulePack.rulesStrings.25>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <FoxbeadMoodBoost.stages.0.label>Таинственное чувство</FoxbeadMoodBoost.stages.0.label>
+    <FoxbeadMoodBoost.stages.0.description>Не знаю, что это за чувство, но оно не плохое.</FoxbeadMoodBoost.stages.0.description>
+    <Ninetailmud.stages.0.label>Мистическое присутствие лисы</Ninetailmud.stages.0.label>
+    <Ninetailmud.stages.0.description>Загадочная девятихвостая лисица в нашем поселении.</Ninetailmud.stages.0.description>
+    <NinetailFox.stages.0.label>Я Кюлин!</NinetailFox.stages.0.label>
+    <NinetailFox.stages.0.description>Я великая мистическая сущность, люди, поклоняйтесь мне!</NinetailFox.stages.0.description>
+    <BondedKylen.stages.0.label>Связь с Кюлином</BondedKylen.stages.0.label>
+    <BondedKylen.stages.0.description>Что ж... связан с таинственной лисицей. Конечно, это хорошо, правда?</BondedKylen.stages.0.description>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KyulenArmor.label>Броня экипирована</KyulenArmor.label>
+  <KyulenArmor.description>На этом Кюлине надета эксклюзивная броня.</KyulenArmor.description>
+
+  <KyulenBlessing.label>Благословение Кюлина</KyulenBlessing.label>
+  <KyulenBlessing.description>Эта пешка благословлена Кюлином, потому что она связана с ним.</KyulenBlessing.description>
+
+  <KyulenPassive.label>Девятихвосая лиса</KyulenPassive.label>
+  <KyulenPassive.description>Пассивная способность Кюлина.</KyulenPassive.description>
+
+
+</LanguageData>

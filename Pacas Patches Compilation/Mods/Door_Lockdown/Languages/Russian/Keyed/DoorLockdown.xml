@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<DoorLockdown.AddAsLockdownSensitive>Не отмечена для блокировки</DoorLockdown.AddAsLockdownSensitive>
+	<DoorLockdown.AddAsLockdownSensitiveDesc>Дверь не реагирует на команду блокировки. Щелкните, чтобы добавить ее в список.</DoorLockdown.AddAsLockdownSensitiveDesc>
+	<DoorLockdown.RemoveAsLockdownSensitive>Отмечена для блокировки</DoorLockdown.RemoveAsLockdownSensitive>
+	<DoorLockdown.RemoveAsLockdownSensitiveDesc>Дверь будет реагировать на блокировку. Щелкните, чтобы удалить ее из списка.</DoorLockdown.RemoveAsLockdownSensitiveDesc>
+	<DoorLockdown.StartLockdown>Блокировка неактивна</DoorLockdown.StartLockdown>
+	<DoorLockdown.StartLockdownDesc>Все двери разрешены. Щелкните, чтобы включить блокировку и запретить все отмеченные двери.</DoorLockdown.StartLockdownDesc>
+	<DoorLockdown.EndLockdown>Проводится блокировка</DoorLockdown.EndLockdown>
+	<DoorLockdown.EndLockdownDesc>Все отмеченные двери запрещены. Щелкните, чтобы отключить блокировку.</DoorLockdown.EndLockdownDesc>
+	<DoorLockdown.LockdownStarted>Проводится блокировка</DoorLockdown.LockdownStarted>
+	<DoorLockdown.LockdownStopped>Блокировка прекращена</DoorLockdown.LockdownStopped>
+</LanguageData>

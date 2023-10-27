@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NinetailfoxTail.label>Хвост Кюлина</NinetailfoxTail.label>
+  <NinetailfoxTail.description>Связка невероятно ценных хвостов Кюлина. Их можно продать по очень высокой цене.</NinetailfoxTail.description>
+
+  <Foxbead.label>Бусина Кюлина</Foxbead.label>
+  <Foxbead.description>Это бусина, созданная Кюлином. При использовании излучает успокаивающий психический импульс, который дает временное повышение настроения всем на карте, ну или вы можете продать его торговцам по высокой цене.</Foxbead.description>
+  <Foxbead.comps.0.useLabel>Активировать</Foxbead.comps.0.useLabel>
+
+
+</LanguageData>

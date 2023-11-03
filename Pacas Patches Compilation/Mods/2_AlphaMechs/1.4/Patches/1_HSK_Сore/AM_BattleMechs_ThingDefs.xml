@@ -127,14 +127,14 @@
                     </ThingDef>
                 </value>
             </li>
-            <li Class="XmlExtensions.PatchOperationAttributeSet">
+            <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ThingDef[
                 defName="AM_Aura" or 
                 defName="AM_Daggersnout"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>AM_MechanoidWalkerThingBase</value>
             </li>
-            <li Class="XmlExtensions.PatchOperationAttributeSet">
+            <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ThingDef[
                 defName="AM_Demolisher" or 
                 defName="AM_Fireworm" or 

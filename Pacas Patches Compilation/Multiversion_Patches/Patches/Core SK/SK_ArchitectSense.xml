@@ -55,44 +55,6 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
-        <match Class="PatchOperationConditional">
-            <xpath>Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
-            <nomatch Class="PatchOperationAdd">
-                <xpath>Defs/MainButtonDef[defName="PropsandDecor"]</xpath>
-                <value>
-                    <iconPath>UI/ArchitectIcons/PropsandDecor</iconPath>
-                </value>
-            </nomatch>
-            <match Class="PatchOperationReplace">
-                <xpath>Defs/MainButtonDef[defName="PropsandDecor"]/iconPath</xpath>
-                <value>
-                    <iconPath>UI/ArchitectIcons/PropsandDecor</iconPath>
-                </value>
-            </match>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
-        <match Class="PatchOperationConditional">
-            <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
-            <nomatch Class="PatchOperationAdd">
-                <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
-                <value>
-                    <iconPath>UI/ArchitectIcons/Golems</iconPath>
-                </value>
-            </nomatch>
-            <match Class="PatchOperationReplace">
-                <xpath>Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
-                <value>
-                    <iconPath>UI/ArchitectIcons/Golems</iconPath>
-                </value>
-            </match>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
         <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
         <match Class="PatchOperationConditional">
             <xpath>Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>

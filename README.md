@@ -9,11 +9,12 @@ This repository contains a special mod that patches the mods described below wit
 
 # Patch list | Список патчей:
 
-***ALL Details in file MoreDetails.yaml***
+***More details in file MoreDetails.yaml***
 :star: - recommended mods
+Dont forget to check mod settigns in XMLExtentions menu!
 | :star: | Mod title | In actual state | Notes | Translations added |
 | --- | --- | --- | --- | --- |
-| - | HSK Core | :white_check_mark: | --- | --- |
+| - | HSK Core | :white_check_mark: | Check mod settings | --- |
 | :star: | [A RimWorld of Magic](https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956) | :white_check_mark: | --- | RU |
 | :star: | [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- | --- |
 | - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | :white_check_mark: | --- | --- |
@@ -22,12 +23,15 @@ This repository contains a special mod that patches the mods described below wit
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- | --- |
 | - | [Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049) | :white_check_mark: | --- | RU |
 | :star: | [Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898) | :white_check_mark: | --- | --- |
+| - | [Door Lockdown](https://steamcommunity.com/sharedfiles/filedetails/?id=2851091782) | :white_check_mark: | --- | RU |
 | - | [Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2952773198) | :white_check_mark: | --- | RU |
 | - | [EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490) | :white_check_mark: | --- | RU |
+| - | [Hemogen Extractor](https://steamcommunity.com/sharedfiles/filedetails/?id=2903919607) | :white_check_mark: | --- | --- |
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |
 | - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark: | Ignore 2 duplicated errors | RU |
 | - | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | :white_check_mark: | ---- | RU |
+| - | [More Persona Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2863308112) | :white_check_mark: | ---- | --- |
 | - | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | RU |
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :white_check_mark: | --- | RU |
@@ -44,7 +48,7 @@ This repository contains a special mod that patches the mods described below wit
 | - | [Vanilla Races Expanded - Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495) | :white_check_mark: | --- | --- |
 | - | [Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069) | :white_check_mark: | --- | --- |
 | - | [Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519) | :grey_question: | --- | --- |
-| - | [Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708) | :white_check_mark: | --- | RU (50%) |
+| - | [Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708) | :white_check_mark: | --- | RU |
 
 ## Donate / Order a patch | Поддержать / Заказать патч:<br>
 You can thank me for the work done and donate:<br>

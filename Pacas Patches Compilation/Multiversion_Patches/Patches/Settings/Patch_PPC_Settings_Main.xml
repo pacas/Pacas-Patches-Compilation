@@ -101,6 +101,31 @@
                     </Operation>
                 </caseTrue>
             </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Ammo_Multiplier_Active</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <li Class="XmlExtensions.UseSetting">
+                        <modId>PPC.Pacas.Settings</modId>
+                        <key>Ammo_Multiplier</key>
+                        <defaultValue>1</defaultValue>
+                        <apply>
+                            <Operation Class="XmlExtensions.ForEach">
+                                <xpath>Defs/RecipeDef[contains(defName,"MakeAmmo_")]/products</xpath>
+                                <storeIn>DEF</storeIn>
+                                <apply>
+                                    <Operation Class="XmlExtensions.PatchOperationMath">
+                                        <xpath>{DEF}/products/*[1]</xpath>
+                                        <value>{Ammo_Multiplier}</value>
+                                        <operation>*</operation>
+                                    </Operation>
+                                </apply>
+                            </Operation>
+                        </apply>
+                    </li>
+                </caseTrue>
+            </li>
         </operations>
     </Operation>
 </Patch>

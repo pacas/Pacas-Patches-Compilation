@@ -37,6 +37,26 @@
                                     <tooltip>More variuos buildings now can be minified and moved</tooltip>
                                     <tKeyTip>More_Movable_Things_Tooltip</tKeyTip>
                                 </li>
+                                <li Class="XmlExtensions.Setting.Gap">
+                                    <spacing>12</spacing>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Checkbox">
+                                    <key>Ammo_Multiplier_Active</key>
+                                    <label>Use Ammo Craft Multiplier?</label>
+                                    <tKey>Ammo_Multiplier_Active</tKey>
+                                    <defaultValue>false</defaultValue>
+                                    <tooltip>When enabled, the amount of ammunition created will be increased by X times</tooltip>
+                                    <tKeyTip>Ammo_Multiplier_Active_Tooltip</tKeyTip>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Slider">
+                                    <key>Ammo_Multiplier</key>
+                                    <label>Multiplier - {Ammo_Multiplier}</label>
+                                    <tKey>Ammo_Multiplier</tKey>
+                                    <defaultValue>1</defaultValue>
+                                    <min>1</min>
+                                    <max>10</max>
+                                    <decimals>0</decimals>
+                                </li>
                         </settings>
                     </li>
                     <li>

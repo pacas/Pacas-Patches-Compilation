@@ -12,6 +12,10 @@
     <More_Movable_Things>Больше перемещаемых строений</More_Movable_Things>
     <More_Movable_Things_Tooltip>Больше различных строений теперь могут быть убраны и перемещены</More_Movable_Things_Tooltip>
     
+    <Ammo_Multiplier_Active>Использовать множитель крафта патронов?</Ammo_Multiplier_Active>
+    <Ammo_Multiplier_Active_Tooltip>При включении количество создаваемых патронов будет увеличено в X раз</Ammo_Multiplier_Active_Tooltip>
+    <Ammo_Multiplier>Множитель - {Ammo_Multiplier}</Ammo_Multiplier>
+    
     
     
     <Updated_Wires_Textures>Новые текстуры проводов</Updated_Wires_Textures>

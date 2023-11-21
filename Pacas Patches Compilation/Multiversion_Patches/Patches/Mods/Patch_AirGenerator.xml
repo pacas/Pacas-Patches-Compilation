@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Air Generator</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationInsert">
+                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RenewablePower"]/defNames/li[text()="AdvancedWindTurbine"]</xpath>
+                    <value>
+                        <li>CosRim_AirGenerator</li>
+                    </value>
+                </li>
+                <li Class="XmlExtensions.CreateDocument">
+                    <docName>AirDefDoc</docName>
+                    <xpath>Defs/ThingDef[defName="CosRim_AirGenerator"]</xpath>
+                </li>
+                <li Class="XmlExtensions.PatchOperationReplace">
+                    <xmlDoc>AirDefDoc</xmlDoc>
+                    <xpath>AirDefDoc/ThingDef[defName="CosRim_AirGenerator"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>40</costStuffCount>
+                        <costList>
+                            <CarbonAlloy>20</CarbonAlloy>
+                            <Plastic>10</Plastic>
+                            <AdvMechanism>2</AdvMechanism>
+                            <ComponentAdvanced>6</ComponentAdvanced>
+                            <Electronics>2</Electronics>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="XmlExtensions.PatchOperationAdd">
+                    <xmlDoc>AirDefDoc</xmlDoc>
+                    <xpath>AirDefDoc/ThingDef[defName="CosRim_AirGenerator"]/building</xpath>
+                    <value>
+                        <allowAutoroof>false</allowAutoroof>
+                    </value>
+                </li>
+                <li Class="XmlExtensions.PatchOperationReplace">
+                    <xmlDoc>AirDefDoc</xmlDoc>
+                    <xpath>AirDefDoc/ThingDef[defName="CosRim_AirGenerator"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Renewable_energy_C4</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="XmlExtensions.PatchOperationReplace">
+                    <xmlDoc>AirDefDoc</xmlDoc>
+                    <xpath>AirDefDoc/ThingDef[defName="CosRim_AirGenerator"]/constructionSkillPrerequisite</xpath>
+                    <value>
+                        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+                    </value>
+                </li>
+                <li Class="XmlExtensions.MergeDocument">
+                    <docName>AirDefDoc</docName>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

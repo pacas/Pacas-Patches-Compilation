@@ -19,6 +19,7 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | :star: | [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- | --- |
 | - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | :white_check_mark: | --- | --- |
 | :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | :white_check_mark: | --- | --- |
+| - | [Air Generator](https://steamcommunity.com/sharedfiles/filedetails/?id=2999510318) | :white_check_mark: | --- | RU |
 | - | [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | :white_check_mark: | --- | RU |
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- | --- |
 | - | [Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049) | :white_check_mark: | --- | RU |

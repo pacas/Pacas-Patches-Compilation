@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <XmlExtensions.PatchDef Name="ROM_ApparelArmorValues" Abstract="True">
+    <XmlExtensions.PatchDef Name="ApparelArmorValues" Abstract="True">
         <parameters>
             <li>def</li>
             <li>stuffmultiplier</li>
@@ -32,6 +32,29 @@
                 <value>
                     <ArmorRating_Blunt>{blunt}</ArmorRating_Blunt>
                 </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="ApparelRecipeUsersParentName" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>parent</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>ApparelDoc</docName>
+                <xpath>Defs/ThingDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationAttributeSet">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="{def}"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>{parent}</value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationSafeRemove">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="{def}"]/recipeMaker/recipeUsers</xpath>
             </Operation>
         </apply>
     </XmlExtensions.PatchDef>

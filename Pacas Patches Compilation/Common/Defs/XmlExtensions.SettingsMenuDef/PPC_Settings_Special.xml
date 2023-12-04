@@ -71,6 +71,19 @@
                                 </li>
                                 <li Class="XmlExtensions.Setting.GapLine"/>
                                 <li Class="XmlExtensions.Setting.Checkbox">
+                                    <key>Updated_Weapons_Textures</key>
+                                    <label>New textures for some weapons</label>
+                                    <tKey>Updated_Weapons_Textures</tKey>
+                                    <defaultValue>true</defaultValue>
+                                    <tooltip>Now R6 Splitter and R3 Menstruum will have new awesome textures. Disabled if Weapon Modularisation mod is installed.</tooltip>
+                                    <tKeyTip>Updated_Weapons_Textures_Tooltip</tKeyTip>
+                                </li>
+                                <li Class="XmlExtensions.Setting.Text">
+                                    <text>Commited by Raseri</text>
+                                    <tKey>Commited_Raseri</tKey>
+                                </li>
+                                <li Class="XmlExtensions.Setting.GapLine"/>
+                                <li Class="XmlExtensions.Setting.Checkbox">
                                     <key>Updated_Wires_Textures</key>
                                     <label>New wire textures</label>
                                     <tKey>Updated_Wires_Textures</tKey>

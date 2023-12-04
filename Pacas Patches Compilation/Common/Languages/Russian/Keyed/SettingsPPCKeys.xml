@@ -22,6 +22,10 @@
     <Updated_Wires_Textures_Tooltip>Теперь все провода (кроме невидимых) будут иметь новые потрясающие текстуры</Updated_Wires_Textures_Tooltip>
     <Based_Power>На основе мода «Power Conduit Retexture»</Based_Power>
     
+    <Updated_Weapons_Textures>Новые текстуры оружия</Updated_Weapons_Textures>
+    <Updated_Weapons_Textures_Tooltip>Теперь R6 Splitter и R3 Menstruum будут иметь новые потрясающие текстуры. Выключено если установлен мод Weapon Modularisation.</Updated_Weapons_Textures_Tooltip>
+    <Commited_Raseri>Текстуры созданы пользователем Raseri</Commited_Raseri>
+    
     <Updated_MiscRobots_Textures>Новые текстуры ботов</Updated_MiscRobots_Textures>
     <Updated_MiscRobots_Textures_Tooltip>Теперь бот-уборщик и бот-носильщик будут иметь новые потрясающие текстуры</Updated_MiscRobots_Textures_Tooltip>
     <Based_MiscRobots>На основе мода «Misc. Craftable Robots Retexture»</Based_MiscRobots>

@@ -1,0 +1,11 @@
+<LanguageData>
+
+  <AG_Fogger.label>Туман</AG_Fogger.label>
+  <AG_Fogger.description>Распределенное облако механитов переплетается с ДНК носителя. Эти механиты обладают способностью влиять на уровень влажности окружающей атмосферы, вызывая образование глубокого, густого тумана вокруг.</AG_Fogger.description>
+
+  <AG_RainMaker.label>Атмосфер</AG_RainMaker.label>
+  <AG_RainMaker.description>Распределенное облако механитов переплетается с ДНК носителя. Эти механиты обладают способностью резко понижать атмосферное давление вокруг, вызывая постоянные осадки.</AG_RainMaker.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Weather.xml-->
+</LanguageData>

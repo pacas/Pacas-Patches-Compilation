@@ -1,0 +1,29 @@
+<LanguageData>
+
+<AG_UVSensitivity_Minor.label>Фотофобия</AG_UVSensitivity_Minor.label>
+<AG_UVSensitivity_Minor.description>У носителей этого гена глаза чувствительны к свету в помещении,солнцу,вызывает у них легкий дискомфорт</AG_UVSensitivity_Minor.description>
+<AG_UVSensitivity_Minor.customEffectDescriptions.0>при попадании прямых солнечных лучей -10% под прямыми солнечными лучами..</AG_UVSensitivity_Minor.customEffectDescriptions.0>
+<AG_UVSensitivity_Minor.labelShortAdj>чувствительный к УФ</AG_UVSensitivity_Minor.labelShortAdj>
+
+<AG_Sensitivity_Vicious.label>Чувствительность к ультрафиолету</AG_Sensitivity_Vicious.label>
+<AG_Sensitivity_Vicious.description>У носителей этого гена в коже есть биологические соединения, которые бурно реагируют на ультрафиолетовое излучение. Они настолько чувствительны к солнечному свету, что, стоя под солнцем, теряют сознание.</AG_Sensitivity_Vicious.description>
+<AG_Sensitivity_Vicious.customEffectDescriptions.0>потеряет сознание под прямыми солнечными лучами.</AG_Sensitivity_Vicious.customEffectDescriptions.0>
+<AG_Sensitivity_Vicious.customEffectDescriptions.1>ВНИМАНИЕ! Если вы начнете игру с этим геном ваш колонист потеряет сознание  от солнца до самой ночи! - либо вы везучий и найдете сразу укрытие!</AG_Sensitivity_Vicious.customEffectDescriptions.1>
+<AG_Sensitivity_Vicious.labelShortAdj>повышенная чувствительность к УФ</AG_Sensitivity_Vicious.labelShortAdj>
+
+<AG_Sensitivity_Lethal.label>Непереносимость солнца</AG_Sensitivity_Lethal.label>
+<AG_Sensitivity_Lethal.description>У носителей этого гена в коже есть биологические соединения, которые смертельно реагируют на ультрафиолетовое излучение. Они настолько чувствительны к солнечному свету, что пребывание под солнцем обожжет их и убьет за несколько минут.</AG_Sensitivity_Lethal.description>
+<AG_Sensitivity_Lethal.customEffectDescriptions.0>Будет сожжен до смерти под прямыми солнечными лучами.</AG_Sensitivity_Lethal.customEffectDescriptions.0>
+<AG_Sensitivity_Lethal.customEffectDescriptions.1>ВНИМАНИЕ! Если вы начнете игру с этим геном ваш колонист погибнет от солнца - либо вы везучий и найдете сразу укрытие!</AG_Sensitivity_Lethal.customEffectDescriptions.1>
+<AG_Sensitivity_Lethal.labelShortAdj>повышенная чувствительность к УФ</AG_Sensitivity_Lethal.labelShortAdj>
+
+<AG_UVPowered_Mild.label>Солнечные ванны (слабее)</AG_UVPowered_Mild.label>
+<AG_UVPowered_Mild.description>У носителей этого гена в коже есть биологические соединения, которые омолаживаются и заряжаются энергией под воздействием ультрафиолетового излучения. Они будут оживлены под воздействием солнечного света, но вялыми, когда находятся вдали от него.</AG_UVPowered_Mild.description>
+<AG_UVPowered_Mild.labelShortAdj>питание от ультрафиолета</AG_UVPowered_Mild.labelShortAdj>
+
+<AG_UVPowered_Major.label>Солнечные ванны (сильней)</AG_UVPowered_Major.label>
+<AG_UVPowered_Major.description>У носителей этого гена в коже есть биологические соединения, которые омолаживаются и заряжаются энергией под воздействием ультрафиолетового излучения. Они оживляются под воздействием солнечного света, но становятся очень вялыми и подавленными, когда находятся вдали от него.</AG_UVPowered_Major.description>
+<AG_UVPowered_Major.labelShortAdj>питание от ультрафиолета</AG_UVPowered_Major.labelShortAdj>
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Sunlight.xml-->
+</LanguageData>

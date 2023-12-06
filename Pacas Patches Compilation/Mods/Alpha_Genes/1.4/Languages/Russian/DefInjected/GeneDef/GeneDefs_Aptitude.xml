@@ -1,0 +1,14 @@
+<LanguageData>
+
+<AG_MiningYield_High.label>Шахтер</AG_MiningYield_High.label>
+<AG_MiningYield_High.description>Носители этого гена искусны в добыче полезных ископаемых и могут получать большее количество минералов из камня.</AG_MiningYield_High.description>
+<AG_MiningYield_High.labelShortAdj>Шахтер</AG_MiningYield_High.labelShortAdj>
+<AG_MiningYield_High.symbolPack.prefixSymbols.0.symbol>метал</AG_MiningYield_High.symbolPack.prefixSymbols.0.symbol>
+
+<AG_MiningYield_Low.label>Камнетес</AG_MiningYield_Low.label>
+<AG_MiningYield_Low.description>Носители этого гена являются некачественными шахтерами и могут добывать меньшее количество минералов из камня.</AG_MiningYield_Low.description>
+<AG_MiningYield_Low.labelShortAdj>Плохой Шахтер</AG_MiningYield_Low.labelShortAdj>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Aptitude.xml-->
+</LanguageData>

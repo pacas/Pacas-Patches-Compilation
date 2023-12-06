@@ -1,0 +1,35 @@
+<LanguageData>
+
+  <AG_Regeneration.label>Регенерация</AG_Regeneration.label>
+  <AG_Regeneration.description>У этого человека в кровотоке имеется распределенная сеть специализированных механизмов, которые периодически обрабатывают внутренние раны, регенерируя их без какой-либо необходимости в отдыхе.</AG_Regeneration.description>
+
+  <AG_RegenerationMinor.label>Регенерация, незначительная</AG_RegenerationMinor.label>
+  <AG_RegenerationMinor.description>У этого человека в кровотоке имеется слабо распределенная сеть специализированных механизмов, которые периодически обрабатывают внутренние раны, регенерируя их без какой-либо необходимости в отдыхе.</AG_RegenerationMinor.description>
+
+  <AG_PassiveRegenerator.label>АОЕ Регенерация</AG_PassiveRegenerator.label>
+  <AG_PassiveRegenerator.description>Этот человек постоянно выпускает невидимое облако специализированных механитов, которые периодически обрабатывают раны находящихся поблизости людей и животных, регенерируя их без какой-либо необходимости в отдыхе.</AG_PassiveRegenerator.description>
+
+  <AG_LethalInstability.label>Смертельная нестабильность</AG_LethalInstability.label>
+  <AG_LethalInstability.description>Этому человеку требуется значительно меньше метаболической энергии, чтобы оставаться в живых, за счет возмутительно сниженной стабильности механизма репликации клеток и очень, ОЧЕНЬ ограниченной продолжительности жизни, которую никак нельзя увеличить.</AG_LethalInstability.description>
+
+  <AG_UnstableMutation.label>Нестабильная мутация</AG_UnstableMutation.label>
+  <AG_UnstableMutation.description>Вызывает нестабильную мутацию у этого человека. Эта мутация активирует новый случайный ген на 12 часов. По истечении этого периода ген деактивируется.</AG_UnstableMutation.description>
+
+  <AG_UnstableMutationMajor.label>Нестабильная мутация,слабенька</AG_UnstableMutationMajor.label>
+  <AG_UnstableMutationMajor.description>Каждый день вызывает неконтролируемую и нестабильную мутацию у этого человека. Эта мутация активирует два новых случайных гена на целый день. На следующий день гены деактивируются, и их место занимают два новых.</AG_UnstableMutationMajor.description>
+
+  <AG_UnstableMutationCatastrophic.label>МУТАЦИЯ УРОВЕНЬ,КАТАСТРОФА</AG_UnstableMutationCatastrophic.label>
+  <AG_UnstableMutationCatastrophic.description>Каждый день вызывает неконтролируемую и нестабильную мутацию у этого человека. Эта мутация активирует ДЕСЯТЬ НОВЫХ случайных генов на ЦЕЛЫЙ ДЕНЬ. На следующий день гены деактивируются, и их место займут десять новых.</AG_UnstableMutationCatastrophic.description>
+
+  <AG_NearBlindness.label>Почти слепой</AG_NearBlindness.label>
+  <AG_NearBlindness.description>У этого человека почти совершенно бесполезные глаза, близкие к полной слепоте.</AG_NearBlindness.description>
+
+  <AG_Deafness.label>Глухота</AG_Deafness.label>
+  <AG_Deafness.description>У этого человека полное отсутствие слуха.</AG_Deafness.description>
+
+  <AG_Teratogenesis.label>Тератогенез</AG_Teratogenesis.label>
+  <AG_Teratogenesis.description>Гены этого человека постоянно порождают опухоли по всему телу. У них нет иммунитета к смерти от этих опухолей.\n\nНовая карцинома образуется каждые 42000 - 72000 тиков (0,7 - 1,2 дня), и не более десяти карцином могут присутствовать на теле одновременно.</AG_Teratogenesis.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Health.xml-->
+</LanguageData>

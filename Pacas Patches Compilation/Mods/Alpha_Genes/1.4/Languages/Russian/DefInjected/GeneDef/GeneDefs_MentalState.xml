@@ -1,0 +1,14 @@
+<LanguageData>
+
+<AG_Thalassophobia.label>Гидрофобия</AG_Thalassophobia.label>
+<AG_Thalassophobia.description>Носители этого гена испытывают сильный страх перед водоемами. Когда вода близко, есть вероятность, что у них в любой момент случится психический срыв.</AG_Thalassophobia.description>
+<AG_Thalassophobia.customEffectDescriptions.0>ЭТО будет вызвано на любой местности.ВКЛЮЧАЯ болота</AG_Thalassophobia.customEffectDescriptions.0>
+<AG_Thalassophobia.customEffectDescriptions.1>любая дождливая погода также вызовет этот эффект если колонист промокнет !</AG_Thalassophobia.customEffectDescriptions.1>
+
+
+<AG_FireObsession.label>Огненная одержимость</AG_FireObsession.label>
+  <AG_FireObsession.description>Носители этого гена имеют врожденную психологическую одержимость огнем, стараясь находиться рядом с огнем как можно больше, насколько это возможно для человека.</AG_FireObsession.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_MentalState.xml-->
+</LanguageData>

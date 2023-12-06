@@ -1,0 +1,20 @@
+<LanguageData>
+<!--1.4/Defs/HediffDefs/Hediffs_GasAndPollution.xml-->
+                   <!-- smoke producer -->
+<AG_SmokeProducer.label>Дыхание пепла</AG_SmokeProducer.label>
+                         <!-- Этот человек периодически выдыхает клубы густого дыма, обеспечивая сдерживание дальних атак, как против него, так и производимых им. -->
+<AG_SmokeProducer.description>Этот человек периодически выдыхает облака густого дыма, обеспечивая зрительное препятствие для атак дальнего боя..</AG_SmokeProducer.description>
+                      <!-- производитель гнилой вони -->
+<AG_RotStinkProducer.label>Гнилое дыхание</AG_RotStinkProducer.label>
+                            <!-- Этот человек периодически источает клубы гнилой вони. Противный!. -->
+<AG_RotStinkProducer.description>Этот человек периодически выдыхает облака гнилой вони. какбы не помереть!</AG_RotStinkProducer.description>
+                    <!-- производитель токсичных газов -->
+<AG_ToxGasProducer.label>Ядовитое дыхание</AG_ToxGasProducer.label>
+                          <!-- Этот человек периодически выдыхает облака ядовитого газа. -->
+<AG_ToxGasProducer.description>Этот человек периодически выдыхает облака ядовитого газа, смерть гдето рядом....</AG_ToxGasProducer.description>
+              <!-- загрязнитель -->
+<AG_Polluter.label>Эрозив</AG_Polluter.label>
+                    <!-- Этот человек периодически загрязняет окружающую местность, в конечном итоге превращая ландшафт в пустынную пустошь. -->
+<AG_Polluter.description>Этот человек периодически загрязняет окружающую местность, уничтожает ее своим присутствием, в конечном итоге превращая ландшафт в пустынную пустошь.</AG_Polluter.description>
+
+</LanguageData>

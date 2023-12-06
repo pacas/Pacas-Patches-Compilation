@@ -1,0 +1,30 @@
+<LanguageData>
+
+<AG_Foodless.label>Лишенный пищи</AG_Foodless.label>
+<AG_Foodless.description>Носители этого гена имеют в крови архиты, которые будут поддерживать их метаболизм без необходимости употреблять пищу.</AG_Foodless.description>
+<AG_Foodless.customEffectDescriptions.0>УМЕНЬШАЕТ потребность в еде до почти незначительной(не совсем до нуля, чтобы избежать странных взаимодействий с модами)</AG_Foodless.customEffectDescriptions.0>
+
+<AG_Mood_Unfeeling.label>Бесчувственный</AG_Mood_Unfeeling.label>
+<AG_Mood_Unfeeling.description>У носителей этого гена нет эмоций.</AG_Mood_Unfeeling.description>
+<AG_Mood_Unfeeling.customEffectDescriptions.0>ВНИМАНИЕ! - этот ген не был протестирован на 100%,и я уверен, что он что-то ломает УИИИхD,- ОТКЛЮЧАЕТ НАСТРОЕНИЕ.</AG_Mood_Unfeeling.customEffectDescriptions.0>
+<AG_Mood_Unfeeling.symbolPack.prefixSymbols.0.symbol>робот</AG_Mood_Unfeeling.symbolPack.prefixSymbols.0.symbol>
+
+<AG_AsexualFission.label>Бесполое деление</AG_AsexualFission.label>
+<AG_AsexualFission.description>Носители этого гена будут периодически генерировать небольшие сгустки органического вещества на своих спинах, которые постепенно развиваются в полноценные человеческие существа и отделяются от своего хозяина / родителя посредством процесса стробиляции. Это обеспечит бесконечный источник новых колонистов, рискуя наводнить колонию новорожденными.
+</AG_AsexualFission.description>
+<AG_AsexualFission.customEffectDescriptions.0>Будет производить 2 колониста каждые 25 дней. (раньше было 60).</AG_AsexualFission.customEffectDescriptions.0>
+
+
+<AG_Regeneration.label>Регенерация(сильная)</AG_Regeneration.label>
+  <AG_Regeneration.description>Носители этого гена имеют распределенную сеть специализированных механизмов в своем кровотоке, которые периодически обрабатывают внутренние раны, регенерируя их без какой-либо необходимости в отдыхе.</AG_Regeneration.description>
+
+  <AG_HeatImmunity.label>Тепловой иммунитет</AG_HeatImmunity.label>
+  <AG_HeatImmunity.description>Не страдают от жары и огня.</AG_HeatImmunity.description>
+  
+  <AG_ColdImmunity.label>Иммунитет к холоду</AG_ColdImmunity.label>
+  <AG_ColdImmunity.description>Носители этого гена практически не боятся холода. Их одновременно не побеспокоит обморожение.</AG_ColdImmunity.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Archite.xml-->
+<AG_Regeneration.customEffectDescriptions.0>Тяжесть раны снижается на 0,1 каждые 10 тиков (1/6 секунды).</AG_Regeneration.customEffectDescriptions.0>
+</LanguageData>

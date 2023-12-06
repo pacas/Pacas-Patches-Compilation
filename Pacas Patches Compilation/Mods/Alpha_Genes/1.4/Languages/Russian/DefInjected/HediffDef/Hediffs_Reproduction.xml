@@ -1,0 +1,18 @@
+<LanguageData>
+
+  <AG_AsexualFission.label>Расщепление</AG_AsexualFission.label>
+  <AG_AsexualFission.description>Будут периодически генерировать небольшие сгустки органического вещества на своих спинах, которые постепенно развиваются в полноценные человеческие существа и отделяются от своего хозяина / родителя посредством процесса стробиляции. Это обеспечит бесконечный источник новых колонистов, рискуя наводнить колонию новорожденными.</AG_AsexualFission.description>
+
+  <AG_HumanEggLaying.label>Яйценосный</AG_HumanEggLaying.label>
+  <AG_HumanEggLaying.description>Самки с этим геном будут периодически откладывать яйца при оплодотворении.</AG_HumanEggLaying.description>
+
+  <AG_ParasiticImplantation.label>Паразитарная имплантация</AG_ParasiticImplantation.label>
+  <AG_ParasiticImplantation.description>Поражены паразитарной имплантацией. Если имплантация продвигается до степени тяжести 1, или если существо умирает, когда оно достаточно продвинуто (более 90%), личинки человека внутри паразитических яиц будут пожирать жертву изнутри и вылупляться из её трупа. Время беременности 15 дней.</AG_ParasiticImplantation.description>
+  <AG_ParasiticImplantation.stages.0.label>незначительный</AG_ParasiticImplantation.stages.0.label>
+  <AG_ParasiticImplantation.stages.1.label>Серьезный</AG_ParasiticImplantation.stages.1.label>
+  <AG_ParasiticImplantation.stages.2.label>Экстремально</AG_ParasiticImplantation.stages.2.label>
+  <AG_ParasiticImplantation.stages.3.label>Экстремально</AG_ParasiticImplantation.stages.3.label>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Reproduction.xml-->
+</LanguageData>

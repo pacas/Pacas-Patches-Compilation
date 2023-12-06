@@ -1,0 +1,28 @@
+<LanguageData>
+
+  <AG_Teratogenesis.label>Тератогенез</AG_Teratogenesis.label>
+  <AG_Teratogenesis.description>У носителей этого гена постоянно возникают опухоли по всему телу. Они не застрахованы от смерти от этих опухолей.
+  </AG_Teratogenesis.description>
+
+  <AG_TeratogenicHealing.label>Тератогенное заживление</AG_TeratogenicHealing.label>
+  <AG_TeratogenicHealing.description>Носители этого гена могут перепрофилировать свои опухоли для их лечения, поглощая при этом раковые образования.</AG_TeratogenicHealing.description>
+
+  <AG_HealingTouch.label>Целительное прикосновение</AG_HealingTouch.label>
+  <AG_HealingTouch.description>Носители этого гена могут перепрофилировать свои опухоли для лечения других людей, поглощая при этом раковые образования.</AG_HealingTouch.description>
+
+  <AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+  <AG_TeratogenicManipulation.description>Носители этого гена могут перепрофилировать свои опухоли, что дает им огромный толчок к манипуляциям и ловкости..</AG_TeratogenicManipulation.description>
+
+  <AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+  <AG_TeratogenicSwiftness.description>Носители этого гена могут перепрофилировать свои опухоли, чтобы обеспечить себе огромный прирост скорости передвижения и работы.</AG_TeratogenicSwiftness.description>
+
+  <AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+  <AG_TeratogenicStamina.description>Носители этого гена могут перепрофилировать свои опухоли, чтобы дать им огромный толчок к развитию иммунной системы и общей выносливости..</AG_TeratogenicStamina.description>
+
+  <AG_TeratogenicBurst.label>Тератогенное прикосновение</AG_TeratogenicBurst.label>
+  <AG_TeratogenicBurst.description>Носители этого гена могут передавать свои опухоли другому человеку, что, как правило, так же болезненно и опасно, как и звучит.</AG_TeratogenicBurst.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Teratogenic.xml-->
+<AG_Teratogenesis.customEffectDescriptions.0>Новая карцинома будет генерироваться каждые 42 000–72 000 тиков (от 0,7 до 1,2 дня), и одновременно на теле может присутствовать не более десяти карцином.</AG_Teratogenesis.customEffectDescriptions.0>
+</LanguageData>

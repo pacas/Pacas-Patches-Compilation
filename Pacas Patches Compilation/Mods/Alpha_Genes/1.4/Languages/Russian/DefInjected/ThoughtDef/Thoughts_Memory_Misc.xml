@@ -1,0 +1,36 @@
+<LanguageData>
+
+  <AG_Disgust.stages.0.label>Отвратительный колонист</AG_Disgust.stages.0.label>
+  <AG_Disgust.stages.0.description>Я не могу выбросить это из головы. Как кто-то может быть ТАКИМ отвратительным и гротескным?</AG_Disgust.stages.0.description>
+
+  <AG_Awe.stages.0.label>Ангельский колонист</AG_Awe.stages.0.label>
+  <AG_Awe.stages.0.description>Я не могу выкинуть это из головы. Как кто-то может быть НАСТОЛЬКО красивым?</AG_Awe.stages.0.description>
+
+  <AG_PsychicDrone.stages.0.label>Пси волна</AG_PsychicDrone.stages.0.label>
+  <AG_PsychicDrone.stages.0.description>Я чувствую себя спокойно и умиротворенно</AG_PsychicDrone.stages.0.description>
+
+  <AG_CorpseFeeding.stages.0.label>Вонь разлагающего трупа</AG_CorpseFeeding.stages.0.label>
+  <AG_CorpseFeeding.stages.0.description>Вонь гнилостной трупной желчи и трупно-гниющей ошеломляет!</AG_CorpseFeeding.stages.0.description>
+
+  <AG_SunlightSensitivity_Minor.stages.0.label>Чувствительность к солнечному свету</AG_SunlightSensitivity_Minor.stages.0.label>
+  <AG_SunlightSensitivity_Minor.stages.0.description>Солнце режет мне глаза.</AG_SunlightSensitivity_Minor.stages.0.description>
+
+  <AG_Thalassophobia.stages.0.label>Боится воды</AG_Thalassophobia.stages.0.label>
+  <AG_Thalassophobia.stages.0.description>Я терпеть не могу находиться рядом с водой! Это приводит меня в ужас.</AG_Thalassophobia.stages.0.description>
+
+  <AG_PukedRats.stages.0.label>Выблевывание крысы</AG_PukedRats.stages.0.label>
+  <AG_PukedRats.stages.0.description>Неважно, сколько раз это случится, я никогда не привыкну к этому.</AG_PukedRats.stages.0.description>
+
+  <AG_Implanted.stages.0.label>Насильственно имплантированный {0}</AG_Implanted.stages.0.label>
+  <AG_Implanted.stages.0.description>Меня ужалили.</AG_Implanted.stages.0.description>
+
+  <AG_Implanted_Social.stages.0.label>Насильственно имплантированный</AG_Implanted_Social.stages.0.label>
+
+  <AG_Parasite.stages.0.label>Паразитирован {0}</AG_Parasite.stages.0.label>
+  <AG_Parasite.stages.0.description>Я ЧУВСТВУЮ, КАК ЯЙЦА ДВИЖУТСЯ ВНУТРИ МОЕГО ТЕЛА!</AG_Parasite.stages.0.description>
+
+  <AG_Parasite_Social.stages.0.label>Зараженный паразитами</AG_Parasite_Social.stages.0.label>
+
+
+<!--1.4/Defs/ThoughtDefs/Thoughts_Memory_Misc.xml-->
+</LanguageData>

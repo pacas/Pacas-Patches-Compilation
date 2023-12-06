@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingDefs_Buildings/Buildings_Misc.xml-->
+<AG_TemporaryBandNode.label>Временный усилитель сигнала</AG_TemporaryBandNode.label>
+<AG_TemporaryBandNode.description>Временный усилитель сигнала механоидного диапазона. Автоматически настраивается, Обеспечит значительное увеличение пропускной способности на 10, действует неделю. Не требует энергии.</AG_TemporaryBandNode.description>
+
+</LanguageData>

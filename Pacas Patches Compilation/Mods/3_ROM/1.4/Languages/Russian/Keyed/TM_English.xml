@@ -386,25 +386,25 @@
     <TM_Cantrips_ver>Универсальность заклинаний</TM_Cantrips_ver>
     
     
-    <TM_RayofHope_eff>Эффективность луча надежды</TM_RayofHope_eff>
-    <TM_RayofHope_eff_desc>Снижает стоимость поддержания луча надежды на 8% за уровень.</TM_RayofHope_eff_desc>
     <!--Маг огня-->
-    <TM_Firebolt_pwr_desc>Увеличивает урон от огненного шара на 5 единиц за уровень.</TM_Firebolt_pwr_desc>
-    <TM_Firebolt_eff_desc>Снижает затраты маны на огненный шар на 10% за уровень.</TM_Firebolt_eff_desc>
-    <TM_Fireclaw_pwr_desc>Увеличивает урон, наносимый каждой нитью огненной стрелы, на 4 за уровень навыка.\nУровень 1: 4\nУровень 2: 8\nУровень 3: 12</TM_Fireclaw_pwr_desc>
+    <TM_RayofHope_eff>Эффективность внутреннего огня</TM_RayofHope_eff>
+    <TM_RayofHope_eff_desc>Снижает стоимость поддержания внутреннего огня на 8% за уровень.</TM_RayofHope_eff_desc>
+    <TM_Firebolt_pwr_desc>Увеличивает урон от огненной стрелы на 5 единиц за уровень.</TM_Firebolt_pwr_desc>
+    <TM_Firebolt_eff_desc>Снижает затраты маны на огненную стрелу на 10% за уровень.</TM_Firebolt_eff_desc>
+    <TM_Fireclaw_pwr_desc>Увеличивает урон, наносимый каждой струей огненного когтя, на 4 за уровень навыка.\nУровень 1: 4\nУровень 2: 8\nУровень 3: 12</TM_Fireclaw_pwr_desc>
     <TM_Fireclaw_eff_desc>Снижение затраты маны на 10% за уровень.</TM_Fireclaw_eff_desc>
-    <TM_Fireclaw_ver_desc>Добавляет дополнительные когти на уровнях 1 и 2, увеличивает радиус удара когтей на уровне 3.</TM_Fireclaw_ver_desc>
+    <TM_Fireclaw_ver_desc>Добавляет дополнительные струи на уровнях 1 и 2, увеличивает радиус удара на уровне 3.</TM_Fireclaw_ver_desc>
     <TM_Fireball_pwr_desc>Увеличивает количество вторичных взрывов по 3 за уровень.</TM_Fireball_pwr_desc>
     <TM_Fireball_eff_desc>Снижение затраты маны на 8% за уровень.</TM_Fireball_eff_desc>
     <TM_Fireball_ver_desc>Огненный шар вызывает ужас на уровне 1; уровни 2 и 3 увеличивают силу ужаса. Ужас снижает способность врагов эффективно сражаться и может заставить их бежать в панике.</TM_Fireball_ver_desc>
     <TM_Firestorm_pwr_desc>Увеличивается частота всех типов метеоров.\nУвеличивает радиус огненной бури на 0.25 за уровень навыка.</TM_Firestorm_pwr_desc>
     <TM_Firestorm_eff_desc>Снижение затрат маны на 5% за уровень.</TM_Firestorm_eff_desc>
     <TM_Firestorm_ver_desc>Увеличивает продолжительность огненной бури на 1 секунду за каждый уровень навыка.\nУвеличивает радиус бури на 0.25 за уровень навыка.\nУвеличивается количество осколков, образующихся при ударах метеоритов.</TM_Firestorm_ver_desc>
-    <TM_Firebolt_pwr>Сила огненного шара</TM_Firebolt_pwr>
-    <TM_Firebolt_eff>Эффективность огненного шара</TM_Firebolt_eff>
-    <TM_Fireclaw_pwr>Сила огнемёта</TM_Fireclaw_pwr>
-    <TM_Fireclaw_eff>Эффективность огнемёта</TM_Fireclaw_eff>
-    <TM_Fireclaw_ver>Универсальность огнемёта</TM_Fireclaw_ver>
+    <TM_Firebolt_pwr>Сила огненной стрелы</TM_Firebolt_pwr>
+    <TM_Firebolt_eff>Эффективность огненной стрелы</TM_Firebolt_eff>
+    <TM_Fireclaw_pwr>Сила огненного когтя</TM_Fireclaw_pwr>
+    <TM_Fireclaw_eff>Эффективность огненного когтя</TM_Fireclaw_eff>
+    <TM_Fireclaw_ver>Универсальность огненного когтя</TM_Fireclaw_ver>
     <TM_Fireball_pwr>Сила огненного шара</TM_Fireball_pwr>
     <TM_Fireball_eff>Эффективность огненного шара</TM_Fireball_eff>
     <TM_Fireball_ver>Универсальность огненного шара</TM_Fireball_ver>
@@ -412,10 +412,9 @@
     <TM_Firestorm_eff>Эффективность огненного шторма</TM_Firestorm_eff>
     <TM_Firestorm_ver>Универсальность огненного шторма</TM_Firestorm_ver>
     
-    
-    <TM_Soothe_eff_desc>Снижает стоимость содержания маны в успокоении на 8% за уровень.</TM_Soothe_eff_desc>
-    <TM_Rainmaker_eff_desc>Уменьшает стоимость маны создания дождя на 15% за уровень от базовой стоимости маны.</TM_Rainmaker_eff_desc>
     <!--Маг мороза-->
+    <TM_Soothe_eff_desc>Снижает стоимость маны на поддержку бриза на 8% за уровень.</TM_Soothe_eff_desc>
+    <TM_Rainmaker_eff_desc>Уменьшает стоимость маны создание дождя на 15% за уровень от базовой стоимости маны.</TM_Rainmaker_eff_desc>
     <TM_Icebolt_pwr_desc>Увеличивает летальность ледяного шара путем предварительного дробления болта на острые как бритва осколки.\nУровень 0: от 2 до 5 урона за осколок\nУровень 1: от 4 до 9 урона за осколок\nУровень 2: от 6 до 13 единиц урона за осколок\nУровень 3: от 8 до 17 единиц урона за осколок</TM_Icebolt_pwr_desc>
     <TM_Icebolt_eff_desc>Снижает стоимость маны ледяного шара на 8% за уровень от базовой стоимости маны.</TM_Icebolt_eff_desc>
     <TM_Icebolt_ver_desc>Повышает компрессию и размер ледяного шара, каждый уровень навыка увеличивает число ледяных осколков при ударе.\nУровень 0: от 2 до 3 осколков\nУровень 1: от 3 до 8 осколков\nУровень 2: от 4 до 14 осколков\nУровень 3: от 5 до 20 осколков</TM_Icebolt_ver_desc>
@@ -468,7 +467,7 @@
     <TM_EyeOfTheStorm_pwr>Рёв земли</TM_EyeOfTheStorm_pwr>
     <TM_EyeOfTheStorm_ver>Идеальный шторм</TM_EyeOfTheStorm_ver>
     
-    
+    <!-- ??? -->
     <TM_Shadow_eff_desc>Уменьшает стоимость поддержания тени на 8% за уровень.</TM_Shadow_eff_desc>
     <TM_Blink_eff_desc>Снижает затраты маны на скачок на 10% за уровень.</TM_Blink_eff_desc>
     <TM_Summon_eff_desc>Снижает затраты маны на призыв по 10% за уровень.</TM_Summon_eff_desc>
@@ -679,32 +678,23 @@
     <TM_HealingCircle_pwr>Успокаивающие волны</TM_HealingCircle_pwr>
     <TM_BestowMight_eff>Практикуемое благословение</TM_BestowMight_eff>
     <TM_Resurrection_ver>Изящное воскрешение</TM_Resurrection_ver>
-    <TM_Resurrection_eff>путеводная звезда</TM_Resurrection_eff>
+    <TM_Resurrection_eff>Путеводная звезда</TM_Resurrection_eff>
+    
+    
+    <!--Бард-->
     <TM_BardTraining_pwr_desc>Продвигает черту барда на следующий уровень. Артист - > Исполнитель - > Менестрель - > Бард. Требуется 2 очка для тренировки.</TM_BardTraining_pwr_desc>
     <TM_Entertain_ver_desc>Увеличивает шанс благоприятного разговора с другими колонистами.</TM_Entertain_ver_desc>
-    <TM_Entertain_pwr_desc>Увеличивает то, как часто бард готов к социальному взаимодействию.</TM_Entertain_pwr_desc>
-    <TM_Inspire_ver_desc>Бард узнает новые способы вдохновлять колонистов.
-Уровень 0: может вызвать общее вдохновение
-Уровень 1: может вызвать вдохновение ресурсного безумия
-Уровень 2: может вызвать обучение и социальное вдохновение
-Уровень 3: может вызвать героическое вдохновение для занятий магией или могуществом.</TM_Inspire_ver_desc>
-    <TM_Inspire_pwr_desc>Увеличивает, как часто бард будет пытаться вдохновить коллег-колонистов.</TM_Inspire_pwr_desc>
+    <TM_Entertain_pwr_desc>Увеличивает частоту социальных взаимодействий.</TM_Entertain_pwr_desc>
+    <TM_Inspire_ver_desc>Бард узнает новые способы вдохновлять колонистов.\nУровень 0: может вызвать общее вдохновение\nУровень 1: может вызвать вдохновение на ресурсы\nУровень 2: может вызвать вдохновение на обучение и социальные взаимодействия\nУровень 3: может вызвать героическое вдохновение для занятий магией или боем.</TM_Inspire_ver_desc>
+    <TM_Inspire_pwr_desc>Увеличивает частоту попыток вдохновить колонистов.</TM_Inspire_pwr_desc>
     <TM_Lullaby_eff_desc>Снижает затраты маны на колыбельную на 8% за каждое очко навыка.</TM_Lullaby_eff_desc>
-    <TM_Lullaby_pwr_desc>Increases chance lullaby is effective by 10% per skill point.
-Level 0: 40%
-Level 1: 50%
-Level 2: 60%
-Level 3: 70%</TM_Lullaby_pwr_desc>
-    <TM_Lullaby_ver_desc>Колыбельная снижает сознание действующих пешек-срабатывает даже в том случае, если колыбельная сопротивлялась.
-Уровень 0: N / A
-Уровень 1: -10% сознания
-Уровень 2: -15% сознания
-Уровень 3: сознание -20%</TM_Lullaby_ver_desc>
-    <TM_BattleHymn_eff_desc>Снижает расход маны для использования и для поддержания Боевого гимна на 6% за уровень навыка.</TM_BattleHymn_eff_desc>
-    <TM_BattleHymn_ver_desc>Увеличивает диапазон Боевого гимна по 3м на каждое очко навыка (базовая 17м). Также увеличивается темп Боевого гимна .5с (5s базовое).</TM_BattleHymn_ver_desc>
-    <TM_BattleHymn_pwr_desc>Увеличивает эффект боевого гимна на 12% заочко  для каждого стиха (итерации) он остается активным и увеличивает шанс вызвать вдохновение на 1%.</TM_BattleHymn_pwr_desc>
-    <TM_BardTraining_pwr>Обучение Барда</TM_BardTraining_pwr>
-    <TM_Entertain_ver>Обильный Смех</TM_Entertain_ver> 						 
+    <TM_Lullaby_pwr_desc>Увеличивает шанс на успешную колыбельную на 10% за каждое очко навыка.\nУровень 0: 40%\nУровень 1: 50%\nУровень 2: 60%\nУровень 3: 70%</TM_Lullaby_pwr_desc>
+    <TM_Lullaby_ver_desc>Колыбельная снижает сознание пешек - срабатывает даже в том случае, если колыбельная не была успешна.\nУровень 0: N/A\nУровень 1: -10%\nУровень 2: -15%\nУровень 3: -20%</TM_Lullaby_ver_desc>
+    <TM_BattleHymn_eff_desc>Снижает расход маны для использования и для поддержания боевого гимна на 6% за уровень навыка.</TM_BattleHymn_eff_desc>
+    <TM_BattleHymn_ver_desc>Увеличивает радиус боевого гимна на 3м на каждое очко навыка (базовый - 17м). Также увеличивается скорость боевого гимна на 0.5с (базовый - 5с).</TM_BattleHymn_ver_desc>
+    <TM_BattleHymn_pwr_desc>Увеличивает эффект боевого гимна на 12% за каждое очко навыка для каждого стиха (итерации) он остается активным и увеличивает шанс вызвать вдохновение на 1%.</TM_BattleHymn_pwr_desc>
+    <TM_BardTraining_pwr>Обучение барда</TM_BardTraining_pwr>
+    <TM_Entertain_ver>Обильный смех</TM_Entertain_ver> 						 
     <TM_Entertain_pwr>Импровизация</TM_Entertain_pwr>
     <TM_Inspire_ver>Драматург</TM_Inspire_ver>
     <TM_Inspire_pwr>Харизма</TM_Inspire_pwr>
@@ -714,6 +704,9 @@ Level 3: 70%</TM_Lullaby_pwr_desc>
     <TM_BattleHymn_ver>Затяжное внимание</TM_BattleHymn_ver>
     <TM_BattleHymn_eff>Вокалист</TM_BattleHymn_eff>
     <TM_BattleHymn_pwr>Героический хор</TM_BattleHymn_pwr>
+    
+    
+    
     <TM_SoulBond_pwr_desc>Увеличивает пользу от связи души с демоном.</TM_SoulBond_pwr_desc>
     <TM_SoulBond_eff_desc>Уменьшает затраты маны на использование теневого шага и теневого вызовова на 10% за каждое очко навыка.</TM_SoulBond_eff_desc>
     <TM_SoulBond_ver_desc>Уменьшает бремя душевной связи на носителе.</TM_SoulBond_ver_desc>

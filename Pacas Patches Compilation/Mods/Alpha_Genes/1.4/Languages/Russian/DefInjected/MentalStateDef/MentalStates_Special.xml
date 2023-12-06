@@ -1,0 +1,15 @@
+<LanguageData>
+
+  <AG_Thalassophobia.label>паника-бежит от воды</AG_Thalassophobia.label>
+  <AG_Thalassophobia.beginLetter>{0} бежит от воды.</AG_Thalassophobia.beginLetter>
+  <AG_Thalassophobia.beginLetterLabel>бежит от воды</AG_Thalassophobia.beginLetterLabel>
+  <AG_Thalassophobia.recoveryMessage>{0} больше не убегает от воды.</AG_Thalassophobia.recoveryMessage>
+  <AG_Thalassophobia.baseInspectLine>Психическое состояние: Бегство от воды</AG_Thalassophobia.baseInspectLine>
+
+
+  <AG_SelectiveManhunter.label>Ярость</AG_SelectiveManhunter.label>
+  <AG_SelectiveManhunter.baseInspectLine>Яростный</AG_SelectiveManhunter.baseInspectLine>
+
+
+<!--1.4/Defs/MentalStateDefs/MentalStates_Special.xml-->
+</LanguageData>

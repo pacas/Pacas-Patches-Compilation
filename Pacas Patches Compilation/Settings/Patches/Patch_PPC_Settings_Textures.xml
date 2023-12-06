@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Updated_Wires_Textures</key>
+                <defaultValue>true</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "HeavyPowerConduit"]/graphicData/texPath</xpath>
+                        <value>
+                            <texPath>Wires/UpdatedPowerConduitReinforced_Atlas</texPath>
+                        </value>
+                    </Operation>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "HeavyPowerConduit"]/uiIconPath</xpath>
+                        <value>
+                            <uiIconPath>Wires/UpdatedPowerConduitReinforced_MenuIcon</uiIconPath>
+                        </value>
+                    </Operation>
+                    
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "PowerConduit"]/graphicData/texPath</xpath>
+                        <value>
+                            <texPath>Wires/UpdatedPowerConduit_Atlas</texPath>
+                        </value>
+                    </Operation>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "PowerConduit"]/uiIconPath</xpath>
+                        <value>
+                            <uiIconPath>Wires/UpdatedPowerConduit_MenuIcon</uiIconPath>
+                        </value>
+                    </Operation>
+                    
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "WaterproofConduit"]/graphicData/texPath</xpath>
+                        <value>
+                            <texPath>Wires/UpdatedWaterproofConduit_Atlas</texPath>
+                        </value>
+                    </Operation>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "WaterproofConduit"]/uiIconPath</xpath>
+                        <value>
+                            <uiIconPath>Wires/UpdatedWaterproofConduit_MenuIcon</uiIconPath>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Updated_Weapons_Textures</key>
+                <defaultValue>true</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationFindMod">
+                        <mods>
+                            <li>RW - Weapon Modularization</li>
+                        </mods>
+                        <nomatch Class="PatchOperationSequence">
+                            <operations>
+                                <li Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName = "Gun_ChargeRifle"]/graphicData/texPath</xpath>
+                                    <value>
+                                        <texPath>Weapons/ChargeRifle</texPath>
+                                    </value>
+                                </li>
+                                <li Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName = "Gun_Splitter"]/graphicData/texPath</xpath>
+                                    <value>
+                                        <texPath>Weapons/Splitter</texPath>
+                                    </value>
+                                </li>
+                            </operations>
+                        </nomatch>
+                    </Operation>
+                </caseTrue>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

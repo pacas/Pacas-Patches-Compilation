@@ -1,0 +1,111 @@
+<LanguageData>
+
+  <AG_WingPoweredJump.label>Прыжок с крыльями</AG_WingPoweredJump.label>
+  <AG_WingPoweredJump.description>Взмах крыльев для прыжка на короткое расстояние.</AG_WingPoweredJump.description>
+  <AG_WingPoweredJump.verbProperties.label>взмах крыльев</AG_WingPoweredJump.verbProperties.label>
+
+  <AG_UnstableMutation.label>Нестабильная мутация</AG_UnstableMutation.label>
+  <AG_UnstableMutation.description>Вызывает нестабильную мутацию в теле. Эта мутация активирует новый случайный ген на 12 часов. По истечении этого периода ген деактивируется.</AG_UnstableMutation.description>
+
+  <AG_ReactiveArmourA.label>Минеральная броня</AG_ReactiveArmourA.label>
+  <AG_ReactiveArmourA.description>Потребляет минералы для укрепления организма пользователя против колющих и острых атак.</AG_ReactiveArmourA.description>
+
+  <AG_MineralOverdriveA.label>Минеральный овердрайв</AG_MineralOverdriveA.label>
+  <AG_MineralOverdriveA.description>Выводит минералы для повышения эффективности работы пользователя.</AG_MineralOverdriveA.description>
+
+  <AG_MineralShock.label>Минеральный шок</AG_MineralShock.label>
+  <AG_MineralShock.description>Используйте накопленные минералы, чтобы снять концентрированный комок почвы. Это приведет к тупой травме цели.</AG_MineralShock.description>
+
+  <AG_Zap.label>Электрический разряд</AG_Zap.label>
+  <AG_Zap.description>Накапливайте энергию и высвобождайте ее в виде мощного электрического разряда, который поражает цель электрическим током..</AG_Zap.description>
+
+  <AG_GreaterFireSpew.label>Огненное дыхание</AG_GreaterFireSpew.label>
+  <AG_GreaterFireSpew.description>Извергать легковоспламеняющуюся желчь, вырабатываемую специальным органом в области шеи. Желчь немедленно воспламеняется при контакте с кислородом, создавая опасный пожар, который подожжет все на своем пути.</AG_GreaterFireSpew.description>
+
+  <AG_GreaterAcidicVomit.label>Кислотный плевок</AG_GreaterAcidicVomit.label>
+  <AG_GreaterAcidicVomit.description>Отрыгивайте особенно сильные желудочные кислоты, разбрызгивая их содержимое по широкой площади. Эти кислоты вызывают ужасные раны, которые становятся все хуже по мере того, как кислота прожигает нижележащие ткани.</AG_GreaterAcidicVomit.description>
+
+  <AG_PetrifyingGaze.label>Взгляд окаменения</AG_PetrifyingGaze.label>
+  <AG_PetrifyingGaze.description>Направьте опасный взгляд, который способен превратить жертву в камень.</AG_PetrifyingGaze.description>
+
+  <AG_Web.label>Паутина</AG_Web.label>
+  <AG_Web.description>Сделайте нити липкого шелка на запястьях и бросайте эти паутины по желанию, оглушая врагов.</AG_Web.description>
+
+  <AG_InsectStinger.label>Жало</AG_InsectStinger.label>
+  <AG_InsectStinger.description>Имплантируйте ксеногены этого человека любому субъекту с помощью отвратительного жала инжектора.\n\nПосле имплантации ксеногерм перезапишет ксеногены цели. Гены половых клеток не будут затронуты.</AG_InsectStinger.description>
+
+  <AG_ParasiticStinger.label>Внедрение яиц паразита</AG_ParasiticStinger.label>
+  <AG_ParasiticStinger.description>Имплантируйте яйцеклетки с ксеногенами этого человека любому субъекту, используя отвратительное жало-инъектор.\n\nПосле имплантации яйцеклетки начнут расти внутри ЖЕРТВЫ, в конечном итоге извергаясь и убивая ее.</AG_ParasiticStinger.description>
+
+  <AG_InsectRally.label>Тактика стаи</AG_InsectRally.label>
+  <AG_InsectRally.description>Выделяет облако феромонных соединений, перед которыми не могут устоять все насекомые. Они почувствуют себя бодрее и сильнее, находясь рядом с носителем..</AG_InsectRally.description>
+
+  <AG_Detonation.label>Детонация</AG_Detonation.label>
+  <AG_Detonation.description>Выпускает нагретые газы, образующиеся в результате внутренних процессов этого гуманоида. Это создает волну перегретого воздуха, которая воздействует на окружающие плитки 1х1.При использовании пешка не пострадает.</AG_Detonation.description>
+
+  <AG_TeratogenicHealing.label>Тератогенное заживление</AG_TeratogenicHealing.label>
+  <AG_TeratogenicHealing.description>Перепрофилирует существующие опухоли для лечения цели, поглощая раковые образования в процессе.</AG_TeratogenicHealing.description>
+
+  <AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+  <AG_TeratogenicManipulation.description>Перепрофилирует существующие опухоли, обеспечивая огромный толчок к манипуляциям и ловкости.</AG_TeratogenicManipulation.description>
+
+  <AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+  <AG_TeratogenicSwiftness.description>Перепрофилирует существующие опухоли, обеспечивая огромный прирост скорости движения и работы.</AG_TeratogenicSwiftness.description>
+
+  <AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+  <AG_TeratogenicStamina.description>Перепрофилирует существующие опухоли, чтобы дать огромный толчок их иммунной системе и общей выносливости</AG_TeratogenicStamina.description>
+
+  <AG_HealingTouch.label>Целительное прикосновение</AG_HealingTouch.label>
+  <AG_HealingTouch.description>Перепрофилирует существующие опухоли для лечения других людей, поглощая при этом раковые образования.</AG_HealingTouch.description>
+
+  <AG_TeratogenicBurst.label>Тератогенное прикосновение</AG_TeratogenicBurst.label>
+  <AG_TeratogenicBurst.description>Переносит существующие опухоли на других людей, что, как правило, так же болезненно и опасно, как и звучит. Может использоваться как инструмент нападения или как способ передачи опухолей другим колонистам.</AG_TeratogenicBurst.description>
+
+
+  <AG_MinorSummon.label>Призыв слабого животного</AG_MinorSummon.label>
+  <AG_MinorSummon.description>Призыв животного,будет находиться поблизости, будет агрессивно настроено ко всем, в том числе и к призывателю.</AG_MinorSummon.description>
+
+  <AG_Summon.label>Призыв обычного животного</AG_Summon.label>
+  <AG_Summon.description>Призыв животного,будет находиться поблизости, будет агрессивно настроено ко всем, в том числе и к призывателю.</AG_Summon.description>
+
+  <AG_MajorSummon.label>Призыв сильного животного</AG_MajorSummon.label>
+  <AG_MajorSummon.description>Призыв животного,будет находиться поблизости, будет агрессивно настроено ко всем, в том числе и к призывателю.</AG_MajorSummon.description>
+
+  <AG_InsanityBlast.label>Безумие</AG_InsanityBlast.label>
+  <AG_InsanityBlast.description>Психически воздействуйте на разум других людей, заставляя их впадать в неистовство и нападать на всех вокруг без разбора. Этой способности могут противостоять цели с низкой психической чувствительностью.</AG_InsanityBlast.description>
+
+  <AG_UnstableMind.label>Пси-растройство</AG_UnstableMind.label>
+  <AG_UnstableMind.description>Психически воздействует на разум других людей, вызывая психическую нестабильность, которая делает их более склонными к психическим срывам и значительно повышает их психическую чувствительность. Этот эффект длится три часа и может быть использован как на враждебных, так и на дружественных целях..</AG_UnstableMind.description>
+
+  <AG_DevourBrains.label>Поглотить мозги</AG_DevourBrains.label>
+  <AG_DevourBrains.description>Поглотите мозг недееспособного, но живого человека, поглотив часть его интеллекта и получив бафф, который зависит от высшего мастерства поглощенного мозга. Это убивает цель.\n\nОдновременно может быть активен только один бафф "поглощение". Использование способности до истечения 2-дневного таймера обновляет бафф и его продолжительность.</AG_DevourBrains.description>
+
+  <AG_GeneSyphon.label>Кража гена</AG_GeneSyphon.label>
+  <AG_GeneSyphon.description>Принудительно извлеките ген из недееспособного, но живого человека, включив его в ксенотип заклинателя в качестве ксеногена. Ген выбирается случайным образом. Это убьет цель.</AG_GeneSyphon.description>
+
+
+<AG_AcidicDetonation.label>Туман кислоты</AG_AcidicDetonation.label>
+  <AG_AcidicDetonation.description>Выпрыскивает кислоту под огромным давлением, наносит сильный урон всем вокруг, не наносит урона пользователю умения.</AG_AcidicDetonation.description>
+
+  <!--1.4/Defs/AbilityDefs/Abilities.xml-->
+<AG_InsectStingerEndogenes.label>эндогены</AG_InsectStingerEndogenes.label>
+<AG_InsectStingerEndogenes.description>Вживите эндогены этого человека любому субъекту с помощью отвратительного жала-инъектора.\n\nПри имплантации зародыш перезапишет эндогены цели. Ксеноген не будет затронут.</AG_InsectStingerEndogenes.description>
+<AG_ParasiticStingerEndogenes.label>яйца эндогенных паразитов</AG_ParasiticStingerEndogenes.label>
+<AG_ParasiticStingerEndogenes.description>Имплантировать яйца с эндогенами этого человека любому субъекту с помощью отвратительного жала-инъектора.\n\nПри имплантации яйца начнут расти внутри цели, в конечном итоге прорезываясь и убивая ее.</AG_ParasiticStingerEndogenes.description>
+<AG_MechConversion.label>механический скремблер IFF</AG_MechConversion.label>
+<AG_MechConversion.description>Удаленно взламывает IFF-сенсоры механоида, чтобы временно сменить его лояльность. Это продлится день, после чего механоид вернется к своей прежней лояльности и будет атаковать без разбора.</AG_MechConversion.description>
+<AG_BandwidthLoop.label>контур пропускной способности</AG_BandwidthLoop.label>
+<AG_BandwidthLoop.description>Психически создать петлю обратной связи в соединении меха, перегрузив его пропускную способность и заставив его взорваться, уничтожив себя. Этот взрыв повредит все, что находится поблизости, а дальность взрыва зависит от пропускной способности меха.</AG_BandwidthLoop.description>
+<AG_SummonTempBandwidth.label>узел вызова группы</AG_SummonTempBandwidth.label>
+<AG_SummonTempBandwidth.description>Призвать временный узел группы, который увеличит пропускную способность заклинателя на 10 на целую неделю.</AG_SummonTempBandwidth.description>
+<AG_SummonMilitor.label>призвать механоид Милитор</AG_SummonMilitor.label>
+<AG_SummonMilitor.description>Призывает механоид Милитор. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой возможности оператору связи потребуется как минимум 1 пропускная способность меха.</AG_SummonMilitor.description>
+<AG_SummonTesseron.label>призвать Тессерон</AG_SummonTesseron.label>
+<AG_SummonTesseron.description>Призывает механоида Тессерон. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой возможности оператору связи потребуется пропускная способность не менее 3 мехов.</AG_SummonTesseron.description>
+<AG_SummonCentipede.label>призвать Сентипеда</AG_SummonCentipede.label>
+<AG_SummonCentipede.description>Призывает механоид Сентипеда. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой возможности оператору связи потребуется пропускная способность не менее 4 мехов.</AG_SummonCentipede.description>
+
+<AG_TailGrapple.label>Цепкий хвост</AG_TailGrapple.label>
+<AG_TailGrapple.description>Атакуйте цель цепким хвостом, захватывая ее и обездвиживая на короткое время.</AG_TailGrapple.description>
+
+</LanguageData>

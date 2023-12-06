@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+        <!--Ядро HSK-->
+
+    <Game_Changes>Изменения HSK</Game_Changes>
+    <Texture_Changes>Ретекстуры и визуальные исправления</Texture_Changes>
+    <Restart_Required>Для изменений требуется перезапуск</Restart_Required>
+    
+    <Updated_Reinforced_Wire>Полезные усиленные провода</Updated_Reinforced_Wire>
+    <Updated_Reinforced_Wire_Tooltip>Изменяет рецепт усиленных проводов и их статы</Updated_Reinforced_Wire_Tooltip>
+    
+    <More_Movable_Things>Больше перемещаемых строений</More_Movable_Things>
+    <More_Movable_Things_Tooltip>Больше различных строений теперь могут быть убраны и перемещены</More_Movable_Things_Tooltip>
+    
+    <Ammo_Multiplier_Active>Использовать множитель крафта патронов?</Ammo_Multiplier_Active>
+    <Ammo_Multiplier_Active_Tooltip>При включении количество создаваемых патронов будет увеличено в X раз</Ammo_Multiplier_Active_Tooltip>
+    <Ammo_Multiplier>Множитель - {Ammo_Multiplier}</Ammo_Multiplier>
+    
+    <No_More_Eyepatches>Убрать повязки на глаза</No_More_Eyepatches>
+    <No_More_Eyepatches_Tooltip>Не нравятся повязки на глаза из TAP? Мне тоже.</No_More_Eyepatches_Tooltip>
+    
+        <!--Текстуры-->
+    
+    <Updated_Wires_Textures>Новые текстуры проводов</Updated_Wires_Textures>
+    <Updated_Wires_Textures_Tooltip>Теперь все провода (кроме невидимых) будут иметь новые потрясающие текстуры</Updated_Wires_Textures_Tooltip>
+    <Based_Power>На основе мода «Power Conduit Retexture»</Based_Power>
+    
+    <Updated_Weapons_Textures>Новые текстуры оружия</Updated_Weapons_Textures>
+    <Updated_Weapons_Textures_Tooltip>Теперь R6 Splitter и R3 Menstruum будут иметь новые потрясающие текстуры. Выключено если установлен мод Weapon Modularisation.</Updated_Weapons_Textures_Tooltip>
+    <Commited_Raseri>Текстуры созданы пользователем Raseri</Commited_Raseri>
+    
+    <Updated_MiscRobots_Textures>Новые текстуры ботов</Updated_MiscRobots_Textures>
+    <Updated_MiscRobots_Textures_Tooltip>Теперь бот-уборщик и бот-носильщик будут иметь новые потрясающие текстуры</Updated_MiscRobots_Textures_Tooltip>
+    <Based_MiscRobots>На основе мода «Misc. Craftable Robots Retexture»</Based_MiscRobots>
+    
+    <Updated_Archery_Textures>Новые текстуры мишени для стрельбы</Updated_Archery_Textures>
+    <Updated_Archery_Textures_Tooltip>Теперь мишень для стрельбы наконец-то нормально поворачивается</Updated_Archery_Textures_Tooltip>
+    <Based_Archery>На основе мода «JGH Retexture Pack»</Based_Archery>
+    
+        <!--DLC-->
+        
+    <Change_GeneBank_Capacity>Вместимость генного банка - {Change_GeneBank_Capacity}</Change_GeneBank_Capacity>
+    
+</LanguageData>

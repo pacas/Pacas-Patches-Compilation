@@ -1,0 +1,77 @@
+<LanguageData>
+
+  <AG_AncientGeneAssembler.label>Древний генный ассемблер</AG_AncientGeneAssembler.label>
+  <AG_AncientGeneAssembler.description>Верстак для создания имплантируемых ксеногермов из генпакетов, хранящихся в близлежащих банках генов. Это устройство разрушилось само по себе, что сделало его бесполезным.</AG_AncientGeneAssembler.description>
+
+  <AG_AncientGeneBank.label>Древний генный банк</AG_AncientGeneBank.label>
+  <AG_AncientGeneBank.description>Это устройство было способно хранить генпакеты и использовать их для создания новых ксеногермов, когда его помещали рядом с генным ассемблером. Он проржавел так, что его невозможно починить, а хранящиеся внутри генпакеты давно исчезли.</AG_AncientGeneBank.description>
+
+  <AG_AncientGeneExtractor.label>Древний экстрактор генов</AG_AncientGeneExtractor.label>
+  <AG_AncientGeneExtractor.description>Автоматизированная хирургическая машина, которая могла извлечь гены человека и создать из них генный пакет. Его внутреннее оборудование полностью оплавлено и заржавело.</AG_AncientGeneExtractor.description>
+
+  <AG_AncientGeneProcessor.label>Древний генный процессор</AG_AncientGeneProcessor.label>
+  <AG_AncientGeneProcessor.description>Система генетического анализа и обработки данных. Разрушенный и непригодный для использования.</AG_AncientGeneProcessor.description>
+
+  <AG_AncientGrowthVat.label>Древний чан для выращивания</AG_AncientGrowthVat.label>
+  <AG_AncientGrowthVat.description>Емкость с жидкостью, которая была способна вынашивать эмбрион или ускорять рост ребенка. Его прозрачная пластиковая оболочка была разбита, по-видимому, изнутри... .</AG_AncientGrowthVat.description>
+
+  <AG_AncientHugeBank.label>Древний огромный генный банк</AG_AncientHugeBank.label>
+  <AG_AncientHugeBank.description>Огромный генный банк, намного больший, чем те, что используются в настоящее время. Полностью сломанный.</AG_AncientHugeBank.description>
+
+  <AG_AncientLamp.label>Древняя разбитая лампа</AG_AncientLamp.label>
+  <AG_AncientLamp.description>Разбитая лампа.</AG_AncientLamp.description>
+
+  <AG_AncientVitalsMonitor.label>Древний монитор жизненных показателей</AG_AncientVitalsMonitor.label>
+  <AG_AncientVitalsMonitor.description>Сломанный монитор жизненных показателей с разбитым экраном.</AG_AncientVitalsMonitor.description>
+
+  <AG_AncientBandNode.label>Сломанный усилитель сигнала</AG_AncientBandNode.label>
+  <AG_AncientBandNode.description>Сломанный усилитель сигнала механоидного диапазона. Его антенны изогнуты под странными углами.</AG_AncientBandNode.description>
+
+  <AG_AncientBasicRecharger.label>Древняя зарядка мехов</AG_AncientBasicRecharger.label>
+  <AG_AncientBasicRecharger.description>Сломанная зарядка меха. Соединительные штифты погнуты и сколоты, что делает всю машину бесполезной.</AG_AncientBasicRecharger.description>
+
+  <AG_AncientLargeRecharger.label>Древний большой зарядный механизм для мехов</AG_AncientLargeRecharger.label>
+  <AG_AncientLargeRecharger.description>Сломанная зарядка меха. Соединительные штифты погнуты и сколоты, что делает всю машину бесполезной</AG_AncientLargeRecharger.description>
+
+  <AG_AncientMechGestator.label>Древний механический гестатор</AG_AncientMechGestator.label>
+  <AG_AncientMechGestator.description>Танк, используемый для создания новых механоидов. Резервуар для механитов был пробит давным-давно, и вся жидкость давным-давно испарилась.</AG_AncientMechGestator.description>
+
+  <AG_AncientLargeMechGestator.label>Древний большой мех-гестатор</AG_AncientLargeMechGestator.label>
+  <AG_AncientLargeMechGestator.description>Танк, используемый для создания новых механоидов. Резервуар для механитов был пробит давным-давно, и вся жидкость давным-давно испарилась.</AG_AncientLargeMechGestator.description>
+
+  <AG_AncientSubcoreRipscanner.label>Древний субкорреляционный рипсканнер</AG_AncientSubcoreRipscanner.label>
+  <AG_AncientSubcoreRipscanner.description>Эта штука ТАКАЯ острая.По сути, медицинская кровать с шипами.</AG_AncientSubcoreRipscanner.description>
+
+  <AG_AncientWastepackAtomizer.label>Древний уничтожитель отходов</AG_AncientWastepackAtomizer.label>
+  <AG_AncientWastepackAtomizer.description>Это было просто модное мусорное ведро, а теперь это просто сломанное мусорное ведро.</AG_AncientWastepackAtomizer.description>
+
+  <AG_RuinedHospitalBed.label>древняя больничная койка</AG_RuinedHospitalBed.label>
+  <AG_RuinedHospitalBed.description>Кровать, специально разработанная для использования в больницах. Матрас сгнил, превратившись в ничто.</AG_RuinedHospitalBed.description>
+
+  <AG_AncientShelf.label>Древняя полка</AG_AncientShelf.label>
+  <AG_AncientShelf.description>Ржавая полка с тремя стопками. В нем не так много предметов, как когда-то, из-за его аварийного состояния.</AG_AncientShelf.description>
+
+  <AG_AncientPollutionPump.label>Древний насос для загрязнения окружающей среды</AG_AncientPollutionPump.label>
+  <AG_AncientPollutionPump.description>Этот насос вообще ничего не будет качать в ближайшее время.</AG_AncientPollutionPump.description>
+
+  <AG_AncientCorpse.label>Древний труп</AG_AncientCorpse.label>
+  <AG_AncientCorpse.description>Этот скелет знавал лучшие дни.</AG_AncientCorpse.description>
+
+  <AG_RandomGenepack.label>Случайный генпак</AG_RandomGenepack.label>
+  <AG_RandomGenepack.description>Создать случайный генпакет.</AG_RandomGenepack.description>
+
+  <AG_RandomGeneTool.label>Случайный генный инструмент</AG_RandomGeneTool.label>
+  <AG_RandomGeneTool.description>Инструмент для создания рандомных генов.</AG_RandomGeneTool.description>
+
+  <AG_AncientFaultyLamp.label>Древняя неисправная лампа</AG_AncientFaultyLamp.label>
+  <AG_AncientFaultyLamp.description>Металлическая капсула, наполненная каким-то биолюминесцентным составом.Кажется, все еще излучает какой-то слабый свет.</AG_AncientFaultyLamp.description>
+
+  <AG_RuinedLabLamp.label>Древняя лабораторная лампа</AG_RuinedLabLamp.label>
+  <AG_RuinedLabLamp.description>Металлический столб со стеклянным цилиндром, заполненным каким-то биолюминесцентным составом.Кажется, все еще излучает какой-то слабый свет.</AG_RuinedLabLamp.description>
+
+  <AG_RaidSpawner.label>Разрушенный радиомаяк</AG_RaidSpawner.label>
+  <AG_RaidSpawner.description>Это устройство, по-видимому, излучает слабые радиоволны.</AG_RaidSpawner.description>
+
+
+<!--1.4/Defs/ThingDefs_Buildings/Buildings_Junk.xml-->
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+
+  <AG_ConsumeMetal.reportString>потребляющая цельA.</AG_ConsumeMetal.reportString>
+  <AG_FeedMetal.reportString>кормление цельB.</AG_FeedMetal.reportString>
+  <AG_DeliverMetal.reportString>Доставка к цельC.</AG_DeliverMetal.reportString>
+
+
+<!--1.4/Defs/JobDefs/Jobs_Metal.xml-->
+</LanguageData>

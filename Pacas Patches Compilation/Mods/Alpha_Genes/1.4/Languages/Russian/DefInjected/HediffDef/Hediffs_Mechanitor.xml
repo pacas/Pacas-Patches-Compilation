@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/HediffDefs/Hediffs_Mechanitor.xml-->
+<AG_IncreasedCommandRange.label>увеличен диапазон команд</AG_IncreasedCommandRange.label>
+<AG_IncreasedCommandRange.description>Дальность действия этого человека увеличена при командовании созданными механоидами.</AG_IncreasedCommandRange.description>
+<AG_DecreasedCommandRange.label>уменьшенный диапазон команд</AG_DecreasedCommandRange.label>
+<AG_DecreasedCommandRange.description>У этого человека уменьшен радиус действия при командовании созданными механоидами.</AG_DecreasedCommandRange.description>
+<AG_MechRepairBoost.label>Ускорение ремонта</AG_MechRepairBoost.label>
+<AG_MechRepairBoost.description>Скорость ремонта этого механоида была увеличена.</AG_MechRepairBoost.description>
+
+</LanguageData>

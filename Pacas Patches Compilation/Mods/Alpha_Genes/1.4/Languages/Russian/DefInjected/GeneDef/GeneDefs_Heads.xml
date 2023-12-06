@@ -1,0 +1,27 @@
+<LanguageData>
+
+  <!-- Heads -->
+
+  <AG_AerofleetHead.label>Аэрофлотовый</AG_AerofleetHead.label>
+  <AG_AerofleetHead.description>Желеобразный полупрозрачный капюшон окружает голову носителя.</AG_AerofleetHead.description>
+
+  <AG_SlugFace.label>Голова слизняка</AG_SlugFace.label>
+  <AG_SlugFace.description>Оба глаза субъекта выступают из черепа в виде слизеподобных стеблей. Скользкий!</AG_SlugFace.description>
+
+  <AG_FoxFace.label>Лисья голова</AG_FoxFace.label>
+  <AG_FoxFace.description>Носители этого гена обладают удлиненной мордой с круглым носом и щелевидными глазами.(Ушки найдете у торговца)</AG_FoxFace.description>
+
+  <AG_RockSpurs.label>Скалистые хребты</AG_RockSpurs.label>
+  <AG_RockSpurs.description>У носителей этого гена на голове скопления минералов.</AG_RockSpurs.description>
+
+  <AG_CancerousFace.label>Раковая голова</AG_CancerousFace.label>
+  <AG_CancerousFace.description>Носители этого гена обладают бугристой, похожей на раковую опухоль головой с рыхлой кожей и язвами.</AG_CancerousFace.description>
+
+
+<AG_DrakonoriHead.label>голова драконори</AG_DrakonoriHead.label>
+                         <AG_DrakonoriHead.description>Носители этого гена обладают мордой, как у рептилии.</AG_DrakonoriHead.description>
+
+<AG_VeryGauntHead.label>гнилая голова</AG_VeryGauntHead.label>
+                         <AG_VeryGauntHead.description>Носители этого гена имеют гнилую голову, изможденный вид лица, с таким видом завести отношения равны 0..</AG_VeryGauntHead.description>
+
+</LanguageData>

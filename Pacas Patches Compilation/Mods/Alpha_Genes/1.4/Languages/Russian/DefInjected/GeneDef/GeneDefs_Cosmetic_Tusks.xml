@@ -1,0 +1,25 @@
+<LanguageData>
+
+  <!-- Tusks -->
+
+  <AG_NoTusks.label>Нет жвал/бивней</AG_NoTusks.label>
+  <AG_NoTusks.description>Носители этого гена не имеют бивней или жвал.</AG_NoTusks.description>
+
+  <AG_Tusks.label>Бивни</AG_Tusks.label>
+  <AG_Tusks.description>У носителей этого гена вырастают два больших бивня, выступающих из челюсти.</AG_Tusks.description>
+
+  <AG_PincerMandibles.label>Клешневидные жвалы</AG_PincerMandibles.label>
+  <AG_PincerMandibles.description>У носителей этого гена вырастают две большие клешневидные жвалы, выступающие из их челюстей.</AG_PincerMandibles.description>
+
+  <AG_FaceTentacles.label>Лицевые щупальца</AG_FaceTentacles.label>
+  <AG_FaceTentacles.description>У носителей этого гена вырастает ряд слизистых щупалец, выступающих из их челюсти.</AG_FaceTentacles.description>
+
+  <AG_BeetleMandibles.label>Жвалы жука</AG_BeetleMandibles.label>
+  <AG_BeetleMandibles.description>У носителей этого гена вырастают две большие жвалы жука, выступающие из их челюсти</AG_BeetleMandibles.description>
+
+  <AG_BeeMandibles.label>Пчелиные жвалы</AG_BeeMandibles.label>
+  <AG_BeeMandibles.description>У носителей этого гена вырастают две большие пчелиные жвалы, выступающие из их челюсти.</AG_BeeMandibles.description>
+
+
+<AG_NoTusks.customEffectDescriptions.0>С помощью этого гена вы можете создавать ксенотипы, в которых пешка может случайным образом иметь бивни/жвалы </AG_NoTusks.customEffectDescriptions.0>
+</LanguageData>

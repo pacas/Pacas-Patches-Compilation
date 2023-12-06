@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <AG_AsexualHatched>{0} размножался бесполым путем.</AG_AsexualHatched>
+    <AG_DeathIn>Смерть в {0}</AG_DeathIn>
+    <AG_RandomGenesGained>Нестабильная мутация, полученная путем {0}: {1}</AG_RandomGenesGained>
+    <AG_PregnancySlower>Ген медленной беременности: -25% скорости беременности</AG_PregnancySlower>
+    <AG_PregnancyFaster>Ген быстрой беременности: +25% к скорости беременности</AG_PregnancyFaster>
+    <AG_ReativeArmourOn>Включить броню</AG_ReativeArmourOn>
+    <AG_ReativeArmourOff>Отключить броню</AG_ReativeArmourOff>
+    <AG_OverdriveOn>Включить перегрузку</AG_OverdriveOn>
+    <AG_OverdriveOff>Отключить перегрузку</AG_OverdriveOff>
+    <AG_AbilityMineralCost>Стоимость полезных ископаемых</AG_AbilityMineralCost>
+    <AG_AbilityDisabledNoMineralGene>{0_labelShort} не является минеральным поглотителем.</AG_AbilityDisabledNoMineralGene>
+    <AG_AbilityDisabledNoMineral>{0_labelShort} не хватает минералов.</AG_AbilityDisabledNoMineral>
+    <AG_AlreadyFourGenes>Этот генный пакет уже содержит максимально возможное количество генов</AG_AlreadyFourGenes>
+    <AG_NeedsMoreThanTwoGenes>Разрушитель не сработает, если в генном пакете останется только один ген</AG_NeedsMoreThanTwoGenes>
+    <AG_CannotBeUsedAsWeapon>Эту способность нельзя использовать как одноразовое оружие против враждебного поселенца.</AG_CannotBeUsedAsWeapon>
+    <AG_ParasitesHatchedLabel>Взрыв грудной клетки!</AG_ParasitesHatchedLabel>
+    <AG_ParasitesHatched>Детеныш {0} вылупился из своего хозяина, убив его в процессе.</AG_ParasitesHatched>
+    <AG_UnsummonedIn>Призыв истекает через {0}</AG_UnsummonedIn>
+    <AG_ResistedInsanityBlast>Цель выдержала воздействие безумия!</AG_ResistedInsanityBlast>
+    <AG_DownedOrLyingInBed>Цель должна лежать или лежать в кровати, чтобы эта способность работала.</AG_DownedOrLyingInBed>
+    <AG_PawnWithoutBrain>У цели нет мозга. К сожалению, это довольно часто встречается в мире.</AG_PawnWithoutBrain>
+    <AG_CannotBeUsedOnDeathless>Мертвые люди невосприимчивы к имплантации паразитов.</AG_CannotBeUsedOnDeathless>
+    <!-- Settings -->
+    <AG_DisableMutationsMessage>Отключить нестабильные мутации</AG_DisableMutationsMessage>
+    <AG_DisableMutationsMessage_Description>По умолчанию три гена "нестабильных мутаций" будут отображать всплывающее сообщение, сообщающее вам, какие гены были приобретены каждым колонистом. Это нормально, если у вас есть один колонист, но не так хорошо, если у вас 20... С помощью этого переключателя параметров вы можете удалить эти сообщения.</AG_DisableMutationsMessage_Description>
+    <AG_DisableThalassophobiaMessage>Отключить сообщения Гидрофобия</AG_DisableThalassophobiaMessage>
+    <AG_DisableThalassophobiaMessage_Description>По умолчанию, когда колонист с геном Гидрофобия видит воду, игра генерирует письмо, чтобы уведомить игрока. Это может быть излишним, если у вас много колонистов, которые часто убегают, поэтому вы можете отключить его с помощью этой опции.\n\nИмейте в виду, что колонисты все равно будут убегать, но вы НЕ будете уведомлены.</AG_DisableThalassophobiaMessage_Description>
+    <AG_GeneRemovalComa>Генетические инструменты вызывают коматозное удаление генов</AG_GeneRemovalComa>
+    <AG_GeneRemovalComa_Description>Использование любого генетического инструмента вызывает кому удаления генов, которая длится 15 дней, выводя колониста из строя, и никакой другой инструмент не может быть использован в течение этого периода. Это включено по умолчанию для баланса.</AG_GeneRemovalComa_Description>
+    <AG_DisableQuests>Отключить задания заброшенной биотехнологической лаборатории</AG_DisableQuests>
+    <AG_DisableQuests_Description>Отключает запуск заданий заброшенной биотехнологической лаборатории. Имейте в виду, что эти квесты не зависят от любых других квестов или событий рассказчика (рейды, охотники на людей и т.д.). ПРЕДУПРЕЖДЕНИЕ: отключение этого сделает большинство альфа-генов и генетических инструментов недоступными во время обычного игрового процесса.</AG_DisableQuests_Description>
+    <AG_QuestRate>Множитель заброшенных биотехнологических лабораторий (меньший означает более частое проведение мероприятия)</AG_QuestRate>
+    <AG_QuestRateTooltip>Частота предлагаемого квеста "Заброшенная биотехнологическая лаборатория" умножается на это число (при множителе 1 он предлагается случайным образом каждые 15-30 дней). Числа ниже 1 уменьшают время, в то время как числа выше него увеличивают его. Обратите внимание, что это событие не "заменяет" обычные квесты, оно работает независимо.</AG_QuestRateTooltip>
+    <AG_Reset>Сброс</AG_Reset>
+    <AG_ShowAllAnimalSummonGenes>Показать ВСЕ гены призыва животных (требуется перезагрузка игры)</AG_ShowAllAnimalSummonGenes>
+    <AG_ShowAllAnimalSummonGenes_Description>Если включено, ВСЕ гены призыва животных будут отображаться на экране создания ксенотипа. Имейте в виду, что эти гены будут взяты у всех животных, будь то ванильные или модифицированные, поэтому они могут быстро выйти из-под контроля!\nПо умолчанию они скрыты, и отображаются три гена, которые выбирают один случайным образом.</AG_ShowAllAnimalSummonGenes_Description>
+    <VRE_OneScorpionPerColonist>Один скорпион на колониста</VRE_OneScorpionPerColonist>
+    <VRE_UnlockedByGeneOcular>Разблокировано с помощью гена Окулярная близость</VRE_UnlockedByGeneOcular>
+    <AM_CantUseOnNonMechs>Эта способность будет работать только на механоидов</AM_CantUseOnNonMechs>
+    <AM_OnlyMechanitorCanUse>Только механитор может использовать эту способность</AM_OnlyMechanitorCanUse>
+    <AM_CantUseOnBossMechs>Механоиды "Босс" имеют усиленную систему IFF, которую нельзя взломать</AM_CantUseOnBossMechs>
+    <AM_NotEnoughBandwidth>У Механитора недостаточно пропускной способности, чтобы использовать эту возможность на {0}</AM_NotEnoughBandwidth>
+    <AM_CantUseVEMechs>Этот механоид управляется дистанционно пилотом-человеком, и его нельзя взломать</AM_CantUseVEMechs>
+    <AG_CantSpawnThere>Невозможно создать там временный узел</AG_CantSpawnThere>
+    <AG_OnlyOnFriendlyMechs>{0} не является колониальным мехом, это будет работать только на мехах, принадлежащих игроку</AG_OnlyOnFriendlyMechs>
+    <AG_MechsImmuneToInsanityBlast>Механоиды не подвержены воздействию взрыва безумия!</AG_MechsImmuneToInsanityBlast>
+    <AG_NotOnAndroids>Эта способность не работает на андроидах</AG_NotOnAndroids>
+    <AG_TargetTooBig>Эта цель слишком велика для захвата хвостом</AG_TargetTooBig>
+    <AG_Hybrid>Гибрид</AG_Hybrid>
+</LanguageData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>Biotech</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/XmlExtensions.SettingsMenuDef[modId="PPC.Pacas.Settings"]/settings/li[@Class="XmlExtensions.Setting.TabView"]/tabs/li[3]/settings</xpath>
+                        <value>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Slider">
+                                <key>Change_GeneBank_Capacity</key>
+                                <label>Genebank capacity - {Change_GeneBank_Capacity}</label>
+                                <tKey>Change_GeneBank_Capacity</tKey>
+                                <defaultValue>4</defaultValue>
+                                <min>1</min>
+                                <max>30</max>
+                                <decimals>0</decimals>
+                            </li>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.UseSetting">
+                        <modId>PPC.Pacas.Settings</modId>
+                        <key>Change_GeneBank_Capacity</key>
+                        <defaultValue>4</defaultValue>
+                        <apply>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="GeneBank"]/comps/li[@Class="CompProperties_GenepackContainer"]/maxCapacity</xpath>
+                                <value>
+                                    <maxCapacity>{Change_GeneBank_Capacity}</maxCapacity>
+                                </value>
+                            </Operation>
+                        </apply>
+                    </Operation>
+                </caseTrue>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

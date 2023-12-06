@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>Misc. Robots</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/XmlExtensions.SettingsMenuDef[modId="PPC.Pacas.Settings"]/settings/li[@Class="XmlExtensions.Setting.TabView"]/tabs/li[2]/settings</xpath>
+                        <value>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Updated_MiscRobots_Textures</key>
+                                <label>New bots textures</label>
+                                <tKey>Updated_MiscRobots_Textures</tKey>
+                                <defaultValue>true</defaultValue>
+                                <tooltip>Now hauling and cleaning bots will have new awesome textures</tooltip>
+                                <tKeyTip>Updated_MiscRobots_Textures_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Text">
+                                <text>Based on «Misc. Craftable Robots Retexture»</text>
+                                <tKey>Based_MiscRobots</tKey>
+                            </li>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.OptionalPatch">
+                        <modId>PPC.Pacas.Settings</modId>
+                        <key>Updated_MiscRobots_Textures</key>
+                        <defaultValue>true</defaultValue>
+                        <caseTrue>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "AIRobot_RechargeStation_Cleaner"]/graphicData/texPath</xpath>
+                                <value>
+                                    <texPath>AIRobotRetexture/Stations/AIRobotRechargeStation_CBot</texPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "AIRobot_RechargeStation_Hauler"]/graphicData/texPath</xpath>
+                                <value>
+                                    <texPath>AIRobotRetexture/Stations/AIRobotRechargeStation_HBot</texPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "AIRobot_RechargeStation_Cleaner"]/secondaryGraphicPath</xpath>
+                                <value>
+                                    <secondaryGraphicPath>AIRobotRetexture/Stations/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "AIRobot_RechargeStation_Hauler"]/secondaryGraphicPath</xpath>
+                                <value>
+                                    <secondaryGraphicPath>AIRobotRetexture/Stations/AIRobotRechargeStation_Empty</secondaryGraphicPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/PawnKindDef[defName = "AIRobot_Cleaner"]/lifeStages/li/bodyGraphicData/texPath</xpath>
+                                <value>
+                                    <texPath>AIRobotRetexture/Bots/CleaningBot</texPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/PawnKindDef[defName = "AIRobot_Hauler"]/lifeStages/li/bodyGraphicData/texPath</xpath>
+                                <value>
+                                    <texPath>AIRobotRetexture/Bots/HoverBot</texPath>
+                                </value>
+                            </Operation>
+                        </caseTrue>
+                    </Operation>
+                </caseTrue>
+            </li>
+            
+            <li Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>Misc. Training (no Task)</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/XmlExtensions.SettingsMenuDef[modId="PPC.Pacas.Settings"]/settings/li[@Class="XmlExtensions.Setting.TabView"]/tabs/li[2]/settings</xpath>
+                        <value>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Updated_Archery_Textures</key>
+                                <label>New archery target texture</label>
+                                <tKey>Updated_Archery_Textures</tKey>
+                                <defaultValue>true</defaultValue>
+                                <tooltip>Now archery target have new awesome texture (and rotated too!)</tooltip>
+                                <tKeyTip>Updated_Archery_Textures_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Text">
+                                <text>Based on «JGH Retexture Pack»</text>
+                                <tKey>Based_Archery</tKey>
+                            </li>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.OptionalPatch">
+                        <modId>PPC.Pacas.Settings</modId>
+                        <key>Updated_Archery_Textures</key>
+                        <defaultValue>true</defaultValue>
+                        <caseTrue>
+                            <Operation Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName = "ArcheryTarget"]/graphicData</xpath>
+                                <value>
+                                    <drawSize>1.3</drawSize>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "ArcheryTarget"]/graphicData/texPath</xpath>
+                                <value>
+                                    <texPath>Archery/ArcheryStand</texPath>
+                                </value>
+                            </Operation>
+                            <Operation Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName = "Mote_ArcheryArrow"]/graphicData/texPath</xpath>
+                                <value>
+                                    <texPath>Archery/Motes/Arrow</texPath>
+                                </value>
+                            </Operation>
+                        </caseTrue>
+                    </Operation>
+                </caseTrue>
+            </li>
+            
+            <li Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>Tec's Assorted Patches</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/XmlExtensions.SettingsMenuDef[modId="PPC.Pacas.Settings"]/settings/li[@Class="XmlExtensions.Setting.TabView"]/tabs/li[1]/settings</xpath>
+                        <value>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>No_More_Eyepatches</key>
+                                <label>Remove eyepatches</label>
+                                <tKey>No_More_Eyepatches</tKey>
+                                <defaultValue>false</defaultValue>
+                                <tooltip>Dont want these eyepatches from TAP? Me too.</tooltip>
+                                <tKeyTip>No_More_Eyepatches_Tooltip</tKeyTip>
+                            </li>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.OptionalPatch">
+                        <modId>PPC.Pacas.Settings</modId>
+                        <key>No_More_Eyepatches</key>
+                        <defaultValue>false</defaultValue>
+                        <caseTrue>
+                            <Operation Class="PatchOperationRemove">
+                                <xpath>Defs/ThingDef[defName="Apparel_EyePatchL" or defName="Apparel_EyePatchR"]</xpath>
+                            </Operation>
+                        </caseTrue>
+                    </Operation>
+                </caseTrue>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Genetics -->
+
+  <AG_HaulToAlphaGeneBank.label>альфапак</AG_HaulToAlphaGeneBank.label>
+  <AG_HaulToAlphaGeneBank.verb>банк</AG_HaulToAlphaGeneBank.verb>
+  <AG_HaulToAlphaGeneBank.gerund>банкинг</AG_HaulToAlphaGeneBank.gerund>
+
+  <AG_HaulToMixedGeneBank.label>Микспак</AG_HaulToMixedGeneBank.label>
+  <AG_HaulToMixedGeneBank.verb>банк</AG_HaulToMixedGeneBank.verb>
+  <AG_HaulToMixedGeneBank.gerund>банкинг</AG_HaulToMixedGeneBank.gerund>
+
+  <AG_AdministerMetal.label>металл</AG_AdministerMetal.label>
+  <AG_AdministerMetal.verb>кормить</AG_AdministerMetal.verb>
+  <AG_AdministerMetal.gerund>кормление</AG_AdministerMetal.gerund>
+
+  <AG_ForceEatMetal.label>есть металл</AG_ForceEatMetal.label>
+  <AG_ForceEatMetal.verb>есть</AG_ForceEatMetal.verb>
+  <AG_ForceEatMetal.gerund>поедающий</AG_ForceEatMetal.gerund>
+
+  <AG_Warden_DeliverMetal.label>доставить металл</AG_Warden_DeliverMetal.label>
+  <AG_Warden_DeliverMetal.verb>доставлять еду для</AG_Warden_DeliverMetal.verb>
+  <AG_Warden_DeliverMetal.gerund>доставка продуктов питания для</AG_Warden_DeliverMetal.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,49 @@
+<LanguageData>
+
+  <AG_Exploder.label>ХимМен</AG_Exploder.label>
+  <AG_Exploder.description>Генетически выращенные емкости внутри тела химического топлива приведут к тому, что этот человек взорвется при смерти.</AG_Exploder.description>
+
+  <AG_LungRotStrengthHediff.label>Стальные легкие</AG_LungRotStrengthHediff.label>
+  <AG_LungRotStrengthHediff.description>невоспреимчев к легочной гниле,ему не страшны груды трупов... приятная перспектива..</AG_LungRotStrengthHediff.description>
+
+  <AG_Electrified.label>Дюраселл</AG_Electrified.label>
+  <AG_Electrified.description>Кровь этого колониста была генетически модифицирована для накопления электрической энергии, что позволяло им заряжать электрические батареи, просто находясь рядом с ними. Это изменение является постоянным и довольно травматичным.</AG_Electrified.description>
+
+  <AG_Electric.label>Поражение электрическим током</AG_Electric.label>
+  <AG_Electric.description>Опасный удар электрическим током. Это могло повредить сердце, и чем выше интенсивность, тем выше вероятность сердечного приступа.</AG_Electric.description>
+  <AG_Electric.stages.0.label>начальный</AG_Electric.stages.0.label>
+  <AG_Electric.stages.1.label>шокирован</AG_Electric.stages.1.label>
+  <AG_Electric.stages.2.label>очень шокирован</AG_Electric.stages.2.label>
+  <AG_Electric.stages.3.label>Парализован</AG_Electric.stages.3.label>
+
+  <AG_Petrification.label>Окаменение</AG_Petrification.label>
+  <AG_Petrification.description>Кожа жертвы твердеет и превращается в хрупкий камень. Это состояние обратимо и естественным образом пройдет через несколько часов, но если оно достигнет степени тяжести 1(превратился в камень), то убьет свою жертву.</AG_Petrification.description>
+  <AG_Petrification.stages.0.label>начальный</AG_Petrification.stages.0.label>
+  <AG_Petrification.stages.1.label>жесткие суставы</AG_Petrification.stages.1.label>
+  <AG_Petrification.stages.2.label>скалистая кожа</AG_Petrification.stages.2.label>
+  <AG_Petrification.stages.3.label>Окаменелые кости</AG_Petrification.stages.3.label>
+  <AG_Petrification.stages.4.label>превратился в камень</AG_Petrification.stages.4.label>
+
+  <AG_InsectRally.label>Воодушевление насекомых</AG_InsectRally.label>
+  <AG_InsectRally.description>Этот человек выделяет облако феромонов, перед которыми не могут устоять все насекомые. Они почувствуют себя бодрее и сильнее, находясь рядом с носителем..</AG_InsectRally.description>
+
+  <AG_InsectRally_Buff.label>Воодушевление насекомых</AG_InsectRally_Buff.label>
+  <AG_InsectRally_Buff.description>Это насекомое чувствует себя сильнее, будучи погруженным в феромональное облако.</AG_InsectRally_Buff.description>
+
+
+  <AG_TemporarySummon.label>Призванный</AG_TemporarySummon.label>
+  <AG_TemporarySummon.description>Это существо было призвано врожденными психическими навыками, и исчезнет через 4 часа.</AG_TemporarySummon.description>
+
+
+<AG_AcidicExploder.label>Кислотная кровь</AG_AcidicExploder.label>
+  <AG_AcidicExploder.description>Нестабильная, кислотная кровь приводит к тому, что при убийстве этот человек взрывается облаком едкой кислоты.</AG_AcidicExploder.description>
+
+  <!--1.4/Defs/HediffDefs/Hediffs_Ability.xml-->
+<AG_TemporarySummonMech.label>призван</AG_TemporarySummonMech.label>
+<AG_TemporarySummonMech.description>Этот мех был вызван с помощью врожденных психических способностей и исчезнет через 1 день.</AG_TemporarySummonMech.description>
+<AG_ScrambledIFF.label>зашифрованный IFF</AG_ScrambledIFF.label>
+<AG_ScrambledIFF.description>IFF-сенсоры этого механоида были зашифрованы, из-за чего он не может правильно идентифицировать своих противников. Он будет сражаться на стороне колонии в течение дня, а после этого вернется к своей прежней лояльности.</AG_ScrambledIFF.description>
+<AG_TempNodeEffect.label>временная пропускная способность</AG_TempNodeEffect.label>
+<AG_TempNodeEffect.description>Этот человек получает увеличение пропускной способности благодаря наличию временного узла диапазона.</AG_TempNodeEffect.description>
+
+</LanguageData>

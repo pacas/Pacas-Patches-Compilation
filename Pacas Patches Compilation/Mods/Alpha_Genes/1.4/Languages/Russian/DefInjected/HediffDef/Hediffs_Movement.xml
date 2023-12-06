@@ -1,0 +1,14 @@
+<LanguageData>
+
+  <AG_Hover.label>Скользить</AG_Hover.label>
+  <AG_Hover.description>позволяет этому колонисту прыгать и скользить на небольшие расстояния по местности. Они будут игнорировать затраты на передвижение по местности при перемещении.</AG_Hover.description>
+
+  <AG_HoverExploder.label>Водородное парение</AG_HoverExploder.label>
+  <AG_HoverExploder.description>Ограниченный полет, который позволяет этому колонисту парить над местностью. При перемещении они будут игнорировать затраты на перемещение по местности. Водород внутри газовых баллонов приведет к тому, что этот человек взорвется при смерти.</AG_HoverExploder.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Movement.xml-->
+<AG_WaterStriding.label>Дельфин</AG_WaterStriding.label>
+<AG_WaterStriding.description>Этот человек передвигается по воде без штрафов движения.</AG_WaterStriding.description>
+
+</LanguageData>

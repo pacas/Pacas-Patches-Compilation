@@ -1,0 +1,30 @@
+<LanguageData>
+
+<AG_FastGestation.label>Быстрая беременность</AG_FastGestation.label>
+<AG_FastGestation.description>У носителей этого гена сроки беременности будут короче на 25%.</AG_FastGestation.description>
+
+<AG_SlowGestation.label>Медленная беременность</AG_SlowGestation.label>
+<AG_SlowGestation.description>Носители этого гена будут иметь более длительные периоды беременности на 25%.</AG_SlowGestation.description>
+
+<AG_EggLaying.label>Яйцекладка</AG_EggLaying.label>
+<AG_EggLaying.description>Носители этого гена будут размножаться яйцекладущим путем, что так же отвратительно, как это звучит. В этом есть свои преимущества и недостатки. 
+</AG_EggLaying.description>
+<AG_EggLaying.customEffectDescriptions.0>Мать не будет подвержена капризам беременности, утреннему недомоганию итд.
+- после откладки яйцо будет уязвимым до вылупления.</AG_EggLaying.customEffectDescriptions.0>
+<AG_EggLaying.customEffectDescriptions.1>Может быть съедено хищниками ИЛИ голодными колонистами(ВКУСНЯТИНА!)</AG_EggLaying.customEffectDescriptions.1>
+<AG_EggLaying.customEffectDescriptions.2>Весь процесс занимает (ВСЕГО 24дня)</AG_EggLaying.customEffectDescriptions.2>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Reproduction.xml-->
+<AG_ReducedFertile.label>снижение рождаемости</AG_ReducedFertile.label>
+<AG_ReducedFertile.description>Носители этого гена имеют меньшие шансы забеременеть или оплодотворить других.</AG_ReducedFertile.description>
+<AG_FertilityDarkness.label>Желание ночи..</AG_FertilityDarkness.label>
+                             <AG_FertilityDarkness.description>Носители этого гена имеют повышенный шанс забеременеть или оплодотворить других в темноте (ниже 50% уровня освещенности), в то время как на свету возникают противоположные эффекты.</AG_FertilityDarkness.description>
+                    <AG_FertilityLight.label>Утренняя близость</AG_FertilityLight.label>
+                          <AG_FertilityLight.description>Носители этого гена имеют повышенный шанс забеременеть или оплодотворить других, находясь на свету (уровень освещенности 50% или выше), в то время как в темноте они оказывают противоположный эффект.</AG_FertilityLight.description>
+                       <AG_FertilityOutdoors.label>Зов прирды</AG_FertilityOutdoors.label>
+                             <AG_FertilityOutdoors.description>Носители этого гена имеют повышенный шанс забеременеть или оплодотворить других людей на открытом воздухе, в то время как в помещении они оказывают противоположный эффект.</AG_FertilityOutdoors.description>
+                      <AG_FertilityIndoors.label>Очаг</AG_FertilityIndoors.label>
+                            <AG_FertilityIndoors.description>Носители этого гена имеют повышенный шанс забеременеть или оплодотворить других людей, находясь в помещении, и при этом получить противоположный эффект на открытом воздухе.</AG_FertilityIndoors.description>
+                                           <AG_FertilityIndoors.customEffectDescriptions.0>Да, значок этого гена означает «Сделать гору беременной».</AG_FertilityIndoors.customEffectDescriptions.0>
+               </LanguageData>

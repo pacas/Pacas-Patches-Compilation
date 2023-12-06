@@ -1,0 +1,14 @@
+<LanguageData>
+
+  <AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+  <AG_TeratogenicManipulation.description>Этот человек обладает повышенной ловкостью рук и манипуляций</AG_TeratogenicManipulation.description>
+
+  <AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+  <AG_TeratogenicSwiftness.description>У этого человека увеличивается скорость передвижения и работы.</AG_TeratogenicSwiftness.description>
+
+  <AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+  <AG_TeratogenicStamina.description>У этого человека повышается иммунитет и общая выносливость.</AG_TeratogenicStamina.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Teratogenic.xml-->
+</LanguageData>

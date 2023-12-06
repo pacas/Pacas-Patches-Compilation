@@ -1,0 +1,43 @@
+<LanguageData>
+
+  <AG_Skin_DeepGreen.label>Зеленая кожа</AG_Skin_DeepGreen.label>
+  <AG_Skin_DeepGreen.description>Носители этого гена вырабатывают пигмент, который придает их коже зеленый цвет.</AG_Skin_DeepGreen.description>
+
+  <AG_Skin_PlantGreen.label>Зелёная кожа растений</AG_Skin_PlantGreen.label>
+  <AG_Skin_PlantGreen.description>Носители этого гена вырабатывают пигмент, который придает их коже зеленый цвет, похожий на цвет растений.</AG_Skin_PlantGreen.description>
+
+  <AG_Skin_DeeperRed.label>Красная кожа</AG_Skin_DeeperRed.label>
+  <AG_Skin_DeeperRed.description>Носители этого гена вырабатывают красный пигмент, который придает их коже почти кровавый вид.</AG_Skin_DeeperRed.description>
+
+  <AG_Skin_DeepBlue.label>Синяя кожа</AG_Skin_DeepBlue.label>
+  <AG_Skin_DeepBlue.description>Носители этого гена вырабатывают пигмент, который придает их коже синий цвет.</AG_Skin_DeepBlue.description>
+
+  <AG_Skin_Silver.label>Серебристая кожа</AG_Skin_Silver.label>
+  <AG_Skin_Silver.description>Носители этого гена вырабатывают пигмент, который придает их коже переливающийся серебристый цвет.</AG_Skin_Silver.description>
+
+  <AG_Skin_Gold.label>Золотистая кожа</AG_Skin_Gold.label>
+  <AG_Skin_Gold.description>Носители этого гена вырабатывают пигмент, который придает их коже переливающийся золотистый цвет.</AG_Skin_Gold.description>
+
+  <AG_Skin_TrueBlack.label>Черная кожа</AG_Skin_TrueBlack.label>
+  <AG_Skin_TrueBlack.description>Носители этого гена вырабатывают пигмент, который придает их коже очень-очень глубокий черный цвет.</AG_Skin_TrueBlack.description>
+
+
+  <AG_Skin_DeepPurple.label>Фиолетовая кожа</AG_Skin_DeepPurple.label>
+  <AG_Skin_DeepPurple.description>Носители этого гена вырабатывают фиолетовый пигмент, который придает их коже болезненный вид.</AG_Skin_DeepPurple.description>
+
+  <!--1.4/Defs/GeneDefs/GeneDefs_Cosmetic_Skin.xml-->
+<AG_Skin_DeepGreen.labelShortAdj>Темно-зеленый</AG_Skin_DeepGreen.labelShortAdj>
+<AG_Skin_PlantGreen.labelShortAdj>зеленый</AG_Skin_PlantGreen.labelShortAdj>
+<AG_Skin_DeeperRed.labelShortAdj>красный</AG_Skin_DeeperRed.labelShortAdj>
+<AG_Skin_DeepPurple.labelShortAdj>фиолетовый</AG_Skin_DeepPurple.labelShortAdj>
+<AG_Skin_DeepBlue.labelShortAdj>синий</AG_Skin_DeepBlue.labelShortAdj>
+<AG_Skin_Silver.labelShortAdj>Серебро</AG_Skin_Silver.labelShortAdj>
+<AG_Skin_Gold.labelShortAdj>золотой</AG_Skin_Gold.labelShortAdj>
+<AG_Skin_TrueBlack.labelShortAdj>чёрный</AG_Skin_TrueBlack.labelShortAdj>
+<AG_Skin_Drakonori_PaleRed.label>бледно-красная кожа</AG_Skin_Drakonori_PaleRed.label>
+<AG_Skin_Drakonori_PaleRed.description>Носители этого гена производят пигмент, который придает коже бледно-красный цвет.</AG_Skin_Drakonori_PaleRed.description>
+<AG_Skin_Drakonori_PaleBlue.label>бледно-голубая кожа</AG_Skin_Drakonori_PaleBlue.label>
+<AG_Skin_Drakonori_PaleBlue.description>Носители этого гена производят пигмент, который придает коже бледно-синий цвет.</AG_Skin_Drakonori_PaleBlue.description>
+<AG_Skin_Rot.label>гнилая кожа</AG_Skin_Rot.label>
+                    <AG_Skin_Rot.description>У носителей этого гена кожа гнилая, болезненного вида.</AG_Skin_Rot.description>
+                 </LanguageData>

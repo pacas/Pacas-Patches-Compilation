@@ -19,6 +19,22 @@
     <Operation Class="XmlExtensions.FindMod">
         <mods>
             <li>Dominant Gene</li>
+            <li>Nephilim Xenotype</li>
+        </mods>
+        <logic>and</logic>
+        <caseTrue> 
+            <Operation Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="Nephilim"]/genes</xpath>
+                <value>
+                    <li>DominantGene</li>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.FindMod">
+        <mods>
+            <li>Dominant Gene</li>
             <li>AsariRace</li>
         </mods>
         <logic>and</logic>

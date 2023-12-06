@@ -1,0 +1,14 @@
+<LanguageData>
+
+  <AG_Disgust.label>Непостижимо уродливый</AG_Disgust.label>
+  <AG_Disgust.description>Нет слов, чтобы описать, насколько отвратителен этот человек.</AG_Disgust.description>
+
+  <AG_Awe.label>Ангельская красота</AG_Awe.label>
+  <AG_Awe.description>От этого человека исходит аура сверхъестественной красоты.</AG_Awe.description>
+
+  <AG_PsychicDrone.label>Пси волна</AG_PsychicDrone.label>
+  <AG_PsychicDrone.description>Близость к этому человеку вызывает успокаивающее чувство.</AG_PsychicDrone.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Thoughts.xml-->
+</LanguageData>

@@ -6,6 +6,7 @@
 		<li>Common</li>
         <li>Optional_Stuff</li>
 		<li>Multiversion_Patches</li>
+		<li>Settings</li>
         <!-- Simple mods -->
 		<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude/1.3</li>
         <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>
@@ -33,6 +34,7 @@
 		<li>Common</li>
 		<li>Optional_Stuff</li>
 		<li>Multiversion_Patches</li>
+		<li>Settings</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
         <!-- Order semi-important mods -->
         <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
@@ -40,8 +42,9 @@
         <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>        
         <!-- Simple mods -->
+        <!--<li IfModActive="shauaputa.rimnudeworld">Mods/RimNude/1.4</li>-->
         <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>
-        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes</li>
+        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
@@ -52,6 +55,7 @@
         <li IfModActive="rikiki.miningco.projector">Mods/MiningCo_Projector</li>
         <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Door_Lockdown</li>
         <li IfModActive="bichang.kyulen">Mods/Single_Animals/Kyulen</li>
+        <li IfModActive="vesper.egihologramsandprojectors">Mods/EGI_Holograms</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.sfp">Mods/Races_Xenotypes/Sylveon</li>
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
@@ -65,5 +69,6 @@
         <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
         <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
         <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <li IfModActive="vanillaexpanded.vfepropsanddecor">Mods/9_Vanilla_Expanded/Vanilla_Props_Expanded</li>
 	</v1.4>
 </loadFolders>

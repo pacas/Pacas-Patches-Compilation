@@ -1,0 +1,11 @@
+<LanguageData>
+
+  <AlphaGenes_Randomizer.label>Рандомайзер</AlphaGenes_Randomizer.label>
+  <AlphaGenes_Randomizer.description>Как только пешка получит этот ген, она преобразует свой ксенотип в один из пользовательских ксенотипов, созданных игроком.</AlphaGenes_Randomizer.description>
+
+  <AlphaGenes_ExoticOrganism.label>Экзотический организм</AlphaGenes_ExoticOrganism.label>
+  <AlphaGenes_ExoticOrganism.description>Как только созданный пользовательским игроком ксенотип получит этот ген, этот ксенотип никогда не будет автоматически загружен в две фракции, добавленные этим модом.</AlphaGenes_ExoticOrganism.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Special.xml-->
+</LanguageData>

@@ -1,0 +1,35 @@
+<LanguageData>
+
+<AG_HeatSlowness.label>Тепловое оцепенение</AG_HeatSlowness.label>
+<AG_HeatSlowness.description>Носители этого гена двигаются гораздо медленнее при температуре выше 40ºC.</AG_HeatSlowness.description>
+<AG_HeatSlowness.customEffectDescriptions.0>Это три галлона на квадратный дюйм по Фаренгейту. !</AG_HeatSlowness.customEffectDescriptions.0>
+<AG_HeatSlowness.symbolPack.prefixSymbols.0.symbol>горячий</AG_HeatSlowness.symbolPack.prefixSymbols.0.symbol>
+
+<AG_HeatSpeed.label>Скорость нагрева</AG_HeatSpeed.label>
+<AG_HeatSpeed.description>Носители этого гена двигаются гораздо быстрее при температуре выше 40ºC.</AG_HeatSpeed.description>
+<AG_HeatSpeed.customEffectDescriptions.0>Это три галлона на квадратный дюйм по Фаренгейту !</AG_HeatSpeed.customEffectDescriptions.0>
+<AG_HeatSpeed.symbolPack.prefixSymbols.0.symbol>теплый</AG_HeatSpeed.symbolPack.prefixSymbols.0.symbol>
+
+<AG_ColdSlowness.label>Холодное оцепенение</AG_ColdSlowness.label>
+<AG_ColdSlowness.description>Носители этого гена двигаются гораздо медленнее при температуре ниже 0ºC.</AG_ColdSlowness.description>
+<AG_ColdSlowness.customEffectDescriptions.0>Это три галлона на квадратный дюйм по Фаренгейту !</AG_ColdSlowness.customEffectDescriptions.0>
+<AG_ColdSlowness.symbolPack.prefixSymbols.0.symbol>холодный</AG_ColdSlowness.symbolPack.prefixSymbols.0.symbol>
+
+<AG_ColdSpeed.label>Холодная скорость</AG_ColdSpeed.label>
+<AG_ColdSpeed.description>Носители этого гена двигаются гораздо быстрее при температуре ниже 0ºC.</AG_ColdSpeed.description>
+<AG_ColdSpeed.customEffectDescriptions.0>Это три галлона на квадратный дюйм по Фаренгейту !</AG_ColdSpeed.customEffectDescriptions.0>
+<AG_ColdSpeed.symbolPack.prefixSymbols.0.symbol>холодный</AG_ColdSpeed.symbolPack.prefixSymbols.0.symbol>
+
+<AG_HeatRadiating.label>Теплоизлучение</AG_HeatRadiating.label>
+<AG_HeatRadiating.description>Носители этого гена излучают сильное тепло</AG_HeatRadiating.description>
+<AG_HeatRadiating.customEffectDescriptions.0>Генерирует тепло 80ºC. имейте в виду,что сам колонист не наделяется термоустойчивостью</AG_HeatRadiating.customEffectDescriptions.0>
+<AG_HeatRadiating.symbolPack.prefixSymbols.0.symbol>теплый</AG_HeatRadiating.symbolPack.prefixSymbols.0.symbol>
+
+<AG_ColdRadiating.label>Холодное излучение</AG_ColdRadiating.label>
+<AG_ColdRadiating.description>Носители этого гена поглощают большое количество тепла из окружающей среды, замораживая воздух вокруг себя.</AG_ColdRadiating.description>
+<AG_ColdRadiating.customEffectDescriptions.0>генерирует интенсивный холод -20ºC . имейте в виду,что сам колонист не наделяется холодоустойчивостью.</AG_ColdRadiating.customEffectDescriptions.0>
+<AG_ColdRadiating.symbolPack.prefixSymbols.0.symbol>холодный</AG_ColdRadiating.symbolPack.prefixSymbols.0.symbol>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Temperature.xml-->
+</LanguageData>

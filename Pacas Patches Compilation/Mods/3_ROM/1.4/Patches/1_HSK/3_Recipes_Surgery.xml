@@ -5,6 +5,11 @@
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]/recipeUsers</xpath>
                 </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_SurgeryFlesh</value>
+            </li>
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/recipeUsers</xpath>
                 </li>
@@ -12,9 +17,19 @@
                     <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
                     <value>
                         <li>Regrowth</li>
+                    <li>TM_RuneCarveBodyPart</li>
+                </value>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>RimJobWorld</li>
+                </mods>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+                    <value>
                         <li>UniversalRegrowth</li>
-                        <li>TM_RuneCarveBodyPart</li>
                     </value>
+                </nomatch>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/workSpeedStat</xpath>

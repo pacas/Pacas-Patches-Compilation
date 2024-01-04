@@ -38,7 +38,8 @@
         </match>
     </Operation>
     
-    <Operation Class="PatchOperationFindMod">
+    <!-- Временно сломано в оригинальном моде -->
+    <!--<Operation Class="PatchOperationFindMod">
         <mods>
             <li>RimJobWorld - Milkable Colonists</li>
         </mods>
@@ -74,5 +75,5 @@
                 </value>
             </match>
         </match>
-    </Operation>
+    </Operation>-->
 </Patch>

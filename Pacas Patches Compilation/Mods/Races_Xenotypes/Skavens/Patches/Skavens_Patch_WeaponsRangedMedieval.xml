@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Slingshot-->
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>HSK more content</li>
+                </mods>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="HMC_Sling"]/weaponTags</xpath>
+                            <value>
+                                <li>SkavenSlaveRanged</li>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ThingDef[defName="Slingshot"]</xpath>
+                        </li>
+                    </operations>
+                </match>
+                <nomatch Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Slingshot"]/statBases</xpath>
+                            <value>
+                                <statBases>
+                                    <WorkToMake>700</WorkToMake>
+                                    <MaxHitPoints>30</MaxHitPoints>
+                                    <SightsEfficiency>0.6</SightsEfficiency>
+                                    <ShotSpread>1.45</ShotSpread>
+                                    <SwayFactor>1.8</SwayFactor>
+                                    <Bulk>1</Bulk>
+                                    <Mass>0.4</Mass>
+                                    <RangedWeapon_Cooldown>0.34</RangedWeapon_Cooldown>
+                                </statBases>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ThingDef[defName="Slingshot"]/tools</xpath>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Slingshot"]/verbs</xpath>
+                            <value>
+                                <verbs>
+                                    <li Class="CombatExtended.VerbPropertiesCE">
+                                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                        <hasStandardCommand>true</hasStandardCommand>
+                                        <defaultProjectile>Projectile_SlingBall_Stone</defaultProjectile>
+                                        <warmupTime>0.25</warmupTime>
+                                        <range>19.1</range>
+                                        <soundCast>ThrowGrenade</soundCast>
+                                        <muzzleFlashScale>0</muzzleFlashScale>
+                                    </li>
+                                </verbs>
+                                <comps>
+                                    <li Class="CombatExtended.CompProperties_AmmoUser">
+                                        <ammoSet>AmmoSet_SlingBall</ammoSet>
+                                    </li>
+                                    <li Class="CombatExtended.CompProperties_FireModes">
+                                        <noSnapshot>True</noSnapshot>
+                                    </li>
+                                </comps>
+                            </value>
+                        </li>
+                    </operations>
+                </nomatch>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Slingshot_Bullet"]</xpath>
+            </li>
+            
+            <!--Skaven_Crossbow-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>RangedWeaponMedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/weaponTags</xpath>
+                <value>
+                    <weaponTags Inherit="False">
+                        <li>Skaven</li>
+                        <li>SkavenRanged</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/soundInteract</xpath>
+                <value>
+                    <soundInteract>Crossbow_I_hold</soundInteract>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>WoodLogs</li>
+                    </stuffCategories>
+                    <costStuffCount>35</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <WorkToMake>4600</WorkToMake>
+                        <SightsEfficiency>1.0</SightsEfficiency>
+                        <ShotSpread>0.53</ShotSpread>
+                        <SwayFactor>1.19</SwayFactor>
+                        <Bulk>4.50</Bulk>
+                        <Mass>3.30</Mass>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <weaponClasses>
+                        <li>ShortShots</li>
+                    </weaponClasses>
+                    <thingCategories>
+                        <li>CrossbarRanged</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Projectile_MetallicBolt</defaultProjectile>
+                            <warmupTime>1.4</warmupTime>
+                            <range>30</range>
+                            <soundCast>Crossbow_S_hold</soundCast>
+                        </li>
+                    </verbs>
+                    <comps>
+                        <li Class="CombatExtended.CompProperties_AmmoUser">
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>1.4</reloadTime>
+                            <ammoSet>AmmoSet_Bolt</ammoSet>
+                            <throwMote>false</throwMote>
+                        </li>
+                        <li Class="CombatExtended.CompProperties_FireModes">
+                            <noSnapshot>True</noSnapshot>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Skaven_Crossbow"]/tools</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Arrow_SkavenCrossbow"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

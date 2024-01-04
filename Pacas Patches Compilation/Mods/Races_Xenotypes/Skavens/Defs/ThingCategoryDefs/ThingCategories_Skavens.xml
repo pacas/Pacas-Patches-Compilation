@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>SKVMeleeWeapon</defName>
+		<label>Skaven weapons</label>
+		<parent>WeaponsMelee</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SKVRangeWeapon</defName>
+		<label>Skaven weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SKVApparel</defName>
+		<label>Skaven apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+</Defs>

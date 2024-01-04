@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Torso Implant -->
+
+  <SkavenMoulderWarpSpine.label>деформирующий имплантат</SkavenMoulderWarpSpine.label>
+  <SkavenMoulderWarpSpine.description>Имплантированный искривляющий камень.</SkavenMoulderWarpSpine.description>
+  <SkavenMoulderWarpSpine.labelNoun>деформирующий имплантат</SkavenMoulderWarpSpine.labelNoun>
+
+
+  <!-- Abom Wolf -->
+
+  <SkavenMoulderWolf.label>операция "волк-крыса"</SkavenMoulderWolf.label>
+  <SkavenMoulderWolf.description>Операция преобразования.</SkavenMoulderWolf.description>
+  <SkavenMoulderWolf.labelNoun>Операция преобразования</SkavenMoulderWolf.labelNoun>
+
+
+  <!-- Abom Ogre -->
+
+  <SkavenMoulderOgre.label>операция "людоед"</SkavenMoulderOgre.label>
+  <SkavenMoulderOgre.description>Операция преобразования.</SkavenMoulderOgre.description>
+  <SkavenMoulderOgre.labelNoun>Операция преобразования</SkavenMoulderOgre.labelNoun>
+
+
+  <!-- Rat Ogre -->
+
+  <SkavenMoulderRatOgre.label>операция крысиного людоеда</SkavenMoulderRatOgre.label>
+  <SkavenMoulderRatOgre.description>Операция преобразования.</SkavenMoulderRatOgre.description>
+  <SkavenMoulderRatOgre.labelNoun>Операция преобразования</SkavenMoulderRatOgre.labelNoun>
+
+
+</LanguageData>

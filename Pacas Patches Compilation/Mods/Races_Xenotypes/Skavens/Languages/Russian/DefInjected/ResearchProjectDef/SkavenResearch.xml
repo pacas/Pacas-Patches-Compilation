@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Research Tabs -->
+
+  <SkavenStart.label>Исследования скавенов</SkavenStart.label>
+  <SkavenStart.description>Начните путешествие в технологии скавенов.</SkavenStart.description>
+
+  <SkavenWeaponsOne.label>Арбалеты</SkavenWeaponsOne.label>
+  <SkavenWeaponsOne.description>Открывает арбалеты скавенов.</SkavenWeaponsOne.description>
+
+  <SkavenWeaponsTwo.label>Тяжелое оружие ближнего боя</SkavenWeaponsTwo.label>
+  <SkavenWeaponsTwo.description>Разблокирует цеп и бердыш.</SkavenWeaponsTwo.description>
+
+  <SkavenCloth.label>Тканевое снаряжение</SkavenCloth.label>
+  <SkavenCloth.description>Снаряжение скавенов низкого уровня. Капюшон, туника и ткань.</SkavenCloth.description>
+
+  <SkavenArmour.label>Броневое снаряжение</SkavenArmour.label>
+  <SkavenArmour.description>Снаряжение скавенов среднего уровня. Мягкие доспехи, шлем и мантия.</SkavenArmour.description>
+
+  <SkavenHeavyArmour.label>Тяжелое броневое снаряжение</SkavenHeavyArmour.label>
+  <SkavenHeavyArmour.description>Открывает броню Штормвермина.</SkavenHeavyArmour.description>
+
+  <SkavenHeavyWeapon.label>Экспериментальное вооружение</SkavenHeavyWeapon.label>
+  <SkavenHeavyWeapon.description>Разблокирует гремучий пистолет, отравляющие вещества, бутылку с ядом, химический раствор и отравляющую мину.</SkavenHeavyWeapon.description>
+
+  <SkavenWarpLightning.label>Варп-молния</SkavenWarpLightning.label>
+  <SkavenWarpLightning.description>Открывает управляемые варп-молниеносные турели и батарею варп-камней.</SkavenWarpLightning.description>
+
+  <SkavenMountedGuns.label>Особое вооружение</SkavenMountedGuns.label>
+  <SkavenMountedGuns.description>Разблокирует управляемый боевой блок Джеззейл и боевой пистолет.</SkavenMountedGuns.description>
+
+  <SkavenSkryreBasic.label>Улучшенное вооружение</SkavenSkryreBasic.label>
+  <SkavenSkryreBasic.description>Открывает боевой мушкет и улучшенную гремучую пушку.</SkavenSkryreBasic.description>
+
+  <SkavenMoulderBase.label>Технологии клана Творцов</SkavenMoulderBase.label>
+  <SkavenMoulderBase.description>Разблокирует рабочий стол клана Творцов. Позволяет начать извлечение крови скавенов для дальнейшей биоинженерии</SkavenMoulderBase.description>
+
+  <SkavenMoulderGear.label>Снаряжение клана Творцов</SkavenMoulderGear.label>
+  <SkavenMoulderGear.description>Открывает снаряжение клана Творцов. Это снаряжение позволит легче обращаться с животными. Вьючная броня, маска-клетка и ударный штырь.</SkavenMoulderGear.description>
+
+  <SkavenMoulderBio.label>Био-инженерия клана Творцов</SkavenMoulderBio.label>
+  <SkavenMoulderBio.description>Открывает основные рецепты биоинженерии клана Творцов. Позволяет создавать пропитанную варпом кровь и создавать крыс-волков из различных клыков.</SkavenMoulderBio.description>
+
+  <SkavenMoulderBioAdvanced.label>Продвинутая биоинженерия</SkavenMoulderBioAdvanced.label>
+  <SkavenMoulderBioAdvanced.description>Открывает передовые рецепты биоинженерии клана Творцов. Позволяет создавать смешанную кровь и операции с людоедами.</SkavenMoulderBioAdvanced.description>
+
+  <SkavenMoulderProsthetic.label>Протезы клана Творцов</SkavenMoulderProsthetic.label>
+  <SkavenMoulderProsthetic.description>Разблокирует варп-имплантаты. Позволяет хирургическим путем установить варп-камень вдоль позвоночника, чтобы повысить способность пешки к исцелению и защите.</SkavenMoulderProsthetic.description>
+
+</LanguageData>

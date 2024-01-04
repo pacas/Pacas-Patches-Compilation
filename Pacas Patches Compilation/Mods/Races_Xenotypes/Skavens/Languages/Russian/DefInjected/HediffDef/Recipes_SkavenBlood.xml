@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenMoulderCut.label>Хирургический разрез</SkavenMoulderCut.label>
+  <SkavenMoulderCut.description>Порез, сделанный во время операции.</SkavenMoulderCut.description>
+  <SkavenMoulderCut.comps.0.labelTendedWell>перевязано</SkavenMoulderCut.comps.0.labelTendedWell>
+  <SkavenMoulderCut.comps.0.labelTendedWellInner>наложен шов</SkavenMoulderCut.comps.0.labelTendedWellInner>
+  <SkavenMoulderCut.comps.0.labelSolidTendedWell>установлено</SkavenMoulderCut.comps.0.labelSolidTendedWell>
+  <SkavenMoulderCut.labelNoun>хирургический разрез</SkavenMoulderCut.labelNoun>
+
+
+</LanguageData>

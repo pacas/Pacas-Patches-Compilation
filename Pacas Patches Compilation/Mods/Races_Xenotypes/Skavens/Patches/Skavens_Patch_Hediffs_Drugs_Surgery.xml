@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--WarpAge-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenAgePowder"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenAgePowder"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="SkavenAgePowder"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>DrugPillBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="SkavenBloodExtract" or
+                defName="InstallSkavenOgreDenture" or
+                defName="InstallSkavenOgrePlate"
+                ]/ingredients/li/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="SkavenBloodExtract" or
+                defName="InstallSkavenOgreDenture" or
+                defName="InstallSkavenOgrePlate"
+                ]/fixedIngredientFilter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[@Name="SurgeryFleshSkavenMoulder"]/ingredients/li/count</xpath>
+                <value>
+                    <count>1</count>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[
+                defName="InstallSkavenMoulderWarpSpine" or
+                defName="InstallSkavenMoulderOgre"
+                ]/recipeUsers</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallSkavenMoulderWarpSpine"]/ingredients/li</xpath>
+                <value>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>SK_Warpstone</li>
+                            </thingDefs>
+                        </filter>
+                        <count>1</count>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallSkavenMoulderWarpSpine"]/fixedIngredientFilter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>SK_Warpstone</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenOgreBlade" or defName="SkavenOgreLeg"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>50</Plasteel>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenOgreBlade" or defName="SkavenOgreLeg"]/recipeMaker/workSpeedStat</xpath>
+                <value>
+                    <workSpeedStat>SmithingSpeed</workSpeedStat>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

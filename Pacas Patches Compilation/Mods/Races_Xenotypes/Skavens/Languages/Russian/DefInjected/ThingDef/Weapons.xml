@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Slingshot.label>Рогатка</Slingshot.label>
+    <Slingshot.description>Простая рогатка. Не стоит недооценивать ущерб, который может нанести этот простой инструмент.</Slingshot.description>
+    <Slingshot.tools.0.label>навершие</Slingshot.tools.0.label>
+
+    <Skaven_Crossbow.label>Арбалет скавенов</Skaven_Crossbow.label>
+    <Skaven_Crossbow.description>Простой арбалет. Он способен наносить смертельные выстрелы, но время перезарядки медленнее, чем у обычного лука, и ему немного не хватает дальности стрельбы.</Skaven_Crossbow.description>
+    <Skaven_Crossbow.tools.0.label>Наконечник стрелы</Skaven_Crossbow.tools.0.label>
+
+    <MeleeWeapon_SkavenFlail.label>Цеп</MeleeWeapon_SkavenFlail.label>
+    <MeleeWeapon_SkavenFlail.description>Опасный цеп. Это оружие может быть громоздким в использовании, но его удары могут быть смертельными.</MeleeWeapon_SkavenFlail.description>
+    <MeleeWeapon_SkavenFlail.tools.0.label>Рукоять</MeleeWeapon_SkavenFlail.tools.0.label>
+    <MeleeWeapon_SkavenFlail.tools.1.label>Цеп</MeleeWeapon_SkavenFlail.tools.1.label>
+
+    <MeleeWeapon_SkavenBardiche.label>Бердыш</MeleeWeapon_SkavenBardiche.label>
+    <MeleeWeapon_SkavenBardiche.description>Бердыш, часто используемый грозными бойцами клана Скрайр.</MeleeWeapon_SkavenBardiche.description>
+    <MeleeWeapon_SkavenBardiche.tools.0.label>Рукоять</MeleeWeapon_SkavenBardiche.tools.0.label>
+    <MeleeWeapon_SkavenBardiche.tools.1.label>Навершие</MeleeWeapon_SkavenBardiche.tools.1.label>
+    <MeleeWeapon_SkavenBardiche.tools.2.label>Клинок</MeleeWeapon_SkavenBardiche.tools.2.label>
+
+    <Skaven_BardicheStab.label>Порез</Skaven_BardicheStab.label>
+    <UnfinishedSkavenGun.label>Незаконченное оружие</UnfinishedSkavenGun.label>
+
+    <Gun_SkavenSprayer.label>Отравляющий шланг</Gun_SkavenSprayer.label>
+    <Gun_SkavenSprayer.description>Широкоствольный шланг для распыления яда. Он очень неточен, но охватывает большую площадь.</Gun_SkavenSprayer.description>
+    <Gun_SkavenSprayer.tools.0.label>приклад</Gun_SkavenSprayer.tools.0.label>
+    <Gun_SkavenSprayer.tools.1.label>ствол</Gun_SkavenSprayer.tools.1.label>
+
+    <Bullet_SkavenSprayer.label>Химический спрей</Bullet_SkavenSprayer.label>
+
+    <Gun_MinigunSkaven.label>Гремучая пушка</Gun_MinigunSkaven.label>
+    <Gun_MinigunSkaven.description>Многоствольный пулемет. Он громоздкий, но как только он начинает стрелять, он стреляет быстро, разрывая цель на куски градом пуль.</Gun_MinigunSkaven.description>
+    <Gun_MinigunSkaven.tools.0.label>стволы</Gun_MinigunSkaven.tools.0.label>
+
+    <Weapon_SkavenPoisonBottle.label>Отравляющая бутылка</Weapon_SkavenPoisonBottle.label>
+    <Weapon_SkavenPoisonBottle.description>Стеклянная бутылка с мерзкой смесью внутри. Она будет обжигать кожу при контакте и медленно накапливать токсины в организме.</Weapon_SkavenPoisonBottle.description>
+    <Weapon_SkavenPoisonBottle.verbs.0.label>Метательная бутылка с ядом</Weapon_SkavenPoisonBottle.verbs.0.label>
+
+    <Proj_PoisonBottle.label>Бутылка с ядом</Proj_PoisonBottle.label>
+
+    <MeleeWeapon_SkavenProd.label>Шоковая палка</MeleeWeapon_SkavenProd.label>
+    <MeleeWeapon_SkavenProd.description>Жестокое изобретение скавенов, излюбленное кланом Творцов для обращения со своими творениями. Облегчает обращение со зверями и является опасным оружием, прожигающим броню.</MeleeWeapon_SkavenProd.description>
+    <MeleeWeapon_SkavenProd.tools.0.label>Навершие</MeleeWeapon_SkavenProd.tools.0.label>
+
+    <Skaven_ShockProdStab.label>Порез</Skaven_ShockProdStab.label>
+
+    <Gun_SkavenSmallWindMortar.label>Хим-мортира</Gun_SkavenSmallWindMortar.label>
+    <Gun_SkavenSmallWindMortar.description>Относительно небольшой миномет. Способен запускать химические вещества издалека, однако он очень неточен и громоздок для переноски.</Gun_SkavenSmallWindMortar.description>
+    <Gun_SkavenSmallWindMortar.tools.0.label>приклад</Gun_SkavenSmallWindMortar.tools.0.label>
+
+    <Gun_WarpPistolSkaven.label>Варп-пистолет</Gun_WarpPistolSkaven.label>
+    <Gun_WarpPistolSkaven.description>Варп-пистолет предпочитают лидеры фанатов клана Скрайр, но его можно найти среди высокопоставленных скавенов в большинстве кланов. Похожие по конструкции на варп-джеззейл, но меньшие по размерам, варп-пистолеты разрушительны на близком расстоянии. Предупреждение: избегайте чрезмерного повреждения.</Gun_WarpPistolSkaven.description>
+    <Gun_WarpPistolSkaven.tools.0.label>ствол</Gun_WarpPistolSkaven.tools.0.label>
+
+    <Gun_MinigunImpSkaven.label>Варп-гремучая пушка</Gun_MinigunImpSkaven.label>
+    <Gun_MinigunImpSkaven.description>Улучшенное многоствольное ружье на базе Джеззейл. Громоздкая и медленно перезаряжается, но использует пули из варп-камня. Эта гремучая пушка разнесет свою цель в клочья ядовитыми бронебойными пулями.</Gun_MinigunImpSkaven.description>
+    <Gun_MinigunImpSkaven.tools.0.label>стволы</Gun_MinigunImpSkaven.tools.0.label>
+
+    <Gun_WarpRifleSkaven.label>Варп-мушкет</Gun_WarpRifleSkaven.label>
+    <Gun_WarpRifleSkaven.description>Боевой мушкет, изобретение клана Скрайр. Похож по конструкции на боевой блок Джеззейл, но с более коротким стволом, поэтому им может управлять один скавен. Всё ещё громоздок в использовании, но мощности достаточно, чтобы пробить большую часть брони. Предупреждение: избегайте чрезмерного повреждения.</Gun_WarpRifleSkaven.description>
+    <Gun_WarpRifleSkaven.tools.0.label>ствол</Gun_WarpRifleSkaven.tools.0.label>
+
+</LanguageData>

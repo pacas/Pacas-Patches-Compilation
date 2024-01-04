@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RatOgre.label>rat ogre</RatOgre.label>
+  <RatOgre.corePart.parts.3.customLabel>хвост</RatOgre.corePart.parts.3.customLabel>
+  <RatOgre.corePart.parts.7.customLabel>левое легкое</RatOgre.corePart.parts.7.customLabel>
+  <RatOgre.corePart.parts.8.customLabel>правое легкое</RatOgre.corePart.parts.8.customLabel>
+  <RatOgre.corePart.parts.9.customLabel>левая почка</RatOgre.corePart.parts.9.customLabel>
+  <RatOgre.corePart.parts.10.customLabel>правая почка</RatOgre.corePart.parts.10.customLabel>
+  <RatOgre.corePart.parts.12.parts.0.parts.1.customLabel>левый глаз</RatOgre.corePart.parts.12.parts.0.parts.1.customLabel>
+  <RatOgre.corePart.parts.12.parts.0.parts.2.customLabel>правый глаз</RatOgre.corePart.parts.12.parts.0.parts.2.customLabel>
+  <RatOgre.corePart.parts.12.parts.0.parts.3.customLabel>левое ухо</RatOgre.corePart.parts.12.parts.0.parts.3.customLabel>
+  <RatOgre.corePart.parts.12.parts.0.parts.4.customLabel>правое ухо</RatOgre.corePart.parts.12.parts.0.parts.4.customLabel>
+  <RatOgre.corePart.parts.13.customLabel>левое плечо</RatOgre.corePart.parts.13.customLabel>
+  <RatOgre.corePart.parts.13.parts.0.customLabel>левая ключица</RatOgre.corePart.parts.13.parts.0.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.customLabel>левая рука</RatOgre.corePart.parts.13.parts.1.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.0.customLabel>левое предплечье</RatOgre.corePart.parts.13.parts.1.parts.0.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.1.customLabel>левый радиус</RatOgre.corePart.parts.13.parts.1.parts.1.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.customLabel>левая кисть</RatOgre.corePart.parts.13.parts.1.parts.2.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>левый мизинец</RatOgre.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>левый безымянный палец</RatOgre.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>средний палец левой руки</RatOgre.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>левый указательный палец</RatOgre.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <RatOgre.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>большой палец левой руки</RatOgre.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <RatOgre.corePart.parts.14.customLabel>правое плечо</RatOgre.corePart.parts.14.customLabel>
+  <RatOgre.corePart.parts.14.parts.0.customLabel>правая ключица</RatOgre.corePart.parts.14.parts.0.customLabel>
+  <RatOgre.corePart.parts.14.parts.1.customLabel>правая рука</RatOgre.corePart.parts.14.parts.1.customLabel>
+  <RatOgre.corePart.parts.14.parts.1.parts.0.customLabel>правое предплечье</RatOgre.corePart.parts.14.parts.1.parts.0.customLabel>
+  <RatOgre.corePart.parts.14.parts.1.parts.1.customLabel>правый радиус</RatOgre.corePart.parts.14.parts.1.parts.1.customLabel>
+  <RatOgre.corePart.parts.14.parts.1.parts.2.customLabel>правый клинок</RatOgre.corePart.parts.14.parts.1.parts.2.customLabel>
+  <RatOgre.corePart.parts.16.customLabel>левая нога</RatOgre.corePart.parts.16.customLabel>
+  <RatOgre.corePart.parts.16.parts.0.customLabel>левая бедренная кость</RatOgre.corePart.parts.16.parts.0.customLabel>
+  <RatOgre.corePart.parts.16.parts.1.customLabel>левая большеберцовая кость</RatOgre.corePart.parts.16.parts.1.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.customLabel>левая стопа</RatOgre.corePart.parts.16.parts.2.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.parts.0.customLabel>мизинец левой ноги</RatOgre.corePart.parts.16.parts.2.parts.0.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.parts.1.customLabel>четвертый палец левой ноги</RatOgre.corePart.parts.16.parts.2.parts.1.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.parts.2.customLabel>средний палец левой ноги</RatOgre.corePart.parts.16.parts.2.parts.2.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.parts.3.customLabel>второй палец левой ноги</RatOgre.corePart.parts.16.parts.2.parts.3.customLabel>
+  <RatOgre.corePart.parts.16.parts.2.parts.4.customLabel>большой палец левой ноги</RatOgre.corePart.parts.16.parts.2.parts.4.customLabel>
+  <RatOgre.corePart.parts.17.customLabel>правая нога</RatOgre.corePart.parts.17.customLabel>
+  <RatOgre.corePart.parts.17.parts.0.customLabel>правая бедренная кость</RatOgre.corePart.parts.17.parts.0.customLabel>
+  <RatOgre.corePart.parts.17.parts.1.customLabel>правая большеберцовая кость</RatOgre.corePart.parts.17.parts.1.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.customLabel>правая стопа</RatOgre.corePart.parts.17.parts.2.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.parts.0.customLabel>мизинец правой ноги</RatOgre.corePart.parts.17.parts.2.parts.0.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.parts.1.customLabel>четвертый палец правой ноги</RatOgre.corePart.parts.17.parts.2.parts.1.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.parts.2.customLabel>средний палец правой ноги</RatOgre.corePart.parts.17.parts.2.parts.2.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.parts.3.customLabel>второй палец правой ноги</RatOgre.corePart.parts.17.parts.2.parts.3.customLabel>
+  <RatOgre.corePart.parts.17.parts.2.parts.4.customLabel>большой палец правой ноги</RatOgre.corePart.parts.17.parts.2.parts.4.customLabel>
+
+  <RatOgreBland.label>крысиный людоед</RatOgreBland.label>
+  <RatOgreBland.corePart.parts.3.customLabel>хвост</RatOgreBland.corePart.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.7.customLabel>левое легкое</RatOgreBland.corePart.parts.7.customLabel>
+  <RatOgreBland.corePart.parts.8.customLabel>правое легкое</RatOgreBland.corePart.parts.8.customLabel>
+  <RatOgreBland.corePart.parts.9.customLabel>левая почка</RatOgreBland.corePart.parts.9.customLabel>
+  <RatOgreBland.corePart.parts.10.customLabel>правая почка</RatOgreBland.corePart.parts.10.customLabel>
+  <RatOgreBland.corePart.parts.12.parts.0.parts.1.customLabel>левый глаз</RatOgreBland.corePart.parts.12.parts.0.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.12.parts.0.parts.2.customLabel>правый глаз</RatOgreBland.corePart.parts.12.parts.0.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.12.parts.0.parts.3.customLabel>левое ухо</RatOgreBland.corePart.parts.12.parts.0.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.12.parts.0.parts.4.customLabel>правое ухо</RatOgreBland.corePart.parts.12.parts.0.parts.4.customLabel>
+  <RatOgreBland.corePart.parts.13.customLabel>левое плечо</RatOgreBland.corePart.parts.13.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.0.customLabel>левая ключица</RatOgreBland.corePart.parts.13.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.customLabel>левая рука</RatOgreBland.corePart.parts.13.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.0.customLabel>левое предплечье</RatOgreBland.corePart.parts.13.parts.1.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.1.customLabel>левый радиус</RatOgreBland.corePart.parts.13.parts.1.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.customLabel>левая кисть</RatOgreBland.corePart.parts.13.parts.1.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>левый мизинец</RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>левый безымянный палец</RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>средний палец левой руки</RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>левый указательный палец</RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>большой палец левой руки</RatOgreBland.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <RatOgreBland.corePart.parts.14.customLabel>правое плечо</RatOgreBland.corePart.parts.14.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.0.customLabel>правая ключица</RatOgreBland.corePart.parts.14.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.customLabel>правая рука</RatOgreBland.corePart.parts.14.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.0.customLabel>правое предплечье</RatOgreBland.corePart.parts.14.parts.1.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.1.customLabel>правый радиус</RatOgreBland.corePart.parts.14.parts.1.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.customLabel>правая кисть</RatOgreBland.corePart.parts.14.parts.1.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>правый мизинец</RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>правый безымянный палец</RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>средний палец правой руки</RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>указательный палец правой руки</RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>большой палец правой руки</RatOgreBland.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <RatOgreBland.corePart.parts.16.customLabel>левая нога</RatOgreBland.corePart.parts.16.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.0.customLabel>левая бедренная кость</RatOgreBland.corePart.parts.16.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.1.customLabel>левая большеберцовая кость</RatOgreBland.corePart.parts.16.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.customLabel>левая стопа</RatOgreBland.corePart.parts.16.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.parts.0.customLabel>мизинец левой ноги</RatOgreBland.corePart.parts.16.parts.2.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.parts.1.customLabel>четвертый палец левой ноги</RatOgreBland.corePart.parts.16.parts.2.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.parts.2.customLabel>средний палец левой ноги</RatOgreBland.corePart.parts.16.parts.2.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.parts.3.customLabel>второй палец левой ноги</RatOgreBland.corePart.parts.16.parts.2.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.16.parts.2.parts.4.customLabel>большой палец левой ноги</RatOgreBland.corePart.parts.16.parts.2.parts.4.customLabel>
+  <RatOgreBland.corePart.parts.17.customLabel>правая нога</RatOgreBland.corePart.parts.17.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.0.customLabel>правая бедренная кость</RatOgreBland.corePart.parts.17.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.1.customLabel>правая большеберцовая кость</RatOgreBland.corePart.parts.17.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.customLabel>правая стопа</RatOgreBland.corePart.parts.17.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.parts.0.customLabel>мизинец правой ноги</RatOgreBland.corePart.parts.17.parts.2.parts.0.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.parts.1.customLabel>четвертый палец правой ноги</RatOgreBland.corePart.parts.17.parts.2.parts.1.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.parts.2.customLabel>средний палец правой ноги</RatOgreBland.corePart.parts.17.parts.2.parts.2.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.parts.3.customLabel>второй палец правой ноги</RatOgreBland.corePart.parts.17.parts.2.parts.3.customLabel>
+  <RatOgreBland.corePart.parts.17.parts.2.parts.4.customLabel>большой палец правой ноги</RatOgreBland.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

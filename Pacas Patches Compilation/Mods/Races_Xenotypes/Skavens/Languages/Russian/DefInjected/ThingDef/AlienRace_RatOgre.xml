@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RatOgreBlade.label>Крысоогр</RatOgreBlade.label>
+  <RatOgreBlade.description>Крысоогры - массивные неуклюжие чудовища, представляющие собой вершину изобретательности Клана Творцов, смертоносные звери-машины для убийства, сочетающие нечеловеческие рефлексы скавенов с мускулатурой и размерами огров. Крысоогры - это существа, рожденные в результате скрещивания различных типов ужасных существ с кровью скавенов и хирургического увеличения того, что осталось. В их мозгу мало места для чего-либо, кроме стремления к борьбе.</RatOgreBlade.description>
+  <RatOgreBlade.tools.0.label>Левая кисть</RatOgreBlade.tools.0.label>
+  <RatOgreBlade.tools.1.label>Правый клинок</RatOgreBlade.tools.1.label>
+  <RatOgreBlade.tools.2.label>Зубы</RatOgreBlade.tools.2.label>
+
+  <RatOgreAnimal.label>Крысоогр</RatOgreAnimal.label>
+  <RatOgreAnimal.description>Крысоогры - массивные неуклюжие чудовища, представляющие собой вершину изобретательности Клана Творцов, смертоносные звери-машины для убийства, сочетающие нечеловеческие рефлексы скавенов с мускулатурой и размерами огров. Крысоогры - это существа, рожденные в результате скрещивания различных типов ужасных существ с кровью скавенов и хирургического увеличения того, что осталось. В их мозгу мало места для чего-либо, кроме стремления к борьбе.</RatOgreAnimal.description>
+  <RatOgreAnimal.tools.0.label>Левая кисть</RatOgreAnimal.tools.0.label>
+  <RatOgreAnimal.tools.1.label>Правый клинок</RatOgreAnimal.tools.1.label>
+  <RatOgreAnimal.tools.2.label>Зубы</RatOgreAnimal.tools.2.label>
+
+
+</LanguageData>

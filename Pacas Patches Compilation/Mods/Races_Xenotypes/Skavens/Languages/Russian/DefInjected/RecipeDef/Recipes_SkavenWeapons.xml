@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <BuildSkavenSprayer.label>Собрать отравляющий шланг</BuildSkavenSprayer.label>
+    <BuildSkavenSprayer.description>Собрать широкоствольный шланг для распыления яда. Он очень неточен, но охватывает большую площадь.</BuildSkavenSprayer.description>
+    <BuildSkavenSprayer.jobString>Собирает отравляющий шланг.</BuildSkavenSprayer.jobString>
+
+    <BuildMinigunSkaven.label>Собрать гремучую пушку</BuildMinigunSkaven.label>
+    <BuildMinigunSkaven.description>Собрать многоствольный пулемет скавенов. Он громоздкий, но как только он начинает стрелять, он стреляет быстро, разрывая цель на куски градом пуль.</BuildMinigunSkaven.description>
+    <BuildMinigunSkaven.jobString>Собирает гремучую пушку.</BuildMinigunSkaven.jobString>
+
+    <MakeSkavenPoisonBottle.label>Сделать отравляющие бутылки</MakeSkavenPoisonBottle.label>
+    <MakeSkavenPoisonBottle.description>Делает отравляющие стеклянные бутылки с мерзкой смесью внутри. Они будут обжигать кожу при контакте и медленно накапливать токсины в организме.</MakeSkavenPoisonBottle.description>
+    <MakeSkavenPoisonBottle.jobString>Делает отравляющие бутылки.</MakeSkavenPoisonBottle.jobString>
+
+    <BuildSkavenSmallWindMortar.label>Собрать хим-мортиру</BuildSkavenSmallWindMortar.label>
+    <BuildSkavenSmallWindMortar.description>Собрать относительно небольшой миномет скавенов. Способен запускать химические вещества издалека, однако он очень неточен и громоздок для переноски.</BuildSkavenSmallWindMortar.description>
+    <BuildSkavenSmallWindMortar.jobString>Собирает хим-мортиру.</BuildSkavenSmallWindMortar.jobString>
+
+    <BuildWarpPistolSkaven.label>Собрать варп-пистолет</BuildWarpPistolSkaven.label>
+    <BuildWarpPistolSkaven.description>Собрать варп-пистолет. Похожие по конструкции на варп-джеззейл, но меньшие по размерам, варп-пистолеты разрушительны на близком расстоянии.</BuildWarpPistolSkaven.description>
+    <BuildWarpPistolSkaven.jobString>Собирает варп-пистолет.</BuildWarpPistolSkaven.jobString>
+
+    <BuildMinigunImpSkaven.label>Собрать варп-гремучую пушку</BuildMinigunImpSkaven.label>
+    <BuildMinigunImpSkaven.description>Собрать варп-гремучую пушку. Это улучшенное многоствольное ружье на базе Джеззейл. Громоздкая и медленно перезаряжается, но использует пули из варп-камня. Эта гремучая пушка разнесет свою цель в клочья ядовитыми бронебойными пулями.</BuildMinigunImpSkaven.description>
+    <BuildMinigunImpSkaven.jobString>Собирает варп-гремучую пушку.</BuildMinigunImpSkaven.jobString>
+
+    <BuildWarpRifleSkaven.label>Собрать варп-мушкет</BuildWarpRifleSkaven.label>
+    <BuildWarpRifleSkaven.description>Собрать варп-мушкет, изобретение клана Скрайр. Похож по конструкции на боевой блок Джеззейл, но с более коротким стволом, поэтому им может управлять один скавен.</BuildWarpRifleSkaven.description>
+    <BuildWarpRifleSkaven.jobString>Собирает варп-мушкет.</BuildWarpRifleSkaven.jobString>
+
+</LanguageData>

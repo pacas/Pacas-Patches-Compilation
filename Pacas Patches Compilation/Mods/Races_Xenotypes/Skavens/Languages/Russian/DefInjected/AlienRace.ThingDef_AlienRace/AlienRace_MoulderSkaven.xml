@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_SkavenMoulder.label>Формовщик скавен</Alien_SkavenMoulder.label>
+  <Alien_SkavenMoulder.description>Скавены клана Формовщиков, часто старшего ранга. Крысолюди с отвратительным знанием секретов клана Формовщиков, покрытые шрамами и мутировавшие, практикуют в лабораториях глубоко под поверхностью..</Alien_SkavenMoulder.description>
+  <Alien_SkavenMoulder.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</Alien_SkavenMoulder.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_SkavenMoulder.tools.0.label>левый коготь</Alien_SkavenMoulder.tools.0.label>
+  <Alien_SkavenMoulder.tools.1.label>правый коготь</Alien_SkavenMoulder.tools.1.label>
+  <Alien_SkavenMoulder.tools.2.label>зубы</Alien_SkavenMoulder.tools.2.label>
+
+
+</LanguageData>

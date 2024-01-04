@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="SK_ResourceBase">
+		<defName>SK_Warpstone</defName>
+		<label>warpstone</label>
+		<description>No one knows how these stones are made. Except skavens. In some special way, using magicyte, jade, their magic, heat, and some amount of swearing, they create this... stone?</description>
+		<graphicData>
+			<texPath>Things/Item/Warpstone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(200,220,43)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<techLevel>Medieval</techLevel>
+        <tradeTags>
+            <li>RawArcane</li>
+            <li>Exotic</li>
+        </tradeTags>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+            <Beauty>10</Beauty>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+            <li>TM_MagicItems</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<smeltable>false</smeltable>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+</Defs>

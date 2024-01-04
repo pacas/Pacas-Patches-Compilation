@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenWarpAge.label>Старение основы</SkavenWarpAge.label>
+  <SkavenWarpAge.description>Восстанавливается после внезапного приема искривляющего камня. Быстрая мутация, стимулирующая старение, может оказать длительное воздействие на организм.</SkavenWarpAge.description>
+  <SkavenWarpAge.stages.0.label>первоначальный</SkavenWarpAge.stages.0.label>
+  <SkavenWarpAge.stages.1.label>низкий</SkavenWarpAge.stages.1.label>
+  <SkavenWarpAge.stages.2.label>экстремальный</SkavenWarpAge.stages.2.label>
+
+  <SkavenWarpMutated.label>Варп мутировал</SkavenWarpMutated.label>
+  <SkavenWarpMutated.description>Деформированная мутировавшая часть тела.</SkavenWarpMutated.description>
+
+  <SkavenWarpMutatedSpasm.label>Варп мутировал: Спазм</SkavenWarpMutatedSpasm.label>
+  <SkavenWarpMutatedSpasm.description>Деформированная часть тела. Эта часть тела страдает от повторяющихся спазмов, она работает довольно хорошо, но постоянное движение сжигает калории.</SkavenWarpMutatedSpasm.description>
+
+  <SkavenWarpMutatedArmour.label>Варм мутировал: Рост</SkavenWarpMutatedArmour.label>
+  <SkavenWarpMutatedArmour.description>Деформированная часть тела. Торчащий жесткий нарост, на который некрасиво смотреть и который мешает.</SkavenWarpMutatedArmour.description>
+
+
+</LanguageData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DamageDef[defName="SkavenPoison"]/hediff</xpath>
+                <value>
+                    <hediff>Acid_Burn</hediff>
+                    <impactSoundType>Toxic</impactSoundType>
+                    <damageEffecter>Impact_Toxic</damageEffecter>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DamageDef[defName="SkavenPoison"]/defaultArmorPenetration</xpath>
+                <value>
+                    <defaultArmorPenetration>0</defaultArmorPenetration>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DamageDef[defName="SkavenPoison"]/additionalHediffs</xpath>
+                <value>
+                    <additionalHediffs>
+                        <li>
+                            <hediff>Acid_Poison</hediff>
+                            <severityPerDamageDealt>0.08</severityPerDamageDealt>
+                            <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+                            <inverseStatScaling>true</inverseStatScaling>
+                            <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+                        </li>
+                    </additionalHediffs>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/DamageDef[defName="SkavenShockProd"]</xpath>
+            </li>
+            <!--<li Class="PatchOperationRemove">
+                <xpath>Defs/ManeuverDef[defName="SkavenShockProdMan"]</xpath>
+            </li>-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ManeuverDef[defName="SkavenShockProdMan"]/verb</xpath>
+                <value>
+                    <verb Class="CombatExtended.VerbPropertiesCE">
+                        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+                        <meleeDamageDef>SkavenShockProdCE</meleeDamageDef>
+                    </verb>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/DamageDef[defName="SkavenBullet"]</xpath>
+            </li>
+            
+            <!--temp-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Bullet_WarplockJezzail"]/projectile/damageDef</xpath>
+                <value>
+                    <damageDef>SkavenBulletCE</damageDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

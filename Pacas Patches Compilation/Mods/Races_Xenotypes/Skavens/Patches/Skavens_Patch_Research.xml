@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[@Name="SkavenKnowledgeResearch"]/requiredResearchBuilding</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="SK.AdvancedResearchExtension">
+                            <requiredResearchBuildings>
+                                <li>PrimitiveResearchBench</li>
+                                <li>SimpleResearchBench</li>
+                                <li>HiTechResearchBench</li>
+                            </requiredResearchBuildings>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ResearchProjectDef[@Name="SkavenKnowledgeResearch"]</xpath>
+                <value>
+                    <requiredResearchBuilding>PrimitiveResearchBench</requiredResearchBuilding>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="SkavenStart"]/label</xpath>
+                <value>
+                    <label>skaven researches</label>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenStart</li>
+                    <li>1</li>
+                    <li>1</li>
+                    <li>Neolithic</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationRemove">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenStart"]/prerequisites</xpath>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenWeaponsTwo</li>
+                    <li>1</li>
+                    <li>5</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenWeaponsTwo"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Smithing</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenWeaponsOne</li>
+                    <li>2</li>
+                    <li>5</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenWeaponsOne"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Greatbow</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenCloth</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>Neolithic</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenCloth"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Apparel_A1</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenArmour</li>
+                    <li>3</li>
+                    <li>5</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenArmour"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>PlateArmor</li>
+                        <li>SkavenCloth</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenHeavyArmour</li>
+                    <li>1</li>
+                    <li>6</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenHeavyArmour"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Armor_B2</li>
+                        <li>ComplexClothing</li>
+                        <li>SkavenArmour</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenHeavyWeapon</li>
+                    <li>1</li>
+                    <li>9</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenHeavyWeapon"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Melee_C1</li>
+                        <li>Machining</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenWarpLightning</li>
+                    <li>2</li>
+                    <li>9</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenWarpLightning"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Electricity</li>
+                        <li>Turrets_31</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenMountedGuns</li>
+                    <li>1</li>
+                    <li>10</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMountedGuns"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Gunsmithing</li>
+                        <li>Grenade_C1</li>
+                        <li>SkavenHeavyWeapon</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenSkryreBasic</li>
+                    <li>1</li>
+                    <li>11</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenSkryreBasic"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Rifles_C1</li>
+                        <li>GasOperation</li>
+                        <li>BlowbackOperation</li>
+                        <li>SkavenMountedGuns</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenMoulderBase</li>
+                    <li>4</li>
+                    <li>6</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMoulderBase"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Medicine_B2</li>
+                        <li>SkavenStart</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>SkavenMoulderGear</li>
+                    <li>5</li>
+                    <li>6</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMoulderGear"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>SkavenMoulderBase</li>
+                        <li>SkavenArmour</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenMoulderBio</li>
+                    <li>4</li>
+                    <li>12</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMoulderBio"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>DrugProduction</li>
+                        <li>SkavenMoulderBase</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenMoulderBioAdvanced</li>
+                    <li>4</li>
+                    <li>14</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMoulderBioAdvanced"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>PenoxycylineProduction</li>
+                        <li>SkavenMoulderBio</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>SkavenMoulderProsthetic</li>
+                    <li>4</li>
+                    <li>15</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="SkavenMoulderProsthetic"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Prosthesis_install_C3</li>
+                        <li>SkavenMoulderBioAdvanced</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ResearchDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

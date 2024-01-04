@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="BaseRangedSkaven"]</xpath>
+                <value>
+                    <ThingDef Name="BaseRangedSkaven" Abstract="True" ParentName="RangedWeaponNeoliticBase">
+                        <weaponTags Inherit="False">
+                            <li>Skaven</li>
+                        </weaponTags>
+                    </ThingDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[@Name="SkavenBaseGun" or @Name="BaseSkavenGunWithQuality" or @Name="BaseMakeableSkavenBomb"]</xpath>
+            </li>
+        
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="BaseMakeableSkavenGun"]</xpath>
+                <value>
+                    <ThingDef Name="BaseMakeableSkavenGun" ParentName="SK_BaseGun" Abstract="True">
+                        <thingCategories>
+                            <li>SKVRangeWeapon</li>
+                        </thingCategories>
+                    </ThingDef>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ThingDef Name="BaseMakeableSkavenHeavyGun" ParentName="BaseGun_Heavy" Abstract="True">
+                        <thingCategories>
+                            <li>SKVRangeWeapon</li>
+                        </thingCategories>
+                    </ThingDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

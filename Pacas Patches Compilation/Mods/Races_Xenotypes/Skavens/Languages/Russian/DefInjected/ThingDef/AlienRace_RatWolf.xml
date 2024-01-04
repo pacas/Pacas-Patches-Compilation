@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RatWolfEmp.label>Крысоволк</RatWolfEmp.label>
+  <RatWolfEmp.description>Давным-давно клан Творцов экспериментировал со смешиванием своей крови скавенов с кровью великих волков Кислева. Результатом стало кровожадное чудовищное создание - крысиные волки или крысоволки.</RatWolfEmp.description>
+  <RatWolfEmp.tools.0.label>Левый коготь</RatWolfEmp.tools.0.label>
+  <RatWolfEmp.tools.1.label>Правый коготь</RatWolfEmp.tools.1.label>
+  <RatWolfEmp.tools.2.label>Острые клыки</RatWolfEmp.tools.2.label>
+
+  <RatWolfAnimal.label>Крысоволк</RatWolfAnimal.label>
+  <RatWolfAnimal.description>Давным-давно клан Творцов экспериментировал со смешиванием своей крови скавенов с кровью великих волков Кислева. Результатом стало кровожадное чудовищное создание - крысиные волки или крысоволки.</RatWolfAnimal.description>
+  <RatWolfAnimal.tools.0.label>Левый коготь</RatWolfAnimal.tools.0.label>
+  <RatWolfAnimal.tools.1.label>Правый коготь</RatWolfAnimal.tools.1.label>
+  <RatWolfAnimal.tools.2.label>Острые клыки</RatWolfAnimal.tools.2.label>
+
+
+</LanguageData>

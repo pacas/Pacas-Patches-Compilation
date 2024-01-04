@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[@Name="ClanHandelKind" or @Name="SkavenBase" or @Name="SkavenUnderEmpireKind"]/combatPower</xpath>
+                <value>
+                    <combatPower>45</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="TraderSlaveRatMissile"]/combatPower</xpath>
+                <value>
+                    <combatPower>50</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RatOgreAbomUE" or defName="RatOgreAbomEshin"]/combatPower</xpath>
+                <value>
+                    <combatPower>170</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RatOgreAbomAnimal" or defName="RatOgreAnimal"]/combatPower</xpath>
+                <value>
+                    <combatPower>90</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RatWolfUE" or defName="RatWolfEshin"]/combatPower</xpath>
+                <value>
+                    <combatPower>90</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RatOgreBladeUE" or defName="RatOgreBladeEshin"]/combatPower</xpath>
+                <value>
+                    <combatPower>200</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="SkavenWarlord"]/combatPower</xpath>
+                <value>
+                    <combatPower>160</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="SkavenSeer"]/combatPower</xpath>
+                <value>
+                    <combatPower>180</combatPower>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[
+                defName="TraderClanratLow"
+                or defName="SkavenHornedPlayer"
+                or defName="SkavenStormPlayer"
+                or defName="ClanratLow"
+                ]/weaponTags</xpath>
+                <value>
+                    <weaponTags>
+                        <li>MedievalMelee</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="TraderClanratHigh" or defName="RatOgreAbomEshin"]/weaponTags</xpath>
+                <value>
+                    <weaponTags>
+                        <li>MedievalMelee2H</li>
+                        <li>SkavenStormvermin</li>
+                    </weaponTags>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="TraderClanratRanged"]/weaponMoney/min</xpath>
+                <value>
+                    <min>180</min>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>TraderClanratRanged</li>
+                    <li>170</li>
+                    <li>250</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>TraderClanratHighGun</li>
+                    <li>1240</li>
+                    <li>1500</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>TraderClanratSkryreMid</li>
+                    <li>2040</li>
+                    <li>3000</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>SlaveRatMelee</li>
+                    <li>100</li>
+                    <li>140</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>ClanratRanged</li>
+                    <li>170</li>
+                    <li>220</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>ClanratHighGun</li>
+                    <li>1240</li>
+                    <li>1500</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>MoulderRatMid</li>
+                    <li>1090</li>
+                    <li>1200</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>MoulderRatHigh</li>
+                    <li>1090</li>
+                    <li>1200</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>SkavenRace_WeaponsCosts</patchName>
+                <arguments>
+                    <li>ClanratSkryreMid</li>
+                    <li>2040</li>
+                    <li>3000</li>
+                </arguments>
+            </li>
+            
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/PawnKindDef[
+                defName="RatOgreAnimal" or
+                defName="RatOgreAbomAnimal" or
+                defName="RatWolfAnimal"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_AnimalKindBase</value>
+            </li>
+            
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>SkavenDoc</docName>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

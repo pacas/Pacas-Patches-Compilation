@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>            
+            <!--MeleeWeapon_SkavenFlail-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>WeaponMedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/weaponTags</xpath>
+                <value>
+                    <weaponTags Inherit="False">
+                        <li>Skaven</li>
+                        <li>SkavenFlail</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/costList</xpath>
+                <value>
+                    <costList>
+                        <WoodLog>10</WoodLog>
+                        <ComponentMedieval>2</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>20</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <WorkToMake>4000</WorkToMake>
+                        <Bulk>4</Bulk>
+                        <Mass>2.5</Mass>
+                        <MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+                    </statBases>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.3</MeleeCritChance>
+                        <MeleeParryChance>0.05</MeleeParryChance>
+                        <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                    <weaponClasses>
+                        <li>MeleeBlunt</li>
+                    </weaponClasses>
+                    <thingCategories>
+                        <li>SKVMeleeWeapon</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>handle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>3</power>
+                            <cooldownTime>2</cooldownTime>
+                            <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>ball</label>
+                            <capacities>
+                                <li>Stab</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>2.1</cooldownTime>
+                            <chanceFactor>1.33</chanceFactor>
+                            <armorPenetrationSharp>5</armorPenetrationSharp>
+                            <armorPenetrationBlunt>9</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenFlail"]/recipeMaker</xpath>
+                <value>
+                    <recipeMaker>
+                        <researchPrerequisite>Smithing</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            
+            <!--MeleeWeapon_SkavenBardiche-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>WeaponMedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/weaponTags</xpath>
+                <value>
+                    <weaponTags Inherit="False">
+                        <li>Skaven</li>
+                        <li>SkavenStormvermin</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/costList</xpath>
+                <value>
+                    <costList>
+                        <WoodLog>20</WoodLog>
+                        <ComponentMedieval>5</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>40</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/verbs</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <WorkToMake>8000</WorkToMake>
+                        <Bulk>9</Bulk>
+                        <Mass>4.5</Mass>
+                        <MeleeCounterParryBonus>0.6</MeleeCounterParryBonus>
+                    </statBases>
+                    <equippedStatOffsets>
+                        <MeleeCritChance>0.4</MeleeCritChance>
+                        <MeleeParryChance>0.13</MeleeParryChance>
+                        <MeleeDodgeChance>0.7</MeleeDodgeChance>
+                    </equippedStatOffsets>
+                    <weaponClasses>
+                        <li>MeleePiercer</li>
+                    </weaponClasses>
+                    <thingCategories>
+                        <li>SKVMeleeWeapon</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>handle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>2</cooldownTime>
+                            <chanceFactor>0.15</chanceFactor>
+                            <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>head</label>
+                            <capacities>
+                                <li>Stab</li>
+                            </capacities>
+                            <power>15</power>
+                            <cooldownTime>1.9</cooldownTime>
+                            <chanceFactor>0.5</chanceFactor>
+                            <armorPenetrationBlunt>2.6</armorPenetrationBlunt>
+                            <armorPenetrationSharp>4.2</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>edge</label>
+                            <capacities>
+                                <li>Cut</li>
+                            </capacities>
+                            <power>25</power>
+                            <cooldownTime>2.1</cooldownTime>
+                            <chanceFactor>1</chanceFactor>
+                            <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                            <armorPenetrationSharp>3.7</armorPenetrationSharp>
+                            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]/recipeMaker</xpath>
+                <value>
+                    <recipeMaker>
+                        <researchPrerequisite>Smithing</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenBardiche"]</xpath>
+                <value>
+                    <li Class="CombatExtended.GunDrawExtension">
+                        <DrawSize>1.3,1.3</DrawSize>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Skaven_BardicheStab"]</xpath>
+            </li>
+            
+            
+            <!--MeleeWeapon_SkavenProd-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_BaseMeleeWeapon</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/weaponTags</xpath>
+                <value>
+                    <weaponTags Inherit="False">
+                        <li>Skaven</li>
+                        <li>SkavenPack</li>
+                        <li>SkavenMoulder</li>
+                    </weaponTags>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/costList</xpath>
+                <value>
+                    <costList>
+                        <WoodLog>10</WoodLog>
+                        <Jade>20</Jade>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <SK_Warpstone>2</SK_Warpstone>
+                    </costList>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>40</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/verbs</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <WorkToMake>10000</WorkToMake>
+                        <Bulk>9</Bulk>
+                        <Mass>2.5</Mass>
+                    </statBases>
+                    <equippedStatOffsets>
+                        <MeleeDodgeChance>0.4</MeleeDodgeChance>
+                        <MeleeParryChance>0.15</MeleeParryChance>
+                    </equippedStatOffsets>
+                    <thingCategories>
+                        <li>SKVMeleeWeapon</li>
+                    </thingCategories>
+                </value>
+            </li>
+            
+            <!--<li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ManeuverDef>
+                        <defName>WarpShock</defName>
+                        <requiredCapacity>ElectricShock</requiredCapacity>
+                        <verb Class="CombatExtended.VerbPropertiesCE">
+                          <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+                          <meleeDamageDef>ElectricShock</meleeDamageDef>
+                        </verb>
+                        <logEntryDef>MeleeAttack</logEntryDef>
+                        <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+                        <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+                        <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+                        <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+                      </ManeuverDef>
+                </value>
+            </li>-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>point</label>
+                            <capacities>
+                                <li>SkavenShockProdCE</li>
+                            </capacities>
+                            <power>10</power>
+                            <cooldownTime>2.3</cooldownTime>
+                            <chanceFactor>100</chanceFactor>
+                            <armorPenetrationSharp>0</armorPenetrationSharp>
+                            <armorPenetrationBlunt>3</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MeleeWeapon_SkavenProd"]/recipeMaker</xpath>
+                <value>
+                    <recipeMaker>
+                        <workSpeedStat>SmithingSpeed</workSpeedStat>
+                        <workSkill>Crafting</workSkill>
+                        <effectWorking>Smith</effectWorking>
+                        <soundWorking>Recipe_Smith</soundWorking>
+                        <recipeUsers>
+                            <li>ElectricSmithy</li>
+                            <li>FueledSmithy</li>
+                        </recipeUsers>
+                        <skillRequirements>
+                            <Crafting>5</Crafting>
+                        </skillRequirements>
+                        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+                        <researchPrerequisite>SkavenMoulderGear</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Skaven_ShockProdStab"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

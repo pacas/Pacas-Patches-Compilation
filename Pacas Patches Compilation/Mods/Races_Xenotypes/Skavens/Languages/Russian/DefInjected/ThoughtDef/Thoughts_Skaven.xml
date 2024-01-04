@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenKnowColonistDied.stages.0.label>Колонист умер</SkavenKnowColonistDied.stages.0.label>
+  <SkavenKnowColonistDied.stages.0.description>Один из наших мертв.</SkavenKnowColonistDied.stages.0.description>
+
+  <SkavenPawnWithGoodOpinionDied.stages.0.label>Мой друг {0} умер</SkavenPawnWithGoodOpinionDied.stages.0.label>
+  <SkavenPawnWithGoodOpinionDied.stages.0.description>Этот был не так уж плох.</SkavenPawnWithGoodOpinionDied.stages.0.description>
+
+  <SkavenPawnWithBadOpinionDied.stages.0.label>Мой соперник {0} умер</SkavenPawnWithBadOpinionDied.stages.0.label>
+  <SkavenPawnWithBadOpinionDied.stages.0.description>Так им и надо!</SkavenPawnWithBadOpinionDied.stages.0.description>
+
+  <SkavenMySonDied.stages.0.label>Мой сын {0} умер</SkavenMySonDied.stages.0.label>
+  <SkavenMySonDied.stages.0.description>Сын мертв. Он был недостаточно силен.</SkavenMySonDied.stages.0.description>
+
+  <SkavenMyDaughterDied.stages.0.label>моя дочь {0} умерла</SkavenMyDaughterDied.stages.0.label>
+  <SkavenMyDaughterDied.stages.0.description>Дочь мертва. Она была недостаточно сильна.</SkavenMyDaughterDied.stages.0.description>
+
+  <SkavenMyHusbandDied.stages.0.label>Мой муж {0} умер</SkavenMyHusbandDied.stages.0.label>
+  <SkavenMyHusbandDied.stages.0.description>Наши планы! Разрушен!</SkavenMyHusbandDied.stages.0.description>
+
+  <SkavenMyWifeDied.stages.0.label>Моя жена {0} умерла</SkavenMyWifeDied.stages.0.label>
+  <SkavenMyWifeDied.stages.0.description>Наши планы! Разрушен!</SkavenMyWifeDied.stages.0.description>
+
+  <SkavenMyFianceDied.stages.0.label>Мой жених {0} умер</SkavenMyFianceDied.stages.0.label>
+  <SkavenMyFianceDied.stages.0.description>Мои планы разрушены.</SkavenMyFianceDied.stages.0.description>
+
+  <SkavenMyFianceeDied.stages.0.label>Моя невеста {0} умерла</SkavenMyFianceeDied.stages.0.label>
+  <SkavenMyFianceeDied.stages.0.description>Мои планы разрушены.</SkavenMyFianceeDied.stages.0.description>
+
+  <SkavenMyLoverDied.stages.0.label>Мой возлюбленный {0} умер</SkavenMyLoverDied.stages.0.label>
+  <SkavenMyLoverDied.stages.0.description>Возлюбленный мертв, Наши планы рухнули..</SkavenMyLoverDied.stages.0.description>
+
+  <SkavenMyBrotherDied.stages.0.label>Мой брат {0} умер</SkavenMyBrotherDied.stages.0.label>
+  <SkavenMyBrotherDied.stages.0.description>Выводок редеет.</SkavenMyBrotherDied.stages.0.description>
+
+  <SkavenMySisterDied.stages.0.label>Моя сестра {0} умерла</SkavenMySisterDied.stages.0.label>
+  <SkavenMySisterDied.stages.0.description>Выводок редеет.</SkavenMySisterDied.stages.0.description>
+
+  <SkavenMyGrandchildDied.stages.0.label>Мой внук {0} умер</SkavenMyGrandchildDied.stages.0.label>
+  <SkavenMyGrandchildDied.stages.0.description>Выводок слаб.</SkavenMyGrandchildDied.stages.0.description>
+
+  <SkavenMyFatherDied.stages.0.label>Мой отец {0} умер</SkavenMyFatherDied.stages.0.label>
+  <SkavenMyFatherDied.stages.0.description>Слабый! Слабый! Я сильнее.</SkavenMyFatherDied.stages.0.description>
+
+  <SkavenMyMotherDied.stages.0.label>Моя мать {0} умерла</SkavenMyMotherDied.stages.0.label>
+  <SkavenMyMotherDied.stages.0.description>Слабый! Слабый! Я сильнее.</SkavenMyMotherDied.stages.0.description>
+
+  <SkavenMyNieceDied.stages.0.label>Моя племянница {0} умерла</SkavenMyNieceDied.stages.0.label>
+  <SkavenMyNieceDied.stages.0.description>Слабость.</SkavenMyNieceDied.stages.0.description>
+
+  <SkavenMyNephewDied.stages.0.label>Мой племянник {0} умер</SkavenMyNephewDied.stages.0.label>
+  <SkavenMyNephewDied.stages.0.description>Слабость.</SkavenMyNephewDied.stages.0.description>
+
+  <SkavenMyHalfSiblingDied.stages.0.label>Мой сводный брат {0} умер</SkavenMyHalfSiblingDied.stages.0.label>
+  <SkavenMyHalfSiblingDied.stages.0.description>Другой выводок слабее.</SkavenMyHalfSiblingDied.stages.0.description>
+
+  <SkavenMyAuntDied.stages.0.label>Моя тетя {0} умерла</SkavenMyAuntDied.stages.0.label>
+  <SkavenMyAuntDied.stages.0.description>Слабость.</SkavenMyAuntDied.stages.0.description>
+
+  <SkavenMyUncleDied.stages.0.label>Мой дядя {0} умер</SkavenMyUncleDied.stages.0.label>
+  <SkavenMyUncleDied.stages.0.description>Слабость.</SkavenMyUncleDied.stages.0.description>
+
+  <SkavenMyGrandparentDied.stages.0.label>Мои бабушка и дедушка {0} умерли</SkavenMyGrandparentDied.stages.0.label>
+  <SkavenMyGrandparentDied.stages.0.description>Такая слабость.</SkavenMyGrandparentDied.stages.0.description>
+
+  <SkavenMyCousinDied.stages.0.label>Мой двоюродный брат {0} умер</SkavenMyCousinDied.stages.0.label>
+  <SkavenMyCousinDied.stages.0.description>Этот выводок слаб.</SkavenMyCousinDied.stages.0.description>
+
+  <SkavenMyKinDied.stages.0.label>Мои родственники {0} умерли</SkavenMyKinDied.stages.0.label>
+  <SkavenMyKinDied.stages.0.description>Выводок слабеет.</SkavenMyKinDied.stages.0.description>
+
+  <SkavenGotMarried.stages.0.label>Вышел замуж за {0}</SkavenGotMarried.stages.0.label>
+  <SkavenGotMarried.stages.0.description>Планы, которые мы будем совершать! Дела, которые мы совершим!</SkavenGotMarried.stages.0.description>
+
+  <SkavenAttendedWedding.stages.0.label>Присутствовал на свадьбе</SkavenAttendedWedding.stages.0.label>
+  <SkavenAttendedWedding.stages.0.description>Какие планы будут вынашивать эти двое? Какие дела они должны совершить?</SkavenAttendedWedding.stages.0.description>
+
+  <SkavenAttendedParty.stages.0.label>Посещенная вечеринка</SkavenAttendedParty.stages.0.label>
+  <SkavenAttendedParty.stages.0.description>Так много тайн раскрывается на этих собраниях.</SkavenAttendedParty.stages.0.description>
+
+  <SkavenSleepDisturbed.stages.0.label>Нарушенный сон</SkavenSleepDisturbed.stages.0.label>
+  <SkavenSleepDisturbed.stages.0.description>Твое шуршание не дает мне уснуть.</SkavenSleepDisturbed.stages.0.description>
+
+  <SkavenNewColonyOptimism.stages.0.label>Первоначальный оптимизм</SkavenNewColonyOptimism.stages.0.label>
+  <SkavenNewColonyOptimism.stages.0.description>Так маняще. Такое обещание дает эта новая нора.</SkavenNewColonyOptimism.stages.0.description>
+
+  <SkavenNewColonyHope.stages.0.label>Первоначальная надежда</SkavenNewColonyHope.stages.0.label>
+  <SkavenNewColonyHope.stages.0.description>Это уже кажется лучше, чем другие норы.</SkavenNewColonyHope.stages.0.description>
+
+  <SkavenMyOrganHarvested.stages.0.label>Вырезан орган</SkavenMyOrganHarvested.stages.0.label>
+  <SkavenMyOrganHarvested.stages.0.description>Берегите свою спину! Вы пожалеете об этом.</SkavenMyOrganHarvested.stages.0.description>
+
+  <SkavenWasImprisoned.stages.0.label>Был заключен в тюрьму</SkavenWasImprisoned.stages.0.label>
+  <SkavenWasImprisoned.stages.0.description>Ты пожалеешь об этом.</SkavenWasImprisoned.stages.0.description>
+
+  <SkavenKnowBuriedInSarcophagus.stages.0.label>Похоронен в саркофаге</SkavenKnowBuriedInSarcophagus.stages.0.label>
+  <SkavenKnowBuriedInSarcophagus.stages.0.description>Такой экстравагантный поступок.</SkavenKnowBuriedInSarcophagus.stages.0.description>
+
+  <SkavenWitnessedDeathFamily.stages.0.label>Стал свидетелем смерти члена семьи</SkavenWitnessedDeathFamily.stages.0.label>
+  <SkavenWitnessedDeathFamily.stages.0.description>Я видел, как выводок поредел.</SkavenWitnessedDeathFamily.stages.0.description>
+
+  <SkavenDefeatedHostileFactionLeader.stages.0.label>Побежденный враждебный лидер {0}</SkavenDefeatedHostileFactionLeader.stages.0.label>
+  <SkavenDefeatedHostileFactionLeader.stages.0.description>Я уничтожил их! Это честь для меня!</SkavenDefeatedHostileFactionLeader.stages.0.description>
+
+  <SkavenInsultedMood.stages.0.label>Оскорбление</SkavenInsultedMood.stages.0.label>
+  <SkavenInsultedMood.stages.0.description>Прикрывай свою спину.</SkavenInsultedMood.stages.0.description>
+
+  <SkavenKindWordsMood.stages.0.label>Добрые слова</SkavenKindWordsMood.stages.0.label>
+  <SkavenKindWordsMood.stages.0.description>Хо! Какую услугу вы мне оказываете.</SkavenKindWordsMood.stages.0.description>
+
+  <SkavenRebuffedMyRomanceAttemptMood.stages.0.label>отвергнутый {0}</SkavenRebuffedMyRomanceAttemptMood.stages.0.label>
+  <SkavenRebuffedMyRomanceAttemptMood.stages.0.description>Мной пренебрегли.</SkavenRebuffedMyRomanceAttemptMood.stages.0.description>
+
+  <SkavenFailedRomanceAttemptOnMeLowOpinionMood.stages.0.label>пришлось дать отпор {0}</SkavenFailedRomanceAttemptOnMeLowOpinionMood.stages.0.label>
+  <SkavenFailedRomanceAttemptOnMeLowOpinionMood.stages.0.description>Какой зловещий план они скрывают.</SkavenFailedRomanceAttemptOnMeLowOpinionMood.stages.0.description>
+
+  <SkavenBrokeUpWithMeMood.stages.0.label>Расстался с {0}</SkavenBrokeUpWithMeMood.stages.0.label>
+  <SkavenBrokeUpWithMeMood.stages.0.description>Они знают мои планы! Мои секреты!</SkavenBrokeUpWithMeMood.stages.0.description>
+
+  <SkavenCheatedOnMeMood.stages.0.label>обманутый {0}</SkavenCheatedOnMeMood.stages.0.label>
+  <SkavenCheatedOnMeMood.stages.0.description>Они обманывают меня! Никому нельзя меня обманывать!</SkavenCheatedOnMeMood.stages.0.description>
+
+  <SkavenDivorcedMeMood.stages.0.label>Разведен на {0}</SkavenDivorcedMeMood.stages.0.label>
+  <SkavenDivorcedMeMood.stages.0.description>Планы разрушены. Мы должны создать новые!</SkavenDivorcedMeMood.stages.0.description>
+
+  <SkavenRejectedMyProposalMood.stages.0.label>Мое предложение было отклонено {0}</SkavenRejectedMyProposalMood.stages.0.label>
+  <SkavenRejectedMyProposalMood.stages.0.description>Ты! Ты разрушаешь все планы.</SkavenRejectedMyProposalMood.stages.0.description>
+
+
+  <!-- bonded animal lost -->
+
+  <SkavenBondedAnimalLost.stages.0.label>привязанное животное {0} потеряно</SkavenBondedAnimalLost.stages.0.label>
+  <SkavenBondedAnimalLost.stages.0.description>Мой! Мой!</SkavenBondedAnimalLost.stages.0.description>
+
+
+  <!-- Family member lost -->
+
+  <SkavenFamilyLost.stages.0.label>Семья {0} потеряна</SkavenFamilyLost.stages.0.label>
+  <SkavenFamilyLost.stages.0.description>Они принесли позор.</SkavenFamilyLost.stages.0.description>
+
+
+</LanguageData>

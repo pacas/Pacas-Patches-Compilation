@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Category: Primacy -->
+
+  <KTSkavenPrimacy.label>Под землей</KTSkavenPrimacy.label>
+  <KTSkavenPrimacy.description>Мы живем под всеми и всем. Мы размножаемся в темноте и пируем везде..</KTSkavenPrimacy.description>
+  <KTSkavenPrimacy.generalRules.rulesStrings.0>memeCreed-&gt;Пещера</KTSkavenPrimacy.generalRules.rulesStrings.0>
+  <KTSkavenPrimacy.generalRules.rulesStrings.1>memeCreed-&gt;Бункер</KTSkavenPrimacy.generalRules.rulesStrings.1>
+  <KTSkavenPrimacy.generalRules.rulesStrings.2>memeCreed-&gt;Вал</KTSkavenPrimacy.generalRules.rulesStrings.2>
+  <KTSkavenPrimacy.generalRules.rulesStrings.3>memeAdjective-&gt;Глубоко</KTSkavenPrimacy.generalRules.rulesStrings.3>
+  <KTSkavenPrimacy.generalRules.rulesStrings.4>memeHyphenPrefix-&gt;Камень</KTSkavenPrimacy.generalRules.rulesStrings.4>
+  <KTSkavenPrimacy.generalRules.rulesStrings.5>memeHyphenPrefix-&gt;Пещера</KTSkavenPrimacy.generalRules.rulesStrings.5>
+  <KTSkavenPrimacy.generalRules.rulesStrings.6>memeHyphenPrefix-&gt;Глубоко</KTSkavenPrimacy.generalRules.rulesStrings.6>
+  <KTSkavenPrimacy.generalRules.rulesStrings.7>memeHyphenPrefix-&gt;Подводный</KTSkavenPrimacy.generalRules.rulesStrings.7>
+  <KTSkavenPrimacy.generalRules.rulesStrings.8>memeHyphenPrefix-&gt;Под</KTSkavenPrimacy.generalRules.rulesStrings.8>
+  <KTSkavenPrimacy.generalRules.rulesStrings.9>memeConcept-&gt;Земля</KTSkavenPrimacy.generalRules.rulesStrings.9>
+  <KTSkavenPrimacy.generalRules.rulesStrings.10>memeConcept-&gt;Камень</KTSkavenPrimacy.generalRules.rulesStrings.10>
+  <KTSkavenPrimacy.generalRules.rulesStrings.11>memeConcept-&gt;Глубина</KTSkavenPrimacy.generalRules.rulesStrings.11>
+  <KTSkavenPrimacy.generalRules.rulesStrings.12>memeConcept-&gt;захоронение</KTSkavenPrimacy.generalRules.rulesStrings.12>
+  <KTSkavenPrimacy.generalRules.rulesStrings.13>memeLeaderNoun-&gt;Военачальник</KTSkavenPrimacy.generalRules.rulesStrings.13>
+  <KTSkavenPrimacy.generalRules.rulesStrings.14>memeLeaderNoun-&gt;Крысиный лорд</KTSkavenPrimacy.generalRules.rulesStrings.14>
+  <KTSkavenPrimacy.generalRules.rulesStrings.15>memeLeaderNoun-&gt;Лорд</KTSkavenPrimacy.generalRules.rulesStrings.15>
+  <KTSkavenPrimacy.generalRules.rulesStrings.16>memeLeaderAdjective-&gt;Лорд</KTSkavenPrimacy.generalRules.rulesStrings.16>
+  <KTSkavenPrimacy.generalRules.rulesStrings.17>memeMoralist-&gt;Провидец</KTSkavenPrimacy.generalRules.rulesStrings.17>
+  <KTSkavenPrimacy.generalRules.rulesStrings.18>memeMoralist-&gt;Провидец</KTSkavenPrimacy.generalRules.rulesStrings.18>
+  <KTSkavenPrimacy.generalRules.rulesStrings.19>memeMoralist-&gt;Провидец</KTSkavenPrimacy.generalRules.rulesStrings.19>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Tunneler)        -&gt;[deity0_name] существует во тьме. Бессмертный и вечно интригующий [deity0_pronoun] благословил тех, кто ближе всего к [deity0_objective] в самых глубоких и темных туннелях..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.0>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Tunneler)  -&gt;[deity0_name] грызет края реальности. Бесконечно терпеливый [deity0_pronoun] ждет, пока мир сгниет..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.1>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Tunneler)           -&gt;Когда первые поселенцы пришли в [place_summary] [place_name], [deity0_type] [deity0_name] шептало из-под земли, [deity0_possessive] мудрость просачивалась из туннелей..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.2>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Tunneler)        -&gt;Богохульник [foeLeader] предложил, что  [deity0_name] не имеет значения, поскольку  [deity0_pronoun] меньше других богов из варпа..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.3>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Tunneler)     -&gt;Пророк [founderName] родился из самых глубоких и темных туннелей [place_name], и был обнаружен, когда [founder_possessive] единоверцы взломали глубокую пещеру, заполненную варпстоуном..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.4>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Tunneler)         -&gt;[memberNamePlural] прорыл туннель под святилищем  [foeLeader] и [founderName] перебил [foeLeader] [foeSoldiers] своим роем. [founderName] утащил [foeLeader] в глубокое подземелье и заключил в темницу. [foeLeader_objective].</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.5>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Tunneler)           -&gt;В поверхностном и бессмысленном мире конец - единственная истина, ибо все сгнивает.. [founderName] heard the whispers in the deep and dark cave and found meaning, and founded our movement.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.6>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Tunneler)    -&gt;[founderName] распространяет шепот истины среди всех родственников, кто прислушается к призыву истинного бога. [deity0_name].</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.7>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Tunneler)         -&gt;Кодекс, который я нашел в Городе Глубин, преподал мне один урок, превосходящий все остальные.:</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.8>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Tunneler)              -&gt;Все должно сгнить, в переносном или буквальном смысле..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.9>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Tunneler) -&gt;Рогатый Крыс и его потомство - это земная реальность этой простой истины..</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.10>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Tunneler)    -&gt;Тела архотеков находятся глубоко под землей, поэтому их сознательный субстрат защищен от гамма-излучения и солнечных вспышек. Копая глубже, люди становятся ближе к ним.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.11>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Tunneler)     -&gt;Архотеки создали для нас биоинженерный питательный гриб, чтобы человечество могло процветать под землей, рядом с погребенными разумами архотеков.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.12>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Tunneler) -&gt;[inTheEnd], архотеки примут нас в свои подземные небеса.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.13>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_Tunneler)     -&gt;На камне лежит множество молитв, обращенных к [deity0_name], молитвы ненависти, зависти или злобы.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.14>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.15>animistFact(tag=meme_Tunneler)     -&gt;Самые благородные духи - это духи ненависти и злобы, в чистом виде без примесей они придают силу приверженцам.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.15>
+  <KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.16>animistFact(tag=meme_Tunneler)     -&gt;Сомнение и небрежность не кормят [deity0_name], offer all or fear [deity0_pronoun] gnawing teeths.</KTSkavenPrimacy.descriptionMaker.rules.rulesStrings.16>
+
+
+</LanguageData>

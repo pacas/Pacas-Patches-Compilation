@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Weapon_SkavenPoisonBottle-->
+            <li Class="PatchOperationAttributeAdd">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]</xpath>
+                <attribute>Class</attribute>
+                <value>CombatExtended.AmmoDef</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseGrenadeEquipment</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]</xpath>
+                <value>
+                    <equipmentType>Primary</equipmentType>
+                    <stackLimit>25</stackLimit>
+                    <weaponClasses>
+                        <li>Medieval</li>
+                    </weaponClasses>
+                    <detonateProjectile>Proj_PoisonBottle</detonateProjectile>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]/statBases</xpath>
+                <value>
+                    <Bulk>1.8</Bulk>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]/verbs</xpath>
+                <value>
+                    <verbs>
+                        <li Class="CombatExtended.VerbPropertiesCE">
+                            <label>throw bottle</label>
+                            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <range>10.0</range>
+                            <warmupTime>1.35</warmupTime>
+                            <noiseRadius>4</noiseRadius>
+                            <minRange>2</minRange>
+                            <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+                            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                            <soundCast>ThrowMolotovCocktail</soundCast>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                            <defaultProjectile>Proj_PoisonBottle</defaultProjectile>
+                            <onlyManualCast>true</onlyManualCast>
+                            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                        </li>
+                    </verbs>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]/comps</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Weapon_SkavenPoisonBottle"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Proj_PoisonBottle"]</xpath>
+                <value>
+                    <ThingDef ParentName="SK_BaseGrenadeProjectile">
+                        <defName>Proj_PoisonBottle</defName>
+                        <label>poison bottle</label>
+                        <graphicData>
+                            <texPath>Things/Item/Weapon/PlagueBottle/PlagueBottle</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                        </graphicData>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <explosionRadius>2</explosionRadius>
+                            <damageDef>SkavenPoison</damageDef>
+                            <damageAmountBase>5</damageAmountBase>
+                            <explosionDelay>30</explosionDelay>
+                            <dropsCasings>false</dropsCasings>
+                        </projectile>
+                    </ThingDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

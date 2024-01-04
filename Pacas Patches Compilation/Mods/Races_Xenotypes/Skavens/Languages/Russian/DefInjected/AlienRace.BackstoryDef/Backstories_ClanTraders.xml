@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- hireling -->
+
+  <TraderRatHireling.title>наемник</TraderRatHireling.title>
+  <TraderRatHireling.titleShort>наемник</TraderRatHireling.titleShort>
+  <TraderRatHireling.baseDescription>[PAWN_nameDef] предлагают свои услуги за определенную цену.</TraderRatHireling.baseDescription>
+
+  <TraderRatGladiator.title>гладиатор</TraderRatGladiator.title>
+  <TraderRatGladiator.titleShort>гладиатор</TraderRatGladiator.titleShort>
+  <TraderRatGladiator.baseDescription>[PAWN_nameDef] это бывший гладиатор, теперь предлагающий свои услуги тому, кто больше заплатит.</TraderRatGladiator.baseDescription>
+
+  <TraderRatBruiser.title>громила</TraderRatBruiser.title>
+  <TraderRatBruiser.titleShort>громила</TraderRatBruiser.titleShort>
+  <TraderRatBruiser.baseDescription>[PAWN_nameDef] продолжает работать наемным убийцей.</TraderRatBruiser.baseDescription>
+
+  <TraderRatMercenary.title>контрактник</TraderRatMercenary.title>
+  <TraderRatMercenary.titleShort>контрактник</TraderRatMercenary.titleShort>
+  <TraderRatMercenary.baseDescription>[PAWN_nameDef] это наемник.</TraderRatMercenary.baseDescription>
+
+
+  <!-- trader -->
+
+  <TraderRatAssistant.title>помощник торговца</TraderRatAssistant.title>
+  <TraderRatAssistant.titleShort>помощник</TraderRatAssistant.titleShort>
+  <TraderRatAssistant.baseDescription>[PAWN_nameDef] является помощником лидера клана.</TraderRatAssistant.baseDescription>
+
+  <TraderRatClek.title>торговый клерк</TraderRatClek.title>
+  <TraderRatClek.titleShort>клерк</TraderRatClek.titleShort>
+  <TraderRatClek.baseDescription>[PAWN_nameDef] работает клерком в одном из небольших кланов.</TraderRatClek.baseDescription>
+
+  <TraderRatTrader.title>торговец</TraderRatTrader.title>
+  <TraderRatTrader.titleShort>торговец</TraderRatTrader.titleShort>
+  <TraderRatTrader.baseDescription>[PAWN_nameDef] является одним из крупных торговцев отдельно стоящих кланов.</TraderRatTrader.baseDescription>
+
+
+</LanguageData>

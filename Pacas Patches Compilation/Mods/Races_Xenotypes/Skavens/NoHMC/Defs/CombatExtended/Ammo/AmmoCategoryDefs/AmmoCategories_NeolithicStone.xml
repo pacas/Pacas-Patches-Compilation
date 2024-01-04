@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>StoneSlingBall</defName>
+        <label>stone sling ball</label>
+        <labelShort>stone</labelShort>
+        <description>Simple stone sling ball.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>MetallicSlingBall</defName>
+        <label>metallic sling ball</label>
+        <labelShort>metallic</labelShort>
+        <description>Simple metallic sling ball.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+</Defs>

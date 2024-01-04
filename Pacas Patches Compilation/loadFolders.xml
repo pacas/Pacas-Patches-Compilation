@@ -63,12 +63,14 @@
         <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
         <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype</li>
         <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
+        <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
+        <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
         <!-- VE mods -->
         <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
         <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
         <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
         <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
         <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
-        <li IfModActive="vanillaexpanded.vfepropsanddecor">Mods/9_Vanilla_Expanded/Vanilla_Props_Expanded</li>
 	</v1.4>
 </loadFolders>

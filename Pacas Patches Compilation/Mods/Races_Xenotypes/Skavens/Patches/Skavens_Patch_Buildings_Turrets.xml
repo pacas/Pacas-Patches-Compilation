@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Turret_WarpCannonSmall"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Turret_WarpCannonSmall"]/thingClass</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Turret_WarpCannonSmall"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>900</basePowerConsumption>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Turret_WarpCannonSmall"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ElectronicComponents>4</ElectronicComponents>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                    <costStuffCount>60</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Turret_WarpCannonSmall"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>TurretMannedBase</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Mortars"]/defNames</xpath>
+                <value>
+                    <li>Turret_WarpCannonSmall</li>
+                    <li>Turret_SkavenJezzail</li>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_WarpCannonTurret"]</xpath>
+                <value>
+                    <ThingDef ParentName="BaseGun_Turret">
+                        <defName>Gun_WarpCannonTurret</defName>
+                        <label>warp-lightning turret</label>
+                        <description>A large-bore cannon designed to attach to a warp cannon.</description>
+                        <graphicData>
+                            <texPath>Things/Building/Security/SkavenWarpCannon/WarpCannonTipAlt</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>(2,2)</drawSize>
+                        </graphicData>
+                        <soundInteract>Interact_ChargeLance</soundInteract>
+                        <techLevel>Industrial</techLevel>
+                        <statBases>
+                            <MarketValue>1500</MarketValue>
+                            <SightsEfficiency>1.0</SightsEfficiency>
+                            <ShotSpread>0.08</ShotSpread>
+                            <SwayFactor>0.7</SwayFactor>
+                            <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
+                        </statBases>
+                        <weaponTags>
+                            <li>SKavenTurretGun</li>
+                        </weaponTags>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <recoilAmount>0.4</recoilAmount>
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>Projectile_WarpCannon</defaultProjectile>
+                                <warmupTime>0.6</warmupTime>
+                                <minRange>10</minRange>
+                                <range>54</range>
+                                <burstShotCount>1</burstShotCount>
+                                <soundCast>ChargeLance_Fire</soundCast>
+                                <soundCastTail>GunTail_Heavy</soundCastTail>
+                                <muzzleFlashScale>40</muzzleFlashScale>
+                            </li>
+                        </verbs>
+                    </ThingDef>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_WarpCannon"]</xpath>
+            </li>
+            
+            
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Turret_SkavenJezzail"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Turret_SkavenJezzail"]/thingClass</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Turret_SkavenJezzail"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ElectronicComponents>4</ElectronicComponents>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                    <costStuffCount>120</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Turret_SkavenJezzail"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>TurretMannedBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_WarplockJezzail"]</xpath>
+                <value>
+                    <ThingDef ParentName="BaseGun_Turret">
+                        <defName>Gun_WarplockJezzail</defName>
+                        <label>Warplock Jezzail</label>
+                        <description>A long barrelled musket.</description>
+                        <graphicData>
+                            <texPath>Things/Building/Security/SkavenJezzail/SkavenJezzailAlt</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>(2,2)</drawSize>
+                        </graphicData>
+                        <soundInteract>Interact_Rifle</soundInteract>
+                        <techLevel>Industrial</techLevel>
+                        <statBases>
+                            <MarketValue>2000</MarketValue>
+                            <SightsEfficiency>1.2</SightsEfficiency>
+                            <ShotSpread>0.1</ShotSpread>
+                            <SwayFactor>0.4</SwayFactor>
+                            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+                        </statBases>
+                        <weaponTags>
+                            <li>SKavenTurretGun</li>
+                        </weaponTags>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <recoilAmount>0.5</recoilAmount>
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>Bullet_Warpstone_Turret</defaultProjectile>
+                                <warmupTime>5</warmupTime>
+                                <minRange>5</minRange>
+                                <range>80</range>
+                                <burstShotCount>1</burstShotCount>
+                                <soundCast>Shot_TurretSniper</soundCast>
+                                <soundCastTail>GunTail_Heavy</soundCastTail>
+                                <muzzleFlashScale>40</muzzleFlashScale>
+                            </li>
+                        </verbs>
+                        <comps>
+                            <li Class="CombatExtended.CompProperties_AmmoUser">
+                                <magazineSize>10</magazineSize>
+                                <reloadTime>7.5</reloadTime>
+                                <ammoSet>AmmoSet_WarpstoneBullets</ammoSet>
+                            </li>
+                        </comps>
+                    </ThingDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

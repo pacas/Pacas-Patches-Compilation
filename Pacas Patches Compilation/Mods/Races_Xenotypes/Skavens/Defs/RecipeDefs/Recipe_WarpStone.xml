@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+        <defName>MakeWarpstone_Hand</defName>
+        <label>Infuse warpstone</label>
+        <description>Infuse warpstone from raw magicyte ore, jade and pure hate. Produces 1. Only the Skaven know how to do that.</description>
+        <jobString>Infusing warpstone.</jobString>
+        <workAmount>1400</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>TableFurnace</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawMagicyte</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawMagicyte</li>
+                <li>Jade</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SK_Warpstone>1</SK_Warpstone>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+    </RecipeDef>
+    
+    <RecipeDef>
+        <defName>MakeWarpstone_Electric</defName>
+        <label>Infuse warpstone</label>
+        <description>Infuse warpstone from raw magicyte ore, jade and pure hate. Produces 1. Only the Skaven know how to do that.</description>
+        <jobString>Infusing warpstone.</jobString>
+        <workAmount>950</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawMagicyte</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawMagicyte</li>
+                <li>Jade</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SK_Warpstone>1</SK_Warpstone>
+        </products>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+    </RecipeDef>
+    
+    <RecipeDef>
+        <defName>MakeWarpstone_Magic</defName>
+        <label>Infuse warpstone</label>
+        <description>Infuse warpstone from raw magicyte ore, jade and magic. Produces 2.</description>
+        <jobString>Infusing warpstone.</jobString>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>TableArcaneForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawMagicyte</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawMagicyte</li>
+                <li>Jade</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SK_Warpstone>2</SK_Warpstone>
+        </products>
+        <skillRequirements>
+            <Crafting>3</Crafting>
+            <Intellectual>10</Intellectual>
+        </skillRequirements>
+        <workSkill>Intellectual</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+    </RecipeDef>
+</Defs>

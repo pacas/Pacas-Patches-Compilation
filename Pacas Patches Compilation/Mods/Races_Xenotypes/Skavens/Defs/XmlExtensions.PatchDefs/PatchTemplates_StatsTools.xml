@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.PatchDef Name="SkavenRace_SpecificStats" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>value1</li>
+            <li>value2</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>SkavenDoc</docName>
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/AlienRace.ThingDef_AlienRace[defName="{def}"]/statBases/ResearchSpeed</xpath>
+                <value>
+                    <ResearchSpeed>{value1}</ResearchSpeed>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/AlienRace.ThingDef_AlienRace[defName="{def}"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>{value2}</MarketValue>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    
+    <XmlExtensions.PatchDef Name="SkavenRace_WeaponsCosts" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>value1</li>
+            <li>value2</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>SkavenDoc</docName>
+                <xpath>Defs/PawnKindDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/PawnKindDef[defName="{def}"]/weaponMoney/min</xpath>
+                <value>
+                    <min>{value1}</min>
+                </value>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/PawnKindDef[defName="{def}"]/weaponMoney/max</xpath>
+                <value>
+                    <max>{value2}</max>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    
+    <XmlExtensions.PatchDef Name="SkavenRace_Tools" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>power</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/AlienRace.ThingDef_AlienRace[defName="{def}"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>teeth</label>
+                            <capacities>
+                                <li>Bite</li>
+                            </capacities>
+                            <power>12</power>
+                            <cooldownTime>2.6</cooldownTime>
+                            <chanceFactor>0.3</chanceFactor>
+                            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                            <surpriseAttack>
+                                <extraMeleeDamages>
+                                    <li>
+                                        <def>Stun</def>
+                                        <amount>5</amount>
+                                    </li>
+                                </extraMeleeDamages>
+                            </surpriseAttack>
+                            <armorPenetrationSharp>1.7</armorPenetrationSharp>
+                            <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+                            <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>left claws</label>
+                            <capacities>
+                                <li>Scratch</li>
+                            </capacities>
+                            <power>{power}</power>
+                            <cooldownTime>1.15</cooldownTime>
+                            <chanceFactor>0.7</chanceFactor>
+                            <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                            <armorPenetrationSharp>1.8</armorPenetrationSharp>
+                            <armorPenetrationBlunt>0</armorPenetrationBlunt>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>right claws</label>
+                            <capacities>
+                                <li>Scratch</li>
+                            </capacities>
+                            <power>{power}</power>
+                            <cooldownTime>1.15</cooldownTime>
+                            <chanceFactor>0.7</chanceFactor>
+                            <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                            <armorPenetrationSharp>1.8</armorPenetrationSharp>
+                            <armorPenetrationBlunt>0</armorPenetrationBlunt>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>head</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>4</power>
+                            <cooldownTime>2.75</cooldownTime>
+                            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                            <chanceFactor>0.15</chanceFactor>
+                            <armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+                            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                        </li>
+                    </tools>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+    
+    <XmlExtensions.PatchDef Name="SkavenRace_ToolsOgre" Abstract="True">
+        <parameters>
+            <li>def</li>
+            <li>power</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>SkavenDoc</docName>
+                <xpath>Defs/ThingDef[defName="{def}"]</xpath>
+            </Operation>
+            <Operation Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>SkavenDoc</xmlDoc>
+                <xpath>SkavenDoc/ThingDef[defName="{def}"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>teeth</label>
+                            <capacities>
+                                <li>Bite</li>
+                            </capacities>
+                            <power>{power}</power>
+                            <cooldownTime>2.6</cooldownTime>
+                            <chanceFactor>0.3</chanceFactor>
+                            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                            <surpriseAttack>
+                                <extraMeleeDamages>
+                                    <li>
+                                        <def>Stun</def>
+                                        <amount>5</amount>
+                                    </li>
+                                </extraMeleeDamages>
+                            </surpriseAttack>
+                            <armorPenetrationSharp>3.7</armorPenetrationSharp>
+                            <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+                            <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>left hand</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>{power}</power>
+                            <cooldownTime>2.4</cooldownTime>
+                            <linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+                            <armorPenetrationSharp>0.8</armorPenetrationSharp>
+                            <armorPenetrationBlunt>7</armorPenetrationBlunt>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>right hand</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>{power}</power>
+                            <cooldownTime>2.4</cooldownTime>
+                            <linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+                            <armorPenetrationSharp>0.8</armorPenetrationSharp>
+                            <armorPenetrationBlunt>7</armorPenetrationBlunt>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>head</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>3.75</cooldownTime>
+                            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                            <chanceFactor>0.15</chanceFactor>
+                            <armorPenetrationBlunt>4.4</armorPenetrationBlunt>
+                            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                        </li>
+                    </tools>
+                </value>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+</Defs>

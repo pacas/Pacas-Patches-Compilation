@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Ammo_Flamethrower_SkavenSprayer.label>химикаты скавенов</Ammo_Flamethrower_SkavenSprayer.label>
+    <Bullet_Flamethrower_SkavenNapalm.label>химикаты скавенов</Bullet_Flamethrower_SkavenNapalm.label>
+    
+    <Shell_Skaven_Poison.label>химический снаряд</Shell_Skaven_Poison.label>
+    <Bullet_Shell_Skaven_Poison.label>химический снаряд</Bullet_Shell_Skaven_Poison.label>
+
+    <Ammo_Warpstone_Basic.label>варп-пуля</Ammo_Warpstone_Basic.label>
+    <Ammo_Warpstone_Basic.description>Специальный патрон, используемый в различных видах оружия скавенов.</Ammo_Warpstone_Basic.description>
+    <Bullet_Warpstone_Basic.label>варп-пуля</Bullet_Warpstone_Basic.label>
+    <Bullet_Warpstone_Turret.label>варп-пуля</Bullet_Warpstone_Turret.label>
+
+    <Projectile_ScrollOfDoom.label>трескучая гибель</Projectile_ScrollOfDoom.label>
+    <Projectile_WarpCannon.label>варп-молния</Projectile_WarpCannon.label>
+
+</LanguageData>

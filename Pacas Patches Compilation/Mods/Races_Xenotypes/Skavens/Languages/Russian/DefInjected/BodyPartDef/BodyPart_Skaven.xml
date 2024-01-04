@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenTail.label>хвост</SkavenTail.label>
+
+  <RightSkavenHorn.label>правый рог</RightSkavenHorn.label>
+  <RightSkavenHorn.labelShort>рог</RightSkavenHorn.labelShort>
+
+  <LeftSkavenHorn.label>левый рог</LeftSkavenHorn.label>
+  <LeftSkavenHorn.labelShort>рог</LeftSkavenHorn.labelShort>
+
+  <SkavenHorn.label>рог</SkavenHorn.label>
+  <RatOgreBlade.label>клинок крысиного людоеда</RatOgreBlade.label>
+
+
+</LanguageData>

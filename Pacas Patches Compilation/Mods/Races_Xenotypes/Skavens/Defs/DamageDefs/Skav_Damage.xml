@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DamageDef>
+        <defName>SkavenShockProdCE</defName>
+        <label>shock burn</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been shocked to death.</deathMessage>
+        <hediff>SkavenProdBurn</hediff>
+        <defaultDamage>15</defaultDamage>
+        <defaultStoppingPower>0.5</defaultStoppingPower>
+        <defaultArmorPenetration>0.0</defaultArmorPenetration>
+        <impactSoundType>Electric</impactSoundType>
+        <canInterruptJobs>true</canInterruptJobs>
+        <armorCategory>Blunt</armorCategory>
+        <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+        <soundExplosion>Thunder_OnMap</soundExplosion>
+        <combatLogRules>Damage_Stun</combatLogRules>
+        <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+        <explosionCellFleck>BlastEMP</explosionCellFleck>
+        <explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>
+        <explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <bluntStunDuration>3.0</bluntStunDuration>
+        <bluntInnerHitChance>0.1</bluntInnerHitChance>
+        <bluntInnerHitDamageFractionToConvert>
+            <min>0.1</min>
+            <max>0.2</max>
+        </bluntInnerHitDamageFractionToConvert>
+        <bluntInnerHitDamageFractionToAdd>
+            <min>0.2</min>
+            <max>0.35</max>
+        </bluntInnerHitDamageFractionToAdd>
+        <bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+            <points>
+                <li>(0.04, 0.20)</li>
+                <li>(0.5, 1)</li>
+            </points>
+        </bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+        <bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+            <points>
+                <li>(0.8, 0)</li>
+                <li>(0.9, 0.15)</li>
+            </points>
+        </bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+        <modExtensions>
+            <li Class="CombatExtended.DamageDefExtensionCE">
+                <harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>
+            </li>
+        </modExtensions>
+    </DamageDef>
+                    
+    <DamageDef ParentName="Bullet">
+        <defName>SkavenBulletCE</defName>
+        <additionalHediffs>
+            <li>
+                <hediff>ToxicBuildup</hediff>
+                <severityPerDamageDealt>0.02</severityPerDamageDealt>
+            </li>
+        </additionalHediffs>
+    </DamageDef>
+</Defs>

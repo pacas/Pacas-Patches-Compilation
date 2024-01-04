@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Apparel_SkavenCloth.label>тряпичные обмотки</Apparel_SkavenCloth.label>
+    <Apparel_SkavenCloth.description>Простый обмотки, которык часто носят скавены, чтобы показать свою принадлежность к клану.</Apparel_SkavenCloth.description>
+
+    <Apparel_SkavenClothHood.label>тряпичный капюшон</Apparel_SkavenClothHood.label>
+    <Apparel_SkavenClothHood.description>Простой матерчатый капюшон, сшитый по размеру для скавена.</Apparel_SkavenClothHood.description>
+
+    <Apparel_SkavenTunic.label>тряпичная туника</Apparel_SkavenTunic.label>
+    <Apparel_SkavenTunic.description>Простая рваная туника.</Apparel_SkavenTunic.description>
+
+    <Apparel_SkavenHelmet.label>шлем скавенов</Apparel_SkavenHelmet.label>
+    <Apparel_SkavenHelmet.description>Простой шлем, сделанный по размеру для скавена.</Apparel_SkavenHelmet.description>
+
+    <Apparel_SkavenPadded.label>мягкая броня скавенов</Apparel_SkavenPadded.label>
+    <Apparel_SkavenPadded.description>Простая подкладка, которую можно носить как броню. Простая, но такя эффективная.</Apparel_SkavenPadded.description>
+
+    <Apparel_SkavenRobe.label>мантия скавенов</Apparel_SkavenRobe.label>
+    <Apparel_SkavenRobe.description>Мантия, которую носят скавены.</Apparel_SkavenRobe.description>
+
+    <Apparel_SkavenGasMask.label>противогаз скавенов</Apparel_SkavenGasMask.label>
+    <Apparel_SkavenGasMask.description>Прочный противогаз, подходящий для скавена. Обеспечивает хорошую защиту от яда и повреждений.</Apparel_SkavenGasMask.description>
+
+    <Apparel_SkavenStormPlate.label>пластинчатый доспех клана Скрайр</Apparel_SkavenStormPlate.label>
+    <Apparel_SkavenStormPlate.description>Пластинчатые доспехи с кольчугой, прикрывающей слабые места, которые носили грозные штормвермины скавенов. Внешняя оболочка украшена тканью, чтобы показать принадлежность к клану.</Apparel_SkavenStormPlate.description>
+
+    <!-- Moulder -->
+    <Apparel_SkavenMoulderMask.label>маска-клетка скавена</Apparel_SkavenMoulderMask.label>
+    <Apparel_SkavenMoulderMask.description>Маска-клетка, наполненная травами для защиты владельца от биохимических веществ (только для скавенов).</Apparel_SkavenMoulderMask.description>
+
+    <Apparel_MoulderPadded.label>вьючная броня</Apparel_MoulderPadded.label>
+    <Apparel_MoulderPadded.description>Доспехи, которые носили вожаки стаи клана Творцов. Нагрудная пластина со стальной подкладкой и тканевой подкладкой для защиты от различных созданий клана.</Apparel_MoulderPadded.description>
+
+</LanguageData>

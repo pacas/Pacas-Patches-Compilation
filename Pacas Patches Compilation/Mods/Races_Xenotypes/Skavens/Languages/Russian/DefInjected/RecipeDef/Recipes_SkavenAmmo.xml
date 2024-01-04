@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MakeAmmo_Flamethrower_SkavenSprayer.label>смешать химикаты скавенов х100</MakeAmmo_Flamethrower_SkavenSprayer.label>
+    <MakeAmmo_Flamethrower_SkavenSprayer.description>Смешать химикаты скавенов для использования в их оружии. Производится 100 штук.</MakeAmmo_Flamethrower_SkavenSprayer.description>
+    <MakeAmmo_Flamethrower_SkavenSprayer.jobString>Смешивает химикаты.</MakeAmmo_Flamethrower_SkavenSprayer.jobString>
+
+    <MakeShell_Skaven_Poison.label>смешать химикаты скавенов х100</MakeShell_Skaven_Poison.label>
+    <MakeShell_Skaven_Poison.description>Смешать химикаты скавенов для использования в их оружии. Производится 100 штук.</MakeShell_Skaven_Poison.description>
+    <MakeShell_Skaven_Poison.jobString>Смешивает химикаты.</MakeShell_Skaven_Poison.jobString>
+    
+    <MakeShell_Skaven_Poison.label>сделать химические снаряды скавенов х100</MakeShell_Skaven_Poison.label>
+    <MakeShell_Skaven_Poison.description>Сделать химические снаряды скавенов для использования в их переносных мортирах. Производится 5 штук.</MakeShell_Skaven_Poison.description>
+    <MakeShell_Skaven_Poison.jobString>Делает химические снаряды.</MakeShell_Skaven_Poison.jobString>
+    
+    <MakeAmmo_Warpstone_Basic.label>сделать варп-пули х40</MakeAmmo_Warpstone_Basic.label>
+    <MakeAmmo_Warpstone_Basic.description>Сделать варп-пули. Производится 40 штук.</MakeAmmo_Warpstone_Basic.description>
+    <MakeAmmo_Warpstone_Basic.jobString>Делает варп-пули.</MakeAmmo_Warpstone_Basic.jobString>
+
+</LanguageData>

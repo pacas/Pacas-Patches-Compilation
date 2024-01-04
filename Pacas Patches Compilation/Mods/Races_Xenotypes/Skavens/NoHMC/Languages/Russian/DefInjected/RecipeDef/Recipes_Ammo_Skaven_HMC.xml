@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MakeAmmo_SlingBall_Stone.label>Накрошить 50 камней для пращи из обломка</MakeAmmo_SlingBall_Stone.label>
+    <MakeAmmo_SlingBall_Stone.description>Накрошить 50 камней для пращи из обломка.</MakeAmmo_SlingBall_Stone.description>
+	<MakeAmmo_SlingBall_Stone.jobString>Крошит 50 камней для пращи из обломка.</MakeAmmo_SlingBall_Stone.jobString>
+
+	<MakeAmmo_SlingBall_Metallic.label>Сделать 50 металлических снарядов для пращи</MakeAmmo_SlingBall_Metallic.label>
+    <MakeAmmo_SlingBall_Metallic.description>Сделать 50 металлических снарядов для пращи.</MakeAmmo_SlingBall_Metallic.description>
+	<MakeAmmo_SlingBall_Metallic.jobString>Делает 50 металлических снарядов для пращи.</MakeAmmo_SlingBall_Metallic.jobString>
+
+</LanguageData>

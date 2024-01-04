@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <SkavenWarpBrazier.label>Варп-жаровня</SkavenWarpBrazier.label>
+    <SkavenWarpBrazier.description>Камень в центре излучает яркий зеленый свет.</SkavenWarpBrazier.description>
+    <SkavenWarpBrazier_Blueprint.label>Варп-жаровня (Чертеж)</SkavenWarpBrazier_Blueprint.label>
+    <SkavenWarpBrazier_Frame.label>Варп-жаровня (Строится)</SkavenWarpBrazier_Frame.label>
+    <SkavenWarpBrazier_Frame.description>Камень в центре излучает яркий зеленый свет.</SkavenWarpBrazier_Frame.description>
+
+</LanguageData>

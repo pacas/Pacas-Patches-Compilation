@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+        <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="SkavenWarpMutatedArmour"]/stages/li/statOffsets</xpath>
+                <value>
+                    <statOffsets>
+                        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+                        <ArmorRating_Heat>0.02</ArmorRating_Heat>
+                        <SocialImpact>-0.05</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="SkavenMoulderWarpSpine"]/stages/li/statOffsets</xpath>
+                <value>
+                    <statOffsets>
+                        <ArmorRating_Sharp>2</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>2</ArmorRating_Blunt>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="SkavenOgreBlade"]/comps</xpath>
+                <value>
+                    <comps>
+                        <li Class="HediffCompProperties_VerbGiver">
+                            <tools>
+                                <li Class="CombatExtended.ToolCE">
+                                    <label>blade</label>
+                                    <capacities>
+                                        <li>Scratch</li>
+                                    </capacities>
+                                    <power>30</power>
+                                    <cooldownTime>2.6</cooldownTime>
+                                    <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                                    <armorPenetrationSharp>11</armorPenetrationSharp>
+                                    <armorPenetrationBlunt>6</armorPenetrationBlunt>
+                                </li>
+                            </tools>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

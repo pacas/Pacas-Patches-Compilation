@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Torso Implant -->
+
+    <InstallSkavenMoulderWarpSpine.label>Установить позвоночник из варп-камня</InstallSkavenMoulderWarpSpine.label>
+    <InstallSkavenMoulderWarpSpine.description>Установить имплант из варп-камня.</InstallSkavenMoulderWarpSpine.description>
+    <InstallSkavenMoulderWarpSpine.jobString>Установка импланта из варп-камня.</InstallSkavenMoulderWarpSpine.jobString>
+
+
+    <!-- Abom Wolf -->
+
+    <InstallSkavenMoulderWolf.label>Превращение в крысоволка</InstallSkavenMoulderWolf.label>
+    <InstallSkavenMoulderWolf.description>Начните операцию по созданию крысоволка.</InstallSkavenMoulderWolf.description>
+    <InstallSkavenMoulderWolf.jobString>Выполняет операцию.</InstallSkavenMoulderWolf.jobString>
+
+
+    <!-- Abom Ogre -->
+
+    <InstallSkavenMoulderOgre.label>Превращение в огра</InstallSkavenMoulderOgre.label>
+    <InstallSkavenMoulderOgre.description>Начните операцию по созданию огра.</InstallSkavenMoulderOgre.description>
+    <InstallSkavenMoulderOgre.jobString>Выполняет операцию.</InstallSkavenMoulderOgre.jobString>
+
+
+    <!-- Rat Ogre -->
+
+    <InstallSkavenMoulderRatOgre.label>Превращение в крысоогра</InstallSkavenMoulderRatOgre.label>
+    <InstallSkavenMoulderRatOgre.description>Начните операцию по созданию крысоогра.</InstallSkavenMoulderRatOgre.description>
+    <InstallSkavenMoulderRatOgre.jobString>Выполняет операцию.</InstallSkavenMoulderRatOgre.jobString>
+
+
+</LanguageData>

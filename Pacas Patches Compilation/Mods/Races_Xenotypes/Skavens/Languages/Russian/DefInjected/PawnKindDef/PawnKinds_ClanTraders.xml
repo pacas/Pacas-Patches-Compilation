@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TraderSlaveRatMissile.label>Работорговец</TraderSlaveRatMissile.label>
+  <TraderSlaveRatMissile.labelPlural>Работорговцы</TraderSlaveRatMissile.labelPlural>
+  <TraderSlaveRatMissile.labelMale>Торговец рабами</TraderSlaveRatMissile.labelMale>
+  <TraderSlaveRatMissile.labelMalePlural>Торговец рабами</TraderSlaveRatMissile.labelMalePlural>
+  <TraderSlaveRatMissile.labelFemale>Торговка рабами</TraderSlaveRatMissile.labelFemale>
+  <TraderSlaveRatMissile.labelFemalePlural>Торговка рабами</TraderSlaveRatMissile.labelFemalePlural>
+
+  <TraderClanratLow.label>Торговый охранник</TraderClanratLow.label>
+  <TraderClanratLow.labelPlural>Торговые охранники</TraderClanratLow.labelPlural>
+  <TraderClanratLow.labelMale>Торговый охранник</TraderClanratLow.labelMale>
+  <TraderClanratLow.labelMalePlural>Торговый охранник</TraderClanratLow.labelMalePlural>
+  <TraderClanratLow.labelFemale>Торговый охранник</TraderClanratLow.labelFemale>
+  <TraderClanratLow.labelFemalePlural>Торговый охранник</TraderClanratLow.labelFemalePlural>
+
+  <TraderClanratRanged.label>Охранник с арбалетом</TraderClanratRanged.label>
+  <TraderClanratRanged.labelPlural>Охранник с арбалетом</TraderClanratRanged.labelPlural>
+  <TraderClanratRanged.labelMale>Охранник с арбалетом</TraderClanratRanged.labelMale>
+  <TraderClanratRanged.labelMalePlural>Охранник с арбалетом</TraderClanratRanged.labelMalePlural>
+  <TraderClanratRanged.labelFemale>Охранник с арбалетом</TraderClanratRanged.labelFemale>
+  <TraderClanratRanged.labelFemalePlural>Охранник с арбалетом</TraderClanratRanged.labelFemalePlural>
+
+  <TraderClanratHigh.label>Торговый громила</TraderClanratHigh.label>
+  <TraderClanratHigh.labelPlural>Торговый громила</TraderClanratHigh.labelPlural>
+  <TraderClanratHigh.labelMale>Торговый громила</TraderClanratHigh.labelMale>
+  <TraderClanratHigh.labelMalePlural>Торговый громила</TraderClanratHigh.labelMalePlural>
+  <TraderClanratHigh.labelFemale>Торговый громила</TraderClanratHigh.labelFemale>
+  <TraderClanratHigh.labelFemalePlural>Торговый громила</TraderClanratHigh.labelFemalePlural>
+
+  <TraderClanratTrader.label>Торговец</TraderClanratTrader.label>
+  <TraderClanratTrader.labelPlural>Торговцы</TraderClanratTrader.labelPlural>
+  <TraderClanratTrader.labelMale>Торговец</TraderClanratTrader.labelMale>
+  <TraderClanratTrader.labelMalePlural>Торговцы</TraderClanratTrader.labelMalePlural>
+  <TraderClanratTrader.labelFemale>Торговец</TraderClanratTrader.labelFemale>
+  <TraderClanratTrader.labelFemalePlural>Торговки</TraderClanratTrader.labelFemalePlural>
+
+  <TraderClanratHighGun.label>Торговец клыками</TraderClanratHighGun.label>
+  <TraderClanratHighGun.labelPlural>Торговцы клыками</TraderClanratHighGun.labelPlural>
+  <TraderClanratHighGun.labelMale>Торговец клыками</TraderClanratHighGun.labelMale>
+  <TraderClanratHighGun.labelMalePlural>Торговец клыками</TraderClanratHighGun.labelMalePlural>
+  <TraderClanratHighGun.labelFemale>Торговка клыками</TraderClanratHighGun.labelFemale>
+  <TraderClanratHighGun.labelFemalePlural>Торговки клыками</TraderClanratHighGun.labelFemalePlural>
+
+  <TraderClanratSkryreMid.label>Стрелок</TraderClanratSkryreMid.label>
+  <TraderClanratSkryreMid.labelPlural>Стрелки</TraderClanratSkryreMid.labelPlural>
+  <TraderClanratSkryreMid.labelMale>Стрелок</TraderClanratSkryreMid.labelMale>
+  <TraderClanratSkryreMid.labelMalePlural>Стрелки</TraderClanratSkryreMid.labelMalePlural>
+  <TraderClanratSkryreMid.labelFemale>Стрелок</TraderClanratSkryreMid.labelFemale>
+  <TraderClanratSkryreMid.labelFemalePlural>Стрелки</TraderClanratSkryreMid.labelFemalePlural>
+
+
+</LanguageData>

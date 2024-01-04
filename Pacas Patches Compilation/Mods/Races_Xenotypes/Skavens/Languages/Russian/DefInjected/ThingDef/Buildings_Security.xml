@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Turret_WarpCannonSmall.label>Варп-молниеносная пушка</Turret_WarpCannonSmall.label>
+    <Turret_WarpCannonSmall.description>Уменьшенная версия варп-молниеносной пушки. Он генерирует удивительное количество энергии, которая концентрируется в единственном взрыве чистой варп-молнии.</Turret_WarpCannonSmall.description>
+
+    <Bullet_WarpCannon.label>Варп-молния</Bullet_WarpCannon.label>
+
+    <Gun_WarpCannonTurret.label>Варп-молниеносная турель</Gun_WarpCannonTurret.label>
+    <Gun_WarpCannonTurret.description>Крупнокалиберная пушка, предназначенная для крепления к варп-пушке.</Gun_WarpCannonTurret.description>
+
+    <Trap_SkavenPoisonMine.label>Химическая мина</Trap_SkavenPoisonMine.label>
+    <Trap_SkavenPoisonMine.description>Простое приспособление, которое приведет к взрыву бутылки с химическим веществом.</Trap_SkavenPoisonMine.description>
+
+    <SkavenBarricade.label>Дощатая баррикада</SkavenBarricade.label>
+    <SkavenBarricade.description>Дерево скреплено вместе со сталью. Простая и в то же время эффективная баррикада. Не такая прочная, как мешки с песком, но обеспечивает высокую мобильность при размещении.</SkavenBarricade.description>
+    <SkavenBarricade_Blueprint.label>Дощатая баррикада (Чертеж)</SkavenBarricade_Blueprint.label>
+    <SkavenBarricade_Blueprint_Install.label>Дощатая баррикада (Чертеж)</SkavenBarricade_Blueprint_Install.label>
+    <SkavenBarricade_Frame.label>Дощатая баррикада (Строится)</SkavenBarricade_Frame.label>
+    <SkavenBarricade_Frame.description>Дерево скреплено вместе со сталью. Простая и в то же время эффективная баррикада. Не такая прочная, как мешки с песком, но обеспечивает высокую мобильность при размещении.</SkavenBarricade_Frame.description>
+
+    <Turret_SkavenJezzail.label>Джеззейл</Turret_SkavenJezzail.label>
+    <Turret_SkavenJezzail.description>Длинноствольный мушкет, способный поражать цели на расстоянии, большем, чем обычные луки или огнестрельное оружие с черным порохом. Как только винтовка выстреливает, оружие выпускает единственную пулю, полностью изготовленную из очищенного токсичного варпстоуна, с такой скоростью, что она поражает с силой, способной пробить даже самую толстую броню.</Turret_SkavenJezzail.description>
+
+    <Bullet_WarplockJezzail.label>Пуля Джеззейла</Bullet_WarplockJezzail.label>
+
+    <Gun_WarplockJezzail.label>Варп-Джеззейл</Gun_WarplockJezzail.label>
+    <Gun_WarplockJezzail.description>Длинноствольный мушкет.</Gun_WarplockJezzail.description>
+
+
+</LanguageData>

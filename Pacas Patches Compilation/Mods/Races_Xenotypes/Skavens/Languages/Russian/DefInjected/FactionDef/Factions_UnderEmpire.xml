@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UnderEmpireFaction.label>Империя Скавенов</UnderEmpireFaction.label>
+  <UnderEmpireFaction.description>Объединенный фронт Под-империи. Кланы военачальников под руководством великих кланов возглавляют этих разбросанных крысолюдей.</UnderEmpireFaction.description>
+  <UnderEmpireFaction.fixedName>Под-Империей</UnderEmpireFaction.fixedName>
+  <UnderEmpireFaction.pawnsPlural>Скавен</UnderEmpireFaction.pawnsPlural>
+  <UnderEmpireFaction.leaderTitle>Военачальник</UnderEmpireFaction.leaderTitle>
+
+
+</LanguageData>

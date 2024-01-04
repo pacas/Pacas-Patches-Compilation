@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Gun_SkavenSprayer-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSprayer"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseMakeableSkavenHeavyGun</value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_SkavenSprayer"]</xpath>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_SkavenSprayer</defName>
+                <statBases>
+                    <Mass>10.30</Mass>
+                    <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.5</SightsEfficiency>
+                    <ShotSpread>0.3</ShotSpread>
+                    <SwayFactor>1.9</SwayFactor>
+                    <Bulk>11.92</Bulk>
+                </statBases>
+                <Properties>
+                    <recoilAmount>1.50</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_Flamethrower_SkavenNapalm</defaultProjectile>
+                    <warmupTime>3.0</warmupTime>
+                    <range>15</range>
+                    <minRange>4</minRange>
+                    <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                    <soundCast>HissFlamethrower</soundCast>
+                    <muzzleFlashScale>4</muzzleFlashScale>
+                    <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                    <burstShotCount>5</burstShotCount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>15</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_SkavenFlamethrower</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>Snapshot</aiAimMode>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>SkavenGun</li>
+                </weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSprayer"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSprayer"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSprayer"]/tools</xpath>
+            </li>
+            
+            
+            <!--Gun_MinigunSkaven-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_MinigunSkaven"]</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunSkaven"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseMakeableSkavenHeavyGun</value>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_MinigunSkaven</defName>
+                <statBases>
+                    <Mass>10.30</Mass>
+                    <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.3</SightsEfficiency>
+                    <ShotSpread>5</ShotSpread>
+                    <SwayFactor>3</SwayFactor>
+                    <Bulk>16.3</Bulk>
+                </statBases>
+                <Properties>
+                    <recoilAmount>3.5</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+                    <warmupTime>2.7</warmupTime>
+                    <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                    <burstShotCount>20</burstShotCount>
+                    <range>25</range>
+                    <soundCast>Shot_Minigun</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>200</magazineSize>
+                    <reloadTime>7</reloadTime>
+                    <ammoSet>AmmoSet_9x19mmPara</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>10</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>SkavenGun</li>
+                </weaponTags>
+                <AllowWithRunAndGun>true</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunSkaven"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunSkaven"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunSkaven"]/tools</xpath>
+            </li>
+            
+            
+
+            <!--Gun_SkavenSmallWindMortar-->
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSmallWindMortar"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseMakeableSkavenHeavyGun</value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_SkavenSmallWindMortar"]</xpath>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_SkavenSmallWindMortar</defName>
+                <statBases>
+                    <Mass>22.30</Mass>
+                    <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.3</SightsEfficiency>
+                    <ShotSpread>5</ShotSpread>
+                    <SwayFactor>3</SwayFactor>
+                    <Bulk>26.3</Bulk>
+                </statBases>
+                <Properties>
+                    <recoilAmount>3.5</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_Shell_Skaven_Poison</defaultProjectile>
+                    <circularError>2.25</circularError>
+                    <minRange>14</minRange>
+                    <range>58</range>
+                    <warmupTime>3.3</warmupTime>
+                    <burstShotCount>1</burstShotCount>
+                    <soundCast>Mortar_LaunchA</soundCast>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                    <muzzleFlashScale>11</muzzleFlashScale>
+                    <indirectFirePenalty>0.2</indirectFirePenalty>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>7</reloadTime>
+                    <ammoSet>AmmoSet_MortarSkaven</ammoSet>
+                </AmmoUser>
+                <weaponTags>
+                    <li>SkavenGun</li>
+                </weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSmallWindMortar"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSmallWindMortar"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_SkavenSmallWindMortar"]/tools</xpath>
+            </li>
+            
+            
+            
+            <!--Gun_WarpPistolSkaven-->
+            <!--<li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_WarplockJezzail"]</xpath>
+            </li>-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_WarpPistolSkaven</defName>
+                <statBases>
+                    <Mass>2</Mass>
+                    <SightsEfficiency>0.5</SightsEfficiency>
+                    <ShotSpread>2.5</ShotSpread>
+                    <SwayFactor>1.8</SwayFactor>
+                    <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+                    <Bulk>2.3</Bulk>
+                </statBases>
+                <Properties>
+                    <recoilAmount>3.5</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_69Musket_Lead</defaultProjectile>
+                    <warmupTime>0.6</warmupTime>
+                    <range>13</range>
+                    <soundCast>Pistolet</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>12</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>1</reloadTime>
+                    <ammoSet>AmmoSet_69Musket</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>Snapshot</aiAimMode>
+                </FireModes>
+                <weaponTags>
+                    <li>SkavenWarplock</li>
+                </weaponTags>
+                <AllowWithRunAndGun>true</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpPistolSkaven"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpPistolSkaven"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpPistolSkaven"]/tools</xpath>
+            </li>
+            
+            
+            
+            <!--Gun_MinigunImpSkaven-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_MinigunImpSkaven"]</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunImpSkaven"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseMakeableSkavenHeavyGun</value>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_MinigunImpSkaven</defName>
+                <statBases>
+                    <Mass>10.90</Mass>
+                    <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.4</SightsEfficiency>
+                    <ShotSpread>4</ShotSpread>
+                    <SwayFactor>3</SwayFactor>
+                    <Bulk>16.3</Bulk>
+                </statBases>
+                <Properties>
+                    <recoilAmount>3.5</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_Warpstone_Basic</defaultProjectile>
+                    <warmupTime>2.7</warmupTime>
+                    <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                    <burstShotCount>10</burstShotCount>
+                    <range>30</range>
+                    <soundCast>Shot_Minigun</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>80</magazineSize>
+                    <reloadTime>7</reloadTime>
+                    <ammoSet>AmmoSet_WarpstoneBullets</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aimedBurstShotCount>5</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>SkavenWarpSkryre</li>
+                </weaponTags>
+                <AllowWithRunAndGun>true</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunImpSkaven"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunImpSkaven"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_MinigunImpSkaven"]/tools</xpath>
+            </li>
+            
+            
+            
+            <!--Gun_WarpRifleSkaven-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_WarplockRifle"]</xpath>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_WarpRifleSkaven</defName>
+                <statBases>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <ShotSpread>0.4</ShotSpread>
+                    <SwayFactor>1.5</SwayFactor>
+                    <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+                    <Bulk>14</Bulk>
+                    <Mass>6.8</Mass>
+                </statBases>
+                <Properties>
+                    <recoilAmount>3.5</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_69Musket_Lead</defaultProjectile>
+                    <warmupTime>2.6</warmupTime>
+                    <range>38</range>
+                    <soundCast>Jezail</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>12</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>2.1</reloadTime>
+                    <ammoSet>AmmoSet_69Musket</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>Snapshot</aiAimMode>
+                </FireModes>
+                <weaponTags>
+                    <li>SkavenWarpSkryre</li>
+                </weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpRifleSkaven"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpRifleSkaven"]/statBases/WorkToMake</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Gun_WarpRifleSkaven"]/tools</xpath>
+            </li>
+            
+            
+            
+            <!--Gun_CracklingDoom-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Bullet_Crackling"]</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_CracklingDoom"]</xpath>
+                <value>
+                    <thingCategories>
+                        <li>SKVRangeWeapon</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>Gun_CracklingDoom</defName>
+                <statBases>
+                    <SightsEfficiency>0.7</SightsEfficiency>
+                    <ShotSpread>5</ShotSpread>
+                    <SwayFactor>1</SwayFactor>
+                    <Bulk>2</Bulk>
+                    <Mass>0.5</Mass>
+                    <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <recoilAmount>0</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Projectile_ScrollOfDoom</defaultProjectile>
+                    <warmupTime>1</warmupTime>
+                    <range>40</range>
+                    <soundCast>TM_Woosh</soundCast>
+                    <burstShotCount>6</burstShotCount>
+                    <muzzleFlashScale>15</muzzleFlashScale>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                </Properties>
+                <FireModes>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

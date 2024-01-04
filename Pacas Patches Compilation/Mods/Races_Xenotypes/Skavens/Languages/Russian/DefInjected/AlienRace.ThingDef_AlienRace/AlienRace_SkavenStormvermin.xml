@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_SkavenStorm.label>Вредитель</Alien_SkavenStorm.label>
+  <Alien_SkavenStorm.description>Крупный скавен, рожденный сильнее остальных. Они больше и сильнее, чем обычные кланраты, которые живут по ту сторону владений скавенов. Они агрессивны по своей природе и склонны к откровенным проявлениям доблести, чтобы запугать окружающих.</Alien_SkavenStorm.description>
+  <Alien_SkavenStorm.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</Alien_SkavenStorm.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_SkavenStorm.tools.0.label>левый коготь</Alien_SkavenStorm.tools.0.label>
+  <Alien_SkavenStorm.tools.1.label>правый коготь</Alien_SkavenStorm.tools.1.label>
+  <Alien_SkavenStorm.tools.2.label>зубы</Alien_SkavenStorm.tools.2.label>
+
+
+</LanguageData>

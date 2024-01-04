@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenEngiSkryre.title>Инженер Скрайр</SkavenEngiSkryre.title>
+  <SkavenEngiSkryre.titleShort>инженер</SkavenEngiSkryre.titleShort>
+  <SkavenEngiSkryre.baseDescription>[PAWN_nameDef] работает в Боевых горнах клана Скрайр. Выполняя обязанности инженера, [PAWN_pronoun] тратит [PAWN_possessive] время на создание нового арсенала для клана.</SkavenEngiSkryre.baseDescription>
+
+  <SkavenTechSkryre.title>Техник Скрайра</SkavenTechSkryre.title>
+  <SkavenTechSkryre.titleShort>техник</SkavenTechSkryre.titleShort>
+  <SkavenTechSkryre.baseDescription>[PAWN_nameDef] работает главным техником в клане Скрайр. Когда вы не на полевых работах [PAWN_pronoun] поддерживайте Боевые горны, следя за тем, чтобы они всегда были в рабочем состоянии.</SkavenTechSkryre.baseDescription>
+
+  <SkavenSkryreAssistant.title>Помощник скрайра</SkavenSkryreAssistant.title>
+  <SkavenSkryreAssistant.titleShort>Помощник</SkavenSkryreAssistant.titleShort>
+  <SkavenSkryreAssistant.baseDescription>[PAWN_nameDef] является помощником высших чинов в клане Скрайр. Часто [PAWN_pronoun] обнаруживает [PAWN_possessive] себя в поле, действующего в качестве лабораторной крысы новейших изобретений, когда [PAWN_pronoun] [PAWN_possessive] сам не погружен в свою собственную работу.</SkavenSkryreAssistant.baseDescription>
+
+  <SkavenSkryreGuard.title>Страж скрайра</SkavenSkryreGuard.title>
+  <SkavenSkryreGuard.titleShort>охрана</SkavenSkryreGuard.titleShort>
+  <SkavenSkryreGuard.baseDescription>[PAWN_nameDef] охраняет норы клана Скрайр. Патрулируя туннели, всегда держа ухо востро в поисках любопытных злоумышленников.</SkavenSkryreGuard.baseDescription>
+
+  <SkavenSkryreSoldier.title>Стрелок Скрайра</SkavenSkryreSoldier.title>
+  <SkavenSkryreSoldier.titleShort>стрелок</SkavenSkryreSoldier.titleShort>
+  <SkavenSkryreSoldier.baseDescription>[PAWN_nameDef] является стрелком клана Скрайр. Обученный использованию оружия Скрайров, [PAWN_pronoun] изучил основы обслуживания смертоносного экспериментального оружия, и шрамы от неудачных экспериментов затвердели [PAWN_objective]. </SkavenSkryreSoldier.baseDescription>
+
+
+  <!-- childhood -->
+
+  <SkryreChildAssistant.title>Молодой помощник скрайра</SkryreChildAssistant.title>
+  <SkryreChildAssistant.titleShort>Помощник</SkryreChildAssistant.titleShort>
+  <SkryreChildAssistant.baseDescription>[PAWN_nameDef] Был взят в молодости в качестве помощника одного из техников Скрайра. [PAWN_pronoun] в основном выполнял поручения и выполнял черную работу. Тем не менее [PAWN_pronoun] удалось научиться одной или двум вещам, работая с инструментами мастеров [PAWN_possessive].</SkryreChildAssistant.baseDescription>
+
+  <SkryreSlaveBorn.title>Скрайр низкорожденный</SkryreSlaveBorn.title>
+  <SkryreSlaveBorn.titleShort>низкорожденный</SkryreSlaveBorn.titleShort>
+  <SkryreSlaveBorn.baseDescription>[PAWN_nameDef] родился в норах клана Скрайр самого низкого рода. [PAWN_pronoun] выполнял черную работу Боевых Горнов и выступал в качестве тестового манекена для изобретений.</SkryreSlaveBorn.baseDescription>
+
+  <SkryreClanBorn.title>Уроженец клана скрайр</SkryreClanBorn.title>
+  <SkryreClanBorn.titleShort>Клановец</SkryreClanBorn.titleShort>
+  <SkryreClanBorn.baseDescription>[PAWN_nameDef] родился в клане, жил в клане Скрайр. [PAWN_pronoun] жил в постоянном присутствии Выкованного Войной.</SkryreClanBorn.baseDescription>
+
+  <SkryrePromising.title>Многообещающий скрайр</SkryrePromising.title>
+  <SkryrePromising.titleShort>Многообещающий</SkryrePromising.titleShort>
+  <SkryrePromising.baseDescription>[PAWN_nameDef] родился в клане, но [PAWN_pronoun] с юных лет подавал надежды. [PAWN_pronoun] с легкостью обращался с инструментами инженеров и знал, как работать с техниками.</SkryrePromising.baseDescription>
+
+
+</LanguageData>

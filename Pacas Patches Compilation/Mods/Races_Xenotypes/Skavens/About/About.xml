@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Warhammer Skavens - HSK Patch</name>
+    <author>Kompadts and Mlie</author>
+    <packageId>pacas.skaven.hsk</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Imranfish.XMLExtensions</packageId>
+            <displayName>XML Extensions</displayName>
+            <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Torann.ARimworldOfMagic</packageId>
+            <displayName>A RimWorld of Magic</displayName>
+            <downloadUrl>https://github.com/pacas/Pacas-Patches-Compilation</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2958124086</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Imranfish.XMLExtensions</li>
+        <li>Torann.ARimworldOfMagic</li>
+    </loadAfter>
+    <description>The ratkins of the under-empire comes to Rimworld. The vile and diabolical skaven will stage attacks against your colony with slave rats, clan rats, engineer and seers. Wielding weapons like slingshots, crossbows, various melee weapons up to simple machine guns and poison weapons. Trade with the more "friendly" skaven trader clans that offers access to various traders.</description>
+</ModMetaData>

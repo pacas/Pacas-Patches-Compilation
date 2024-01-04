@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <SkavenBloodExtract.label>Извлечь кровь</SkavenBloodExtract.label>
+    <SkavenBloodExtract.description>Извлечь кровь для дальнейшей биоинженерии.</SkavenBloodExtract.description>
+    <SkavenBloodExtract.jobString>Извлекает кровь.</SkavenBloodExtract.jobString>
+
+    <SkavenMixBlood.label>Смешать кровь</SkavenMixBlood.label>
+    <SkavenMixBlood.description>Смешайте кровь скавенов с животным веществом.</SkavenMixBlood.description>
+    <SkavenMixBlood.jobString>Смешивает.</SkavenMixBlood.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_HornedSkaven.label>Рогатый скавен</Alien_HornedSkaven.label>
+  <Alien_HornedSkaven.description>Рогатая крыса благословляет скавенов с рогами. Они стоят на вершине иерархии, руководят советами с видениями и советуют.</Alien_HornedSkaven.description>
+  <Alien_HornedSkaven.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</Alien_HornedSkaven.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_HornedSkaven.tools.0.label>левый коготь</Alien_HornedSkaven.tools.0.label>
+  <Alien_HornedSkaven.tools.1.label>правый коготь</Alien_HornedSkaven.tools.1.label>
+  <Alien_HornedSkaven.tools.2.label>зубы</Alien_HornedSkaven.tools.2.label>
+
+
+</LanguageData>

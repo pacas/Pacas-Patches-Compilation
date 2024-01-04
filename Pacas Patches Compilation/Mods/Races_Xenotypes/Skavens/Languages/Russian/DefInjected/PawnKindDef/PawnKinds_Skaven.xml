@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenColony.label>Скавен колонист</SkavenColony.label>
+  <SkavenColony.labelPlural>Скавены колонисты</SkavenColony.labelPlural>
+  <SkavenColony.labelMale>Скавен колонист</SkavenColony.labelMale>
+  <SkavenColony.labelMalePlural>Скавены колонисты</SkavenColony.labelMalePlural>
+  <SkavenColony.labelFemale>Скавен колонист</SkavenColony.labelFemale>
+  <SkavenColony.labelFemalePlural>Скавены колонисты</SkavenColony.labelFemalePlural>
+
+  <SkavenTribe.label>Племенной Скавен</SkavenTribe.label>
+  <SkavenTribe.labelPlural>Племенные Скавены</SkavenTribe.labelPlural>
+  <SkavenTribe.labelMale>Племенной Скавен</SkavenTribe.labelMale>
+  <SkavenTribe.labelMalePlural>Племенные Скавены</SkavenTribe.labelMalePlural>
+  <SkavenTribe.labelFemale>Племенной Скавен</SkavenTribe.labelFemale>
+  <SkavenTribe.labelFemalePlural>Племенные Скавены</SkavenTribe.labelFemalePlural>
+
+  <SkavenSlavePlayer.label>Раб скавен</SkavenSlavePlayer.label>
+  <SkavenSlavePlayer.labelPlural>Рабы скавены</SkavenSlavePlayer.labelPlural>
+  <SkavenSlavePlayer.labelMale>Раб скавен</SkavenSlavePlayer.labelMale>
+  <SkavenSlavePlayer.labelMalePlural>Рабы скавены</SkavenSlavePlayer.labelMalePlural>
+  <SkavenSlavePlayer.labelFemale>Раб скавен</SkavenSlavePlayer.labelFemale>
+  <SkavenSlavePlayer.labelFemalePlural>Рабы скавены</SkavenSlavePlayer.labelFemalePlural>
+
+  <PlayerSkavenSlave.label>Крысиный раб</PlayerSkavenSlave.label>
+  <PlayerSkavenSlave.labelPlural>Крысиные рабы</PlayerSkavenSlave.labelPlural>
+  <PlayerSkavenSlave.labelMale>Крысиный раб</PlayerSkavenSlave.labelMale>
+  <PlayerSkavenSlave.labelMalePlural>Крысиные рабы</PlayerSkavenSlave.labelMalePlural>
+  <PlayerSkavenSlave.labelFemale>Крысиная раб</PlayerSkavenSlave.labelFemale>
+  <PlayerSkavenSlave.labelFemalePlural>Крысиные рабы</PlayerSkavenSlave.labelFemalePlural>
+
+  <SkavenClanPlayer.label>Клановая крыса</SkavenClanPlayer.label>
+  <SkavenClanPlayer.labelPlural>Клановые крысы</SkavenClanPlayer.labelPlural>
+  <SkavenClanPlayer.labelMale>Клановая крыса</SkavenClanPlayer.labelMale>
+  <SkavenClanPlayer.labelMalePlural>Клановые крысы</SkavenClanPlayer.labelMalePlural>
+  <SkavenClanPlayer.labelFemale>Клановая крыса</SkavenClanPlayer.labelFemale>
+  <SkavenClanPlayer.labelFemalePlural>Клановые крысы</SkavenClanPlayer.labelFemalePlural>
+
+  <SkavenHornedPlayer.label>Провидец</SkavenHornedPlayer.label>
+  <SkavenHornedPlayer.labelPlural>Провидцы</SkavenHornedPlayer.labelPlural>
+  <SkavenHornedPlayer.labelMale>Провидец</SkavenHornedPlayer.labelMale>
+  <SkavenHornedPlayer.labelMalePlural>Провидцы</SkavenHornedPlayer.labelMalePlural>
+  <SkavenHornedPlayer.labelFemale>Провидец</SkavenHornedPlayer.labelFemale>
+  <SkavenHornedPlayer.labelFemalePlural>Провидцы</SkavenHornedPlayer.labelFemalePlural>
+
+  <SkavenStormPlayer.label>Штормверин</SkavenStormPlayer.label>
+  <SkavenStormPlayer.labelPlural>Штормверины</SkavenStormPlayer.labelPlural>
+  <SkavenStormPlayer.labelMale>Штормверин</SkavenStormPlayer.labelMale>
+  <SkavenStormPlayer.labelMalePlural>Штормверины</SkavenStormPlayer.labelMalePlural>
+  <SkavenStormPlayer.labelFemale>Штормверин</SkavenStormPlayer.labelFemale>
+  <SkavenStormPlayer.labelFemalePlural>Штормверины</SkavenStormPlayer.labelFemalePlural>
+
+
+</LanguageData>

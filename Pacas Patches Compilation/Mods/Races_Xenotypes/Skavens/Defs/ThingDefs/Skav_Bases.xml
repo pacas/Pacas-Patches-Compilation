@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="ArmorMedievalBaseSkaven" ParentName="ArmorMedievalBase" Abstract="True">
+        <thingCategories>
+            <li>SKVApparel</li>
+        </thingCategories>
+    </ThingDef>
+    
+    <ThingDef Name="ApparelMedievalBaseSkaven" ParentName="ApparelMedievalBase" Abstract="True">
+        <thingCategories>
+            <li>SKVApparel</li>
+        </thingCategories>
+        <recipeMaker>
+            <recipeUsers>
+                <li>LeatherworkerTable</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+    
+</Defs>

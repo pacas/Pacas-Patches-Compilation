@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenPoison.label>Химический ожог</SkavenPoison.label>
+  <SkavenPoison.deathMessage>{0} задохнулся до смерти.</SkavenPoison.deathMessage>
+
+  <SkavenBlunt.label>Тупой удар</SkavenBlunt.label>
+  <SkavenBlunt.deathMessage>{0} был избит до смерти.</SkavenBlunt.deathMessage>
+
+  <SkavenBullet.label>Огнестрельное ранение</SkavenBullet.label>
+  <SkavenBullet.deathMessage>{0}был застрелен насмерть.</SkavenBullet.deathMessage>
+
+  <SkavenShockProd.label>Шоковый ожог</SkavenShockProd.label>
+  <SkavenShockProd.deathMessage>{0} был потрясен до смерти.</SkavenShockProd.deathMessage>
+
+  <SkavenMoulderChem.label>Химический ожог</SkavenMoulderChem.label>
+  <SkavenMoulderChem.deathMessage>{0} задохнулся до смерти.</SkavenMoulderChem.deathMessage>
+
+
+</LanguageData>

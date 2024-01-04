@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Skaven.label>skaven</Skaven.label>
+  <Skaven.corePart.parts.3.customLabel>Хвост</Skaven.corePart.parts.3.customLabel>
+  <Skaven.corePart.parts.7.customLabel>Левое легкое</Skaven.corePart.parts.7.customLabel>
+  <Skaven.corePart.parts.8.customLabel>Правое легкое</Skaven.corePart.parts.8.customLabel>
+  <Skaven.corePart.parts.9.customLabel>Левая почка</Skaven.corePart.parts.9.customLabel>
+  <Skaven.corePart.parts.10.customLabel>Правая почка</Skaven.corePart.parts.10.customLabel>
+  <Skaven.corePart.parts.12.parts.0.parts.1.customLabel>Левый глаз</Skaven.corePart.parts.12.parts.0.parts.1.customLabel>
+  <Skaven.corePart.parts.12.parts.0.parts.2.customLabel>Правый глаз</Skaven.corePart.parts.12.parts.0.parts.2.customLabel>
+  <Skaven.corePart.parts.12.parts.0.parts.3.customLabel>Левое ухо</Skaven.corePart.parts.12.parts.0.parts.3.customLabel>
+  <Skaven.corePart.parts.12.parts.0.parts.4.customLabel>Правое ухо</Skaven.corePart.parts.12.parts.0.parts.4.customLabel>
+  <Skaven.corePart.parts.13.customLabel>Левое плечо</Skaven.corePart.parts.13.customLabel>
+  <Skaven.corePart.parts.13.parts.0.customLabel>Левая ключица</Skaven.corePart.parts.13.parts.0.customLabel>
+  <Skaven.corePart.parts.13.parts.1.customLabel>Левая рука</Skaven.corePart.parts.13.parts.1.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.0.customLabel>Левая плечевая кость</Skaven.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.1.customLabel>Левый радиус</Skaven.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.customLabel>Левая кисть</Skaven.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>Мизинец левой руки</Skaven.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>Безымянный палец левой руки</Skaven.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>Средний палец левой руки</Skaven.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>Указательный палец левой руки</Skaven.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Skaven.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>Большой палец левой руки</Skaven.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Skaven.corePart.parts.14.customLabel>Правое плечо</Skaven.corePart.parts.14.customLabel>
+  <Skaven.corePart.parts.14.parts.0.customLabel>Правая ключица</Skaven.corePart.parts.14.parts.0.customLabel>
+  <Skaven.corePart.parts.14.parts.1.customLabel>Правая рука</Skaven.corePart.parts.14.parts.1.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.0.customLabel>Правая плечевая кость</Skaven.corePart.parts.14.parts.1.parts.0.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.1.customLabel>Правый радиус</Skaven.corePart.parts.14.parts.1.parts.1.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.customLabel>Правая кисть</Skaven.corePart.parts.14.parts.1.parts.2.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>Мизинец правой руки</Skaven.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>Безымянный палец правой руки</Skaven.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>Средний палец правой руки</Skaven.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>Указательный палец правой руки</Skaven.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <Skaven.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>Большой палец правой руки</Skaven.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <Skaven.corePart.parts.16.customLabel>Левая нога</Skaven.corePart.parts.16.customLabel>
+  <Skaven.corePart.parts.16.parts.0.customLabel>Левое бедро</Skaven.corePart.parts.16.parts.0.customLabel>
+  <Skaven.corePart.parts.16.parts.1.customLabel>Левая голень</Skaven.corePart.parts.16.parts.1.customLabel>
+  <Skaven.corePart.parts.16.parts.2.customLabel>Левая стопа</Skaven.corePart.parts.16.parts.2.customLabel>
+  <Skaven.corePart.parts.16.parts.2.parts.0.customLabel>Мизинец левой ноги</Skaven.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Skaven.corePart.parts.16.parts.2.parts.1.customLabel>Четвертый палец левой ноги</Skaven.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Skaven.corePart.parts.16.parts.2.parts.2.customLabel>Средний палец левой ноги</Skaven.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Skaven.corePart.parts.16.parts.2.parts.3.customLabel>Второй палец левой ноги</Skaven.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Skaven.corePart.parts.16.parts.2.parts.4.customLabel>Большой палец левой ноги</Skaven.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Skaven.corePart.parts.17.customLabel>Правая нога</Skaven.corePart.parts.17.customLabel>
+  <Skaven.corePart.parts.17.parts.0.customLabel>Правое бедро</Skaven.corePart.parts.17.parts.0.customLabel>
+  <Skaven.corePart.parts.17.parts.1.customLabel>Правая голень</Skaven.corePart.parts.17.parts.1.customLabel>
+  <Skaven.corePart.parts.17.parts.2.customLabel>Правая стопа</Skaven.corePart.parts.17.parts.2.customLabel>
+  <Skaven.corePart.parts.17.parts.2.parts.0.customLabel>Мизинец правой ноги</Skaven.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Skaven.corePart.parts.17.parts.2.parts.1.customLabel>Четвертый палец правой ноги</Skaven.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Skaven.corePart.parts.17.parts.2.parts.2.customLabel>Средний палец правой ноги</Skaven.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Skaven.corePart.parts.17.parts.2.parts.3.customLabel>Второй палец правой ноги</Skaven.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Skaven.corePart.parts.17.parts.2.parts.4.customLabel>Большой палец правой ноги</Skaven.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

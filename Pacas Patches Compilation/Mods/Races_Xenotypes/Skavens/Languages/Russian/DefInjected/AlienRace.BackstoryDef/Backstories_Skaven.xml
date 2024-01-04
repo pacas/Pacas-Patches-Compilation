@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- educated -->
+
+  <SkavenEngineer.title>Инженер</SkavenEngineer.title>
+  <SkavenEngineer.titleShort>Инженер</SkavenEngineer.titleShort>
+  <SkavenEngineer.baseDescription>[PAWN_nameDef] является инженером-скавеном. Тратя большую часть времени на создание различного оружия и конструкций, чтобы помочь клану, или сражаясь на полях сражений со своими различными приспособлениями.</SkavenEngineer.baseDescription>
+
+  <SkavenScribe.title>Писарь</SkavenScribe.title>
+  <SkavenScribe.titleShort>Писарь</SkavenScribe.titleShort>
+  <SkavenScribe.baseDescription>[PAWN_nameDef] это писец-скавен. Из того немногого, что сохранилось в истории империи. [PAWN_name Def] обрабатывает большую часть этого.</SkavenScribe.baseDescription>
+
+  <SkavenSeer.title>Провидец</SkavenSeer.title>
+  <SkavenSeer.titleShort>Провидец</SkavenSeer.titleShort>
+  <SkavenSeer.baseDescription>[PAWN_nameDef] является высоко ценимым провидцем. Служа своему хозяину, видящие принимают участие в каждом движении империи.</SkavenSeer.baseDescription>
+
+
+  <!-- clan -->
+
+  <ClanratGrunt.title>Кланрат</ClanratGrunt.title>
+  <ClanratGrunt.titleShort>Кланрат</ClanratGrunt.titleShort>
+  <ClanratGrunt.baseDescription>[PAWN_nameDef] принадлежит к одному из тысяч кланов, разбросанных по всей империи.</ClanratGrunt.baseDescription>
+
+  <ClanratExSlave.title>Бывший раб</ClanratExSlave.title>
+  <ClanratExSlave.titleShort>бывший раб</ClanratExSlave.titleShort>
+  <ClanratExSlave.baseDescription>[PAWN_nameDef] раньше был рабом какое-то время, теперь [PAWN_nameDef] поднялся и присоединился к одному из многих кланов по всей империи.</ClanratExSlave.baseDescription>
+
+  <ClanratGladiator.title>Гладиатор</ClanratGladiator.title>
+  <ClanratGladiator.titleShort>Гладиатор</ClanratGladiator.titleShort>
+  <ClanratGladiator.baseDescription>[PAWN_nameDef] сражается на арене скавенов и живет, чтобы сражаться еще один день.</ClanratGladiator.baseDescription>
+
+  <ClanratRunner.title>Бегун</ClanratRunner.title>
+  <ClanratRunner.titleShort>Бегун</ClanratRunner.titleShort>
+  <ClanratRunner.baseDescription>[PAWN_nameDef] выполняет поручения и выполняет грязную работу клана.</ClanratRunner.baseDescription>
+
+  <ClanratMarksman.title>Меткий стрелок</ClanratMarksman.title>
+  <ClanratMarksman.titleShort>Меткий стрелок</ClanratMarksman.titleShort>
+  <ClanratMarksman.baseDescription>[PAWN_nameDef] это естественный меткий стрелок из арбалета. [PAWN_nameDef] have survived numeral battles staying on the sideline with the crossbow.</ClanratMarksman.baseDescription>
+
+  <ClanratSmart.title>Выживший</ClanratSmart.title>
+  <ClanratSmart.titleShort>Выживший</ClanratSmart.titleShort>
+  <ClanratSmart.baseDescription>[PAWN_nameDef] знает все входы и выходы общества скавенов и живет не просто хорошей жизнью в норах.</ClanratSmart.baseDescription>
+
+
+  <!-- slave -->
+
+  <SlaveratExClan.title>Бывший член клана.</SlaveratExClan.title>
+  <SlaveratExClan.titleShort>Бывший член клана.</SlaveratExClan.titleShort>
+  <SlaveratExClan.baseDescription>[PAWN_nameDef] раньше был частью разрушенного клана. Теперь [PAWN_nameDef] обрек себя на жизнь рабской крысы.</SlaveratExClan.baseDescription>
+
+  <SlaveratAmbitious.title>Амбициозный раб</SlaveratAmbitious.title>
+  <SlaveratAmbitious.titleShort>Амбициозный</SlaveratAmbitious.titleShort>
+  <SlaveratAmbitious.baseDescription>[PAWN_nameDef] не сдался и мечтает подняться по служебной лестнице.</SlaveratAmbitious.baseDescription>
+
+  <SlaveratAlwaysSlave.title>Отправленный раб</SlaveratAlwaysSlave.title>
+  <SlaveratAlwaysSlave.titleShort>Отправленный</SlaveratAlwaysSlave.titleShort>
+  <SlaveratAlwaysSlave.baseDescription>[PAWN_nameDef] долгое время был рабом. История в глазах скавена коротка, и собственная история [PAWN_nameDef] такая же короткая, если не короче.</SlaveratAlwaysSlave.baseDescription>
+
+  <SlaveratGladiator.title>Гладиатор</SlaveratGladiator.title>
+  <SlaveratGladiator.titleShort>Гладиатор</SlaveratGladiator.titleShort>
+  <SlaveratGladiator.baseDescription>[PAWN_nameDef] известен тем, что сражается на арене и выживает для следующего боя.</SlaveratGladiator.baseDescription>
+
+  <SlaveratCourier.title>Курьер</SlaveratCourier.title>
+  <SlaveratCourier.titleShort>Курьер</SlaveratCourier.titleShort>
+  <SlaveratCourier.baseDescription>[PAWN_nameDef] является курьером одного из высших кланов. Доставка сообщений и выполнение грязной работы дали [PAWN_nameDef] много смешанного опыта.</SlaveratCourier.baseDescription>
+
+  <SlaveratTrash.title>Раб</SlaveratTrash.title>
+  <SlaveratTrash.titleShort>Раб</SlaveratTrash.titleShort>
+  <SlaveratTrash.baseDescription>[PAWN_nameDef] является низшим из низших. Борющаяся крыса, пытающаяся выжить в суровом мире, где правит сильнейший.</SlaveratTrash.baseDescription>
+
+  <SlaveratExScribe.title>Бывший писарь</SlaveratExScribe.title>
+  <SlaveratExScribe.titleShort>Бывший писарь</SlaveratExScribe.titleShort>
+  <SlaveratExScribe.baseDescription>[PAWN_nameDef] раньше занимал более высокое положение, работал писцом в одном из кланов.</SlaveratExScribe.baseDescription>
+
+
+  <!-- educated -->
+
+  <SkavenBornClan.title>Член клана</SkavenBornClan.title>
+  <SkavenBornClan.titleShort>Член клана</SkavenBornClan.titleShort>
+  <SkavenBornClan.baseDescription>[PAWN_nameDef] родился в клане.</SkavenBornClan.baseDescription>
+
+  <SkavenBornSlave.title>Рожденный в рабстве</SkavenBornSlave.title>
+  <SkavenBornSlave.titleShort>Раб</SkavenBornSlave.titleShort>
+  <SkavenBornSlave.baseDescription>[PAWN_nameDef] родился рабом, но сумел проявить себя и подняться на самые высокие вершины.</SkavenBornSlave.baseDescription>
+
+  <SkavenSeerBorn.title>Принят в качестве кандидата в провидцы</SkavenSeerBorn.title>
+  <SkavenSeerBorn.titleShort>кандидат</SkavenSeerBorn.titleShort>
+  <SkavenSeerBorn.baseDescription>[PAWN_nameDef] был взят с рождения, чтобы обучаться как провидец.</SkavenSeerBorn.baseDescription>
+
+
+  <!-- clan -->
+
+  <ClanratBornClan.title>Член клана</ClanratBornClan.title>
+  <ClanratBornClan.titleShort>Член клана</ClanratBornClan.titleShort>
+  <ClanratBornClan.baseDescription>[PAWN_nameDef] родился в клане.</ClanratBornClan.baseDescription>
+
+  <SlaveratBornSlaveClan.title>Рожденный в рабстве</SlaveratBornSlaveClan.title>
+  <SlaveratBornSlaveClan.titleShort>Раб</SlaveratBornSlaveClan.titleShort>
+  <SlaveratBornSlaveClan.baseDescription>[PAWN_nameDef] родился рабом.</SlaveratBornSlaveClan.baseDescription>
+
+
+  <!-- slave -->
+
+  <SlaveratBornSlave.title>Рожденный в рабстве</SlaveratBornSlave.title>
+  <SlaveratBornSlave.titleShort>Раб</SlaveratBornSlave.titleShort>
+  <SlaveratBornSlave.baseDescription>[PAWN_nameDef] родился рабом.</SlaveratBornSlave.baseDescription>
+
+  <SlaveratBornClan.title>Член клана</SlaveratBornClan.title>
+  <SlaveratBornClan.titleShort>бывший член клана</SlaveratBornClan.titleShort>
+  <SlaveratBornClan.baseDescription>[PAWN_nameDef] родился в клане.</SlaveratBornClan.baseDescription>
+
+
+</LanguageData>

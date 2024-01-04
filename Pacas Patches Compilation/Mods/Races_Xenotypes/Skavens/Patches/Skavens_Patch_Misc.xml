@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/FactionDef[defName="SkavenPlayerFaction"]/apparelStuffFilter/thingDefs/li[2]</xpath>
+                <value>
+                    <li>Plasteel</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[
+                defName="Alien_HornedSkaven" or
+                defName="Alien_SkavenMoulder" or
+                defName="Alien_Skaven" or
+                defName="Alien_SkavenStorm"
+                ]/alienRace/raceRestriction/recipeList</xpath>
+                <value>
+                    <li>MakeWarpstone_Hand</li>
+                    <li>MakeWarpstone_Electric</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[
+                defName="Alien_HornedSkaven" or
+                defName="Alien_SkavenMoulder" or
+                defName="Alien_Skaven" or
+                defName="Alien_SkavenStorm"
+                ]/alienRace/raceRestriction</xpath>
+                <value>
+                    <researchList>
+                        <li>
+                            <projects>
+                                <li>SkavenMoulderBio</li>
+                                <li>SkavenMoulderBioAdvanced</li>
+                                <li>SkavenMoulderProsthetic</li>
+                            </projects>
+                        </li>
+                    </researchList>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ScenarioDef[defName="SkavenScenario"]/scenario/parts/li[11]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ScenarioDef[defName="SkavenScenario"]/scenario/parts/li[12]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ScenarioDef[defName="SkavenScenario"]/scenario/parts/li[13]</xpath>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenSerumSample"]/costList</xpath>
+                <value>
+                    <costList>
+                        <SkavenBloodSample>1</SkavenBloodSample>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_Skaven.label>Скавен</Alien_Skaven.label>
+  <Alien_Skaven.description>Скавены, крысолюди или аткинсы. Они представляют собой злобную и дьявольскую расу крупных гуманоидных крысоподобных существ.</Alien_Skaven.description>
+  <Alien_Skaven.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</Alien_Skaven.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_Skaven.tools.0.label>левый коготь</Alien_Skaven.tools.0.label>
+  <Alien_Skaven.tools.1.label>правый коготь</Alien_Skaven.tools.1.label>
+  <Alien_Skaven.tools.2.label>зубы</Alien_Skaven.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <StormverminLeader.title>Кандидат в лидеры клыков</StormverminLeader.title>
+  <StormverminLeader.titleShort>Клык</StormverminLeader.titleShort>
+  <StormverminLeader.baseDescription>[PAWN_nameDef] является высоко ценимым Штормвермином. Хитрый, безжалостный и амбициозный.</StormverminLeader.baseDescription>
+
+  <StormverminGrunt.title>Лоялист</StormverminGrunt.title>
+  <StormverminGrunt.titleShort>Лоялист</StormverminGrunt.titleShort>
+  <StormverminGrunt.baseDescription>[PAWN_nameDef] жизнь принадлежала штормвермину настоящему обученному лоялисту.</StormverminGrunt.baseDescription>
+
+  <StormverminGladiator.title>Гладиатор</StormverminGladiator.title>
+  <StormverminGladiator.titleShort>Гладиатор</StormverminGladiator.titleShort>
+  <StormverminGladiator.baseDescription>[PAWN_nameDef] часто дрался на арене. Не было большей радости в жизни [PAWN_possessive].</StormverminGladiator.baseDescription>
+
+
+  <!-- childhood -->
+
+  <StormverminUnkown.title>Неизвестно рожденный</StormverminUnkown.title>
+  <StormverminUnkown.titleShort>неизвестный</StormverminUnkown.titleShort>
+  <StormverminUnkown.baseDescription>Where [PAWN_nameDef] родился или откуда взялся [PAWN_pronoun], неизвестно. Казалось бы, из ниоткуда [PAWN_pronoun] встал вместе с остальными кандидатами в Штурмверинов.</StormverminUnkown.baseDescription>
+
+  <StormverminExcellent.title>Беспощадный</StormverminExcellent.title>
+  <StormverminExcellent.titleShort>беспощадный</StormverminExcellent.titleShort>
+  <StormverminExcellent.baseDescription>[PAWN_nameDef] был очень безжалостен. Все остальные скавены всегда были меньшими существами по сравнению с [PAWN_objective]. Ничто не собиралось останавливаться [PAWN_nameDef].</StormverminExcellent.baseDescription>
+
+  <StormverminBornSlave.title>Низкорожденный</StormverminBornSlave.title>
+  <StormverminBornSlave.titleShort>Низкорожденный</StormverminBornSlave.titleShort>
+  <StormverminBornSlave.baseDescription>[PAWN_nameDef]был низкого происхождения, но предопределенная судьба сделала так, что [PAWN_pronoun] был принят вместе с другими кандидатами в Штурмверинов.</StormverminBornSlave.baseDescription>
+
+  <StormverminBornClan.title>Родившийся в клане</StormverminBornClan.title>
+  <StormverminBornClan.titleShort>Клановец</StormverminBornClan.titleShort>
+  <StormverminBornClan.baseDescription>[PAWN_nameDef] родился в клане, от рождения был взят на полную [PAWN_possessive] судьбу Штормвермина.</StormverminBornClan.baseDescription>
+
+
+</LanguageData>

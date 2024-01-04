@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]/designationCategory</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                        <li>Stony</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentMedieval>10</ComponentMedieval>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                    <costStuffCount>35</costStuffCount>
+                    <designationCategory>Accessories</designationCategory>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lights"]/defNames</xpath>
+                <value>
+                    <li>SkavenWarpBrazier</li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>Light_B1</li>
+                        <li>SkavenStart</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]/comps/li[@Class="CompProperties_Glower"]/glowRadius</xpath>
+                <value>
+                    <glowRadius>9</glowRadius>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBrazier"]/comps</xpath>
+                <value>
+                    <li Class="SK.CompProperties_HeatPusherAdvanced">
+                        <compClass>SK.CompHeatPusherAdvanced</compClass>
+                        <heatPerSecond>1</heatPerSecond>
+                        <heatPushMaxTemperature>11</heatPushMaxTemperature>
+                    </li>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBattery"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="SkavenWarpBattery"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costList>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                    <costStuffCount>40</costStuffCount>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenResearchBench"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Trap_SkavenPoisonMine"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenBarricade"]</xpath>
+            </li>
+            
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Medicine"]/defNames</xpath>
+                <value>
+                    <li>SkavenMoulderBench</li>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]/staticSunShadowHeight</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                        <li>Woody</li>
+                    </stuffCategories>
+                    <costStuffCount>90</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>8</ComponentMedieval>
+                        <Mechanism>2</Mechanism>
+                        <SK_Warpstone>1</SK_Warpstone>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]/size</xpath>
+                <value>
+                    <size>(3,1)</size>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>500</basePowerConsumption>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="SkavenMoulderBench"]/graphicData</xpath>
+                <value>
+                    <graphicData>
+                        <texPath>Things/Building/Production/SkavenMoulderTable</texPath>
+                        <graphicClass>Graphic_Multi</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                        <drawSize>(3,1)</drawSize>
+                        <shadowData>
+                            <volume>(2.8, 1.0, 0.95)</volume>
+                            <offset>(0,0,0)</offset>
+                        </shadowData>
+                        <damageData>
+                            <cornerTL>Damage/Corner</cornerTL>
+                            <cornerTR>Damage/Corner</cornerTR>
+                            <cornerBL>Damage/Corner</cornerBL>
+                            <cornerBR>Damage/Corner</cornerBR>
+                        </damageData>
+                    </graphicData>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

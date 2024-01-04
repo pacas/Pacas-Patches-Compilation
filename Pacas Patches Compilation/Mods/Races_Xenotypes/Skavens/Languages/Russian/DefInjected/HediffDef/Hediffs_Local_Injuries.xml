@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenProdBurn.label>Шоковый ожог</SkavenProdBurn.label>
+  <SkavenProdBurn.description>Шрам от ожога.</SkavenProdBurn.description>
+  <SkavenProdBurn.comps.0.labelTendedWell>перевязанно</SkavenProdBurn.comps.0.labelTendedWell>
+  <SkavenProdBurn.comps.0.labelTendedWellInner>наложен шов</SkavenProdBurn.comps.0.labelTendedWellInner>
+  <SkavenProdBurn.comps.0.labelSolidTendedWell>установлено</SkavenProdBurn.comps.0.labelSolidTendedWell>
+  <SkavenProdBurn.injuryProps.destroyedLabel>Сгорело</SkavenProdBurn.injuryProps.destroyedLabel>
+  <SkavenProdBurn.injuryProps.destroyedOutLabel>Сгорело</SkavenProdBurn.injuryProps.destroyedOutLabel>
+  <SkavenProdBurn.labelNoun>ожог</SkavenProdBurn.labelNoun>
+
+
+</LanguageData>

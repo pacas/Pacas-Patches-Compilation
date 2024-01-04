@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- RatgOgre -->
+
+  <SkavenOgreDenture.label>Зубной протез</SkavenOgreDenture.label>
+  <SkavenOgreDenture.description>Большой стальной зубной протез.</SkavenOgreDenture.description>
+  <SkavenOgreDenture.labelNoun>зубной протез</SkavenOgreDenture.labelNoun>
+
+  <SkavenOgreSteelLeg.label>Протез ноги</SkavenOgreSteelLeg.label>
+  <SkavenOgreSteelLeg.description>Стальной протез.</SkavenOgreSteelLeg.description>
+  <SkavenOgreSteelLeg.labelNoun>Протез ноги</SkavenOgreSteelLeg.labelNoun>
+
+  <SkavenOgreBlade.label>Протезное лезвие</SkavenOgreBlade.label>
+  <SkavenOgreBlade.description>Протез руки с лезвием.</SkavenOgreBlade.description>
+  <SkavenOgreBlade.comps.0.tools.0.label>лезвие</SkavenOgreBlade.comps.0.tools.0.label>
+  <SkavenOgreBlade.labelNoun>Протез руки с лезвием</SkavenOgreBlade.labelNoun>
+
+  <SkavenOgrePlate.label>Стальная пластина</SkavenOgrePlate.label>
+  <SkavenOgrePlate.description>Стальное покрытие для крепления поверх утерянных деталей.</SkavenOgrePlate.description>
+  <SkavenOgrePlate.labelNoun>Стальная пластина</SkavenOgrePlate.labelNoun>
+
+
+</LanguageData>

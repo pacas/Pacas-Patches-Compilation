@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AmmoSet_SkavenFlamethrower.label>ядовитое топливо</AmmoSet_SkavenFlamethrower.label>
+	<AmmoSet_MortarSkaven.label>химические снаряды</AmmoSet_MortarSkaven.label>
+	<AmmoSet_WarpstoneBullets.label>варп-пули</AmmoSet_WarpstoneBullets.label>
+    
+	<AmmoMortarSkavenCategory.label>химические снаряды</AmmoMortarSkavenCategory.label>
+	<AmmoWarpstoneBullets.label>варп-пули</AmmoWarpstoneBullets.label>
+
+</LanguageData>

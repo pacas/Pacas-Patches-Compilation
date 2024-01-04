@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenHorned.label>horned skaven</SkavenHorned.label>
+  <SkavenHorned.corePart.parts.3.customLabel>Хвост</SkavenHorned.corePart.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.7.customLabel>Левое легкое</SkavenHorned.corePart.parts.7.customLabel>
+  <SkavenHorned.corePart.parts.8.customLabel>Правое легкое</SkavenHorned.corePart.parts.8.customLabel>
+  <SkavenHorned.corePart.parts.9.customLabel>Левая почка</SkavenHorned.corePart.parts.9.customLabel>
+  <SkavenHorned.corePart.parts.10.customLabel>Правая почка</SkavenHorned.corePart.parts.10.customLabel>
+  <SkavenHorned.corePart.parts.12.parts.0.parts.1.customLabel>Левый глаз</SkavenHorned.corePart.parts.12.parts.0.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.12.parts.0.parts.2.customLabel>Правый глаз</SkavenHorned.corePart.parts.12.parts.0.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.12.parts.0.parts.3.customLabel>Левое ухо</SkavenHorned.corePart.parts.12.parts.0.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.12.parts.0.parts.4.customLabel>Правое ухо</SkavenHorned.corePart.parts.12.parts.0.parts.4.customLabel>
+  <SkavenHorned.corePart.parts.13.customLabel>Левое плечо</SkavenHorned.corePart.parts.13.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.0.customLabel>Левая ключица</SkavenHorned.corePart.parts.13.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.customLabel>Левая рука</SkavenHorned.corePart.parts.13.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.0.customLabel>Левое предплечье</SkavenHorned.corePart.parts.13.parts.1.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.1.customLabel>Левый радиус</SkavenHorned.corePart.parts.13.parts.1.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.customLabel>Левая кисть</SkavenHorned.corePart.parts.13.parts.1.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>Левый мизинец</SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>Левый безымянный палец</SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>Средний палец левой руки</SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>Левый указательный палец</SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>Большой палец левой руки</SkavenHorned.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <SkavenHorned.corePart.parts.14.customLabel>Правое плечо</SkavenHorned.corePart.parts.14.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.0.customLabel>Правая ключица</SkavenHorned.corePart.parts.14.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.customLabel>Правая рука</SkavenHorned.corePart.parts.14.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.0.customLabel>Правое предплечье</SkavenHorned.corePart.parts.14.parts.1.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.1.customLabel>Правый радиус</SkavenHorned.corePart.parts.14.parts.1.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.customLabel>Правая кисть</SkavenHorned.corePart.parts.14.parts.1.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>Правый мизинец</SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>Правый безымянный палец</SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>Средний палец правой руки</SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>Указательный палец правой руки</SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>Большой палец правой руки</SkavenHorned.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <SkavenHorned.corePart.parts.16.customLabel>Левая нога</SkavenHorned.corePart.parts.16.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.0.customLabel>Левая бедренная кость</SkavenHorned.corePart.parts.16.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.1.customLabel>Левая большеберцовая кость</SkavenHorned.corePart.parts.16.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.customLabel>Левая стопа</SkavenHorned.corePart.parts.16.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.parts.0.customLabel>Мизинец левой ноги</SkavenHorned.corePart.parts.16.parts.2.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.parts.1.customLabel>Четвертый палец левой ноги</SkavenHorned.corePart.parts.16.parts.2.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.parts.2.customLabel>Средний палец левой ноги</SkavenHorned.corePart.parts.16.parts.2.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.parts.3.customLabel>Второй палец левой ноги</SkavenHorned.corePart.parts.16.parts.2.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.16.parts.2.parts.4.customLabel>Большой палец левой ноги</SkavenHorned.corePart.parts.16.parts.2.parts.4.customLabel>
+  <SkavenHorned.corePart.parts.17.customLabel>Правая нога</SkavenHorned.corePart.parts.17.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.0.customLabel>Правая бедренная кость</SkavenHorned.corePart.parts.17.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.1.customLabel>Правая большеберцовая кость</SkavenHorned.corePart.parts.17.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.customLabel>Правая стопа</SkavenHorned.corePart.parts.17.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.parts.0.customLabel>Мизинец правой ноги</SkavenHorned.corePart.parts.17.parts.2.parts.0.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.parts.1.customLabel>Четвертый палец правой ноги</SkavenHorned.corePart.parts.17.parts.2.parts.1.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.parts.2.customLabel>Средний палец правой ноги</SkavenHorned.corePart.parts.17.parts.2.parts.2.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.parts.3.customLabel>Второй палец правой ноги</SkavenHorned.corePart.parts.17.parts.2.parts.3.customLabel>
+  <SkavenHorned.corePart.parts.17.parts.2.parts.4.customLabel>Большой палец правой ноги</SkavenHorned.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

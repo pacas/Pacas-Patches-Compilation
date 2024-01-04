@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<StoneSlingBall.label>каменный снаряд пращи</StoneSlingBall.label>
+	<StoneSlingBall.description>Обыкновенные камни, которые можно метать с помощью пращи.</StoneSlingBall.description>
+
+	<MetallicSlingBall.label>металлический снаряд пращи</MetallicSlingBall.label>
+	<MetallicSlingBall.description>Обыкновенные железки, которые можно метать с помощью пращи.</MetallicSlingBall.description>
+
+</LanguageData>

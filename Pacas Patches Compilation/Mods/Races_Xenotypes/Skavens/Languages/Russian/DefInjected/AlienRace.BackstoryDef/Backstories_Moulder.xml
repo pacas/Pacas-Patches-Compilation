@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SkavenMasterMoulder.title>Мастер-Молдер</SkavenMasterMoulder.title>
+  <SkavenMasterMoulder.titleShort>Мастер-Молдер</SkavenMasterMoulder.titleShort>
+  <SkavenMasterMoulder.baseDescription>[PAWN_nameDef] находится на вершине клана Молдеров. Настоящий мастер в [PAWN_possessive] мерзкая и ужасная работа.</SkavenMasterMoulder.baseDescription>
+
+  <SkavenMoulder.title>Молдер</SkavenMoulder.title>
+  <SkavenMoulder.titleShort>Молдер</SkavenMoulder.titleShort>
+  <SkavenMoulder.baseDescription>[PAWN_nameDef] является биоинженером клана Молдер. Успешно зарабатывающий [PAWN_possessive] место в клане, формирующем мерзкие создания глубоко под поверхностью.</SkavenMoulder.baseDescription>
+
+  <MoulderGuard.title>Охранник Моулдер</MoulderGuard.title>
+  <MoulderGuard.titleShort>защита</MoulderGuard.titleShort>
+  <MoulderGuard.baseDescription>[PAWN_nameDef] охраняет лаборатории мастеров-формовщиков и часто находит [PAWN_objective] самостоятельно отбиваясь от любого чудовищного существа, которое находится на свободе.</MoulderGuard.baseDescription>
+
+  <MoulderAssistant.title>Помощник Моулдера</MoulderAssistant.title>
+  <MoulderAssistant.titleShort>Помощник</MoulderAssistant.titleShort>
+  <MoulderAssistant.baseDescription>[PAWN_nameDef] помогает мастерам-формовщикам в их хорошо охраняемых лабораториях. Хотя [PAWN_possessive] мастера охраняют свои исследования, [PAWN_pronoun] сумел украсть то, что может [PAWN_pronoun]. Часто тратит [PAWN_possessive] короткое свободное время на реинжиниринг инструментов и эксперименты с [PAWN_possessive] собственными.</MoulderAssistant.baseDescription>
+
+
+  <!-- childhood -->
+
+  <MoulderChildAssistant.title>молодой помощник формовщика</MoulderChildAssistant.title>
+  <MoulderChildAssistant.titleShort>помощник</MoulderChildAssistant.titleShort>
+  <MoulderChildAssistant.baseDescription>[PAWN_nameDef] был взят в молодости в качестве помощника одного из мастеров-формовщиков. [PAWN_pronoun] в основном выполнял поручения и боролся с экспериментами, чтобы сдерживать их в рамках процедур. Тем не менее [PAWN_pronoun] удалось научиться одной или двум вещам, работая с инструментами мастеров [PAWN_possessive].</MoulderChildAssistant.baseDescription>
+
+  <MoulderSlaveBorn.title>формовщик низкого происхождения</MoulderSlaveBorn.title>
+  <MoulderSlaveBorn.titleShort>низкорожденный</MoulderSlaveBorn.titleShort>
+  <MoulderSlaveBorn.baseDescription>[PAWN_nameDef] родился в ямах вместе с остальными. Заботящийся о себе и вынужденный подчиняться прихоти клана. [PAWN_pronoun] сумел выжить в крепости клана Формовщиков. Питаясь объедками и умудряясь избегать некоторых экспериментов формовщиков.</MoulderSlaveBorn.baseDescription>
+
+  <MoulderClanBorn.title>прирожденный формовщик клана</MoulderClanBorn.title>
+  <MoulderClanBorn.titleShort>клан</MoulderClanBorn.titleShort>
+  <MoulderClanBorn.baseDescription>[PAWN_nameDef] родился в клане, жил в клане Формовщиков. [PAWN_pronoun] был выброшен, чтобы справиться с чудовищными созданиями вместе с остальной частью стаи. Учимся бороться с волками крысами и людоедами.</MoulderClanBorn.baseDescription>
+
+  <MoulderPromising.title>Многообещающий формовщик</MoulderPromising.title>
+  <MoulderPromising.titleShort>многообещающий</MoulderPromising.titleShort>
+  <MoulderPromising.baseDescription>[PAWN_nameDef] родился в клане, но [PAWN_pronoun] с юных лет подавал надежды. [PAWN_pronoun] обрабатывал различных зверей, изучал их и мастерил собственные творения [PAWN_possessive].</MoulderPromising.baseDescription>
+
+
+</LanguageData>

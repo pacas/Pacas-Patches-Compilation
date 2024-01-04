@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EshinFaction.label>Торговцы-Скавены</EshinFaction.label>
+  <EshinFaction.description>Отдельно стоящие кланы торговцев. Эти скавены, как правило, придерживаются нейтрального отношения по сравнению со своими сородичами в Под-Империи.</EshinFaction.description>
+  <EshinFaction.fixedName>Клан торговцев</EshinFaction.fixedName>
+  <EshinFaction.pawnsPlural>Скавены</EshinFaction.pawnsPlural>
+  <EshinFaction.leaderTitle>Лидер клана</EshinFaction.leaderTitle>
+
+
+</LanguageData>

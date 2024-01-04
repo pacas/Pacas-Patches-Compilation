@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MakeAmmo_69Musket_Lead.label>сделать мушкетные пули x25</MakeAmmo_69Musket_Lead.label>
+    <MakeAmmo_69Musket_Lead.description>Создайте 25 патронов для мушкета и отмерьте пороховой заряд.</MakeAmmo_69Musket_Lead.description>
+	<MakeAmmo_69Musket_Lead.jobString>Делает мушкетные пули.</MakeAmmo_69Musket_Lead.jobString>
+
+</LanguageData>

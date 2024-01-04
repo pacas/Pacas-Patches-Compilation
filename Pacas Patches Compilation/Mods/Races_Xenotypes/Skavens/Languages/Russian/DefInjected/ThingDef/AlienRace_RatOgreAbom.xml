@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RatOgreAbom.label>Мерзкий крысоогр</RatOgreAbom.label>
+  <RatOgreAbom.description>С помощью клана Творцов и под руководством Трота Нечистого, рождается крысоогр. Рожденный из плоти человека, дабы воспитать их и раскрыть их истинный потенциал.</RatOgreAbom.description>
+  <RatOgreAbom.tools.0.label>Левая кисть</RatOgreAbom.tools.0.label>
+  <RatOgreAbom.tools.1.label>Правая кисть</RatOgreAbom.tools.1.label>
+  <RatOgreAbom.tools.2.label>Зубы</RatOgreAbom.tools.2.label>
+
+  <RatOgreAbomAnimal.label>Мерзкий крысоогр</RatOgreAbomAnimal.label>
+  <RatOgreAbomAnimal.description>С помощью клана Творцов и под руководством Трота Нечистого, рождается крысоогр. Клан Творцов действительно раскрыл истинный потенциал человечества.</RatOgreAbomAnimal.description>
+  <RatOgreAbomAnimal.tools.0.label>Левая кисть</RatOgreAbomAnimal.tools.0.label>
+  <RatOgreAbomAnimal.tools.1.label>Правая кисть</RatOgreAbomAnimal.tools.1.label>
+  <RatOgreAbomAnimal.tools.2.label>Зубы</RatOgreAbomAnimal.tools.2.label>
+
+
+</LanguageData>

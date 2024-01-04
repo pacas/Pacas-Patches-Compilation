@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <SK_Warpstone.label>Варп-камень</SK_Warpstone.label>
+    <SK_Warpstone.description>Варп-камень - загадочный и опасный материал. Никто не знает, как эти камни добываются. Кроме скавенов. Каким-то особым способом, используя магицит, нефрит, их магию, тепло и некоторое количество ругательств, они создают эти... камни</SK_Warpstone.description>
+    
+    <SkavenBloodSample.label>Кровь скавена</SkavenBloodSample.label>
+    <SkavenBloodSample.description>Образец крови скавенов.</SkavenBloodSample.description>
+
+    <SkavenSerumSample.label>Варп-кровь скавена</SkavenSerumSample.label>
+    <SkavenSerumSample.description>Кровь скавенов, пропитанная варпом. Следуя идеям биохимии клана Творцов, эту кровь можно использовать для создания мерзких гибридных чудовищ.</SkavenSerumSample.description>
+
+    <SkavenLargeSerumSample.label>Смешанная варп-кровь</SkavenLargeSerumSample.label>
+    <SkavenLargeSerumSample.description>Пропитанная варпом кровь скавенов, смешанная с животной материей. Следуя замыслу клана Формовщиков в биохимии, эту кровь можно использовать для создания мерзких гибридных чудовищ.</SkavenLargeSerumSample.description>
+
+</LanguageData>

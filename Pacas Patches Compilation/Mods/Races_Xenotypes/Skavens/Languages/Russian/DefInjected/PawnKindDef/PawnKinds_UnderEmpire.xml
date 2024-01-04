@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SlaveRatMissile.label>Крысиный раб</SlaveRatMissile.label>
+  <SlaveRatMissile.labelPlural>Крысиные рабы</SlaveRatMissile.labelPlural>
+  <SlaveRatMissile.labelMale>Крысиный раб</SlaveRatMissile.labelMale>
+  <SlaveRatMissile.labelMalePlural>Крысиный раб</SlaveRatMissile.labelMalePlural>
+  <SlaveRatMissile.labelFemale>Крысиный раб</SlaveRatMissile.labelFemale>
+  <SlaveRatMissile.labelFemalePlural>Крысиные рабы</SlaveRatMissile.labelFemalePlural>
+
+  <SlaveRatMelee.label>Крысиный раб</SlaveRatMelee.label>
+  <SlaveRatMelee.labelPlural>Крысиные рабы</SlaveRatMelee.labelPlural>
+  <SlaveRatMelee.labelMale>Крысиный раб</SlaveRatMelee.labelMale>
+  <SlaveRatMelee.labelMalePlural>Крысиный раб</SlaveRatMelee.labelMalePlural>
+  <SlaveRatMelee.labelFemale>Крысиный раб</SlaveRatMelee.labelFemale>
+  <SlaveRatMelee.labelFemalePlural>Крысиные рабы</SlaveRatMelee.labelFemalePlural>
+
+  <ClanratLow.label>Клановая крыса</ClanratLow.label>
+  <ClanratLow.labelPlural>Клановые крысы</ClanratLow.labelPlural>
+  <ClanratLow.labelMale>Клановая крыса</ClanratLow.labelMale>
+  <ClanratLow.labelMalePlural>Клановые крысы</ClanratLow.labelMalePlural>
+  <ClanratLow.labelFemale>Клановая крыса</ClanratLow.labelFemale>
+  <ClanratLow.labelFemalePlural>Клановые крысы</ClanratLow.labelFemalePlural>
+
+  <ClanratRanged.label>Крыса с арбалетом</ClanratRanged.label>
+  <ClanratRanged.labelPlural>Крысы с арбалетами</ClanratRanged.labelPlural>
+  <ClanratRanged.labelMale>Крыса с арбалетом</ClanratRanged.labelMale>
+  <ClanratRanged.labelMalePlural>Крысы с арбалетами</ClanratRanged.labelMalePlural>
+  <ClanratRanged.labelFemale>Крыса с арбалетом</ClanratRanged.labelFemale>
+  <ClanratRanged.labelFemalePlural>Крысы с арбалетами</ClanratRanged.labelFemalePlural>
+
+  <ClanratHigh.label>Штормвермин</ClanratHigh.label>
+  <ClanratHigh.labelPlural>Штормвермины</ClanratHigh.labelPlural>
+  <ClanratHigh.labelMale>Штомвермин</ClanratHigh.labelMale>
+  <ClanratHigh.labelMalePlural>Штормвермины</ClanratHigh.labelMalePlural>
+  <ClanratHigh.labelFemale>Штормвермин</ClanratHigh.labelFemale>
+  <ClanratHigh.labelFemalePlural>Штормвермины</ClanratHigh.labelFemalePlural>
+
+  <SkavenWarlord.label>Военачальник</SkavenWarlord.label>
+  <SkavenWarlord.labelPlural>Военачальники</SkavenWarlord.labelPlural>
+  <SkavenWarlord.labelMale>Военачальник</SkavenWarlord.labelMale>
+  <SkavenWarlord.labelMalePlural>Военачальники</SkavenWarlord.labelMalePlural>
+  <SkavenWarlord.labelFemale>Военачальник</SkavenWarlord.labelFemale>
+  <SkavenWarlord.labelFemalePlural>Военачальники</SkavenWarlord.labelFemalePlural>
+
+  <SkavenSeer.label>Провидец</SkavenSeer.label>
+  <SkavenSeer.labelPlural>Провидцы</SkavenSeer.labelPlural>
+  <SkavenSeer.labelMale>Провидец</SkavenSeer.labelMale>
+  <SkavenSeer.labelMalePlural>Провидцы</SkavenSeer.labelMalePlural>
+  <SkavenSeer.labelFemale>Провидец</SkavenSeer.labelFemale>
+  <SkavenSeer.labelFemalePlural>Провидцы</SkavenSeer.labelFemalePlural>
+
+  <SkavenEngineer.label>Инженер</SkavenEngineer.label>
+  <SkavenEngineer.labelPlural>Инженеры</SkavenEngineer.labelPlural>
+  <SkavenEngineer.labelMale>Инженер</SkavenEngineer.labelMale>
+  <SkavenEngineer.labelMalePlural>Инженеры</SkavenEngineer.labelMalePlural>
+  <SkavenEngineer.labelFemale>Инженер</SkavenEngineer.labelFemale>
+  <SkavenEngineer.labelFemalePlural>Инженеры</SkavenEngineer.labelFemalePlural>
+
+  <ClanratHighGun.label>Клык</ClanratHighGun.label>
+  <ClanratHighGun.labelPlural>Клыки</ClanratHighGun.labelPlural>
+  <ClanratHighGun.labelMale>Клык</ClanratHighGun.labelMale>
+  <ClanratHighGun.labelMalePlural>Клыки</ClanratHighGun.labelMalePlural>
+  <ClanratHighGun.labelFemale>Клык</ClanratHighGun.labelFemale>
+  <ClanratHighGun.labelFemalePlural>Клыки</ClanratHighGun.labelFemalePlural>
+
+
+  <!-- Moulder -->
+
+  <MoulderRatMid.label>Вожак стаи</MoulderRatMid.label>
+  <MoulderRatMid.labelPlural>Вожаки стаи</MoulderRatMid.labelPlural>
+  <MoulderRatMid.labelMale>Вожак стаи</MoulderRatMid.labelMale>
+  <MoulderRatMid.labelMalePlural>Вожаки стаи</MoulderRatMid.labelMalePlural>
+  <MoulderRatMid.labelFemale>Вожак стаи</MoulderRatMid.labelFemale>
+  <MoulderRatMid.labelFemalePlural>Вожаки стаи</MoulderRatMid.labelFemalePlural>
+
+  <MoulderRatHigh.label>Формовщик</MoulderRatHigh.label>
+  <MoulderRatHigh.labelPlural>Формовщики</MoulderRatHigh.labelPlural>
+  <MoulderRatHigh.labelMale>Формовщик</MoulderRatHigh.labelMale>
+  <MoulderRatHigh.labelMalePlural>Формовщики</MoulderRatHigh.labelMalePlural>
+  <MoulderRatHigh.labelFemale>Формовщик</MoulderRatHigh.labelFemale>
+  <MoulderRatHigh.labelFemalePlural>Формовщики</MoulderRatHigh.labelFemalePlural>
+
+  <ClanratSkryreMid.label>Стрелок</ClanratSkryreMid.label>
+  <ClanratSkryreMid.labelPlural>Стрелки</ClanratSkryreMid.labelPlural>
+  <ClanratSkryreMid.labelMale>Стрелок</ClanratSkryreMid.labelMale>
+  <ClanratSkryreMid.labelMalePlural>Стрелки</ClanratSkryreMid.labelMalePlural>
+  <ClanratSkryreMid.labelFemale>Стрелок</ClanratSkryreMid.labelFemale>
+  <ClanratSkryreMid.labelFemalePlural>Стрелки</ClanratSkryreMid.labelFemalePlural>
+
+
+</LanguageData>

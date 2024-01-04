@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Ammo_SlingBall_Stone.label>Камень</Ammo_SlingBall_Stone.label>
+	<Ammo_SlingBall_Stone.description>Обыкновенные камни, которые можно метать с помощью пращи.</Ammo_SlingBall_Stone.description>
+	<Projectile_SlingBall_Stone.label>камень</Projectile_SlingBall_Stone.label>
+
+	<Ammo_SlingBall_Metallic.label>Железка</Ammo_SlingBall_Metallic.label>
+	<Ammo_SlingBall_Metallic.description>Металлические снаряды, которые можно метать с помощью пращи.</Ammo_SlingBall_Metallic.description>
+	<Projectile_SlingBall_Metallic.label>железка</Projectile_SlingBall_Metallic.label>
+
+</LanguageData>

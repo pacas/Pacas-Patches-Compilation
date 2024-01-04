@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- RatgOgre -->
+    <InstallSkavenOgreBlade.label>Установить клинок</InstallSkavenOgreBlade.label>
+    <InstallSkavenOgreBlade.description>Установить клинок.</InstallSkavenOgreBlade.description>
+    <InstallSkavenOgreBlade.jobString>Устанавливает клинок.</InstallSkavenOgreBlade.jobString>
+
+    <InstallSkavenOgreLeg.label>Установить стальную ногу</InstallSkavenOgreLeg.label>
+    <InstallSkavenOgreLeg.description>Установить стальную ногу.</InstallSkavenOgreLeg.description>
+    <InstallSkavenOgreLeg.jobString>Устанавливает ногу.</InstallSkavenOgreLeg.jobString>
+
+    <InstallSkavenOgrePlate.label>Установить стальную пластину</InstallSkavenOgrePlate.label>
+    <InstallSkavenOgrePlate.description>Установить пластину.</InstallSkavenOgrePlate.description>
+    <InstallSkavenOgrePlate.jobString>Устанавливает пластину.</InstallSkavenOgrePlate.jobString>
+
+    <InstallSkavenOgreDenture.label>Установить стальной зубной протез</InstallSkavenOgreDenture.label>
+    <InstallSkavenOgreDenture.description>Установить зубной протез.</InstallSkavenOgreDenture.description>
+    <InstallSkavenOgreDenture.jobString>Установливает зубной протез.</InstallSkavenOgreDenture.jobString>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- RatgOgre -->
+
+    <SkavenOgreBlade.label>Клинок крысоогра</SkavenOgreBlade.label>
+    <SkavenOgreBlade.description>Большой клинок, который можно прикрепить к крысоогру.</SkavenOgreBlade.description>
+
+    <SkavenOgreLeg.label>Стальная нога крысоогра</SkavenOgreLeg.label>
+    <SkavenOgreLeg.description>Стальная нога, сделанная по размеру крысоогра.</SkavenOgreLeg.description>
+
+</LanguageData>

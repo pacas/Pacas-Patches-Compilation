@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Make_SkavenSerumSample.label>Создать варп-кровь</Make_SkavenSerumSample.label>
+    <Make_SkavenSerumSample.description>Создать варп-кровь.</Make_SkavenSerumSample.description>
+    <Make_SkavenSerumSample.jobString>Создает варп-кровь.</Make_SkavenSerumSample.jobString>
+    
+    <MakeWarpPowder_Single.label>Cмешать варп-порошок х4</MakeWarpPowder_Single.label>
+    <MakeWarpPowder_Single.description>Создайте порошковую смесь, вызывающую мутации и стимулирующую старение.</MakeWarpPowder_Single.description>
+    <MakeWarpPowder_Single.jobString>Cмешивает варп-порошок.</MakeWarpPowder_Single.jobString>
+    
+    <MakeWarpPowder_Multi.label>Cмешать варп-порошок х16</MakeWarpPowder_Multi.label>
+    <MakeWarpPowder_Multi.description>Создайте порошковую смесь, вызывающую мутации и стимулирующую старение.</MakeWarpPowder_Multi.description>
+    <MakeWarpPowder_Multi.jobString>Cмешивает варп-порошок.</MakeWarpPowder_Multi.jobString>
+    
+    <MakeWarpstone_Hand.label>Напитать варп-камень</MakeWarpstone_Hand.label>
+    <MakeWarpstone_Hand.description>Создать варп-камень из сырой магицитовой руды, нефрита и чистой ненависти. Производится 1. Только скавены умеют это делать.</MakeWarpstone_Hand.description>
+    <MakeWarpstone_Hand.jobString>Напитывает варп-камень.</MakeWarpstone_Hand.jobString>
+    
+    <MakeWarpstone_Electric.label>Напитать варп-камень</MakeWarpstone_Electric.label>
+    <MakeWarpstone_Electric.description>Создать варп-камень из сырой магицитовой руды, нефрита и чистой ненависти. Производится 1. Только скавены умеют это делать.</MakeWarpstone_Electric.description>
+    <MakeWarpstone_Electric.jobString>Напитывает варп-камень.</MakeWarpstone_Electric.jobString>
+    
+    <MakeWarpstone_Magic.label>Напитать варп-камень</MakeWarpstone_Magic.label>
+    <MakeWarpstone_Magic.description>Создать варп-камень из сырой магицитовой руды, нефрита и чистой ненависти. Производится 2.</MakeWarpstone_Magic.description>
+    <MakeWarpstone_Magic.jobString>Напитывает варп-камень.</MakeWarpstone_Magic.jobString>
+
+</LanguageData>

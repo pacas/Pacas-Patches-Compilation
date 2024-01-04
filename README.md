@@ -60,3 +60,4 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069) | :white_check_mark: | --- | --- |
 | - | [Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519) | :grey_question: | --- | --- |
 | - | [Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708) | :white_check_mark: | --- | :radio_button: |
+| - | [Warhammer: Skaven](https://steamcommunity.com/sharedfiles/filedetails/?id=2958124086) | :white_check_mark: | A RimWorld of Magic required | :radio_button: |

@@ -40,7 +40,7 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Hemogen Extractor](https://steamcommunity.com/sharedfiles/filedetails/?id=2903919607) | :white_check_mark: | --- | --- |
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |
-| - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark: | Ignore 2 duplicated errors | :radio_button: |
+| - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :x: | Ignore 2 duplicated errors | :radio_button: |
 | - | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | :white_check_mark: | --- | :radio_button: |
 | - | [More Persona Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2863308112) | :white_check_mark: | --- | --- |
 | - | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | :radio_button: |

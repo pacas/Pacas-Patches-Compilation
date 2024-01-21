@@ -28,14 +28,14 @@
                 <xpath>Defs/ThingDef[defName="HolyPowder"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>SK_RoughPlantBase</value>
-            </li>            
+            </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HolyPowder"]/label</xpath>
                 <value><label>Hollilly petals</label></value>
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HolyPowder"]/description</xpath>
-                <value><description>Hollilly petals. Can be refined into the stimulant drug called Angels Grace.</description></value>
+                <value><description>Hollilly petals. Can be refined into the stimulant drug called Grace.</description></value>
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HolyPowder"]/graphicData</xpath>
@@ -48,19 +48,40 @@
             </li>
             
             <li Class="PatchOperationAttributeSet">
-                <xpath>Defs/ThingDef[defName="GS_Grace"]</xpath>
+                <xpath>Defs/ThingDef[defName="GracePack"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>VG_MakeableDrugBase</value>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName="GS_Grace"]/recipeMaker/researchPrerequisite</xpath>
+                <xpath>Defs/ThingDef[defName="GracePack"]/thingCategories</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GracePack"]</xpath>
+                <value>
+                    <recipeMaker>
+                        <recipeUsers>
+                            <li>CraftingSpot</li>
+                            <li>DrugLab</li>
+                        </recipeUsers>
+                        <soundWorking>Recipe_Drug</soundWorking>
+                    </recipeMaker>
+                    <costList>
+                        <HolyPowder>4</HolyPowder>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[defName="Smelt_Grace"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[defName="Smelt_GraceBulk"]</xpath>
             </li>
             
-            <li Class="PatchOperationAttributeSet">
+            <!--<li Class="PatchOperationAttributeSet">
                 <xpath>Defs/HediffDef[defName="AngelsGraceAddiction"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>VG_AddictionBase</value>
-            </li>
+            </li>-->
         </operations>
     </Operation>
 </Patch>

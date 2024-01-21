@@ -19,7 +19,7 @@
                         </stages>
                     </value>
                 </li>
-                <li Class="PatchOperationReplace">
+                <!--<li Class="PatchOperationReplace">
                     <xpath>Defs/HediffDef[defName="AngelGraceHigh"]/stages</xpath>
                     <value>
                         <stages>
@@ -33,7 +33,7 @@
                             </li>
                         </stages>
                     </value>
-                </li>
+                </li>-->
         </operations>
     </Operation>
 </Patch>

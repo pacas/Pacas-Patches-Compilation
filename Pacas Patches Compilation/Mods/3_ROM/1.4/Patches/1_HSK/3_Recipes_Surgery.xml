@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]/recipeUsers</xpath>
-                </li>
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]/recipeUsers</xpath>
+            </li>
             <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/RecipeDef[@Name="SurgeryRegrowth"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>SK_SurgeryFlesh</value>
             </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/recipeUsers</xpath>
-                </li>
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
-                    <value>
-                        <li>Regrowth</li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/recipeUsers</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+                <value>
+                    <li>Regrowth</li>
                     <li>TM_RuneCarveBodyPart</li>
                 </value>
             </li>
-            <li Class="PatchOperationFindMod">
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/RecipeDef[defName="UniversalRegrowth"]/recipeUsers</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="UniversalRegrowth"]</xpath>
+                    <value>
+                        <recipeUsers>
+                        </recipeUsers>
+                    </value>
+                </nomatch>
+            </li>
+            <!--<li Class="PatchOperationFindMod">
                 <mods>
                     <li>RimJobWorld</li>
                 </mods>
@@ -30,35 +40,35 @@
                         <li>UniversalRegrowth</li>
                     </value>
                 </nomatch>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/workSpeedStat</xpath>
-                    <value>
-                        <workSpeedStat>StonecuttingSpeed</workSpeedStat>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/ingredients/li[3]</xpath>
-                    <value>
-                        <li>
-                            <filter>
-                                <thingDefs>
-                                    <li>PureMagicyteBar</li>
-                                </thingDefs>
-                            </filter>
-                            <count>60</count>
-                        </li>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/fixedIngredientFilter/thingDefs</xpath>
-                    <value>
-                        <thingDefs>
-                            <li>ManaPotion</li>
-                            <li>PureMagicyteBar</li>
-                        </thingDefs>
-                    </value>
-                </li>
-            </operations>
+            </li>-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[@Name="TM_SurgeryRuneCarving"]/workSpeedStat</xpath>
+                <value>
+                    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/ingredients/li[3]</xpath>
+                <value>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>PureMagicyteBar</li>
+                            </thingDefs>
+                        </filter>
+                        <count>60</count>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="TM_RuneCarveBodyPart"]/fixedIngredientFilter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>ManaPotion</li>
+                        <li>PureMagicyteBar</li>
+                    </thingDefs>
+                </value>
+            </li>
+        </operations>
     </Operation>
 </Patch>

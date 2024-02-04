@@ -26,9 +26,9 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | --- | --- | --- | --- | --- |
 | - | HSK Core | :white_check_mark: | Check mod settings | --- |
 | :star: | [A RimWorld of Magic](https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956) | :white_check_mark: | --- | :radio_button: |
-| :star: | [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- | --- |
-| - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | :white_check_mark: | --- | --- |
-| :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | :white_check_mark: | --- | --- |
+| :star: | [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- | :radio_button: |
+| - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | :white_check_mark: | --- | :radio_button: |
+| :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | :white_check_mark: | --- | :radio_button: |
 | - | [Air Generator](https://steamcommunity.com/sharedfiles/filedetails/?id=2999510318) | :white_check_mark: | --- | :radio_button: |
 | - | [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | :white_check_mark: | --- | :radio_button: |
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- | --- |
@@ -47,10 +47,10 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :white_check_mark: | --- | :radio_button: |
 | - | [RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530) | :x: | 1.3 only for now | --- |
-| - | [RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530) | :white_check_mark: | --- | --- |
+| - | [RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530) | :white_check_mark: | Mods are compatible, only additional compatibility | --- |
 | - | [Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783) | :white_check_mark: | --- | --- |
 | :star: | [Simple Slavery Collars](https://steamcommunity.com/sharedfiles/filedetails/?id=2557274194) | :white_check_mark: | --- | --- |
-| - | [Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016) | :white_check_mark: | --- | --- |
+| - | [Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016) | :white_check_mark: | Get the mod in addons, this is addon for the mod | --- | 
 | - | [Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182) | :grey_question: | --- | --- |
 | :star: | [Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720) | :white_check_mark: | --- | --- |
 | - | [Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072) | :white_check_mark: | --- | --- |

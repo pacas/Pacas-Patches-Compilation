@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CosRim_AirGenerator.label>ветровой генератор</CosRim_AirGenerator.label>
-  <CosRim_AirGenerator.description>Компактный источник возобновляемой энергии, использующий микротрубки из карбона для выработки электроэнергии за счет влажности воздуха.</CosRim_AirGenerator.description>
-  <SmallProjector_Blueprint_Install.label>ветровой генератор (чертеж)</SmallProjector_Blueprint_Install.label>
-
-
+    <CosRim_AirGenerator.label>ветровой генератор</CosRim_AirGenerator.label>
+    <CosRim_AirGenerator.description>Компактный источник возобновляемой энергии, использующий микротрубки из карбона для выработки электроэнергии за счет влажности воздуха.</CosRim_AirGenerator.description>
+    
 </LanguageData>

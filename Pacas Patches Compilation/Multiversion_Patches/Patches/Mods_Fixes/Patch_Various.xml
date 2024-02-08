@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ThingDef[@Name="FleckGlowDistorted"]/comps</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

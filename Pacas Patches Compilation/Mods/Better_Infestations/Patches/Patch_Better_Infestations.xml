@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Better Infestations 1.4</li>
-		</mods>
-		<match Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 			<operations>
 				<!-- BI_Queen -->
 				<li Class="PatchOperationAddModExtension">
@@ -72,6 +68,5 @@
 					</value>
 				</li>
 			</operations>
-		</match>
 	</Operation>
 </Patch>

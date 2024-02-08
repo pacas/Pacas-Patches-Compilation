@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="HumpShroom"]/thingCategories</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="UsedCondom"]/thingCategories</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>MeatSubRaw</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                  defName="Aphrodisiac" or
+                  defName="RJW_Contraceptive" or
+                  defName="RJW_FertPill" or
+                  defName="HumpShroom"
+                ]
+                </xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>RJWDrugs</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                  defName="Hololock" or
+                  defName="Holokey" or
+                  defName="Condom"
+                ]/thingCategories
+                </xpath>
+                <value>
+                    <thingCategories>
+                        <li>RJWBondageAdd</li>
+                    </thingCategories>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationAdd">	
+					<xpath>Defs/ThingDef[defName="Condom"]/statBases</xpath>
+					<value>
+						<Bulk>0.03</Bulk>
+					</value>
+            </li>
+            
+            <li Class="PatchOperationAdd">	
+                <xpath>Defs/ThingDef[defName="UsedCondom"]/statBases</xpath>
+                <value>
+                    <Bulk>0.3</Bulk>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationAdd">	
+                <xpath>Defs/ThingDef[defName="RJW_Contraceptive" or defName="RJW_FertPill" or defName="Aphrodisiac"]/statBases</xpath>
+                <value>
+                    <Bulk>0.05</Bulk>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

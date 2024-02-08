@@ -82,6 +82,34 @@
                         </value>
                     </match>
                 </li>
+                
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>[NL] Facial Animation - WIP</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs</xpath>
+                                <value>
+                                    <FacialAnimation.EyeballColorDef>
+                                        <defName>Red_EyeColor</defName>
+                                        <geneDef>Eyes_Red</geneDef>
+                                        <eyeballColor>RGB(255,0,10)</eyeballColor>
+                                    </FacialAnimation.EyeballColorDef>
+                                    <FacialAnimation.EyeballColorDef>
+                                        <defName>Gray_EyeColor</defName>
+                                        <geneDef>Eyes_Gray</geneDef>
+                                        <eyeballColor>RGB(64,64,64)</eyeballColor>
+                                    </FacialAnimation.EyeballColorDef>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/GeneDef[defName="Eyes_Red" or defName="Eyes_Gray"]/graphicData</xpath>
+                            </li>
+                        </operations>
+                    </match>
+                </li>
             </operations>
         </match>
     </Operation>

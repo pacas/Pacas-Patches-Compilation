@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <Grace>Благодать</Grace>
+    <GraceDesc>Благодать - это энергия, которую ангельские существа используют как для выживания, так и для применения своих способностей.</GraceDesc>
+
+    <NotAllowedGrace>Благословление ангела отключено в настройках диеты</NotAllowedGrace>
+    <AutoTakeGraceDesc>Это определяет, будет ли {PAWN_nameDef} автоматически потреблять благословление ангела, когда {PAWN_possessive} благодать ниже {MIN}.\n\nАвтоматическое потребление в настоящее время {ONOFF}.</AutoTakeGraceDesc>
+    <ConsumeGraceBelow>Употребляйте ниже</ConsumeGraceBelow>
+    <NeverConsumeGrace>Не употреблять</NeverConsumeGrace>
+
+    <AlertLowGrace>Низкий запас благодати</AlertLowGrace>
+    <AlertLowGraceDesc>У колониста мало запаса благодати</AlertLowGraceDesc>
+
+    <AbilityDisabledNoGraceGene>{0_labelShort} не способен использовать благодать.</AbilityDisabledNoGraceGene>
+    <AbilityDisabledNoGrace>{0_labelShort} не имеет достаточно благодати.</AbilityDisabledNoGrace>
+    <AbilityGraceCost>Стоимость благодати</AbilityGraceCost>
+    <AbilityGraceGain>Базовое получение благодати</AbilityGraceGain>
+    
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.FindMod">
+        <mods>
+            <li>Dungeons Core (Continued)</li>
+        </mods>
+        <caseTrue>
+            <Operation Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationAttributeSet">
+                        <xpath>Defs/ResearchProjectDef[defName="DF_DungeonScrying"]</xpath>
+                        <attribute>ParentName</attribute>
+                        <value>MedievalBase</value>
+                    </li>
+                    <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                        <xpath>Defs/ResearchProjectDef[defName="DF_DungeonScrying"]</xpath>
+                        <value>
+                            <tab>TMagic</tab>
+                            <baseCost>1200</baseCost>
+                            <researchViewX>6.00</researchViewX>
+                            <researchViewY>2.00</researchViewY>
+                            <prerequisites>
+                                <li>TM_ArcaneForging</li>
+                            </prerequisites>
+                        </value>
+                    </li>
+                </operations>
+            </Operation>
+        </caseTrue>
+    </Operation>
+</Patch>

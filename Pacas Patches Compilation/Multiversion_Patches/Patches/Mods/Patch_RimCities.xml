@@ -25,6 +25,17 @@
 				</value>
 			</li>
 
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GenStepDef[defName="City_Emplacements"]/genStep/options/li[weaponDef="Turret_Heavy"]</xpath>
+                    <value>
+                        <li>
+                            <roofed>true</roofed>
+                            <weaponDef>Gun_M240B</weaponDef>
+                            <manned>true</manned>
+                        </li>
+                    </value>
+                </li>
+
 			<!-- Remove apparel from RimCities starting scenarios -->
 
 			<li Class="PatchOperationRemove">

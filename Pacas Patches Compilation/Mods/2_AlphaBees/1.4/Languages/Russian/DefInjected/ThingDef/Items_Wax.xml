@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_Beeswax.label>пчелиный воск</RB_Beeswax.label>
+  <RB_Beeswax.description>Пчелиный воск - это природный воск, производимый медоносными пчелами. Пчелиный воск имеет множество разнообразных применений. В первую очередь он используется пчелами при изготовлении сот, и его можно использовать для производства продуктов питания, косметики и фармацевтики, а также для изготовления свечей.</RB_Beeswax.description>
+  <RB_Beeswax.stuffProps.stuffAdjective>пчелиного воска</RB_Beeswax.stuffProps.stuffAdjective>
+
+  <RB_Brittlewax.label>хрупкий воск</RB_Brittlewax.label>
+  <RB_Brittlewax.description>Хрупкий пчелиный воск извлекается из сот семейства Нейтро (Нейтро, Пьяные, Роскошные, Психо, Дымные) и намного менее крепок, чем обычный пчелиный воск, но он очень, очень легкий, и с его помощью можно строить очень быстро.</RB_Brittlewax.description>
+  <RB_Brittlewax.stuffProps.stuffAdjective>хрупкого воска</RB_Brittlewax.stuffProps.stuffAdjective>
+
+  <RB_RedBeeswax.label>красный воск</RB_RedBeeswax.label>
+  <RB_RedBeeswax.description>Красный пчелиный воск немного крепче обычного воска, но его главное преимущество в том, что он не воспламеняется. Это может использоваться для выделки свечей, после обработки всё же.</RB_RedBeeswax.description>
+  <RB_RedBeeswax.stuffProps.stuffAdjective>красного воска</RB_RedBeeswax.stuffProps.stuffAdjective>
+
+  <RB_HeavyWax.label>тяжелый воск</RB_HeavyWax.label>
+  <RB_HeavyWax.description>Тяжелый воск извлекается из сот технологического семейства (Технологические, Электронные, Топливные, Пластальные). Как следует из названия, он очень плотный и тяжелый. Это, вероятно, лучшее из веществ для создания дробящего оружия.</RB_HeavyWax.description>
+  <RB_HeavyWax.stuffProps.stuffAdjective>тяжелого воска</RB_HeavyWax.stuffProps.stuffAdjective>
+
+  <RB_WhiteBeeswax.label>белый воск</RB_WhiteBeeswax.label>
+  <RB_WhiteBeeswax.description>Белый пчелиный воск крепче обычного и менее огнеопасен.</RB_WhiteBeeswax.description>
+  <RB_WhiteBeeswax.stuffProps.stuffAdjective>белого воска</RB_WhiteBeeswax.stuffProps.stuffAdjective>
+
+  <RB_BlueBeeswax.label>голубой воск</RB_BlueBeeswax.label>
+  <RB_BlueBeeswax.description>Голубой пчелиный воск намного прочнее обычного пчелиного воска, но он чрезвычайно огнеопасен. Возможно, полезно будет построить пожарные лестницы.</RB_BlueBeeswax.description>
+  <RB_BlueBeeswax.stuffProps.stuffAdjective>голубого воска</RB_BlueBeeswax.stuffProps.stuffAdjective>
+
+  <RB_Steelwax.label>стальной воск</RB_Steelwax.label>
+  <RB_Steelwax.description>Стальной воск добывается из сот семейства Сплавные (Сплавные, Серебрянные, Золотые, Драгоценные и Радиоактивные). Это природный пчелиный воск, усиленный металлическими волокнами, почти такой же прочный как сталь, и может использоваться в качестве её замены для определенных применений.</RB_Steelwax.description>
+  <RB_Steelwax.stuffProps.stuffAdjective>стального воска</RB_Steelwax.stuffProps.stuffAdjective>
+
+  <RB_BlackBeeswax.label>черный воск</RB_BlackBeeswax.label>
+  <RB_BlackBeeswax.description>Черный пчелиный воск довольно хрупок, но на него приятно смотреть, поэтому его можно использовать для изготовления скульптур, свечей и других украшений.</RB_BlackBeeswax.description>
+  <RB_BlackBeeswax.stuffProps.stuffAdjective>черного воска</RB_BlackBeeswax.stuffProps.stuffAdjective>
+
+
+</LanguageData>

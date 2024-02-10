@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_AB_WaxFloor.label>Вощеные полы</SubCategory_AB_WaxFloor.label>
+    <SubCategory_AB_WaxFloor.description>Лакированные воском полы. Скользкие.</SubCategory_AB_WaxFloor.description>
+
+    <SubCategory_AB_WaxTileFloor.label>Восковые плиты</SubCategory_AB_WaxTileFloor.label>
+    <SubCategory_AB_WaxTileFloor.description>Плиточные восковые полы. Скользкие. Красивее обычных вощёных полов.</SubCategory_AB_WaxTileFloor.description>
+  
+</LanguageData>

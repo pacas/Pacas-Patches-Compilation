@@ -12,6 +12,7 @@
         <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
+        <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.4</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>        
         <!-- Simple mods -->
         <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>

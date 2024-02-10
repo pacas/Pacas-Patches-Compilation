@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_WaxToChemfuel.label>сделать химтопливо из воска</RB_WaxToChemfuel.label>
+  <RB_WaxToChemfuel.description>Сделайте партию химического топлива из воска. Это очень расходный способ получения химического топлива, но он полезен для избавления от нежелательного воска.</RB_WaxToChemfuel.description>
+  <RB_WaxToChemfuel.jobString>Выработка химического топлива из воска.</RB_WaxToChemfuel.jobString>
+
+
+</LanguageData>

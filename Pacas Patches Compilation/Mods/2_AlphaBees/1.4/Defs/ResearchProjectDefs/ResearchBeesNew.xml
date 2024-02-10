@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef ParentName="PrimitiveBase">
+		<defName>RB_BasicHoneyExtraction</defName>
+		<label>basic honey extraction</label>
+		<tab>RB_Bees</tab>
+		<techLevel>Neolithic</techLevel>
+		<description>Honey extraction is a simple process with basic tools for extracting honey from the honeycomb.</description>
+		<baseCost>300</baseCost>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+        <prerequisites>
+            <li>RB_BasicBeekeeping</li>
+        </prerequisites>
+        <modExtensions>
+            <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+        </modExtensions>
+		<researchViewX>1</researchViewX>
+		<researchViewY>70</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="IndustrialBase">
+		<defName>RB_BasicCentrifugation</defName>
+		<label>honey centrifugation</label>
+		<tab>RB_Bees</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Honey centrifuge boost the process of centrifugating combs to get resources, allowing your colonists to extract all additional resources.</description>
+		<baseCost>750</baseCost>
+		<prerequisites>
+			<li>RB_BasicHoneyExtraction</li>
+		</prerequisites>
+        <modExtensions>
+            <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+        </modExtensions>
+		<researchViewX>8</researchViewX>
+		<researchViewY>71</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

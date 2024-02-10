@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_SimpleHoney.label>простая медовая еда</RB_SimpleHoney.label>
+  <RB_SimpleHoney.description>Простое блюдо, приготовленное намазкой свежего меда на ломтик поджаренного хлеба в сопровождении стакана холодной минеральной воды.</RB_SimpleHoney.description>
+
+  <RB_FineHoney.label>вкусная медовая еда</RB_FineHoney.label>
+  <RB_FineHoney.description>Сложное блюдо, состоящее из бисквита, наполненного медовым соусом, с лимонным пюре, подслащенным медом.</RB_FineHoney.description>
+
+  <RB_LavishHoney.label>шикарная медовая еда</RB_LavishHoney.label>
+  <RB_LavishHoney.description>Это блюдо вершина кулинарного искусства, включает в себя сдобное пирожное с начинкой из меда, в сочетании с ванильным мороженым, подслащенным медом.</RB_LavishHoney.description>
+
+  <RB_HoneyedIcePop.label>медовый фруктовый лед</RB_HoneyedIcePop.label>
+  <RB_HoneyedIcePop.description>Вкусный фруктовый лёд со вкусом мёда. Был приготовлен на морозе из мёда сот арктических пчёл.</RB_HoneyedIcePop.description>
+
+  <RB_HoneyPreservedMeat.label>консервированное в меде мясо</RB_HoneyPreservedMeat.label>
+  <RB_HoneyPreservedMeat.description>Жареное мясо, консервированное в меде.</RB_HoneyPreservedMeat.description>
+
+  <RB_HoneyPreservedVegetables.label>консервированные в меде растения</RB_HoneyPreservedVegetables.label>
+  <RB_HoneyPreservedVegetables.description>Жареные овощи, которые были сохранены в меде.</RB_HoneyPreservedVegetables.description>
+
+
+</LanguageData>

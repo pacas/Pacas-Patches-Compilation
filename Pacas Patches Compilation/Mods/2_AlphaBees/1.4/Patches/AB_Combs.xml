@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[
+                    @Name="RB_BeeBase" or 
+                    @Name="RB_CombBase"
+                ]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_ResourceBase</value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[@Name="RB_HoneyBase" or @Name="RB_CombBase"]/statBases</xpath>
+                <value>
+                    <Bulk>0.03</Bulk>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[ @Name="RB_CombBase"]/statBases</xpath>
+                <value>
+                    <MarketValue>10</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Alloy_Honeycomb"]/description</xpath>
+                <value>
+                    <description>This is a honeycomb produced by alloy bees. Alloy bees are capable of producing honeycombs with metallic compounds in them. Their honey production is minimal, though. The basic Alloy Bee produces steel plated honeycombs. Honeycombs can be procesed in a Honey Extractor to get honey, steelwax and iron ore.</description>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Alloy_Honeycomb"]/butcherProducts/Steel</xpath>
+                <value>
+                    <Steel>8</Steel>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Nutritious_Honeycomb"]/description</xpath>
+                <value>
+                    <description>This is a honeycomb produced by nutritious bees. Nutritious bees produce fleshy honeycombs that drip blood. This is just disgusting... Honeycombs can be procesed in a Honey Extractor to get tasty honey, beeswax and plant meat.</description>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Argent_Honeycomb"]/butcherProducts/Silver</xpath>
+                <value>
+                    <Silver>40</Silver>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Precious_Honeycomb"]/butcherProducts/Jade</xpath>
+                <value>
+                    <Jade>15</Jade>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Bittersweet_Honeycomb"]/butcherProducts/Chocolate</xpath>
+                <value>
+                    <Chocolate>5</Chocolate>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Plastic_Honeycomb"]/description</xpath>
+                <value>
+                    <description>This is a honeycomb produced by Plastic bees. It seems to be reinforced with a natural polymers. Honeycombs can be procesed in a Honey Extractor to get honey, heavy beeswax and plastic.</description>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Plastic_Honeycomb"]/butcherProducts/Plasteel</xpath>
+                <value>
+                    <Plastic>8</Plastic>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[@Name="RB_PlasticBeeBase"]/comps/li/weirdplantneeded</xpath>
+                <value>
+                    <weirdplantneeded>Plastic</weirdplantneeded>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Weaving_Honeycomb"]/butcherProducts/Cloth</xpath>
+                <value>
+                    <Cloth>20</Cloth>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Tanner_Honeycomb"]/butcherProducts/Leather_Plain</xpath>
+                <value>
+                    <Leather_Plain>20</Leather_Plain>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Culinary_Honeycomb"]/butcherProducts/MealNutrientPaste</xpath>
+                <value>
+                    <MealNutrientPaste>3</MealNutrientPaste>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Medicinal_Honeycomb"]/butcherProducts/MedicineHerbal</xpath>
+                <value>
+                    <MedicineHerbal>5</MedicineHerbal>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Fabricated_Honeycomb"]/butcherProducts/ComponentSpacer</xpath>
+                <value>
+                    <ComponentAdvanced>2</ComponentAdvanced>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Electronic_Honeycomb"]/butcherProducts/ComponentIndustrial</xpath>
+                <value>
+                    <ElectronicComponents>1</ElectronicComponents>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Nitro_Honeycomb"]/butcherProducts/Shell_HighExplosive</xpath>
+                <value>
+                    <FSX>80</FSX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Nitro_Honeycomb"]/description</xpath>
+                <value>
+                    <description>This is a honeycomb produced by Nitro bees. These bees synthesize a very unstable compound known as FSX. They work very slow, though, and they'll need a stockpile with a little bit of Chemfuel nearby to start refining its compounds. Honeycombs can be procesed in a Honey Extractor to get white honey, heavy beeswax and FSX.</description>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[@Name="RB_SyntheticBeeBase"]/comps/li/weirdplantneeded</xpath>
+                <value>
+                    <weirdplantneeded>Titanium</weirdplantneeded>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="RB_SyntheticBeeBase"]/description</xpath>
+                <value>
+                    <description>Synthetic bees catch minute fibres from the air surrounding them and weave them with a natural silk to create synthread, which they spun in their combs, ready to be harvested. They will need some titanium nearby, though!\n\nBee Traits:\n\nProduction time: 24 hours\nNocturnal: No\nPluviophile: No\nUnusual plants or resource needed: Titanium\nMinimum Temperature: 0ºC\nMaximum temperature: 30ºC</description>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[@Name="RB_HyperBeeBase"]/comps/li/weirdplantneeded</xpath>
+                <value>
+                    <weirdplantneeded>Titanium</weirdplantneeded>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="RB_HyperBeeBase"]/description</xpath>
+                <value>
+                    <description>Hyper bees catch minute fibres from the air surrounding them and weave them with a natural silk to create hyperthread, which they spun in their combs, ready to be harvested. They will need some titanium nearby, though!\n\nBee Traits:\n\nProduction time: 24 hours\nNocturnal: No\nPluviophile: No\nUnusual plants or resource needed: Titanium\nMinimum Temperature: 0ºC\nMaximum temperature: 30ºC</description>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

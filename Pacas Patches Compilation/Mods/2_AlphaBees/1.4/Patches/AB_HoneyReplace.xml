@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[defName="MakeMetalCannedMeat_prime"]/fixedIngredientFilter/disallowedThingDefs/li[text()="Honey"]</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="MeltSugar"]/ingredients/li/filter</xpath>
+                <value>
+                    <filter>
+                        <thingDefs>
+                            <li>InsectJelly</li>
+                        </thingDefs>
+                        <categories>
+                            <li>RB_Honeys</li>
+                        </categories>
+                    </filter>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="MeltSugar"]/fixedIngredientFilter</xpath>
+                <value>
+                    <fixedIngredientFilter>
+                        <thingDefs>
+                            <li>InsectJelly</li>
+                        </thingDefs>
+                        <categories>
+                            <li>RB_Honeys</li>
+                        </categories>
+                        <specialFiltersToDisallow>
+                            <li>AllowRotten</li>
+                        </specialFiltersToDisallow>
+                    </fixedIngredientFilter>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[
+                defName="MakeMetalCannedMeat_prime"
+                ]/fixedIngredientFilter                </xpath>
+                <value>
+                    <disallowedCategories>
+                        <li>RB_Honeys</li>
+                    </disallowedCategories>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>HSK more content</li>
+                </mods>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="HMC_Iguf_Armour"]/costList/Honey</xpath>
+                            <value>
+                                <RB_BaseHoney>25</RB_BaseHoney>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="HMC_Iguf_Helmet"]/costList/Honey</xpath>
+                            <value>
+                                <RB_BaseHoney>5</RB_BaseHoney>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="HMC_Iguf_Bascinet"]/costList/Honey</xpath>
+                            <value>
+                                <RB_BaseHoney>15</RB_BaseHoney>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/PawnKindDef[@Name="HMCIgufBase"]/invFoodDef</xpath>
+                            <value>
+                                <invFoodDef>RB_BaseHoney</invFoodDef>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="IgufFirmware"]/costList/Honey</xpath>
+                            <value>
+                                <RB_BaseHoney>15</RB_BaseHoney>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="InstallIgufFirmware"]/ingredients</xpath>
+                            <value>
+                                <ingredients>
+                                    <li>
+                                        <filter>
+                                            <thingDefs>
+                                                <li>MedicineUltratech</li>
+                                            </thingDefs>
+                                        </filter>
+                                        <count>2</count>
+                                    </li>
+                                    <li>
+                                        <filter>
+                                            <thingDefs>
+                                                <li>IgufFirmware</li>
+                                            </thingDefs>
+                                        </filter>
+                                        <count>1</count>
+                                    </li>
+                                </ingredients>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="InstallIgufFirmware"]/fixedIngredientFilter/thingDefs</xpath>
+                            <value>
+                                <thingDefs>
+                                    <li>MedicineUltratech</li>
+                                    <li>IgufFirmware</li>
+                                </thingDefs>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RemoveIgufFirmware"]/ingredients</xpath>
+                            <value>
+                                <ingredients>
+                                    <li>
+                                        <filter>
+                                            <thingDefs>
+                                                <li>MedicineUltratech</li>
+                                            </thingDefs>
+                                        </filter>
+                                        <count>1</count>
+                                    </li>
+                                </ingredients>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RemoveIgufFirmware"]/fixedIngredientFilter/thingDefs</xpath>
+                            <value>
+                                <thingDefs>
+                                    <li>MedicineUltratech</li>
+                                </thingDefs>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingSetMakerDef[defName="IgufRaidLootMaker"]/root/fixedParams/filter/thingDefs</xpath>
+                            <value>
+                                <categories>
+                                    <li>RB_Honeys</li>
+                                </categories>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThoughtDef[defName="AteHoney"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Honey"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

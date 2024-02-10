@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Alpha Animals</li>
+                </mods>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Fungal_Honeycomb"]/description</xpath>
+                            <value>
+                                <description>This is a honeycomb produced by Fungal bees, sentient mycoid creatures adapted to life in jungle infested planets on the Rim. Their whole body is covered in apparently decomposing plant matter. They grow raw fungus mushrooms inside their honeycombs. Honeycombs can be procesed in a Honey Extractor to get adaptive honey, beeswax and raw fungus mushrooms.</description>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Fungal_Honeycomb"]/butcherProducts/AA_AgariluxRawFungus</xpath>
+                            <value>
+                                <RawFungus>25</RawFungus>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RB_CentrifugeFungalCombBulk"]/products/AA_AgariluxRawFungus</xpath>
+                            <value>
+                                <RawFungus>250</RawFungus>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Forsaken_Honeycomb"]/butcherProducts/Leather_Night</xpath>
+                            <value>
+                                <Leather_Nightling>5</Leather_Nightling>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RB_CentrifugeForsakenCombBulk"]/products/Leather_Night</xpath>
+                            <value>
+                                <Leather_Nightling>50</Leather_Nightling>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Ocular_Honeycomb"]/butcherProducts/GU_RedWood</xpath>
+                            <value>
+                                <RedWoodLog>5</RedWoodLog>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RB_CentrifugeOcularCombBulk"]/products/GU_RedWood</xpath>
+                            <value>
+                                <RedWoodLog>50</RedWoodLog>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Sky_Honeycomb"]/butcherProducts/AA_SkySteel</xpath>
+                            <value>
+                                <AA_SkySteel_Ore>12</AA_SkySteel_Ore>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/RecipeDef[defName="RB_CentrifugeSkyCombBulk"]/products/AA_SkySteel</xpath>
+                            <value>
+                                <AA_SkySteel_Ore>120</AA_SkySteel_Ore>
+                            </value>
+                        </li>
+                        
+                    </operations>
+                </match>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>A RimWorld of Magic</li>
+                </mods>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="RB_Wizard_Honeycomb"]/butcherProducts/RawMagicyte</xpath>
+                            <value>
+                                <RawMagicyte>15</RawMagicyte>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs</xpath>
+                            <value>
+                                <RecipeDef ParentName="RB_CentrifugeBasicResearch">
+                                    <defName>RB_CentrifugeBasicWizardComb</defName>
+                                    <label>extract from wizard comb</label>
+                                    <description>Centrifuges a wizard comb to extract psychotropic honey, beeswax and raw magicyte.</description>
+                                    <jobString>Extracting psychotropic honey, beeswax and raw magicyte</jobString>
+                                    <effectWorking>Cremate</effectWorking>
+                                    <soundWorking>Recipe_Cremate</soundWorking>
+                                    <workAmount>1250</workAmount>
+                                    <recipeUsers>
+                                        <li>RB_Beekeeping_Workbench_Building</li>
+                                    </recipeUsers>
+                                    <ingredients>
+                                        <li>
+                                            <filter>
+                                                <thingDefs>
+                                                    <li>RB_Wizard_Honeycomb</li>
+                                                </thingDefs>
+                                            </filter>
+                                            <count>1</count>
+                                        </li>
+                                    </ingredients>
+                                    <fixedIngredientFilter>
+                                        <thingDefs>
+                                            <li>RB_Wizard_Honeycomb</li>
+                                        </thingDefs>
+                                    </fixedIngredientFilter>
+                                    <specialProducts>
+                                        <li>Butchery</li>
+                                    </specialProducts>
+                                    <skillRequirements>
+                                        <Crafting>12</Crafting>
+                                    </skillRequirements>
+                                </RecipeDef>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

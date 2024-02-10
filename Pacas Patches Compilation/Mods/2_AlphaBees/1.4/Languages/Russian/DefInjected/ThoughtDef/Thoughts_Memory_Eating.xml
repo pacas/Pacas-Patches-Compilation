@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Basic quality thoughts -->
+
+  <RB_AtePsychotropicHoney.stages.0.label>ел психотропный мед</RB_AtePsychotropicHoney.stages.0.label>
+  <RB_AtePsychotropicHoney.stages.0.description>В этом мёде что-то было... это прекрасно.</RB_AtePsychotropicHoney.stages.0.description>
+
+  <RB_AtePsychotropicHoneyIngredient.stages.0.label>ел психотропный мед</RB_AtePsychotropicHoneyIngredient.stages.0.label>
+  <RB_AtePsychotropicHoneyIngredient.stages.0.description>Мед, который был сделан с чем-то, что-то в этом есть... это прекрасно.</RB_AtePsychotropicHoneyIngredient.stages.0.description>
+
+  <RB_AteTastyHoneyIngredient.stages.0.label>съел восхитительный мед</RB_AteTastyHoneyIngredient.stages.0.label>
+  <RB_AteTastyHoneyIngredient.stages.0.description>Мед, что  добыли, невероятно вкусный.</RB_AteTastyHoneyIngredient.stages.0.description>
+
+
+</LanguageData>

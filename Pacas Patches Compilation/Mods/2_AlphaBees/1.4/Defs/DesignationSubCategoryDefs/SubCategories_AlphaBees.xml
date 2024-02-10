@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_AB_WaxFloor</defName>
+		<label>Wax floors</label>
+		<description>Lacquered wax floors. Not very resistant.</description>
+		<defNames>
+			<li>RB_BeesWaxFloor</li>
+			<li>RB_BrittleBeesWaxFloor</li>
+			<li>RB_RedBeeswaxFloor</li>
+			<li>RB_WhiteBeeswaxFloor</li>
+			<li>RB_BlackBeeswaxFloor</li>
+			<li>RB_HeavywaxFloor</li>
+			<li>RB_BlueBeeswaxFloor</li>
+			<li>RB_SteelwaxFloor</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+    
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_AB_WaxTileFloor</defName>
+		<label>Tiled wax floors</label>
+		<description>Tiled wax floors. Not very resistant. Prettier than the basic wax floors.</description>
+		<defNames>
+			<li>RB_BeesWaxTileFloor</li>
+			<li>RB_BrittleBeesWaxTileFloor</li>
+			<li>RB_RedBeeswaxTileFloor</li>
+			<li>RB_WhiteBeeswaxTileFloor</li>
+			<li>RB_BlackBeeswaxTileFloor</li>
+			<li>RB_HeavywaxTileFloor</li>
+			<li>RB_BlueBeeswaxTileFloor</li>
+			<li>RB_SteelwaxTileFloor</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	
+</Defs>	

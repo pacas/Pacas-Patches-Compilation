@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_CookHoneyMealSimple.label>приготовить простое медовое блюдо</RB_CookHoneyMealSimple.label>
+  <RB_CookHoneyMealSimple.description>Готовьте простую медовую еду из одного составляющего.</RB_CookHoneyMealSimple.description>
+  <RB_CookHoneyMealSimple.jobString>Готовка простой медовой еды.</RB_CookHoneyMealSimple.jobString>
+
+  <RB_CookHoneyMealSimpleBulk.label>приготовить 4 простых медовых блюда</RB_CookHoneyMealSimpleBulk.label>
+  <RB_CookHoneyMealSimpleBulk.description>Сварите 4 простых медовых блюда из одной составляющей. Правда, при этом будет немного отходов из состава.</RB_CookHoneyMealSimpleBulk.description>
+  <RB_CookHoneyMealSimpleBulk.jobString>Готовка 4-х простых медовых блюд.</RB_CookHoneyMealSimpleBulk.jobString>
+
+  <RB_CookHoneyMealFine.label>приготовить вкусное медовое блюдо</RB_CookHoneyMealFine.label>
+  <RB_CookHoneyMealFine.description>Приготовьте многосоставную еду из смеси меда и растительных частей.</RB_CookHoneyMealFine.description>
+  <RB_CookHoneyMealFine.jobString>Готовка вкусной медовой еды.</RB_CookHoneyMealFine.jobString>
+
+  <RB_CookHoneyMealFineBulk.label>приготовить 4 вкусных медовых блюда</RB_CookHoneyMealFineBulk.label>
+  <RB_CookHoneyMealFineBulk.description>Готовка нескольких (4) сложных блюд из смеси меда и растительных частей. Однако, будет небольшой перерасход составляющих.</RB_CookHoneyMealFineBulk.description>
+  <RB_CookHoneyMealFineBulk.jobString>Готовка 4-х вкусных медовых блюд.</RB_CookHoneyMealFineBulk.jobString>
+
+  <RB_CookHoneyMealLavish.label>приготовить шикарное медовое блюдо</RB_CookHoneyMealLavish.label>
+  <RB_CookHoneyMealLavish.description>Приготовьте очень сложную еду из смеси меда и растительных частей. Большая часть составляющих теряется.</RB_CookHoneyMealLavish.description>
+  <RB_CookHoneyMealLavish.jobString>Приготовление шикарной медовой еды.</RB_CookHoneyMealLavish.jobString>
+
+  <RB_CookHoneyMealLavishBulk.label>приготовить 4 шикарных медовых блюда</RB_CookHoneyMealLavishBulk.label>
+  <RB_CookHoneyMealLavishBulk.description>Готовка нескольких (4) сложных блюд из смеси меда и растительных частей. Большая часть составляющих теряется.</RB_CookHoneyMealLavishBulk.description>
+  <RB_CookHoneyMealLavishBulk.jobString>Готовка 4-х шикарных медовых блюд.</RB_CookHoneyMealLavishBulk.jobString>
+
+
+</LanguageData>

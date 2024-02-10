@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_Beekeeping_Workbench_Building"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                        <li>Woody</li>
+                    </stuffCategories>
+                    <costStuffCount>80</costStuffCount>
+                    <costList>
+                        <Mechanism>1</Mechanism>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_BeeResearchTable"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>Metallic</li>
+                        <li>Woody</li>
+                    </stuffCategories>
+                    <costStuffCount>130</costStuffCount>
+                    <costList>
+                        <Mechanism>2</Mechanism>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_Honey_Centrifuge"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>160</costStuffCount>
+                    <costList>
+                        <Mechanism>5</Mechanism>
+                        <ComponentMedieval>10</ComponentMedieval>
+                        <ElectronicComponents>2</ElectronicComponents>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_Advanced_Honey_Centrifuge"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>250</costStuffCount>
+                    <costList>
+                        <AdvMechanism>2</AdvMechanism>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <Electronics>2</Electronics>
+                        <Plastic>40</Plastic>
+                        <RB_ComponentBioInterface>10</RB_ComponentBioInterface>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_Advanced_Honey_Centrifuge"]/researchPrerequisites</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <researchPrerequisites>
+                        <li>RB_AdvancedCentrifugation</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[defName="RB_Beehouse"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_ClimatizedBeehouse"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <costList>
+                        <Wire>5</Wire>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ElectronicComponents>3</ElectronicComponents>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RB_ClimatizedBeehouse"]/comps</xpath>
+                <value>
+                    <li Class="CompProperties_Power">
+                        <compClass>CompPowerTrader</compClass>
+                        <shortCircuitInRain>false</shortCircuitInRain>
+                        <basePowerConsumption>150</basePowerConsumption>
+                    </li>
+                    <li Class="CompProperties_Flickable"/>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_AdvancedBeehouse"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>Woody</li>
+                        <li>Metallic</li>
+                    </stuffCategories>
+                    <costStuffCount>100</costStuffCount>
+                    <costList>
+                        <RB_ComponentBioInterface>4</RB_ComponentBioInterface>
+                        <ComponentAdvanced>10</ComponentAdvanced>
+                        <AdvMechanism>3</AdvMechanism>
+                        <Electronics>1</Electronics>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_AdvancedClimatizedBeehouse"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>Woody</li>
+                        <li>Metallic</li>
+                    </stuffCategories>
+                    <costStuffCount>100</costStuffCount>
+                    <costList>
+                        <Wire>16</Wire>
+                        <RB_ComponentBioInterface>4</RB_ComponentBioInterface>
+                        <ComponentAdvanced>10</ComponentAdvanced>
+                        <AdvMechanism>7</AdvMechanism>
+                        <Electronics>2</Electronics>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_AdvancedClimatizedBeehouse"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>300</basePowerConsumption>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_SpacerBeehouse"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>100</costStuffCount>
+                    <costList>
+                        <ComponentSpacer>4</ComponentSpacer>
+                        <RB_ComponentBioInterface>10</RB_ComponentBioInterface>
+                        <AdvMechanism>8</AdvMechanism>
+                        <ComponentAdvanced>12</ComponentAdvanced>
+                        <Electronics>2</Electronics>
+                        <Wire>16</Wire>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_SpacerBeehouse"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>450</basePowerConsumption>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_BroodChamber"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_HybridizationChamber"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>Metallic</li>
+                    </stuffCategories>
+                    <costList>
+                        <Mechanism>3</Mechanism>
+                        <ElectronicComponents>5</ElectronicComponents>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <RB_Beeswax>15</RB_Beeswax>
+                        <LeadBar>5</LeadBar>
+                        <DepletedUranium>5</DepletedUranium>
+                    </costList>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsProduction</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RB_HybridizationChamber"]/comps</xpath>
+                <value>
+                    <li Class="CompProperties_Power">
+                        <compClass>CompPowerTrader</compClass>
+                        <shortCircuitInRain>false</shortCircuitInRain>
+                        <basePowerConsumption>300</basePowerConsumption>
+                    </li>
+                    <li Class="CompProperties_Flickable"/>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_WaxCandle"]</xpath>
+                <value>
+                    <costList>
+                        <ComponentMedieval>1</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_BroodChamber"]</xpath>
+                <safetyDepth>0</safetyDepth>
+                <value>
+                    <stuffCategories>
+                        <li>Woody</li>
+                    </stuffCategories>
+                    <costStuffCount>60</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ThingDef[
+                    defName="RB_AdvancedBeehouse" or
+                    defName="RB_AdvancedClimatizedBeehouse" or
+                    defName="RB_SpacerBeehouse"
+                ]/constructEffect</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="RB_MeadFermentingBarrel"]</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Honey_Centrifuge"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>RB_BasicCentrifugation</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            
+            
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[
+                defName="RB_AdvancedBeehouse" or
+                defName="RB_ClimatizedBeehouse" or
+                defName="RB_AdvancedClimatizedBeehouse" or
+                defName="RB_SpacerBeehouse" or
+                defName="RB_Beehouse" or
+                defName="RB_BroodChamber" or
+                defName="RB_HybridizationChamber"
+                ]/statBases</xpath>
+                <value>
+                    <Mass>15</Mass>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[
+                defName="RB_Beekeeping_Workbench_Building" or
+                defName="RB_Honey_Centrifuge" or
+                defName="RB_BeeResearchTable"
+                ]/statBases</xpath>
+                <value>
+                    <Mass>50</Mass>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

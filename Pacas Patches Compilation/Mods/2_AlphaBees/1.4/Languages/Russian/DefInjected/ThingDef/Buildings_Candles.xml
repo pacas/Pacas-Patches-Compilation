@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_WaxCandle.label>свеча</RB_WaxCandle.label>
+  <RB_WaxCandle.description>Простая свеча.</RB_WaxCandle.description>
+  <RB_WaxCandle_Blueprint.label>свеча (проект)</RB_WaxCandle_Blueprint.label>
+  <RB_WaxCandle_Blueprint_Install.label>свеча (проект)</RB_WaxCandle_Blueprint_Install.label>
+  <RB_WaxCandle_Frame.label>свеча (строение)</RB_WaxCandle_Frame.label>
+  <RB_WaxCandle_Frame.description>Простая свеча.</RB_WaxCandle_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Extracting Bees -->
+
+    <RB_UseBeeResearch.reportString>проводит исследование пчел</RB_UseBeeResearch.reportString>
+    <RB_InsertingBees.reportString>заселяет пчел</RB_InsertingBees.reportString>
+    <RB_InsertingQueenBees.reportString>заселяет пчелиной матки</RB_InsertingQueenBees.reportString>
+    <RB_TakeThingsOutOfBeehouseJob.reportString>достает продукты из улья</RB_TakeThingsOutOfBeehouseJob.reportString>
+    <RB_TakeThingsOutOfBroodChamberJob.reportString>извлекает пчел из камера для расплода</RB_TakeThingsOutOfBroodChamberJob.reportString>
+    <RB_TakeThingsOutOfHybridizationChamberJob.reportString>извлекает пчел из камеры скрещивания</RB_TakeThingsOutOfHybridizationChamberJob.reportString>
+    <RB_FillMeadFermentingBarrelJob.reportString>заполняет TargetA.</RB_FillMeadFermentingBarrelJob.reportString>
+
+
+</LanguageData>

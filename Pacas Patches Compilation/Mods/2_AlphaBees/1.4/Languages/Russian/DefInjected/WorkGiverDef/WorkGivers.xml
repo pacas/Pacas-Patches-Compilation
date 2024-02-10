@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <RB_InsertDroneInBeehouse.label>вставка трутня в</RB_InsertDroneInBeehouse.label>
+    <RB_InsertDroneInBeehouse.verb>вставить трутня в</RB_InsertDroneInBeehouse.verb>
+    <RB_InsertDroneInBeehouse.gerund>вставка трутня в</RB_InsertDroneInBeehouse.gerund>
+
+    <RB_InsertQueenInBeehouse.label>вставка матки в</RB_InsertQueenInBeehouse.label>
+    <RB_InsertQueenInBeehouse.verb>вставить матку в</RB_InsertQueenInBeehouse.verb>
+    <RB_InsertQueenInBeehouse.gerund>вставка матки в</RB_InsertQueenInBeehouse.gerund>
+
+    <RB_InsertDroneInAdvancedBeehouse.label>вставка трутня в</RB_InsertDroneInAdvancedBeehouse.label>
+    <RB_InsertDroneInAdvancedBeehouse.verb>вставить трутня в</RB_InsertDroneInAdvancedBeehouse.verb>
+    <RB_InsertDroneInAdvancedBeehouse.gerund>вставка трутня в</RB_InsertDroneInAdvancedBeehouse.gerund>
+
+    <RB_InsertQueenInAdvancedBeehouse.label>вставка матки в</RB_InsertQueenInAdvancedBeehouse.label>
+    <RB_InsertQueenInAdvancedBeehouse.verb>вставить матку в</RB_InsertQueenInAdvancedBeehouse.verb>
+    <RB_InsertQueenInAdvancedBeehouse.gerund>вставка матки в</RB_InsertQueenInAdvancedBeehouse.gerund>
+
+    <RB_InsertDroneInClimatizedBeehouse.label>вставка трутня в</RB_InsertDroneInClimatizedBeehouse.label>
+    <RB_InsertDroneInClimatizedBeehouse.verb>вставить трутня в</RB_InsertDroneInClimatizedBeehouse.verb>
+    <RB_InsertDroneInClimatizedBeehouse.gerund>вставка трутня в</RB_InsertDroneInClimatizedBeehouse.gerund>
+
+    <RB_InsertQueenInClimatizedBeehouse.label>вставка матки в</RB_InsertQueenInClimatizedBeehouse.label>
+    <RB_InsertQueenInClimatizedBeehouse.verb>вставить матку в</RB_InsertQueenInClimatizedBeehouse.verb>
+    <RB_InsertQueenInClimatizedBeehouse.gerund>вставка матки в</RB_InsertQueenInClimatizedBeehouse.gerund>
+
+    <RB_InsertDroneInAdvancedClimatizedBeehouse.label>вставка трутня в</RB_InsertDroneInAdvancedClimatizedBeehouse.label>
+    <RB_InsertDroneInAdvancedClimatizedBeehouse.verb>вставить трутня в</RB_InsertDroneInAdvancedClimatizedBeehouse.verb>
+    <RB_InsertDroneInAdvancedClimatizedBeehouse.gerund>вставка трутня в</RB_InsertDroneInAdvancedClimatizedBeehouse.gerund>
+
+    <RB_InsertQueenInAdvancedClimatizedBeehouse.label>вставка матки в</RB_InsertQueenInAdvancedClimatizedBeehouse.label>
+    <RB_InsertQueenInAdvancedClimatizedBeehouse.verb>вставить матку в</RB_InsertQueenInAdvancedClimatizedBeehouse.verb>
+    <RB_InsertQueenInAdvancedClimatizedBeehouse.gerund>вставка матки в</RB_InsertQueenInAdvancedClimatizedBeehouse.gerund>
+
+    <RB_DoBillsHoneyCentrifuge.label>работать на медовой центрифуге</RB_DoBillsHoneyCentrifuge.label>
+    <RB_DoBillsHoneyCentrifuge.verb>извлечение меда и воска</RB_DoBillsHoneyCentrifuge.verb>
+    <RB_DoBillsHoneyCentrifuge.gerund>извлечение меда и воска на</RB_DoBillsHoneyCentrifuge.gerund>
+
+    <RB_DoBillsBeeResearchTable.label>работать за столом исследования пчел</RB_DoBillsBeeResearchTable.label>
+    <RB_DoBillsBeeResearchTable.verb>работа за столом исследования пчел</RB_DoBillsBeeResearchTable.verb>
+    <RB_DoBillsBeeResearchTable.gerund>работает за столом исследования пчел</RB_DoBillsBeeResearchTable.gerund>
+
+    <RB_DoBillsAdvancedHoneyCentrifuge.label>работать на продвинутой медовой центрифуге</RB_DoBillsAdvancedHoneyCentrifuge.label>
+    <RB_DoBillsAdvancedHoneyCentrifuge.verb>многообъемная добыча меда и воска</RB_DoBillsAdvancedHoneyCentrifuge.verb>
+    <RB_DoBillsAdvancedHoneyCentrifuge.gerund>многообъемная добыча меда и воска на</RB_DoBillsAdvancedHoneyCentrifuge.gerund>
+
+    <RB_DoBillsBeekeepingWorkbench.label>работает на пчеловодческом верстаке</RB_DoBillsBeekeepingWorkbench.label>
+    <RB_DoBillsBeekeepingWorkbench.verb>работает</RB_DoBillsBeekeepingWorkbench.verb>
+    <RB_DoBillsBeekeepingWorkbench.gerund>работает на</RB_DoBillsBeekeepingWorkbench.gerund>
+
+    <RB_TakeThingsOutOfBeehouse.label>извлечь ресурсы из</RB_TakeThingsOutOfBeehouse.label>
+    <RB_TakeThingsOutOfBeehouse.verb>извлечь ресурсы из</RB_TakeThingsOutOfBeehouse.verb>
+    <RB_TakeThingsOutOfBeehouse.gerund>извлечение ресурсов из</RB_TakeThingsOutOfBeehouse.gerund>
+
+    <RB_TakeThingsOutOfAdvancedBeehouse.label>извлечь ресурсы из</RB_TakeThingsOutOfAdvancedBeehouse.label>
+    <RB_TakeThingsOutOfAdvancedBeehouse.verb>извлечь ресурсы из</RB_TakeThingsOutOfAdvancedBeehouse.verb>
+    <RB_TakeThingsOutOfAdvancedBeehouse.gerund>извлечение ресурсов из</RB_TakeThingsOutOfAdvancedBeehouse.gerund>
+
+    <RB_TakeThingsOutOfClimatizedBeehouse.label>извлечь ресурсы из</RB_TakeThingsOutOfClimatizedBeehouse.label>
+    <RB_TakeThingsOutOfClimatizedBeehouse.verb>извлечь ресурсы из</RB_TakeThingsOutOfClimatizedBeehouse.verb>
+    <RB_TakeThingsOutOfClimatizedBeehouse.gerund>извлечение ресурсов из</RB_TakeThingsOutOfClimatizedBeehouse.gerund>
+
+    <RB_TakeThingsOutOfAdvancedClimatizedBeehouse.label>извлечь ресурсы из</RB_TakeThingsOutOfAdvancedClimatizedBeehouse.label>
+    <RB_TakeThingsOutOfAdvancedClimatizedBeehouse.verb>извлечь ресурсы из</RB_TakeThingsOutOfAdvancedClimatizedBeehouse.verb>
+    <RB_TakeThingsOutOfAdvancedClimatizedBeehouse.gerund>извлечение ресурсов из</RB_TakeThingsOutOfAdvancedClimatizedBeehouse.gerund>
+
+    <RB_TakeThingsOutOfBroodChamber.label>извлечь пчел из</RB_TakeThingsOutOfBroodChamber.label>
+    <RB_TakeThingsOutOfBroodChamber.verb>извлечь пчел из</RB_TakeThingsOutOfBroodChamber.verb>
+    <RB_TakeThingsOutOfBroodChamber.gerund>извлечение пчел</RB_TakeThingsOutOfBroodChamber.gerund>
+
+    <RB_TakeThingsOutOfHybridizationChamber.label>извлечь пчел из</RB_TakeThingsOutOfHybridizationChamber.label>
+    <RB_TakeThingsOutOfHybridizationChamber.verb>извлечь пчел из</RB_TakeThingsOutOfHybridizationChamber.verb>
+    <RB_TakeThingsOutOfHybridizationChamber.gerund>извлечение пчел из</RB_TakeThingsOutOfHybridizationChamber.gerund>
+
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Trees -->
+
+  <RB_GiantAgariluxTemperate.label>гигантский агарилюкс с ульем</RB_GiantAgariluxTemperate.label>
+  <RB_GiantAgariluxTemperate.description>Колоссальный фиолетовый гриб. Его размер и светящиеся выступы делают этот гриб красивым на вид. Его стебель был закален, придавая ему твердость, подобную слабой древесине. К шляпке этого гриба, похоже, прикреплен огромный пчелиный улей умеренного климата.</RB_GiantAgariluxTemperate.description>
+
+  <RB_GiantAgariluxMild.label>гигантский агарилюкс с ульем</RB_GiantAgariluxMild.label>
+  <RB_GiantAgariluxMild.description>Колоссальный фиолетовый гриб. Его размер и светящиеся выступы делают этот гриб красивым на вид. Его стебель был закален, придавая ему твердость, подобную слабой древесине. К шляпке этого гриба, кажется, прикреплен огромный мягкий улей.</RB_GiantAgariluxMild.description>
+
+  <RB_RuinedStalk.label>разрушенный стебель</RB_RuinedStalk.label>
+  <RB_RuinedStalk.description>Удаление улья оказалось слишком разрушительным для хрупкого гриба, оставив на его месте мертвый пень.</RB_RuinedStalk.description>
+
+  <RB_Plant_Hive_Temperate.label>дуб с ульем</RB_Plant_Hive_Temperate.label>
+  <RB_Plant_Hive_Temperate.description>Дерево лиственных пород. Дубы растут очень долго, но их древесина настолько прочна, что «дуб» используется в качестве метафоры силы во многих культурах. Огромный улей спокойных, кажется, прикреплен к ветвям этого дерева.</RB_Plant_Hive_Temperate.description>
+
+  <RB_Plant_Hive_Mild.label>тополь с ульем</RB_Plant_Hive_Mild.label>
+  <RB_Plant_Hive_Mild.description>Дерево лиственных пород, растет очень быстро. К сожалению, его древесина слаба и поэтому дает меньше полезного материала, чем деревья с твердой древесиной. Улей мягких, кажется, прикреплен к ветвям этого дерева.</RB_Plant_Hive_Mild.description>
+
+  <RB_Plant_Hive_Arctic.label>сгоревшее дерево с ульем</RB_Plant_Hive_Arctic.label>
+  <RB_Plant_Hive_Arctic.description>Остов горевшего дерева с мертвыми ветвями. Это некрасиво и не дает полезной древесины. Улей мягких, кажется, прикреплен к ветвям этого дерева.</RB_Plant_Hive_Arctic.description>
+
+  <RB_Plant_Hive_Icy.label>мертвое дерево с ульем</RB_Plant_Hive_Icy.label>
+  <RB_Plant_Hive_Icy.description>Это мёртвое дерево, погибшее от чрезвычайно низких температур. Улей спокойных, кажется, прикреплен к нему.</RB_Plant_Hive_Icy.description>
+
+  <RB_Plant_Hive_Jungle.label>цекропия с ульем</RB_Plant_Hive_Jungle.label>
+  <RB_Plant_Hive_Jungle.description>Одно из самых распространенных тропических деревьев. Цекропия растет очень быстро, но дает мало пригодной для использования древесины. Улей мягких, кажется, прикреплен к ветвям этого дерева.</RB_Plant_Hive_Jungle.description>
+
+  <RB_Plant_Hive_Swamp.label>ива с ульем</RB_Plant_Hive_Swamp.label>
+  <RB_Plant_Hive_Swamp.description>Одно из самых быстрорастущих тенистых деревьев, ивы обеспечивают красивый, лиственный навес. Она дает не много полезной древесины. Улей спокойных, кажется, прикреплен к ветвям этого дерева.</RB_Plant_Hive_Swamp.description>
+
+  <RB_Plant_Hive_Desert.label>Кактус сагуаро с ульем</RB_Plant_Hive_Desert.label>
+  <RB_Plant_Hive_Desert.description>Большой кактус, обитающий в засушливой среде на Земле. Хотя это не дерево, оно дает небольшое количество волокнистого материала, который можно использовать как древесину. Улей спокойных, кажется, прикреплен к этому кактусу.</RB_Plant_Hive_Desert.description>
+
+  <RB_Plant_Hive_Arid.label>Кактус сагуаро с ульем</RB_Plant_Hive_Arid.label>
+  <RB_Plant_Hive_Arid.description>Большой кактус, обитающий в засушливой среде на Земле. Хотя это не дерево, оно дает небольшое количество волокнистого материала, который можно использовать как древесину. Улей спокойных, кажется, прикреплен к этому кактусу.</RB_Plant_Hive_Arid.description>
+
+
+</LanguageData>

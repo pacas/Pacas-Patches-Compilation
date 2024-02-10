@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_SimpleHoney"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_MealBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_FineHoney"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_MealFineBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_LavishHoney"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_MealLavishBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SweetMealBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_HoneyPreservedMeat" or defName="RB_HoneyPreservedVegetables"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_MealBaseIngredientless</value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]</xpath>
+                <value>
+                    <ingestible>
+                        <nurseable>true</nurseable>
+                        <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+                        <preferability>DesperateOnly</preferability>
+                        <joy>0.54</joy>
+                        <ingestEffect>EatVegetarian</ingestEffect>
+                        <outcomeDoers>
+                            <li Class="IngestionOutcomeDoer_GiveHediff">
+                                <hediffDef>HadIceCream</hediffDef>
+                                <severity>0.1</severity>
+                            </li>
+                        </outcomeDoers>
+                    </ingestible>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]</xpath>
+                <value>
+                    <comps>
+                        <li Class="CompProperties_Drug">
+                            <addictiveness>0</addictiveness>
+                            <listOrder>1301</listOrder>
+                        </li>
+                        <li Class="CompProperties_Rottable">
+                            <daysToRotStart>1</daysToRotStart>
+                            <rotDestroys>true</rotDestroys>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_Mead"]</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>Alcohol_Bottles</li>
+                    </thingCategories>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                <xpath>Defs/ThingDef[defName="RB_HoneyPreservedMeat" or defName="RB_HoneyPreservedVegetables"]</xpath>
+                <value>
+                    <statBases>
+                        <WorkToMake>600</WorkToMake>
+                        <Mass>0.03</Mass>
+                        <Bulk>0.06</Bulk>
+                    </statBases>
+                    <thingCategories Inherit="False">
+                        <li>Preserves</li>
+                    </thingCategories>
+                    <stackLimit>150</stackLimit>
+                    <thingSetMakerTags>
+                        <li>HSKhumanitarianSuppliesTierOne</li>
+                    </thingSetMakerTags>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ThingDef[
+                defName="RB_SimpleHoney" or
+                defName="RB_FineHoney" or
+                defName="RB_HoneyFoodProducts" or
+                defName="RB_HoneyedIcePop" or
+                defName="RB_LavishHoney"
+                ]/thingCategories</xpath>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="RB_CookHoneyMealFine" or
+                defName="RB_CookHoneyMealLavish" or
+                defName="RB_CookHoneyMealSimple"
+                ]/recipeUsers</xpath>
+                <value>
+                    <recipeUsers>
+                        <li>FueledStove</li>
+                        <li>ElectricStove</li>
+                        <li>ElectricStove_Pro</li>
+                    </recipeUsers>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="RB_PreserveMeat" or 
+                defName="RB_PreserveVegetables"
+                ]/recipeUsers</xpath>
+                <value>
+                    <recipeUsers>
+                        <li>TableGrill</li>
+                        <li>FueledStove</li>
+                        <li>ElectricStove</li>
+                        <li>ElectricStove_Pro</li>
+                    </recipeUsers>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[
+                defName="RB_CookHoneyMealSimpleBulk" or 
+                defName="RB_CookHoneyMealFineBulk" or
+                defName="RB_CookHoneyMealLavishBulk"
+                ]/recipeUsers</xpath>
+                <value>
+                    <recipeUsers>
+                        <li>ElectricStove_Pro</li>
+                    </recipeUsers>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

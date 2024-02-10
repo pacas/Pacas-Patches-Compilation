@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <RB_BasicBeekeeping.label>основы пчеловодства</RB_BasicBeekeeping.label>
+    <RB_BasicBeekeeping.description>Изучите основы пчеловодства. С этим исследованием вы можете начать опыты с самыми основными видами пчел, которые добываются из диких ульев. Чтобы получить новые виды пчел, вам нужно будет продолжить исследования.</RB_BasicBeekeeping.description>
+
+    <RB_BeeBreeding.label>разведение пчёл</RB_BeeBreeding.label>
+    <RB_BeeBreeding.description>Исследуйте разведение пчел, чтобы получить новых представителей уже существующих пород пчел. При прикреплении к улью, камера для расплода производит случайных трутней и маток одной из пород, присутствующих в улье. Это очень полезно для увеличения количества пчел!</RB_BeeBreeding.description>
+
+    <RB_BeeHybridizing.label>пчелиное скрещивание</RB_BeeHybridizing.label>
+    <RB_BeeHybridizing.description>Исследуйте пчелиное скрещивание, чтобы получить новые виды пчел. Когда камера скрещивания прикреплена к улью, то производит маток новых смешанных видов, смешивая гены присутствующих в улье. Улей предупредит вас, если сочетание пчел в нём не дает гибридов, или если он производит более одного гибрида наугад!</RB_BeeHybridizing.description>
+
+    <RB_MeadBrewing.label>производство медовухи</RB_MeadBrewing.label>
+    <RB_MeadBrewing.description>Исследуйте приготовление медовухи, чтобы мочь сбраживать смесь мёда и воды в медовуху. Медовуха - это мягкий алкогольный напиток.</RB_MeadBrewing.description>
+
+    <RB_BeeswaxLighting.label>освещение из пчелиного воска</RB_BeeswaxLighting.label>
+    <RB_BeeswaxLighting.description>Исследование создания свечей из воска. Дешевая, причудливая замена электрическому освещению. Свечи служат несколько дней без необходимости замены и добавки нового воска, они производят небольшое количество тепла, а также света.</RB_BeeswaxLighting.description>
+
+    <RB_ClimatizedBeehouses.label>изолированные ульи</RB_ClimatizedBeehouses.label>
+    <RB_ClimatizedBeehouses.description>Вы пытаетесь развести пчел в биомах с экстремальными температурами? Вы заметите, что они бездействуют большую часть года. С изолированными ульями вы можете заставить их работать независимо от температуры на улице. Это медленно, поэтому лучше всего разводить новых пчел из ветви биома, чтобы изменить температуру в обычном улье.</RB_ClimatizedBeehouses.description>
+
+    <RB_AdvancedBeehouses.label>продвинутые ульи</RB_AdvancedBeehouses.label>
+    <RB_AdvancedBeehouses.description>Усовершенствованные ульи потребляют небольшое количество электроэнергии, но обеспечивают 25% увеличения скорости производства пчел. Полезно!</RB_AdvancedBeehouses.description>
+
+    <RB_AdvancedClimatization.label>продвинутая изоляция</RB_AdvancedClimatization.label>
+    <RB_AdvancedClimatization.description>Продвинутые изолированные ульи позволяют вам разводить пчел не заботясь о внешних температурах, и не имеют штрафов обычных изолированных ульев.</RB_AdvancedClimatization.description>
+
+    <RB_SpacerBeekeeping.label>расширенное пчеловодство</RB_SpacerBeekeeping.label>
+    <RB_SpacerBeekeeping.description>Используйте лучшие компоненты для создания изолированных пчелиных ульев, которые являются чрезвычайно эффективными, обеспечивая огромный 50-процентный прирост скорости производства пчел.</RB_SpacerBeekeeping.description>
+
+    <RB_AdvancedCentrifugation.label>передовые медовые центрифуги</RB_AdvancedCentrifugation.label>
+    <RB_AdvancedCentrifugation.description>Передовая медовая центрифуга полуавтоматизирует работу по извлечению из сот их содержимого, позволяя вашим поселенцам обрабатывать их скопом. Эта машина, тем не менее, не выполняет задачи «извлечь из любых доступных сот».</RB_AdvancedCentrifugation.description>
+  
+  
+    <RB_BasicHoneyExtraction.label>базовое извлечение мёда</RB_BasicHoneyExtraction.label>
+    <RB_BasicHoneyExtraction.description>Экстракция меда представляет из себя простейший процесс для извлечения меда из сот.</RB_BasicHoneyExtraction.description>
+  
+    <RB_BasicCentrifugation.label>медовые центрифуги</RB_BasicCentrifugation.label>
+    <RB_BasicCentrifugation.description>Медовая центрифуга ускоряет и улучшает процесс извлечения из сот их содержимого, позволяя вашим колонистам добывать все дополнительные ресурсы.</RB_BasicCentrifugation.description>
+
+</LanguageData>

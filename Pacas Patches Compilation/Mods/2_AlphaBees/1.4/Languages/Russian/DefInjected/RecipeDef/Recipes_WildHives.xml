@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_ExtracTemperateHive.label>извлечение пчел из желтого улья</RB_ExtracTemperateHive.label>
+  <RB_ExtracTemperateHive.description>Осторожное извлечение пчелиной матки и сот из дикого улья.</RB_ExtracTemperateHive.description>
+  <RB_ExtracTemperateHive.jobString>Извлечение пчел</RB_ExtracTemperateHive.jobString>
+
+  <RB_ExtracMildHive.label>извлечение пчел из красного улья</RB_ExtracMildHive.label>
+  <RB_ExtracMildHive.description>Осторожное извлечение пчелиной матки и сот из дикого улья.</RB_ExtracMildHive.description>
+  <RB_ExtracMildHive.jobString>Извлечение пчел</RB_ExtracMildHive.jobString>
+
+
+</LanguageData>

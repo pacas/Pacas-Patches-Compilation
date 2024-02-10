@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DesignationCategoryDef[defName="RB_Bees"]/description</xpath>
+                <value>
+                    <description>Everything for your beekeeping needs.</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DesignationCategoryDef[defName="RB_Bees"]/order</xpath>
+                <value>
+                    <order>11</order>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/TerrainDef[@Name="RB_WaxFloorBase" or @Name="RB_WaxTiledFloorBase"]/designatorDropdown</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/DesignatorDropdownGroupDef[defName="RB_WaxFloors" or defName="RB_WaxTiledFloors"]</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[@Name="RB_TreeHiveBase"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_TreeBase</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="RB_TreeHiveBase"]/plant</xpath>
+                <value>
+                    <sowTags Inherit="False"/>
+                    <visualSizeRange>
+                        <min>1.4</min>
+                        <max>3.4</max>
+                    </visualSizeRange>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[@Name="RB_ResearchPapersBase"]/thingCategories</xpath>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[@Name="RB_ResearchPapersBase"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>120</MarketValue>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[@Name="RB_ResearchPapersBase" or defName="RB_RandomTier4Research"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>150</MarketValue>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_RandomTier5Research"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>200</MarketValue>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    @Name="RB_BeeBase" or
+                    defName="RB_Bee_Temperate_Queen" or
+                    defName="RB_Bee_Mild_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>3</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Amalgam_Queen" or
+                    defName="RB_Bee_Adaptive_Queen" or
+                    defName="RB_Bee_Nutritious_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>6</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Arctic_Queen" or
+                    defName="RB_Bee_Desert_Queen" or
+                    defName="RB_Bee_Nocturnal_Queen" or
+                    defName="RB_Bee_Tipsy_Queen" or
+                    defName="RB_Bee_Agricultural_Queen" or
+                    defName="RB_Bee_Egglaying_Queen" or
+                    defName="RB_Bee_Insectoid_Queen" or
+                    defName="RB_Bee_Lactic_Queen" or
+                    defName="RB_Bee_Oily_Queen" or
+                    defName="RB_Bee_Weaving_Queen" or
+                    defName="RB_Bee_Tanner_Queen" or
+                    defName="RB_Bee_Straw_Queen" or
+                    defName="RB_Bee_Alloy_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>12</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Alloy_Queen" or
+                    defName="RB_Bee_Argent_Queen" or
+                    defName="RB_Bee_Stoner_Queen" or
+                    defName="RB_Bee_Plastic_Queen" or
+                    defName="RB_Bee_Bittersweet_Queen" or
+                    defName="RB_Bee_Pet_Queen" or
+                    defName="RB_Bee_Culinary_Queen" or
+                    defName="RB_Bee_Medicinal_Queen" or
+                    defName="RB_Bee_Neutro_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>20</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Precious_Queen" or
+                    defName="RB_Bee_Radioactive_Queen" or
+                    defName="RB_Bee_Luxurious_Queen" or
+                    defName="RB_Bee_Psychic_Queen" or
+                    defName="RB_Bee_High_Queen" or
+                    defName="RB_Bee_Chef_Queen" or
+                    defName="RB_Bee_Aurum_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>35</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Technological_Queen" or
+                    defName="RB_Bee_Surgeon_Queen" or
+                    defName="RB_Bee_Electronic_Queen" or
+                    defName="RB_Bee_Nitro_Queen" or
+                    defName="RB_Bee_Synthetic_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>75</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[
+                    defName="RB_Bee_Hyper_Queen" or
+                    defName="RB_Bee_Fabricated_Queen" or
+                    defName="RB_Bee_Lucifer_Queen"
+                ]</xpath>
+                <value>
+                    <statBases>
+                        <MarketValue>120</MarketValue>
+                    </statBases>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

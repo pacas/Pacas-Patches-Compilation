@@ -266,14 +266,28 @@
                 <attribute>ParentName</attribute>
                 <value>HitechMultiBase</value>
             </li>
-            <li Class="XmlExtensions.ApplyPatch">
-                <patchName>Research_Positions_Cost</patchName>
-                <arguments>
-                    <li>RB_SpacerBeekeeping</li>
-                    <li>2250</li>
-                    <li>18</li>
-                    <li>70</li>
-                </arguments>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Medical IVs</li>
+                </mods>
+                <match Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost</patchName>
+                    <arguments>
+                        <li>RB_SpacerBeekeeping</li>
+                        <li>2250</li>
+                        <li>18</li>
+                        <li>69</li>
+                    </arguments>
+                </match>
+                <nomatch Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost</patchName>
+                    <arguments>
+                        <li>RB_SpacerBeekeeping</li>
+                        <li>2250</li>
+                        <li>18</li>
+                        <li>70</li>
+                    </arguments>
+                </nomatch>
             </li>
 
 

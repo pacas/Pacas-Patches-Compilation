@@ -2,19 +2,19 @@
 <LanguageData>
 
   <BenLubarsRimBeesPatches_Bees.label>Пчелы</BenLubarsRimBeesPatches_Bees.label>
-  <BenLubarsRimBeesPatches_Bees.helpText>Пчел можно получить, добывая из диких ульев на пчеловодческом верстаке, у торговцев или в камерах, которые прикрепляются к пчелиным домам. Пчелы, не защищенные пчелиными домиками, могут быть повреждены температурой или прямыми солнечными лучами.\n\nДвумя основными видами являются мягкие и умеренные, но можно создать и другие.</BenLubarsRimBeesPatches_Bees.helpText>
+  <BenLubarsRimBeesPatches_Bees.helpText>Пчел можно получить, добывая из диких ульев на пчеловодческом верстаке, у торговцев или в камерах, которые прикрепляются к пчелиным ульям. Пчелы, не защищенные пчелиными ульями, могут быть повреждены температурой или прямыми солнечными лучами.\n\nДвумя основными видами являются обычные и умеренные, но можно создать и другие.</BenLubarsRimBeesPatches_Bees.helpText>
 
   <BenLubarsRimBeesPatches_Combs.label>Медовые соты</BenLubarsRimBeesPatches_Combs.label>
-  <BenLubarsRimBeesPatches_Combs.helpText>При извлечении из сотов на центрифуге обычно получается воск и мед, а в более экзотических сотах можно найти и другие продукты. Если трутни и матки в пчелином доме разных видов, то соты матки создаются в 3 раза чаще, чем соты трутней.</BenLubarsRimBeesPatches_Combs.helpText>
+  <BenLubarsRimBeesPatches_Combs.helpText>При извлечении из сотов на центрифуге обычно получается воск и мед, а в более экзотических сотах можно найти и другие продукты. Если трутни и матки в пчелином улье разных видов, то соты матки создаются в 3 раза чаще, чем соты трутней.</BenLubarsRimBeesPatches_Combs.helpText>
 
-  <BenLubarsRimBeesPatches_BeeHouse.label>Пчелиные домики</BenLubarsRimBeesPatches_BeeHouse.label>
-  <BenLubarsRimBeesPatches_BeeHouse.helpText>Пчелиные домики можно размещать в помещении или на открытом воздухе, для их работы требуются королева и трутень. Пчелы в пчелином доме со временем создают соты, которые автоматически удаляются пчеловодами.\n\nВо время работы пчелиного дома растения, собранные в 6 ячейках, имеют шанс сразу же частично прорасти.</BenLubarsRimBeesPatches_BeeHouse.helpText>
+  <BenLubarsRimBeesPatches_BeeHouse.label>Пчелиные ульи</BenLubarsRimBeesPatches_BeeHouse.label>
+  <BenLubarsRimBeesPatches_BeeHouse.helpText>Пчелиные ульи можно размещать в помещении или на открытом воздухе, для их работы требуются королева и трутень. Пчелы в пчелином улье со временем создаются соты, которые автоматически забираются пчеловодами.\n\nВо время работы пчелиного улья растенияы в 6 ячейках вокруг, имеют шанс мгновенно частично прорасти.</BenLubarsRimBeesPatches_BeeHouse.helpText>
 
   <BenLubarsRimBeesPatches_BroodChamber.label>Расплодная камера пчел</BenLubarsRimBeesPatches_BroodChamber.label>
-  <BenLubarsRimBeesPatches_BroodChamber.helpText>В расплодной камере создаются пчелы того же вида, что и пчелы в пристроенном улье. Трутни создаются примерно в пять раз чаще, чем королевы.\n\nРасплодная камера работает только тогда, когда активен пчелиный домик.</BenLubarsRimBeesPatches_BroodChamber.helpText>
+  <BenLubarsRimBeesPatches_BroodChamber.helpText>В расплодной камере создаются пчелы того же вида, что и пчелы в пристроенном улье. Трутни создаются примерно в пять раз чаще, чем королевы.\n\nРасплодная камера работает только тогда, когда активен пчелиный улей.</BenLubarsRimBeesPatches_BroodChamber.helpText>
 
   <BenLubarsRimBeesPatches_Hybridization.label>Гибридизация пчел</BenLubarsRimBeesPatches_Hybridization.label>
-  <BenLubarsRimBeesPatches_Hybridization.helpText>Гибридизационная камера случайным образом создает новых королев, основываясь на видах пчел в пристроенном пчелином домике. Замена королевы и трутня дает те же результаты.\n\nКамера гибридизации работает только при активном пчелином домике. Для начала попробуйте смешать пчел с мягким и умеренным климатом, чтобы создать гибридную пчелу.</BenLubarsRimBeesPatches_Hybridization.helpText>
+  <BenLubarsRimBeesPatches_Hybridization.helpText>Гибридизационная камера случайным образом создает новых королев, основываясь на видах пчел в пристроенном пчелином улье. Замена королевы и трутня дает те же результаты.\n\nКамера гибридизации работает только при активном пчелином улье. Для начала попробуйте смешать пчел с мягким и умеренным климатом, чтобы создать гибридную пчелу.</BenLubarsRimBeesPatches_Hybridization.helpText>
 
   <BenLubarsRimBeesPatches_Research.label>Таблица исследований пчел</BenLubarsRimBeesPatches_Research.label>
   <BenLubarsRimBeesPatches_Research.helpText>Таблица исследования пчел может быть использована для обнаружения гибридов пчел 4 и 5 уровня, а также гибридных видов пчел, относящихся к модам.\n\nИспользуется также для просмотра записей о попытках гибридизации пчел.</BenLubarsRimBeesPatches_Research.helpText>

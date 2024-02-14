@@ -275,8 +275,8 @@
                     <arguments>
                         <li>RB_SpacerBeekeeping</li>
                         <li>2250</li>
-                        <li>18</li>
-                        <li>69</li>
+                        <li>17</li>
+                        <li>70</li>
                     </arguments>
                 </match>
                 <nomatch Class="XmlExtensions.ApplyPatch">

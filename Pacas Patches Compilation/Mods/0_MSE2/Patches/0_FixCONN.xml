@@ -12,6 +12,9 @@
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[@Name="BaseHumanlikePawn" and @ParentName="SK_BasePawn"]/recipes/li[text()="ANN_InstallPowerArms"]</xpath>
                 </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[@ParentName="CombatAdvancedBionicsBase"][defName="ANN_PowerArms"]</xpath>
+                </li>
                 
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[
@@ -27,10 +30,37 @@
                     defName="CONN_InstallOuterBlade"
                     ]</xpath>
                 </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                    defName="ANN_HoverFeet" or
+                    defName="ANN_EnergyFist" or
+                    defName="ANN_OuterBlade"
+                    ]</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>MSE2Modules</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[
+                    defName="ANN_InstallHoverFeet" or
+                    defName="ANN_InstallEnergyFist" or
+                    defName="ANN_InstallOuterBlade"
+                    ]</xpath>
+                    <value>
+                        <workerClass>MSE2.Recipe_InstallModule</workerClass>
+                        <modExtensions>
+                            <li Class="MSE2.AutoRecipeUsers">
+                                <bodySizeRange>0~4</bodySizeRange>
+                            </li>
+                        </modExtensions>
+                    </value>
+                </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/HediffDef[defName="CONN_hediff_HoverFeet"]</xpath>
                     <value>
-                        <HediffDef ParentName="AddedBodyPartBase">
+                        <HediffDef ParentName="MSE_ModuleAddedBionic">
                             <defName>CONN_hediff_HoverFeet</defName>
                             <label>hover foot</label>
                             <description>A self-sustaining hover board mounted on a rail adapter transplantation directly linked to the bones inside the foot. Young street gangs used this once upon a time to escape after committing crimes on Urbworlds. It enhances movement speed by gliding.</description>
@@ -51,7 +81,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/HediffDef[defName="CONN_hediff_EnergyFist"]</xpath>
                     <value>
-                        <HediffDef ParentName="AddedBodyPartBase">
+                        <HediffDef ParentName="MSE_ModuleAddedBionic">
                             <defName>CONN_hediff_EnergyFist</defName>
                             <label>energy fist</label>
                             <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. The pump allows for quick, controlled punches. The mechanical trigger lets you have control about its sheer power with its powerful speed boosts bounded on neural connectors and energized by an ultratech micro-battery.</description>
@@ -89,7 +119,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/HediffDef[defName="CONN_hediff_OuterBlade"]</xpath>
                     <value>
-                        <HediffDef ParentName="AddedBodyPartBase">
+                        <HediffDef ParentName="MSE_ModuleAddedBionic">
                             <defName>CONN_hediff_OuterBlade</defName>
                             <label>outer blade</label>
                             <description>A combat-oriented forearm transformation consisting of a mechanical implementation with a telescopic blade behind the ulna. It is deadly in combat, and its plasteel breakout weapon can pierce through nearly anything due to the hydraulic forces applied. The blade can be retracted and is easy to hide.</description>

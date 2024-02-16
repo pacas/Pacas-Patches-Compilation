@@ -33,26 +33,25 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | :white_check_mark: | --- | :radio_button: |
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | :white_check_mark: | --- | --- |
 | - | [Birds Beyond](https://steamcommunity.com/sharedfiles/filedetails/?id=2889889049) | :white_check_mark: | --- | :radio_button: |
-| :star: | [Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898) | :white_check_mark: | --- | --- |
+| - | [Dominant Gene](https://steamcommunity.com/sharedfiles/filedetails/?id=2884110898) | :white_check_mark: | --- | --- |
 | - | [Door Lockdown](https://steamcommunity.com/sharedfiles/filedetails/?id=2851091782) | :white_check_mark: | --- | :radio_button: |
 | - | [Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2952773198) | :white_check_mark: | --- | :radio_button: |
 | - | [EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490) | :white_check_mark: | --- | :radio_button: |
 | - | [Hemogen Extractor](https://steamcommunity.com/sharedfiles/filedetails/?id=2903919607) | :white_check_mark: | --- | --- |
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |
-| - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :x: | Ignore 2 duplicated errors | :radio_button: |
-| - | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | :white_check_mark: | --- | :radio_button: |
+| - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | :white_check_mark:  | Ignore 2 errors | :radio_button: |
+| :star: | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | :white_check_mark: | --- | :radio_button: |
 | - | [More Persona Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2863308112) | :white_check_mark: | --- | --- |
-| - | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | :radio_button: |
+| :star: | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | :white_check_mark: | --- | :radio_button: |
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | :white_check_mark: | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | :white_check_mark: | --- | :radio_button: |
-| - | [RimNudeWorld](https://discord.com/channels/374305025486225409/374778646432448530) | :x: | 1.3 only for now | --- |
 | - | [RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530) | :white_check_mark: | Mods are compatible, only additional compatibility | --- |
 | - | [Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783) | :white_check_mark: | --- | --- |
 | :star: | [Simple Slavery Collars](https://steamcommunity.com/sharedfiles/filedetails/?id=2557274194) | :white_check_mark: | --- | --- |
 | - | [Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016) | :white_check_mark: | Get the mod in addons, this is addon for the mod | --- | 
-| - | [Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182) | :grey_question: | --- | --- |
-| :star: | [Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720) | :white_check_mark: | --- | --- |
+| - | [Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182) | :white_check_mark: | --- | --- |
+| - | [Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720) | :white_check_mark: | --- | --- |
 | - | [Vanilla Races Expanded - Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072) | :white_check_mark: | --- | --- |
 | - | [Vanilla Races Expanded - Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390) | :white_check_mark: | --- | --- |
 | - | [Vanilla Races Expanded - Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805) | :white_check_mark: | --- | --- |

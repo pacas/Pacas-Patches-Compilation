@@ -13,22 +13,23 @@
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
         <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
         <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.4</li>
-        <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>        
-        <!-- Simple mods -->
-        <li IfModActive="machine.betterinfestations">Mods/Better_Infestations</li>
-        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/BirdsBeyond_Framework</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyond_Temperate_Forest</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyond_Tropical_Rainforest</li>
-        <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/RimForge_Power_Poles</li>
-        <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/BrainwashChair</li>
-        <li IfModActive="kikohi.jewelry">Mods/Jewelry</li>
-        <li IfModActive="rabbit.stuncastervpe2">Mods/EoD_Stuncaster</li>
-        <li IfModActive="rikiki.miningco.projector">Mods/MiningCo_Projector</li>
-        <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Door_Lockdown</li>
-        <li IfModActive="bichang.kyulen">Mods/Single_Animals/Kyulen</li>
-        <li IfModActive="vesper.egihologramsandprojectors">Mods/EGI_Holograms</li>
+        <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>      
+        <!-- Special mods -->
         <li IfModActive="rim.job.world">Mods/RJW/CoreMod</li>
+        <!-- Simple mods -->
+        <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>
+        <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/Simple_Mods/RimForge_Power_Poles</li>
+        <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/Simple_Mods/BrainwashChair</li>
+        <li IfModActive="kikohi.jewelry">Mods/Simple_Mods/Jewelry</li>
+        <li IfModActive="rabbit.stuncastervpe2">Mods/Simple_Mods/EoD_Stuncaster</li>
+        <li IfModActive="rikiki.miningco.projector">Mods/Simple_Mods/MiningCo_Projector</li>
+        <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Simple_Mods/Door_Lockdown</li>
+        <li IfModActive="bichang.kyulen">Mods/Simple_Mods/Kyulen</li>
+        <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
+        <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
@@ -44,5 +45,6 @@
         <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
         <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
         <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
 	</v1.4>
 </loadFolders>

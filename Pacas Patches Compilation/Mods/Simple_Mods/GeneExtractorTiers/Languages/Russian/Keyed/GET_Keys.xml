@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GET_GeneExtractorTiers>Gene Extractor Tiers</GET_GeneExtractorTiers>
+  <GET_MultipackChance>Шанс увеличенного набора</GET_MultipackChance>
+  <GET_MegapackChance>Шанс большого набора</GET_MegapackChance>
+
+  <GET_ExtractionTime>Время извлечения</GET_ExtractionTime>
+  <GET_NutritionUseMultiplier>Множитель потребления ресурсов</GET_NutritionUseMultiplier>
+  <GET_GenesRegrowingTime>Время восстановления генов</GET_GenesRegrowingTime>
+</LanguageData>

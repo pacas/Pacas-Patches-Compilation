@@ -45,6 +45,9 @@
 		<defNames>
 			<li>GeneAssembler</li>
             <li>GeneExtractor</li>
+            <li MayRequire="RedMattis.GeneExtractor">GET_GeneExtractor_II</li>
+            <li MayRequire="RedMattis.GeneExtractor">GET_GeneExtractor_III</li>
+            <li MayRequire="RedMattis.GeneExtractor">GET_GeneExtractor_IV</li>
 			<li>GeneProcessor</li>
 			<li>GeneBank</li>
 		</defNames>

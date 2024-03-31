@@ -15,7 +15,6 @@ You can thank me for the work done and donate:<br>
 - [Donate items on Steam](https://steamcommunity.com/tradeoffer/new/?partner=93729960&token=dgWxX8tO) (preferably keys or CS2 containers)<br>
 Для пользователей из России также работает эти методы:<br>
 - Чашку кофе на Сбер `2202 2010 7950 3500`<br>
-- Кружку чая на [QIWI](https://qiwi.com/n/PACAS)<br>
 
 # Patch list | Список патчей:
 

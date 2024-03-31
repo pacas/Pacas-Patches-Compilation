@@ -36,6 +36,7 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Door Lockdown](https://steamcommunity.com/sharedfiles/filedetails/?id=2851091782) | :white_check_mark: | --- | :radio_button: |
 | - | [Edge of Descension - Stuncaster 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2952773198) | :white_check_mark: | --- | :radio_button: |
 | - | [EGI: Holograms and Projectors](https://steamcommunity.com/sharedfiles/filedetails/?id=2979598490) | :white_check_mark: | --- | :radio_button: |
+| - | [Gene Extractor Tiers](https://steamcommunity.com/sharedfiles/filedetails/?id=3016454783) | :white_check_mark: | --- | :radio_button: |
 | - | [Hemogen Extractor](https://steamcommunity.com/sharedfiles/filedetails/?id=2903919607) | :white_check_mark: | --- | --- |
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | :white_check_mark: | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | :white_check_mark: | --- | --- |

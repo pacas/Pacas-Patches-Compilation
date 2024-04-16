@@ -19,7 +19,7 @@
                         <xpath>Defs/ThingDef[defName="WoodLog" or defName="RedWoodLog" or defName="Bamboo" or defName="BambooPlank" or defName="RedWoodPlank" or defName="Kindling"]/tools</xpath>
                     </li>
                     <li Class="PatchOperationAttributeSet">
-                        <xpath>Defs/ThingDef[defName="WoodLog" or defName="RedWoodLog"]</xpath>
+                        <xpath>Defs/ThingDef[defName="WoodLog" or defName="RedWoodLog" or defName="Bamboo"]</xpath>
                         <attribute>ParentName</attribute>
                         <value>ResourceBase</value>
                     </li>

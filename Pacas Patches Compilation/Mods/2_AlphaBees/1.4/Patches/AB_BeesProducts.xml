@@ -23,8 +23,8 @@
                     </ingestible>
                 </value>
             </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="RB_NondescriptMeat"]/thingCategories</xpath>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RB_NonDescriptVegetables"]</xpath>
                 <value>
                     <thingCategories>
                         <li>BasicPlantFoodRaw</li>
@@ -44,7 +44,7 @@
                 </value>
             </li>
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="RB_NondescriptMeat"]/thingCategories</xpath>
+                <xpath>Defs/ThingDef[defName="RB_BeeMilk"]/thingCategories</xpath>
                 <value>
                     <thingCategories>
                         <li>CookingSupplies</li>

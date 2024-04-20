@@ -25,7 +25,7 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | --- | --- | --- | --- | --- |
 | - | HSK Core | :white_check_mark: | Check mod settings | --- |
 | :star: | [A RimWorld of Magic](https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956) | :white_check_mark: | --- | :radio_button: |
-| :star: | [Alpha Animals](https://discord.com/channels/272340793174392832/1070441231773093998) | :white_check_mark: | --- | :radio_button: |
+| :star: | [Alpha Bees](https://steamcommunity.com/sharedfiles/filedetails/?id=1558161673) | :white_check_mark: | --- | :radio_button: |
 | - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | :white_check_mark: | --- | --- |
 | :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | :white_check_mark: | --- | :radio_button: |
 | - | [Air Generator](https://steamcommunity.com/sharedfiles/filedetails/?id=2999510318) | :white_check_mark: | --- | :radio_button: |
@@ -59,4 +59,4 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Vanilla Storytellers Expanded - Perry Persistent](https://steamcommunity.com/sharedfiles/filedetails/?id=2149702069) | :white_check_mark: | --- | --- |
 | - | [Vulpes](https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519) | :grey_question: | --- | --- |
 | - | [Warhammer"ish":Dryad](https://steamcommunity.com/workshop/filedetails/?id=2958123708) | :white_check_mark: | --- | :radio_button: |
-| - | [Warhammer: Skaven](https://steamcommunity.com/sharedfiles/filedetails/?id=2958124086) | :white_check_mark: | A RimWorld of Magic required | :radio_button: |
+| - | [Warhammer: Skaven](https://steamcommunity.com/sharedfiles/filedetails/?id=2958124086) | :white_check_mark: | A RimWorld of Magic is required | :radio_button: |

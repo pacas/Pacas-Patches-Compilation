@@ -24,6 +24,30 @@
                         <combatPower>450</combatPower>
                     </value>
                 </li>
+                <li Class="XmlExtensions.PatchOperationSafeAdd">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_Mech_Lux" or 
+                    defName="AM_Mech_Optio" or 
+                    defName="AM_Mech_Bellicor" or 
+                    defName="AM_Mech_Munifex" or 
+                    defName="AM_Apoptosis" or 
+                    defName="AM_Mech_Artilleron" or 
+                    defName="AM_Siegemelter" or 
+                    defName="AM_Mech_Legate" or 
+                    defName="AM_Infernus"]</xpath>
+                    <value>
+                        <comps>
+                            <li Class="CombatExtended.CompProperties_Inventory" />
+                            <li>
+                                <compClass>CombatExtended.CompAmmoGiver</compClass>
+                            </li>
+                            <li Class="CombatExtended.CompProperties_MechAmmo">
+                                <gizmoIconSetMagCount>UI/Buttons/SetMagCount</gizmoIconSetMagCount>
+                                <gizmoIconTakeAmmoNow>UI/Buttons/TakeAmmoNow</gizmoIconTakeAmmoNow>
+                            </li>
+                        </comps>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

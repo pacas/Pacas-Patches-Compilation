@@ -8,6 +8,23 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/HediffDef[defName="GTHand" or defName="GTFoot"]</xpath>
 	</Operation>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>HMC Nobility Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RoyalTitlePermitDef[defName="CyberneticProsthetic"]/modExtensions/li[@Class="NobilityExpanded.PermitExtensionList"]/itemData/li[3]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RoyalTitlePermitDef[defName="CyberneticProsthetic"]/modExtensions/li[@Class="NobilityExpanded.PermitExtensionList"]/itemData/li[1]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/RecipeDef[defName="InstallGTHand" or defName="InstallGTFoot"]</xpath>
 	</Operation>

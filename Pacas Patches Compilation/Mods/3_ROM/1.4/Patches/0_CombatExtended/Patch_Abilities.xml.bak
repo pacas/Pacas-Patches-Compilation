@@ -20,18 +20,11 @@
                         <hasForcefulImpact>false</hasForcefulImpact>
                     </value>
                 </li>
-                <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <li Class="PatchOperationRemove">
                     <xpath>Defs/DamageDef[defName="TM_Torment"]/armorCategory</xpath>
                 </li>
-                <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <li Class="PatchOperationRemove">
                     <xpath>Defs/DamageDef[defName="TM_Torment"]/buildingDamageFactor</xpath>
-                </li>
-                <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
-                    <xpath>Defs/DamageDef[defName="TM_FreezingWindsDD"]</xpath>
-                    <value>
-                        <makesBlood>false</makesBlood>
-                        <impactSoundType>Blunt</impactSoundType>
-                    </value>
                 </li>
             </operations>
         </match>

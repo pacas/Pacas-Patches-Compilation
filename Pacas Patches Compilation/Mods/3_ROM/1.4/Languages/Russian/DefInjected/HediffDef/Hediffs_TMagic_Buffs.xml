@@ -7,7 +7,7 @@
 
   <!-- Успокаивающий бриз -->
 
-  <TM_SoothingBreeze_AuraHD.label>Успокаивающая аура</TM_SoothingBreeze_AuraHD.label>
+  <TM_SoothingBreeze_AuraHD.label>Успокаивающий бриз</TM_SoothingBreeze_AuraHD.label>
   <TM_SoothingBreeze_AuraHD.description>Аура, которая дарует успокаивающее чувство ближайшим пешкам.</TM_SoothingBreeze_AuraHD.description>
   <TM_SoothingBreeze_AuraHD.stages.0.label>I</TM_SoothingBreeze_AuraHD.stages.0.label>
   <TM_SoothingBreeze_AuraHD.stages.1.label>II</TM_SoothingBreeze_AuraHD.stages.1.label>
@@ -15,25 +15,25 @@
   <TM_SoothingBreeze_AuraHD.stages.3.label>IV</TM_SoothingBreeze_AuraHD.stages.3.label>
 
   <SoothingBreeze.label>Успокаивающий бриз</SoothingBreeze.label>
-  <SoothingBreeze.description>Аура что успокаивает душу.</SoothingBreeze.description>
+  <SoothingBreeze.description>Аура, что успокаивает душу.</SoothingBreeze.description>
   <SoothingBreeze.stages.0.label>I</SoothingBreeze.stages.0.label>
 
   <SoothingBreeze_I.label>Успокаивающий бриз</SoothingBreeze_I.label>
-  <SoothingBreeze_I.description>Аура что успокаивает душу.</SoothingBreeze_I.description>
+  <SoothingBreeze_I.description>Аура, что успокаивает душу.</SoothingBreeze_I.description>
   <SoothingBreeze_I.stages.0.label>II</SoothingBreeze_I.stages.0.label>
 
   <SoothingBreeze_II.label>Успокаивающий бриз</SoothingBreeze_II.label>
-  <SoothingBreeze_II.description>Аура что успокаивает душу.</SoothingBreeze_II.description>
+  <SoothingBreeze_II.description>Аура, что успокаивает душу.</SoothingBreeze_II.description>
   <SoothingBreeze_II.stages.0.label>III</SoothingBreeze_II.stages.0.label>
 
   <SoothingBreeze_III.label>Успокаивающий бриз</SoothingBreeze_III.label>
-  <SoothingBreeze_III.description>Аура что успокаивает душу.</SoothingBreeze_III.description>
+  <SoothingBreeze_III.description>Аура, что успокаивает душу.</SoothingBreeze_III.description>
   <SoothingBreeze_III.stages.0.label>IV</SoothingBreeze_III.stages.0.label>
 
 
   <!-- (Fire Mage) Inner Fire -->
 
-  <TM_InnerFire_AuraHD.label>Аура тепла</TM_InnerFire_AuraHD.label>
+  <TM_InnerFire_AuraHD.label>Внутренний огонь</TM_InnerFire_AuraHD.label>
   <TM_InnerFire_AuraHD.description>Аура, которая генерирует и дарит тепло и уверенность.</TM_InnerFire_AuraHD.description>
   <TM_InnerFire_AuraHD.stages.0.label>I</TM_InnerFire_AuraHD.stages.0.label>
   <TM_InnerFire_AuraHD.stages.1.label>II</TM_InnerFire_AuraHD.stages.1.label>
@@ -58,7 +58,7 @@
 
   <!-- Луч надежды -->
 
-  <TM_RayOfHope_AuraHD.label>Аура надежды</TM_RayOfHope_AuraHD.label>
+  <TM_RayOfHope_AuraHD.label>Луч надежды</TM_RayOfHope_AuraHD.label>
   <TM_RayOfHope_AuraHD.description>Аура, которая порождает и дарует вдохновляющее ощущение.</TM_RayOfHope_AuraHD.description>
   <TM_RayOfHope_AuraHD.stages.0.label>I</TM_RayOfHope_AuraHD.stages.0.label>
   <TM_RayOfHope_AuraHD.stages.1.label>II</TM_RayOfHope_AuraHD.stages.1.label>
@@ -66,19 +66,19 @@
   <TM_RayOfHope_AuraHD.stages.3.label>IV</TM_RayOfHope_AuraHD.stages.3.label>
 
   <RayofHope.label>Луч надежды</RayofHope.label>
-  <RayofHope.description>Пребывание, бодрящая душу.</RayofHope.description>
+  <RayofHope.description>Аура, бодрящая душу.</RayofHope.description>
   <RayofHope.stages.0.label>I</RayofHope.stages.0.label>
 
   <RayofHope_I.label>Луч надежды</RayofHope_I.label>
-  <RayofHope_I.description>Пребывание, бодрящая душу.</RayofHope_I.description>
+  <RayofHope_I.description>Аура, бодрящая душу.</RayofHope_I.description>
   <RayofHope_I.stages.0.label>II</RayofHope_I.stages.0.label>
 
   <RayofHope_II.label>Луч надежды</RayofHope_II.label>
-  <RayofHope_II.description>Пребывание, бодрящая душу.</RayofHope_II.description>
+  <RayofHope_II.description>Аура, бодрящая душу.</RayofHope_II.description>
   <RayofHope_II.stages.0.label>III</RayofHope_II.stages.0.label>
 
   <RayofHope_III.label>Луч надежды</RayofHope_III.label>
-  <RayofHope_III.description>Пребывание, бодрящая душу.</RayofHope_III.description>
+  <RayofHope_III.description>Аура, бодрящая душу.</RayofHope_III.description>
   <RayofHope_III.stages.0.label>IV</RayofHope_III.stages.0.label>
 
   <AMP_I.label>AMP</AMP_I.label>
@@ -93,7 +93,7 @@
   <AMP_III.description>Взрыв энергии, который усиливает физические свойства.</AMP_III.description>
   <AMP_III.stages.0.label>III</AMP_III.stages.0.label>
 
-  <TM_Shadow_AuraHD.label>Аура тьмы</TM_Shadow_AuraHD.label>
+  <TM_Shadow_AuraHD.label>Таинственная тень</TM_Shadow_AuraHD.label>
   <TM_Shadow_AuraHD.description>Аура, которая порождает и дарует теневое присутствие.</TM_Shadow_AuraHD.description>
   <TM_Shadow_AuraHD.stages.0.label>I</TM_Shadow_AuraHD.stages.0.label>
   <TM_Shadow_AuraHD.stages.1.label>II</TM_Shadow_AuraHD.stages.1.label>
@@ -303,14 +303,20 @@
 
   <TM_ShadowSlayerCloakHD.label>Теневой убийца</TM_ShadowSlayerCloakHD.label>
   <TM_ShadowSlayerCloakHD.description>Маскирующее поле «Теневой убийца» активно - выполнение действий, которые механизм прогнозирования не может отследить, быстро разрушит маскирующее поле.</TM_ShadowSlayerCloakHD.description>
-  <TM_ShadowSlayerCloakHD.stages.0.label></TM_ShadowSlayerCloakHD.stages.0.label>
 
   <TM_SeverityHasteHD.label>Поспешность</TM_SeverityHasteHD.label>
   <TM_SeverityHasteHD.description>Скорость атаки удваивается.</TM_SeverityHasteHD.description>
-  <TM_SeverityHasteHD.stages.0.label></TM_SeverityHasteHD.stages.0.label>
 
   <TM_HeatShieldHD.label>Тепловой экран</TM_HeatShieldHD.label>
-  <TM_HeatShieldHD.description>Повышает термостойкость и не может загореться.</TM_HeatShieldHD.description>
-  <TM_HeatShieldHD.stages.0.label></TM_HeatShieldHD.stages.0.label>
+  <TM_HeatShieldHD.description>Повышает термостойкость и не может загореться.</TM_HeatShieldHD.description> 
+
+  <TM_EvasionHD.label>Уклонение</TM_EvasionHD.label>
+  <TM_EvasionHD.description>Дает пешке возможность уклоняться от любой невзрывной атаки. Скорость уклонения соответствует силе баффа.</TM_EvasionHD.description>
+
+  <TM_AdrenalineHD.label>Адреналин</TM_AdrenalineHD.label>
+  <TM_AdrenalineHD.description>Всплеск адреналина, повышающий физические показатели.</TM_AdrenalineHD.description>
+
+  <TM_UndeadShroudHD.label>Пелена жнеца</TM_UndeadShroudHD.label>
+  <TM_UndeadShroudHD.description>Силы смерти цепляются за эту пешку.</TM_UndeadShroudHD.description>
 
 </LanguageData>

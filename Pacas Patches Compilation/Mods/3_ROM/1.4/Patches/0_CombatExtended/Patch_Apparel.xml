@@ -10,13 +10,23 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName="TM_MaestersCloak" or
+				defName="TM_MantleOfProtection" or
 				defName="DemonLordCloak"
 				]/statBases</xpath>
 				<value>
 					<Bulk>12</Bulk>
 					<WornBulk>7</WornBulk>
 				</value>
-			</li>            
+			</li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_MantleOfProtection</li>
+                    <li>1.7</li>
+                    <li>3.4</li>
+                    <li>6.1</li>
+                </arguments>
+            </li>
             <li Class="XmlExtensions.ApplyPatch">
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
@@ -39,6 +49,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName="DarkRobe" or
+				defName="TM_DiscipleRobe" or
 				defName="ArchMageRobe"
 				]/statBases</xpath>
 				<value>
@@ -50,6 +61,15 @@
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
                     <li>DarkRobe</li>
+                    <li>2</li>
+                    <li>0</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_DiscipleRobe</li>
                     <li>2</li>
                     <li>0</li>
                     <li>0</li>
@@ -87,6 +107,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName="TM_WizardHat" or
+				defName="TM_HoodOfProtection" or
+				defName="TM_DiscipleHood" or
 				defName="ArcaneHood"
 				]/statBases</xpath>
 				<value>
@@ -144,14 +166,117 @@
                     <li>0</li>
                 </arguments>
             </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_HoodOfProtection</li>
+                    <li>1.7</li>
+                    <li>3.4</li>
+                    <li>6.1</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_DiscipleHood</li>
+                    <li>2</li>
+                    <li>0</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_SagesMask</li>
+                    <li>2</li>
+                    <li>1</li>
+                    <li>1</li>
+                </arguments>
+            </li>
 			
 			<!--Armors-->
+            <!--TM_Necromancer_Body-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TM_Necromancer_Body"]/statBases/Mass</xpath>
+				<value>
+					<Bulk>15</Bulk>
+					<WornBulk>4</WornBulk>
+					<Mass>7.5</Mass>
+				</value>
+			</li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Necromancer_Body</li>
+                    <li>4.7</li>
+                    <li>13</li>
+                    <li>20</li>
+                </arguments>
+            </li>
+
+            <!--TM_Necromancer_Mask-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TM_Necromancer_Mask"]/statBases/Mass</xpath>
+				<value>
+					<Bulk>4</Bulk>
+					<WornBulk>2</WornBulk>
+					<Mass>2.5</Mass>
+				</value>
+			</li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Necromancer_Mask</li>
+                    <li>4.7</li>
+                    <li>6</li>
+                    <li>11</li>
+                </arguments>
+            </li>
+
+            <!--TM_Necromancer_Hood-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TM_Necromancer_Hood"]/statBases/Mass</xpath>
+				<value>
+					<Bulk>6</Bulk>
+					<WornBulk>3</WornBulk>
+					<Mass>3.5</Mass>
+				</value>
+			</li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Necromancer_Hood</li>
+                    <li>4.7</li>
+                    <li>8</li>
+                    <li>15</li>
+                </arguments>
+            </li>
+
+            <!--TM_DragonSlayer-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TM_DragonSlayer"]/statBases/Mass</xpath>
+				<value>
+					<Bulk>35</Bulk>
+					<WornBulk>15</WornBulk>
+					<Mass>20</Mass>
+				</value>
+			</li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_DragonSlayer</li>
+                    <li>4.5</li>
+                    <li>28</li>
+                    <li>45</li>
+                </arguments>
+            </li>
+
             <!--RoyalArmor-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="RoyalArmor"]/statBases/Mass</xpath>
 				<value>
 					<Bulk>50</Bulk>
-					<WornBulk>10</WornBulk>
+					<WornBulk>18</WornBulk>
 					<Mass>15</Mass>
 				</value>
 			</li>
@@ -159,11 +284,13 @@
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
                     <li>RoyalArmor</li>
-                    <li>1.7</li>
-                    <li>8</li>
-                    <li>3</li>
+                    <li>4.7</li>
+                    <li>12</li>
+                    <li>19</li>
                 </arguments>
             </li>
+
+            <!--AncientMail-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="AncientMail"]/statBases/Mass</xpath>
 				<value>
@@ -176,12 +303,12 @@
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
                     <li>AncientMail</li>
-                    <li>2.3</li>
-                    <li>8.4</li>
-                    <li>3.4</li>
+                    <li>4.2</li>
+                    <li>11</li>
+                    <li>16</li>
                 </arguments>
             </li>
-            
+
             <!--RoyalHelm-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="RoyalHelm"]/statBases/Mass</xpath>
@@ -195,9 +322,9 @@
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
                     <li>RoyalHelm</li>
-                    <li>1.6</li>
-                    <li>5.9</li>
-                    <li>3.1</li>
+                    <li>4.6</li>
+                    <li>6</li>
+                    <li>9</li>
                 </arguments>
             </li>
 			<li Class="PatchOperationReplace">
@@ -210,7 +337,7 @@
 					</bodyPartGroups>
 				</value>
 			</li>
-            
+
 			<!--ParagonHelm-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ParagonHelm"]/statBases/Mass</xpath>
@@ -224,9 +351,9 @@
                 <patchName>ApparelArmorValues</patchName>
                 <arguments>
                     <li>ParagonHelm</li>
-                    <li>1.9</li>
-                    <li>6.2</li>
-                    <li>3.41</li>
+                    <li>4.9</li>
+                    <li>7</li>
+                    <li>10</li>
                 </arguments>
             </li>
 			<li Class="PatchOperationReplace">
@@ -239,7 +366,7 @@
 					</bodyPartGroups>
 				</value>
 			</li>
-            
+
             <!--TM_ArtifactBase-->
 			<li Class="PatchOperationConditional">
 				<xpath>Defs/ThingDef[@Name="TM_ArtifactBase"]/statBases</xpath>

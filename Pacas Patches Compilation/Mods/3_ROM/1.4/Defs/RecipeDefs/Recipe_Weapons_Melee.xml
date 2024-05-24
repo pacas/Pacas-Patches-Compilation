@@ -78,6 +78,7 @@
             <Crafting>6</Crafting>
         </skillRequirements>
     </RecipeDef>
+
     <RecipeDef>
         <defName>ArcaneForge_Decimation</defName>
         <label>make decimation</label>
@@ -147,6 +148,7 @@
             <Crafting>9</Crafting>
         </skillRequirements>
     </RecipeDef>
+
     <RecipeDef>
         <defName>ArcaneForge_DemonFang</defName>
         <label>make demon's fang</label>

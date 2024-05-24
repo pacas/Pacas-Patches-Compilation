@@ -6,32 +6,106 @@
                 <xpath>Defs/ApparelLayerDef[defName="TM_Cloak"]</xpath>
             </li>-->
             
-            <li Class="PatchOperationRemove">
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
                 <xpath>Defs/ThingDef[
+                defName="TM_MantleOfProtection" or
                 defName="TM_MaestersCloak" or
                 defName="DemonLordCloak" or
                 defName="DarkRobe" or
+                defName="TM_DiscipleRobe" or
                 defName="TM_DreamcatcherBuckskin" or
                 defName="ArchMageRobe" or
+                defName="TM_Necromancer_Body" or
+                defName="TM_Necromancer_Mask" or
+                defName="TM_Necromancer_Hood" or
+                defName="TM_SagesMask" or
                 defName="TM_WizardHat" or
+                defName="TM_HoodOfProtection" or
+                defName="TM_DiscipleHood" or
                 defName="ArcaneHood" or
                 defName="HoodOfMadness" or
                 defName="TM_DreamcatcherCoronet" or
+                defName="TM_DragonSlayer" or
                 defName="AncientMail" or
                 defName="RoyalArmor" or
                 defName="RoyalHelm" or
                 defName="ParagonHelm"]/recipeMaker</xpath>
             </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="TM_MaestersCloak" or defName="DemonLordCloak"]/apparel/layers</xpath>
+            
+            <!--<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="TM_MaestersCloak" or 
+                defName="TM_MantleOfProtection" or 
+                defName="DemonLordCloak"
+                ]/apparel/layers</xpath>
                 <value>
                     <layers>
                         <li>Shell</li>
                     </layers>
                 </value>
+            </li>-->
+            
+            <!--TM_MantleOfProtection-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_MantleOfProtection"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <CarryBulk>5</CarryBulk>
+                        <MoveSpeed>-0.05</MoveSpeed>
+                        <WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
+                        <ToxicResistance>0.15</ToxicResistance>
+                        <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+                        <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+                        <GermResistance>0.03</GermResistance>
+                        <GermContainment>0.02</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_MantleOfProtection"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>30</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_MantleOfProtection"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>100</costStuffCount>
+                </value>
             </li>
             
-            
+            <!--TM_HoodOfProtection-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_HoodOfProtection"]</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <CarryBulk>1</CarryBulk>
+                        <WorkSpeedGlobal>-0.02</WorkSpeedGlobal>
+                        <ToxicResistance>0.07</ToxicResistance>
+                        <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+                        <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+                        <GermResistance>0.03</GermResistance>
+                        <GermContainment>0.02</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_HoodOfProtection"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>30</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_HoodOfProtection"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>70</costStuffCount>
+                </value>
+            </li>
+
             <!--TM_MaestersCloak-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="TM_MaestersCloak"]/equippedStatOffsets</xpath>
@@ -64,6 +138,7 @@
                     <costStuffCount>90</costStuffCount>
                 </value>
             </li>
+
             <!--TM_WizardHat-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="TM_WizardHat"]/statBases/WorkToMake</xpath>
@@ -103,6 +178,7 @@
                     </stuffCategories>
                 </value>
             </li>
+
             <!--ArcaneHood-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="ArcaneHood"]/equippedStatOffsets</xpath>
@@ -141,23 +217,27 @@
                     </stuffCategories>
                 </value>
             </li>
+
             <!--DarkRobe-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="DarkRobe"]/equippedStatOffsets</xpath>
                 <value>
                     <equippedStatOffsets>
-                        <CarryBulk>10</CarryBulk>
+                        <CarryBulk>7</CarryBulk>
                         <MoveSpeed>-0.13</MoveSpeed>
                         <WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
                         <ShootingAccuracyPawn>-0.03</ShootingAccuracyPawn>
                         <AimingDelayFactor>0.02</AimingDelayFactor>
                         <MeleeHitChance>-0.02</MeleeHitChance>
                         <MeleeWeapon_CooldownMultiplier>0.02</MeleeWeapon_CooldownMultiplier>
+                        <PsychicSensitivity>0.1</PsychicSensitivity>
+                        <MeditationFocusGain>0.1</MeditationFocusGain>
+                        <PsychicEntropyMax>0.1</PsychicEntropyMax>
+                        <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+                        <MentalBreakThreshold>0.1</MentalBreakThreshold>
+                        <GlobalLearningFactor>0.1</GlobalLearningFactor>
                         <GermResistance>0.02</GermResistance>
                         <GermContainment>0.03</GermContainment>
-                        <PsychicSensitivity>0.1</PsychicSensitivity>
-                        <MentalBreakThreshold>0.1</MentalBreakThreshold>
-                        <GlobalLearningFactor>0.03</GlobalLearningFactor>
                     </equippedStatOffsets>
                 </value>
             </li>
@@ -165,7 +245,7 @@
                 <xpath>Defs/ThingDef[defName="DarkRobe"]/costList</xpath>
                 <value>
                     <costList>
-                        <PureMagicyteBar>80</PureMagicyteBar>
+                        <PureMagicyteBar>75</PureMagicyteBar>
                         <ComponentMedieval>5</ComponentMedieval>
                     </costList>
                 </value>
@@ -179,6 +259,89 @@
                     </stuffCategories>
                 </value>
             </li>
+
+            <!--TM_DiscipleRobe-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleRobe"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <CarryBulk>12</CarryBulk>
+                        <MoveSpeed>-0.1</MoveSpeed>
+                        <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+                        <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+                        <GlobalLearningFactor>0.05</GlobalLearningFactor>
+                        <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+                        <RestFallRateFactor>-0.1</RestFallRateFactor>
+                        <EatingSpeed>0.10</EatingSpeed>
+                        <ShootingAccuracyPawn>-0.03</ShootingAccuracyPawn>
+                        <AimingDelayFactor>0.02</AimingDelayFactor>
+                        <MeleeHitChance>-0.02</MeleeHitChance>
+                        <MeleeWeapon_CooldownMultiplier>0.02</MeleeWeapon_CooldownMultiplier>
+                        <GermResistance>0.02</GermResistance>
+                        <GermContainment>0.03</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleRobe"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>50</PureMagicyteBar>
+                        <ComponentMedieval>5</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleRobe"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            
+            <!--TM_DiscipleHood-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleHood"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <CarryBulk>3</CarryBulk>
+                        <MoveSpeed>-0.02</MoveSpeed>
+                        <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+                        <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+                        <GlobalLearningFactor>0.02</GlobalLearningFactor>
+                        <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+                        <RestFallRateFactor>-0.03</RestFallRateFactor>
+                        <EatingSpeed>0.1</EatingSpeed>
+                        <ShootingAccuracyPawn>-0.03</ShootingAccuracyPawn>
+                        <AimingDelayFactor>0.02</AimingDelayFactor>
+                        <MeleeHitChance>-0.02</MeleeHitChance>
+                        <MeleeWeapon_CooldownMultiplier>0.02</MeleeWeapon_CooldownMultiplier>
+                        <GermResistance>0.02</GermResistance>
+                        <GermContainment>0.03</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleHood"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>40</PureMagicyteBar>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DiscipleHood"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+
             <!--HoodOfMadness-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HoodOfMadness"]/equippedStatOffsets</xpath>
@@ -224,6 +387,56 @@
                     </stuffCategories>
                 </value>
             </li>
+            
+            <!--TM_SagesMask-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_SagesMask"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MoveSpeed>-0.3</MoveSpeed>
+                        <SocialImpact>-0.08</SocialImpact>
+                        <TradePriceImprovement>-0.09</TradePriceImprovement>
+                        <SocialImpact>-0.1</SocialImpact>
+                        <TradePriceImprovement>-0.1</TradePriceImprovement>
+                        <GlobalLearningFactor>0.25</GlobalLearningFactor>
+                        <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+                        <PsychicSensitivity>0.3</PsychicSensitivity>
+                        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+                        <MeditationFocusGain>0.1</MeditationFocusGain>
+                        <PsychicEntropyMax>0.15</PsychicEntropyMax>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_SagesMask"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>15</PureMagicyteBar>
+                        <Jade>15</Jade>
+                        <GoldBar>15</GoldBar>
+                        <SilverBar>15</SilverBar>
+                        <Bronze>5</Bronze>
+                        <Plasteel>5</Plasteel>
+                        <ComponentMedieval>3</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_SagesMask"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>30</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_SagesMask"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            
             <!--TM_DreamcatcherCoronet-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="TM_DreamcatcherCoronet"]/equippedStatOffsets</xpath>
@@ -275,6 +488,7 @@
                     </stuffCategories>
                 </value>
             </li>
+            
             <!--TM_DreamcatcherBuckskin-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="TM_DreamcatcherBuckskin"]/equippedStatOffsets</xpath>
@@ -326,6 +540,7 @@
                     </stuffCategories>
                 </value>
             </li>
+            
             <!--ArchMageRobe-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="ArchMageRobe"]/equippedStatOffsets</xpath>
@@ -338,7 +553,7 @@
                         <TradePriceImprovement>0.075</TradePriceImprovement>
                         <PsychicSensitivity>0.15</PsychicSensitivity>
                         <GlobalLearningFactor>-0.15</GlobalLearningFactor>
-                        <ResearchSpeed>-0.3</ResearchSpeed>
+                        <ResearchSpeed>-0.15</ResearchSpeed>
                         <MentalBreakThreshold>-0.07</MentalBreakThreshold>
                         <GermResistance>0.06</GermResistance>
                         <GermContainment>0.12</GermContainment>
@@ -349,7 +564,7 @@
                 <xpath>Defs/ThingDef[defName="ArchMageRobe"]/costList</xpath>
                 <value>
                     <costList>
-                        <PureMagicyteBar>130</PureMagicyteBar>
+                        <PureMagicyteBar>120</PureMagicyteBar>
                         <GoldBar>10</GoldBar>
                         <SilverBar>10</SilverBar>
                         <Flaxcloth>20</Flaxcloth>
@@ -375,6 +590,160 @@
                     </stuffCategories>
                 </value>
             </li>
+            
+            <!--TM_Necromancer_Body-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Body"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MoveSpeed>-0.05</MoveSpeed>
+                        <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+                        <MedicalTendSpeed>-0.15</MedicalTendSpeed>
+                        <MedicalTendQuality>-0.1</MedicalTendQuality>
+                        <MedicalSurgerySuccessChance>-0.1</MedicalSurgerySuccessChance>
+                        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+                        <SocialImpact>-0.4</SocialImpact>
+                        <ResearchSpeed>0.1</ResearchSpeed>
+                        <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+                        <PsychicSensitivity>-0.15</PsychicSensitivity>
+                        <GermResistance>-0.1</GermResistance>
+                        <GermContainment>-0.15</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Body"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>100</PureMagicyteBar>
+                        <CarbonAlloy>25</CarbonAlloy>
+                        <AlnicoAlloy>10</AlnicoAlloy>
+                        <Cobalt>10</Cobalt>
+                        <Skull>5</Skull>
+                        <ComponentMedieval>5</ComponentMedieval>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Compaste>30</Compaste>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Body"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>100</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Body"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            
+            <!--TM_Necromancer_Mask-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Mask"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MoveSpeed>-0.03</MoveSpeed>
+                        <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+                        <MedicalTendSpeed>-0.1</MedicalTendSpeed>
+                        <MedicalTendQuality>-0.08</MedicalTendQuality>
+                        <MedicalSurgerySuccessChance>-0.08</MedicalSurgerySuccessChance>
+                        <IncomingDamageFactor>-0.08</IncomingDamageFactor>
+                        <SocialImpact>-0.3</SocialImpact>
+                        <ResearchSpeed>0.1</ResearchSpeed>
+                        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+                        <PsychicSensitivity>-0.1</PsychicSensitivity>
+                        <GermResistance>-0.07</GermResistance>
+                        <GermContainment>-0.1</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Mask"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>50</PureMagicyteBar>
+                        <CarbonAlloy>15</CarbonAlloy>
+                        <AlnicoAlloy>5</AlnicoAlloy>
+                        <Cobalt>5</Cobalt>
+                        <Skull>2</Skull>
+                        <ComponentMedieval>3</ComponentMedieval>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Compaste>10</Compaste>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Mask"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>30</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Mask"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            
+            <!--TM_Necromancer_Hood-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Hood"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <MoveSpeed>-0.03</MoveSpeed>
+                        <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+                        <MedicalTendSpeed>-0.1</MedicalTendSpeed>
+                        <MedicalTendQuality>-0.08</MedicalTendQuality>
+                        <MedicalSurgerySuccessChance>-0.08</MedicalSurgerySuccessChance>
+                        <IncomingDamageFactor>-0.08</IncomingDamageFactor>
+                        <SocialImpact>-0.3</SocialImpact>
+                        <ResearchSpeed>0.1</ResearchSpeed>
+                        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+                        <PsychicSensitivity>-0.1</PsychicSensitivity>
+                        <GermResistance>-0.07</GermResistance>
+                        <GermContainment>-0.1</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Hood"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>30</PureMagicyteBar>
+                        <CarbonAlloy>25</CarbonAlloy>
+                        <AlnicoAlloy>15</AlnicoAlloy>
+                        <Cobalt>5</Cobalt>
+                        <Skull>3</Skull>
+                        <ComponentMedieval>3</ComponentMedieval>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Compaste>15</Compaste>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Hood"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>50</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Necromancer_Hood"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>HF</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            
             <!--DemonLordCloak-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="DemonLordCloak"]/equippedStatOffsets</xpath>
@@ -420,7 +789,50 @@
                     </stuffCategories>
                 </value>
             </li>
-            
+
+            <!--TM_DragonSlayer-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DragonSlayer"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <CarryBulk>25</CarryBulk>
+                        <MoveSpeed>-1.8</MoveSpeed>
+                        <WorkSpeedGlobal>-0.38</WorkSpeedGlobal>
+                        <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+                        <AimingDelayFactor>0.2</AimingDelayFactor>
+                        <MeleeHitChance>-0.01</MeleeHitChance>
+                        <MentalBreakThreshold>0.1</MentalBreakThreshold>
+                        <PainShockThreshold>0.2</PainShockThreshold>
+                        <Suppressability>-0.35</Suppressability>
+                        <GermResistance>0.15</GermResistance>
+                        <GermContainment>0.15</GermContainment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DragonSlayer"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>200</PureMagicyteBar>
+                        <GoldBar>100</GoldBar>
+                        <SilverBar>20</SilverBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DragonSlayer"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>180</costStuffCount>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DragonSlayer"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
             
             <!--AncientMail-->
             <li Class="PatchOperationReplace">
@@ -469,6 +881,7 @@
                     </stuffCategories>
                 </value>
             </li>
+
             <!--RoyalArmor-->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="RoyalArmor"]/equippedStatOffsets</xpath>
@@ -602,11 +1015,16 @@
                     </stuffCategories>
                 </value>
             </li>
+
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[
                 defName="ArcaneHood" or
                 defName="TM_WizardHat" or
+                defName="TM_SagesMask" or
+                defName="TM_DiscipleHood" or
                 defName="TM_DreamcatcherCoronet" or
+                defName="TM_HoodOfProtection" or
+                defName="TM_MantleOfProtection" or
                 defName="TM_MaestersCloak"]</xpath>
                 <value>
                     <thingCategories Inherit="False">
@@ -614,13 +1032,16 @@
                     </thingCategories>
                 </value>
             </li>
-            
-            
+
             <!--ParentNames-->
             <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ThingDef[
                 defName="TM_DreamcatcherBuckskin" or
                 defName="TM_DreamcatcherCoronet" or
+                defName="TM_SagesMask" or
+                defName="TM_Necromancer_Body" or
+                defName="TM_Necromancer_Mask" or
+                defName="TM_Necromancer_Hood" or
                 defName="ArchMageRobe" or
                 defName="DemonLordCloak"]</xpath>
                 <attribute>ParentName</attribute>
@@ -629,6 +1050,8 @@
             <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ThingDef[
                 defName="DarkRobe" or
+                defName="TM_DiscipleRobe" or
+                defName="TM_DiscipleHood" or
                 defName="HoodOfMadness"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>TM_CraftableApparelMid_SK</value>
@@ -637,6 +1060,8 @@
                 <xpath>Defs/ThingDef[
                 defName="ArcaneHood" or
                 defName="TM_WizardHat" or
+                defName="TM_HoodOfProtection" or
+                defName="TM_MantleOfProtection" or
                 defName="TM_MaestersCloak"]</xpath>
                 <attribute>ParentName</attribute>
                 <value>TM_CraftableApparelBasic_SK</value>
@@ -644,6 +1069,7 @@
             <li Class="PatchOperationAttributeSet">
                 <xpath>Defs/ThingDef[
                 defName="AncientMail" or
+                defName="TM_DragonSlayer" or
                 defName="RoyalArmor" or
                 defName="RoyalHelm" or
                 defName="ParagonHelm"]</xpath>

@@ -445,6 +445,10 @@
   <Make_TM_BlazingPowerStaff.description>Сделать посох пылающей силы.</Make_TM_BlazingPowerStaff.description>
   <Make_TM_BlazingPowerStaff.jobString>Изготовление посоха пылающей силы.</Make_TM_BlazingPowerStaff.jobString>
 
+  <Make_TM_MantleOfProtection.label>Сделать плащ защиты</Make_TM_MantleOfProtection.label>
+  <Make_TM_MantleOfProtection.description>Сделать плащ защиты.</Make_TM_MantleOfProtection.description>
+  <Make_TM_MantleOfProtection.jobString>Изготовление плаща защиты.</Make_TM_MantleOfProtection.jobString>
+
   <Make_TM_MaestersCloak.label>Сделать плащ странника</Make_TM_MaestersCloak.label>
   <Make_TM_MaestersCloak.description>Сделать плащ странника.</Make_TM_MaestersCloak.description>
   <Make_TM_MaestersCloak.jobString>Изготовление плаща странника.</Make_TM_MaestersCloak.jobString>
@@ -453,9 +457,37 @@
   <Make_DemonLordCloak.description>Сделать плащ превосходства.</Make_DemonLordCloak.description>
   <Make_DemonLordCloak.jobString>Изготовление плаща превосходства.</Make_DemonLordCloak.jobString>
 
+  <Make_TM_DiscipleRobe.label>Сделать мантию послушника</Make_TM_DiscipleRobe.label>
+  <Make_TM_DiscipleRobe.description>Сделать мантию послушника.</Make_TM_DiscipleRobe.description>
+  <Make_TM_DiscipleRobe.jobString>Изготовление мантии послушника.</Make_TM_DiscipleRobe.jobString>
+
+  <Make_TM_DiscipleHood.label>Сделать капюшон послушника</Make_TM_DiscipleHood.label>
+  <Make_TM_DiscipleHood.description>Сделать капюшон послушника.</Make_TM_DiscipleHood.description>
+  <Make_TM_DiscipleHood.jobString>Изготовление капюшона послушника.</Make_TM_DiscipleHood.jobString>
+
   <Make_DarkRobe.label>Сделать тёмную мантию</Make_DarkRobe.label>
   <Make_DarkRobe.description>Сделать тёмную мантию.</Make_DarkRobe.description>
   <Make_DarkRobe.jobString>Изготовление тёмной мантии.</Make_DarkRobe.jobString>
+
+  <Make_TM_Necromancer_Body.label>Сделать пелену жнеца</Make_TM_Necromancer_Body.label>
+  <Make_TM_Necromancer_Body.description>Сделать пелену жнеца.</Make_TM_Necromancer_Body.description>
+  <Make_TM_Necromancer_Body.jobString>Изготовление пелены жнеца.</Make_TM_Necromancer_Body.jobString>
+
+  <Make_TM_Necromancer_Mask.label>Сделать маску жнеца</Make_TM_Necromancer_Mask.label>
+  <Make_TM_Necromancer_Mask.description>Сделать маску жнеца.</Make_TM_Necromancer_Mask.description>
+  <Make_TM_Necromancer_Mask.jobString>Изготовление маски жнеца.</Make_TM_Necromancer_Mask.jobString>
+
+  <Make_TM_Necromancer_Hood.label>Сделать капюшон жнеца</Make_TM_Necromancer_Hood.label>
+  <Make_TM_Necromancer_Hood.description>Сделать капюшон жнеца.</Make_TM_Necromancer_Hood.description>
+  <Make_TM_Necromancer_Hood.jobString>Изготовление капюшона жнеца.</Make_TM_Necromancer_Hood.jobString>
+
+  <Make_TM_HoodOfProtection.label>Сделать капюшон защиты</Make_TM_HoodOfProtection.label>
+  <Make_TM_HoodOfProtection.description>Сделать капюшон защиты.</Make_TM_HoodOfProtection.description>
+  <Make_TM_HoodOfProtection.jobString>Изготовление капюшона защиты.</Make_TM_HoodOfProtection.jobString>
+
+  <Make_TM_SagesMask.label>Сделать маску безмятежности</Make_TM_SagesMask.label>
+  <Make_TM_SagesMask.description>Сделать маску безмятежности.</Make_TM_SagesMask.description>
+  <Make_TM_SagesMask.jobString>Изготовление маски безмятежности.</Make_TM_SagesMask.jobString>
 
   <Make_AncientMail.label>Сделать древную кольчугу</Make_AncientMail.label>
   <Make_AncientMail.description>Сделать древную кольчугу.</Make_AncientMail.description>
@@ -484,6 +516,10 @@
   <Make_ParagonHelm.label>Сделать шлем парагона</Make_ParagonHelm.label>
   <Make_ParagonHelm.description>Сделать шлем парагона.</Make_ParagonHelm.description>
   <Make_ParagonHelm.jobString>Изготовление шлема парагона.</Make_ParagonHelm.jobString>
+
+  <Make_TM_DragonSlayer.label>Сделать броню убийцы драконов</Make_TM_DragonSlayer.label>
+  <Make_TM_DragonSlayer.description>Сделать броню убийцы драконов.</Make_TM_DragonSlayer.description>
+  <Make_TM_DragonSlayer.jobString>Изготовление брони убийцы драконов.</Make_TM_DragonSlayer.jobString>
 
   <Make_TM_Artifact_BracersOfThePacifist.label>Сделать наручи пацифиста</Make_TM_Artifact_BracersOfThePacifist.label>
   <Make_TM_Artifact_BracersOfThePacifist.description>Сделать наручи пацифиста.</Make_TM_Artifact_BracersOfThePacifist.description>

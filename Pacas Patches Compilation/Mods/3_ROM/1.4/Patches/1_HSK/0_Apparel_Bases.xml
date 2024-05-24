@@ -38,9 +38,9 @@
                         <Intellectual>3</Intellectual>
                         <Crafting>5</Crafting>
                     </skillRequirements>
-                    <researchPrerequisite>
+                    <researchPrerequisites>
                         <li>TM_ArcaneCrafting</li>
-                    </researchPrerequisite>
+                    </researchPrerequisites>
                 </recipeMaker>
             </ThingDef>
     
@@ -54,9 +54,9 @@
                         <Intellectual>6</Intellectual>
                         <Crafting>9</Crafting>
                     </skillRequirements>
-                    <researchPrerequisite>
+                    <researchPrerequisites>
                         <li>TM_ArcaneApparel</li>
-                    </researchPrerequisite>
+                    </researchPrerequisites>
                 </recipeMaker>
             </ThingDef>
     
@@ -69,9 +69,9 @@
                         <Intellectual>10</Intellectual>
                         <Crafting>15</Crafting>
                     </skillRequirements>
-                    <researchPrerequisite>
+                    <researchPrerequisites>
                         <li>TM_ArcaneArtifacts</li>
-                    </researchPrerequisite>
+                    </researchPrerequisites>
                 </recipeMaker>
             </ThingDef>
     
@@ -92,9 +92,9 @@
                         <Intellectual>6</Intellectual>
                         <Crafting>12</Crafting>
                     </skillRequirements>
-                    <researchPrerequisite>
+                    <researchPrerequisites>
                         <li>TM_ArcaneApparel</li>
-                    </researchPrerequisite>
+                    </researchPrerequisites>
                     <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
                 </recipeMaker>
             </ThingDef>

@@ -6,6 +6,7 @@
                     <xpath>Defs/ThingDef[defName="TM_Arcalleum"]</xpath>
                     <value>
                         <thingCategories Inherit="False">
+                            <li>StrongMetallic</li>
                             <li>USLDBar</li>
                         </thingCategories>
                     </value>

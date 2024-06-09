@@ -46,4 +46,22 @@
   <TM_MaharalGolemK.labelPlural>махарал-големы</TM_MaharalGolemK.labelPlural>
 
 
+  <!-- STRAW GOLEM -->
+
+  <TM_StrawGolemK.label>соломенный голем</TM_StrawGolemK.label>
+  <TM_StrawGolemK.labelPlural>соломенные големы</TM_StrawGolemK.labelPlural>
+
+
+  <!-- WOOD GOLEM -->
+
+  <TM_WoodGolemK.label>деревянный голем</TM_WoodGolemK.label>
+  <TM_WoodGolemK.labelPlural>деревянные големы</TM_WoodGolemK.labelPlural>
+
+
+  <!-- SILK GOLEM -->
+
+  <TM_SilkGolemK.label>шелковый голем</TM_SilkGolemK.label>
+  <TM_SilkGolemK.labelPlural>шелковые големы</TM_SilkGolemK.labelPlural>
+
+
 </LanguageData>

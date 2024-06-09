@@ -21,9 +21,31 @@
                         <MeleeCritChance>0.24</MeleeCritChance>
                         <MeleeParryChance>0.33</MeleeParryChance>
                         <MaxHitPoints>200</MaxHitPoints>
-                        <ArmorRating_Blunt>14</ArmorRating_Blunt>
-                        <ArmorRating_Sharp>11</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>12</ArmorRating_Blunt>
+                        <ArmorRating_Sharp>8</ArmorRating_Sharp>
                     </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_Aura"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_ArmorDurability">
+							<Durability>300</Durability>
+							<Regenerates>true</Regenerates>
+							<RegenInterval>750</RegenInterval>
+							<RegenValue>10</RegenValue>
+							<Repairable>true</Repairable>
+							<RepairIngredients>
+                                <TitaniumBar>2</TitaniumBar>
+                                <CarbonAlloy>2</CarbonAlloy>
+							</RepairIngredients>
+							<RepairTime>300</RepairTime>
+							<RepairValue>200</RepairValue>
+							<CanOverHeal>false</CanOverHeal>
+							<MinArmorPct>0.5</MinArmorPct>
+							<MinArmorValueSharp>3</MinArmorValueSharp>
+							<MinArmorValueBlunt>8</MinArmorValueBlunt>
+						</li>
+					</value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="AM_Aura"]/tools</xpath>

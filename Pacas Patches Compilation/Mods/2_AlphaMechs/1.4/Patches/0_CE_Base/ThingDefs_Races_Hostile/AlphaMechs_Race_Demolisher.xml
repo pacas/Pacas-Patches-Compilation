@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Alpha Mechs</li>
-		</mods>
-
-		<match Class="PatchOperationSequence">
-			<operations>
-
-				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="AM_Demolisher"]</xpath>
-					<value>
-						<li Class="CombatExtended.RacePropertiesExtensionCE">
-							<bodyShape>QuadrupedLow</bodyShape>
-						</li>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="AM_Demolisher"]/statBases</xpath>
-					<value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Alpha Mechs</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="AM_Demolisher"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.RacePropertiesExtensionCE">
+                            <bodyShape>QuadrupedLow</bodyShape>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_Demolisher"]/statBases</xpath>
+                    <value>
                         <statBases>
                             <MoveSpeed>2.5</MoveSpeed>
                             <ArmorRating_Blunt>33</ArmorRating_Blunt>
@@ -32,32 +28,52 @@
                             <MaxHitPoints>400</MaxHitPoints>
                             <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">4</BandwidthCost>
                         </statBases>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_Demolisher"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_ArmorDurability">
+							<Durability>2000</Durability>
+							<Regenerates>true</Regenerates>
+							<RegenInterval>1250</RegenInterval>
+							<RegenValue>10</RegenValue>
+							<Repairable>true</Repairable>
+							<RepairIngredients>
+                                <TitaniumBar>5</TitaniumBar>
+                                <CarbonAlloy>5</CarbonAlloy>
+							</RepairIngredients>
+							<RepairTime>300</RepairTime>
+							<RepairValue>200</RepairValue>
+							<CanOverHeal>true</CanOverHeal>
+							<MaxOverHeal>150</MaxOverHeal>
+							<MinArmorPct>0.5</MinArmorPct>
+							<MinArmorValueSharp>10</MinArmorValueSharp>
+							<MinArmorValueBlunt>22</MinArmorValueBlunt>
+						</li>
 					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="AM_Demolisher"]/tools</xpath>
-					<value>
-						<tools>
-							<li Class="CombatExtended.ToolCE">
-								<label>mechanoid claws</label>
-								<capacities>
-									<li>Cut</li>
-									<li>AM_SiegeBlunt</li>
-								</capacities>
-								<power>46</power>
-								<cooldownTime>2.3</cooldownTime>
-								<linkedBodyPartsGroup>AM_MechaClaws</linkedBodyPartsGroup>
-								<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-								<armorPenetrationSharp>20</armorPenetrationSharp>
-								<armorPenetrationBlunt>80</armorPenetrationBlunt>
-							</li>
-						</tools>
-					</value>
-				</li>
-
-			</operations>
-		</match>
-	</Operation>
-
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_Demolisher"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>mechanoid claws</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                    <li>AM_SiegeBlunt</li>
+                                </capacities>
+                                <power>46</power>
+                                <cooldownTime>2.3</cooldownTime>
+                                <linkedBodyPartsGroup>AM_MechaClaws</linkedBodyPartsGroup>
+                                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                                <armorPenetrationSharp>20</armorPenetrationSharp>
+                                <armorPenetrationBlunt>80</armorPenetrationBlunt>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
 </Patch>

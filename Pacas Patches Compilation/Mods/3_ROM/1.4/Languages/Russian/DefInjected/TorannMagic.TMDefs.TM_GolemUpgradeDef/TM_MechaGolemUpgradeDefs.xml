@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TM_Golem_MechaRepair.label>восстановите часть</TM_Golem_MechaRepair.label>
+  <TM_Golem_MechaRepair.label>восстановление части</TM_Golem_MechaRepair.label>
 
   <TM_Golem_MechaMaxEnergy.label>энергетический элемент</TM_Golem_MechaMaxEnergy.label>
   <TM_Golem_MechaMaxEnergy.description>Увеличивает максимальную энергию на 500 за уровень. Начальная максимальная энергия составляет 1000.</TM_Golem_MechaMaxEnergy.description>
@@ -16,11 +16,7 @@
   <TM_Golem_MechaExtinguisher.description>Добавляет возможность быстрого тушения пожаров.</TM_Golem_MechaExtinguisher.description>
 
   <TM_Golem_MechaBallisticPlate.label>баллистическая пластина</TM_Golem_MechaBallisticPlate.label>
-  <TM_Golem_MechaBallisticPlate.description>Увеличивает броню, но уменьшает движение для каждого уровня:
-Тупой урон: +[24,37,49]%
-Режущий урон: +[35,53,68]%
-Температура: +[40,60,75]%
-Движение: -[.3c,.5c,.6c]%</TM_Golem_MechaBallisticPlate.description>
+  <TM_Golem_MechaBallisticPlate.description>Увеличивает броню, но уменьшает движение для каждого уровня:\nДробящий урон: +[4.8, 7.2, 10]\nРежущий урон: +[7, 10.4, 14]\nТемпература: +[0.4, 0.5, 0.6]\nДвижение: -[0.3, 0.5, 0.6]%</TM_Golem_MechaBallisticPlate.description>
 
   <TM_Golem_MechaAxe.label>меха-топор</TM_Golem_MechaAxe.label>
   <TM_Golem_MechaAxe.description>Добавляет быструю режущую атаку, полезную для уничтожения небронированных масс.</TM_Golem_MechaAxe.description>
@@ -32,26 +28,22 @@
   <TM_Golem_MechaHammer.description>Добавляет безжалостную тупую атаку, более мощную, чем кулаки големов.</TM_Golem_MechaHammer.description>
 
   <TM_Golem_MechaGatlingCannon.label>Пушка Гатлинга</TM_Golem_MechaGatlingCannon.label>
-  <TM_Golem_MechaGatlingCannon.description>Стреляет очередью из 12 выстрелов.
-Время перезарядки: 5 секунд
-Затраты на энергию: 40
-Диапазон: 40</TM_Golem_MechaGatlingCannon.description>
+  <TM_Golem_MechaGatlingCannon.description>Стреляет очередью из 12 выстрелов.\nВремя перезарядки: 5 секунд\nЗатраты энергии: 40\nРадиус: 40</TM_Golem_MechaGatlingCannon.description>
 
   <TM_Golem_MechaMiningLaser.label>горнодобывающий лазер</TM_Golem_MechaMiningLaser.label>
-  <TM_Golem_MechaMiningLaser.description>Позволяет голему добывать определенные сегменты стены.
-Затраты на энергию: 20</TM_Golem_MechaMiningLaser.description>
+  <TM_Golem_MechaMiningLaser.description>Позволяет голему добывать определенные сегменты стены.\nЗатраты энергии: 20</TM_Golem_MechaMiningLaser.description>
 
   <TM_Golem_MechaFlameCore.label>пламенный сердечник</TM_Golem_MechaFlameCore.label>
   <TM_Golem_MechaFlameCore.description>Пассивно увеличивает характеристики голема и добавляет способность, которая сжигает близлежащую грязь.
-Движение: +[0,5c/0,9c/1,2c]
+Движение: +[0,5/0,9/1,2]
 Обработка: +[10%/20%/30%]
-Урон Способности: +[10%/20%/30%]
+Урон способности: +[10%/20%/30%]
 Стоимость энергии: +[10%/20%/30%]
 
 Протокол очистки
 Время перезарядки: 6 секунд
-Диапазон: 2c
-Затраты на энергию: 4 доллара за грязь</TM_Golem_MechaFlameCore.description>
+Радиус: 2
+Затраты энергии: 4 за единицу грязь</TM_Golem_MechaFlameCore.description>
 
   <TM_Golem_MechaWaterCore.label>водяное ядро</TM_Golem_MechaWaterCore.label>
   <TM_Golem_MechaWaterCore.description>Пассивно увеличивает характеристики голема и добавляет автономный механизм восстановления.
@@ -62,7 +54,7 @@
 
 Автономный Ремонт
 Время перезарядки: 3 секунды
-Затраты на энергию: 10(D), 30(A)
+Затраты энергии: 10(D), 30(A)
 Количество исцелений: 8</TM_Golem_MechaWaterCore.description>
 
   <TM_Golem_MechaEarthCore.label>ядро земли</TM_Golem_MechaEarthCore.label>

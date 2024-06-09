@@ -652,7 +652,7 @@
 
 						</value>
 					</li>
-                    
+
                     <!-- Change the base away from the needle gun to prevent it inheriting incorrect mag size. -->
 					<li Class="PatchOperationAttributeSet">
 						<xpath>Defs/ThingDef[defName="AM_MechanoidGunRotaryNeedle"]</xpath>

@@ -30,6 +30,7 @@
         <li IfModActive="bichang.kyulen">Mods/Simple_Mods/Kyulen</li>
         <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
         <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>
+        <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>

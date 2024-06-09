@@ -40,6 +40,7 @@
     
         <!--DLC-->
         
+    <DLC_Changes>Изменения в DLC</DLC_Changes>
     <Change_GeneBank_Capacity>Вместимость генного банка - {Change_GeneBank_Capacity}</Change_GeneBank_Capacity>
     
 </LanguageData>

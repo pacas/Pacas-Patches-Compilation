@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <Basic_EggIncubator.label>Инкубатор</Basic_EggIncubator.label>
+    <Basic_EggIncubator.description>Поддерживает нужную температуру яиц. Использует топливо.</Basic_EggIncubator.description>
+    
+    <Normal_EggIncubator.label>Электрический инкубатор</Normal_EggIncubator.label>
+    <Normal_EggIncubator.description>Поддерживает нужную температуру яиц. Использует электричество.</Normal_EggIncubator.description>
+  
+</LanguageData>

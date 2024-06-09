@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ArchitectSense.DesignationSubCategoryDef>
+        <defName>SubCategory_EggIncubators</defName>
+        <label>Egg Incubators</label>
+        <description>Ruined? Never again.</description>
+        <defNames>
+            <li>Basic_EggIncubator</li>
+            <li>Normal_EggIncubator</li>
+        </defNames>
+        <designationCategory>Misc</designationCategory>
+        <debug>false</debug>
+    </ArchitectSense.DesignationSubCategoryDef>
+</Defs>	

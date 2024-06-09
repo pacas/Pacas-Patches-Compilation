@@ -1,22 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MagicArtifact_RerollSpiritBond.label>Свиток связующего духа</MagicArtifact_RerollSpiritBond.label>
-<MagicArtifact_RerollSpiritBond.description>Этот свиток может быть использован для изменения духовного животного шамана. Новая связь случайным образом выберет новый тип духа для связи.</MagicArtifact_RerollSpiritBond.description>
-<MagicArtifact_RerollSpiritBond.comps.2.useLabel>Использовать</MagicArtifact_RerollSpiritBond.comps.2.useLabel>
+    <MagicArtifact_RerollSpiritBond.label>Свиток связующего духа</MagicArtifact_RerollSpiritBond.label>
+    <MagicArtifact_RerollSpiritBond.description>Этот свиток может быть использован для изменения духовного животного шамана. Новая связь случайным образом выберет новый тип духа для связи.</MagicArtifact_RerollSpiritBond.description>
+    <MagicArtifact_RerollSpiritBond.comps.2.useLabel>Использовать</MagicArtifact_RerollSpiritBond.comps.2.useLabel>
 
-<TM_Artifact_ClassExtraction.label>Осколок извлечения духа</TM_Artifact_ClassExtraction.label>
-<TM_Artifact_ClassExtraction.description>Этот таинственный осколок способен извлекать боевые или тайные таланты пешки и превращать их в сущность. Осколок уничтожается после использования.
-	
-* Примечание: этот предмет полностью удаляет класс пешки и любые связанные с ним способности и навыки. Пешка может выучить другой класс после извлечения духа.</TM_Artifact_ClassExtraction.description>
-<TM_Artifact_ClassExtraction.comps.2.useLabel>Используйте осколок извлечения</TM_Artifact_ClassExtraction.comps.2.useLabel>
+    <TM_Artifact_ClassExtraction.label>Осколок извлечения духа</TM_Artifact_ClassExtraction.label>
+    <TM_Artifact_ClassExtraction.description>Этот таинственный осколок способен извлекать боевые или тайные таланты пешки и превращать их в сущность. Осколок уничтожается после использования.\n\n* Примечание: этот предмет полностью удаляет класс пешки и любые связанные с ним способности и навыки. Пешка может выучить другой класс после извлечения духа.</TM_Artifact_ClassExtraction.description>
+    <TM_Artifact_ClassExtraction.comps.2.useLabel>Используйте осколок извлечения</TM_Artifact_ClassExtraction.comps.2.useLabel>
 
-<TM_MagicArtifact_MightEssence.label>Сущность мастерства</TM_MagicArtifact_MightEssence.label>
-<TM_MagicArtifact_MightEssence.description>Суть грубого, боевого мастерства. Поглощение сущности дает боевой опыт.</TM_MagicArtifact_MightEssence.description>
-<TM_MagicArtifact_MightEssence.comps.0.useLabel>Используйте эссенцию мастерства</TM_MagicArtifact_MightEssence.comps.0.useLabel>
+    <TM_MagicArtifact_MightEssence.label>Сущность мастерства</TM_MagicArtifact_MightEssence.label>
+    <TM_MagicArtifact_MightEssence.description>Суть грубого, боевого мастерства. Поглощение сущности дает боевой опыт.</TM_MagicArtifact_MightEssence.description>
+    <TM_MagicArtifact_MightEssence.comps.0.useLabel>Используйте эссенцию мастерства</TM_MagicArtifact_MightEssence.comps.0.useLabel>
 
-<TM_MagicArtifact_MagicEssence.label>Сущность магии</TM_MagicArtifact_MagicEssence.label>
-<TM_MagicArtifact_MagicEssence.description>Суть грубого, магического мастерства. Поглощение сущности дает тайный опыт.</TM_MagicArtifact_MagicEssence.description>
-<TM_MagicArtifact_MagicEssence.comps.0.useLabel>Используйте эссенцию магии</TM_MagicArtifact_MagicEssence.comps.0.useLabel>
+    <TM_MagicArtifact_MagicEssence.label>Сущность магии</TM_MagicArtifact_MagicEssence.label>
+    <TM_MagicArtifact_MagicEssence.description>Суть грубого, магического мастерства. Поглощение сущности дает тайный опыт.</TM_MagicArtifact_MagicEssence.description>
+    <TM_MagicArtifact_MagicEssence.comps.0.useLabel>Используйте эссенцию магии</TM_MagicArtifact_MagicEssence.comps.0.useLabel>
 
 </LanguageData>

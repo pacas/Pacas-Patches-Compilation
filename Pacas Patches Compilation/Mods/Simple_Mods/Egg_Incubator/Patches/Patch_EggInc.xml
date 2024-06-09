@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="IncubatorBasic"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>Misc</designationCategory>
+                </value>
+            </li>
+            
+            <li Class="PatchOperation.Context">
+                <xpath>Defs/ThingDef[defName="Basic_EggIncubator"]</xpath>
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/comps</xpath>
+                        <value>
+                            <comps>
+                                <li Class="SK.CompProperties_HeatPusherAdvanced">
+                                    <compClass>SK.CompHeatPusherAdvanced</compClass>
+                                    <heatPerSecond>0.5</heatPerSecond>
+                                    <heatPushMaxTemperature>6</heatPushMaxTemperature>
+                                </li>
+                                <li Class="CompProperties_Flickable"/>
+                                <li Class="SK.CompFueled_Properties">
+                                    <factorByDifficulty>false</factorByDifficulty>
+                                    <operatingTemp>20</operatingTemp>
+                                    <fireDrawOffset>(0,0,0)</fireDrawOffset>
+                                    <fireDrawScale>0</fireDrawScale>
+                                    <fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
+                                    <fuelDrawScale>0.7</fuelDrawScale>
+                                    <fuelCapacity>20</fuelCapacity>
+                                    <burnFuelMultiplier>1</burnFuelMultiplier>
+                                    <canAutoBurn>true</canAutoBurn>
+                                    <smokeEnabled>false</smokeEnabled>
+                                    <effectOnWeather>false</effectOnWeather>
+                                    <smokeDensity>0</smokeDensity>
+                                    <fuelFilter>
+                                        <thingDefs>
+                                            <li>Kindling</li>
+                                        </thingDefs>
+                                        <categories>
+                                            <li>Wooden</li>
+                                            <li>Woody</li>
+                                        </categories>
+                                    </fuelFilter>
+                                </li>
+                                <li Class="EggIncubator.CompProperties_SecondLayer">
+                                    <graphicData>
+                                        <texPath>BasicIncubatorLid</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <shaderType>Transparent</shaderType>
+                                        <drawSize>(1,1)</drawSize>
+                                    </graphicData>
+                                    <altitudeLayer>MoteOverhead</altitudeLayer>
+                                </li>
+                            </comps>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>Animal_C1</li>
+                                <li>Light_B2</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationAdd">
+                        <xpath>ThingDef</xpath>
+                        <value>
+                            <inspectorTabs>
+                                <li>SK.ITab_Fuel</li>
+                            </inspectorTabs>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationRemove">
+                        <xpath>ThingDef/constructEffect</xpath>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>Metallic</li>
+                                <li>Stony</li>
+                                <li>Bricks</li>
+                            </stuffCategories>
+                            <costStuffCount>40</costStuffCount>
+                            <costList>
+                                <ComponentMedieval>8</ComponentMedieval>
+                            </costList>
+                        </value>
+                    </li>
+                </operations>
+            </li>
+            
+            <li Class="PatchOperation.Context">
+                <xpath>Defs/ThingDef[defName="Normal_EggIncubator"]</xpath>
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/comps</xpath>
+                        <value>
+                            <comps>
+                                <li Class="CompProperties_Power">
+                                    <compClass>CompPowerTrader</compClass>
+                                    <shortCircuitInRain>true</shortCircuitInRain>
+                                    <basePowerConsumption>300</basePowerConsumption>
+                                </li>
+                                <li Class="CompProperties_Flickable"/>
+                                <li Class="CompProperties_Glower">
+                                    <glowRadius>2</glowRadius>
+                                    <glowColor>(255,150,100,50)</glowColor>
+                                </li>
+                                <li Class="EggIncubator.CompProperties_SecondLayer">
+                                    <graphicData>
+                                        <texPath>Lid/Lid</texPath>
+                                        <graphicClass>Graphic_Multi</graphicClass>
+                                        <shaderType>Transparent</shaderType>
+                                        <drawSize>(2,2)</drawSize>
+                                    </graphicData>
+                                    <altitudeLayer>MoteOverhead</altitudeLayer>
+                                </li>
+                                <li Class="SK.CompProperties_HeatPusherAdvanced">
+                                    <compClass>SK.CompHeatPusherAdvanced</compClass>
+                                    <heatPerSecond>0.5</heatPerSecond>
+                                    <heatPushMaxTemperature>6</heatPushMaxTemperature>
+                                </li>
+                            </comps>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>Animal_C1</li>
+                                <li>Light_C1</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationRemove">
+                        <xpath>ThingDef/constructEffect</xpath>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>ThingDef/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>Metallic</li>
+                            </stuffCategories>
+                            <costStuffCount>60</costStuffCount>
+                            <costList>
+                                <ComponentIndustrial>8</ComponentIndustrial>
+                                <ElectronicComponents>3</ElectronicComponents>
+                            </costList>
+                        </value>
+                    </li>
+                </operations>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

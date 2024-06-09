@@ -31,32 +31,4 @@
             </li>
         </operations>
     </Operation>
-    
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Dungeons Core (Continued)</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/statBases/MeatAmount</xpath>
-                    <value>
-                        <MeatAmount>0</MeatAmount>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/statBases/LeatherAmount</xpath>
-                    <value>
-                        <LeatherAmount>0</LeatherAmount>
-                    </value>
-                </li>
-                <li Class="PatchOperationAdd">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="DF_Skeleton"]/race</xpath>
-                    <value>
-                        <useMeatFrom>Human</useMeatFrom>
-                    </value>
-                </li>
-            </operations>
-        </match>
-    </Operation>
 </Patch>

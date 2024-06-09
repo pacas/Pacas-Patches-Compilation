@@ -81,6 +81,18 @@
   <Make_TM_MechaGolem_Workstation.description>Сделать бездействующего меха-голема.</Make_TM_MechaGolem_Workstation.description>
   <Make_TM_MechaGolem_Workstation.jobString>Изготавливает бездействующего меха-голема.</Make_TM_MechaGolem_Workstation.jobString>
 
+  <Make_TM_StrawGolem_Workstation.label>Сделать бездействующего соломенного голема</Make_TM_StrawGolem_Workstation.label>
+  <Make_TM_StrawGolem_Workstation.description>Сделать бездействующего соломенного голема.</Make_TM_StrawGolem_Workstation.description>
+  <Make_TM_StrawGolem_Workstation.jobString>Изготавливает бездействующего соломенного голема.</Make_TM_StrawGolem_Workstation.jobString>
+
+  <Make_TM_WoodGolem_Workstation.label>Сделать бездействующего деревянного голема</Make_TM_WoodGolem_Workstation.label>
+  <Make_TM_WoodGolem_Workstation.description>Сделать бездействующего деревянного голема.</Make_TM_WoodGolem_Workstation.description>
+  <Make_TM_WoodGolem_Workstation.jobString>Изготавливает бездействующего деревянного голема.</Make_TM_WoodGolem_Workstation.jobString>
+
+  <Make_TM_SilkGolem_Workstation.label>Сделать бездействующего шелкового голема</Make_TM_SilkGolem_Workstation.label>
+  <Make_TM_SilkGolem_Workstation.description>Сделать бездействующего шелкового голема.</Make_TM_SilkGolem_Workstation.description>
+  <Make_TM_SilkGolem_Workstation.jobString>Изготавливает бездействующего шелкового голема.</Make_TM_SilkGolem_Workstation.jobString>
+
   <Make_MagicArtifact_RerollSpiritBond.label>Написать свиток духовной связи</Make_MagicArtifact_RerollSpiritBond.label>
   <Make_MagicArtifact_RerollSpiritBond.description>Написать свиток духовной связи.</Make_MagicArtifact_RerollSpiritBond.description>
   <Make_MagicArtifact_RerollSpiritBond.jobString>Пишет свиток духовной связи.</Make_MagicArtifact_RerollSpiritBond.jobString>

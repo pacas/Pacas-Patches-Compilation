@@ -7,7 +7,7 @@
                 <safetyDepth>0</safetyDepth>
                 <value>
                     <stuffCategories>
-                        <li>RuggedMetallic</li>
+                        <li>Metallic</li>
                         <li>Woody</li>
                     </stuffCategories>
                     <costStuffCount>80</costStuffCount>
@@ -45,7 +45,7 @@
                 <safetyDepth>0</safetyDepth>
                 <value>
                     <stuffCategories>
-                        <li>RuggedMetallic</li>
+                        <li>Metallic</li>
                     </stuffCategories>
                     <costStuffCount>160</costStuffCount>
                     <costList>

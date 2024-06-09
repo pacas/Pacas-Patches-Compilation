@@ -86,7 +86,6 @@
   <TM_MarbleGolem_Leather.label>кожа мраморного голема</TM_MarbleGolem_Leather.label>
   <TM_MarbleGolem_Leather.description>кожа мраморного голема</TM_MarbleGolem_Leather.description>
   <TM_MarbleGolem_Leather.stuffProps.stuffAdjective>кожа мраморного голема</TM_MarbleGolem_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Human -->
   <TM_MarbleGolem_Corpse.label>труп мраморного голема</TM_MarbleGolem_Corpse.label>
   <TM_MarbleGolem_Corpse.description>труп мраморного голема</TM_MarbleGolem_Corpse.description>
 
@@ -101,7 +100,6 @@
   <TM_MechaGolem.tools.3.label>меха-меч</TM_MechaGolem.tools.3.label>
   <TM_MechaGolem.tools.4.label>правый кулак</TM_MechaGolem.tools.4.label>
   <TM_MechaGolem.tools.5.label>меха-молот</TM_MechaGolem.tools.5.label>
-  <!-- No Leather: Butcher Products -->
   <TM_MechaGolem_Meat.label>мясо меха-голема</TM_MechaGolem_Meat.label>
   <TM_MechaGolem_Meat.description>мясо меха-голема</TM_MechaGolem_Meat.description>
   <TM_MechaGolem_Corpse.label>труп меха-голема</TM_MechaGolem_Corpse.label>
@@ -123,7 +121,6 @@
   <TM_FleshGolem_Leather.label>кожа голема из плоти</TM_FleshGolem_Leather.label>
   <TM_FleshGolem_Leather.description>кожа голема из плоти</TM_FleshGolem_Leather.description>
   <TM_FleshGolem_Leather.stuffProps.stuffAdjective>кожа голема из плоти</TM_FleshGolem_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Human -->
   <TM_FleshGolem_Corpse.label>труп голема из плоти</TM_FleshGolem_Corpse.label>
   <TM_FleshGolem_Corpse.description>труп голема из плоти</TM_FleshGolem_Corpse.description>
 
@@ -140,8 +137,6 @@
   <TM_HollowGolem.tools.1.label>прикосновение к распаду</TM_HollowGolem.tools.1.label>
   <TM_HollowGolem.tools.2.label>полый топор</TM_HollowGolem.tools.2.label>
   <TM_HollowGolem.tools.3.label>полый посох</TM_HollowGolem.tools.3.label>
-  <!-- No Leather: Butcher Products -->
-  <!-- Meat Amount: 0 -->
   <TM_HollowGolem_Corpse.label>труп полого голема</TM_HollowGolem_Corpse.label>
   <TM_HollowGolem_Corpse.description>труп полого голема</TM_HollowGolem_Corpse.description>
 
@@ -152,10 +147,37 @@
   <TM_MaharalGolem.description>Голем, созданный из смеси формованного камня, завернутый в кожу.</TM_MaharalGolem.description>
   <TM_MaharalGolem.tools.0.label>левый кулак</TM_MaharalGolem.tools.0.label>
   <TM_MaharalGolem.tools.1.label>правый кулак</TM_MaharalGolem.tools.1.label>
-  <!-- No Leather: Butcher Products -->
-  <!-- Meat Amount: 0 -->
   <TM_MaharalGolem_Corpse.label>труп голема махарала</TM_MaharalGolem_Corpse.label>
   <TM_MaharalGolem_Corpse.description>труп голема махарала</TM_MaharalGolem_Corpse.description>
+
+
+  <!-- Straw GOLEM -->
+
+  <TM_StrawGolem.label>соломенный голем</TM_StrawGolem.label>
+  <TM_StrawGolem.description>Голем, созданный из смеси основных материалов и имеющий форму человека.</TM_StrawGolem.description>
+  <TM_StrawGolem.tools.0.label>левый кулак</TM_StrawGolem.tools.0.label>
+  <TM_StrawGolem.tools.1.label>правый кулак</TM_StrawGolem.tools.1.label>
+  <TM_StrawGolem.label>труп соломенного голема</TM_StrawGolem.label>
+  <TM_StrawGolem.description>труп соломенного голема</TM_StrawGolem.description>
+
+
+  <!-- Wood GOLEM -->
+
+  <TM_WoodGolem.label>деревянный голем</TM_WoodGolem.label>
+  <TM_WoodGolem.description>Магическая энергия, влитая в конструкцию из дерева и магицита.</TM_WoodGolem.description>
+  <TM_WoodGolem.tools.0.label>сила духов</TM_WoodGolem.tools.0.label>
+  <TM_WoodGolem.tools.1.label>удар корпусом</TM_WoodGolem.tools.1.label>
+  <TM_WoodGolem.label>труп деревянного голема</TM_WoodGolem.label>
+  <TM_WoodGolem.description>труп деревянного голема</TM_WoodGolem.description>
+
+
+  <!-- Silk GOLEM -->
+
+  <TM_SilkGolem.label>шелковый голем</TM_SilkGolem.label>
+  <TM_SilkGolem.description>Масса ткани и ниток, сконструированная в форме слизняка, единственной отличительной чертой которого является дружелюбное, выразительное лицо.</TM_SilkGolem.description>
+  <TM_SilkGolem.tools.0.label>удар</TM_SilkGolem.tools.0.label>
+  <TM_SilkGolem.label>труп шелкового голема</TM_SilkGolem.label>
+  <TM_SilkGolem.description>труп шелкового голема</TM_SilkGolem.description>
 
 
 </LanguageData>

@@ -20,7 +20,7 @@
     <RB_InsertQueensDesc>Поместить матку в этот улей</RB_InsertQueensDesc>
     <RB_NoQueens>У вас нет никаких маток!</RB_NoQueens>
 
-    <RB_BeehouseContainsDrone>Трутень</RB_BeehouseContainsDrone>
+    <RB_BeehouseContainsDrone>\nТрутень</RB_BeehouseContainsDrone>
     <RB_BeehouseContainsQueen>Матка</RB_BeehouseContainsQueen>
     <RB_BeehouseNonePresent>Отсутствует</RB_BeehouseNonePresent>
     <RB_BeehouseCombProgress>Прогресс сот</RB_BeehouseCombProgress>

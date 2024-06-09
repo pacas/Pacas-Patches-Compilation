@@ -1,19 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
+    <Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Door Lockdown</li>
 		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="SK_DoorBase"]/comps</xpath>
-			<value>
-				<li>
-					<compClass>DoorLockdown.DoorButtonAddToLockdown</compClass>
-				</li>
-				<li>
-					<compClass>DoorLockdown.DoorButtonStartLockdown</compClass>
-				</li>
-			</value>
-		</match>
+		<match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="SK_DoorBase"]/comps</xpath>
+                    <value>
+                        <li>
+                            <compClass>DoorLockdown.DoorButtonAddToLockdown</compClass>
+                        </li>
+                        <li>
+                            <compClass>DoorLockdown.DoorButtonStartLockdown</compClass>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>VileRequisite-Fences And Floors by HSK</li>
+                    </mods>
+                    <match Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[@Name="FencesAFGateBase"]/comps</xpath>
+                        <value>
+                            <li>
+                                <compClass>DoorLockdown.DoorButtonAddToLockdown</compClass>
+                            </li>
+                            <li>
+                                <compClass>DoorLockdown.DoorButtonStartLockdown</compClass>
+                            </li>
+                        </value>
+                    </match>
+                </li>
+            </operations>
+        </match>
 	</Operation>
+    
+    
 </Patch>

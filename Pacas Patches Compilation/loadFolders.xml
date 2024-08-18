@@ -48,4 +48,52 @@
         <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
         <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
 	</v1.4>
+    <v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li>Common</li>
+		<li>Optional_Stuff</li>
+		<li>Multiversion_Patches</li>
+		<li>Settings</li>
+        <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
+        <!-- Order semi-important mods -->
+        <li IfModActive="MSE2.Core">Mods/0_MSE2</li>
+        <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP</li>
+        <li IfModActive="sarg.alphamechs">Mods/2_AlphaMechs/1.4</li>
+        <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.4</li>
+        <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>      
+        <!-- Special mods -->
+        <li IfModActive="rim.job.world">Mods/RJW/CoreMod</li>
+        <!-- Simple mods -->
+        <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>
+        <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/Simple_Mods/RimForge_Power_Poles</li>
+        <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/Simple_Mods/BrainwashChair</li>
+        <li IfModActive="kikohi.jewelry">Mods/Simple_Mods/Jewelry</li>
+        <li IfModActive="rabbit.stuncastervpe2">Mods/Simple_Mods/EoD_Stuncaster</li>
+        <li IfModActive="rikiki.miningco.projector">Mods/Simple_Mods/MiningCo_Projector</li>
+        <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Simple_Mods/Door_Lockdown</li>
+        <li IfModActive="bichang.kyulen">Mods/Simple_Mods/Kyulen</li>
+        <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
+        <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>
+        <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
+        <!-- Races mods -->
+        <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
+        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
+        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype</li>
+        <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
+        <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
+        <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
+        <!-- VE mods -->
+        <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
+        <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
+        <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
+        <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
+        <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
+	</v1.5>
 </loadFolders>

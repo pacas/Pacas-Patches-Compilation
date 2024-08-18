@@ -103,6 +103,22 @@
             </li>
             <li Class="XmlExtensions.OptionalPatch">
                 <modId>PPC.Pacas.Settings</modId>
+                <key>Colder_Coldstone</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName = "ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]</xpath>
+                        <value>
+                            <li Class="SK.CompProperties_ColdPusher">
+                                <ColdPerSecond>-45</ColdPerSecond>
+                                <ColdPushMinTemperature>-5</ColdPushMinTemperature>
+                            </li>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
                 <key>Ammo_Multiplier_Active</key>
                 <defaultValue>false</defaultValue>
                 <caseTrue>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_SiegebreakerBody.label>штурмовик</AM_SiegebreakerBody.label>
+  <AM_SiegebreakerBody.corePart.parts.0.parts.1.customLabel>левый датчик прицеливания</AM_SiegebreakerBody.corePart.parts.0.parts.1.customLabel>
+  <AM_SiegebreakerBody.corePart.parts.0.parts.2.customLabel>правый датчик прицеливания</AM_SiegebreakerBody.corePart.parts.0.parts.2.customLabel>
+  <AM_SiegebreakerBody.corePart.parts.0.parts.3.customLabel>левый датчик слуха</AM_SiegebreakerBody.corePart.parts.0.parts.3.customLabel>
+  <AM_SiegebreakerBody.corePart.parts.0.parts.4.customLabel>правый датчик слуха</AM_SiegebreakerBody.corePart.parts.0.parts.4.customLabel>
+
+
+</LanguageData>

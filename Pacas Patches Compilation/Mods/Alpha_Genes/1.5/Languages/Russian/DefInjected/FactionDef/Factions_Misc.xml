@@ -1,0 +1,17 @@
+<LanguageData>
+
+<AG_OutlanderCivilUnion.label>Союз ксенолюдей</AG_OutlanderCivilUnion.label>
+<AG_OutlanderCivilUnion.description>Свободный союз поселков, созданный генетически модифицированными людьми всех видов. Эта группа, как правило, дружелюбна по отношению к посторонним.</AG_OutlanderCivilUnion.description>
+<AG_OutlanderCivilUnion.leaderTitle>первый советник</AG_OutlanderCivilUnion.leaderTitle>
+<AG_OutlanderCivilUnion.pawnSingular>иностранец</AG_OutlanderCivilUnion.pawnSingular>
+<AG_OutlanderCivilUnion.pawnsPlural>иноземный </AG_OutlanderCivilUnion.pawnsPlural>
+
+<AG_XenohumanPirates.label>Пиратская банда ксенолюдей</AG_XenohumanPirates.label>
+<AG_XenohumanPirates.description>Свободная конфедерация пиратских банд, созданная генетически модифицированными людьми всех видов.\n\nОни мало интересуются строительством или сельским хозяйством, предпочитая отнимать средства к существованию у других, используя насилие.\n\nИх технологический уровень зависит главным образом от того, у кого им удалось недавно украсть. В основном они носят пороховое оружие, хотя некоторые предпочитают наносить удары с близкого расстояния.</AG_XenohumanPirates.description>
+<AG_XenohumanPirates.leaderTitle>Босс</AG_XenohumanPirates.leaderTitle>
+<AG_XenohumanPirates.pawnSingular>пират</AG_XenohumanPirates.pawnSingular>
+<AG_XenohumanPirates.pawnsPlural>пираты</AG_XenohumanPirates.pawnsPlural>
+
+
+<!--1.4/Defs/FactionDefs/Factions_Misc.xml-->
+</LanguageData>

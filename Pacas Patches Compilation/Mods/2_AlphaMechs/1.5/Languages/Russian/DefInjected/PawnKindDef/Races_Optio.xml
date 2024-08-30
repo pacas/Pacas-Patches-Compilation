@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Optio -->
+
+  <AM_Mech_Optio.label>оптио</AM_Mech_Optio.label>
+  <AM_Mech_Optio.labelPlural>оптионы</AM_Mech_Optio.labelPlural>
+  <AM_Mech_Optio.lifeStages.0.label>оптио</AM_Mech_Optio.lifeStages.0.label>
+  <AM_Mech_Optio.lifeStages.0.labelPlural>оптионы</AM_Mech_Optio.lifeStages.0.labelPlural>
+  <AM_Mech_Optio.lifeStages.1.label>оптио</AM_Mech_Optio.lifeStages.1.label>
+  <AM_Mech_Optio.lifeStages.1.labelPlural>оптионы</AM_Mech_Optio.lifeStages.1.labelPlural>
+
+
+</LanguageData>

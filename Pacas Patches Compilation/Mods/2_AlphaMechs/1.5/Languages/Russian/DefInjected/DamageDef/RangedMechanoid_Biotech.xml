@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Graser cannon -->
+
+  <AM_PowerfulBeam.label>луч</AM_PowerfulBeam.label>
+  <AM_PowerfulBeam.deathMessage>{0} {0_gender ? был сожжён : была сожжена}.</AM_PowerfulBeam.deathMessage>
+
+
+</LanguageData>

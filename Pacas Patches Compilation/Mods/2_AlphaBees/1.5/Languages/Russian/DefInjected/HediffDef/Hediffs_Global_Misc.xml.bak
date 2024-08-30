@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_RecentlyResearched.label>recently researched</RB_RecentlyResearched.label>
+  <RB_RecentlyResearched.description>This pawn has recently done some bee research.</RB_RecentlyResearched.description>
+
+  <RB_AteHoneyedIcePop.label>recently eaten honey pop</RB_AteHoneyedIcePop.label>
+  <RB_AteHoneyedIcePop.description>This pawn has recently eaten a honeyed ice pop.</RB_AteHoneyedIcePop.description>
+
+
+</LanguageData>

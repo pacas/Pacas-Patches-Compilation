@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <RB_CentrifugeBasicAnyComb.label>извлечение из любых сот</RB_CentrifugeBasicAnyComb.label>
+    <RB_CentrifugeBasicAnyComb.description>Извлечь содержимое любых сот - меда, воска и других продуктов.</RB_CentrifugeBasicAnyComb.description>
+    <RB_CentrifugeBasicAnyComb.jobString>Извлечение из любых доступных пчелиных сот.</RB_CentrifugeBasicAnyComb.jobString>
+
+    <RB_CentrifugeBasicTemperateComb.label>извлечение из обычных сот</RB_CentrifugeBasicTemperateComb.label>
+    <RB_CentrifugeBasicTemperateComb.description>Извлечь содержимое обычных сот  - меда и воска</RB_CentrifugeBasicTemperateComb.description>
+    <RB_CentrifugeBasicTemperateComb.jobString>Извлечение меда и воска</RB_CentrifugeBasicTemperateComb.jobString>
+
+    <RB_CentrifugeBasicMildComb.label>извлечение из умеренных сот</RB_CentrifugeBasicMildComb.label>
+    <RB_CentrifugeBasicMildComb.description>Извлечь содержимое умеренных сот - меда и воска</RB_CentrifugeBasicMildComb.description>
+    <RB_CentrifugeBasicMildComb.jobString>Извлечение меда и воска</RB_CentrifugeBasicMildComb.jobString>
+
+    <RB_CentrifugeBasicHybridComb.label>извлечение из гибридных сот</RB_CentrifugeBasicHybridComb.label>
+    <RB_CentrifugeBasicHybridComb.description>Извлечь содержимое гибридных сот - меда и белого воска</RB_CentrifugeBasicHybridComb.description>
+    <RB_CentrifugeBasicHybridComb.jobString>Извлечение меда и белого воска</RB_CentrifugeBasicHybridComb.jobString>
+
+    <RB_CentrifugeBasicAmalgamComb.label>извлечение из амальгамных сот</RB_CentrifugeBasicAmalgamComb.label>
+    <RB_CentrifugeBasicAmalgamComb.description>Извлечь содержимое амальгамных сот - голубого меда и белого воска</RB_CentrifugeBasicAmalgamComb.description>
+    <RB_CentrifugeBasicAmalgamComb.jobString>Извлечение голубого меда и белого воска</RB_CentrifugeBasicAmalgamComb.jobString>
+
+    <RB_CentrifugeBasicAlloyComb.label>извлечение из металлических сот</RB_CentrifugeBasicAlloyComb.label>
+    <RB_CentrifugeBasicAlloyComb.description>Извлечь содержимое металлических сот - меда, воска и железа</RB_CentrifugeBasicAlloyComb.description>
+    <RB_CentrifugeBasicAlloyComb.jobString>Извлечение меда, воска и железа</RB_CentrifugeBasicAlloyComb.jobString>
+
+    <RB_CentrifugeBasicAdaptiveComb.label>извлечение из адаптированных сот</RB_CentrifugeBasicAdaptiveComb.label>
+    <RB_CentrifugeBasicAdaptiveComb.description>Извлечь содержимое адаптированных сот - мёда и воска</RB_CentrifugeBasicAdaptiveComb.description>
+    <RB_CentrifugeBasicAdaptiveComb.jobString>Извлечение адаптированных мёда и воска</RB_CentrifugeBasicAdaptiveComb.jobString>
+
+    <RB_CentrifugeBasicNeutroComb.label>извлечение из нейтро сот</RB_CentrifugeBasicNeutroComb.label>
+    <RB_CentrifugeBasicNeutroComb.description>Извлечь содержимое нейтро сот - меда, воска и нейтроамина</RB_CentrifugeBasicNeutroComb.description>
+    <RB_CentrifugeBasicNeutroComb.jobString>Извлечение меда, воска и нейтроамина</RB_CentrifugeBasicNeutroComb.jobString>
+
+    <RB_CentrifugeBasicNutritiousComb.label>извлечение из питательных сот</RB_CentrifugeBasicNutritiousComb.label>
+    <RB_CentrifugeBasicNutritiousComb.description>Извлечь содержимое питательных сот - меда, воска и мяса</RB_CentrifugeBasicNutritiousComb.description>
+    <RB_CentrifugeBasicNutritiousComb.jobString>Извлечение меда, воска и мяса</RB_CentrifugeBasicNutritiousComb.jobString>
+
+    <RB_CentrifugeBasicTechnologicalComb.label>извлечение из технологических сот</RB_CentrifugeBasicTechnologicalComb.label>
+    <RB_CentrifugeBasicTechnologicalComb.description>Извлечь содержимое технологических сот - воска и биоинтерфесов</RB_CentrifugeBasicTechnologicalComb.description>
+    <RB_CentrifugeBasicTechnologicalComb.jobString>Извлечение воска и биоинтерфесов</RB_CentrifugeBasicTechnologicalComb.jobString>
+
+    <RB_CentrifugeBasicArcticComb.label>извлечение из арктических сот</RB_CentrifugeBasicArcticComb.label>
+    <RB_CentrifugeBasicArcticComb.description>Извлечь содержимое арктических сот - меда, воска и фруктового льда</RB_CentrifugeBasicArcticComb.description>
+    <RB_CentrifugeBasicArcticComb.jobString>Извлечение меда, воска и фруктового льда</RB_CentrifugeBasicArcticComb.jobString>
+
+    <RB_CentrifugeBasicWoodlandComb.label>извлечение из лесных сот</RB_CentrifugeBasicWoodlandComb.label>
+    <RB_CentrifugeBasicWoodlandComb.description>Извлечь содержимое лесных сот - меда, воска и бревен</RB_CentrifugeBasicWoodlandComb.description>
+    <RB_CentrifugeBasicWoodlandComb.jobString>Извлечение меда, воска и бревен</RB_CentrifugeBasicWoodlandComb.jobString>
+
+    <RB_CentrifugeBasicDesertComb.label>извлечение из пустынных сот</RB_CentrifugeBasicDesertComb.label>
+    <RB_CentrifugeBasicDesertComb.description>Извлечь содержимое пустынных сот - меда, красного воска и агавы</RB_CentrifugeBasicDesertComb.description>
+    <RB_CentrifugeBasicDesertComb.jobString>Извлечение меда, красного воска и агавы</RB_CentrifugeBasicDesertComb.jobString>
+
+    <RB_CentrifugeBasicSwampComb.label>извлечение из болотных сот</RB_CentrifugeBasicSwampComb.label>
+    <RB_CentrifugeBasicSwampComb.description>Извлечь содержимое болотных сот - меда, воска и грибов</RB_CentrifugeBasicSwampComb.description>
+    <RB_CentrifugeBasicSwampComb.jobString>Извлечение меда, воска и грибов</RB_CentrifugeBasicSwampComb.jobString>
+
+    <RB_CentrifugeBasicNocturnalComb.label>извлечение из ночных сот</RB_CentrifugeBasicNocturnalComb.label>
+    <RB_CentrifugeBasicNocturnalComb.description>Извлечь содержимое ночных сот - черного меда и черного воска</RB_CentrifugeBasicNocturnalComb.description>
+    <RB_CentrifugeBasicNocturnalComb.jobString>Извлечение черного меда и черного воска</RB_CentrifugeBasicNocturnalComb.jobString>
+
+    <RB_CentrifugeBasicArgentComb.label>извлечение из серебрянных сот</RB_CentrifugeBasicArgentComb.label>
+    <RB_CentrifugeBasicArgentComb.description>Извлечь содержимое серебрянных сот - меда, хрупкого воска и серебра</RB_CentrifugeBasicArgentComb.description>
+    <RB_CentrifugeBasicArgentComb.jobString>Извлечение меда, хрупкого воска и серебра</RB_CentrifugeBasicArgentComb.jobString>
+
+    <RB_CentrifugeBasicAurumComb.label>извлечение из золотых сот</RB_CentrifugeBasicAurumComb.label>
+    <RB_CentrifugeBasicAurumComb.description>Извлечь содержимое золотых сот - меда, хрупкого воска и золота</RB_CentrifugeBasicAurumComb.description>
+    <RB_CentrifugeBasicAurumComb.jobString>Извлечение меда, хрупкого воска и золота</RB_CentrifugeBasicAurumComb.jobString>
+
+    <RB_CentrifugeBasicPreciousComb.label>извлечение из драгоценных сот</RB_CentrifugeBasicPreciousComb.label>
+    <RB_CentrifugeBasicPreciousComb.description>Извлечь содержимое драгоценных сот - меда, хрупкого воска и нефрита</RB_CentrifugeBasicPreciousComb.description>
+    <RB_CentrifugeBasicPreciousComb.jobString>Извлечение меда, хрупкого воска и нефрита</RB_CentrifugeBasicPreciousComb.jobString>
+
+    <RB_CentrifugeBasicRadioactiveComb.label>извлечение из радиоактивных сот</RB_CentrifugeBasicRadioactiveComb.label>
+    <RB_CentrifugeBasicRadioactiveComb.description>Извлечь содержимое радиоактивных сот - меда, хрупкого воска и урана</RB_CentrifugeBasicRadioactiveComb.description>
+    <RB_CentrifugeBasicRadioactiveComb.jobString>Извлечение меда, хрупкого воска и урана</RB_CentrifugeBasicRadioactiveComb.jobString>
+
+    <RB_CentrifugeBasicTipsyComb.label>извлечение из алкогольных сот</RB_CentrifugeBasicTipsyComb.label>
+    <RB_CentrifugeBasicTipsyComb.description>Извлечь содержимое алкогольных сот - меда, воска и сусла</RB_CentrifugeBasicTipsyComb.description>
+    <RB_CentrifugeBasicTipsyComb.jobString>Извлечение меда, воска и сусла</RB_CentrifugeBasicTipsyComb.jobString>
+
+    <RB_CentrifugeBasicLuxuriousComb.label>извлечение из роскошных сот</RB_CentrifugeBasicLuxuriousComb.label>
+    <RB_CentrifugeBasicLuxuriousComb.description>Извлечь содержимое роскошных сот - меда, воска и амброзии</RB_CentrifugeBasicLuxuriousComb.description>
+    <RB_CentrifugeBasicLuxuriousComb.jobString>Извлечение меда, воска и амброзии</RB_CentrifugeBasicLuxuriousComb.jobString>
+
+    <RB_CentrifugeBasicPsychicComb.label>извлечение из психо сот</RB_CentrifugeBasicPsychicComb.label>
+    <RB_CentrifugeBasicPsychicComb.description>Извлечь содержимое психо сот - меда, воска и психолистьев</RB_CentrifugeBasicPsychicComb.description>
+    <RB_CentrifugeBasicPsychicComb.jobString>Извлечение меда, воска и психолистьев</RB_CentrifugeBasicPsychicComb.jobString>
+
+    <RB_CentrifugeBasicStonerComb.label>извлечение из дымных сот</RB_CentrifugeBasicStonerComb.label>
+    <RB_CentrifugeBasicStonerComb.description>Извлечь содержимое дымных сот - меда, воска и психолистьев</RB_CentrifugeBasicStonerComb.description>
+    <RB_CentrifugeBasicStonerComb.jobString>Извлечение меда, воска и дымолиста</RB_CentrifugeBasicStonerComb.jobString>
+
+    <RB_CentrifugeBasicAgriculturalComb.label>извлечение из посевных сот</RB_CentrifugeBasicAgriculturalComb.label>
+    <RB_CentrifugeBasicAgriculturalComb.description>Извлечь содержимое посевных сот - меда, воска и овощей</RB_CentrifugeBasicAgriculturalComb.description>
+    <RB_CentrifugeBasicAgriculturalComb.jobString>Извлечение меда, воска и овощей</RB_CentrifugeBasicAgriculturalComb.jobString>
+
+    <RB_CentrifugeBasicBittersweetComb.label>извлечение из сладких сот</RB_CentrifugeBasicBittersweetComb.label>
+    <RB_CentrifugeBasicBittersweetComb.description>Извлечь содержимое сладких сот - меда, воска и шоколада</RB_CentrifugeBasicBittersweetComb.description>
+    <RB_CentrifugeBasicBittersweetComb.jobString>Извлечение меда, воска и шоколада</RB_CentrifugeBasicBittersweetComb.jobString>
+
+    <RB_CentrifugeBasicLacticComb.label>извлечение из молочных сот</RB_CentrifugeBasicLacticComb.label>
+    <RB_CentrifugeBasicLacticComb.description>Извлечь содержимое молочных сот - меда, воска и молока</RB_CentrifugeBasicLacticComb.description>
+    <RB_CentrifugeBasicLacticComb.jobString>Извлечение меда, воска и молока</RB_CentrifugeBasicLacticComb.jobString>
+
+    <RB_CentrifugeBasicEgglayingComb.label>извлечение из яйцевых сот</RB_CentrifugeBasicEgglayingComb.label>
+    <RB_CentrifugeBasicEgglayingComb.description>Извлечь содержимое яйцекладных сот - меда, воска и яиц</RB_CentrifugeBasicEgglayingComb.description>
+    <RB_CentrifugeBasicEgglayingComb.jobString>Извлечение меда, воска и яиц</RB_CentrifugeBasicEgglayingComb.jobString>
+
+    <RB_CentrifugeBasicInsectoidComb.label>извлечение из инсект-сот</RB_CentrifugeBasicInsectoidComb.label>
+    <RB_CentrifugeBasicInsectoidComb.description>Извлечь содержимое инсект-сот - меда, воска и желе насекомых</RB_CentrifugeBasicInsectoidComb.description>
+    <RB_CentrifugeBasicInsectoidComb.jobString>Извлечение меда, воска и желе насекомых</RB_CentrifugeBasicInsectoidComb.jobString>
+
+    <RB_CentrifugeBasicElectronicComb.label>извлечение из электронных сот</RB_CentrifugeBasicElectronicComb.label>
+    <RB_CentrifugeBasicElectronicComb.description>Извлечь содержимое электронных сот - меда, воска и промышленных компонентов</RB_CentrifugeBasicElectronicComb.description>
+    <RB_CentrifugeBasicElectronicComb.jobString>Извлечение меда, воска и промышленных компонентов</RB_CentrifugeBasicElectronicComb.jobString>
+
+    <RB_CentrifugeBasicOilyComb.label>извлечение из топливных сот</RB_CentrifugeBasicOilyComb.label>
+    <RB_CentrifugeBasicOilyComb.description>Извлечь содержимое топливных сот - меда, воска и химического топлива</RB_CentrifugeBasicOilyComb.description>
+    <RB_CentrifugeBasicOilyComb.jobString>Извлечение меда, воска и химического топлива</RB_CentrifugeBasicOilyComb.jobString>
+
+    <RB_CentrifugeBasicPlasticComb.label>извлечение из пластиковых сот</RB_CentrifugeBasicPlasticComb.label>
+    <RB_CentrifugeBasicPlasticComb.description>Извлечь содержимое пластиковых сот - меда, воска и пластика</RB_CentrifugeBasicPlasticComb.description>
+    <RB_CentrifugeBasicPlasticComb.jobString>Извлечение меда, воска и пластика</RB_CentrifugeBasicPlasticComb.jobString>
+
+    <RB_CentrifugeBasicPetComb.label>извлечение из кормовых сот</RB_CentrifugeBasicPetComb.label>
+    <RB_CentrifugeBasicPetComb.description>Извлечь содержимое кормовые сот - меда, воска и комбикорма</RB_CentrifugeBasicPetComb.description>
+    <RB_CentrifugeBasicPetComb.jobString>Извлечение меда, воска и комбикорма</RB_CentrifugeBasicPetComb.jobString>
+
+    <RB_CentrifugeBasicStrawComb.label>извлечение из сенных сот</RB_CentrifugeBasicStrawComb.label>
+    <RB_CentrifugeBasicStrawComb.description>Извлечь содержимое сенных сот - меда, воска и сена</RB_CentrifugeBasicStrawComb.description>
+    <RB_CentrifugeBasicStrawComb.jobString>Извлечение меда, воска и сена</RB_CentrifugeBasicStrawComb.jobString>
+
+    <RB_CentrifugeBasicWeavingComb.label>извлечение из текстильных сот</RB_CentrifugeBasicWeavingComb.label>
+    <RB_CentrifugeBasicWeavingComb.description>Извлечь содержимое текстильных сот - меда, воска и ткани</RB_CentrifugeBasicWeavingComb.description>
+    <RB_CentrifugeBasicWeavingComb.jobString>Извлечение меда, воска и ткани</RB_CentrifugeBasicWeavingComb.jobString>
+
+    <RB_CentrifugeBasicTannerComb.label>извлечение из кожанных сот</RB_CentrifugeBasicTannerComb.label>
+    <RB_CentrifugeBasicTannerComb.description>Извлечь содержимое кожанных сот - меда, воска и кожи</RB_CentrifugeBasicTannerComb.description>
+    <RB_CentrifugeBasicTannerComb.jobString>Извлечение меда, воска и кожи</RB_CentrifugeBasicTannerComb.jobString>
+
+    <RB_CentrifugeBasicWoolyComb.label>извлечение из мохнатых сот</RB_CentrifugeBasicWoolyComb.label>
+    <RB_CentrifugeBasicWoolyComb.description>Извлечь содержимое мохнатых сот - меда, воска и кожи</RB_CentrifugeBasicWoolyComb.description>
+    <RB_CentrifugeBasicWoolyComb.jobString>Извлечение меда, воска и шерсти</RB_CentrifugeBasicWoolyComb.jobString>
+
+    <RB_CentrifugeBasicHighComb.label>извлечение из улетных сот</RB_CentrifugeBasicHighComb.label>
+    <RB_CentrifugeBasicHighComb.description>Извлечь содержимое улетных сот - меда, воска и порошок психина</RB_CentrifugeBasicHighComb.description>
+    <RB_CentrifugeBasicHighComb.jobString>Извлечение меда, воска и порошок психина</RB_CentrifugeBasicHighComb.jobString>
+
+    <RB_CentrifugeBasicLuciferComb.label>извлечение из люциферных сот</RB_CentrifugeBasicLuciferComb.label>
+    <RB_CentrifugeBasicLuciferComb.description>Извлечь содержимое люциферных сот - меда, воска и люциферия</RB_CentrifugeBasicLuciferComb.description>
+    <RB_CentrifugeBasicLuciferComb.jobString>Извлечение меда, воска и люциферия</RB_CentrifugeBasicLuciferComb.jobString>
+
+    <RB_CentrifugeBasicCulinaryComb.label>извлечение из поварских сот</RB_CentrifugeBasicCulinaryComb.label>
+    <RB_CentrifugeBasicCulinaryComb.description>Извлечь содержимое поварских сот - меда, воска и питательной пасты</RB_CentrifugeBasicCulinaryComb.description>
+    <RB_CentrifugeBasicCulinaryComb.jobString>Извлечение меда, воска и питательной пасты</RB_CentrifugeBasicCulinaryComb.jobString>
+
+    <RB_CentrifugeBasicChefComb.label>извлечение из кулинарных сот</RB_CentrifugeBasicChefComb.label>
+    <RB_CentrifugeBasicChefComb.description>Извлечь содержимое поварских сот - меда, воска и вкусных блюд</RB_CentrifugeBasicChefComb.description>
+    <RB_CentrifugeBasicChefComb.jobString>Извлечение меда, воска и вкусных блюд</RB_CentrifugeBasicChefComb.jobString>
+
+    <RB_CentrifugeBasicMedicinalComb.label>извлечение из лечебных сот</RB_CentrifugeBasicMedicinalComb.label>
+    <RB_CentrifugeBasicMedicinalComb.description>Извлечь содержимое лечебных сот - меда, воска и лекарственных трав</RB_CentrifugeBasicMedicinalComb.description>
+    <RB_CentrifugeBasicMedicinalComb.jobString>Извлечение меда, воска и лекарственных трав</RB_CentrifugeBasicMedicinalComb.jobString>
+
+    <RB_CentrifugeBasicSurgeonComb.label>извлечение из медицинских сот</RB_CentrifugeBasicSurgeonComb.label>
+    <RB_CentrifugeBasicSurgeonComb.description>Извлечь содержимое медицинских сот - меда, воска и передовых медикаментов</RB_CentrifugeBasicSurgeonComb.description>
+    <RB_CentrifugeBasicSurgeonComb.jobString>Извлечение меда, воска и передовых медикаментов</RB_CentrifugeBasicSurgeonComb.jobString>
+
+    <RB_CentrifugeBasicSyntheticComb.label>извлечение из синт-сот</RB_CentrifugeBasicSyntheticComb.label>
+    <RB_CentrifugeBasicSyntheticComb.description>Извлечь содержимое синт-сот - меда, воска и синткани</RB_CentrifugeBasicSyntheticComb.description>
+    <RB_CentrifugeBasicSyntheticComb.jobString>Извлечение меда, воска и синткани</RB_CentrifugeBasicSyntheticComb.jobString>
+
+    <RB_CentrifugeBasicHyperComb.label>извлечение из гипер-сот</RB_CentrifugeBasicHyperComb.label>
+    <RB_CentrifugeBasicHyperComb.description>Извлечь содержимое гипер-сот - меда, воска и гиперткани</RB_CentrifugeBasicHyperComb.description>
+    <RB_CentrifugeBasicHyperComb.jobString>Извлечение меда, воска и гиперткани</RB_CentrifugeBasicHyperComb.jobString>
+
+    <RB_CentrifugeBasicNitroComb.label>извлечение из взрывных сот</RB_CentrifugeBasicNitroComb.label>
+    <RB_CentrifugeBasicNitroComb.description>Извлечь содержимое взрывных сот - меда, воска и осколочных снарядов</RB_CentrifugeBasicNitroComb.description>
+    <RB_CentrifugeBasicNitroComb.jobString>Извлечение меда, воска и осколочных снарядов</RB_CentrifugeBasicNitroComb.jobString>
+
+    <RB_CentrifugeBasicFabricatedComb.label>извлечение из фабричных сот</RB_CentrifugeBasicFabricatedComb.label>
+    <RB_CentrifugeBasicFabricatedComb.description>Извлечь содержимое фабричных сот - белого меда, тяжелого пчелиного воска и передовых компонентов</RB_CentrifugeBasicFabricatedComb.description>
+    <RB_CentrifugeBasicFabricatedComb.jobString>Извлечение белого меда, тяжелого пчелиного воска и передовых компонентов</RB_CentrifugeBasicFabricatedComb.jobString>
+
+    <RB_CentrifugeBasicWizardComb.label>извлечение из магических сот</RB_CentrifugeBasicWizardComb.label>
+    <RB_CentrifugeBasicWizardComb.description>Извлечь содержимое магических сот - психотропного меда, пчелиного воска и сырого магицита</RB_CentrifugeBasicWizardComb.description>
+    <RB_CentrifugeBasicWizardComb.jobString>Извлечение психотропного меда, пчелиного воска и сырого магицит</RB_CentrifugeBasicWizardComb.jobString>
+
+
+</LanguageData>

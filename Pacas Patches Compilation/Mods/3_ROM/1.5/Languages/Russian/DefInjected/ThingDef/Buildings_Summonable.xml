@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_Teleporter.label>Телепортер</TM_Teleporter.label>
+  <TM_Teleporter.description>Портальная платформа, используемая для размещения телепортационных капсул.</TM_Teleporter.description>
+
+  <TM_Teleporter_I.label>Телепортер (I)</TM_Teleporter_I.label>
+  <TM_Teleporter_I.description>Портальная платформа, используемая для размещения телепортационных капсул.</TM_Teleporter_I.description>
+
+  <TM_Teleporter_II.label>Телепортер (II)</TM_Teleporter_II.label>
+  <TM_Teleporter_II.description>Портальная платформа, используемая для размещения телепортационных капсул.</TM_Teleporter_II.description>
+
+  <TM_Teleporter_III.label>Телепортер (III)</TM_Teleporter_III.label>
+  <TM_Teleporter_III.description>Портальная платформа, используемая для размещения телепортационных капсул.</TM_Teleporter_III.description>
+
+  <TM_TeleportPod.label>Телепортная площадка</TM_TeleportPod.label>
+  <TM_TeleportPod.description>Большой плоский цилиндр, используемый колдунами для быстрой транспортировки между локациями.</TM_TeleportPod.description>
+
+  <TM_TeleportPod_I.label>Телепортная площадка (I)</TM_TeleportPod_I.label>
+  <TM_TeleportPod_I.description>Большой плоский цилиндр, используемый колдунами для быстрой транспортировки между локациями.</TM_TeleportPod_I.description>
+
+  <TM_TeleportPod_II.label>Телепортная площадка (II)</TM_TeleportPod_II.label>
+  <TM_TeleportPod_II.description>Большой плоский цилиндр, используемый колдунами для быстрой транспортировки между локациями.</TM_TeleportPod_II.description>
+
+  <TM_TeleportPod_III.label>Телепортная площадка (III)</TM_TeleportPod_III.label>
+  <TM_TeleportPod_III.description>Большой плоский цилиндр, используемый колдунами для быстрой транспортировки между локациями.</TM_TeleportPod_III.description>
+
+  <Portfuel.label>Топливо телепорта</Portfuel.label>
+  <Portfuel.description>Тайная энергия разливается по бутылкам для топлива. Используется для зарядки порталов.</Portfuel.description>
+
+  <TM_Heater.label>магический нагреватель</TM_Heater.label>
+  <TM_Heater.description>Активный пространственный кран в плоскость огня, который может быть использован для нагрева замкнутых пространств. Может также использоваться для различных кулинарных или творческих задач. Длится около 3 дней.</TM_Heater.description>
+
+  <TM_Cooler.label>магический кулер</TM_Cooler.label>
+  <TM_Cooler.description>Активный размерный кран в плоскость льда, который может быть использован для охлаждения замкнутых пространств.</TM_Cooler.description>
+
+  <TM_PowerNode.label>Узел магической энергии </TM_PowerNode.label>
+  <TM_PowerNode.description>Тайный энергетический узел, который обеспечивает питание в течение ограниченного периода времени.</TM_PowerNode.description>
+
+  <TM_Sunlight.label>Солнечный свет</TM_Sunlight.label>
+  <TM_Sunlight.description>Пространственный карман, испускающий непрерывный источник света, достаточно сильный, чтобы вырастить урожай.</TM_Sunlight.description>
+
+  <TM_Sentinel.label>Сентинел</TM_Sentinel.label>
+  <TM_Sentinel.description>Эта статуя сделана из камня и имеет форму ужасающего существа. Статуя меньше среднего человека и имеет вид грубой огранки, хотя, как вы заметили, глаза, уши и когти, кажется, имеют более мелкие детали.
+  
+Когда вы приближаетесь к статуе, жуткий блеск в глазах каменного стража, кажется, следует за вами, и вы чувствуете, что за вами наблюдают.</TM_Sentinel.description>
+
+  <TM_MageLightTD.label>магический свет</TM_MageLightTD.label>
+  <TM_MageLightTD.description>Источник света, созданный магом.</TM_MageLightTD.description>
+
+  <TM_LightPod.label>Световой Луч</TM_LightPod.label>
+  <TM_LightPod.description>Перемещение по лучу света.</TM_LightPod.description>
+</LanguageData>

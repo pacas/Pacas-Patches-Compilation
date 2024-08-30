@@ -1,0 +1,13 @@
+<LanguageData>
+
+  <AG_Beauty.degreeDatas.0.label>Ангельская красота</AG_Beauty.degreeDatas.0.label>
+  <AG_Beauty.degreeDatas.0.description>[PAWN_nameDef] обладает неестественной, почти первозданной красотой [PAWN_objective] которая выделяет среди себе [PAWN_possessive] подобных.</AG_Beauty.degreeDatas.0.description>
+  <AG_Beauty.degreeDatas.1.label>Омерзительный</AG_Beauty.degreeDatas.1.label>
+  <AG_Beauty.degreeDatas.1.description>[PAWN_nameDef] настолько непостижимо уродлив и гротескен, что одного взгляда на него достаточно, [PAWN_objective] чтобы вызвать у других людей тошноту.</AG_Beauty.degreeDatas.1.description>
+
+
+<!--1.4/Defs/TraitDefs/Traits_Spectrum.xml-->
+<AG_Beauty.gradeDatas.0.labelFemale>ангельская красота</AG_Beauty.gradeDatas.0.labelFemale>
+<AG_Beauty.gradeDatas.1.labelFemale>отталкивающая</AG_Beauty.gradeDatas.1.labelFemale>
+
+</LanguageData>

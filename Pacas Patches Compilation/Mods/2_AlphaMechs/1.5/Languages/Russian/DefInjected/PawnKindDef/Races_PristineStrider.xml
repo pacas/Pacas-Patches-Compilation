@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pristine strider -->
+
+  <AM_PristineStrider.label>первозданный бродяга</AM_PristineStrider.label>
+  <AM_PristineStrider.labelPlural>первозданные бродяги</AM_PristineStrider.labelPlural>
+  <AM_PristineStrider.lifeStages.0.label>первозданный бродяга</AM_PristineStrider.lifeStages.0.label>
+  <AM_PristineStrider.lifeStages.0.labelPlural>первозданные бродяги</AM_PristineStrider.lifeStages.0.labelPlural>
+  <AM_PristineStrider.lifeStages.1.label>первозданный бродяга</AM_PristineStrider.lifeStages.1.label>
+  <AM_PristineStrider.lifeStages.1.labelPlural>первозданные бродяги</AM_PristineStrider.lifeStages.1.labelPlural>
+
+
+</LanguageData>

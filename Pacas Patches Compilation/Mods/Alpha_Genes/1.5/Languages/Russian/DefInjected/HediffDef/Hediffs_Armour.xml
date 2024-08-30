@@ -1,0 +1,17 @@
+<LanguageData>
+
+  <AG_FungalSkin.label>Грибковая кожа</AG_FungalSkin.label>
+  <AG_FungalSkin.description>Несколько грибковых комков прорастают из кожи этого человека.умеренная защита, за счет чего они становятся ОЧЕНЬ уязвимыми для огня.</AG_FungalSkin.description>
+
+  <AG_ArmourMinor.label>Кораобразная кожа</AG_ArmourMinor.label>
+  <AG_ArmourMinor.description>Твердая,кожа превратилась в кору дерева.средняя защита</AG_ArmourMinor.description>
+
+  <AG_ArmourMedium.label>Железная кожа</AG_ArmourMedium.label>
+  <AG_ArmourMedium.description>Кожа, укрепленная наноструктурой металлических соединений.высокая защита</AG_ArmourMedium.description>
+
+  <AG_ArmourMajor.label>Пласталевая кожа</AG_ArmourMajor.label>
+  <AG_ArmourMajor.description>Кожа укреплена пластиковой наноструктурой.слабая защита</AG_ArmourMajor.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Armour.xml-->
+</LanguageData>

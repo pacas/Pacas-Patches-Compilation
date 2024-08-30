@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Tier 4 research -->
+
+    <RB_RandomTier4Research.label>исследование пчел (незаконченное)</RB_RandomTier4Research.label>
+    <RB_RandomTier4Research.description>Это исследование продолжается.</RB_RandomTier4Research.description>
+
+    <RB_ResearchPapersNutTech.label>пчелиные исследования (уровень 4)</RB_ResearchPapersNutTech.label>
+    <RB_ResearchPapersNutTech.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersNutTech.description>
+    <RB_ResearchPapersNutTech.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersNutTech.comps.0.useLabel>
+
+    <RB_ResearchPapersNutAdapt.label>пчелиные исследования (уровень 4)</RB_ResearchPapersNutAdapt.label>
+    <RB_ResearchPapersNutAdapt.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersNutAdapt.description>
+    <RB_ResearchPapersNutAdapt.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersNutAdapt.comps.0.useLabel>
+
+    <RB_ResearchPapersAdaptTech.label>пчелиные исследования (уровень 4)</RB_ResearchPapersAdaptTech.label>
+    <RB_ResearchPapersAdaptTech.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAdaptTech.description>
+    <RB_ResearchPapersAdaptTech.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAdaptTech.comps.0.useLabel>
+
+    <RB_ResearchPapersStoPsy.label>пчелиные исследования (уровень 4)</RB_ResearchPapersStoPsy.label>
+    <RB_ResearchPapersStoPsy.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersStoPsy.description>
+    <RB_ResearchPapersStoPsy.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersStoPsy.comps.0.useLabel>
+
+    <RB_ResearchPapersAgriSwamp.label>пчелиные исследования (уровень 4)</RB_ResearchPapersAgriSwamp.label>
+    <RB_ResearchPapersAgriSwamp.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAgriSwamp.description>
+    <RB_ResearchPapersAgriSwamp.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAgriSwamp.comps.0.useLabel>
+
+    <RB_ResearchPapersPlasAlloy.label>пчелиные исследования (уровень 4)</RB_ResearchPapersPlasAlloy.label>
+    <RB_ResearchPapersPlasAlloy.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersPlasAlloy.description>
+    <RB_ResearchPapersPlasAlloy.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersPlasAlloy.comps.0.useLabel>
+
+    <RB_ResearchPapersAgriWood.label>пчелиные исследования (уровень 4)</RB_ResearchPapersAgriWood.label>
+    <RB_ResearchPapersAgriWood.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAgriWood.description>
+    <RB_ResearchPapersAgriWood.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAgriWood.comps.0.useLabel>
+
+
+    <!-- Tier 5 research -->
+
+    <RB_RandomTier5Research.label>исследование пчел (незаконченное)</RB_RandomTier5Research.label>
+    <RB_RandomTier5Research.description>Это исследование продолжается.</RB_RandomTier5Research.description>
+
+    <RB_ResearchPapersAgriCul.label>пчелиные исследования (уровень 5)</RB_ResearchPapersAgriCul.label>
+    <RB_ResearchPapersAgriCul.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAgriCul.description>
+    <RB_ResearchPapersAgriCul.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAgriCul.comps.0.useLabel>
+
+    <RB_ResearchPapersLuxHigh.label>пчелиные исследования (уровень 5)</RB_ResearchPapersLuxHigh.label>
+    <RB_ResearchPapersLuxHigh.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersLuxHigh.description>
+    <RB_ResearchPapersLuxHigh.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersLuxHigh.comps.0.useLabel>
+
+    <RB_ResearchPapersMedTech.label>пчелиные исследования (уровень 5)</RB_ResearchPapersMedTech.label>
+    <RB_ResearchPapersMedTech.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersMedTech.description>
+    <RB_ResearchPapersMedTech.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersMedTech.comps.0.useLabel>
+
+    <RB_ResearchPapersSynthTech.label>пчелиные исследования (уровень 5)</RB_ResearchPapersSynthTech.label>
+    <RB_ResearchPapersSynthTech.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersSynthTech.description>
+    <RB_ResearchPapersSynthTech.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersSynthTech.comps.0.useLabel>
+
+    <RB_ResearchPapersSynthOily.label>пчелиные исследования (уровень 5)</RB_ResearchPapersSynthOily.label>
+    <RB_ResearchPapersSynthOily.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersSynthOily.description>
+    <RB_ResearchPapersSynthOily.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersSynthOily.comps.0.useLabel>
+
+    <RB_ResearchPapersElectronicSynthetic.label>пчелиные исследования (уровень 5)</RB_ResearchPapersElectronicSynthetic.label>
+    <RB_ResearchPapersElectronicSynthetic.description>Исследователь нацарапал некоторые пчелиные комбинации в этом пергаменте. Чтобы увидеть, что написано на бумаге, выберите колониста и щелкните правой кнопкой мыши бумагу, как и любой другой артефакт в ванильной игре. Вы можете спокойно утилизировать предмет после того, как узнали комбинацию.</RB_ResearchPapersElectronicSynthetic.description>
+    <RB_ResearchPapersElectronicSynthetic.comps.0.useLabel>Прочитайте исследования пчел, чтобы узнать новые комбинации пчел.</RB_ResearchPapersElectronicSynthetic.comps.0.useLabel>
+
+    <!-- Tier Alpha research -->
+    
+    <RB_RandomAlphaResearch.label>исследование пчел (незаконченное)</RB_RandomAlphaResearch.label>
+    <RB_RandomAlphaResearch.description>Это исследование продолжается.</RB_RandomAlphaResearch.description>
+
+    <RB_ResearchPapersAgriElec.label>пчелиные исследования (тип альфа)</RB_ResearchPapersAgriElec.label>
+    <RB_ResearchPapersAgriElec.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAgriElec.description>
+    <RB_ResearchPapersAgriElec.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAgriElec.comps.0.useLabel>
+
+    <RB_ResearchPapersAlloyPrec.label>пчелиные исследования (тип альфа)</RB_ResearchPapersAlloyPrec.label>
+    <RB_ResearchPapersAlloyPrec.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersAlloyPrec.description>
+    <RB_ResearchPapersAlloyPrec.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersAlloyPrec.comps.0.useLabel>
+
+    <RB_ResearchPapersArcticLactic.label>пчелиные исследования (тип альфа)</RB_ResearchPapersArcticLactic.label>
+    <RB_ResearchPapersArcticLactic.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersArcticLactic.description>
+    <RB_ResearchPapersArcticLactic.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersArcticLactic.comps.0.useLabel>
+
+    <RB_ResearchPapersInsectoidDesert.label>пчелиные исследования (тип альфа)</RB_ResearchPapersInsectoidDesert.label>
+    <RB_ResearchPapersInsectoidDesert.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersInsectoidDesert.description>
+    <RB_ResearchPapersInsectoidDesert.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersInsectoidDesert.comps.0.useLabel>
+
+    <RB_ResearchPapersNeutroWood.label>пчелиные исследования (тип альфа)</RB_ResearchPapersNeutroWood.label>
+    <RB_ResearchPapersNeutroWood.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersNeutroWood.description>
+    <RB_ResearchPapersNeutroWood.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersNeutroWood.comps.0.useLabel>
+
+    <RB_ResearchPapersNoctInsectoid.label>пчелиные исследования (тип альфа)</RB_ResearchPapersNoctInsectoid.label>
+    <RB_ResearchPapersNoctInsectoid.description>Исследователь нацарапал некоторые пчелиные комбинации в этом пергаменте. Чтобы увидеть, что написано на бумаге, выберите колониста и щелкните правой кнопкой мыши бумагу, как и любой другой артефакт в ванильной игре. Вы можете спокойно утилизировать предмет после того, как узнали комбинацию.</RB_ResearchPapersNoctInsectoid.description>
+    <RB_ResearchPapersNoctInsectoid.comps.0.useLabel>Прочитайте исследования пчел, чтобы узнать новые комбинации пчел.</RB_ResearchPapersNoctInsectoid.comps.0.useLabel>
+
+    <RB_ResearchPapersNoctTanner.label>пчелиные исследования (тип альфа)</RB_ResearchPapersNoctTanner.label>
+    <RB_ResearchPapersNoctTanner.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersNoctTanner.description>
+    <RB_ResearchPapersNoctTanner.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersNoctTanner.comps.0.useLabel>
+
+    <RB_ResearchPapersRadiWood.label>пчелиные исследования (тип альфа)</RB_ResearchPapersRadiWood.label>
+    <RB_ResearchPapersRadiWood.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersRadiWood.description>
+    <RB_ResearchPapersRadiWood.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersRadiWood.comps.0.useLabel>
+
+    <RB_ResearchPapersSwampDesert.label>пчелиные исследования (тип альфа)</RB_ResearchPapersSwampDesert.label>
+    <RB_ResearchPapersSwampDesert.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersSwampDesert.description>
+    <RB_ResearchPapersSwampDesert.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersSwampDesert.comps.0.useLabel>
+
+    <RB_ResearchPapersSwampNutri.label>пчелиные исследования (тип альфа)</RB_ResearchPapersSwampNutri.label>
+    <RB_ResearchPapersSwampNutri.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersSwampNutri.description>
+    <RB_ResearchPapersSwampNutri.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersSwampNutri.comps.0.useLabel>
+
+    <RB_ResearchPapersSwampWeaving.label>пчелиные исследования (тип альфа)</RB_ResearchPapersSwampWeaving.label>
+    <RB_ResearchPapersSwampWeaving.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersSwampWeaving.description>
+    <RB_ResearchPapersSwampWeaving.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersSwampWeaving.comps.0.useLabel>
+
+    <RB_ResearchPapersWoolyTanner.label>пчелиные исследования (тип альфа)</RB_ResearchPapersWoolyTanner.label>
+    <RB_ResearchPapersWoolyTanner.description>Исследователь нацарапал некоторые пчелиные комбинации в этом пергаменте. Чтобы увидеть, что написано на бумаге, выберите колониста и щелкните правой кнопкой мыши бумагу, как и любой другой артефакт в ванильной игре. Вы можете спокойно утилизировать предмет после того, как узнали комбинацию.</RB_ResearchPapersWoolyTanner.description>
+    <RB_ResearchPapersWoolyTanner.comps.0.useLabel>Прочитайте исследования пчел, чтобы узнать новые комбинации пчел.</RB_ResearchPapersWoolyTanner.comps.0.useLabel>
+    
+
+    <RB_ResearchPapersWoodlandOily.label>пчелиные исследования (тип альфа)</RB_ResearchPapersWoodlandOily.label>
+    <RB_ResearchPapersWoodlandOily.description>Исследователь нацарапал некоторые пчелиные комбинации в этом пергаменте. Чтобы увидеть, что написано на бумаге, выберите колониста и щелкните правой кнопкой мыши бумагу, как и любой другой артефакт в ванильной игре. Вы можете спокойно утилизировать предмет после того, как узнали комбинацию.</RB_ResearchPapersWoodlandOily.description>
+    <RB_ResearchPapersWoodlandOily.comps.0.useLabel>Прочитайте исследования пчел, чтобы узнать новые комбинации пчел.</RB_ResearchPapersWoodlandOily.comps.0.useLabel>
+    
+    <!-- Tier Magic research -->
+    
+    <RB_RandomRoMResearch.label>исследование пчел (незаконченное)</RB_RandomRoMResearch.label>
+    <RB_RandomRoMResearch.description>Это исследование продолжается.</RB_RandomRoMResearch.description>
+
+    <RB_ResearchPapersPsychicAlloy.label>пчелиные исследования (магические)</RB_ResearchPapersPsychicAlloy.label>
+    <RB_ResearchPapersPsychicAlloy.description>Исследователь нацарапал некоторые сочетания пчел на этом пергаменте. Чтобы увидеть написанное на бумаге - выберите поселенца и щелкните правой кнопкой мыши на бумаге, как и с любым другим артефактом в исходной игре. Вы можете безопасно избавиться от предмета после того, как изучите сочетание.</RB_ResearchPapersPsychicAlloy.description>
+    <RB_ResearchPapersPsychicAlloy.comps.0.useLabel>Читайте исследования пчел, чтобы узнать новые их сочетания.</RB_ResearchPapersPsychicAlloy.comps.0.useLabel>
+    
+
+</LanguageData>

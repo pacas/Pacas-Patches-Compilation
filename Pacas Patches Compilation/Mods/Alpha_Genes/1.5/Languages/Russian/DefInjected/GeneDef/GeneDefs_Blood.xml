@@ -1,0 +1,40 @@
+<LanguageData>
+
+<AG_ChemfuelBlood.label>ХимКровь</AG_ChemfuelBlood.label>
+<AG_ChemfuelBlood.description>Носители этого гена имеют метаболизм, основанный на химическом топливе, и поэтому будут кровоточить химическим топливом вместо обычной человеческой крови. Эта кровь легко воспламеняется.</AG_ChemfuelBlood.description>
+<AG_ChemfuelBlood.symbolPack.prefixSymbols.0.symbol>хим</AG_ChemfuelBlood.symbolPack.prefixSymbols.0.symbol>
+<AG_ChemfuelBlood.symbolPack.prefixSymbols.1.symbol>взорваться</AG_ChemfuelBlood.symbolPack.prefixSymbols.1.symbol>
+<AG_ChemfuelBlood.symbolPack.prefixSymbols.2.symbol>БООМ</AG_ChemfuelBlood.symbolPack.prefixSymbols.2.symbol>
+
+<AG_SlimeBlood.label>Слизистая кровь</AG_SlimeBlood.label>
+<AG_SlimeBlood.description>У носителей этого гена слизистая кровь зеленого цвета. Эта кровь густая.</AG_SlimeBlood.description>
+<AG_SlimeBlood.symbolPack.prefixSymbols.0.symbol>вязкий</AG_SlimeBlood.symbolPack.prefixSymbols.0.symbol>
+<AG_SlimeBlood.symbolPack.prefixSymbols.1.symbol>слизь</AG_SlimeBlood.symbolPack.prefixSymbols.1.symbol>
+<AG_SlimeBlood.symbolPack.prefixSymbols.2.symbol>козявка</AG_SlimeBlood.symbolPack.prefixSymbols.2.symbol>
+
+<AG_TarBlood.label>Смолянистая кровь</AG_TarBlood.label>
+<AG_TarBlood.description>У носителей этого гена очень густая, темная и липкая кровь, похожая на деготь. Эта кровь затрудняет движение.</AG_TarBlood.description>
+<AG_TarBlood.symbolPack.prefixSymbols.0.symbol>смола</AG_TarBlood.symbolPack.prefixSymbols.0.symbol>
+<AG_TarBlood.symbolPack.prefixSymbols.2.symbol>масло</AG_TarBlood.symbolPack.prefixSymbols.2.symbol>
+
+
+<AG_InsectBlood.label>Кровь насекомых</AG_InsectBlood.label>
+<AG_InsectBlood.description>У носителей этого гена кровь насекомых.</AG_InsectBlood.description>
+<AG_InsectBlood.symbolPack.prefixSymbols.0.symbol>НАСЕКОМОЕ</AG_InsectBlood.symbolPack.prefixSymbols.0.symbol>
+
+<AG_FirefoamBlood.label>ОгнеупорнаяКровь</AG_FirefoamBlood.label>
+<AG_FirefoamBlood.description>У носителей этого гена есть странная огнезащитная смесь крови. Эта кровь недостаточно сильна, чтобы потушить пожар, но она не позволит пламени распространиться.</AG_FirefoamBlood.description>
+<AG_FirefoamBlood.symbolPack.prefixSymbols.1.symbol>пламя</AG_FirefoamBlood.symbolPack.prefixSymbols.1.symbol>
+<AG_FirefoamBlood.symbolPack.wholeNameSymbols.0.symbol>пенообразователь</AG_FirefoamBlood.symbolPack.wholeNameSymbols.0.symbol>
+
+<AG_PebbleBlood.label>Гальковая кровь</AG_PebbleBlood.label>
+<AG_PebbleBlood.description>Носители этого гена имеют частично кристаллизованную кровь, которая принимает форму маленьких камешков, похожих на гальку, как только она вступает в контакт с воздухом. Эта кровь гораздо меньше влияет на красоту и чистоту окружающей среды, но требует больше времени на уход и больше работы по уборке.</AG_PebbleBlood.description>
+
+<AG_AcidicBlood.label>Кислотная кровь</AG_AcidicBlood.label>
+  <AG_AcidicBlood.description>У носителей этого гена чрезвычайно кислотная кровь. Эта кровь не причиняет им вреда, но она прольется повсюду, когда они будут убиты, причиняя вред всем людям поблизости..</AG_AcidicBlood.description>
+
+  <!--1.4/Defs/GeneDefs/GeneDefs_Blood.xml-->
+<AG_WaterBlood.label>Водяная кровь</AG_WaterBlood.label>
+<AG_WaterBlood.description>Носители этого гена разжижают кровь. Их кровь настолько жидкая, что ее лужи практически неотличимы от воды.</AG_WaterBlood.description>
+
+</LanguageData>

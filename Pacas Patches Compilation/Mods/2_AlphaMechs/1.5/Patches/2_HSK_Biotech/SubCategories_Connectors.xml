@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+                <ArchitectSense.DesignationSubCategoryDef>
+                    <defName>SubCategory_AM_Connectors</defName>
+                    <label>Mechanoid Link Stations</label>
+                    <description>Maintain stable connection with these devices!</description>
+                    <defNames>
+                        <li>BandNode</li>
+                        <li>AM_BeamcasterBandNode</li>
+                        <li>AM_GreaterBandNode</li>
+                    </defNames>
+                    <designationCategory>Biotech</designationCategory>
+                    <debug>false</debug>
+                </ArchitectSense.DesignationSubCategoryDef>
+                <ArchitectSense.DesignationSubCategoryDef>
+                    <defName>SubCategory_AM_Boosters</defName>
+                    <label>Mechanoid Boosters</label>
+                    <description>Change mechs stats with these devices!</description>
+                    <defNames>
+                        <li>MechBooster</li>
+                        <li>AM_GreaterMechBooster</li>
+                        <li>AM_MechEfficiencyBooster</li>
+                        <li>AM_MechTargettingBooster</li>
+                        <li>AM_MechArmorBooster</li>
+                        <li>AM_MechDisruptor</li>
+                    </defNames>
+                    <designationCategory>Biotech</designationCategory>
+                    <debug>false</debug>
+                </ArchitectSense.DesignationSubCategoryDef>
+                <ArchitectSense.DesignationSubCategoryDef>
+                    <defName>SubCategory_AM_Boss</defName>
+                    <label>Mechbosses Locators</label>
+                    <description>Summon powerful mechlords with these devices!</description>
+                    <defNames>
+                        <li>BurnoutMechlinkBooster</li>
+                        <li>MechbandDish</li>
+                        <li>AM_InfernusMechlinkBooster</li>
+                        <li>AM_WarEmpressMechlinkBooster</li>
+                        <li>AM_ApoptosisMechlinkBooster</li>
+                    </defNames>
+                    <designationCategory>Biotech</designationCategory>
+                    <debug>false</debug>
+                </ArchitectSense.DesignationSubCategoryDef>
+            </value>
+        </match>
+    </Operation>
+</Patch>

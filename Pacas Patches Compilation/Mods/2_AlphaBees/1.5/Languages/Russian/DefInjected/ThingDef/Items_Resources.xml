@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_NondescriptMeat.label>неопознанное мясо</RB_NondescriptMeat.label>
+  <RB_NondescriptMeat.description>Это мясо трудно точно распознать и отнести к какому-либо виду животных, как если бы это было искусственное мясо, выращенное в чашке Петри ... Впрочем, оно совершенно съедобно.</RB_NondescriptMeat.description>
+
+  <RB_NonDescriptVegetables.label>неопознанные растения</RB_NonDescriptVegetables.label>
+  <RB_NonDescriptVegetables.description>Ах да, это кукуруза ... или ... пшеница ... эээ ... рожь? Это какое-то зерно, которое можно использовать для приготовления пищи, но лучше не задумываться о его происхождении.</RB_NonDescriptVegetables.description>
+
+  <RB_BeeMilk.label>пчелиное молоко</RB_BeeMilk.label>
+  <RB_BeeMilk.description>Молоко извлекается из молочных пчел. Да, лучше не думать об этом.</RB_BeeMilk.description>
+
+  <RB_BeeEggs.label>пчелиные яйца</RB_BeeEggs.label>
+  <RB_BeeEggs.description>Это куриные яйца, производимые яичной пчелой. Да, лучше не думать об этом слишком много ...</RB_BeeEggs.description>
+
+  <RB_ComponentBioInterface.label>компоненты пчелобиоинтерфейса</RB_ComponentBioInterface.label>
+  <RB_ComponentBioInterface.description>Усовершенствованный машинно-биологический интерфейс, используемый для автоматизации и управления живыми существами. Используется при строительстве продвинутых ульев.</RB_ComponentBioInterface.description>
+
+  <RB_Must.label>медовое сусло</RB_Must.label>
+  <RB_Must.description>Неферментированная медовуха. Это должно бродить в бродильной бочке, прежде чем станет пригодной для питья медовухой.</RB_Must.description>
+
+  <RB_Mead.label>медовуха</RB_Mead.label>
+  <RB_Mead.description>Медовуха - это алкогольный напиток, созданный путем сбраживания смеси мёда и воды, иногда с различными фруктами, пряностями, зернами или хмелем. Этот мед немного сильнее пива.</RB_Mead.description>
+  <RB_Mead.tools.0.label>бутылка</RB_Mead.tools.0.label>
+  <RB_Mead.tools.1.label>насадка</RB_Mead.tools.1.label>
+  <RB_Mead.ingestible.ingestCommandString>Напиток {0}</RB_Mead.ingestible.ingestCommandString>
+  <RB_Mead.ingestible.ingestReportString>Питьевой {0}.</RB_Mead.ingestible.ingestReportString>
+
+
+</LanguageData>

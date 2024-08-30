@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Lux -->
+
+  <AM_Mech_Lux.label>люкс</AM_Mech_Lux.label>
+  <AM_Mech_Lux.labelPlural>люксы</AM_Mech_Lux.labelPlural>
+  <AM_Mech_Lux.lifeStages.0.label>люкс</AM_Mech_Lux.lifeStages.0.label>
+  <AM_Mech_Lux.lifeStages.0.labelPlural>люксы</AM_Mech_Lux.lifeStages.0.labelPlural>
+  <AM_Mech_Lux.lifeStages.1.label>люкс</AM_Mech_Lux.lifeStages.1.label>
+  <AM_Mech_Lux.lifeStages.1.labelPlural>люксы</AM_Mech_Lux.lifeStages.1.labelPlural>
+
+</LanguageData>

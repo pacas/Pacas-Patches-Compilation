@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Learning interactions -->
+
+  <TM_MagicLore.label>обсуждали магические теории и практики</TM_MagicLore.label>
+  <TM_MagicLore.logRulesInitiator.rulesStrings.0>r_logentry->Наставник [RECIPIENT_nameDef] в магии.</TM_MagicLore.logRulesInitiator.rulesStrings.0>
+  <TM_MagicLore.logRulesRecipient.rulesStrings.0>r_logentry->Изучал магические теории у [INITIATOR_nameDef].</TM_MagicLore.logRulesRecipient.rulesStrings.0>
+
+  <TM_MightLore.label>обсуждали боевые приемы</TM_MightLore.label>
+  <TM_MightLore.logRulesInitiator.rulesStrings.0>r_logentry->Обучал боевым приемам [RECIPIENT_nameDef].</TM_MightLore.logRulesInitiator.rulesStrings.0>
+  <TM_MightLore.logRulesRecipient.rulesStrings.0>r_logentry->Обучен боевым приемам [INITIATOR_nameDef].</TM_MightLore.logRulesRecipient.rulesStrings.0>
+
+
+  <!-- Social interactions -->
+
+  <TM_EntertainID.label>развлёченный</TM_EntertainID.label>
+  <TM_EntertainID.logRulesInitiator.rulesStrings.0>r_logentry->Развлекали [RECIPIENT_nameDef].</TM_EntertainID.logRulesInitiator.rulesStrings.0>
+  <TM_EntertainID.logRulesRecipient.rulesStrings.0>r_logentry->Был развлекаем [INITIATOR_nameDef].</TM_EntertainID.logRulesRecipient.rulesStrings.0>
+
+  <TM_EntertainAuraID.label>развлёченный</TM_EntertainAuraID.label>
+  <TM_EntertainAuraID.logRulesInitiator.rulesStrings.0>r_logentry->Имел занимательную беседу с [RECIPIENT_nameDef].</TM_EntertainAuraID.logRulesInitiator.rulesStrings.0>
+  <TM_EntertainAuraID.logRulesRecipient.rulesStrings.0>r_logentry->Имел занимательную беседу с [INITIATOR_nameDef].</TM_EntertainAuraID.logRulesRecipient.rulesStrings.0>
+
+
+</LanguageData>

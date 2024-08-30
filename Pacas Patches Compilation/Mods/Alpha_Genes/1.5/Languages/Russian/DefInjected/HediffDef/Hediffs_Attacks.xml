@@ -1,0 +1,38 @@
+<LanguageData>
+
+  <AG_HornAttack.label>Огромные рога</AG_HornAttack.label>
+  <AG_HornAttack.description>Эти рога можно использовать в атаках ближнего боя.</AG_HornAttack.description>
+  <AG_HornAttack.comps.0.tools.0.label>Рога</AG_HornAttack.comps.0.tools.0.label>
+
+  <AG_ChainsawHands.label>Ручная бензопила</AG_ChainsawHands.label>
+  <AG_ChainsawHands.description>Это бензопила. Для руки. Честно говоря, это не сложно понять.</AG_ChainsawHands.description>
+  <AG_ChainsawHands.comps.0.tools.0.label>бензопила</AG_ChainsawHands.comps.0.tools.0.label>
+
+
+  <AG_CrabClaw.label>Клешня краба</AG_CrabClaw.label>
+  <AG_CrabClaw.description>Гигантская, но удивительно универсальная крабовая клешня.</AG_CrabClaw.description>
+  <AG_CrabClaw.comps.0.tools.0.label>Клешня</AG_CrabClaw.comps.0.tools.0.label>
+
+
+  <AG_ClawedHands.label>Когтистая рука</AG_ClawedHands.label>
+  <AG_ClawedHands.description>Когтистые руки выглядят устрашающе, эффективны в ближнем бою.</AG_ClawedHands.description>
+  <AG_ClawedHands.comps.0.tools.0.label>Когтистая рука</AG_ClawedHands.comps.0.tools.0.label>
+
+  <AG_VenomFangs.label>Ядовитые клыки</AG_VenomFangs.label>
+  <AG_VenomFangs.description>Большие клыки, которые можно использовать в ближнем бою для впрыскивания мощного яда.</AG_VenomFangs.description>
+  <AG_VenomFangs.comps.0.tools.0.label>Ядовитые клыки</AG_VenomFangs.comps.0.tools.0.label>
+
+  <AG_AcidFangs.label>Кислотные клыки</AG_AcidFangs.label>
+  <AG_AcidFangs.description>Большие клыки, которые можно использовать в ближнем бою для впрыскивания мощной кислоты.</AG_AcidFangs.description>
+  <AG_AcidFangs.comps.0.tools.0.label>Кислотные клыки</AG_AcidFangs.comps.0.tools.0.label>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Attacks.xml-->
+<AG_HornAttack.comps.HediffComp_VerbGiver.tools.0.label>рога</AG_HornAttack.comps.HediffComp_VerbGiver.tools.0.label>
+<AG_ChainsawHands.comps.HediffComp_VerbGiver.tools.0.label>бензопила</AG_ChainsawHands.comps.HediffComp_VerbGiver.tools.0.label>
+<AG_ClawedHands.comps.HediffComp_VerbGiver.tools.0.label>когтистая рука</AG_ClawedHands.comps.HediffComp_VerbGiver.tools.0.label>
+<AG_CrabClaw.comps.HediffComp_VerbGiver.tools.0.label>коготь</AG_CrabClaw.comps.HediffComp_VerbGiver.tools.0.label>
+<AG_VenomFangs.comps.HediffComp_VerbGiver.tools.0.label>ядовитые клыки</AG_VenomFangs.comps.HediffComp_VerbGiver.tools.0.label>
+<AG_AcidFangs.comps.HediffComp_VerbGiver.tools.0.label>кислотные клыки</AG_AcidFangs.comps.HediffComp_VerbGiver.tools.0.label>
+
+</LanguageData>

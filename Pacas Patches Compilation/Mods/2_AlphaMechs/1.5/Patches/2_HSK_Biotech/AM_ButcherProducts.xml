@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                defName="AM_Mech_Guttersnipe" or
+                defName="AM_Blitzkrieg" or
+                defName="AM_Mech_MasterChef" or
+                defName="AM_Mech_TurboCleaner"
+                ]</xpath>
+                    <value>
+                        <butcherProducts>
+                            <TitaniumBar>2</TitaniumBar>
+                            <DepletedUranium>3</DepletedUranium>
+                            <CarbonAlloy>2</CarbonAlloy>
+                        </butcherProducts>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

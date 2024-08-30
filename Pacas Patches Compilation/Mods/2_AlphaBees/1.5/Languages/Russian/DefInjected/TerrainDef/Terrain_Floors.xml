@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_BeesWaxFloor.label>вощеный пол</RB_BeesWaxFloor.label>
+  <RB_BeesWaxFloor.description>Лакированный воском пол. Скользкий.</RB_BeesWaxFloor.description>
+
+  <RB_BrittleBeesWaxFloor.label>вощеный хрупким воском пол</RB_BrittleBeesWaxFloor.label>
+  <RB_BrittleBeesWaxFloor.description>Лакированный воском пол. Скользкий.</RB_BrittleBeesWaxFloor.description>
+
+  <RB_RedBeeswaxFloor.label>вощеный красным воском пол</RB_RedBeeswaxFloor.label>
+  <RB_RedBeeswaxFloor.description>Лакированный воском пол. Скользкий.</RB_RedBeeswaxFloor.description>
+
+  <RB_WhiteBeeswaxFloor.label>вощеный белым воском пол</RB_WhiteBeeswaxFloor.label>
+  <RB_WhiteBeeswaxFloor.description>Лакированный воском пол. Скользкий.</RB_WhiteBeeswaxFloor.description>
+
+  <RB_BlackBeeswaxFloor.label>вощеный черным воском пол</RB_BlackBeeswaxFloor.label>
+  <RB_BlackBeeswaxFloor.description>Лакированный воском пол. Скользкий.</RB_BlackBeeswaxFloor.description>
+
+  <RB_HeavywaxFloor.label>вощеный тяжелым воском пол</RB_HeavywaxFloor.label>
+  <RB_HeavywaxFloor.description>Лакированный воском пол. Скользкий.</RB_HeavywaxFloor.description>
+
+  <RB_BlueBeeswaxFloor.label>вощеный голубым воском пол</RB_BlueBeeswaxFloor.label>
+  <RB_BlueBeeswaxFloor.description>Лакированный воском пол. Скользкий.</RB_BlueBeeswaxFloor.description>
+
+  <RB_SteelwaxFloor.label>вощеный стальным воском пол</RB_SteelwaxFloor.label>
+  <RB_SteelwaxFloor.description>Лакированный воском пол. Скользкий.</RB_SteelwaxFloor.description>
+
+  <RB_BeesWaxTileFloor.label>восковые плитки</RB_BeesWaxTileFloor.label>
+  <RB_BeesWaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_BeesWaxTileFloor.description>
+
+  <RB_BrittleBeesWaxTileFloor.label>плитки из хрупкого воска</RB_BrittleBeesWaxTileFloor.label>
+  <RB_BrittleBeesWaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_BrittleBeesWaxTileFloor.description>
+
+  <RB_RedBeeswaxTileFloor.label>плитки из краснрго воска</RB_RedBeeswaxTileFloor.label>
+  <RB_RedBeeswaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_RedBeeswaxTileFloor.description>
+
+  <RB_WhiteBeeswaxTileFloor.label>плитки из белого воска</RB_WhiteBeeswaxTileFloor.label>
+  <RB_WhiteBeeswaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_WhiteBeeswaxTileFloor.description>
+
+  <RB_BlackBeeswaxTileFloor.label>плитки из черног воска</RB_BlackBeeswaxTileFloor.label>
+  <RB_BlackBeeswaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_BlackBeeswaxTileFloor.description>
+
+  <RB_HeavywaxTileFloor.label>плитки из тяжелого воска</RB_HeavywaxTileFloor.label>
+  <RB_HeavywaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_HeavywaxTileFloor.description>
+
+  <RB_BlueBeeswaxTileFloor.label>плитки из голубого воска</RB_BlueBeeswaxTileFloor.label>
+  <RB_BlueBeeswaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_BlueBeeswaxTileFloor.description>
+
+  <RB_SteelwaxTileFloor.label>плитки из стального воска</RB_SteelwaxTileFloor.label>
+  <RB_SteelwaxTileFloor.description>Плиточный восковый пол. Не очень устойчивый. Красивее обычного вощёного пола.</RB_SteelwaxTileFloor.description>
+
+
+</LanguageData>

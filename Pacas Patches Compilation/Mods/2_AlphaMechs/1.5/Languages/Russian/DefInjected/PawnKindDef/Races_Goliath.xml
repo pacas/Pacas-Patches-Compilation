@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Goliath.label>голиаф</AM_Goliath.label>
+  <AM_Goliath.labelPlural>голиафы</AM_Goliath.labelPlural>
+  <AM_Goliath.lifeStages.0.label>голиаф</AM_Goliath.lifeStages.0.label>
+  <AM_Goliath.lifeStages.0.labelPlural>голиафы</AM_Goliath.lifeStages.0.labelPlural>
+  <AM_Goliath.lifeStages.0.labelMale>мужчина голиаф</AM_Goliath.lifeStages.0.labelMale>
+  <AM_Goliath.lifeStages.0.labelMalePlural>мужчины голиафы</AM_Goliath.lifeStages.0.labelMalePlural>
+  <AM_Goliath.lifeStages.0.labelFemale>женщина голиаф</AM_Goliath.lifeStages.0.labelFemale>
+  <AM_Goliath.lifeStages.0.labelFemalePlural>женщины голиафы</AM_Goliath.lifeStages.0.labelFemalePlural>
+  <AM_Goliath.lifeStages.1.label>голиаф</AM_Goliath.lifeStages.1.label>
+  <AM_Goliath.lifeStages.1.labelPlural>голиафы</AM_Goliath.lifeStages.1.labelPlural>
+  <AM_Goliath.lifeStages.1.labelMale>мужчина голиаф</AM_Goliath.lifeStages.1.labelMale>
+  <AM_Goliath.lifeStages.1.labelMalePlural>мужчины голиафы</AM_Goliath.lifeStages.1.labelMalePlural>
+  <AM_Goliath.lifeStages.1.labelFemale>женщина голиаф</AM_Goliath.lifeStages.1.labelFemale>
+  <AM_Goliath.lifeStages.1.labelFemalePlural>женщины голиафы</AM_Goliath.lifeStages.1.labelFemalePlural>
+  <AM_Goliath.labelMale>мужчина голиаф</AM_Goliath.labelMale>
+  <AM_Goliath.labelMalePlural>мужчины голиафы</AM_Goliath.labelMalePlural>
+  <AM_Goliath.labelFemale>женщина голиаф</AM_Goliath.labelFemale>
+  <AM_Goliath.labelFemalePlural>женщины голиафы</AM_Goliath.labelFemalePlural>
+
+
+</LanguageData>

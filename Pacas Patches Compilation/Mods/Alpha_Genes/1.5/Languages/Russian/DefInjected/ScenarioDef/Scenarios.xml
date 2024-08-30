@@ -1,0 +1,14 @@
+<LanguageData>
+
+  <AG_WretchScenario.label>Жалкое существование</AG_WretchScenario.label>
+  <AG_WretchScenario.description>В лаборатории не было света, только темнота. Никаких голосов, только тишина. И много дней не было еды... Ни разу все это не изменилось. Завыли сирены, взрывы сотрясли крепкие бетонные стены, и внезапно появилась свобода, порыв воздуха и почти забытый солнечный свет. Вы трое побежали и никогда не оглядывались назад. Однако ты навсегда изменился...</AG_WretchScenario.description>
+  <AG_WretchScenario.scenario.name>Жалкое существование</AG_WretchScenario.scenario.name>
+  <AG_WretchScenario.scenario.summary>Три жертвы генетических экспериментов пытаются выжить в дикой природе.</AG_WretchScenario.scenario.summary>
+  <AG_WretchScenario.scenario.description>В лаборатории не было света, только темнота. Никаких голосов, только тишина. И много дней без еды...\n\nОднажды все это изменилось. Завыли сирены, взрывы сотрясли крепкие бетонные стены, и внезапно появилась свобода, порыв воздуха и почти забытый солнечный свет. Вы трое побежали и никогда не оглядывались назад. Однако ты навсегда изменился...</AG_WretchScenario.scenario.description>
+  <AG_WretchScenario.scenario.parts.2.text>В лаборатории не было света, только темнота. Никаких голосов, только тишина. И много дней без еды...\n\nОднажды все это изменилось. Завыли сирены, взрывы сотрясли крепкие бетонные стены, и внезапно появилась свобода, порыв воздуха и почти забытый солнечный свет. Вы трое побежали и никогда не оглядывались назад. Однако ты навсегда изменился...</AG_WretchScenario.scenario.parts.2.text>
+
+
+<!--1.4/Defs/Scenarios/Scenarios.xml-->
+<AG_WretchScenario.scenario.parts.ConfigurePawnsXenotypes.customSummary>Надежда для 3х......</AG_WretchScenario.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+<AG_WretchScenario.scenario.parts.GameStartDialog.text>В лаборатории не было света, только темнота. Никаких голосов, только тишина. И много дней без еды...\n\nОднажды все изменилось. Завыли сирены, взрывы ударили по крепким бетонным стенам и вдруг свобода, порыв ветра и почти забытый свет солнца. Вы трое бежали и ни разу не оглянулись. Однако вы навсегда изменились...</AG_WretchScenario.scenario.parts.GameStartDialog.text>
+</LanguageData>

@@ -1,0 +1,58 @@
+<LanguageData>
+
+<AG_RainbowWings.label>Радужные крылья</AG_RainbowWings.label>
+<AG_RainbowWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев</AG_RainbowWings.description>
+<AG_RainbowWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_RainbowWings.customEffectDescriptions.0>
+
+<AG_BatWings.label>Крылья летучей мыши</AG_BatWings.label>
+<AG_BatWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев.</AG_BatWings.description>
+<AG_BatWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_BatWings.customEffectDescriptions.0>
+
+
+<AG_PegasusWings.label>Крылья Пегаса</AG_PegasusWings.label>
+<AG_PegasusWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев, покрытых перьями.</AG_PegasusWings.description>
+<AG_PegasusWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_PegasusWings.customEffectDescriptions.0>
+
+
+<AG_MothWings.label>Крылья мотылька</AG_MothWings.label>
+<AG_MothWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев.</AG_MothWings.description>
+<AG_MothWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_MothWings.customEffectDescriptions.0>
+
+<AG_BumbledroneWings.label>Пчелинные крылья</AG_BumbledroneWings.label>
+<AG_BumbledroneWings.description>Носители этого гена имеют две пары пчелиных крыльев, растущих из спины.</AG_BumbledroneWings.description>
+<AG_BumbledroneWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_BumbledroneWings.customEffectDescriptions.0>
+
+<AG_WaspWings.label>Крылья осы</AG_WaspWings.label>
+<AG_WaspWings.description>Носители этого гена имеют две пары осиных крыльев, растущих из спины.</AG_WaspWings.description>
+<AG_WaspWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_WaspWings.customEffectDescriptions.0>
+
+<AG_GasBags.label>Газовые баллоны</AG_GasBags.label>
+<AG_GasBags.description>Носители этого гена имеют внутренний орган, состоящий из наполненных водородом газовых баллонов, что позволяет им парить над местностью, за счет того, что они легко воспламеняются и взрываются при смерти.взрыв заденет 3 клетки.</AG_GasBags.description>
+<AG_GasBags.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_GasBags.customEffectDescriptions.0>
+<AG_GasBags.customEffectDescriptions.1>взрыв заденет 3 клетки.</AG_GasBags.customEffectDescriptions.1>
+<AG_GasBags.symbolPack.prefixSymbols.0.symbol>газ</AG_GasBags.symbolPack.prefixSymbols.0.symbol>
+<AG_GasBags.symbolPack.prefixSymbols.1.symbol>Х-</AG_GasBags.symbolPack.prefixSymbols.1.symbol>
+
+<AG_SingleWing.label>Деформированное крыло</AG_SingleWing.label>
+<AG_SingleWing.description>Носители этого гена имеют единственное атрофированное крыло. Бесполезен для полета.</AG_SingleWing.description>
+
+<AG_NoWings.label>Без крыльев</AG_NoWings.label>
+<AG_NoWings.description>У носителей этого гена нет крыльев.</AG_NoWings.description>
+<AG_NoWings.customEffectDescriptions.0>С помощью этого гена вы можете создавать ксенотипы, в которых колонист может иметь крылья или не иметь их случайным образом.</AG_NoWings.customEffectDescriptions.0>
+
+
+<AG_FeatheredWings.label>Пернатые крылья</AG_FeatheredWings.label>
+<AG_FeatheredWings.description>Носители этого гена имеют две пары пернатых крыльев, растущих из спины.</AG_FeatheredWings.description>
+<AG_FeatheredWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_FeatheredWings.customEffectDescriptions.0>
+
+
+<AG_DemonWings.label>Крылья демона</AG_DemonWings.label>
+  <AG_DemonWings.description>Носители этого гена имеют две пары демонических крыльев, растущих из их спины.</AG_DemonWings.description>
+ <AG_DemonWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности</AG_DemonWings.customEffectDescriptions.0>
+ 
+ 
+  <!--1.4/Defs/GeneDefs/GeneDefs_Wings.xml-->
+<AG_DrakonoriWings.label>крылья драконори</AG_DrakonoriWings.label>
+                          <AG_DrakonoriWings.description>Носители этого гена имеют пару гигантских драконьих крыльев, растущих из спины.</AG_DrakonoriWings.description>
+                                         <AG_DrakonoriWings.customEffectDescriptions.0>Колонист будет игнорировать затраты на перемещение по местности</AG_DrakonoriWings.customEffectDescriptions.0>
+             </LanguageData>

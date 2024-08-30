@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- Misc -->
+  
+    <RB_LetterLabelBeeCargoPodCrash>Пчелиная грузовая капсула</RB_LetterLabelBeeCargoPodCrash>
+    <RB_BeeCargoPodCrash>Вы обнаружили скопление пчелиных грузовых капсул, разбивающихся неподалеку. Кто накапливал весь этот связанный с пчелами материал на орбите?\nКто знает, но, возможно, вы найдете что-то полезное в обломках.</RB_BeeCargoPodCrash>
+
+    <RB_DestroyedByTemp> - смерть от температуры</RB_DestroyedByTemp>
+
+    <RB_ExtractBees>Извлечь трутня</RB_ExtractBees>
+    <RB_ExtractBeesDesc>Извлечение трутня из улья</RB_ExtractBeesDesc>
+    <RB_InsertBees>Поместить трутня</RB_InsertBees>
+    <RB_InsertBeesDesc>Поместить трутня в этот улей</RB_InsertBeesDesc>
+    <RB_NoBees>У вас нет трутней!</RB_NoBees>
+
+    <RB_ExtractQueens>Изъять матку</RB_ExtractQueens>
+    <RB_ExtractQueensDesc>Извлечение пчелиной матки из улья</RB_ExtractQueensDesc>
+    <RB_InsertQueens>Поместить матку</RB_InsertQueens>
+    <RB_InsertQueensDesc>Поместить матку в этот улей</RB_InsertQueensDesc>
+    <RB_NoQueens>У вас нет никаких маток!</RB_NoQueens>
+
+    <RB_BeehouseContainsDrone>\nТрутень</RB_BeehouseContainsDrone>
+    <RB_BeehouseContainsQueen>Матка</RB_BeehouseContainsQueen>
+    <RB_BeehouseNonePresent>Отсутствует</RB_BeehouseNonePresent>
+    <RB_BeehouseCombProgress>Прогресс сот</RB_BeehouseCombProgress>
+    <RB_BeehouseCombNoProgress>Приостановлено - нет пчел</RB_BeehouseCombNoProgress>
+    <RB_BeehouseCombNoProgressNight>Приостановлено - ночь</RB_BeehouseCombNoProgressNight>
+    <RB_BeehouseCombNoProgressRain>Приостановлено - ненастная погода</RB_BeehouseCombNoProgressRain>
+    <RB_BeehouseCombNoProgressTemperature>Приостановлено - температура (необходимо </RB_BeehouseCombNoProgressTemperature>
+    <RB_BeehouseCombNoProgressPlants1>Приостановлено - отсутствие </RB_BeehouseCombNoProgressPlants1>
+    <RB_BeehouseCombNoProgressPlants2> в радиусе 6 клеток</RB_BeehouseCombNoProgressPlants2>
+    <RB_BeehouseNoPower>Приостановлено - нет энергии</RB_BeehouseNoPower>
+
+    <RB_NoDronesFound>Трутней такого вида на карте не найдено</RB_NoDronesFound>
+    <RB_NoQueensFound>Маток такого вида на карте не найдено</RB_NoQueensFound>
+
+    <GU_PlaceNextToBeeHouse>Камера для расплода должна быть расположена рядом с ульем</GU_PlaceNextToBeeHouse>
+    <RB_BeehouseNotYetBuilt>Улей должен быть закончен, прежде чем вы сможете разместить эту камеру!</RB_BeehouseNotYetBuilt>
+
+    <GU_NoAdjacentBeehouse>Предупреждение: у этой камеры нет смежного улья</GU_NoAdjacentBeehouse>
+    <GU_AdjacentBeehouseInactive>Смежный улей сейчас бездействует</GU_AdjacentBeehouseInactive>
+    <GU_AdjacentBeehouseRunning>Камера для расплода прикреплена к улью.</GU_AdjacentBeehouseRunning>
+    <GU_BroodChamberProgress>Прогресс:</GU_BroodChamberProgress>
+    <RB_CommandBeehouseMakeGrowingZoneDesc>Создайте область выращивания вокруг этого улья, точно соответствующую зоне полетов пчелы.</RB_CommandBeehouseMakeGrowingZoneDesc>
+
+
+    <GU_PlaceNextToBeeHouseLeft>Камера скрещивания должна примыкать к улью</GU_PlaceNextToBeeHouseLeft>
+    <GU_NoAdjacentBeehouseHybridization>Предупреждение: у этой камеры скрещивания нет примыкающего улья</GU_NoAdjacentBeehouseHybridization>
+
+    <GU_AdjacentBeehouseRunningHybridization>Камера скрещивания прикреплена к улью.</GU_AdjacentBeehouseRunningHybridization>
+    <GU_HybridMutationsRunning>Мутации возможна раз в 1-3 дня (в настоящее время работает)</GU_HybridMutationsRunning>
+    <GU_HybridMutationsStopped>Мутации невозможна</GU_HybridMutationsStopped>
+
+    <RB_NoHybrid>Это сочетание пчел не вызывает мутаций. Вы должны его изменить или удалить камеру скрещивания!</RB_NoHybrid>
+    <RB_Hybrid>В камере скрещивания была создана новая пчела-мутант! Это сочетание не приведет к другого вида мутациям.</RB_Hybrid>
+    <RB_HybridNumberAlert>В камере скрещивания была создана новая пчела-мутант! Это сочетание приведет к другим {0} возможным видам мутаций.</RB_HybridNumberAlert>
+
+    <RB_DestroyResearch>Уничтожить исследования</RB_DestroyResearch>
+    <RB_DestroyResearchLabel>Уничтожить исследования. Предупреждение, это уничтожит исследование. Воспользуйтесь уничтожением, если вы уже видели такое сочетание и данные вам больше не нужны.</RB_DestroyResearchLabel>
+
+
+    <!-- Трутни -->
+    <RB_Temperate_Drone_Tag>Обычный трутень</RB_Temperate_Drone_Tag>
+    <RB_Mild_Drone_Tag>Умеренный трутень</RB_Mild_Drone_Tag>
+    <RB_Hybrid_Drone_Tag>Гибридный трутень</RB_Hybrid_Drone_Tag>
+    <RB_Amalgam_Drone_Tag>Амальгамный трутень</RB_Amalgam_Drone_Tag>
+    <RB_Alloy_Drone_Tag>Металлический трутень</RB_Alloy_Drone_Tag>
+    <RB_Adaptive_Drone_Tag>Адаптированный трутень</RB_Adaptive_Drone_Tag>
+    <RB_Neutro_Drone_Tag>Нейтро трутень</RB_Neutro_Drone_Tag>
+    <RB_Nutritious_Drone_Tag>Питательный трутень</RB_Nutritious_Drone_Tag>
+    <RB_Technological_Drone_Tag>Технологический трутень</RB_Technological_Drone_Tag>
+    <RB_Arctic_Drone_Tag>Арктический трутень</RB_Arctic_Drone_Tag>
+    <RB_Woodland_Drone_Tag>Лесной трутень</RB_Woodland_Drone_Tag>
+    <RB_Desert_Drone_Tag>Пустынный трутень</RB_Desert_Drone_Tag>
+    <RB_Swamp_Drone_Tag>Болотный трутень</RB_Swamp_Drone_Tag>
+    <RB_Nocturnal_Drone_Tag>Ночной трутень</RB_Nocturnal_Drone_Tag>
+    <RB_Argent_Drone_Tag>Серебрянный трутень</RB_Argent_Drone_Tag>
+    <RB_Aurum_Drone_Tag>Золотой трутень</RB_Aurum_Drone_Tag>
+    <RB_Precious_Drone_Tag>Драгоценный трутень</RB_Precious_Drone_Tag>
+    <RB_Radioactive_Drone_Tag>Радиоактивный трутень</RB_Radioactive_Drone_Tag>
+    <RB_Tipsy_Drone_Tag>Алкогольный трутень</RB_Tipsy_Drone_Tag>
+    <RB_Luxurious_Drone_Tag>Роскошный трутень</RB_Luxurious_Drone_Tag>
+    <RB_Psychic_Drone_Tag>Психо трутень</RB_Psychic_Drone_Tag>
+    <RB_Stoner_Drone_Tag>Дымный трутень</RB_Stoner_Drone_Tag>
+    <RB_Agricultural_Drone_Tag>Посевный трутень</RB_Agricultural_Drone_Tag>
+    <RB_Bittersweet_Drone_Tag>Сладкий трутень</RB_Bittersweet_Drone_Tag>
+    <RB_Lactic_Drone_Tag>Молочный трутень</RB_Lactic_Drone_Tag>
+    <RB_Egglaying_Drone_Tag>Яйцекладный трутень</RB_Egglaying_Drone_Tag>
+    <RB_Insectoid_Drone_Tag>Инсект-трутень</RB_Insectoid_Drone_Tag>
+    <RB_Electronic_Drone_Tag>Электронный трутень</RB_Electronic_Drone_Tag>
+    <RB_Oily_Drone_Tag>Топливный трутень</RB_Oily_Drone_Tag>
+    <RB_Plastic_Drone_Tag>Пластиковый трутень</RB_Plastic_Drone_Tag>
+    <RB_Pet_Drone_Tag>Кормовый трутень</RB_Pet_Drone_Tag>
+    <RB_Straw_Drone_Tag>Соломенный трутень</RB_Straw_Drone_Tag>
+    <RB_Weaving_Drone_Tag>Тканный трутень</RB_Weaving_Drone_Tag>
+    <RB_Tanner_Drone_Tag>Дубильный трутень</RB_Tanner_Drone_Tag>
+    <RB_Wooly_Drone_Tag>Мохнатый трутень</RB_Wooly_Drone_Tag>
+    <RB_High_Drone_Tag>Улетный трутень</RB_High_Drone_Tag>
+    <RB_Lucifer_Drone_Tag>Люциферный трутень</RB_Lucifer_Drone_Tag>
+    <RB_Medicinal_Drone_Tag>Лечебный трутень</RB_Medicinal_Drone_Tag>
+    <RB_Surgeon_Drone_Tag>Врачебный трутень</RB_Surgeon_Drone_Tag>
+    <RB_Culinary_Drone_Tag>Поварской трутень</RB_Culinary_Drone_Tag>
+    <RB_Chef_Drone_Tag>Кулинарный трутень</RB_Chef_Drone_Tag>
+    <RB_Synthetic_Drone_Tag>Синт-трутень</RB_Synthetic_Drone_Tag>
+    <RB_Hyper_Drone_Tag>Гипер-трутень</RB_Hyper_Drone_Tag>
+    <RB_Nitro_Drone_Tag>Взрывной трутень</RB_Nitro_Drone_Tag>
+    <RB_Fabricated_Drone_Tag>Сборочный трутень</RB_Fabricated_Drone_Tag>
+
+    <!-- Трутни - моды -->
+    
+    <RB_LightMagical_Drone_Tag>Легкий магический трутень</RB_LightMagical_Drone_Tag>
+    <RB_HeavyMagical_Drone_Tag>Тяжелый магический трутень</RB_HeavyMagical_Drone_Tag>
+
+    <RB_Fisher_Drone_Tag>Рыболовный трутень</RB_Fisher_Drone_Tag>
+    <RB_Spicy_Drone_Tag>Пряный трутень</RB_Spicy_Drone_Tag>
+
+    <RB_Mutagenic_Drone_Tag>Мутагенный трутень</RB_Mutagenic_Drone_Tag>
+    <RB_Mutanite_Drone_Tag>Мутанитовый</RB_Mutanite_Drone_Tag>
+    <RB_Morph_Drone_Tag>Превращающийся трутень</RB_Morph_Drone_Tag>
+
+    <RB_Aero_Drone_Tag>Аэротрутень</RB_Aero_Drone_Tag>
+    <RB_Black_Drone_Tag>Черный трутень</RB_Black_Drone_Tag>
+    <RB_Cactus_Drone_Tag>Кактусовый трутень</RB_Cactus_Drone_Tag>
+    <RB_Devil_Drone_Tag>Дьявольский трутень</RB_Devil_Drone_Tag>
+    <RB_Feral_Drone_Tag>Дикий трутень</RB_Feral_Drone_Tag>
+    <RB_Forsaken_Drone_Tag>Заблудший трутень</RB_Forsaken_Drone_Tag>
+    <RB_Frosty_Drone_Tag>Морозный трутень</RB_Frosty_Drone_Tag>
+    <RB_Fungal_Drone_Tag>Грибной трутень</RB_Fungal_Drone_Tag>
+    <RB_Legendary_Drone_Tag>Легендарный трутень</RB_Legendary_Drone_Tag>
+    <RB_Ocular_Drone_Tag>Окулярный трутень</RB_Ocular_Drone_Tag>
+    <RB_Slimy_Drone_Tag>Слизневый трутень</RB_Slimy_Drone_Tag>
+    <RB_Slurry_Drone_Tag>Шламовой трутень</RB_Slurry_Drone_Tag>
+    <RB_Sky_Drone_Tag>Небесный трутень</RB_Sky_Drone_Tag>
+
+    <RB_Eezo_Drone_Tag>Эзо трутень</RB_Eezo_Drone_Tag>
+    <RB_Prefab_Drone_Tag>Сборный трутень</RB_Prefab_Drone_Tag>
+
+    <RB_Casino_Drone_Tag>Казино трутень</RB_Casino_Drone_Tag>
+    <RB_Ominous_Drone_Tag>Зловещий трутень</RB_Ominous_Drone_Tag>
+    <RB_Fortunate_Drone_Tag>Удачливый трутень</RB_Fortunate_Drone_Tag>
+
+    <RB_Diamond_Drone_Tag>Алмазный трутень</RB_Diamond_Drone_Tag>
+    <RB_Ruby_Drone_Tag>Рубиновый трутень</RB_Ruby_Drone_Tag>
+    <RB_Sapphire_Drone_Tag>Сапфировый трутень</RB_Sapphire_Drone_Tag>
+
+    <RB_Skeletal_Drone_Tag>Скелетный трутень</RB_Skeletal_Drone_Tag>
+
+    <RB_Archo_Drone_Tag>Архотрутень</RB_Archo_Drone_Tag>
+
+    <RB_Automatic_Drone_Tag>Автоматический трутень</RB_Automatic_Drone_Tag>
+
+    <RB_Wizard_Drone_Tag>Магический трутень</RB_Wizard_Drone_Tag>
+
+
+
+    <!-- Матки -->
+
+    <RB_Temperate_Queen_Tag>Обычная матка</RB_Temperate_Queen_Tag>
+    <RB_Mild_Queen_Tag>Умеренная матка</RB_Mild_Queen_Tag>
+    <RB_Hybrid_Queen_Tag>Гибридная матка</RB_Hybrid_Queen_Tag>
+    <RB_Amalgam_Queen_Tag>Амальгамная матка</RB_Amalgam_Queen_Tag>
+    <RB_Alloy_Queen_Tag>Металлическая матка</RB_Alloy_Queen_Tag>
+    <RB_Adaptive_Queen_Tag>Адаптированная матка</RB_Adaptive_Queen_Tag>
+    <RB_Neutro_Queen_Tag>Нейтро матка</RB_Neutro_Queen_Tag>
+    <RB_Nutritious_Queen_Tag>Питательная матка</RB_Nutritious_Queen_Tag>
+    <RB_Technological_Queen_Tag>Технологическая матка</RB_Technological_Queen_Tag>
+    <RB_Arctic_Queen_Tag>Арктическая матка</RB_Arctic_Queen_Tag>
+    <RB_Woodland_Queen_Tag>Лесная матка</RB_Woodland_Queen_Tag>
+    <RB_Desert_Queen_Tag>Пустынная матка</RB_Desert_Queen_Tag>
+    <RB_Swamp_Queen_Tag>Болотная матка</RB_Swamp_Queen_Tag>
+    <RB_Nocturnal_Queen_Tag>Ночная матка</RB_Nocturnal_Queen_Tag>
+    <RB_Argent_Queen_Tag>Серебрянная матка</RB_Argent_Queen_Tag>
+    <RB_Aurum_Queen_Tag>Золотая матка</RB_Aurum_Queen_Tag>
+    <RB_Precious_Queen_Tag>Драгоценная матка</RB_Precious_Queen_Tag>
+    <RB_Radioactive_Queen_Tag>Радиоактивная матка</RB_Radioactive_Queen_Tag>
+    <RB_Tipsy_Queen_Tag>Алкогольная матка</RB_Tipsy_Queen_Tag>
+    <RB_Luxurious_Queen_Tag>Роскошная матка</RB_Luxurious_Queen_Tag>
+    <RB_Psychic_Queen_Tag>Психо матка</RB_Psychic_Queen_Tag>
+    <RB_Stoner_Queen_Tag>Дымная матка</RB_Stoner_Queen_Tag>
+    <RB_Agricultural_Queen_Tag>Посевная матка</RB_Agricultural_Queen_Tag>
+    <RB_Bittersweet_Queen_Tag>Сладкая матка</RB_Bittersweet_Queen_Tag>
+    <RB_Lactic_Queen_Tag>Молочная матка</RB_Lactic_Queen_Tag>
+    <RB_Egglaying_Queen_Tag>Яйцекладная матка</RB_Egglaying_Queen_Tag>
+    <RB_Insectoid_Queen_Tag>Инсект-матка</RB_Insectoid_Queen_Tag>
+    <RB_Electronic_Queen_Tag>Электронная матка</RB_Electronic_Queen_Tag>
+    <RB_Oily_Queen_Tag>Топливная матка</RB_Oily_Queen_Tag>
+    <RB_Plastic_Queen_Tag>Пластиковая матка</RB_Plastic_Queen_Tag>
+    <RB_Pet_Queen_Tag>Кормовая матка</RB_Pet_Queen_Tag>
+    <RB_Straw_Queen_Tag>Соломенная матка</RB_Straw_Queen_Tag>
+    <RB_Weaving_Queen_Tag>Тканная матка</RB_Weaving_Queen_Tag>
+    <RB_Tanner_Queen_Tag>Дубильная матка</RB_Tanner_Queen_Tag>
+    <RB_Wooly_Queen_Tag>Мохнатая матка</RB_Wooly_Queen_Tag>
+    <RB_High_Queen_Tag>Улетная матка</RB_High_Queen_Tag>
+    <RB_Lucifer_Queen_Tag>Люциферная матка</RB_Lucifer_Queen_Tag>
+    <RB_Medicinal_Queen_Tag>Лечебная матка</RB_Medicinal_Queen_Tag>
+    <RB_Surgeon_Queen_Tag>Врачебная матка</RB_Surgeon_Queen_Tag>
+    <RB_Culinary_Queen_Tag>Поварская матка</RB_Culinary_Queen_Tag>
+    <RB_Chef_Queen_Tag>Кулинарная матка</RB_Chef_Queen_Tag>
+    <RB_Synthetic_Queen_Tag>Синт-матка</RB_Synthetic_Queen_Tag>
+    <RB_Hyper_Queen_Tag>Гипер-матка</RB_Hyper_Queen_Tag>
+    <RB_Nitro_Queen_Tag>Взрывная матка</RB_Nitro_Queen_Tag>
+    <RB_Fabricated_Queen_Tag>Сборочная матка</RB_Fabricated_Queen_Tag>
+
+    <!-- Матки - моды -->
+    
+    <RB_LightMagical_Queen_Tag>Светлая магическая матка</RB_LightMagical_Queen_Tag>
+    <RB_HeavyMagical_Queen_Tag>Тяжелая магическая матка</RB_HeavyMagical_Queen_Tag>
+
+    <RB_Fisher_Queen_Tag>Матка-рыбак</RB_Fisher_Queen_Tag>
+    <RB_Spicy_Queen_Tag>Пряная матка</RB_Spicy_Queen_Tag>
+
+    <RB_Mutagenic_Queen_Tag>Мутагенная матка</RB_Mutagenic_Queen_Tag>
+    <RB_Mutanite_Queen_Tag>Матка Мутанит</RB_Mutanite_Queen_Tag>
+    <RB_Morph_Queen_Tag>Матка морфов</RB_Morph_Queen_Tag>
+
+    <RB_Aero_Queen_Tag>Аэроматка</RB_Aero_Queen_Tag>
+    <RB_Black_Queen_Tag>Черная матка</RB_Black_Queen_Tag>
+    <RB_Cactus_Queen_Tag>Кактусовая матка</RB_Cactus_Queen_Tag>
+    <RB_Devil_Queen_Tag>Дьявольская матка</RB_Devil_Queen_Tag>
+    <RB_Feral_Queen_Tag>Дикая матка</RB_Feral_Queen_Tag>
+    <RB_Forsaken_Queen_Tag>Заблудшая матка</RB_Forsaken_Queen_Tag>
+    <RB_Frosty_Queen_Tag>Морозная матка</RB_Frosty_Queen_Tag>
+    <RB_Fungal_Queen_Tag>Грибная матка</RB_Fungal_Queen_Tag>
+    <RB_Legendary_Queen_Tag>Легендарная матка</RB_Legendary_Queen_Tag>
+    <RB_Ocular_Queen_Tag>Окулярная матка</RB_Ocular_Queen_Tag>
+    <RB_Slimy_Queen_Tag>Слизневая матка</RB_Slimy_Queen_Tag>
+    <RB_Slurry_Queen_Tag>Шламовая матка</RB_Slurry_Queen_Tag>
+    <RB_Sky_Queen_Tag>Небесная матка</RB_Sky_Queen_Tag>
+
+    <RB_Eezo_Queen_Tag>Эзо матка</RB_Eezo_Queen_Tag>
+    <RB_Prefab_Queen_Tag>Сборная матка</RB_Prefab_Queen_Tag>
+
+    <RB_Casino_Queen_Tag>Казино матка</RB_Casino_Queen_Tag>
+    <RB_Ominous_Queen_Tag>Зловещая матка</RB_Ominous_Queen_Tag>
+    <RB_Fortunate_Queen_Tag>Счастливая матка</RB_Fortunate_Queen_Tag>
+
+    <RB_Diamond_Queen_Tag>Бриллиантовая матка</RB_Diamond_Queen_Tag>
+    <RB_Ruby_Queen_Tag>Рубиновая матка</RB_Ruby_Queen_Tag>
+    <RB_Sapphire_Queen_Tag>матка сапфиров</RB_Sapphire_Queen_Tag>
+
+    <RB_Skeletal_Queen_Tag>Скелетная матка</RB_Skeletal_Queen_Tag>
+
+    <RB_Archo_Queen_Tag>Архоматка</RB_Archo_Queen_Tag>
+
+    <RB_Automatic_Queen_Tag>Автоматическая матка</RB_Automatic_Queen_Tag>
+
+    <RB_Wizard_Queen_Tag>Магическая матка</RB_Wizard_Queen_Tag>
+
+
+
+    <!-- Options -->
+
+    <RB_IgnoreNight>Пчелы игнорируют ночное время</RB_IgnoreNight>
+    <RB_IgnoreRain>Пчелы игнорируют наличие погоды (например, дождя)</RB_IgnoreRain>
+    <RB_IgnoreTemperature>Пчелы игнорируют температуру на карте</RB_IgnoreTemperature>
+    <RB_IgnorePlants>Пчелы игнорируют потребность в растениях или других близлежащих материалах</RB_IgnorePlants>
+    <RB_GreenhouseBees>Тепличные пчелы. Пчелы учитывают температуру в помещении, а не среднюю на карте</RB_GreenhouseBees>
+    <RB_DisableMessages>Отключение сообщений об успешном завершении гибридной интеграции</RB_DisableMessages>
+
+    <!-- Ben's Patches -->
+
+    <BenLubarsRimBeesPatches_Alert_BeeDanger_title>Пчелы подвергаются воздействию элементов</BenLubarsRimBeesPatches_Alert_BeeDanger_title>
+    <BenLubarsRimBeesPatches_Alert_BeeDanger_desc>Пчелы наносят ущерб окружающей среде. Нажмите на предупреждение, чтобы перейти к пчелам.</BenLubarsRimBeesPatches_Alert_BeeDanger_desc>
+
+    <BenLubarsRimBeesPatches_showMissingBees_title>Показать иконку для отсутствующих пчел</BenLubarsRimBeesPatches_showMissingBees_title>
+    <BenLubarsRimBeesPatches_showMissingBees_desc>Покажите значок на пчелиных ульях, в которых отсутствует матка или трутень и они не выбраны для добавления.</BenLubarsRimBeesPatches_showMissingBees_desc>
+    <BenLubarsRimBeesPatches_showProgress_title>Показать прогресс пчелиного улья</BenLubarsRimBeesPatches_showProgress_title>
+    <BenLubarsRimBeesPatches_showProgress_desc>Добавляет индикатор прогресса в пчелиные улья, расплодные камеры и камеры гибридизации.</BenLubarsRimBeesPatches_showProgress_desc>
+    <BenLubarsRimBeesPatches_beeDangerAlert_title>Предупреждение об опасности пчел</BenLubarsRimBeesPatches_beeDangerAlert_title>
+    <BenLubarsRimBeesPatches_beeDangerAlert_desc>Покажите предупреждение, когда пчелы наносят ущерб окружающей среде, например, от температуры или от того, что их оставляют на земле на открытом воздухе.</BenLubarsRimBeesPatches_beeDangerAlert_desc>
+    <BenLubarsRimBeesPatches_knownBees_title>Кнопка "Показать вид исследования"</BenLubarsRimBeesPatches_knownBees_title>
+    <BenLubarsRimBeesPatches_knownBees_desc>Добавляет кнопку «Просмотреть исследование» в таблицу исследований пчел.</BenLubarsRimBeesPatches_knownBees_desc>
+
+    <BenLubarsRimBeesPatches_ResearchButton_title>Посмотреть исследования</BenLubarsRimBeesPatches_ResearchButton_title>
+    <BenLubarsRimBeesPatches_ResearchButton_desc>Покажите известные комбинации гибридизации пчел.</BenLubarsRimBeesPatches_ResearchButton_desc>
+
+    <BenLubarsRimBeesPatches_KnownBees_SelectBoth>Выберите второй вид, чтобы увидеть гибриды.</BenLubarsRimBeesPatches_KnownBees_SelectBoth>
+    <BenLubarsRimBeesPatches_KnownBees_UnknownResult>Неизвестный. Используйте камеру гибридизации, чтобы исследовать эту комбинацию.</BenLubarsRimBeesPatches_KnownBees_UnknownResult>
+    <BenLubarsRimBeesPatches_KnownBees_NoResult>Эта комбинация не дает никаких результатов.</BenLubarsRimBeesPatches_KnownBees_NoResult>
+    <BenLubarsRimBeesPatches_KnownBees_Additional>Дополнительные необнаруженные результаты: {NUM}</BenLubarsRimBeesPatches_KnownBees_Additional>
+    <BenLubarsRimBeesPatches_KnownBees_Discovered>Обнаружено {CUR} от {MAX} ({PERCENT})</BenLubarsRimBeesPatches_KnownBees_Discovered>
+    <BenLubarsRimBeesPatches_KnownBees_SelectFirst>Выберите первую пчелу</BenLubarsRimBeesPatches_KnownBees_SelectFirst>
+    <BenLubarsRimBeesPatches_KnownBees_SelectSecond>Выберите вторую пчелу</BenLubarsRimBeesPatches_KnownBees_SelectSecond>
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- orb of conviction -->
+    <TM_Artifact_Conviction.label>Убеждение</TM_Artifact_Conviction.label>
+    <TM_Artifact_Conviction.description>Убедите пешку присоединиться к вашему делу. Эта сила нанесет тяжелый урон заклинателю.
+
+Использование убеждения уничтожит сферу.</TM_Artifact_Conviction.description>
+</LanguageData>

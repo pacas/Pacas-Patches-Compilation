@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Walls -->
+
+  <AG_RustedWall.label>Ржавая стена</AG_RustedWall.label>
+  <AG_RustedWall.description>Непроходимая стена. Способен удерживать крышу.</AG_RustedWall.description>
+
+  <AG_LabDoor.label>Дверь лаборатории</AG_LabDoor.label>
+  <AG_LabDoor.description>Разделяет комнаты. Простые двери должны открываться вручную, что замедляет работу людей. Степень замедления зависит от того, из чего сделана дверь.</AG_LabDoor.description>
+
+
+</LanguageData>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_NondescriptMeat" or defName="RB_NonDescriptVegetables"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_PlantFoodRawBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_NondescriptMeat"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>MeatSubRaw</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_NondescriptMeat"]/ingestible</xpath>
+                <value>
+                    <ingestible>
+                        <foodType>VegetableOrFruit</foodType>
+                    </ingestible>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RB_NonDescriptVegetables"]</xpath>
+                <value>
+                    <thingCategories>
+                        <li>BasicPlantFoodRaw</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_BeeMilk"]/ingestible</xpath>
+                <value>
+                    <ingestible>
+                        <preferability>MealAwful</preferability>
+                        <tasteThought/>
+                        <foodType>AnimalProduct, Fluid</foodType>
+                        <maxNumToIngestAtOnce>10</maxNumToIngestAtOnce>
+                        <babiesCanIngest>true</babiesCanIngest>
+                    </ingestible>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_BeeMilk"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>CookingSupplies</li>
+                    </thingCategories>
+                    <tickerType>Rare</tickerType>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_BeeEggs"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_EggUnfertBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="RB_ComponentBioInterface"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_ResourceBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_ComponentBioInterface"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>Parts</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Must"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>CookingSupplies</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RB_Mead"]</xpath>
+                <value>
+                    <ThingDef ParentName="LiquorCloset">
+                        <defName>RB_Mead</defName>
+                        <label>mead</label>
+                        <thingCategories>
+                            <li>Alcohol</li>
+                        </thingCategories>
+                        <description>Mead is an alcoholic beverage created by fermenting honey with water, sometimes with various fruits, spices, grains, or hops. This mead is slightly stronger than beer.</description>
+                        <graphicData>
+                            <texPath>Things/Item/RB_Mead</texPath>
+                            <graphicClass>Graphic_StackCount</graphicClass>
+                        </graphicData>
+                        <statBases>
+                            <MarketValue>12</MarketValue>
+                        </statBases>
+                    </ThingDef>
+                </value>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

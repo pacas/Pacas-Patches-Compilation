@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- War empress -->
+
+  <AM_WarEmpress.label>королева войны</AM_WarEmpress.label>
+  <AM_WarEmpress.description>Сверхтяжелый робот со встроенным механическим гестатором. Снабженная соответствующими ресурсами, Королева войны может формировать стаи небольших боевых мехов-ловкачей, умеющих сражаться в ближнем бою, внутри своего массивного панциря и использовать их в бою. Королева вооружена очень опасной и дальнобойной снайперской турелью, которой следует избегать любой ценой, но самая большая угроза исходит от ее острых раздирающих когтей, которые она использует, чтобы злобно хлестать по своим целям.</AM_WarEmpress.description>
+  <AM_WarEmpress.tools.0.label>левые раздирающие когти</AM_WarEmpress.tools.0.label>
+  <AM_WarEmpress.tools.1.label>правые раздирающие когти</AM_WarEmpress.tools.1.label>
+  <AM_WarEmpress.tools.2.label>голова</AM_WarEmpress.tools.2.label>
+
+  <AM_Gun_SniperTurret.label>снайперская турель</AM_Gun_SniperTurret.label>
+  <AM_Gun_SniperTurret.description>Мощный механизм дальнобойной защиты, предназначенный для поражения вражеских целей на расстоянии. Стреляет пулями из обеднённого урана с предельной скоростью, способными пробить даже самую прочную броню.</AM_Gun_SniperTurret.description>
+
+  <AM_Bullet_SniperTurret.label>тяжелая пуля</AM_Bullet_SniperTurret.label>
+
+
+</LanguageData>

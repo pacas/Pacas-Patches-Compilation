@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SoulBondPhysical.stages.0.label>блаженство (физическое)</SoulBondPhysical.stages.0.label>
+  <SoulBondPhysical.stages.0.description>Моя боль прошла. Я плаваю в море эйфории.</SoulBondPhysical.stages.0.description>
+
+  <SoulBondMental.stages.0.label>блаженство (ментальное)</SoulBondMental.stages.0.label>
+  <SoulBondMental.stages.0.description>Мои тревоги и страхи были смыты прочь. То, что раньше волновало меня, теперь-не более чем отвлекающие факторы, которые уплывают в тумане грез и реальности.</SoulBondMental.stages.0.description>
+
+  <VitalityDrainTD.stages.0.label>Утечка Жизненных Сил</VitalityDrainTD.stages.0.label>
+  <VitalityDrainTD.stages.0.description>Этот суккуб был потрясающим - мои тревоги-это тусклые воспоминание, и я чувствую себя расслабленным, даже немного вялым.</VitalityDrainTD.stages.0.description>
+
+
+</LanguageData>

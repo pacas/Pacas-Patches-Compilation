@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_HyperLinkageChip.label>чип гиперсвязи</AM_HyperLinkageChip.label>
+  <AM_HyperLinkageChip.description>Микроорган для синхронизации диапазона вещания луча. Необходимо производить определенные продвинутые типы механоидов и оборудования.\n\nМеханитор может изучить этот чип, чтобы помочь открыть более высокие уровни мехтехнологических исследований. Сброшенный Инфернусом.</AM_HyperLinkageChip.description>
+
+  <AM_StellarProcessingChip.label>звёздный чип</AM_StellarProcessingChip.label>
+  <AM_StellarProcessingChip.description>Механоидный микроорган, фокусирующий пустоту. Необходимо производить определенные продвинутые типы механоидов и оборудования.\n\nМеханитор может изучить этот чип, чтобы помочь открыть более высокие уровни мехтехнологических исследований. Сброшенный королевой войны.</AM_StellarProcessingChip.description>
+
+  <AM_QuantumMatrixChip.label>чип квантовой материи</AM_QuantumMatrixChip.label>
+  <AM_QuantumMatrixChip.description>Механоидный микроорган с квантовой перестройкой. Необходимо производить определенных продвинутых механоидов и оборудование.\n\nМеханитор может изучить этот чип, чтобы помочь открыть более высокие уровни мехтехнологических исследований. Сброшенный Апоптизом.</AM_QuantumMatrixChip.description>
+
+
+</LanguageData>

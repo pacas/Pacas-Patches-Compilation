@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- успокаивающий бриз -->
+
+  <SoothingBreeze.stages.0.label>успокаивающий бриз</SoothingBreeze.stages.0.label>
+  <SoothingBreeze.stages.0.description>Что-то успокаивающе действует на меня, я мыслю ясно и трачу меньше энергии на бессмысленные заботы.</SoothingBreeze.stages.0.description>
+
+  <SoothingBreeze_I.stages.0.label>успокаивающий бриз</SoothingBreeze_I.stages.0.label>
+  <SoothingBreeze_I.stages.0.description>Something is having a calming affect on me, I'm thinking clearly and I'm wasting less energy fretting about senseless concerns.</SoothingBreeze_I.stages.0.description>
+
+  <SoothingBreeze_II.stages.0.label>успокаивающий бриз</SoothingBreeze_II.stages.0.label>
+  <SoothingBreeze_II.stages.0.description>Когда ветер дует мне в спину, я чувствую себя спокойным, расслабленным и сосредоточенным, и у меня есть энергия, чтобы продолжать идти.</SoothingBreeze_II.stages.0.description>
+
+  <SoothingBreeze_III.stages.0.label>успокаивающий бриз</SoothingBreeze_III.stages.0.label>
+  <SoothingBreeze_III.stages.0.description>Все отвлекающие факторы были смыты, я полностью сосредоточен и уверен в себе, чтобы выполнить все задачи в совершенстве.</SoothingBreeze_III.stages.0.description>
+
+
+  <!-- Ray of Hope -->
+
+  <RayofHope.stages.0.label>Тень надежды</RayofHope.stages.0.label>
+  <RayofHope.stages.0.description>Там, где есть тень, есть и свет</RayofHope.stages.0.description>
+
+  <RayofHope_I.stages.0.label>Проблеск надежды</RayofHope_I.stages.0.label>
+  <RayofHope_I.stages.0.description>У меня есть этот проблеск надежды, которого раньше не было!</RayofHope_I.stages.0.description>
+
+  <RayofHope_II.stages.0.label>Луч надежды</RayofHope_II.stages.0.label>
+  <RayofHope_II.stages.0.description>Сквозь это мрачное настроение пробивается луч света, и я наконец-то чувствую, что у нас есть шанс.</RayofHope_II.stages.0.description>
+
+  <RayofHope_III.stages.0.label>Маяк надежды</RayofHope_III.stages.0.label>
+  <RayofHope_III.stages.0.description>Всё несчастье, которое выпало на нашу долю, сгорает от яркого света, я испытываю прилив энергии и чувствую себя потрясающе!</RayofHope_III.stages.0.description>
+
+  <AMP_I.stages.0.label>накачанный</AMP_I.stages.0.label>
+  <AMP_I.stages.0.description>Я чувствую себя прекрасно. Это лучше, чем Go-сок.</AMP_I.stages.0.description>
+
+  <AMP_II.stages.0.label>усилитель</AMP_II.stages.0.label>
+  <AMP_II.stages.0.description>Это просто потрясающе! Я мог бы бежать, как ветер, и сражаться, как лев, - ничто не остановит меня!</AMP_II.stages.0.description>
+
+  <AMP_III.stages.0.label>бурлящая энергия</AMP_III.stages.0.label>
+  <AMP_III.stages.0.description>Меня переполняет сила, я чувствую себя неудержимым.</AMP_III.stages.0.description>
+
+  <Shadow.stages.0.label>нервный</Shadow.stages.0.label>
+  <Shadow.stages.0.description>Что-то тут не так...</Shadow.stages.0.description>
+
+  <Shadow_I.stages.0.label>озабоченный</Shadow_I.stages.0.label>
+  <Shadow_I.stages.0.description>У меня покалывает в затылке, как будто за мной постоянно следят... это жутко.</Shadow_I.stages.0.description>
+
+  <Shadow_II.stages.0.label>нервный</Shadow_II.stages.0.label>
+  <Shadow_II.stages.0.description>Я продолжаю видеть что-то краем глаза, мне кажется, что кто-то идет прямо за мной, и это заставляет меня нервничать.</Shadow_II.stages.0.description>
+
+  <Shadow_III.stages.0.label>обезумевший</Shadow_III.stages.0.label>
+  <Shadow_III.stages.0.description>Рядом со мной есть еще один человек, который помогает мне во всем, что я делаю. Он знает, что делать, прежде чем я это сделаю. Неужели я одержим?!</Shadow_III.stages.0.description>
+
+
+  <!-- Blind -->
+
+  <TM_Blind.stages.0.label>ослепленный</TM_Blind.stages.0.label>
+  <TM_Blind.stages.0.description>Там была вспышка света и то, что она открыла мне... Я не могу... Я больше ничего не хочу видеть!</TM_Blind.stages.0.description>
+
+
+</LanguageData>

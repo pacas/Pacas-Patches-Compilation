@@ -1,0 +1,27 @@
+<LanguageData>
+
+<AG_ChemfuelVomit.label>Рвота химическим топливом</AG_ChemfuelVomit.label>
+<AG_ChemfuelVomit.description>Носители этого гена имеют метаболизм, основанный на химическом топливе, и поэтому их будет рвать химическим топливом. Эта рвота легко воспламеняется.</AG_ChemfuelVomit.description>
+<AG_ChemfuelVomit.symbolPack.prefixSymbols.0.symbol>хим</AG_ChemfuelVomit.symbolPack.prefixSymbols.0.symbol>
+<AG_ChemfuelVomit.symbolPack.prefixSymbols.1.symbol>взорваться</AG_ChemfuelVomit.symbolPack.prefixSymbols.1.symbol>
+<AG_ChemfuelVomit.symbolPack.prefixSymbols.2.symbol>Боом</AG_ChemfuelVomit.symbolPack.prefixSymbols.2.symbol>
+
+<AG_BloodVomit.label>Рвота кровью</AG_BloodVomit.label>
+<AG_BloodVomit.description>Носителей этого гена будет сильно рвать кровью вместо обычной рвоты. Это будет вызывать внутреннее кровотечение каждый раз, когда их рвет, вызывая порезы и синяки по всему телу.</AG_BloodVomit.description>
+<AG_BloodVomit.symbolPack.prefixSymbols.0.symbol>кровавый</AG_BloodVomit.symbolPack.prefixSymbols.0.symbol>
+<AG_BloodVomit.symbolPack.wholeNameSymbols.0.symbol>кровопускатель</AG_BloodVomit.symbolPack.wholeNameSymbols.0.symbol>
+
+<AG_RatVomit.label>Крысиная рвота</AG_RatVomit.label>
+<AG_RatVomit.description>Носители этого гена будут извергать скопления механитов, которые сливаются в псевдоорганических крыс. Это настолько невероятно жестокая и отвратительная вещь, что неясно, является ли это результатом генетического эксперимента, который прошел ужасно неправильно, или просто жуткой шуткой действительно неэтичного генетика.</AG_RatVomit.description>
+<AG_RatVomit.customEffectDescriptions.0>Это, естественно, очень травмирует...</AG_RatVomit.customEffectDescriptions.0>
+<AG_RatVomit.symbolPack.prefixSymbols.0.symbol>крысиный</AG_RatVomit.symbolPack.prefixSymbols.0.symbol>
+<AG_RatVomit.symbolPack.wholeNameSymbols.0.symbol>крысолов</AG_RatVomit.symbolPack.wholeNameSymbols.0.symbol>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Vomit.xml-->
+<AG_PukeWater.label>водяная рвота</AG_PukeWater.label>
+                     <AG_PukeWater.description>Носители этого гена будут рвать водой вместо обычной рвоты.</AG_PukeWater.description>
+              <AG_PukeBile.label>рвота желчью</AG_PukeBile.label>
+                    <AG_PukeBile.description>Носители этого гена будут рвать трупной желчью вместо обычной рвоты. Эта жидкость еще более отвратительна, чем обычная рвота.</AG_PukeBile.description>
+
+</LanguageData>

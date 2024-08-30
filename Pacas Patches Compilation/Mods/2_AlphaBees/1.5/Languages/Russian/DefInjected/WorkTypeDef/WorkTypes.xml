@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_BeekeepingWork.label>пчеловодство</RB_BeekeepingWork.label>
+  <RB_BeekeepingWork.description>Выполнять работы с ульями и другими рабочими местами, связанными с пчелами.</RB_BeekeepingWork.description>
+  <RB_BeekeepingWork.labelShort>пчеловодство</RB_BeekeepingWork.labelShort>
+  <RB_BeekeepingWork.pawnLabel>Пасечник</RB_BeekeepingWork.pawnLabel>
+  <RB_BeekeepingWork.gerundLabel>пчеловодство</RB_BeekeepingWork.gerundLabel>
+  <RB_BeekeepingWork.verb>Содержание пчел</RB_BeekeepingWork.verb>
+
+
+</LanguageData>

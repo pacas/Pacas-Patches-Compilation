@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <RB_MeadMust.label>сделать медовое сусло</RB_MeadMust.label>
+    <RB_MeadMust.description>Сделайте медовое сусло из меда.</RB_MeadMust.description>
+    <RB_MeadMust.jobString>Изготовление медового сусла.</RB_MeadMust.jobString>
+
+	<Make_Mead_AB.label>сделать медовуху</Make_Mead_AB.label>
+	<Make_Mead_AB.description>Сделать медовуху из медового сусла. Процесс занимает 6 дней.</Make_Mead_AB.description>
+
+</LanguageData>

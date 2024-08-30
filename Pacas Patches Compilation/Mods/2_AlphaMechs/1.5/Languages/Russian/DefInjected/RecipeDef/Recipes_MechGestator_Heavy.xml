@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_DemolisherRecipe.label>вырастить разрушителя</AM_DemolisherRecipe.label>
+  <AM_DemolisherRecipe.description>Вырастить разрушителя.</AM_DemolisherRecipe.description>
+
+  <AM_GoliathRecipe.label>вырастить голиафа</AM_GoliathRecipe.label>
+  <AM_GoliathRecipe.description>Вырастить разрушителя.</AM_GoliathRecipe.description>
+
+  <AM_FirewormRecipe.label>вырастить огненного червя</AM_FirewormRecipe.label>
+  <AM_FirewormRecipe.description>Вырастить разрушителя.</AM_FirewormRecipe.description>
+
+  <AM_PhalanxRecipe.label>вырастить фаланкса</AM_PhalanxRecipe.label>
+  <AM_PhalanxRecipe.description>Вырастить разрушителя.</AM_PhalanxRecipe.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Dire Wolf -->
+
+  <TM_Dire_WolfR.label>зловещий волк</TM_Dire_WolfR.label>
+  <TM_Dire_WolfR.description>Зловещие волки бродят по северу большими стаями и не боятся ни человека, ни мегаслота. Дикий хищник, вооруженный острыми как бритва зубами и шерстью, похожей на стальную нить, зловещие волки столь же свирепы, как и любое известное существо. Они часто связаны с мифическими преданиями и, как говорят, обладают уникальной связью с тайными силами.</TM_Dire_WolfR.description>
+  <TM_Dire_WolfR.tools.0.label>левая лапа</TM_Dire_WolfR.tools.0.label>
+  <TM_Dire_WolfR.tools.1.label>правая лапа</TM_Dire_WolfR.tools.1.label>
+  <TM_Dire_WolfR.tools.3.label>глава</TM_Dire_WolfR.tools.3.label>
+
+
+</LanguageData>

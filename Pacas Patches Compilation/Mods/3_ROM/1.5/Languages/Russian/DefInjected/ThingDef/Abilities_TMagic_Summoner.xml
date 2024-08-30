@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- призыв Minion Start -->
+
+  <Projectile_SummonMinion.label>вызыв миньона</Projectile_SummonMinion.label>
+
+
+  <!-- призыв pylon Start -->
+
+  <Projectile_SummonPylon.label>призыв защитного пилона</Projectile_SummonPylon.label>
+
+
+  <!-- призыв explosive Start -->
+
+  <Projectile_SummonExplosive.label>призыв взрывной ловушки</Projectile_SummonExplosive.label>
+
+
+  <!-- призыв Elemental Start -->
+
+  <Projectile_SummonElemental.label>призыв элементаля</Projectile_SummonElemental.label>
+
+
+  <!-- призыв Poppi Start -->
+
+  <Projectile_SummonPoppi.label>призыв Поппи</Projectile_SummonPoppi.label>
+
+
+</LanguageData>

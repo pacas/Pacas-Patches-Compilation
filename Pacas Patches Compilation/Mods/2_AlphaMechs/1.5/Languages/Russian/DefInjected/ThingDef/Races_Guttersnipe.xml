@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Guttersnipe -->
+
+  <AM_Mech_Guttersnipe.label>гуттерснайп</AM_Mech_Guttersnipe.label>
+  <AM_Mech_Guttersnipe.description>Небольшой, развертываемый боевой механоид, обычно изготавливаемый внутри сверхтяжелого меха "Королева войны". В отличие от дронов-пчёл, гуттерснайп - боец ближнего боя, использующий свои смертоносные циркулярные пилы для нанесения ударов по своим целям. У них есть неперезаряжаемый источник питания.</AM_Mech_Guttersnipe.description>
+  <AM_Mech_Guttersnipe.tools.0.label>голова</AM_Mech_Guttersnipe.tools.0.label>
+
+
+</LanguageData>

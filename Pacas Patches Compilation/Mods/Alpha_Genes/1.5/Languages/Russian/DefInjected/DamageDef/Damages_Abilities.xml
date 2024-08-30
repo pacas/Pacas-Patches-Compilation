@@ -1,0 +1,17 @@
+<LanguageData>
+
+  <AG_RangedBlunt.label>Раздавлен</AG_RangedBlunt.label>
+  <AG_RangedBlunt.deathMessage>{0} был раздавлен насмерть.</AG_RangedBlunt.deathMessage>
+
+  <AG_Electric.label>Поражение электрическим током</AG_Electric.label>
+  <AG_Electric.deathMessage>{0} был убит электрическим током до смерти.</AG_Electric.deathMessage>
+
+  <AG_AcidSpit.label>Разъеден</AG_AcidSpit.label>
+  <AG_AcidSpit.deathMessage>{0} был разъеден насмерть.</AG_AcidSpit.deathMessage>
+
+  <AG_PetrifyingGaze.label>Окаменение</AG_PetrifyingGaze.label>
+  <AG_PetrifyingGaze.deathMessage>{0} окаменел.</AG_PetrifyingGaze.deathMessage>
+
+
+<!--1.4/Defs/DamageDefs/Damages_Abilities.xml-->
+</LanguageData>

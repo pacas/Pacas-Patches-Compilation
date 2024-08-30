@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AA_Make_Kibble_Bees.label>сделать комбикорм из пчел</AA_Make_Kibble_Bees.label>
+  <AA_Make_Kibble_Bees.description>Сделайте корм для животных путем обработки тел пчел. Превращает сочетание из любых 50 пчел (маток и трутней) в комбикорм. Полезно избавиться от излишне расплодившихся пчел. Вы чудовище.</AA_Make_Kibble_Bees.description>
+  <AA_Make_Kibble_Bees.jobString>Делать комбикорм.</AA_Make_Kibble_Bees.jobString>
+
+
+</LanguageData>

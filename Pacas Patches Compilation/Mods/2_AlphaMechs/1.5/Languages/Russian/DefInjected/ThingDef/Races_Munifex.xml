@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Munifex -->
+
+  <AM_Mech_Munifex.label>манифекс</AM_Mech_Munifex.label>
+  <AM_Mech_Munifex.description>Манифексы - это грозные боевые механоиды размером с человека, разработанные специально для ведения боя на дальних дистанциях. Они оснащены усовершенствованными спиральными копьями, которые являются массовым оружием, стреляющим пулями с электромагнитным ускорением с невероятной скоростью. Эти снаряды способны пробивать практически любой вид защиты, включая толстую броневую обшивку и железобетон.</AM_Mech_Munifex.description>
+  <AM_Mech_Munifex.tools.0.label>левый кулак</AM_Mech_Munifex.tools.0.label>
+  <AM_Mech_Munifex.tools.1.label>правый кулак</AM_Mech_Munifex.tools.1.label>
+  <AM_Mech_Munifex.tools.2.label>голова</AM_Mech_Munifex.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Materials-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RawMagicyte"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>2</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Demonhide"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>7</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Demonscale"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>9</MarketValue>
+                </value>
+            </li>
+            
+            <!--Add market values for weapons-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_Decimation"]/statBases</xpath>
+                <value>
+                    <MarketValue>2100</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_GloryMaul"]/statBases</xpath>
+                <value>
+                    <MarketValue>1100</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_DemonFang"]/statBases</xpath>
+                <value>
+                    <MarketValue>1500</MarketValue>
+                </value>
+            </li>
+            
+            <!--Restore market values for apparel-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_MaestersCloak"]/statBases</xpath>
+                <value>
+                    <MarketValue>1175</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DemonLordCloak"]/statBases</xpath>
+                <value>
+                    <MarketValue>4460</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DarkRobe"]/statBases</xpath>
+                <value>
+                    <MarketValue>2500</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AncientMail"]/statBases</xpath>
+                <value>
+                    <MarketValue>2150</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RoyalArmor"]/statBases</xpath>
+                <value>
+                    <MarketValue>2400</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_DreamcatcherBuckskin"]/statBases</xpath>
+                <value>
+                    <MarketValue>6250</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="ArchMageRobe"]/statBases</xpath>
+                <value>
+                    <MarketValue>6250</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_WizardHat"]/statBases</xpath>
+                <value>
+                    <MarketValue>250</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="ArcaneHood"]/statBases</xpath>
+                <value>
+                    <MarketValue>725</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HoodOfMadness"]/statBases</xpath>
+                <value>
+                    <MarketValue>1260</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RoyalHelm"]/statBases</xpath>
+                <value>
+                    <MarketValue>1060</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="ParagonHelm"]/statBases</xpath>
+                <value>
+                    <MarketValue>1900</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TM_DreamcatcherCoronet"]/statBases</xpath>
+                <value>
+                    <MarketValue>2260</MarketValue>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

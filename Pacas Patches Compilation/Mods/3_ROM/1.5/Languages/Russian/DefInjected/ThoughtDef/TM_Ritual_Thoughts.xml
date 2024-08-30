@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<TM_Botched_SeverMagicTD.stages.0.label>неудачный ритуал отсечения</TM_Botched_SeverMagicTD.stages.0.label>
+<TM_Botched_SeverMagicTD.stages.0.description>Ритуал отсечения был неудачным и дал магу шанс нанести ответный удар.</TM_Botched_SeverMagicTD.stages.0.description>
+
+<TM_Lethal_SeverMagicTD.stages.0.label>смертельный ритуал отсечения</TM_Lethal_SeverMagicTD.stages.0.label>
+<TM_Lethal_SeverMagicTD.stages.0.description>В этом ритуале не было порядка, а техника была ужасной и убила мага.</TM_Lethal_SeverMagicTD.stages.0.description>
+
+<TM_Success_SeverMagicTD.stages.0.label>успешный ритуал отсечения</TM_Success_SeverMagicTD.stages.0.label>
+<TM_Success_SeverMagicTD.stages.0.description>Ритуал отсечения прошел успешно, освободив нас от гнета другого мага.</TM_Success_SeverMagicTD.stages.0.description>
+
+<TM_Flawless_SeverMagicTD.stages.0.label>безупречный ритуал отсечения</TM_Flawless_SeverMagicTD.stages.0.label>
+<TM_Flawless_SeverMagicTD.stages.0.description>Хор голосов, интенсивность повелителя пустоты, выражение неизбежности на лице мага - ничто не может остановить наш боевой поход!</TM_Flawless_SeverMagicTD.stages.0.description>
+
+<TM_MagicSeverenceHD.label>Волшебное отсечение</TM_MagicSeverenceHD.label>
+<TM_MagicSeverenceHD.description>Эта пешка недавно потеряла связь с магией и будет страдать от потери направления и цели, пока не сможет заполнить пустоту другой целью.</TM_MagicSeverenceHD.description>
+
+<TM_MagicSeverenceTD.stages.0.label>Оторванный от магии</TM_MagicSeverenceTD.stages.0.label>
+<TM_MagicSeverenceTD.stages.0.description>Я потерял что-то, что когда-то определяло, кем я был; Я чувствую смесь отчаяния и пустоты.</TM_MagicSeverenceTD.stages.0.description>
+
+<TM_SeverMagic_ForApproveTD.stages.0.label>удалось разорвать магию</TM_SeverMagic_ForApproveTD.stages.0.label>
+<TM_SeverMagic_ForApproveTD.stages.0.description>В нашей колонии был проведен ритуал, чтобы лишить мага магии; какой подлый и варварский акт.</TM_SeverMagic_ForApproveTD.stages.0.description>
+
+<TM_SeverMagic_ForVeneratedTD.stages.0.label>удалось разорвать магию</TM_SeverMagic_ForVeneratedTD.stages.0.label>
+<TM_SeverMagic_ForVeneratedTD.stages.0.description>В нашей колонии был проведен ритуал, чтобы лишить мага магии; этот отвратительный акт варварства противоречит всему, во что мы верим.</TM_SeverMagic_ForVeneratedTD.stages.0.description>
+
+<TM_Botched_BestowMagicTD.stages.0.label>неудачный ритуал дарения</TM_Botched_BestowMagicTD.stages.0.label>
+<TM_Botched_BestowMagicTD.stages.0.description>Ритуал дарения был испорчен, и магическая искра не была дарована.</TM_Botched_BestowMagicTD.stages.0.description>
+
+<TM_Success_BestowMagicTD.stages.0.label>удачный ритуал дарения</TM_Success_BestowMagicTD.stages.0.label>
+<TM_Success_BestowMagicTD.stages.0.description>Ритуал дарения успешно даровал магическую искру.</TM_Success_BestowMagicTD.stages.0.description>
+
+<TM_Flawless_BestowMagicTD.stages.0.label>просветленный ритуал дарения</TM_Flawless_BestowMagicTD.stages.0.label>
+<TM_Flawless_BestowMagicTD.stages.0.description>Как будто небеса разверзлись, чтобы благословить ритуал, и хор голосов воспел славу нашего дела!</TM_Flawless_BestowMagicTD.stages.0.description>
+
+<TM_BestowMagicClassHD.stages.0.label>Дар волшебства</TM_BestowMagicClassHD.stages.0.label>
+<TM_BestowMagicClassHD.stages.0.description>Этой пешке недавно была дарована искра магии.</TM_BestowMagicClassHD.stages.0.description>
+
+<TM_Poor_BestowMagicClassTD.stages.0.label>слабый ритуал тайного пути</TM_Poor_BestowMagicClassTD.stages.0.label>
+<TM_Poor_BestowMagicClassTD.stages.0.description>Ритуал, направляющий мага к их тайному пути, был скучным и неинтересным.</TM_Poor_BestowMagicClassTD.stages.0.description>
+
+<TM_Moderate_BestowMagicClassTD.stages.0.label>успешный ритуал тайного пути</TM_Moderate_BestowMagicClassTD.stages.0.label>
+<TM_Moderate_BestowMagicClassTD.stages.0.description>Ритуал тайного пути был обнадеживающим и интересным.</TM_Moderate_BestowMagicClassTD.stages.0.description>
+
+<TM_Good_BestowMagicClassTD.stages.0.label>вдохновляющий ритуал тайного пути</TM_Good_BestowMagicClassTD.stages.0.label>
+<TM_Good_BestowMagicClassTD.stages.0.description>Ритуал тайного пути был фантастическим, эмоционально и магически заряженным - всегда приятно видеть, как кто-то достигает своей мечты!</TM_Good_BestowMagicClassTD.stages.0.description>
+
+</LanguageData>

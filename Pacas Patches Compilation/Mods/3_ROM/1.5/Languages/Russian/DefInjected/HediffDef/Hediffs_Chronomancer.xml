@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_AccelerateTimeHD.label>Старение</TM_AccelerateTimeHD.label>
+  <TM_AccelerateTimeHD.description>Пешка быстро стареет. Любые другие условия, влияющие на пешку, также ускорят их естественные тенденции. Пешки, достигшие возраста, превышающего их обычную продолжительность жизни, часто страдают от возрастных заболеваний или состояний.</TM_AccelerateTimeHD.description>
+  <TM_AccelerateTimeHD.stages.0.label>I</TM_AccelerateTimeHD.stages.0.label>
+  <TM_AccelerateTimeHD.stages.1.label>II</TM_AccelerateTimeHD.stages.1.label>
+  <TM_AccelerateTimeHD.stages.2.label>III</TM_AccelerateTimeHD.stages.2.label>
+  <TM_AccelerateTimeHD.stages.3.label>IV</TM_AccelerateTimeHD.stages.3.label>
+
+  <TM_ReverseTimeBadHD.label>Обратное старение</TM_ReverseTimeBadHD.label>
+  <TM_ReverseTimeBadHD.description>Пешка быстро молодеет. Любые другие условия, влияющие на пешку, также обратят вспять их естественные тенденции. Условия, обращенные вспять после того момента времени, когда они были приобретены, перестанут существовать. Пешки, вернувшиеся за тот момент времени, когда они были рождены, перестанут существовать.</TM_ReverseTimeBadHD.description>
+  <TM_ReverseTimeBadHD.stages.0.label>I</TM_ReverseTimeBadHD.stages.0.label>
+  <TM_ReverseTimeBadHD.stages.1.label>II</TM_ReverseTimeBadHD.stages.1.label>
+  <TM_ReverseTimeBadHD.stages.2.label>III</TM_ReverseTimeBadHD.stages.2.label>
+  <TM_ReverseTimeBadHD.stages.3.label>IV</TM_ReverseTimeBadHD.stages.3.label>
+
+  <TM_ReverseTimeHD.label>Обратное старение</TM_ReverseTimeHD.label>
+  <TM_ReverseTimeHD.description>Пешка быстро молодеет. Любые другие условия, влияющие на пешку, также обратят вспять их естественные тенденции. Условия, обращенные вспять после того момента времени, когда они были приобретены, перестанут существовать. Пешки, вернувшиеся за тот момент времени, когда они были рождены, перестанут существовать.</TM_ReverseTimeHD.description>
+  <TM_ReverseTimeHD.stages.0.label>I</TM_ReverseTimeHD.stages.0.label>
+  <TM_ReverseTimeHD.stages.1.label>II</TM_ReverseTimeHD.stages.1.label>
+  <TM_ReverseTimeHD.stages.2.label>III</TM_ReverseTimeHD.stages.2.label>
+  <TM_ReverseTimeHD.stages.3.label>IV</TM_ReverseTimeHD.stages.3.label>
+
+  <TM_PredictionHD.label>Предсказание</TM_PredictionHD.label>
+  <TM_PredictionHD.description>Позволяет предсказывать будущие события или действия. Эта способность предсказывает и задерживает любое событие. Некоторые моды используют эти типы событий в качестве триггеров для эффектов или исходов, это может привести к ошибкам, если ситуация меняется и определенные объекты, предметы или условия больше не действительны, когда происходит предсказанное событие.</TM_PredictionHD.description>
+  <TM_PredictionHD.stages.0.label>I</TM_PredictionHD.stages.0.label>
+  <TM_PredictionHD.stages.1.label>II</TM_PredictionHD.stages.1.label>
+  <TM_PredictionHD.stages.2.label>III</TM_PredictionHD.stages.2.label>
+  <TM_PredictionHD.stages.3.label>IV</TM_PredictionHD.stages.3.label>
+  <TM_PredictionHD.stages.4.label>V</TM_PredictionHD.stages.4.label>
+  <TM_PredictionHD.stages.5.label>VI</TM_PredictionHD.stages.5.label>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+<LanguageData>
+
+  <AG_GeneRemovalComa.label>Генная кома</AG_GeneRemovalComa.label>
+  <AG_GeneRemovalComa.description>Гены этого человека были искусственно изменены. Это сильно нагружает организм и вводит их в кому на 3 дня.</AG_GeneRemovalComa.description>
+
+  <AG_XenogerminationComa.label>Насильственная имплантационная кома</AG_XenogerminationComa.label>
+  <AG_XenogerminationComa.description>Ксеногерм был имплантирован этому человеку насильно. Это продержит его в коме в течение 4 дней.</AG_XenogerminationComa.description>
+
+
+  <AG_UnstableMind.label>Нестабильный разум</AG_UnstableMind.label>
+  <AG_UnstableMind.description>Психическая нестабильность, которая делает этого человека склонным к психическим срывам и значительно повышает его психическую чувствительность.</AG_UnstableMind.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_Conditions.xml-->
+<AG_EndoimplantationComa.label>имплантационная кома</AG_EndoimplantationComa.label>
+<AG_EndoimplantationComa.description>имплантационная кома. Это продержит его в коме в течение 4 дней.</AG_EndoimplantationComa.description>
+</LanguageData>

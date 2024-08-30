@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="TM_Dire_WolfR"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_AnimalThingBase</value>
+                </li>
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/PawnKindDef[defName="TM_Dire_Wolf"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_AnimalKindBase</value>
+                </li>
+            </operations>
+    </Operation>
+</Patch>

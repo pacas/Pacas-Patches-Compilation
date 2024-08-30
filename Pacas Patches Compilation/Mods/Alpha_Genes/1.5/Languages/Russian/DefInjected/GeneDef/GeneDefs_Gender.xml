@@ -1,0 +1,11 @@
+<LanguageData>
+
+  <AG_Male.label>Мужской</AG_Male.label>
+  <AG_Male.description>Носители этого гена всегда биологически являются мужчинами.</AG_Male.description>
+
+  <AG_Female.label>Женский</AG_Female.label>
+  <AG_Female.description>Носители этого гена всегда биологически женского пола.</AG_Female.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Gender.xml-->
+</LanguageData>

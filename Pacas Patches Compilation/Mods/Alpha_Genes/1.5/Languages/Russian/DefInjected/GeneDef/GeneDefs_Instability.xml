@@ -1,0 +1,12 @@
+<LanguageData>
+
+<AG_Instability_Lethal.label>Смертельная нестабильность клеток</AG_Instability_Lethal.label>
+<AG_Instability_Lethal.description>Носителям этого гена требуется значительно меньше метаболической энергии, чтобы оставаться в живых, за счет возмутительно сниженной стабильности их механизма репликации клеток и очень. 
+  
+  
+ОЧЕНЬ ограниченной продолжительности жизни, которую никак нельзя увеличить.</AG_Instability_Lethal.description>
+<AG_Instability_Lethal.customEffectDescriptions.0>Владелец умрет через 3 года.</AG_Instability_Lethal.customEffectDescriptions.0>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Instability.xml-->
+</LanguageData>

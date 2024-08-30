@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Enchanting jobs -->
+
+  <JobDriver_RemoveEnchantingGem.reportString>снимает TargetA для зачарования</JobDriver_RemoveEnchantingGem.reportString>
+  <JobDriver_AddEnchantingGem.reportString>экипирует TargetA для зачарования</JobDriver_AddEnchantingGem.reportString>
+  <JobDriver_EnchantItem.reportString>зачаровывает TargetA</JobDriver_EnchantItem.reportString>
+
+
+</LanguageData>

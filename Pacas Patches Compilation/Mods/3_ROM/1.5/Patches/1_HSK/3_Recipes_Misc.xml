@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MagicArtifact_RerollSpiritBond"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <PureMagicyteBar>5</PureMagicyteBar>
+                            <Cloth>40</Cloth>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TM_Artifact_ClassExtraction"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <PureMagicyteBar>30</PureMagicyteBar>
+                            <Jade>10</Jade>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BookOfSuperSoldier"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <PureMagicyteBar>100</PureMagicyteBar>
+                            <SilverBar>25</SilverBar>
+                            <MedicineUltratech>3</MedicineUltratech>
+                            <Psycho>5</Psycho>
+                            <Neutroamine>40</Neutroamine>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="ManaPotion_Refined"]</xpath>
+                </li>
+            </operations>
+    </Operation>
+</Patch>

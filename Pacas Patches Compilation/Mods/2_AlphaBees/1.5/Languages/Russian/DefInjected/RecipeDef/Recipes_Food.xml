@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_PreserveMeat.label>законсервировать мясо в меду</RB_PreserveMeat.label>
+  <RB_PreserveMeat.description>Используйте мед, чтобы сохранить маленькие жареные кусочки мяса, во избежание их порчи.</RB_PreserveMeat.description>
+  <RB_PreserveMeat.jobString>Приготовление консервированного мяса.</RB_PreserveMeat.jobString>
+
+  <RB_PreserveVegetables.label>законсервировать овощи в меду</RB_PreserveVegetables.label>
+  <RB_PreserveVegetables.description>Используйте мед, чтобы сохранить маленькие жареные кусочки овощей, во избежание  их порчи.</RB_PreserveVegetables.description>
+  <RB_PreserveVegetables.jobString>Приготовление консервированных овощей.</RB_PreserveVegetables.jobString>
+
+
+</LanguageData>

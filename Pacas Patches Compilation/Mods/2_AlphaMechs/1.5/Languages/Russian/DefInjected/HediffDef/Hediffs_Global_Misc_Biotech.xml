@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_ApoptosisHateAura.label>апоптоз, аура ненависти</AM_ApoptosisHateAura.label>
+  <AM_ApoptosisHateAura.description>Такая глубокая ненависть, что я чувствую ее всеми своими костями. Меня сейчас стошнит.</AM_ApoptosisHateAura.description>
+
+  <AM_BeamncasterBandNode.label>Узел пропускной способности (настроено)</AM_BeamncasterBandNode.label>
+  <AM_BeamncasterBandNode.description>Пропускная способность этого существа увеличивается на 2 благодаря влиянию структуры узлов полосы пропускания беспроводной сети.</AM_BeamncasterBandNode.description>
+
+  <AM_VoidlinkBandNode.label>Пустой узел (настроено)</AM_VoidlinkBandNode.label>
+  <AM_VoidlinkBandNode.description>Пропускная способность этого устройства увеличивается на 5 на узел благодаря влиянию структуры узлов полосы пропускания пустой сети.</AM_VoidlinkBandNode.description>
+
+  <AM_GreaterMechBoost.label>усиление</AM_GreaterMechBoost.label>
+  <AM_GreaterMechBoost.description>Возможности этого механоида были увеличены благодаря расположенному неподалёку постоянному усилителю мехов. Это условие будет сохраняться на механоиде в течение двух часов после выхода из зоны действия усилителя меха, но оно будет перезаписано, если мех попадет в зону действия стандартного усилителя меха.</AM_GreaterMechBoost.description>
+
+  <AM_EfficiencyMechBoost.label>усиление эффективности</AM_EfficiencyMechBoost.label>
+  <AM_EfficiencyMechBoost.description>Энергоэффективность этого механоида была повышена благодаря расположенному неподалёку усилителю мехов.</AM_EfficiencyMechBoost.description>
+
+  <AM_ArmorMechBoost.label>усиление брони</AM_ArmorMechBoost.label>
+  <AM_ArmorMechBoost.description>Броня этого механоида была укреплена благодаря расположенному неподалёку усилителю мехов.</AM_ArmorMechBoost.description>
+
+  <AM_TargettingMechBoost.label>улучшение прицеливания</AM_TargettingMechBoost.label>
+  <AM_TargettingMechBoost.description>Прицеливание этого механоида было улучшено благодаря расположенному неподалёку усилителю мехов.</AM_TargettingMechBoost.description>
+
+  <AM_MechDisruption.label>разрушение меха</AM_MechDisruption.label>
+  <AM_MechDisruption.description>Этот механоид разрушается, из-за разрушителя мехов неподалёку.</AM_MechDisruption.description>
+
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.0>questName-&gt;[asker_nameDef] мистические бандиты</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.0>
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.1>questName-&gt;Мистический бандитский лагерь [enemyFaction_pawnsPlural]</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.1>
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.2>questName-&gt;Мистический бандитский лагерь</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.2>
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.3>questName-&gt;Мистический бандитский лагерь</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.3>
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.4>questName-&gt;Уничтожьте мистических бандитов</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.4>
+  <TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.5>questName-&gt;Помощь [asker_nameDef] в защите магических артефактов</TM_OpportunitySite_ArcaneBandits.questNameRules.rulesStrings.5>
+  <TM_OpportunitySite_ArcaneBandits.questDescriptionRules.rulesStrings.0>questDescription-&gt;[asker_nameFull], [asker_faction_leaderTitle] из [asker_faction_name], прислал вам сообщение. По-видимому, [site Faction_pawnsPlural] создали соседний аванпост и угрожают атаковать деревню, если деревня [asker_faction_name] не передаст свои артефакты. Лагерь контролируется [site Faction_name].
+\n[asker_nameDef] просит нас устранить этих мерзких хулиганов, а это значит уничтожить их или прогнать с их аванпоста. [[asker_label] говорит, что [site Part 0_description].
+\nЕсли мы добьемся успеха [asker_label] пришлет нам некоторые артефакты; [allRewardsDescriptions]</TM_OpportunitySite_ArcaneBandits.questDescriptionRules.rulesStrings.0>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.11.node.nodes.0.label>Срок действия квеста истекает: [resolved QuestName]</TM_OpportunitySite_ArcaneBandits.root.nodes.11.node.nodes.0.label>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.11.node.nodes.0.text>Бандиты успешно похитили тайные артефакты из [asker_faction_name]. [asker_label] недоволен вами.</TM_OpportunitySite_ArcaneBandits.root.nodes.11.node.nodes.0.text>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.12.node.nodes.0.label>Квест провален [resolvedQuestName]</TM_OpportunitySite_ArcaneBandits.root.nodes.12.node.nodes.0.label>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.12.node.nodes.0.text>После вашего неудачного нападения бандиты немедленно напали и украли несколько артефактов. [asker_label] разочарован в вас.</TM_OpportunitySite_ArcaneBandits.root.nodes.12.node.nodes.0.text>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.13.node.customLetterLabel>Выплата прибыла</TM_OpportunitySite_ArcaneBandits.root.nodes.13.node.customLetterLabel>
+  <TM_OpportunitySite_ArcaneBandits.root.nodes.13.node.customLetterText>Вы победили тайных бандитов!\n\nПришел платеж от [asker_faction_name].</TM_OpportunitySite_ArcaneBandits.root.nodes.13.node.customLetterText>
+
+
+</LanguageData>

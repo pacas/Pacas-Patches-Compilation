@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/RecipeDef[unfinishedThingDef="UnfinishedGem"]</xpath>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.CreateDocument">
+                <docName>GemDefs</docName>
+                <xpath>{DEF}</xpath>
+            </Operation>
+        </apply>
+    </Operation>
+    <Operation Class="XmlExtensions.ForEach">
+        <xmlDoc>GemDefs</xmlDoc>
+        <xpath>GemDefs/RecipeDef/defName</xpath>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.PatchOperationMath">
+                <xmlDoc>GemDefs</xmlDoc>
+                <xpath>{DEF}/ingredients/li[1]/count</xpath>
+                <value>0.25</value>
+                <operation>*</operation>
+            </Operation>
+            <Operation Class="XmlExtensions.CreateVariable">
+                <xmlDoc>GemDefs</xmlDoc>
+                <storeIn>rawMagicyteCount</storeIn>
+                <value>{DEF}/ingredients/li[1]/count</value>
+                <fromXml>true</fromXml>
+                <operation>roundnearest</operation>
+                <apply>
+                    <Operation Class="XmlExtensions.PatchOperationReplace">
+                        <xmlDoc>GemDefs</xmlDoc>
+                        <xpath>{DEF}/ingredients/li[1]/filter/thingDefs</xpath>
+                        <value>
+                            <thingDefs>
+                                <li>PureMagicyteBar</li>
+                            </thingDefs>
+                        </value>
+                    </Operation>
+                    <!--just for the roundnearest operation-->
+                    <Operation Class="XmlExtensions.PatchOperationReplace">
+                        <xmlDoc>GemDefs</xmlDoc>
+                        <xpath>{DEF}/ingredients/li[1]/count</xpath>
+                        <value>
+                            <count>{rawMagicyteCount}</count>
+                        </value>
+                    </Operation>
+                </apply>
+            </Operation>
+        </apply>
+    </Operation>
+    <Operation Class="XmlExtensions.MergeDocument">
+        <docName>GemDefs</docName>
+    </Operation>
+</Patch>

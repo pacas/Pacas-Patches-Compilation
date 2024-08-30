@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_SoulDrain.label>поглощение души</AM_SoulDrain.label>
+  <AM_SoulDrain.description>Вызвано турелью апоптоза, ужасное оружие, созданное поглощать души своих жертв. Технология поглощения души подразумевает в себя осущения всего организма, поглощение крови и внутренностей.</AM_SoulDrain.description>
+  <AM_SoulDrain.stages.0.label>начальное</AM_SoulDrain.stages.0.label>
+  <AM_SoulDrain.stages.1.label>слабоумие</AM_SoulDrain.stages.1.label>
+  <AM_SoulDrain.stages.2.label>головная боль</AM_SoulDrain.stages.2.label>
+  <AM_SoulDrain.stages.3.label>темнота в глазах</AM_SoulDrain.stages.3.label>
+  <AM_SoulDrain.stages.4.label>гибель клеток</AM_SoulDrain.stages.4.label>
+
+  <AM_ScrambledIFF.label>взломанные IFF датчики</AM_ScrambledIFF.label>
+  <AM_ScrambledIFF.description>Датчики IFF этого механоида были взломаны, сделано так, чтобы жертва не могла определить врага или союзника. Сражается на стороне взломщика примерно день, и после этого внутренний антивирус должен восстановить всё как было.</AM_ScrambledIFF.description>
+
+
+</LanguageData>

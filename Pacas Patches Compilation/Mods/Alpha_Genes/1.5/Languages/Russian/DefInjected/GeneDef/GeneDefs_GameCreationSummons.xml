@@ -1,0 +1,25 @@
+<LanguageData>
+
+<AG_RatAffinity.label>Крысиный король</AG_RatAffinity.label>
+<AG_RatAffinity.description>Носители этого гена привлекают крыс, и их постоянно окружает ручная орда этих тварей.
+</AG_RatAffinity.description>
+<AG_RatAffinity.customEffectDescriptions.0>Начинает игру с шайкой из 3 крыс.</AG_RatAffinity.customEffectDescriptions.0>
+<AG_RatAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действовать) только при создании персонажа. Он не появится во время игры.</AG_RatAffinity.customEffectDescriptions.1>
+<AG_RatAffinity.symbolPack.prefixSymbols.0.symbol>крыса</AG_RatAffinity.symbolPack.prefixSymbols.0.symbol>
+<AG_RatAffinity.symbolPack.prefixSymbols.1.symbol>вредитель</AG_RatAffinity.symbolPack.prefixSymbols.1.symbol>
+
+<AG_WolfAffinity.label>Альфа</AG_WolfAffinity.label>
+<AG_WolfAffinity.description>Носители этого гена имеют мистическую психическую связь с лесным волком.
+</AG_WolfAffinity.description>
+<AG_WolfAffinity.customEffectDescriptions.0>Начните игру с прирученным лесным волком.</AG_WolfAffinity.customEffectDescriptions.0>
+<AG_WolfAffinity.customEffectDescriptions.1>Этот ген может быть выбран только при создании персонажа в игре НЕ встречается!</AG_WolfAffinity.customEffectDescriptions.1>
+
+
+<AG_JorisAffinity.label>Укротитель медведей</AG_JorisAffinity.label>
+<AG_JorisAffinity.description>Носители этого гена имеют мистическую психическую связь с медведем.</AG_JorisAffinity.description>
+<AG_JorisAffinity.customEffectDescriptions.0>Начинает игру прирученным белым медведем.</AG_JorisAffinity.customEffectDescriptions.0>
+<AG_JorisAffinity.customEffectDescriptions.1>Этот ген может быть выбран только при создании персонажа в игре НЕ встречается!.</AG_JorisAffinity.customEffectDescriptions.1>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_GameCreationSummons.xml-->
+</LanguageData>

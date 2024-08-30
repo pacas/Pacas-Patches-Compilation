@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <TM_MagicUserHD.label>возможный заклинатель</TM_MagicUserHD.label>
+    <TM_MagicUserHD.description>Hediff требуется для пользователей магии.</TM_MagicUserHD.description>
+    <TM_MagicUserHD.stages.0.label>скрытая</TM_MagicUserHD.stages.0.label>
+</LanguageData>

@@ -1,0 +1,52 @@
+<LanguageData>
+
+<AG_SlimeBody.label>Слизистое тело</AG_SlimeBody.label>
+<AG_SlimeBody.description>Носители этого гена имеют студенистую, постоянно сочащуюся синевой кожу.</AG_SlimeBody.description>
+<AG_SlimeBody.labelShortAdj>вязкое тело</AG_SlimeBody.labelShortAdj>
+<AG_SlimeBody.symbolPack.prefixSymbols.0.symbol>слизь</AG_SlimeBody.symbolPack.prefixSymbols.0.symbol>
+<AG_SlimeBody.symbolPack.prefixSymbols.1.symbol>слизистый</AG_SlimeBody.symbolPack.prefixSymbols.1.symbol>
+
+<AG_SlugBody.label>Тело слизняка</AG_SlugBody.label>
+<AG_SlugBody.description>У носителей этого гена толстый, слизистый хвост, растущий из копчика. Все их тело постоянно мягкое и влажное.</AG_SlugBody.description>
+<AG_SlugBody.labelShortAdj>форма слизняка</AG_SlugBody.labelShortAdj>
+
+<AG_ScalyBody.label>Чешуйчатое тело</AG_ScalyBody.label>
+<AG_ScalyBody.description>У носителей этого гена чешуйки по всему телу.
+  
+  
+900% передвижение по воде.(было 300% раньше)
+</AG_ScalyBody.description>
+<AG_ScalyBody.customEffectDescriptions.0>Может очень быстро передвигаться по мелководью.</AG_ScalyBody.customEffectDescriptions.0>
+
+<AG_RockyBody.label>Скалистое тело</AG_RockyBody.label>
+<AG_RockyBody.description>Носители этого гена имеют каменистую кожу с минеральными отложениями, пронизывающими кожу.</AG_RockyBody.description>
+<AG_RockyBody.labelShortAdj>скалистый</AG_RockyBody.labelShortAdj>
+<AG_RockyBody.symbolPack.prefixSymbols.0.symbol>скала</AG_RockyBody.symbolPack.prefixSymbols.0.symbol>
+
+<AG_Digitigrade.label>Ноги Дигитиграды</AG_Digitigrade.label>
+<AG_Digitigrade.description>Носители этого гена имеют Ноги - Дигитиграды.
+  
+ноги животного - как у кошки только крупней
+</AG_Digitigrade.description>
+<AG_Digitigrade.customEffectDescriptions.0>грузоподъемность на карте 60%</AG_Digitigrade.customEffectDescriptions.0>
+<AG_Digitigrade.customEffectDescriptions.1>в караване 80%</AG_Digitigrade.customEffectDescriptions.1>
+<AG_Digitigrade.labelShortAdj>Дигитиграды</AG_Digitigrade.labelShortAdj>
+
+
+
+<AG_CancerousBody.label>Раковое тело</AG_CancerousBody.label>
+<AG_CancerousBody.description>Носители этого гена имеют бугристое, раковое на вид тело с рыхлой кожей и язвами.</AG_CancerousBody.description>
+<AG_CancerousBody.labelShortAdj>раковый</AG_CancerousBody.labelShortAdj>
+
+<AG_GauntBody.label>Изможденное тело</AG_GauntBody.label>
+<AG_GauntBody.description>Носители этого гена имеют скрюченный, изможденный вид своего тела.</AG_GauntBody.description>
+<AG_GauntBody.labelShortAdj>истощенный</AG_GauntBody.labelShortAdj>
+<AG_GauntBody.symbolPack.prefixSymbols.0.symbol>истощенный</AG_GauntBody.symbolPack.prefixSymbols.0.symbol>
+<AG_GauntBody.symbolPack.prefixSymbols.1.symbol>зомби</AG_GauntBody.symbolPack.prefixSymbols.1.symbol>
+
+<!--1.4/Defs/GeneDefs/GeneDefs_Bodies.xml-->
+<AG_ScalyBody.labelShortAdj>чешуйчатый</AG_ScalyBody.labelShortAdj>
+<AG_DrakonoriBody.label>тело драконори</AG_DrakonoriBody.label>
+<AG_DrakonoriBody.labelShortAdj>драконори</AG_DrakonoriBody.labelShortAdj>
+<AG_DrakonoriBody.description>Носители этого гена имеют драконий и чешуйчатый вид тела.</AG_DrakonoriBody.description>
+                 </LanguageData>

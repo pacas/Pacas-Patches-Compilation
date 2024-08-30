@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_StrawGolem_RepairBlock.label>восстановление части</TM_StrawGolem_RepairBlock.label>
+
+  <TM_StrawGolem_EnergyMax.label>накопитель энергии</TM_StrawGolem_EnergyMax.label>
+  <TM_StrawGolem_EnergyMax.description>Увеличивает максимальную энергию на 100 за уровень. Начальная максимальная энергия составляет 800.</TM_StrawGolem_EnergyMax.description>
+
+  <TM_StrawGolem_EnergyConverter.label>энергоэффективность</TM_StrawGolem_EnergyConverter.label>
+  <TM_StrawGolem_EnergyConverter.description>Повышает энергоэффективность на 10% за уровень. Начальная энергоэффективность составляет 50%.</TM_StrawGolem_EnergyConverter.description>
+
+  <TM_StrawGolem_EnergyRegen.label>регенерация энергии</TM_StrawGolem_EnergyRegen.label>
+  <TM_StrawGolem_EnergyRegen.description>Увеличивает скорость заряда энергии на 20% за уровень. Начальная скорость перезарядки составляет 30 энергозатрат в час.</TM_StrawGolem_EnergyRegen.description>
+
+  <TM_StrawGolem_Armor.label>броня</TM_StrawGolem_Armor.label>
+  <TM_StrawGolem_Armor.description>Повышает общую защиту:\nДробящий урон: +[2.1, 3.6, 5.2]\nРежущий урон: +[1, 2.3, 4]\nТемпература: +[0.1, 0.2, 0.3]</TM_StrawGolem_Armor.description>
+
+  <TM_StrawGolem_Seed.label>Сила</TM_StrawGolem_Seed.label>
+  <TM_StrawGolem_Seed.description>Позволяет голему вырабатывать избыточную энергию в состоянии покоя.</TM_StrawGolem_Seed.description>
+
+  <TM_StrawGolem_Scarecrow.label>Жара</TM_StrawGolem_Scarecrow.label>
+  <TM_StrawGolem_Scarecrow.description>Позволяет голему вырабатывать тепло в состоянии покоя.</TM_StrawGolem_Scarecrow.description>
+
+  <TM_StrawGolem_LifeStage.label>каркасный слой</TM_StrawGolem_LifeStage.label>
+  <TM_StrawGolem_LifeStage.description>Увеличивает характеристики:\nДвижение: +[20%/30%/40%]\nЗдоровье: +[20%/40%/50%]</TM_StrawGolem_LifeStage.description>
+
+</LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- inherit the abstract parent and create a custom power -->
+
+  <TM_Taunt.customPower.skills.0.label>TM_Taunt_pwr</TM_Taunt.customPower.skills.0.label>
+  <TM_Taunt.customPower.skills.0.description>TM_Taunt_pwr_desc</TM_Taunt.customPower.skills.0.description>
+  <TM_Taunt.customPower.skills.1.label>TM_Taunt_eff</TM_Taunt.customPower.skills.1.label>
+  <TM_Taunt.customPower.skills.1.description>TM_Taunt_eff_desc</TM_Taunt.customPower.skills.1.description>
+  <TM_Taunt.customPower.skills.2.label>TM_Taunt_ver</TM_Taunt.customPower.skills.2.label>
+  <TM_Taunt.customPower.skills.2.description>TM_Taunt_ver_desc</TM_Taunt.customPower.skills.2.description>
+
+  <TM_Explosion.customPower.skills.0.label>TM_Explosion_pwr</TM_Explosion.customPower.skills.0.label>
+  <TM_Explosion.customPower.skills.0.description>TM_Explosion_pwr_desc</TM_Explosion.customPower.skills.0.description>
+  <TM_Explosion.customPower.skills.1.label>TM_Explosion_eff</TM_Explosion.customPower.skills.1.label>
+  <TM_Explosion.customPower.skills.1.description>TM_Explosion_eff_desc</TM_Explosion.customPower.skills.1.description>
+  <TM_Explosion.customPower.skills.2.label>TM_Explosion_ver</TM_Explosion.customPower.skills.2.label>
+  <TM_Explosion.customPower.skills.2.description>TM_Explosion_ver_desc</TM_Explosion.customPower.skills.2.description>
+
+  <TM_MedicalSupply.customPower.skills.0.label>TM_MedicalSupply_ver</TM_MedicalSupply.customPower.skills.0.label>
+  <TM_MedicalSupply.customPower.skills.0.description>TM_MedicalSupply_ver_desc</TM_MedicalSupply.customPower.skills.0.description>
+
+  <TM_Medigel.customPower.skills.0.label>TM_Medigel_eff</TM_Medigel.customPower.skills.0.label>
+  <TM_Medigel.customPower.skills.0.description>TM_Medigel_eff_desc</TM_Medigel.customPower.skills.0.description>
+
+  <TM_CombatDrugs.customPower.skills.0.label>TM_CombatDrugs_pwr</TM_CombatDrugs.customPower.skills.0.label>
+  <TM_CombatDrugs.customPower.skills.0.description>TM_CombatDrugs_pwr_desc</TM_CombatDrugs.customPower.skills.0.description>
+  <TM_CombatDrugs.customPower.skills.1.label>TM_CombatDrugs_ver</TM_CombatDrugs.customPower.skills.1.label>
+  <TM_CombatDrugs.customPower.skills.1.description>TM_CombatDrugs_ver_desc</TM_CombatDrugs.customPower.skills.1.description>
+
+  <TM_ShieldOther.customPower.skills.0.label>TM_Shield_eff</TM_ShieldOther.customPower.skills.0.label>
+  <TM_ShieldOther.customPower.skills.0.description>TM_Shield_eff_desc</TM_ShieldOther.customPower.skills.0.description>
+
+  <TM_Discord.customPower.skills.0.label>TM_Discord_eff</TM_Discord.customPower.skills.0.label>
+  <TM_Discord.customPower.skills.0.description>TM_Discord_eff_desc</TM_Discord.customPower.skills.0.description>
+
+  <TM_Empathy.customPower.skills.0.label>TM_Empathy_pwr</TM_Empathy.customPower.skills.0.label>
+  <TM_Empathy.customPower.skills.0.description>TM_Empathy_pwr_desc</TM_Empathy.customPower.skills.0.description>
+  <TM_Empathy.customPower.skills.1.label>TM_Empathy_ver</TM_Empathy.customPower.skills.1.label>
+  <TM_Empathy.customPower.skills.1.description>TM_Empathy_ver_desc</TM_Empathy.customPower.skills.1.description>
+  <TM_Empathy.customPower.skills.2.label>TM_Empathy_eff</TM_Empathy.customPower.skills.2.label>
+  <TM_Empathy.customPower.skills.2.description>TM_Empathy_eff_desc</TM_Empathy.customPower.skills.2.description>
+
+  <TM_MindKiller.customPower.skills.0.label>TM_MindKiller_pwr</TM_MindKiller.customPower.skills.0.label>
+  <TM_MindKiller.customPower.skills.0.description>TM_MindKiller_pwr_desc</TM_MindKiller.customPower.skills.0.description>
+  <TM_MindKiller.customPower.skills.1.label>TM_MindKiller_ver</TM_MindKiller.customPower.skills.1.label>
+  <TM_MindKiller.customPower.skills.1.description>TM_MindKiller_ver_desc</TM_MindKiller.customPower.skills.1.description>
+  <TM_MindKiller.customPower.skills.2.label>TM_MindKiller_eff</TM_MindKiller.customPower.skills.2.label>
+  <TM_MindKiller.customPower.skills.2.description>TM_MindKiller_eff_desc</TM_MindKiller.customPower.skills.2.description>
+
+  <TM_SuppressiveAura.customPower.skills.0.label>TM_SuppressiveAura_pwr</TM_SuppressiveAura.customPower.skills.0.label>
+  <TM_SuppressiveAura.customPower.skills.0.description>TM_SuppressiveAura_pwr_desc</TM_SuppressiveAura.customPower.skills.0.description>
+  <TM_SuppressiveAura.customPower.skills.1.label>TM_SuppressiveAura_ver</TM_SuppressiveAura.customPower.skills.1.label>
+  <TM_SuppressiveAura.customPower.skills.1.description>TM_SuppressiveAura_ver_desc</TM_SuppressiveAura.customPower.skills.1.description>
+  <TM_SuppressiveAura.customPower.skills.2.label>TM_SuppressiveAura_eff</TM_SuppressiveAura.customPower.skills.2.label>
+  <TM_SuppressiveAura.customPower.skills.2.description>TM_SuppressiveAura_eff_desc</TM_SuppressiveAura.customPower.skills.2.description>
+
+  <TM_HarvestPassion.customPower.skills.0.label>TM_HarvestPassion_pwr</TM_HarvestPassion.customPower.skills.0.label>
+  <TM_HarvestPassion.customPower.skills.0.description>TM_HarvestPassion_pwr_desc</TM_HarvestPassion.customPower.skills.0.description>
+  <TM_HarvestPassion.customPower.skills.1.label>TM_HarvestPassion_ver</TM_HarvestPassion.customPower.skills.1.label>
+  <TM_HarvestPassion.customPower.skills.1.description>TM_HarvestPassion_ver_desc</TM_HarvestPassion.customPower.skills.1.description>
+  <TM_HarvestPassion.customPower.skills.2.label>TM_HarvestPassion_eff</TM_HarvestPassion.customPower.skills.2.label>
+  <TM_HarvestPassion.customPower.skills.2.description>TM_HarvestPassion_eff_desc</TM_HarvestPassion.customPower.skills.2.description>
+
+  <TM_Symbiosis.customPower.skills.0.label>TM_Symbiosis_pwr</TM_Symbiosis.customPower.skills.0.label>
+  <TM_Symbiosis.customPower.skills.0.description>TM_Symbiosis_pwr_desc</TM_Symbiosis.customPower.skills.0.description>
+  <TM_Symbiosis.customPower.skills.1.label>TM_Symbiosis_eff</TM_Symbiosis.customPower.skills.1.label>
+  <TM_Symbiosis.customPower.skills.1.description>TM_Symbiosis_eff_desc</TM_Symbiosis.customPower.skills.1.description>
+  <TM_Symbiosis.customPower.skills.2.label>TM_Symbiosis_ver</TM_Symbiosis.customPower.skills.2.label>
+  <TM_Symbiosis.customPower.skills.2.description>TM_Symbiosis_ver_desc</TM_Symbiosis.customPower.skills.2.description>
+
+  <TM_FireSuppressionFlask.customPower.skills.0.label>TM_FireSuppressionFlask_eff</TM_FireSuppressionFlask.customPower.skills.0.label>
+  <TM_FireSuppressionFlask.customPower.skills.0.description>TM_FireSuppressionFlask_eff_desc</TM_FireSuppressionFlask.customPower.skills.0.description>
+
+
+</LanguageData>

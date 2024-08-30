@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="TM_CraftableArtifactBase"]/recipeMaker/workSpeedStat</xpath>
+                <value>
+                    <workSpeedStat>TailoringSpeed</workSpeedStat>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Artifact_Steel"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <ArmorRating_Blunt>3</ArmorRating_Blunt>
+                        <ArmorRating_Sharp>3</ArmorRating_Sharp>
+                        <ArmorRating_Heat>0.12</ArmorRating_Heat>
+                        <ArmorRating_Alignment>0.12</ArmorRating_Alignment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Artifact_Iron"]/equippedStatOffsets</xpath>
+                <value>
+                    <equippedStatOffsets>
+                        <ArmorRating_Blunt>2</ArmorRating_Blunt>
+                        <ArmorRating_Sharp>2</ArmorRating_Sharp>
+                        <ArmorRating_Heat>0.1</ArmorRating_Heat>
+                        <ArmorRating_Alignment>0.1</ArmorRating_Alignment>
+                    </equippedStatOffsets>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Artifact_BracersOfThePacifist</li>
+                    <li>1</li>
+                    <li>0</li>
+                    <li>0</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfThePacifist"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Fabric</li>
+                        <li>Leathery</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfThePacifist"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>100</PureMagicyteBar>
+                        <TM_Manaweave>50</TM_Manaweave>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Artifact_BracersOfDefense</li>
+                    <li>1.5</li>
+                    <li>4</li>
+                    <li>7</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfDefense"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfDefense"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>30</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>ApparelArmorValues</patchName>
+                <arguments>
+                    <li>TM_Artifact_BracersOfDeflection</li>
+                    <li>1.1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfDeflection"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[defName="TM_Artifact_BracersOfDeflection"]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>30</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[
+                defName="TM_Artifact_BracersOfThePacifist" or
+                defName="TM_Artifact_BracersOfDefense" or
+                defName="TM_Artifact_BracersOfDeflection"
+                ]/apparel/layers</xpath>
+                <value>
+                    <layers>
+                        <li>OnSkin</li>
+                    </layers>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[
+                defName="TM_Artifact_BracersOfThePacifist" or
+                defName="TM_Artifact_BracersOfDefense" or
+                defName="TM_Artifact_BracersOfDeflection"
+                ]/apparel/bodyPartGroups</xpath>
+                <value>
+                    <bodyPartGroups>
+                        <li>Hands</li>
+                    </bodyPartGroups>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationAdd">
+                <xmlDoc>ApparelDoc</xmlDoc>
+                <xpath>ApparelDoc/ThingDef[
+                defName="TM_Artifact_BracersOfThePacifist" or
+                defName="TM_Artifact_BracersOfDefense" or
+                defName="TM_Artifact_BracersOfDeflection"
+                ]</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>TM_MagicGloves</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="TM_Artifact_OrbOfSouls" or
+                defName="TM_Artifact_OrbOfEternal" or
+                defName="TM_Artifact_NecroticOrb" or
+                defName="TM_Artifact_RingOfKeenIntellect" or
+                defName="TM_Artifact_RingOfBlood" or
+                defName="TM_Artifact_RingOfEternalBlue" or
+                defName="TM_Artifact_RingOfMalice"
+                ]/costList</xpath>
+                <value>
+                    <costList>
+                        <PureMagicyteBar>75</PureMagicyteBar>
+                        <SilverBar>10</SilverBar>
+                        <Jade>50</Jade>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                defName="TM_Artifact_Silver" or
+                defName="TM_Artifact_Slate" or
+                defName="TM_Artifact_Medicine" or
+                defName="TM_Artifact_Limestone" or
+                defName="TM_Artifact_Granite" or
+                defName="TM_Artifact_Marble" or
+                defName="TM_Artifact_Sandstone" or
+                defName="TM_Artifact_Steel" or
+                defName="TM_Artifact_Iron"
+                ]</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>TM_MagicPendant</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                defName="TM_Artifact_Jade" or
+                defName="TM_Artifact_Gold" or
+                defName="TM_Artifact_Magicyte" or
+                defName="TM_Artifact_Wood" or
+                defName="TM_Artifact_RingOfKeenIntellect" or
+                defName="TM_Artifact_RingOfBlood" or
+                defName="TM_Artifact_RingOfEternalBlue" or
+                defName="TM_Artifact_RingOfMalice"
+                ]</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>TM_MagicRings</li>
+                    </thingCategories>
+                </value>
+            </li>
+                        
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ApparelDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flamethrower -->
+
+  <AM_Flamethrower.label>огнемёт</AM_Flamethrower.label>
+  <AM_Flamethrower.description>Огнемёт на химтопливе. Маленькая дистанция атаки, но может вызвать неконтролируемый пожар, всегда следите за этим.</AM_Flamethrower.description>
+  <AM_Flamethrower.tools.0.label>бочка</AM_Flamethrower.tools.0.label>
+
+
+  <!-- Goliath charge blaster -->
+
+  <AM_Gun_GoliathChargeBlaster.label>тяжёлый пулемет Голиафа</AM_Gun_GoliathChargeBlaster.label>
+  <AM_Gun_GoliathChargeBlaster.description>Тяжёлый быстрый пулемёт Голиафа, требует большого времени на перезарядку. Сильное охлаждение обеспечивает длительные, смертоносные выстрелы.</AM_Gun_GoliathChargeBlaster.description>
+  <AM_Gun_GoliathChargeBlaster.tools.0.label>бочка</AM_Gun_GoliathChargeBlaster.tools.0.label>
+
+
+  <!-- Goliath Needlegun -->
+
+  <AM_Gun_GoliathNeedle.label>игломёт Голиафа</AM_Gun_GoliathNeedle.label>
+  <AM_Gun_GoliathNeedle.description>Дальнобойное оружие механоидов. Названный в честь своих иглообразных снарядов, он стреляет одиночными выстрелами с большой точностью. Хотя он наносит меньше урона, чем заряжаемое оружие, он может поражать на очень большие расстояния.</AM_Gun_GoliathNeedle.description>
+  <AM_Gun_GoliathNeedle.tools.0.label>бочка</AM_Gun_GoliathNeedle.tools.0.label>
+
+
+  <!-- Cryoweapon -->
+
+  <AM_CryogenicGun.label>криогенная пушка</AM_CryogenicGun.label>
+  <AM_CryogenicGun.description>Оружие, которое стреляет замороженными гранулами или жидким азотом, быстро понижая температуру цели, чтобы заморозить или обездвижить ее. Урон от обморожения обходит броню стороной.</AM_CryogenicGun.description>
+  <AM_CryogenicGun.tools.0.label>бочка</AM_CryogenicGun.tools.0.label>
+
+  <AM_CryoBullet.label>криогенная гранула</AM_CryoBullet.label>
+
+
+  <!-- Siegebreaker Turret -->
+
+  <AM_SiegebreakerTurret.label>тяжёлая турель</AM_SiegebreakerTurret.label>
+  <AM_SiegebreakerTurret.description>Огромная башня, стреляющая разрывными боеголовками.</AM_SiegebreakerTurret.description>
+  <AM_SiegebreakerTurret.tools.0.label>бочка</AM_SiegebreakerTurret.tools.0.label>
+
+  <AM_Bullet_Shell_Explosive.label>взрывной снаряд</AM_Bullet_Shell_Explosive.label>
+
+
+  <!-- Demolisher Charges -->
+
+  <AM_DemolisherChargeBase.label>разрушительные заряды</AM_DemolisherChargeBase.label>
+  <AM_DemolisherChargeBase.description>Огромная башня, установленная на механоиде, которая запускает фугасные разрушительные заряды, способные разрушить даже тяжело бронированные укрепления. Очевидно, также опасен для живых существ.</AM_DemolisherChargeBase.description>
+
+  <AM_Bullet_Shell_Demolisher.label>разрушительный заряд</AM_Bullet_Shell_Demolisher.label>
+
+
+</LanguageData>

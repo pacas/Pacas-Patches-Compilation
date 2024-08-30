@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+  <!-- Options -->
+
+  <AM_allowAura>Включить ауру</AM_allowAura>
+  <AM_allowDaggersnout>Включить даггернота</AM_allowDaggersnout>
+  <AM_allowDemolisher>Включить разрушителя</AM_allowDemolisher>
+  <AM_allowFireworm>Включить огенного червя</AM_allowFireworm>
+  <AM_allowGoliath>Включить голиафа</AM_allowGoliath>
+  <AM_allowPhalanx>Включить фаланкса</AM_allowPhalanx>
+  <AM_allowSiegebreaker>Включить штурмовика</AM_allowSiegebreaker>
+  <AM_Tier2BandAmount>Пропускная способность для беспроводного подключения</AM_Tier2BandAmount>
+  <AM_Tier2BandAmountDesc>Увеличит пропускную способность пешки на эту величину. Применяется только в том случае, если у вас активировано дополнение Biotech. Прежде чем изменения вступят в силу, необходимо будет переключить подачу электроэнергии в узлы.</AM_Tier2BandAmountDesc>
+  <AM_Tier3BandAmount>Пропускная способность для пустых соединений</AM_Tier3BandAmount>
+  <AM_Tier3BandAmountDesc>Увеличит пропускную способность пешки на эту величину. Применяется только в том случае, если у вас активировано дополнение Biotech. Прежде чем изменения вступят в силу, необходимо будет переключить подачу электроэнергии в узлы.</AM_Tier3BandAmountDesc>
+  <AM_Reset>Сбросить</AM_Reset>
+
+  <!-- Abilities -->
+
+  <AM_CantUseOnNonMechs>Эта способность работает только на механоидах</AM_CantUseOnNonMechs>
+  <AM_OnlyMechanitorCanUse>Только механитор может использовать это</AM_OnlyMechanitorCanUse>
+  <AM_CantUseOnBossMechs>Босс механоидов имеет новую IFF систему, и не может быть взломан</AM_CantUseOnBossMechs>
+  <AM_NotEnoughBandwidth>У Механитора недостаточно полосы пропускания, чтобы использовать эту возможность на {0}</AM_NotEnoughBandwidth>
+  <AM_CantUseVEMechs>Этим механоидом дистанционно управляет пилот-человек, и его невозможно взломать</AM_CantUseVEMechs>
+  <AM_CantUseOnNonDowned>Нельзя использовать на людях, не сбитых с ног</AM_CantUseOnNonDowned>
+  <AM_EjectHemogen>Извлечь пакеты с гемогеном</AM_EjectHemogen>
+  <AM_EjectHemogenDesc>Выбрасывает все пакеты гемогена, хранящиеся в резервуарах для хранения меха</AM_EjectHemogenDesc>
+  <AM_HemogenStored>Пакеты с гемогеном: {0}</AM_HemogenStored>
+
+  <!-- Placeworkers -->
+
+  <AM_MustNotBePlacedCloseToAnother>Узлы пропускной способности, беспроводной сети и узлы способности пропускания пустой сети не должны располагаться близко друг к другу.</AM_MustNotBePlacedCloseToAnother>
+
+  <!-- Resources -->
+
+  <AM_RandomItems>Прогресс сборки</AM_RandomItems>
+  <AM_MealNutrientPaste>Производство питательной пасты</AM_MealNutrientPaste>
+
+
+
+
+
+</LanguageData>

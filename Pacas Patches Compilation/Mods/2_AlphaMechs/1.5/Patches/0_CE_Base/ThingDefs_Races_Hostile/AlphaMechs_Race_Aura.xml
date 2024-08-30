@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Alpha Mechs</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="AM_Aura"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.RacePropertiesExtensionCE">
+                            <bodyShape>Humanoid</bodyShape>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_Aura"]/statBases</xpath>
+                    <value>
+                        <MeleeDodgeChance>0.5</MeleeDodgeChance>
+                        <MeleeCritChance>0.24</MeleeCritChance>
+                        <MeleeParryChance>0.33</MeleeParryChance>
+                        <MaxHitPoints>200</MaxHitPoints>
+                        <ArmorRating_Blunt>12</ArmorRating_Blunt>
+                        <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_Aura"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_ArmorDurability">
+							<Durability>300</Durability>
+							<Regenerates>true</Regenerates>
+							<RegenInterval>750</RegenInterval>
+							<RegenValue>10</RegenValue>
+							<Repairable>true</Repairable>
+							<RepairIngredients>
+                                <TitaniumBar>2</TitaniumBar>
+                                <CarbonAlloy>2</CarbonAlloy>
+							</RepairIngredients>
+							<RepairTime>300</RepairTime>
+							<RepairValue>200</RepairValue>
+							<CanOverHeal>false</CanOverHeal>
+							<MinArmorPct>0.5</MinArmorPct>
+							<MinArmorValueSharp>3</MinArmorValueSharp>
+							<MinArmorValueBlunt>8</MinArmorValueBlunt>
+						</li>
+					</value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_Aura"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>wing blade</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>27</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <linkedBodyPartsGroup>AM_WingBlades</linkedBodyPartsGroup>
+                                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                                <armorPenetrationBlunt>16</armorPenetrationBlunt>
+                                <armorPenetrationSharp>12</armorPenetrationSharp>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>wing blade</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>18</power>
+                                <cooldownTime>1.25</cooldownTime>
+                                <linkedBodyPartsGroup>AM_WingBlades</linkedBodyPartsGroup>
+                                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                                <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                                <armorPenetrationSharp>30</armorPenetrationSharp>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>head</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>8</power>
+                                <cooldownTime>4</cooldownTime>
+                                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                                <chanceFactor>0.2</chanceFactor>
+                                <armorPenetrationBlunt>3</armorPenetrationBlunt>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

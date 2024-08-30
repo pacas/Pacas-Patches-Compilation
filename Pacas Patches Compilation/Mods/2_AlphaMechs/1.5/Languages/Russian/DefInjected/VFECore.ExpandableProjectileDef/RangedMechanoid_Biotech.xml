@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Coil lance -->
+
+  <AM_Gun_CoilLance_Projectile.label>осколок спирального копья</AM_Gun_CoilLance_Projectile.label>
+
+
+  <!-- Acid spewer -->
+
+  <AM_Bullet_AcidSpewer.label>кислота</AM_Bullet_AcidSpewer.label>
+
+
+  <!-- Siegemelter firethrower -->
+
+  <AM_Bullet_Firethrower.label>огонь</AM_Bullet_Firethrower.label>
+
+
+</LanguageData>

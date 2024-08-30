@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_ArcaneWeakness.label>тайная слабость</TM_ArcaneWeakness.label>
+  <TM_ArcaneWeakness.description>Тайная слабость - это побочный эффект применения магических способностей. Незначительные способности с ценой маны менее 25 не будут иметь тайной слабости. Количество тайной слабости, которая повлияет на мага, зависит от стоимости маны этой способности.</TM_ArcaneWeakness.description>
+  <TM_ArcaneWeakness.stages.0.label>ослабленный</TM_ArcaneWeakness.stages.0.label>
+  <TM_ArcaneWeakness.stages.1.label>высушенный</TM_ArcaneWeakness.stages.1.label>
+  <TM_ArcaneWeakness.stages.2.label>серьезно болен</TM_ArcaneWeakness.stages.2.label>
+  <TM_ArcaneWeakness.stages.3.label>кататонический</TM_ArcaneWeakness.stages.3.label>
+  <TM_ArcaneWeakness.stages.4.label>клиническая смерть</TM_ArcaneWeakness.stages.4.label>
+
+  <TM_CursedHD.label>тайное проклятие</TM_CursedHD.label>
+  <TM_CursedHD.description>Тайное проклятие - это побочный продукт проклятой черты. Проклятая пешка постоянно страдает от тайной слабости, которая будет постепенно усиливаться, пока не превратится в стойкую болезнь. Последствия проклятия могут быть компенсированы с помощью магии, однако боль, вызванная проклятием, обеспечивает уникальную ясность. Проклятие можно снять, удалив магическую черту пешки.</TM_CursedHD.description>
+  <TM_CursedHD.stages.0.label>блеклый</TM_CursedHD.stages.0.label>
+  <TM_CursedHD.stages.1.label>умеренный</TM_CursedHD.stages.1.label>
+  <TM_CursedHD.stages.2.label>повышенный</TM_CursedHD.stages.2.label>
+
+
+</LanguageData>

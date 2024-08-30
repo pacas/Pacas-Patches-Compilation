@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Legate -->
+
+  <AM_Mech_Legate.label>легат</AM_Mech_Legate.label>
+  <AM_Mech_Legate.labelPlural>легаты</AM_Mech_Legate.labelPlural>
+  <AM_Mech_Legate.lifeStages.0.label>легат</AM_Mech_Legate.lifeStages.0.label>
+  <AM_Mech_Legate.lifeStages.0.labelPlural>легаты</AM_Mech_Legate.lifeStages.0.labelPlural>
+  <AM_Mech_Legate.lifeStages.1.label>легат</AM_Mech_Legate.lifeStages.1.label>
+  <AM_Mech_Legate.lifeStages.1.labelPlural>легаты</AM_Mech_Legate.lifeStages.1.labelPlural>
+
+
+</LanguageData>

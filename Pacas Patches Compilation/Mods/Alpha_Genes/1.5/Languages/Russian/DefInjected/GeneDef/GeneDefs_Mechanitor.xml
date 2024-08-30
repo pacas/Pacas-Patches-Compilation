@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/GeneDefs/GeneDefs_Mechanitor.xml-->
+<AG_InnateMechlink.label>встроенный мехлинк</AG_InnateMechlink.label>
+<AG_InnateMechlink.description>Носители этого гена обладают встроенным мехлинком.</AG_InnateMechlink.description>
+<AG_InnateMechlink.customEffectDescriptions.0>Потеря этого гена приведет к тому, что колонист потеряет ВСЕХ мехов.</AG_InnateMechlink.customEffectDescriptions.0>
+<AG_MechConversion.label>Хак меха</AG_MechConversion.label>
+<AG_MechConversion.description>Носитель этого гена может удаленно взломать датчики IFF механоида, чтобы временно поменять его лояльность. Это продлится день, после чего механоид вернется к своей прежней лояльности и будет атаковать без разбора.</AG_MechConversion.description>
+<AG_MechConversion.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_MechConversion.customEffectDescriptions.0>
+<AG_BandwidthIncrease.label>пропускной процессор</AG_BandwidthIncrease.label>
+<AG_BandwidthIncrease.description>Носители этого гена будут иметь врожденную повышенную пропускную способность.</AG_BandwidthIncrease.description>
+<AG_BandwidthIncrease.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_BandwidthIncrease.customEffectDescriptions.0>
+<AG_BandwidthIncreaseMajor.label>пропускной Сервер</AG_BandwidthIncreaseMajor.label>
+<AG_BandwidthIncreaseMajor.description>У носителя этого гена пропускная способность увеличивается на 35%. Эффект мультипликативен, поэтому сначала он будет менее значительным, но будет увеличиваться по мере того, как механитор получает больше пропускной способности.</AG_BandwidthIncreaseMajor.description>
+<AG_BandwidthIncreaseMajor.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_BandwidthIncreaseMajor.customEffectDescriptions.0>
+<AG_BandwidthDecrease.label>снижение пропускной способности</AG_BandwidthDecrease.label>
+<AG_BandwidthDecrease.description>Носители этого гена будут иметь врожденную сниженную пропускную способность.</AG_BandwidthDecrease.description>
+<AG_BandwidthDecrease.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_BandwidthDecrease.customEffectDescriptions.0>
+<AG_BandwidthDecrease.customEffectDescriptions.1>"Но я могу добавить это к не-механиторам и получить свободный метаболизм!". Приятель, иди поспи =D, это игра для одного игрока,а лучше бахни лукас переводу хD от Nevelian</AG_BandwidthDecrease.customEffectDescriptions.1>
+<AG_SummonTempBandwidth.label>турбо буст</AG_SummonTempBandwidth.label>
+<AG_SummonTempBandwidth.description>Носитель этого гена может вызвать временный узел полосы, который увеличит его пропускную способность на 10 на целую неделю.</AG_SummonTempBandwidth.description>
+<AG_SummonTempBandwidth.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_SummonTempBandwidth.customEffectDescriptions.0>
+<AG_BandwidthLoop.label>петля</AG_BandwidthLoop.label>
+<AG_BandwidthLoop.description>Носитель этого гена может психически создать петлю обратной связи в соединении меха, перегрузив его пропускную способность и заставив его взорваться, уничтожив себя. Этот взрыв повредит все, что находится поблизости, а дальность взрыва зависит от пропускной способности меха.</AG_BandwidthLoop.description>
+<AG_BandwidthLoop.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_BandwidthLoop.customEffectDescriptions.0>
+<AG_IncreasedCommandRange.label>увеличен диапазон команд</AG_IncreasedCommandRange.label>
+<AG_IncreasedCommandRange.description>Носители этого гена будут иметь врожденный повышенный диапазон команд, чтобы призывать механоидов и управлять ими.</AG_IncreasedCommandRange.description>
+<AG_IncreasedCommandRange.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_IncreasedCommandRange.customEffectDescriptions.0>
+<AG_IncreasedCommandRange.customEffectDescriptions.1>Диапазон команд увеличен до 35.</AG_IncreasedCommandRange.customEffectDescriptions.1>
+<AG_DecreasedCommandRange.label>уменьшенный диапазон команд</AG_DecreasedCommandRange.label>
+<AG_DecreasedCommandRange.description>Носители этого гена будут иметь врожденный уменьшенный диапазон команд для призыва механоидов и управления ими.</AG_DecreasedCommandRange.description>
+<AG_DecreasedCommandRange.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_DecreasedCommandRange.customEffectDescriptions.0>
+<AG_DecreasedCommandRange.customEffectDescriptions.1>Диапазон команд уменьшен до 15.</AG_DecreasedCommandRange.customEffectDescriptions.1>
+<AG_DecreasedCommandRange.customEffectDescriptions.2>"Но я могу добавить это не-механиторам и получить свободный метаболизм!". Приятель, это игра для одного игрока.</AG_DecreasedCommandRange.customEffectDescriptions.2>
+<AG_IncreasedMechRepair.label>увеличена скорость ремонта</AG_IncreasedMechRepair.label>
+<AG_IncreasedMechRepair.description>Носители этого гена будут иметь врожденный бонус к скорости ремонта механоидов.</AG_IncreasedMechRepair.description>
+<AG_IncreasedMechRepair.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_IncreasedMechRepair.customEffectDescriptions.0>
+<AG_DecreasedMechRepair.label>снижена скорость ремонта</AG_DecreasedMechRepair.label>
+<AG_DecreasedMechRepair.description>Носители этого гена будут иметь врожденное снижение скорости ремонта механоидов.</AG_DecreasedMechRepair.description>
+<AG_DecreasedMechRepair.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_DecreasedMechRepair.customEffectDescriptions.0>
+<AG_DecreasedMechRepair.customEffectDescriptions.1>"Но я могу добавить это не-механиторам и получить свободный метаболизм!". Приятель, это игра для одного игрока.</AG_DecreasedMechRepair.customEffectDescriptions.1>
+<AG_ExpertMechRepair.label>усиление мехов</AG_ExpertMechRepair.label>
+<AG_ExpertMechRepair.description>Носитель этого гена обладает генетически усиленными способностями к ремонту механоидов, способными обеспечить значительное усиление только что отремонтированных механоидов.</AG_ExpertMechRepair.description>
+<AG_ExpertMechRepair.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AG_ExpertMechRepair.customEffectDescriptions.0>
+<AG_ExpertMechRepair.customEffectDescriptions.1>Это может быть сомнительно, если у вас есть несколько мехлинков и вы применяете их ко всем. Только представьте, что они обмениваются заметками над кулером с водой или чем-то подобным.</AG_ExpertMechRepair.customEffectDescriptions.1>
+<AlphaGenes_Animal_SummonMilitor.label>призвать милитора</AlphaGenes_Animal_SummonMilitor.label>
+<AlphaGenes_Animal_SummonMilitor.description>Носитель этого гена может вызывать механоид Милитор. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой способности перевозчику потребуется как минимум 1 пропускная способность меха.</AlphaGenes_Animal_SummonMilitor.description>
+<AlphaGenes_Animal_SummonMilitor.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AlphaGenes_Animal_SummonMilitor.customEffectDescriptions.0>
+<AlphaGenes_Animal_SummonTesseron.label>призвать тессерона</AlphaGenes_Animal_SummonTesseron.label>
+<AlphaGenes_Animal_SummonTesseron.description>Носитель этого гена может вызывать механоид Тессерон. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой способности перевозчику потребуется пропускная способность не менее 3 мехов.</AlphaGenes_Animal_SummonTesseron.description>
+<AlphaGenes_Animal_SummonTesseron.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AlphaGenes_Animal_SummonTesseron.customEffectDescriptions.0>
+<AlphaGenes_Animal_SummonCentipede.label>призвать Сентипеду	</AlphaGenes_Animal_SummonCentipede.label>
+<AlphaGenes_Animal_SummonCentipede.description>Носитель этого гена может вызывать механоида-многоножку. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой способности перевозчику потребуется пропускная способность не менее 4 мехов.</AlphaGenes_Animal_SummonCentipede.description>
+<AlphaGenes_Animal_SummonCentipede.customEffectDescriptions.0>Этот ген активен, только если носитель является механитором.</AlphaGenes_Animal_SummonCentipede.customEffectDescriptions.0>
+
+</LanguageData>

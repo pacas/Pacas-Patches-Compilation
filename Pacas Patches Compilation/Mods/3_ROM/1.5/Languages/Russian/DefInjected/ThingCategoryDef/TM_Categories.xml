@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_MagicItems.label>Магические предметы</TM_MagicItems.label>
+  <TM_SkillBooks.label>Книги навыков</TM_SkillBooks.label>
+  <TM_Scrolls.label>Свитки</TM_Scrolls.label>
+  <TM_Magicyte.label>Магицит</TM_Magicyte.label>
+  <TM_MagicArtifacts.label>Артефакты</TM_MagicArtifacts.label>
+  <TM_MagicEquipment.label>Магическое</TM_MagicEquipment.label>
+  <TM_MagicRings.label>Кольца</TM_MagicRings.label>
+  <TM_MagicApparel.label>Одежда</TM_MagicApparel.label>
+  <TM_MagicArmor.label>Броня</TM_MagicArmor.label>
+  <TM_MagicWeaponsMelee.label>Магическое</TM_MagicWeaponsMelee.label>
+  <TM_MagicWeaponsRanged.label>Магическое</TM_MagicWeaponsRanged.label>
+  <TM_MagicWeaponsFoci.label>Жезлы и посохи</TM_MagicWeaponsFoci.label>
+  <TM_MagicGems.label>Самоцветы</TM_MagicGems.label>
+  <TM_MagicGloves.label>Перчатки</TM_MagicGloves.label>
+  <TM_MagicHeadsets.label>Головные уборы</TM_MagicHeadsets.label>
+  <TM_MagicPendant.label>Обереги</TM_MagicPendant.label>
+  <TM_MagicRings.label>Кольца</TM_MagicRings.label>
+
+
+</LanguageData>

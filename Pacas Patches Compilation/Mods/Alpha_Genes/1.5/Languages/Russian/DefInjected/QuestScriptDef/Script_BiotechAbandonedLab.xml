@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.3.name>Заброшенная биотехническая лаборатория</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.3.name>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.3.elseNode.nodes.0.name>Заброшенная биотехническая лаборатория</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.3.elseNode.nodes.0.name>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.9.node.nodes.0.label>Срок выполнения задания истек: [resolvedQuestName]</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.9.node.nodes.0.label>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.9.node.nodes.0.text>Перехваченные сообщения указывают на то, что заброшенная биотехнологическая лаборатория была разгромлена другими. Срок выполнения [resolvedQuestName] задания истек.</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.9.node.nodes.0.text>
+    <AG_OpportunitySite_AbandonedBiotechLab.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Заброшенный радиомаяк, по-видимому, излучает слабые радиосигналы с помощью устройства определения местоположения. Расшифровав эти сигналы, мы обнаружили, что они, по-видимому, ведут в древнюю биотехнологическую лабораторию недалеко от [map_definite]. На этом участке может быть какая-то пригодная для восстановления генетическая технология, так что было бы неплохо исследовать ее.\n\nМы должны быть хорошо подготовлены, так как радиомаяк может привлечь враждебное присутствие к местоположению лаборатории..</AG_OpportunitySite_AbandonedBiotechLab.questDescriptionRules.rulesStrings.0>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.0>questName(priority=1)->[biotechlab] [discovered]</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.0>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.1>biotechlab->Биотехнологическая лаборатория</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.1>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.2>biotechlab->Лаборатория биотехнологической генетики</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.2>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.3>biotechlab->Лаборатория биотехнологических экспериментов</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.3>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.4>biotechlab->Биотехнологическая лаборатория ксенотипов</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.4>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.5>biotechlab->Лаборатория генетики человека</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.5>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.6>discovered->обнаружен</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.6>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.7>discovered->найден</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.7>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.8>discovered->расположенный</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.8>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.9>discovered->выведенная на свет</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.9>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.10>discovered->выследили</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.10>
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.11>discovered->раскопанный</AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings.11>
+    <!--1.4/Defs/QuestScriptDefs/Script_BiotechAbandonedLab.xml-->
+    <AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings>
+        <li>questName(priority=1)->[biotechlab] [discovered]</li>
+        <li>biotechlab->Биотехнологическая лаборатория</li>
+        <li>biotechlab->Лаборатория биотехнологической генетики</li>
+        <li>biotechlab->Лаборатория биотехнологических экспериментов</li>
+        <li>biotechlab->Биотехнологическая лаборатория ксенотипов</li>
+        <li>biotechlab->Лаборатория генетики человека</li>
+        <li>discovered->обнаружен</li>
+        <li>discovered->найден</li>
+        <li>discovered->расположенный</li>
+        <li>discovered->выведенная на свет</li>
+        <li>discovered->выследили</li>
+        <li>discovered->раскопанный</li>
+    </AG_OpportunitySite_AbandonedBiotechLab.questNameRules.rulesStrings>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок выполнения задания истек: [resolvedQuestName]</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+    <AG_OpportunitySite_AbandonedBiotechLab.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Перехваченные сообщения указывают на то, что заброшенная биотехнологическая лаборатория была разгромлена другими. Срок выполнения [resolvedQuestName] истёк.</AG_OpportunitySite_AbandonedBiotechLab.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+</LanguageData>

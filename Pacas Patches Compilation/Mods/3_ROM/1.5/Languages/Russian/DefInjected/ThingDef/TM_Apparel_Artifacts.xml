@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_Artifact_Silver.label>Оберег ртути</TM_Artifact_Silver.label>
+  <TM_Artifact_Silver.description>Оберег, зачарованный серебряной эссенцией. Известный как ртутный оберег, этот дорогой артефакт, как говорят, дает повышенную ловкость своему владельцу.</TM_Artifact_Silver.description>
+
+  <TM_Artifact_Slate.label>Оберег починки</TM_Artifact_Slate.label>
+  <TM_Artifact_Slate.description>Оберег, зачарованный сущностью сланца. Шиферная подвеска для починки будет медленно восстанавливать долговечность всего изношенного оборудования.</TM_Artifact_Slate.description>
+
+  <TM_Artifact_Medicine.label>Оберег здоровья</TM_Artifact_Medicine.label>
+  <TM_Artifact_Medicine.description>Этот оберег улучшает здоровье носителя, даруя повышенный иммунитет к болезням и помогает ранам быстрее заживать.</TM_Artifact_Medicine.description>
+
+  <TM_Artifact_Limestone.label>Оберег «Кошачий глаз»</TM_Artifact_Limestone.label>
+  <TM_Artifact_Limestone.description>Оберег, зачарованный эссенцией известняка. Носитель получает улучшенное зрение и может видеть в темноте. Этот оберег излучает мягкое свечение.</TM_Artifact_Limestone.description>
+
+  <TM_Artifact_Granite.label>Кольцо труда</TM_Artifact_Granite.label>
+  <TM_Artifact_Granite.description>Кольцо, зачарованное сущностью гранита. Это кольцо дает носителю увеличенную способность к работе и манипулациям.</TM_Artifact_Granite.description>
+
+  <TM_Artifact_Marble.label>Оберег ментальной защиты</TM_Artifact_Marble.label>
+  <TM_Artifact_Marble.description>Оберег, зачарованный сущностью мрамора. Этот оберег улучшает психическое состояние своих носителей и обеспечивает ментальный якорь. Оберег иногда позволяет своему носителю вырваться из ментальных состояний.</TM_Artifact_Marble.description>
+
+  <TM_Artifact_Sandstone.label>Оберег отдыха</TM_Artifact_Sandstone.label>
+  <TM_Artifact_Sandstone.description>Оберег, зачарованный сущностью песчаника. Этот оберег улучшает качество отдыха его обладателей и не позволяет прохожим нарушать их сон.</TM_Artifact_Sandstone.description>
+
+  <TM_Artifact_Steel.label>Оберег защиты</TM_Artifact_Steel.label>
+  <TM_Artifact_Steel.description>Оберег, зачарованный сущностью стали. Этот оберег волшебным образом улучшает защиту своих владельцев.</TM_Artifact_Steel.description>
+
+  <TM_Artifact_Iron.label>Оберег незначительной защиты</TM_Artifact_Iron.label>
+  <TM_Artifact_Iron.description>Оберег, заколдованный сущностью железа. Этот оберег волшебным образом улучшает защиту своих владельцев.</TM_Artifact_Iron.description>
+
+  <TM_Artifact_Jade.label>Кольцо тайного восстановления</TM_Artifact_Jade.label>
+  <TM_Artifact_Jade.description>Кольцо, зачарованное эссенцией нефрита. Это кольцо увеличивает скорость восстановления его владельца от тайной слабости.</TM_Artifact_Jade.description>
+
+  <TM_Artifact_Gold.label>Кольцо власти</TM_Artifact_Gold.label>
+  <TM_Artifact_Gold.description>Кольцо, зачарованное сущностью золота. Это кольцо повышает навыки ведения переговоров у тех, кто его носит.</TM_Artifact_Gold.description>
+
+  <TM_Artifact_Magicyte.label>Кольцо знаний</TM_Artifact_Magicyte.label>
+  <TM_Artifact_Magicyte.description>Кольцо, зачарованное сущностью магицита. Это кольцо улучшает скорость обучения.</TM_Artifact_Magicyte.description>
+
+  <TM_Artifact_Wood.label>Кольцо следопыта</TM_Artifact_Wood.label>
+  <TM_Artifact_Wood.description>Кольцо, зачарованное древесной эссенцией. Обладатель этого кольца не будет замедлен рельефом местности и улучшил добывание пищи, находясь в караване.</TM_Artifact_Wood.description>
+
+
+  <!-- Craftable Artifacts -->
+
+  <TM_Artifact_BracersOfThePacifist.label>Наручи пацифиста</TM_Artifact_BracersOfThePacifist.label>
+  <TM_Artifact_BracersOfThePacifist.description>Эти наручи кажутся не более чем тонкой тканью, обернутой в кожу, но их ничем не примечательный внешний вид опровергается замечательной силой. Этот предмет может носить только пацифист.\n\nЭти наручи зачарованы и дают дополнительные преимущества обученным магам и бойцам:\nМаксимум энергии: +40%\nРегенерация маны: +40%\nСопротивление магии: +50%\nТайное восстановление - уменьшает время восстановления от тайной слабости.</TM_Artifact_BracersOfThePacifist.description>
+
+  <TM_Artifact_BracersOfDefense.label>Наручи защиты</TM_Artifact_BracersOfDefense.label>
+  <TM_Artifact_BracersOfDefense.description>Наручи изготовлены из закаленного материала, который позволяет владельцу блокировать физические атаки. Вероятность блокировки-40%.\n\nЭти наручи зачарованы и дают дополнительные преимущества обученным магам и бойцам:\nСопротивление магии: 10%</TM_Artifact_BracersOfDefense.description>
+
+  <TM_Artifact_BracersOfDeflection.label>Наручи отклонения</TM_Artifact_BracersOfDeflection.label>
+  <TM_Artifact_BracersOfDeflection.description>Наручи изготовлены из реактивного материала, который позволяет владельцу блокировать атаки и отклонять снаряды. Шанс блокировки 30%, все заблокированные атаки отражаются в пределах 8 ячеек.\n\nЭти наручи зачарованы и дают дополнительные преимущества обученным магам и бойцам:\nСопротивление магии: 10%</TM_Artifact_BracersOfDeflection.description>
+
+  <TM_Artifact_RingOfKeenIntellect.label>Кольцо острого ума</TM_Artifact_RingOfKeenIntellect.label>
+  <TM_Artifact_RingOfKeenIntellect.description>Кольцо, которое расширяет ум и повышает остроту ума, но увеличивает умственное напряжение.\n\nЭто кольцо зачаровано и даёт дополнительные преимущества обученным магам и бойцам:\nПрирост опыта в классе: +25%</TM_Artifact_RingOfKeenIntellect.description>
+
+  <TM_Artifact_RingOfBlood.label>Кольцо крови</TM_Artifact_RingOfBlood.label>
+  <TM_Artifact_RingOfBlood.description>Кольцо со вставкой из темного камня; потоки темно-красного и черного цвета кружатся под его поверхностью. Этот тип кольца был впервые создан древним вампиром для увеличения запасов крови и может быть использован магом крови для хранения магии крови.\n\nСила кольца крови зависит от славы его носителя и будет расти с каждым убитым или поверженным человеком.</TM_Artifact_RingOfBlood.description>
+
+  <TM_Artifact_RingOfEternalBlue.label>Кольцо вечного сияния</TM_Artifact_RingOfEternalBlue.label>
+  <TM_Artifact_RingOfEternalBlue.description>Кольцо, которое, кажется, пульсирует мягким голубым светом. Это кольцо повышает психическую чувствительность и отвечает взаимностью на психическую чувствительность своего носителя.\n\nКольцо вечного сияния увеличит энергию псиоников пропорционально их психической чувствительности.</TM_Artifact_RingOfEternalBlue.description>
+
+  <TM_Artifact_RingOfMalice.label>Кольцо злобы</TM_Artifact_RingOfMalice.label>
+  <TM_Artifact_RingOfMalice.description>Это кольцо излучает темную ауру и постоянно холодно на ощупь. Кольцо злобы увеличивает холостой и максимальный уровни ненависти рыцаря смерти.\n\nСила кольца злобы зависит от славы его носителя и будет расти с каждой полученной или нанесенной раной.</TM_Artifact_RingOfMalice.description>
+
+  <TM_Artifact_OrbOfConviction.label>Шар убеждения</TM_Artifact_OrbOfConviction.label>
+  <TM_Artifact_OrbOfConviction.description>Также известный как предательская безделушка, шар безумия и похититель разума-шар убеждения является мощным и опасным артефактом. Когда он наполнен убежденностью и магией заклинателя, он может быть использован, чтобы надавить на эту убежденность другого.\n\nВ случае успеха цель немедленно присоединится к фракции заклинателей, но будет подвержена психическому шоку.\n\nТолько самые могущественные маги могут управлять силой этого артефакта, но даже тогда он будет стоить очень дорого. Шар взорвется, как только заклинание будет брошено, и может быть использован только один раз.</TM_Artifact_OrbOfConviction.description>
+
+  <TM_Artifact_OrbOfSouls.label>Шар души (пустой)</TM_Artifact_OrbOfSouls.label>
+  <TM_Artifact_OrbOfSouls.description>Шар души - это могущественный и опасный артефакт. Он не требует никакой внешней силы и может извлечь душу пешки, обладающей чертами характера.\n\nВ случае успеха сфера душ поглотит все черты объекта; объект потеряет поглощенные черты. Этот процесс почти всегда приводит к летальному исходу.\n\nПосле заполнения сфера душ может быть использована для передачи поглощенных черт в другую человекоподобную пешку.</TM_Artifact_OrbOfSouls.description>
+
+  <TM_Artifact_OrbOfSouls_Full.label>Шар души (заполненный)</TM_Artifact_OrbOfSouls_Full.label>
+  <TM_Artifact_OrbOfSouls_Full.description>Шар души - это могущественный и опасный артефакт. Этот шар впитал в себя черты и может быть использован, чтобы влить эти черты в человекоподобную пешку.\n\nКонфликтующие черты никогда не могут перейти в целевую пешку. Если пешка обладает более чем 7 признаками, то есть 75% вероятность того, что случайный, существующий признак будет заменен на признак, который вводится.\n\nШар взорвется и будет уничтожен, как только черты будут освобождены.</TM_Artifact_OrbOfSouls_Full.description>
+
+  <TM_Artifact_OrbOfEternal.label>Сфера вечного</TM_Artifact_OrbOfEternal.label>
+  <TM_Artifact_OrbOfEternal.description>Однократное использование вливания магической энергии, приготовленной для исцеления ран, восстановления конечностей и лечения болезней. Целительная энергия будет нацелена и исцелит единственное худшее состояние здоровья, влияющее на кого-то в любой момент времени.\n\nСферы вечного использовались магами, правителями и элитой для продления жизни. Эти шары ценны и редки в основном из-за секретности, окружающей процесс создания шара.</TM_Artifact_OrbOfEternal.description>
+  <TM_Artifact_OrbOfEternal.comps.1.useLabel>Используйте шар вечного</TM_Artifact_OrbOfEternal.comps.1.useLabel>
+
+  <TM_Artifact_NecroticOrb.label>Некротический шар</TM_Artifact_NecroticOrb.label>
+  <TM_Artifact_NecroticOrb.description>Артефакт, способный содержать некротическую энергию, необходимую для поддержания жизни нежити. Некротический шар функционирует почти как батарея; когда он оснащен пешкой, он поглощает энергию от некроманта, как если бы сам был нежитью. Когда некромант не получает никакой энергии, он рассеивает ее, чтобы поддерживать нежить.\n\nТолько один шар может быть оснащен пешкой. Шары вступают в силу только тогда, когда они оснащены.</TM_Artifact_NecroticOrb.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_AM_Connectors.label>Станции связи механоидов</SubCategory_AM_Connectors.label>
+    <SubCategory_AM_Connectors.description>Поддерживайте стабильное соединение с помощью этих устройств!</SubCategory_AM_Connectors.description>
+
+    <SubCategory_AM_Boosters.label>Усилители механоидов</SubCategory_AM_Boosters.label>
+    <SubCategory_AM_Boosters.description>Изменяйте характеристики механоидов с помощью этих устройств!</SubCategory_AM_Boosters.description>
+
+    <SubCategory_AM_Boss.label>Локаторы мехбоссов</SubCategory_AM_Boss.label>
+    <SubCategory_AM_Boss.description>Вызывайте мощных мехбоссов с помощью этих устройств!</SubCategory_AM_Boss.description>
+  
+</LanguageData>

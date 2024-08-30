@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BasicBeekeeping"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BasicBeekeeping"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Techlevel</patchName>
+                <arguments>
+                    <li>RB_BasicBeekeeping</li>
+                    <li>0</li>
+                    <li>70</li>
+                    <li>Neolithic</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeBreeding"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>PrimitiveBase</value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeBreeding"]/prerequisites</xpath>
+                <compare>InnerText</compare>
+                <value>
+                    <li>Animal_A2</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeBreeding"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>RB_BeeBreeding</li>
+                    <li>600</li>
+                    <li>4</li>
+                    <li>70</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeHybridizing"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeHybridizing"]/prerequisites</xpath>
+                <compare>InnerText</compare>
+                <value>
+                    <li>Animal_C1</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeHybridizing"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost_Techlevel</patchName>
+                <arguments>
+                    <li>RB_BeeHybridizing</li>
+                    <li>1000</li>
+                    <li>8</li>
+                    <li>70</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_MeadBrewing"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_MeadBrewing"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_BasicHoneyExtraction</li>
+                        <li>Brewing</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_MeadBrewing"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions</patchName>
+                <arguments>
+                    <li>RB_MeadBrewing</li>
+                    <li>4</li>
+                    <li>71</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeswaxLighting"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>MedievalBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeswaxLighting"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_BasicHoneyExtraction</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_BeeswaxLighting"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost_Techlevel</patchName>
+                <arguments>
+                    <li>RB_BeeswaxLighting</li>
+                    <li>200</li>
+                    <li>2</li>
+                    <li>70</li>
+                    <li>Neolithic</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_ClimatizedBeehouses"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_ClimatizedBeehouses"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_BeeHybridizing</li>
+                        <li>AirConditioning</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_ClimatizedBeehouses"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost_Techlevel</patchName>
+                <arguments>
+                    <li>RB_ClimatizedBeehouses</li>
+                    <li>750</li>
+                    <li>9</li>
+                    <li>70</li>
+                    <li>Industrial</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedBeehouses"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_BeeHybridizing</li>
+                        <li>Autodoors</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedBeehouses"]/requiredResearchBuilding</xpath>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedBeehouses"]/requiredResearchFacilities</xpath>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedBeehouses"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedBeehouses"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>RB_AdvancedBeehouses</li>
+                    <li>1250</li>
+                    <li>9</li>
+                    <li>71</li>
+                </arguments>
+            </li>
+
+
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedClimatization"]/requiredResearchBuilding</xpath>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedClimatization"]/requiredResearchFacilities</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedClimatization"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedClimatization"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>RB_AdvancedClimatization</li>
+                    <li>1750</li>
+                    <li>11</li>
+                    <li>70</li>
+                </arguments>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_SpacerBeekeeping"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_AdvancedCentrifugation</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_SpacerBeekeeping"]/requiredResearchBuilding</xpath>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_SpacerBeekeeping"]/requiredResearchFacilities</xpath>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_SpacerBeekeeping"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_SpacerBeekeeping"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>HitechMultiBase</value>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Medical IVs</li>
+                </mods>
+                <match Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost</patchName>
+                    <arguments>
+                        <li>RB_SpacerBeekeeping</li>
+                        <li>2250</li>
+                        <li>17</li>
+                        <li>70</li>
+                    </arguments>
+                </match>
+                <nomatch Class="XmlExtensions.ApplyPatch">
+                    <patchName>Research_Positions_Cost</patchName>
+                    <arguments>
+                        <li>RB_SpacerBeekeeping</li>
+                        <li>2250</li>
+                        <li>18</li>
+                        <li>70</li>
+                    </arguments>
+                </nomatch>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedCentrifugation"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>RB_AdvancedClimatization</li>
+                        <li>RB_BasicCentrifugation</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedCentrifugation"]/requiredResearchBuilding</xpath>
+            </li>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedCentrifugation"]/requiredResearchFacilities</xpath>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedCentrifugation"]</xpath>
+                <value>
+                    <li Class="ResearchTreeSK.ResearchTreeSKModExtension"></li>
+                </value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ResearchProjectDef[defName="RB_AdvancedCentrifugation"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>IndustrialBase</value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>RB_AdvancedCentrifugation</li>
+                    <li>2000</li>
+                    <li>12</li>
+                    <li>70</li>
+                </arguments>
+            </li>
+
+
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ResearchDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

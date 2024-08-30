@@ -1,0 +1,14 @@
+<LanguageData>
+
+  <AG_UseGeneRemover.reportString>используя средство для удаления генов.</AG_UseGeneRemover.reportString>
+  <AG_UseEndogenefier.reportString>использование эндогенификатора.</AG_UseEndogenefier.reportString>
+  <AG_UseXenogenefier.reportString>использование ксеногенефера.</AG_UseXenogenefier.reportString>
+  <AG_UseXenotypeNullifier.reportString>использование средства обнуления ксенотипа.</AG_UseXenotypeNullifier.reportString>
+  <AG_UseGermlineMutator.reportString>использование мутатора.</AG_UseGermlineMutator.reportString>
+  <AG_UseXenotypeInjector.reportString>использование инжектора ксенотипа.</AG_UseXenotypeInjector.reportString>
+  <AG_UseGenepackTweaker.reportString>использование твикера генпак.</AG_UseGenepackTweaker.reportString>
+  <AG_UseGenepackDisruptor.reportString>использование разрушителя генпака.</AG_UseGenepackDisruptor.reportString>
+
+
+<!--1.4/Defs/JobDefs/Jobs_Work.xml-->
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_DaggersnoutRecipe.label>вырастить даггернота</AM_DaggersnoutRecipe.label>
+  <AM_DaggersnoutRecipe.description>Вырастить даггернота.</AM_DaggersnoutRecipe.description>
+
+  <AM_BellicorRecipe.label>вырастить белликора</AM_BellicorRecipe.label>
+  <AM_BellicorRecipe.description>Вырастить белликора.</AM_BellicorRecipe.description>
+
+  <AM_ArtilleronRecipe.label>вырастить артиллерона</AM_ArtilleronRecipe.label>
+  <AM_ArtilleronRecipe.description>Вырастить артиллерона.</AM_ArtilleronRecipe.description>
+
+  <AM_BlitzkriegRecipe.label>вырастить блицкрига</AM_BlitzkriegRecipe.label>
+  <AM_BlitzkriegRecipe.description>Вырастить блицкрига.</AM_BlitzkriegRecipe.description>
+
+  <AM_Mech_MasterChefRecipe.label>вырастить кулинариуса</AM_Mech_MasterChefRecipe.label>
+  <AM_Mech_MasterChefRecipe.description>Вырастить кулинариуса.</AM_Mech_MasterChefRecipe.description>
+
+  <AM_Mech_TurboCleanerRecipe.label>вырастить турбоуборщика</AM_Mech_TurboCleanerRecipe.label>
+  <AM_Mech_TurboCleanerRecipe.description>Вырастить турбоуборщика.</AM_Mech_TurboCleanerRecipe.description>
+  
+  <AM_Gestate_Nucleotron.label>вырастить нуклеотрона</AM_Gestate_Nucleotron.label>
+  <AM_Gestate_Nucleotron.description>Вырастить нуклеотрона.</AM_Gestate_Nucleotron.description>
+  
+  <AM_Gestate_Librarian.label>вырастить скриптоматона</AM_Gestate_Librarian.label>
+  <AM_Gestate_Librarian.description>Вырастить скриптоматона.</AM_Gestate_Librarian.description>
+  
+  <AM_Gestate_Angler.label>вырастить океануса</AM_Gestate_Angler.label>
+  <AM_Gestate_Angler.description>Вырастить океануса.</AM_Gestate_Angler.description>
+
+
+</LanguageData>

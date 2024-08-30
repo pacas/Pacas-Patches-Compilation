@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchProjectDef ParentName="MedievalBase">
+        <defName>TM_PotionCraft</defName>
+        <label>Mana potions brewing</label>
+        <description>Player, we have to cook!</description>
+        <baseCost>300</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>TM_PlantCultivation</li>
+            <li>Brewing</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>8.00</researchViewY>
+        <tab>TMagic</tab>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef ParentName="MedievalBase">
+        <defName>TM_ArcaneWeapons</defName>
+        <label>magical weapons</label>
+        <description>Applies knowledge of arcane crafting and enchantments to learn how to recreate weapons with more powerful magical properties.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>TM_ArcaneCrafting</li>
+            <li>TM_ArcaneForging</li>
+            <li>LongBlades</li>
+            <li>Bow_B2</li>
+        </prerequisites>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+        <tab>TMagic</tab>
+    </ResearchProjectDef>
+</Defs>

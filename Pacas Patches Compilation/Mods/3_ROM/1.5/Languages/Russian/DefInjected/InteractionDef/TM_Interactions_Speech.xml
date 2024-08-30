@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<TM_Speech_SeverMagic.label>разорыв магического потока</TM_Speech_SeverMagic.label>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] [praised] [doing] [speechtopic].</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.0>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.1>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.2>speechtopic->магия</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.2>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.3>speechtopic->мир через силу</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.3>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.4>speechtopic->маги</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.4>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.5>speechtopic->хаос</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.5>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.6>speechtopic->искушение властью</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.6>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.7>speechtopic->магия и маги</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.7>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.8>speechtopic->соблазн магии</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.8>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.9>speechtopic->странствующий биогенетический рак</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.9>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.10>crazy->кричит безумно</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.10>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.11>crazy->разразился песнопением</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.11>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.12>crazy->воспетый к небесам</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.12>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.13>crazy->плюнул магу в глаз</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.13>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.14>crazy->засмеялся</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.14>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.15>crazy->замахнулся клинком</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.15>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.16>crazy->бормотал одно и то же</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.16>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.17>crazy->кричит с вызовом</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.17>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.18>crazy->неудержимо дергается</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.18>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.19>doing->контролирует</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.19>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.20>doing->балансирует</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.20>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.21>doing->жертвует</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.21>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.22>doing->устраняет искушения</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.22>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.23>doing->манипулирует</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.23>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.24>doing->освобождает</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.24>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.25>doing->твердо стоит на против</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.25>
+<TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.26>doing->отклоняет</TM_Speech_SeverMagic.logRulesInitiator.rulesStrings.26>
+
+<TM_Speech_BestowMagic.label>дар магического потока</TM_Speech_BestowMagic.label>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] [praised] [doing] [speechtopic].</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.0>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.1>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.2>speechtopic->магия</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.2>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.3>speechtopic->мир через силу</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.3>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.4>speechtopic->маги</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.4>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.5>speechtopic->приказ</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.5>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.6>speechtopic->сила для защиты</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.6>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.7>speechtopic->магия и маги</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.7>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.8>speechtopic->благословения магии</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.8>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.9>speechtopic->следующий этап в эволюции человека</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.9>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.10>crazy->победоносно взревел</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.10>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.11>crazy->разразился песнопением</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.11>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.12>crazy->воспетый к небесам</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.12>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.13>crazy->положил руку убеждения на мага</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.13>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.14>crazy->героически улыбнулся</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.14>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.15>crazy->размахивал посохом</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.15>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.16>crazy->пробормотал мантру</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.16>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.17>crazy->предложил благословение</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.17>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.18>crazy->потянулся к небесам</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.18>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.19>doing->достижение</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.19>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.20>doing->обучение</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.20>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.21>doing->понимающий</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.21>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.22>doing->использует</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.22>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.23>doing->защищает</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.23>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.24>doing->освобождает</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.24>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.25>doing->помогает</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.25>
+<TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.26>doing->получает</TM_Speech_BestowMagic.logRulesInitiator.rulesStrings.26>
+</LanguageData>

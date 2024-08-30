@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Material Resource Recipes -->
+
+  <TM_MakeManaweave.label>Изготовить манаткань</TM_MakeManaweave.label>
+  <TM_MakeManaweave.description>Сплетите ману, магицит и ткань в манаткань.</TM_MakeManaweave.description>
+  <TM_MakeManaweave.jobString>плетёт манаткань</TM_MakeManaweave.jobString>
+
+  <TM_MakeArcalleum.label>выплавить аркаллеум</TM_MakeArcalleum.label>
+  <TM_MakeArcalleum.description>Сплавьте железо, нефрит, серебро и магицит в сплав аркаллеума.</TM_MakeArcalleum.description>
+  <TM_MakeArcalleum.jobString>выплавляет аркаллеума</TM_MakeArcalleum.jobString>
+  
+  <MakePureMagicyteBar_Hand.label>выплавить чистый магицит</MakePureMagicyteBar_Hand.label>
+  <MakePureMagicyteBar_Hand.description>Выплавить чистый магицит из магицитовой руды и любой высокопроводящей руды. Производится 15 слитков.</MakePureMagicyteBar_Hand.description>
+  <MakePureMagicyteBar_Hand.jobString>выплавляет чистый магицит</MakePureMagicyteBar_Hand.jobString>
+  
+  <MakePureMagicyteBar_Electric.label>выплавить чистый магицит</MakePureMagicyteBar_Electric.label>
+  <MakePureMagicyteBar_Electric.description>Выплавить чистый магицит из магицитовой руды и любой высокопроводящей руды. Производится 15 слитков.</MakePureMagicyteBar_Electric.description>
+  <MakePureMagicyteBar_Electric.jobString>выплавляет чистый магицит</MakePureMagicyteBar_Electric.jobString>
+
+
+</LanguageData>

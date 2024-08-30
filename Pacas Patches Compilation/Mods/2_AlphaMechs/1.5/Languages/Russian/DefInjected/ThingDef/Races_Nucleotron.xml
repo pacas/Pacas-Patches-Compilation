@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Mech_Nucleotron.label>нуклеотрон</AM_Mech_Nucleotron.label>
+  <AM_Mech_Nucleotron.description>Специализированный механоид-подъёмник, предназначенный для транспортировки расщепляющегося материала, вставки и извлечения его в ядерные реакторы. Он оснащен надежной защитной оболочкой для предотвращения любых утечек или загрязнения во время транспортировки. Поскольку он менее универсален, чем подъёмник, он также довольно быстро перемещается.</AM_Mech_Nucleotron.description>
+  <AM_Mech_Nucleotron.tools.0.label>подъемники</AM_Mech_Nucleotron.tools.0.label>
+
+</LanguageData>

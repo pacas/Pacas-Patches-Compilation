@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ears -->
+
+  <AG_RadYakEars.label>Уши радяка</AG_RadYakEars.label>
+  <AG_RadYakEars.description>У носителей этого гена вырастут заостренные уши радяка.</AG_RadYakEars.description>
+
+  <AG_AnimusEars.label>Уши анимуса</AG_AnimusEars.label>
+  <AG_AnimusEars.description>У носителей этого гена вырастут уши анимуса.</AG_AnimusEars.description>
+
+  <AG_SingleEar.label>Одно ухо</AG_SingleEar.label>
+  <AG_SingleEar.description>У носителей этого гена вырастет единственное деформированное, свисающее ухо.</AG_SingleEar.description>
+
+
+</LanguageData>

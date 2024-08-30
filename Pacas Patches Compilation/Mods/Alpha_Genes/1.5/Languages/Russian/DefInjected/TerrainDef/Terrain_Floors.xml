@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <AG_CrackedConcrete.label>Треснувший бетон</AG_CrackedConcrete.label>
+  <AG_CrackedConcrete.description>треснувший бетон. Сломан из-за отсутствия технического обслуживания.</AG_CrackedConcrete.description>
+
+  <AG_RustedTile.label>Ржавая плитка</AG_RustedTile.label>
+  <AG_RustedTile.description>Ржавая плитка биотехнологической лаборатории.</AG_RustedTile.description>
+
+  <AG_BurntCarpet.label>Старый ковер</AG_BurntCarpet.label>
+  <AG_BurntCarpet.description>Обгоревший старый ковер.</AG_BurntCarpet.description>
+
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <RB_CreateTier4Research.label>провести исследования пчел 4-ого уровеня</RB_CreateTier4Research.label>
+    <RB_CreateTier4Research.description>Исследуйте сочетания пчел, чтобы создать пчел 4-го уровня. Это исследование является случайным, и вы можете получить повторение итогов.</RB_CreateTier4Research.description>
+    <RB_CreateTier4Research.jobString>Исследование пчел</RB_CreateTier4Research.jobString>
+
+    <RB_CreateTier5Research.label>провести исследования пчел 5-ого уровеня</RB_CreateTier5Research.label>
+    <RB_CreateTier5Research.description>Исследуйте сочетания пчел, чтобы создать пчел 5-го уровня. Это исследование является случайным, и вы можете получить повторение итогов.</RB_CreateTier5Research.description>
+    <RB_CreateTier5Research.jobString>Исследование пчел</RB_CreateTier5Research.jobString>
+
+    <RB_CreateAlphaTierResearch.label>провести исследования пчел типа альфа</RB_CreateAlphaTierResearch.label>
+    <RB_CreateAlphaTierResearch.description>Исследуйте сочетания пчел, чтобы создать альфа пчел. Это исследование является случайным, и вы можете получить повторение итогов.</RB_CreateAlphaTierResearch.description>
+    <RB_CreateAlphaTierResearch.jobString>Исследование пчел</RB_CreateAlphaTierResearch.jobString>
+
+    <RB_CreateRoMTierResearch.label>провести магические исследования пчел</RB_CreateRoMTierResearch.label>
+    <RB_CreateRoMTierResearch.description>Исследуйте сочетания пчел, чтобы создать магических пчел. Это исследование является случайным, и вы можете получить повторение итогов.</RB_CreateRoMTierResearch.description>
+    <RB_CreateRoMTierResearch.jobString>Исследование пчел</RB_CreateRoMTierResearch.jobString>
+
+
+</LanguageData>

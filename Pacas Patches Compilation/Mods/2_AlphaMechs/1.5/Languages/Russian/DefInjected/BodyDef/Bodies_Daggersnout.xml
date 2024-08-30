@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_DaggerSnoutBody.label>даггернот</AM_DaggerSnoutBody.label>
+  <AM_DaggerSnoutBody.corePart.parts.0.parts.0.customLabel>лицевой клинок</AM_DaggerSnoutBody.corePart.parts.0.parts.0.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.0.parts.2.customLabel>левый датчик прицеливания</AM_DaggerSnoutBody.corePart.parts.0.parts.2.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.0.parts.3.customLabel>правый датчик прицеливания</AM_DaggerSnoutBody.corePart.parts.0.parts.3.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.0.parts.4.customLabel>левый датчик слуха</AM_DaggerSnoutBody.corePart.parts.0.parts.4.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.0.parts.5.customLabel>правый датчик слуха</AM_DaggerSnoutBody.corePart.parts.0.parts.5.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.2.customLabel>первая левая нога</AM_DaggerSnoutBody.corePart.parts.2.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.3.customLabel>вторая левая нога</AM_DaggerSnoutBody.corePart.parts.3.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.4.customLabel>третья левая нога</AM_DaggerSnoutBody.corePart.parts.4.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.5.customLabel>первая правая нога</AM_DaggerSnoutBody.corePart.parts.5.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.6.customLabel>вторая правая нога</AM_DaggerSnoutBody.corePart.parts.6.customLabel>
+  <AM_DaggerSnoutBody.corePart.parts.7.customLabel>третья правая нога</AM_DaggerSnoutBody.corePart.parts.7.customLabel>
+
+
+</LanguageData>

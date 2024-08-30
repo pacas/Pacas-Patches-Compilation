@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!--Because of strange inheritance duplicate bug-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[@Name="LightMechanoid"]</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <ThingDef Name="LightMechanoid" ParentName="SK_MechanoidThingBase" Abstract="True">
+                            <statBases>
+                                <Mass>80</Mass>
+                                <MeatAmount>0</MeatAmount>
+                                <MarketValue>800</MarketValue>
+                                <MoveSpeed>3.7</MoveSpeed>
+                                <ArmorRating_Blunt>5</ArmorRating_Blunt>
+                                <ArmorRating_Sharp>2</ArmorRating_Sharp>
+                                <CarryWeight>50</CarryWeight>
+                                <CarryBulk>20</CarryBulk>
+                                <MeleeDodgeChance>0</MeleeDodgeChance>
+                                <MeleeCritChance>0.01</MeleeCritChance>
+                                <MeleeParryChance>0</MeleeParryChance>
+                                <MechEnergyLossPerHP>0.66</MechEnergyLossPerHP>
+                            </statBases>
+                            <tools>
+                                <li Class="CombatExtended.ToolCE">
+                                    <label>head</label>
+                                    <capacities>
+                                        <li>Blunt</li>
+                                    </capacities>
+                                    <power>7</power>
+                                    <cooldownTime>2.0</cooldownTime>
+                                    <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                                    <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                                    <armorPenetrationSharp>0</armorPenetrationSharp>
+                                    <armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+                                </li>
+                            </tools>
+                            <butcherProducts>
+                                <Plasteel>20</Plasteel>
+                                <SyntheticFibers>5</SyntheticFibers>
+                            </butcherProducts>
+                            <race>
+                                <body>Mech_Light</body>
+                                <intelligence>ToolUser</intelligence>
+                                <thinkTreeMain>Mechanoid</thinkTreeMain>
+                                <baseBodySize>0.7</baseBodySize>
+                                <baseHealthScale>1.7</baseHealthScale>
+                                <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+                                <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+                                <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+                                <mechWeightClass>Light</mechWeightClass>
+                            </race>
+                        </ThingDef>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

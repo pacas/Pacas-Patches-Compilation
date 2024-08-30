@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+        <defName>MakePureMagicyteBar_Hand</defName>
+        <label>Smelt pure magicyte</label>
+        <description>Smelts pure magicyte from raw ore and high-conductive ores. Produces 15.</description>
+        <jobString>Smelting pure magicyte.</jobString>
+        <workAmount>900</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>TableFurnace</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawMagicyte</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+				<filter>
+					<categories>
+						<li>HCM</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawMagicyte</li>
+            </thingDefs>
+            <categories>
+                <li>HCM</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <PureMagicyteBar>15</PureMagicyteBar>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef>
+        <defName>MakePureMagicyteBar_Electric</defName>
+        <label>Smelt pure magicyte</label>
+        <description>Smelts pure magicyte from raw ore and high-conductive ores. Produces 15.</description>
+        <jobString>Smelting pure magicyte.</jobString>
+        <workAmount>750</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawMagicyte</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+				<filter>
+					<categories>
+						<li>HCM</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawMagicyte</li>
+            </thingDefs>
+            <categories>
+                <li>HCM</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <PureMagicyteBar>15</PureMagicyteBar>
+        </products>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>TM_ArcaneCrafting</researchPrerequisite>
+    </RecipeDef>
+</Defs>

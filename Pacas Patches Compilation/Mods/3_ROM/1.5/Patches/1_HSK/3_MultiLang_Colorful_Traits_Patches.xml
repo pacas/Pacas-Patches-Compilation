@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>MultiLang Colorful Traits</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Unique"]/traits</xpath>
+                    <value>
+                        <li>TM_ArcaneConduitTD</li><!-- Магический Проводник / Arcane Conduit -->
+                        <li>TM_ManaWellTD</li><!-- Колодец Маны / Mana Well -->
+                        <li>TM_BoundlessTD</li><!-- Безграничный / Boundless -->
+                        <li>TM_FaeBloodTD</li><!-- Кровь фейри / Fae blood -->
+                        <li>TM_GiantsBloodTD</li><!-- Кровь гигантов / Giants blood -->
+                        <li>TM_EnlightenedTD</li><!-- Просвещенный / Enlightened -->
+                        <li>TM_CursedTD</li><!-- Проклятый / Cursed -->
+                        <li>TM_OKWithDeath</li><!-- Не подверженный влиянию смерти / Unaffected by death -->
+                        <li>Undead</li><!-- Нежить / Undead -->
+                        <li>TM_Gifted</li><!-- магически одаренный / magically gifted -->
+                        <li>TM_Empath</li><!-- Эмпат / Empath -->
+                        <li>TM_Wanderer</li><!-- Странник / Wanderer -->
+                        <li>InnerFire</li><!-- Маг огня / Fire mage -->
+                        <li>HeartOfFrost</li><!-- Маг льда / Ice mage -->
+                        <li>StormBorn</li><!-- Маг молний / Lightning mage -->
+                        <li>Arcanist</li><!-- Таинственный маг / Arcane mage -->
+                        <li>Druid</li><!-- Друид / Druid -->
+                        <li>Paladin</li><!-- Паладин / Paladin -->
+                        <li>Summoner</li><!-- Призыватель / Summoner -->
+                        <li>Necromancer</li><!-- Некромант / Necromancer -->
+                        <li>Lich</li><!-- Лич / Lich -->
+                        <li>Priest</li><!-- Священник / Priest -->
+                        <li>Succubus</li><!-- Суккуб / Succubus -->
+                        <li>Warlock</li><!-- Чернокнижник / Warlock -->
+                        <li>Geomancer</li><!-- Геомант / Geomancer -->
+                        <li>Technomancer</li><!-- Техномант / Technomancer -->
+                        <li>BloodMage</li><!-- Маг крови / Blood Mage -->
+                        <li>Enchanter</li><!-- Чародей / Enchanter -->
+                        <li>Chronomancer</li><!-- Хрономант / Chronomancer -->
+                        <li>ChaosMage</li><!-- Маг Хаоса / Chaos Mage -->
+                        <li>TM_TheShadow</li><!-- Тень / Shadow -->
+                        <li>TM_Brightmage</li><!-- Маг света / Brightmage -->
+                        <li>TM_Shaman</li><!-- Шаман / Shaman -->
+                        <li>TM_Golemancer</li><!-- Големант / Golemancer -->
+                        <li>PhysicalProdigy</li><!-- физический адепт / physically adept -->
+                        <li>TM_Wayfarer</li><!-- Путник / Wayfarer -->
+                        <li>TM_Apothecary</li><!-- Аптекарь / Apothecary -->
+                        <li>Gladiator</li><!-- Гладиатор / Gladiator -->
+                        <li>Faceless</li><!-- Безликий / Faceless -->
+                        <li>TM_Psionic</li><!-- Псионик / Psionic -->
+                        <li>DeathKnight</li><!-- Рыцарь смерти / Death Knight -->
+                        <li>TM_Monk</li><!-- Монах / Monk -->
+                        <li>TM_Commander</li><!-- Коммандор / Commander -->
+                        <li>TM_SuperSoldier</li><!-- Супер Солдат / Super Soldier -->
+                        <li>TM_Bard#0</li><!-- Конферансье / Entertainer -->
+                        <li>TM_Bard#1</li><!-- Актёр эстрады / Performer -->
+                        <li>TM_Bard#2</li><!-- Менестрель / Minstrel -->
+                        <li>TM_Bard#3</li><!-- Бард / Bard -->
+                        <li>Ranger#0</li><!-- Лесник / Woodsman -->
+                        <li>Ranger#1</li><!-- Охотник / Hunter -->
+                        <li>Ranger#2</li><!-- Разведчик / Scout -->
+                        <li>Ranger#3</li><!-- Рейнджер / Ranger -->
+                        <li>TM_Sniper#0</li><!-- Стрелок-снайпер / Sharpshooter -->
+                        <li>TM_Sniper#1</li><!-- Снайпер / Sniper -->
+                        <li>TM_Sniper#2</li><!-- Мастерский снайпер / Master Sniper -->
+                        <li>TM_Sniper#3</li><!-- Легендарный снайпер / Legendary Sniper -->
+                        <li>Bladedancer#0</li><!-- Мечник / Bladesman -->
+                        <li>Bladedancer#1</li><!-- Мастер клинка / Blademaster -->
+                        <li>Bladedancer#2</li><!-- Танцующий с клинками / Bladedancer -->
+                        <li>Bladedancer#3</li><!-- Легендарный танцующий с клинками / Legendary bladedancer -->
+                    </value>
+                </li>
+                <!-- <li Class="PatchOperationAdd"> -->
+                <!-- <xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Good"]/traits</xpath> -->
+                <!-- <value> -->
+
+                <!-- </value> -->
+                <!-- </li> -->
+                <!-- <li Class="PatchOperationAdd"> -->
+                <!-- <xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Neutral"]/traits</xpath> -->
+                <!-- <value> -->
+
+                <!-- </value> -->
+                <!-- </li> -->
+                <!-- <li Class="PatchOperationAdd"> -->
+                <!-- <xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Bad"]/traits</xpath> -->
+                <!-- <value> -->
+
+                <!-- </value> -->
+                <!-- </li> -->
+                <!-- <li Class="PatchOperationAdd"> -->
+                <!-- <xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Terrible"]/traits</xpath> -->
+                <!-- <value> -->
+
+                <!-- </value> -->
+                <!-- </li> -->
+            </operations>
+        </match>
+    </Operation>
+</Patch>

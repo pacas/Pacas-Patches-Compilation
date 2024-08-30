@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Psycasts Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMVPE_EMPBlastProjectile"]</xpath>
+                    <value>
+                        <ThingDef ParentName="SK_BaseBullet">
+                            <defName>AMVPE_EMPBlastProjectile</defName>
+                            <label>EMP blast</label>
+                            <graphicData>
+                                <texPath>Effects/Staticlord/StaticAura/StaticAura</texPath>
+                                <graphicClass>Graphic_Single</graphicClass>
+                                <shaderType>TransparentPostLight</shaderType>
+                            </graphicData>
+                            <thingClass>Projectile_Explosive</thingClass>
+                            <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                                <damageDef>EMP</damageDef>
+                                <speed>10</speed>
+                                <explosionRadius>12</explosionRadius>
+                                <soundExplode>Explosion_EMP</soundExplode>
+                                <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+                                <armorPenetrationSharp>26</armorPenetrationSharp>
+                                <armorPenetrationBlunt>56</armorPenetrationBlunt>
+                            </projectile>
+                        </ThingDef>
+                    </value>
+                </li>
+                
+                
+                
+                
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="AMVPE_EMPBlastProjectile"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK_BaseBullet</value>
+                </li>
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[defName="AMVPE_EMPBlastProjectile"]/projectile</xpath>
+                    <attribute>Class</attribute>
+                    <value>CombatExtended.ProjectilePropertiesCE</value>
+                </li>
+            </operations>
+        </match>
+    </Operation>-->
+</Patch>

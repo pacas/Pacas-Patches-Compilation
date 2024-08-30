@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Artilleron -->
+
+  <AM_Mech_Artilleron.label>артиллерон</AM_Mech_Artilleron.label>
+  <AM_Mech_Artilleron.labelPlural>артиллероны</AM_Mech_Artilleron.labelPlural>
+  <AM_Mech_Artilleron.lifeStages.0.label>артиллерон</AM_Mech_Artilleron.lifeStages.0.label>
+  <AM_Mech_Artilleron.lifeStages.0.labelPlural>артиллероны</AM_Mech_Artilleron.lifeStages.0.labelPlural>
+  <AM_Mech_Artilleron.lifeStages.1.label>артиллерон</AM_Mech_Artilleron.lifeStages.1.label>
+  <AM_Mech_Artilleron.lifeStages.1.labelPlural>артиллероны</AM_Mech_Artilleron.lifeStages.1.labelPlural>
+
+
+</LanguageData>

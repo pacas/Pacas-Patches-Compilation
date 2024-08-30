@@ -1,0 +1,100 @@
+<LanguageData>
+
+<AG_MinorAnimalSummon_Randomizer.label>Рандомный призыв слабого животного</AG_MinorAnimalSummon_Randomizer.label>
+<AG_MinorAnimalSummon_Randomizer.description>будет заменен на случайное слабое животное.</AG_MinorAnimalSummon_Randomizer.description>
+<AG_MinorAnimalSummon_Randomizer.labelShortAdj>случайный</AG_MinorAnimalSummon_Randomizer.labelShortAdj>
+
+<AG_AnimalSummon_Randomizer.label>Рандомный призыв обычного животного</AG_AnimalSummon_Randomizer.label>
+<AG_AnimalSummon_Randomizer.description>будет заменен на случайное обычное животное.</AG_AnimalSummon_Randomizer.description>
+<AG_AnimalSummon_Randomizer.labelShortAdj>случайный</AG_AnimalSummon_Randomizer.labelShortAdj>
+
+<AG_MajorAnimalSummon_Randomizer.label>Рандомный призыв сильного животного</AG_MajorAnimalSummon_Randomizer.label>
+<AG_MajorAnimalSummon_Randomizer.description>будет заменен на случайное сильное животное</AG_MajorAnimalSummon_Randomizer.description>
+<AG_MajorAnimalSummon_Randomizer.labelShortAdj>случайный</AG_MajorAnimalSummon_Randomizer.labelShortAdj>
+
+<AG_InsanityBlast.label>Сила безумия</AG_InsanityBlast.label>
+<AG_InsanityBlast.description>Носители этого гена могут использовать силу своего собственного разума, чтобы психически воздействовать на разум других людей, заставляя их впадать в неистовство и нападать на всех вокруг без разбора.</AG_InsanityBlast.description>
+
+<AG_UnstableMind.label>Псионик</AG_UnstableMind.label>
+<AG_UnstableMind.description>Носители этого гена могут использовать силу своего собственного разума, чтобы психически воздействовать на разум других людей, вызывая психическую нестабильность, которая делает их более склонными к психическим срывам и значительно повышает их психическую чувствительность. Этот эффект длится три часа и может быть использован как на враждебных, так и на дружественных целях..</AG_UnstableMind.description>
+
+<AG_DevourBrains.label>Мозгоед</AG_DevourBrains.label>
+<AG_DevourBrains.description>Носители этого гена могут поглотить мозг недееспособного, но живого человека, поглощая часть его интеллекта и получая бафф, который зависит от высочайшего мастерства поглощённого мозга. Это убивает цель.</AG_DevourBrains.description>
+
+<AG_GeneSyphon.label>Кража</AG_GeneSyphon.label>
+<AG_GeneSyphon.description>Носители этого гена могут насильственно извлечь ген из недееспособного, но живого человека, включив его в свой ксенотип в качестве ксеногена. Ген выбирается случайным образом. Это убьет цель.</AG_GeneSyphon.description>
+
+<AG_EldritchVisage.label>Иллитид</AG_EldritchVisage.label>
+<AG_EldritchVisage.description>Носитель этого гена имеет внешность, которая пугает других людей до глубины души. Их всегда будут презирать.
+  
+  шанс на романтические отношения равен 0</AG_EldritchVisage.description>
+<AG_EldritchVisage.customEffectDescriptions.0>Любой, у кого нет этого гена, получит социальный штраф -500 по отношению к людям, у которых он есть, что гарантирует, что они всегда будут иметь мнение -100 в своих отношениях.</AG_EldritchVisage.customEffectDescriptions.0>
+<AG_EldritchVisage.labelShortAdj>сверхъестественный</AG_EldritchVisage.labelShortAdj>
+<AG_EldritchVisage.symbolPack.prefixSymbols.0.symbol>старшая</AG_EldritchVisage.symbolPack.prefixSymbols.0.symbol>
+<AG_EldritchVisage.symbolPack.prefixSymbols.1.symbol>ужас</AG_EldritchVisage.symbolPack.prefixSymbols.1.symbol>
+
+<AG_LongEars.label>Длинные уши</AG_LongEars.label>
+<AG_LongEars.description>У носителей этого гена вырастут длинные уши.</AG_LongEars.description>
+
+<AG_EarWings.label>Ухокрылый</AG_EarWings.label>
+<AG_EarWings.description>У носителей этого гена вырастут большие уши, как крылья летучей мыши. Они носят чисто косметический характер и не допускают какого-либо полета.</AG_EarWings.description>
+
+<AG_ThirdEye.label>Третий глаз</AG_ThirdEye.label>
+<AG_ThirdEye.description>У носителей этого гена вырастет третий глаз на лбу. Этот третий глаз дает улучшенное зрение, и благодаря своим, э-э-э, психическим свойствам он не может быть поврежден... другими... и... Послушайте, биотехнологические части не являются настоящими частями тела и не могут быть повреждены при атаках, ясно?
+</AG_ThirdEye.description>
+
+<AG_EyeOfShubNiggurath.label>Глаз Шуб-Ниггурата</AG_EyeOfShubNiggurath.label>
+<AG_EyeOfShubNiggurath.description>У носителей этого гена вырастет злобно выглядящий клыкастый рот вместо одного глаза. Этот рот необъяснимым образом способен видеть.
+  
+  Пояснительная бригада - Шуб-Ниггурат — божество в произведениях Говарда Филлипса Лавкрафта и последователей «Мифов Ктулху»</AG_EyeOfShubNiggurath.description>
+
+<AG_EldritchHorns.label>Жуткие рога</AG_EldritchHorns.label>
+<AG_EldritchHorns.description>У носителей этого гена вырастают два огромных сверхъестественных рога, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_EldritchHorns.description>
+<AG_EldritchHorns.customEffectDescriptions.0>Увеличивает урон в секунду владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_EldritchHorns.customEffectDescriptions.0>
+<AG_EldritchHorns.symbolPack.prefixSymbols.0.symbol>Жуткие </AG_EldritchHorns.symbolPack.prefixSymbols.0.symbol>
+<AG_EldritchHorns.symbolPack.prefixSymbols.1.symbol>демон</AG_EldritchHorns.symbolPack.prefixSymbols.1.symbol>
+<AG_EldritchHorns.symbolPack.prefixSymbols.2.symbol>рунический</AG_EldritchHorns.symbolPack.prefixSymbols.2.symbol>
+
+<AG_HornCrown.label>Роговая корона</AG_HornCrown.label>
+<AG_HornCrown.description>У носителей этого гена вырастает огромная корона из острых рогов, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_HornCrown.description>
+<AG_HornCrown.customEffectDescriptions.0>Увеличивает урон в секунду владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.
+</AG_HornCrown.customEffectDescriptions.0>
+<AG_HornCrown.symbolPack.prefixSymbols.0.symbol>корона</AG_HornCrown.symbolPack.prefixSymbols.0.symbol>
+<AG_HornCrown.symbolPack.prefixSymbols.1.symbol>рог</AG_HornCrown.symbolPack.prefixSymbols.1.symbol>
+
+<AG_UpperTentacles.label>Головные щупальца</AG_UpperTentacles.label>
+<AG_UpperTentacles.description>У носителей этого гена вырастает несколько щупалец, выступающих изо лба.</AG_UpperTentacles.description>
+
+<AG_OrnateEldritchHorns.label>Рога архидемона</AG_OrnateEldritchHorns.label>
+<AG_OrnateEldritchHorns.description>У носителей этого гена вырастают два огромных богато украшенных сверхъестественных рога, выступающих изо лба.</AG_OrnateEldritchHorns.description>
+<AG_OrnateEldritchHorns.symbolPack.prefixSymbols.0.symbol>Жуткие</AG_OrnateEldritchHorns.symbolPack.prefixSymbols.0.symbol>
+<AG_OrnateEldritchHorns.symbolPack.prefixSymbols.1.symbol>демон</AG_OrnateEldritchHorns.symbolPack.prefixSymbols.1.symbol>
+<AG_OrnateEldritchHorns.symbolPack.prefixSymbols.2.symbol>рунический</AG_OrnateEldritchHorns.symbolPack.prefixSymbols.2.symbol>
+
+<AG_BodyTentacles.label>Щупальца тела</AG_BodyTentacles.label>
+<AG_BodyTentacles.description>Носители этого гена имеют массу извивающихся щупалец, прорастающих из их спины.</AG_BodyTentacles.description>
+<AG_BodyTentacles.symbolPack.prefixSymbols.0.symbol>Жуткий</AG_BodyTentacles.symbolPack.prefixSymbols.0.symbol>
+<AG_BodyTentacles.symbolPack.prefixSymbols.1.symbol>инопланетный </AG_BodyTentacles.symbolPack.prefixSymbols.1.symbol>
+<AG_BodyTentacles.symbolPack.prefixSymbols.2.symbol>зловещий</AG_BodyTentacles.symbolPack.prefixSymbols.2.symbol>
+<AG_BodyTentacles.symbolPack.prefixSymbols.3.symbol>щупальце</AG_BodyTentacles.symbolPack.prefixSymbols.3.symbol>
+
+<AG_Proboscis.label>Хобот</AG_Proboscis.label>
+<AG_Proboscis.description>У носителей этого гена вырастает большой хобот, выступающий из челюсти.</AG_Proboscis.description>
+<AG_Proboscis.symbolPack.prefixSymbols.0.symbol>отсос</AG_Proboscis.symbolPack.prefixSymbols.0.symbol>
+<AG_Proboscis.symbolPack.prefixSymbols.1.symbol>всасывать</AG_Proboscis.symbolPack.prefixSymbols.1.symbol>
+
+<AG_Skin_DeepPurple.label>Фиолетовая кожа</AG_Skin_DeepPurple.label>
+<AG_Skin_DeepPurple.description>Носители этого гена вырабатывают фиолетовый пигмент, который придает их коже болезненный вид.</AG_Skin_DeepPurple.description>
+<AG_Skin_DeepPurple.labelShortAdj>фиолетовый </AG_Skin_DeepPurple.labelShortAdj>
+<AG_Skin_DeepPurple.symbolPack.prefixSymbols.0.symbol>фиолетовый </AG_Skin_DeepPurple.symbolPack.prefixSymbols.0.symbol>
+
+<AG_FaceTentacles.label>Лицевые щупальца</AG_FaceTentacles.label>
+<AG_FaceTentacles.description>У носителей этого гена вырастает ряд слизистых щупалец, выступающих из их челюсти.</AG_FaceTentacles.description>
+<AG_FaceTentacles.symbolPack.prefixSymbols.0.symbol>щупальце</AG_FaceTentacles.symbolPack.prefixSymbols.0.symbol>
+<AG_FaceTentacles.symbolPack.prefixSymbols.1.symbol>осьминог</AG_FaceTentacles.symbolPack.prefixSymbols.1.symbol>
+
+<AG_HivelingVoice.label>Голос инсектоида</AG_HivelingVoice.label>
+<AG_HivelingVoice.description>У носителей высокие инсектоидные голоса.</AG_HivelingVoice.description>
+
+
+</LanguageData>

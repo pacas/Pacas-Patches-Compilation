@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Mech_PristineAssembler.label>первозданный сборщик</AM_Mech_PristineAssembler.label>
+  <AM_Mech_PristineAssembler.description>Автоматизированная мобильная фабрика механоидов. Он предназначен для эффективного преобразования энергии в вещество. Используя свою передовую систему молекулярной сборки, он может преобразовывать различные формы энергии в пригодные для использования материалы с поразительной точностью. Этому конкретному сборщику не нужно потреблять органическое вещество для содействия преобразованию, поскольку он совместим со стандартными механическими зарядными устройствами.</AM_Mech_PristineAssembler.description>
+  <AM_Mech_PristineAssembler.tools.0.label>голова</AM_Mech_PristineAssembler.tools.0.label>
+
+
+</LanguageData>

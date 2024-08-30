@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sagittarius -->
+
+  <AM_Mech_Sagittarius.label>сагитариус</AM_Mech_Sagittarius.label>
+  <AM_Mech_Sagittarius.labelPlural>сагитариусы</AM_Mech_Sagittarius.labelPlural>
+  <AM_Mech_Sagittarius.lifeStages.0.label>сагитариус</AM_Mech_Sagittarius.lifeStages.0.label>
+  <AM_Mech_Sagittarius.lifeStages.0.labelPlural>сагитариусы</AM_Mech_Sagittarius.lifeStages.0.labelPlural>
+  <AM_Mech_Sagittarius.lifeStages.1.label>сагитариус</AM_Mech_Sagittarius.lifeStages.1.label>
+  <AM_Mech_Sagittarius.lifeStages.1.labelPlural>сагитариусы</AM_Mech_Sagittarius.lifeStages.1.labelPlural>
+
+</LanguageData>

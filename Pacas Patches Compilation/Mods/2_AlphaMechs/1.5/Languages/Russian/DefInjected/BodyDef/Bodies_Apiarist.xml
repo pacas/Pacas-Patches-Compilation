@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Mech_Winged_Body.label>крылатый легкий мех</AM_Mech_Winged_Body.label>
+  <AM_Mech_Winged_Body.corePart.parts.0.parts.0.parts.1.customLabel>левый датчик прицеливания</AM_Mech_Winged_Body.corePart.parts.0.parts.0.parts.1.customLabel>
+  <AM_Mech_Winged_Body.corePart.parts.0.parts.0.parts.2.customLabel>правый датчик слуха</AM_Mech_Winged_Body.corePart.parts.0.parts.0.parts.2.customLabel>
+  <AM_Mech_Winged_Body.corePart.parts.1.customLabel>левое крыло</AM_Mech_Winged_Body.corePart.parts.1.customLabel>
+  <AM_Mech_Winged_Body.corePart.parts.2.customLabel>правое крыло</AM_Mech_Winged_Body.corePart.parts.2.customLabel>
+
+
+</LanguageData>

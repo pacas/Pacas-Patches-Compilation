@@ -1,0 +1,41 @@
+<LanguageData>
+
+  <AG_DevouredShooting.label>съеденный мозг: стрельба</AG_DevouredShooting.label>
+  <AG_DevouredShooting.description>Поглотил мозг, который был искусен в стрельбе. Бафф длится 2 дня</AG_DevouredShooting.description>
+
+  <AG_DevouredMelee.label>съеденный мозг: ближний бой</AG_DevouredMelee.label>
+  <AG_DevouredMelee.description>Поглотил мозг, который был искусен в ближнем бою. Бафф длится 2 дня</AG_DevouredMelee.description>
+
+  <AG_DevouredConstruction.label>съеденный мозг: строительство</AG_DevouredConstruction.label>
+  <AG_DevouredConstruction.description>Поглотил мозг, который был искусен в строительстве. Бафф длится 2 дня</AG_DevouredConstruction.description>
+
+  <AG_DevouredMining.label>съеденный мозг: горное дело</AG_DevouredMining.label>
+  <AG_DevouredMining.description>Поглотил мозг, который был искусен в горном деле. Бафф длится 2 дня</AG_DevouredMining.description>
+
+  <AG_DevouredCooking.label>съеденный мозг: кулинария</AG_DevouredCooking.label>
+  <AG_DevouredCooking.description>Поглотил мозг, который был искусен в кулинарии. Бафф длится 2 дня</AG_DevouredCooking.description>
+
+  <AG_DevouredPlants.label>съеденный мозг: Растениевод</AG_DevouredPlants.label>
+  <AG_DevouredPlants.description>Поглотил мозг, который был искусен в Растениеводстве. Бафф длится 2 дня</AG_DevouredPlants.description>
+
+  <AG_DevouredAnimals.label>съеденный мозг: Животновод</AG_DevouredAnimals.label>
+  <AG_DevouredAnimals.description>Поглотил мозг, который был искусен в Животноводстве. Бафф длится 2 дня</AG_DevouredAnimals.description>
+
+  <AG_DevouredCrafting.label>съеденный мозг: Ремесло</AG_DevouredCrafting.label>
+  <AG_DevouredCrafting.description>Поглотил мозг, который был искусен в ремесле. Бафф длится 2 дня</AG_DevouredCrafting.description>
+
+  <AG_DevouredArtistic.label>съеденный мозг: искусство</AG_DevouredArtistic.label>
+  <AG_DevouredArtistic.description>Поглотил мозг, который был искусен в искусстве. Бафф длится 2 дня. Именно этот бафф позволяет колонисту создавать произведения искусства с качеством +1. Это будет складываться с аналогичными эффектами из других модов.</AG_DevouredArtistic.description>
+
+  <AG_DevouredMedical.label>съеденный мозг: медицина</AG_DevouredMedical.label>
+  <AG_DevouredMedical.description>Поглотил мозг, который был искусен в медицине. Бафф длится 2 дня</AG_DevouredMedical.description>
+
+  <AG_DevouredSocial.label>съеденный мозг: общение</AG_DevouredSocial.label>
+  <AG_DevouredSocial.description>Поглотил мозг, который был искусен в общении. Бафф длится 2 дня</AG_DevouredSocial.description>
+
+  <AG_DevouredIntellectual.label>съеденный мозг: интеллектуал</AG_DevouredIntellectual.label>
+  <AG_DevouredIntellectual.description>Поглотил мозг, который был с высоким интеллектом. Бафф длится 2 дня</AG_DevouredIntellectual.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_BrainDevouring.xml-->
+</LanguageData>

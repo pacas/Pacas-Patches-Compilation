@@ -1,0 +1,11 @@
+<LanguageData>
+
+  <AG_LargerBodySize.label>Крупный</AG_LargerBodySize.label>
+  <AG_LargerBodySize.description>Носители этого гена имеют больший размер тела, чем обычно. В этом есть свои преимущества и недостатки.</AG_LargerBodySize.description>
+
+  <AG_SmallerBodySize.label>Худой</AG_SmallerBodySize.label>
+  <AG_SmallerBodySize.description>Носители этого гена имеют меньший размер тела, чем обычно. В этом есть свои преимущества и недостатки.</AG_SmallerBodySize.description>
+
+
+<!--1.4/Defs/GeneDefs/GeneDefs_BodySize.xml-->
+</LanguageData>

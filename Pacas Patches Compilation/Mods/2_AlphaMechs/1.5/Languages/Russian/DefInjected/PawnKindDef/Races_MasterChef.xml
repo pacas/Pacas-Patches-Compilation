@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Master Chef -->
+
+  <AM_Mech_MasterChef.label>кулинариус</AM_Mech_MasterChef.label>
+  <AM_Mech_MasterChef.labelPlural>кулинариусы</AM_Mech_MasterChef.labelPlural>
+  <AM_Mech_MasterChef.lifeStages.0.label>кулинариус</AM_Mech_MasterChef.lifeStages.0.label>
+  <AM_Mech_MasterChef.lifeStages.0.labelPlural>кулинариусы</AM_Mech_MasterChef.lifeStages.0.labelPlural>
+  <AM_Mech_MasterChef.lifeStages.1.label>кулинариус</AM_Mech_MasterChef.lifeStages.1.label>
+  <AM_Mech_MasterChef.lifeStages.1.labelPlural>кулинариусы</AM_Mech_MasterChef.lifeStages.1.labelPlural>
+
+
+</LanguageData>

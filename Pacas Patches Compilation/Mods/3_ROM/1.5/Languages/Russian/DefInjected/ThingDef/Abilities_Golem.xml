@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Projectile_FireBlossomBolt.label>Firebolt</Projectile_FireBlossomBolt.label>
+
+
+  <!-- <TorannMagic.TMDefs.TM_GolemAbilityDef>
+	<defName>TM_HollowGolem_Job_FireBlossom</defName>
+	<label>fire blossom</label>	
+	<warmupTicks>0</warmupTicks>
+	<cooldownTicks>600</cooldownTicks>
+	<warmupStuns>false</warmupStuns>
+	<burstCount>1</burstCount>
+	<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+	<requiredNeed>TM_GolemEnergy</requiredNeed>
+	<needCost>60</needCost>
+	<tickMote>Mote_Casting</tickMote>
+	<tickMoteFrequency>7</tickMoteFrequency>
+	<tickMoteSize>2.2</tickMoteSize>
+	<effects>
+	  <li Class="TorannMagic.Golems.CompProperties_GolemAbilityEffect_CreateJob" />
+	</effects>
+	<interruptsJob>true</interruptsJob>
+	<jobDef>JobDriver_GolemAbilityJob</jobDef>
+	<jobDuration>150</jobDuration>
+	<jobBurstCount>4</jobBurstCount>
+	<jobTicksBetweenBursts>2</jobTicksBetweenBursts>
+	<jobEffect>
+		<li Class="TorannMagic.Golems.GolemAbilityEffect_AdvancedLaunch">
+			<projectileDef>Projectile_FireBlossomBolt</projectileDef>
+			<projectilesPerBurst>4</projectilesPerBurst>
+			<varianceMin>5</varianceMin>
+			<varianceMax>80</varianceMax>
+			<flySpeedMin>20</flySpeedMin>
+			<flySpeedMax>30</flySpeedMax>
+			<explosionRadius>1</explosionRadius>
+			<missRadius>2</missRadius>
+			<damageMin>12</damageMin>
+			<damageMax>20</damageMax>
+			<damageType>Bomb</damageType>
+			<accuracy>.6</accuracy>
+			<rangeAroundTarget>8</rangeAroundTarget>
+		</li>
+	</jobEffect>
+	<priority>5</priority>
+	<autocasting>
+	  <type>OnNearby</type>
+	  <targetType>Pawn</targetType>
+	  <minRange>10</minRange>
+	  <maxRange>50</maxRange>
+	  <undrafted>false</undrafted>
+	  <drafted>true</drafted>
+	  <targetNeutral>false</targetNeutral>
+	  <targetEnemy>true</targetEnemy>
+	  <requiresLoS>true</requiresLoS>	
+	  <includeSelf>false</includeSelf>
+	</autocasting>
+  </TorannMagic.TMDefs.TM_GolemAbilityDef> -->
+
+  <Projectile_IceBlossomBolt.label>Леденой снаряд</Projectile_IceBlossomBolt.label>
+
+
+  <!-- <TorannMagic.TMDefs.TM_GolemAbilityDef>
+	<defName>TM_HollowGolem_Job_IceBlossom</defName>
+	<label>ice blossom</label>	
+	<warmupTicks>0</warmupTicks>
+	<cooldownTicks>900</cooldownTicks>
+	<warmupStuns>false</warmupStuns>
+	<burstCount>1</burstCount>
+	<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+	<requiredNeed>TM_GolemEnergy</requiredNeed>
+	<needCost>60</needCost>
+	<tickMote>Mote_Casting</tickMote>
+	<tickMoteFrequency>7</tickMoteFrequency>
+	<tickMoteSize>2.2</tickMoteSize>
+	<effects>
+	  <li Class="TorannMagic.Golems.CompProperties_GolemAbilityEffect_CreateJob" />
+	</effects>
+	<interruptsJob>true</interruptsJob>
+	<jobDef>JobDriver_GolemAbilityJob</jobDef>
+	<jobDuration>180</jobDuration>
+	<jobBurstCount>5</jobBurstCount>
+	<jobTicksBetweenBursts>3</jobTicksBetweenBursts>
+	<jobEffect>
+		<li Class="TorannMagic.Golems.GolemAbilityEffect_AdvancedLaunch">
+			<projectileDef>Projectile_IceBlossomBolt</projectileDef>
+			<projectilesPerBurst>5</projectilesPerBurst>
+			<varianceMin>2</varianceMin>
+			<varianceMax>60</varianceMax>
+			<flySpeedMin>30</flySpeedMin>
+			<flySpeedMax>40</flySpeedMax>
+			<explosionRadius>.5</explosionRadius>
+			<missRadius>1</missRadius>
+			<damageMin>12</damageMin>
+			<damageMax>20</damageMax>
+			<damageType>Cut</damageType>
+			<accuracy>.8</accuracy>
+			<rangeAroundTarget>12</rangeAroundTarget>
+		</li>
+	</jobEffect>
+	<priority>6</priority>
+	<autocasting>
+	  <type>OnNearby</type>
+	  <targetType>Pawn</targetType>
+	  <minRange>10</minRange>
+	  <maxRange>70</maxRange>
+	  <undrafted>false</undrafted>
+	  <drafted>true</drafted>
+	  <targetNeutral>false</targetNeutral>
+	  <targetEnemy>true</targetEnemy>
+	  <requiresLoS>true</requiresLoS>	
+	  <includeSelf>false</includeSelf>
+	</autocasting>
+  </TorannMagic.TMDefs.TM_GolemAbilityDef> -->
+
+  <Projectile_DarkBolt.label>Молния тьмы</Projectile_DarkBolt.label>
+  <Projectile_ReverseShield.label>Обратный Экран</Projectile_ReverseShield.label>
+
+
+</LanguageData>

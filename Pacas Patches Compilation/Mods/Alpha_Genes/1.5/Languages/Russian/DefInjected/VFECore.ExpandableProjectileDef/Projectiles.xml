@@ -1,0 +1,10 @@
+<LanguageData>
+
+  <AG_Lightning.label>Удар молнией</AG_Lightning.label>
+  <AG_GreaterFireSpew.label>Огненное дыхание</AG_GreaterFireSpew.label>
+  <AG_AcidicVomit.label>Кислотный плевок</AG_AcidicVomit.label>
+  <AG_GazeAttack.label>Окаменяющий взгляд</AG_GazeAttack.label>
+
+
+<!--1.4/Defs/ThingDefs_Misc/Projectiles.xml-->
+</LanguageData>

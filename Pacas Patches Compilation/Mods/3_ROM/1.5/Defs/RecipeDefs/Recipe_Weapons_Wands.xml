@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>ArcaneForge_FireWand</defName>
+        <label>make wand of fire</label>
+        <description>A wand able to slowly convert nearby arcane energy into elemental fire. Wands are used as focusing tools to harness innate power more than as a weapon itself.\n\nThis weapon is enchanted and provides additional benefits to trained mages and fighters:\nMax Energy: +5\nEnergy Regen: +5%\nDamage Boost: +15%</description>
+        <jobString>assembling wand of fire</jobString>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>15000</workAmount>
+        <workSkillLearnFactor>1.1</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedMagicStaff</unfinishedThingDef>
+        <researchPrerequisite>TM_ArcaneWeapons</researchPrerequisite>
+        <recipeUsers>
+            <li>TableArcaneForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PureMagicyteBar</li>
+                    </thingDefs>
+                </filter>
+                <count>45</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Jade</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <products>
+            <TM_FireWand>1</TM_FireWand>
+        </products>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    
+    <RecipeDef>
+        <defName>ArcaneForge_IceWand</defName>
+        <label>make wand of ice</label>
+        <description>A wand able to slowly convert nearby arcane energy into elemental ice. Wands are used as focusing tools to harness innate power more than as a weapon itself.\n\nThis weapon is enchanted and provides additional benefits to trained mages and fighters:\nMax Energy: +5\nEnergy Regen: +5%\nDamage Boost: +15%</description>
+        <jobString>assembling wand of fire</jobString>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>15000</workAmount>
+        <workSkillLearnFactor>1.1</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedMagicStaff</unfinishedThingDef>
+        <researchPrerequisite>TM_ArcaneWeapons</researchPrerequisite>
+        <recipeUsers>
+            <li>TableArcaneForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PureMagicyteBar</li>
+                    </thingDefs>
+                </filter>
+                <count>45</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Coldstone</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <TM_IceWand>1</TM_IceWand>
+        </products>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    
+    <RecipeDef>
+        <defName>ArcaneForge_LightningWand</defName>
+        <label>make wand of lightning</label>
+        <description>A wand able to slowly convert nearby arcane energy into elemental lightning. Wands are used as focusing tools to harness innate power more than as a weapon itself.\n\nThis weapon is enchanted and provides additional benefits to trained mages and fighters:\nMax Energy: +5\nEnergy Regen: +5%\nDamage Boost: +15%</description>
+        <jobString>assembling wand of fire</jobString>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>15000</workAmount>
+        <workSkillLearnFactor>1.1</workSkillLearnFactor>
+        <unfinishedThingDef>UnfinishedMagicStaff</unfinishedThingDef>
+        <researchPrerequisite>TM_ArcaneWeapons</researchPrerequisite>
+        <recipeUsers>
+            <li>TableArcaneForge</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PureMagicyteBar</li>
+                    </thingDefs>
+                </filter>
+                <count>45</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Glowstone</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <products>
+            <TM_LightningWand>1</TM_LightningWand>
+        </products>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+    
+</Defs>

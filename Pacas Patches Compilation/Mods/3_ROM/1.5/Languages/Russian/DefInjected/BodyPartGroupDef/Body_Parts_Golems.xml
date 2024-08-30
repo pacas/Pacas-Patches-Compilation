@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- GOLEM Generic -->
+    <Golem_Eyes.label>глаза</Golem_Eyes.label>
+    <Golem_Arms.label>руки</Golem_Arms.label>
+    <!-- MECHA GOLEM -->
+    <Mecha_LeftArm.label>левая рука</Mecha_LeftArm.label>
+    <Mecha_LeftArm_Axe.label>меха-топор</Mecha_LeftArm_Axe.label>
+    <Mecha_LeftArm_Sword.label>меха-меч</Mecha_LeftArm_Sword.label>
+    <Mecha_RightArm.label>правая рука</Mecha_RightArm.label>
+    <Mecha_RightArm_Hammer.label>механический молот</Mecha_RightArm_Hammer.label>
+    <Mecha_Base.label>разбитое тело</Mecha_Base.label>
+    <!-- FLESH GOLEM -->
+    <Flesh_Eyes.label>глаза</Flesh_Eyes.label>
+    <Flesh_Tusks.label>клыки</Flesh_Tusks.label>
+    <Flesh_Horns.label>рога</Flesh_Horns.label>
+    <Flesh_Arms.label>руки</Flesh_Arms.label>
+    <Flesh_LeftArm_Brace.label>наруч</Flesh_LeftArm_Brace.label>
+    <Flesh_LeftArm_Cleaver.label>колун</Flesh_LeftArm_Cleaver.label>
+    <Flesh_RightArm_Brace.label>наруч</Flesh_RightArm_Brace.label>
+    <Flesh_RightArm_Cleaver.label>колун</Flesh_RightArm_Cleaver.label>
+    <!-- HOLLOW GOLEM -->
+    <Hollow_Axe.label>топор</Hollow_Axe.label>
+    <Hollow_Staff.label>посох</Hollow_Staff.label>
+    <Hollow_Claws.label>когти</Hollow_Claws.label>
+    <Hollow_Decay.label>распад прикосновения</Hollow_Decay.label>
+    <Hollow_FocusGems.label>фокус-камень</Hollow_FocusGems.label>
+    <!-- STONE GOLEM -->
+    <Stone_Arms.label>руки</Stone_Arms.label>
+    <!-- MAHARAL GOLEM -->
+    <Maharal_Arms.label>руки</Maharal_Arms.label>
+</LanguageData>

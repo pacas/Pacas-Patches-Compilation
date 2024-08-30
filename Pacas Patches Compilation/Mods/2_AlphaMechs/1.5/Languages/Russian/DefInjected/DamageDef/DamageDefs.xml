@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_SiegeBlunt.label>давление</AM_SiegeBlunt.label>
+  <AM_SiegeBlunt.deathMessage>{0} {0_gender ? был раздавлен : была раздавлена}.</AM_SiegeBlunt.deathMessage>
+
+  <AM_AcidSpit.label>кислота</AM_AcidSpit.label>
+  <AM_AcidSpit.deathMessage>{0} разъело кислотой.</AM_AcidSpit.deathMessage>
+
+  <AM_SoulDrain.label>апоптоз</AM_SoulDrain.label>
+  <AM_SoulDrain.deathMessage>{0} {0_gender ? был осушен : была осушена}.</AM_SoulDrain.deathMessage>
+
+
+</LanguageData>

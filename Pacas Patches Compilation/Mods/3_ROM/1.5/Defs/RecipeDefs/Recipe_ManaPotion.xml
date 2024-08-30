@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>MakeManaPotion</defName>
+		<label>Make mana potion</label>
+		<description>Make mana potion. Produces 1.</description>
+		<jobString>Making mana potion</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+            <li>Brewery</li>
+            <li>ElectricBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>TM_Syrrium</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+				<li>PsychoidLeaves</li>
+				<li>TM_Syrrium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ManaPotion>1</ManaPotion>
+		</products>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+            <Intellectual>4</Intellectual>
+            <Cooking>6</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>TM_PotionCraft</researchPrerequisite>
+	</RecipeDef>
+    
+    <RecipeDef>
+		<defName>MakeManaPotionBulk</defName>
+		<label>Make mana potion x5</label>
+		<description>Make mana potion. Produces 5.</description>
+		<jobString>Making mana potions</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>3500</workAmount>
+		<recipeUsers>
+            <li>ElectricBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>TM_Syrrium</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+				<li>PsychoidLeaves</li>
+				<li>TM_Syrrium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ManaPotion>5</ManaPotion>
+		</products>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+            <Intellectual>5</Intellectual>
+            <Cooking>7</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>TM_PotionCraft</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

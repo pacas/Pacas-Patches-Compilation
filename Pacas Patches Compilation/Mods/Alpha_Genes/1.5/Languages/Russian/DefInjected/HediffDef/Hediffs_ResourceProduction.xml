@@ -1,0 +1,12 @@
+<LanguageData>
+
+  <AG_InsectJellyProduction.label>Желейное производство</AG_InsectJellyProduction.label>
+  <AG_InsectJellyProduction.description>Кожа этого человека постоянно выделяет и производит желе насекомых, которое обеспечивает колонию дополнительной пищей.
+  
+  
+  Производит 12ед в день.
+  Этот ген сбалансирован!</AG_InsectJellyProduction.description>
+
+
+<!--1.4/Defs/HediffDefs/Hediffs_ResourceProduction.xml-->
+</LanguageData>

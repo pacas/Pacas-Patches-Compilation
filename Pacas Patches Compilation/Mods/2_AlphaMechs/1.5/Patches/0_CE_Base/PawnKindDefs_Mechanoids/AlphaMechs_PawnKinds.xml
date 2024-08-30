@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Siegebreaker-->
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/PawnKindDef[defName="AM_Siegebreaker"]</xpath>
+                <value>
+                    <li Class="CombatExtended.LoadoutPropertiesExtension">
+                        <primaryMagazineCount>
+                            <min>7</min>
+                            <max>11</max>
+                        </primaryMagazineCount>
+                    </li>
+                </value>
+            </li>
+            <!--Demolisher-->
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/PawnKindDef[defName="AM_Demolisher"]</xpath>
+                <value>
+                    <li Class="CombatExtended.LoadoutPropertiesExtension">
+                        <primaryMagazineCount>
+                            <min>5</min>
+                            <max>10</max>
+                        </primaryMagazineCount>
+                    </li>
+                </value>
+            </li>
+            <!--Fireworm-->
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/PawnKindDef[defName="AM_Fireworm"]</xpath>
+                <value>
+                    <li Class="CombatExtended.LoadoutPropertiesExtension">
+                        <primaryMagazineCount>
+                            <min>3</min>
+                            <max>4</max>
+                        </primaryMagazineCount>
+                    </li>
+                </value>
+            </li>
+            <!--Goliath-->
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/PawnKindDef[defName="AM_Goliath"]</xpath>
+                <value>
+                    <li Class="CombatExtended.LoadoutPropertiesExtension">
+                        <primaryMagazineCount>
+                            <min>6</min>
+                            <max>12</max>
+                        </primaryMagazineCount>
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

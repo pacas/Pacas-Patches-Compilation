@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Buff_Soothe.label>Успокаивающий Ветерок</Buff_Soothe.label>
+
+<Laser_FrostRay.label>Морозный луч</Laser_FrostRay.label>
+
+<Projectile_Snowball.label>снежный шар</Projectile_Snowball.label>
+
+<Projectile_Icebolt.label>ледяной болт</Projectile_Icebolt.label>
+
+<Projectile_Rainmaker.label>Создатель дождя</Projectile_Rainmaker.label>
+
+<Projectile_Blizzard.label>Метель</Projectile_Blizzard.label>
+
+</LanguageData>

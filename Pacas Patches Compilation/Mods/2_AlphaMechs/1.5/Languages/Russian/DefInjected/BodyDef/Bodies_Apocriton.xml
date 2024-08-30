@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_ApocritonWinged.label>крылатый апокритон</AM_ApocritonWinged.label>
+  <AM_ApocritonWinged.corePart.parts.0.parts.0.parts.1.customLabel>левый датчик прицеливания</AM_ApocritonWinged.corePart.parts.0.parts.0.parts.1.customLabel>
+  <AM_ApocritonWinged.corePart.parts.0.parts.0.parts.2.customLabel>правый датчик прицеливания</AM_ApocritonWinged.corePart.parts.0.parts.0.parts.2.customLabel>
+  <AM_ApocritonWinged.corePart.parts.0.parts.0.parts.3.customLabel>левый датчик слуха</AM_ApocritonWinged.corePart.parts.0.parts.0.parts.3.customLabel>
+  <AM_ApocritonWinged.corePart.parts.0.parts.0.parts.4.customLabel>правый датчик слуха</AM_ApocritonWinged.corePart.parts.0.parts.0.parts.4.customLabel>
+  <AM_ApocritonWinged.corePart.parts.1.customLabel>передняя левая нога</AM_ApocritonWinged.corePart.parts.1.customLabel>
+  <AM_ApocritonWinged.corePart.parts.1.parts.0.customLabel>передняя левая ступня</AM_ApocritonWinged.corePart.parts.1.parts.0.customLabel>
+  <AM_ApocritonWinged.corePart.parts.2.customLabel>передняя правая нога</AM_ApocritonWinged.corePart.parts.2.customLabel>
+  <AM_ApocritonWinged.corePart.parts.2.parts.0.customLabel>передняя правая ступня</AM_ApocritonWinged.corePart.parts.2.parts.0.customLabel>
+  <AM_ApocritonWinged.corePart.parts.3.customLabel>задняя левая нога</AM_ApocritonWinged.corePart.parts.3.customLabel>
+  <AM_ApocritonWinged.corePart.parts.3.parts.0.customLabel>задняя левая ступня</AM_ApocritonWinged.corePart.parts.3.parts.0.customLabel>
+  <AM_ApocritonWinged.corePart.parts.4.customLabel>задняя правая нога</AM_ApocritonWinged.corePart.parts.4.customLabel>
+  <AM_ApocritonWinged.corePart.parts.4.parts.0.customLabel>задняя правая ступня</AM_ApocritonWinged.corePart.parts.4.parts.0.customLabel>
+  <AM_ApocritonWinged.corePart.parts.5.customLabel>первая лопасть крыла</AM_ApocritonWinged.corePart.parts.5.customLabel>
+  <AM_ApocritonWinged.corePart.parts.6.customLabel>вторая лопасть крыла</AM_ApocritonWinged.corePart.parts.6.customLabel>
+  <AM_ApocritonWinged.corePart.parts.7.customLabel>третья лопасть крыла</AM_ApocritonWinged.corePart.parts.7.customLabel>
+  <AM_ApocritonWinged.corePart.parts.8.customLabel>четвёртая лопасть крыла</AM_ApocritonWinged.corePart.parts.8.customLabel>
+
+
+</LanguageData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Phalanx.label>фаланкс</AM_Phalanx.label>
+  <AM_Phalanx.labelPlural>фаланксы</AM_Phalanx.labelPlural>
+  <AM_Phalanx.lifeStages.0.label>фаланкс</AM_Phalanx.lifeStages.0.label>
+  <AM_Phalanx.lifeStages.0.labelPlural>фаланксы</AM_Phalanx.lifeStages.0.labelPlural>
+  <AM_Phalanx.lifeStages.0.labelMale>мужчина фаланкс</AM_Phalanx.lifeStages.0.labelMale>
+  <AM_Phalanx.lifeStages.0.labelMalePlural>мужчины фаланксы</AM_Phalanx.lifeStages.0.labelMalePlural>
+  <AM_Phalanx.lifeStages.0.labelFemale>женщина фаланкс</AM_Phalanx.lifeStages.0.labelFemale>
+  <AM_Phalanx.lifeStages.0.labelFemalePlural>женщины фаланкс</AM_Phalanx.lifeStages.0.labelFemalePlural>
+  <AM_Phalanx.lifeStages.1.label>фаланкс</AM_Phalanx.lifeStages.1.label>
+  <AM_Phalanx.lifeStages.1.labelPlural>фаланксы</AM_Phalanx.lifeStages.1.labelPlural>
+  <AM_Phalanx.lifeStages.1.labelMale>мужчина фаланкс</AM_Phalanx.lifeStages.1.labelMale>
+  <AM_Phalanx.lifeStages.1.labelMalePlural>мужчины фаланксы</AM_Phalanx.lifeStages.1.labelMalePlural>
+  <AM_Phalanx.lifeStages.1.labelFemale>женщина фаланкс</AM_Phalanx.lifeStages.1.labelFemale>
+  <AM_Phalanx.lifeStages.1.labelFemalePlural>женщины фаланкс</AM_Phalanx.lifeStages.1.labelFemalePlural>
+  <AM_Phalanx.labelMale>мужчина фаланкс</AM_Phalanx.labelMale>
+  <AM_Phalanx.labelMalePlural>мужчины фаланксы</AM_Phalanx.labelMalePlural>
+  <AM_Phalanx.labelFemale>женщина фаланкс</AM_Phalanx.labelFemale>
+  <AM_Phalanx.labelFemalePlural>женщины фаланкс</AM_Phalanx.labelFemalePlural>
+
+
+</LanguageData>

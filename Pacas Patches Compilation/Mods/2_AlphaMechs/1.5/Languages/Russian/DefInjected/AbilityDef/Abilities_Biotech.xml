@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_Detonate.label>детонация</AM_Detonate.label>
+  <AM_Detonate.description>Детонировать механоида, урон наносится всем в округе.</AM_Detonate.description>
+
+  <AM_ResurrectionMechSlow.label>воскресить меха, незначительно</AM_ResurrectionMechSlow.label>
+  <AM_ResurrectionMechSlow.description>Воскресите недавно убитого механоида, внешне усилив его процессы самовосстановления. Механоид вернется с некоторыми, но не со всеми излеченными ранами. Эта способность работает медленнее, чем та, которую использует Апокритон.</AM_ResurrectionMechSlow.description>
+
+  <AM_LongjumpMech.label>улучшенный длинных-мех прыжок</AM_LongjumpMech.label>
+  <AM_LongjumpMech.description>Прыгнуть на большую дистанцию использую ультра-мех мышцы.</AM_LongjumpMech.description>
+  <AM_LongjumpMech.verbProperties.label>прыгнуть</AM_LongjumpMech.verbProperties.label>
+
+  <AM_SwapWeapon_Mortar.label>сменить оружие</AM_SwapWeapon_Mortar.label>
+  <AM_SwapWeapon_Mortar.description>Сменить оружие между мини игломёт и мортирой.</AM_SwapWeapon_Mortar.description>
+
+
+</LanguageData>

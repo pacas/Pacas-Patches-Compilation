@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Sniper-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Headshot"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>60</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_I"]/description</xpath>
+                <value>
+                    <description>A shot that aims to disable the opponent rather than kill. The sniper fires non-lethal rounds that release a jolt of electricity, briefly paralyzing the target for several seconds. Armored targets are unaffected.\n\nRange: 25\nFiring Delay: 2.3s\nRecharge 43s</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_II"]/description</xpath>
+                <value>
+                    <description>A shot that aims to disable the opponent rather than kill. The sniper fires non-lethal rounds that release a jolt of electricity, briefly paralyzing the target for several seconds. Armored targets are unaffected.\n\nRange: 30\nFiring Delay: 2.1s\nRecharge 41s</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_III"]/description</xpath>
+                <value>
+                    <description>A shot that aims to disable the opponent rather than kill. The sniper fires non-lethal rounds that release a jolt of electricity, briefly paralyzing the target for several seconds. Armored targets are unaffected.\n\nRange: 35\nFiring Delay: 2s\nRecharge 40s</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_I"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>25</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_II"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>30</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_DisablingShot_III"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>35</range>
+                </value>
+            </li>
+            
+            
+            <!--Arcanist+Shadow-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_I"]/description</xpath>
+                <value>
+                    <description>Instantly moves the caster to the target location.\n\nCasting time: .3s\nRecharge time: 8s\nRange: 40</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_II"]/description</xpath>
+                <value>
+                    <description>Instantly moves the caster to the target location.\n\nCasting time: .2s\nRecharge time: 6s\nRange: 50</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_III"]/description</xpath>
+                <value>
+                    <description>Instantly moves the caster to the target location.\n\nCasting time: .1s\nRecharge time: 5s\nRange: 60</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_I"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/warmupTime</xpath>
+                <value>
+                    <warmupTime>0.2</warmupTime>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_II"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/warmupTime</xpath>
+                <value>
+                    <warmupTime>0.1</warmupTime>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_III"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>60</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_II"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>50</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Blink_III"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>60</range>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon"]/description</xpath>
+                <value>
+                    <description>Summon objects to the casters location.\n\nCasting time: 3s\nRecharge time: 20s\nRange: 30</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_I"]/description</xpath>
+                <value>
+                    <description>Summon objects to the casters location.\n\nCasting time: 2.7s\nRecharge time: 18s\nRange: 40</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_II"]/description</xpath>
+                <value>
+                    <description>Summon objects to the casters location.\n\nCasting time: 2.5s\nRecharge time: 16s\nRange: 50</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_III"]/description</xpath>
+                <value>
+                    <description>Summon objects to the casters location.\n\nCasting time: 2.4s\nRecharge time: 15s\nRange: 60</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>30</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_I"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>40</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_II"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>50</range>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TorannMagic.TMAbilityDef[defName="TM_Summon_III"]/MainVerb[@Class="AbilityUser.VerbProperties_Ability"]/range</xpath>
+                <value>
+                    <range>60</range>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

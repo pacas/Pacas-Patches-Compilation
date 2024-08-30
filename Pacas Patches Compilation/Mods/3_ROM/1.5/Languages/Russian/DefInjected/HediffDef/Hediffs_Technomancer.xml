@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_TechnoShieldHD.label>кинетический щит</TM_TechnoShieldHD.label>
+  <TM_TechnoShieldHD.description>Щит, который перенаправляет кинетическую энергию; щит может быть пробит снарядом с достаточной силой.</TM_TechnoShieldHD.description>
+  <TM_TechnoShieldHD.stages.0.label></TM_TechnoShieldHD.stages.0.label>
+
+  <TM_TechnoShieldHD_I.label>кинетический щит</TM_TechnoShieldHD_I.label>
+  <TM_TechnoShieldHD_I.description>Щит, который перенаправляет кинетическую энергию; щит может быть пробит снарядом с достаточной силой.</TM_TechnoShieldHD_I.description>
+  <TM_TechnoShieldHD_I.stages.0.label></TM_TechnoShieldHD_I.stages.0.label>
+  
+  <TM_TechnoShieldHD_II.label>кинетический щит</TM_TechnoShieldHD_II.label>
+  <TM_TechnoShieldHD_II.description>Щит, который перенаправляет кинетическую энергию; щит может быть пробит снарядом с достаточной силой.</TM_TechnoShieldHD_II.description>
+  <TM_TechnoShieldHD_II.stages.0.label></TM_TechnoShieldHD_II.stages.0.label>
+  
+  <TM_TechnoShieldHD_III.label>кинетический щит</TM_TechnoShieldHD_III.label>
+  <TM_TechnoShieldHD_III.description>Щит, который перенаправляет кинетическую энергию; щит может быть пробит снарядом с достаточной силой.</TM_TechnoShieldHD_III.description>
+  <TM_TechnoShieldHD_III.stages.0.label></TM_TechnoShieldHD_III.stages.0.label>
+  
+  <TM_TechnoBitHD.label>Технобит</TM_TechnoBitHD.label>
+  <TM_TechnoBitHD.description>Маленькая плавающая сфера, которая помогает техноманту.</TM_TechnoBitHD.description>
+
+  <TM_BitAssistHD.label>Технобит-ассистент</TM_BitAssistHD.label>
+  <TM_BitAssistHD.description>Помощь, оказываемая технобитом.</TM_BitAssistHD.description>
+  <TM_BitAssistHD.stages.0.label>I</TM_BitAssistHD.stages.0.label>
+  <TM_BitAssistHD.stages.1.label>II</TM_BitAssistHD.stages.1.label>
+  <TM_BitAssistHD.stages.2.label>III</TM_BitAssistHD.stages.2.label>
+  <TM_BitAssistHD.stages.3.label>IV</TM_BitAssistHD.stages.3.label>
+  <TM_BitAssistHD.stages.4.label>V</TM_BitAssistHD.stages.4.label>
+  <TM_BitAssistHD.stages.5.label>VI</TM_BitAssistHD.stages.5.label>
+  <TM_BitAssistHD.stages.6.label>VII</TM_BitAssistHD.stages.6.label>
+  <TM_BitAssistHD.stages.7.label>VIII</TM_BitAssistHD.stages.7.label>
+  <TM_BitAssistHD.stages.8.label>IX</TM_BitAssistHD.stages.8.label>
+  <TM_BitAssistHD.stages.9.label>X</TM_BitAssistHD.stages.9.label>
+  <TM_BitAssistHD.stages.10.label>XI</TM_BitAssistHD.stages.10.label>
+  <TM_BitAssistHD.stages.11.label>XII</TM_BitAssistHD.stages.11.label>
+  <TM_BitAssistHD.stages.12.label>XIII</TM_BitAssistHD.stages.12.label>
+  <TM_BitAssistHD.stages.13.label>XIV</TM_BitAssistHD.stages.13.label>
+  <TM_BitAssistHD.stages.14.label>XV</TM_BitAssistHD.stages.14.label>
+
+  <TM_NanoStimulantWithdrawalHD.label>Восстановление после наностимулятора</TM_NanoStimulantWithdrawalHD.label>
+  <TM_NanoStimulantWithdrawalHD.description>Ломка после того, как действие наностимулятора пройдет.</TM_NanoStimulantWithdrawalHD.description>
+  <TM_NanoStimulantWithdrawalHD.stages.0.label></TM_NanoStimulantWithdrawalHD.stages.0.label>
+
+  <!-- перегрузка (pawns) -->
+
+  <TM_OverdriveHD.label>перегрузка</TM_OverdriveHD.label>
+  <TM_OverdriveHD.description>Разогнанная электроника и техника работают с опасной скоростью.</TM_OverdriveHD.description>
+  <TM_OverdriveHD.stages.0.label>I</TM_OverdriveHD.stages.0.label>
+  <TM_OverdriveHD.stages.1.label>II</TM_OverdriveHD.stages.1.label>
+  <TM_OverdriveHD.stages.2.label>III</TM_OverdriveHD.stages.2.label>
+  <TM_OverdriveHD.stages.3.label>IV</TM_OverdriveHD.stages.3.label>
+
+  <TM_OverdriveHD_I.label>перегрузка</TM_OverdriveHD_I.label>
+  <TM_OverdriveHD_I.description>Разогнанная электроника и техника работают с опасной скоростью.</TM_OverdriveHD_I.description>
+  <TM_OverdriveHD_I.stages.0.label>I</TM_OverdriveHD_I.stages.0.label>
+  <TM_OverdriveHD_I.stages.1.label>II</TM_OverdriveHD_I.stages.1.label>
+  <TM_OverdriveHD_I.stages.2.label>III</TM_OverdriveHD_I.stages.2.label>
+  <TM_OverdriveHD_I.stages.3.label>IV</TM_OverdriveHD_I.stages.3.label>
+
+  <TM_OverdriveHD_II.label>перегрузка</TM_OverdriveHD_II.label>
+  <TM_OverdriveHD_II.description>Разогнанная электроника и техника работают с опасной скоростью.</TM_OverdriveHD_II.description>
+  <TM_OverdriveHD_II.stages.0.label>I</TM_OverdriveHD_II.stages.0.label>
+  <TM_OverdriveHD_II.stages.1.label>II</TM_OverdriveHD_II.stages.1.label>
+  <TM_OverdriveHD_II.stages.2.label>III</TM_OverdriveHD_II.stages.2.label>
+  <TM_OverdriveHD_II.stages.3.label>IV</TM_OverdriveHD_II.stages.3.label>
+
+  <TM_OverdriveHD_III.label>перегрузка</TM_OverdriveHD_III.label>
+  <TM_OverdriveHD_III.description>Разогнанная электроника и техника работают с опасной скоростью.</TM_OverdriveHD_III.description>
+  <TM_OverdriveHD_III.stages.0.label>I</TM_OverdriveHD_III.stages.0.label>
+  <TM_OverdriveHD_III.stages.1.label>II</TM_OverdriveHD_III.stages.1.label>
+  <TM_OverdriveHD_III.stages.2.label>III</TM_OverdriveHD_III.stages.2.label>
+  <TM_OverdriveHD_III.stages.3.label>IV</TM_OverdriveHD_III.stages.3.label>
+
+
+  <!-- Nano stimulant -->
+
+  <TM_NanoStimulantHD.label>Наностимулятор</TM_NanoStimulantHD.label>
+  <TM_NanoStimulantHD.description>Стимулятор для усиления борьбы; затем следует короткий период ломки.</TM_NanoStimulantHD.description>
+  <TM_NanoStimulantHD.stages.0.label>I</TM_NanoStimulantHD.stages.0.label>
+  <TM_NanoStimulantHD.stages.1.label>II</TM_NanoStimulantHD.stages.1.label>
+  <TM_NanoStimulantHD.stages.2.label>III</TM_NanoStimulantHD.stages.2.label>
+  <TM_NanoStimulantHD.stages.3.label>IV</TM_NanoStimulantHD.stages.3.label>
+  <TM_NanoStimulantHD.stages.4.label>V</TM_NanoStimulantHD.stages.4.label>
+  <TM_NanoStimulantHD.stages.5.label>VI</TM_NanoStimulantHD.stages.5.label>
+  <TM_NanoStimulantHD.stages.6.label>VII</TM_NanoStimulantHD.stages.6.label>
+  <TM_NanoStimulantHD.stages.7.label>VIII</TM_NanoStimulantHD.stages.7.label>
+  <TM_NanoStimulantHD.stages.8.label>IX</TM_NanoStimulantHD.stages.8.label>
+  <TM_NanoStimulantHD.stages.9.label>X</TM_NanoStimulantHD.stages.9.label>
+  <TM_NanoStimulantHD.stages.10.label>XI</TM_NanoStimulantHD.stages.10.label>
+  <TM_NanoStimulantHD.stages.11.label>XII</TM_NanoStimulantHD.stages.11.label>
+  <TM_NanoStimulantHD.stages.12.label>XIII</TM_NanoStimulantHD.stages.12.label>
+  <TM_NanoStimulantHD.stages.13.label>XIV</TM_NanoStimulantHD.stages.13.label>
+  <TM_NanoStimulantHD.stages.14.label>XV</TM_NanoStimulantHD.stages.14.label>
+
+  <TM_ReprogrammedFibMechanites_HD.label>перепрограммированные волоконные механиты</TM_ReprogrammedFibMechanites_HD.label>
+  <TM_ReprogrammedFibMechanites_HD.description>Волоконные механиты перепрограммируются, чтобы вызвать меньшую нагрузку на хозяина.</TM_ReprogrammedFibMechanites_HD.description>
+  <TM_ReprogrammedFibMechanites_HD.stages.0.label>механическое увеличение (физическое)</TM_ReprogrammedFibMechanites_HD.stages.0.label>
+  <TM_ReprogrammedFibMechanites_HD.stages.1.label>механическое увеличение (физическое)</TM_ReprogrammedFibMechanites_HD.stages.1.label>
+
+  <TM_ReprogrammedSenMechanites_HD.label>перепрограммированные сенсорные механиты</TM_ReprogrammedSenMechanites_HD.label>
+  <TM_ReprogrammedSenMechanites_HD.description>Сенсорные механиты перепрограммировались, чтобы вызвать меньший стресс у хозяина.</TM_ReprogrammedSenMechanites_HD.description>
+  <TM_ReprogrammedSenMechanites_HD.stages.0.label>механическое увеличение (сенсорное)</TM_ReprogrammedSenMechanites_HD.stages.0.label>
+  <TM_ReprogrammedSenMechanites_HD.stages.1.label>механическое увеличение (сенсорное)</TM_ReprogrammedSenMechanites_HD.stages.1.label>
+
+  <TM_ReprogrammedLymMechanites_HD.label>перепрограммированные лимфатические механиты</TM_ReprogrammedLymMechanites_HD.label>
+  <TM_ReprogrammedLymMechanites_HD.description>Лимфатические механизмы перепрограммированы, чтобы вызывать меньшую нагрузку на хозяина.</TM_ReprogrammedLymMechanites_HD.description>
+  <TM_ReprogrammedLymMechanites_HD.stages.0.label>механическое увеличение (лимфатическое)</TM_ReprogrammedLymMechanites_HD.stages.0.label>
+  <TM_ReprogrammedLymMechanites_HD.stages.1.label>механическое увеличение (лимфатическое)</TM_ReprogrammedLymMechanites_HD.stages.1.label>
+
+</LanguageData>

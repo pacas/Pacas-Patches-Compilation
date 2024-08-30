@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ArcaneCapacitor"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>50</Plasteel>
+                        <GoldBar>10</GoldBar>
+                        <Cloth>100</Cloth>
+                        <Cobalt>20</Cobalt>
+                        <SilverBar>20</SilverBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ArcaneCapacitor"]/statBases/WorkToBuild</xpath>
+                <value>
+                    <WorkToBuild>2000</WorkToBuild>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_DimensionalManaPocket"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>100</Plasteel>
+                        <GoldBar>50</GoldBar>
+                        <AlnicoAlloy>100</AlnicoAlloy>
+                        <Cobalt>100</Cobalt>
+                        <SilverBar>100</SilverBar>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ArcaneCapacitor"]/statBases/WorkToBuild</xpath>
+                <value>
+                    <WorkToBuild>7000</WorkToBuild>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableGemcutting"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentMedieval>10</ComponentMedieval>
+                        <Mechanism>5</Mechanism>
+                    </costList>
+                </value>
+            </li>
+            
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableMagicPrinter"]/costList</xpath>
+                <value>
+                    <costList>
+                        <ComponentMedieval>10</ComponentMedieval>
+                        <Mechanism>2</Mechanism>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableMagicPrinter"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Metallic</li>
+                        <li>Woody</li>
+                    </stuffCategories>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableArcaneForge"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Jade>100</Jade>
+                        <AlnicoAlloy>50</AlnicoAlloy>
+                        <Cobalt>50</Cobalt>
+                        <DepletedUranium>50</DepletedUranium>
+                    </costList>
+                </value>
+            </li>
+            <!--<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableArcaneForge"]/statBases/WorkTableWorkSpeedFactor</xpath>
+                <value>
+                    <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+                </value>
+            </li>-->
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableMagicCircle"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>200</Plasteel>
+                        <Jade>60</Jade>
+                        <DepletedUranium>60</DepletedUranium>
+                        <PureMagicyteBar>75</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TableSmallMagicCircle"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>100</Plasteel>
+                        <Jade>40</Jade>
+                        <DepletedUranium>20</DepletedUranium>
+                        <PureMagicyteBar>25</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_Portal"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>300</Plasteel>
+                        <GoldBar>50</GoldBar>
+                        <Jade>100</Jade>
+                        <DepletedUranium>40</DepletedUranium>
+                    </costList>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TM_ElementalRift"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>150</Plasteel>
+                        <Jade>50</Jade>
+                        <DepletedUranium>20</DepletedUranium>
+                        <PureMagicyteBar>25</PureMagicyteBar>
+                    </costList>
+                </value>
+            </li>
+            <!--#########-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[
+                defName="TableGemcutting" or
+                defName="TableMagicPrinter" or
+                defName="TableArcaneForge" or
+                defName="TableMagicCircle" or
+                defName="TableSmallMagicCircle"
+                ]</xpath>
+                <value>
+                    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="TableGemcutting" or
+                defName="TableArcaneForge" or
+                defName="TableMagicCircle" or
+                defName="TableSmallMagicCircle"
+                ]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

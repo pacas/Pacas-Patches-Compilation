@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AM_AuraBody.label>Аура</AM_AuraBody.label>
+  <AM_AuraBody.corePart.parts.0.parts.0.parts.1.customLabel>левый датчик прицеливания</AM_AuraBody.corePart.parts.0.parts.0.parts.1.customLabel>
+  <AM_AuraBody.corePart.parts.0.parts.0.parts.2.customLabel>правый датчик прицеливания</AM_AuraBody.corePart.parts.0.parts.0.parts.2.customLabel>
+  <AM_AuraBody.corePart.parts.0.parts.0.parts.3.customLabel>левый датчик слуха</AM_AuraBody.corePart.parts.0.parts.0.parts.3.customLabel>
+  <AM_AuraBody.corePart.parts.0.parts.0.parts.4.customLabel>правый датчик слуха</AM_AuraBody.corePart.parts.0.parts.0.parts.4.customLabel>
+  <AM_AuraBody.corePart.parts.1.customLabel>левое плечо</AM_AuraBody.corePart.parts.1.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.customLabel>левая рука</AM_AuraBody.corePart.parts.1.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.parts.0.customLabel>левая кисть</AM_AuraBody.corePart.parts.1.parts.0.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.0.customLabel>левый мизинец</AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>левый средний палец</AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>левый указательный палец</AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>
+  <AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>левый большой палец</AM_AuraBody.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>
+  <AM_AuraBody.corePart.parts.2.customLabel>правое механическое плечо</AM_AuraBody.corePart.parts.2.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.customLabel>правая рука</AM_AuraBody.corePart.parts.2.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.parts.0.customLabel>правая кисть</AM_AuraBody.corePart.parts.2.parts.0.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.0.customLabel>правый мизинец</AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.1.customLabel>правый средний палец</AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.1.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.2.customLabel>правый указательный палец</AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.2.customLabel>
+  <AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.3.customLabel>правый большой палец</AM_AuraBody.corePart.parts.2.parts.0.parts.0.parts.3.customLabel>
+  <AM_AuraBody.corePart.parts.3.customLabel>левая нога</AM_AuraBody.corePart.parts.3.customLabel>
+  <AM_AuraBody.corePart.parts.3.parts.0.customLabel>левая ступня</AM_AuraBody.corePart.parts.3.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.4.customLabel>правая нога</AM_AuraBody.corePart.parts.4.customLabel>
+  <AM_AuraBody.corePart.parts.4.parts.0.customLabel>правая ступня</AM_AuraBody.corePart.parts.4.parts.0.customLabel>
+  <AM_AuraBody.corePart.parts.8.customLabel>первая лопасть крыла</AM_AuraBody.corePart.parts.8.customLabel>
+  <AM_AuraBody.corePart.parts.9.customLabel>второя лопасть крыла</AM_AuraBody.corePart.parts.9.customLabel>
+  <AM_AuraBody.corePart.parts.10.customLabel>третья лопасть крыла</AM_AuraBody.corePart.parts.10.customLabel>
+  <AM_AuraBody.corePart.parts.11.customLabel>четвёртая лопасть крыла</AM_AuraBody.corePart.parts.11.customLabel>
+  <AM_AuraBody.corePart.parts.12.customLabel>пятая лопасть крыла</AM_AuraBody.corePart.parts.12.customLabel>
+  <AM_AuraBody.corePart.parts.13.customLabel>шестая лопасть крыла</AM_AuraBody.corePart.parts.13.customLabel>
+
+
+</LanguageData>

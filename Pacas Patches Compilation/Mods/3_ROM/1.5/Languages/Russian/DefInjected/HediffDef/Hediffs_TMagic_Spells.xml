@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_ArcaneHD.label>таинственность</TM_ArcaneHD.label>
+  <TM_ArcaneHD.description>Разрушительная тайная сила</TM_ArcaneHD.description>
+  <TM_ArcaneHD.comps.0.labelTendedWell>перебинтовано</TM_ArcaneHD.comps.0.labelTendedWell>
+  <TM_ArcaneHD.comps.0.labelTendedWellInner>зашито</TM_ArcaneHD.comps.0.labelTendedWellInner>
+  <TM_ArcaneHD.comps.0.labelSolidTendedWell>зажило</TM_ArcaneHD.comps.0.labelSolidTendedWell>
+  <TM_ArcaneHD.comps.1.permanentLabel>уничтожен тайной силой</TM_ArcaneHD.comps.1.permanentLabel>
+  <TM_ArcaneHD.injuryProps.destroyedLabel>взорванный</TM_ArcaneHD.injuryProps.destroyedLabel>
+  <TM_ArcaneHD.injuryProps.destroyedOutLabel>взорванный</TM_ArcaneHD.injuryProps.destroyedOutLabel>
+
+  <TM_ThrumboCleave.label>Раскол</TM_ThrumboCleave.label>
+  <TM_ThrumboCleave.description>Атака достаточно мощная, чтобы пронзить сразу несколько объектов.</TM_ThrumboCleave.description>
+  <TM_ThrumboCleave.comps.0.labelTendedWell>перебинтовано</TM_ThrumboCleave.comps.0.labelTendedWell>
+  <TM_ThrumboCleave.comps.0.labelTendedWellInner>зашито</TM_ThrumboCleave.comps.0.labelTendedWellInner>
+  <TM_ThrumboCleave.comps.0.labelSolidTendedWell>зажило</TM_ThrumboCleave.comps.0.labelSolidTendedWell>
+    <TM_ThrumboCleave.comps.2.permanentLabel>шрам</TM_ThrumboCleave.comps.2.permanentLabel>
+  <TM_ThrumboCleave.injuryProps.destroyedLabel>Отрезанный</TM_ThrumboCleave.injuryProps.destroyedLabel>
+  <TM_ThrumboCleave.injuryProps.destroyedOutLabel>Вырезанный из</TM_ThrumboCleave.injuryProps.destroyedOutLabel>
+  <TM_ThrumboCleave.labelNoun>огромная рана</TM_ThrumboCleave.labelNoun>
+
+  <TM_BlazingPowerHD.label>Пылающая сила</TM_BlazingPowerHD.label>
+  <TM_BlazingPowerHD.description>Тайная сила, направленная через фокусирующую емкость.</TM_BlazingPowerHD.description>
+  <TM_BlazingPowerHD.comps.0.labelTendedWell>перебинтовано</TM_BlazingPowerHD.comps.0.labelTendedWell>
+  <TM_BlazingPowerHD.comps.0.labelTendedWellInner>зашито</TM_BlazingPowerHD.comps.0.labelTendedWellInner>
+  <TM_BlazingPowerHD.comps.0.labelSolidTendedWell>зажило</TM_BlazingPowerHD.comps.0.labelSolidTendedWell>
+    <TM_BlazingPowerHD.comps.1.permanentLabel>уничтоженный пылающей силой</TM_BlazingPowerHD.comps.1.permanentLabel>
+  <TM_BlazingPowerHD.injuryProps.destroyedLabel>уничтожено</TM_BlazingPowerHD.injuryProps.destroyedLabel>
+  <TM_BlazingPowerHD.injuryProps.destroyedOutLabel>уничтожено</TM_BlazingPowerHD.injuryProps.destroyedOutLabel>
+
+  <TM_Holy.label>Святой гнев</TM_Holy.label>
+  <TM_Holy.description>Разрушительная энергия из области света.</TM_Holy.description>
+  <TM_Holy.comps.0.labelTendedWell>перебинтовано</TM_Holy.comps.0.labelTendedWell>
+  <TM_Holy.comps.0.labelTendedWellInner>зашито</TM_Holy.comps.0.labelTendedWellInner>
+  <TM_Holy.comps.0.labelSolidTendedWell>зажило</TM_Holy.comps.0.labelSolidTendedWell>
+    <TM_Holy.comps.1.permanentLabel>уничтожен святой силой</TM_Holy.comps.1.permanentLabel>
+  <TM_Holy.injuryProps.destroyedLabel>сгорел дотла</TM_Holy.injuryProps.destroyedLabel>
+  <TM_Holy.injuryProps.destroyedOutLabel>сгорел дотла</TM_Holy.injuryProps.destroyedOutLabel>
+
+  <TM_SpiritHD.label>Дух</TM_SpiritHD.label>
+  <TM_SpiritHD.description>Пагубная духовная энергия.</TM_SpiritHD.description>
+  <TM_SpiritHD.comps.0.labelTendedWell>перебинтовано</TM_SpiritHD.comps.0.labelTendedWell>
+  <TM_SpiritHD.comps.0.labelTendedWellInner>зашито</TM_SpiritHD.comps.0.labelTendedWellInner>
+  <TM_SpiritHD.comps.0.labelSolidTendedWell>зажило</TM_SpiritHD.comps.0.labelSolidTendedWell>
+	<TM_SpiritHD.comps.1.permanentLabel>лишенный духа</TM_SpiritHD.comps.1.permanentLabel>
+  <TM_SpiritHD.injuryProps.destroyedLabel>омертвел</TM_SpiritHD.injuryProps.destroyedLabel>
+  <TM_SpiritHD.injuryProps.destroyedOutLabel>омертвел</TM_SpiritHD.injuryProps.destroyedOutLabel>
+
+  <TM_MagicMissile.label>Волшебная ракета</TM_MagicMissile.label>
+  <TM_MagicMissile.description>Тайная энергия проецировалась маленькими, сфокусированными всплесками.</TM_MagicMissile.description>
+  <TM_MagicMissile.comps.0.labelTendedWell>перебинтовано</TM_MagicMissile.comps.0.labelTendedWell>
+  <TM_MagicMissile.comps.0.labelTendedWellInner>зашито</TM_MagicMissile.comps.0.labelTendedWellInner>
+  <TM_MagicMissile.comps.0.labelSolidTendedWell>зажило</TM_MagicMissile.comps.0.labelSolidTendedWell>
+  <TM_MagicMissile.comps.1.permanentLabel>тронутый тайным</TM_MagicMissile.comps.1.permanentLabel>
+  <TM_MagicMissile.injuryProps.destroyedLabel>отрезанный</TM_MagicMissile.injuryProps.destroyedLabel>
+  <TM_MagicMissile.injuryProps.destroyedOutLabel>отрезать</TM_MagicMissile.injuryProps.destroyedOutLabel>
+
+  <TM_ManaMine.label>взрыв маны</TM_ManaMine.label>
+  <TM_ManaMine.description>Взрывное высвобождение содержащейся в воздухе маны.</TM_ManaMine.description>
+  <TM_ManaMine.comps.0.labelTendedWell>перебинтовано</TM_ManaMine.comps.0.labelTendedWell>
+  <TM_ManaMine.comps.0.labelTendedWellInner>зашито</TM_ManaMine.comps.0.labelTendedWellInner>
+  <TM_ManaMine.comps.0.labelSolidTendedWell>зажило</TM_ManaMine.comps.0.labelSolidTendedWell>
+    <TM_ManaMine.comps.1.permanentLabel>уничтожен взрывом маны</TM_ManaMine.comps.1.permanentLabel>
+  <TM_ManaMine.injuryProps.destroyedLabel>взорванный</TM_ManaMine.injuryProps.destroyedLabel>
+  <TM_ManaMine.injuryProps.destroyedOutLabel>сгорел дотла</TM_ManaMine.injuryProps.destroyedOutLabel>
+
+  <TM_Firebolt.label>Огненный шар</TM_Firebolt.label>
+  <TM_Firebolt.description>Проецированная стрела стихийного огня.</TM_Firebolt.description>
+  <TM_Firebolt.comps.0.labelTendedWell>перебинтовано</TM_Firebolt.comps.0.labelTendedWell>
+  <TM_Firebolt.comps.0.labelTendedWellInner>зашито</TM_Firebolt.comps.0.labelTendedWellInner>
+  <TM_Firebolt.comps.0.labelSolidTendedWell>зажило</TM_Firebolt.comps.0.labelSolidTendedWell>
+    <TM_Firebolt.comps.1.permanentLabel>шрам от ожога</TM_Firebolt.comps.1.permanentLabel>
+  <TM_Firebolt.injuryProps.destroyedLabel>выгоревший</TM_Firebolt.injuryProps.destroyedLabel>
+  <TM_Firebolt.injuryProps.destroyedOutLabel>сгоревший</TM_Firebolt.injuryProps.destroyedOutLabel>
+
+  <TM_LightningCloud.label>облако молний</TM_LightningCloud.label>
+  <TM_LightningCloud.description>Атмосферный электрический разряд, вызванный конденсацией заряженных частиц.</TM_LightningCloud.description>
+  <TM_LightningCloud.comps.0.labelTendedWell>перебинтовано</TM_LightningCloud.comps.0.labelTendedWell>
+  <TM_LightningCloud.comps.0.labelTendedWellInner>зашито</TM_LightningCloud.comps.0.labelTendedWellInner>
+  <TM_LightningCloud.comps.0.labelSolidTendedWell>зажило</TM_LightningCloud.comps.0.labelSolidTendedWell>
+    <TM_LightningCloud.comps.1.permanentLabel>уничтоженно электрическим током</TM_LightningCloud.comps.1.permanentLabel>
+  <TM_LightningCloud.injuryProps.destroyedLabel>расплавленный</TM_LightningCloud.injuryProps.destroyedLabel>
+  <TM_LightningCloud.injuryProps.destroyedOutLabel>сгорел дотла</TM_LightningCloud.injuryProps.destroyedOutLabel>
+
+  <TM_Lightning.label>Молния</TM_Lightning.label>
+  <TM_Lightning.description>Мощный электрический разряд.</TM_Lightning.description>
+  <TM_Lightning.comps.0.labelTendedWell>перебинтовано</TM_Lightning.comps.0.labelTendedWell>
+  <TM_Lightning.comps.0.labelTendedWellInner>зашито</TM_Lightning.comps.0.labelTendedWellInner>
+  <TM_Lightning.comps.0.labelSolidTendedWell>зажило</TM_Lightning.comps.0.labelSolidTendedWell>
+    <TM_Lightning.comps.1.permanentLabel>пораженно молнией</TM_Lightning.comps.1.permanentLabel>
+  <TM_Lightning.injuryProps.destroyedLabel>расплавленный</TM_Lightning.injuryProps.destroyedLabel>
+  <TM_Lightning.injuryProps.destroyedOutLabel>сгорел дотла</TM_Lightning.injuryProps.destroyedOutLabel>
+
+  <FrostRay.label>морозный луч</FrostRay.label>
+  <FrostRay.description>Сверхохлажденный сгусток энергии.</FrostRay.description>
+  <FrostRay.comps.0.labelTendedWell>перебинтовано</FrostRay.comps.0.labelTendedWell>
+  <FrostRay.comps.0.labelTendedWellInner>зашито</FrostRay.comps.0.labelTendedWellInner>
+  <FrostRay.comps.0.labelSolidTendedWell>зажило</FrostRay.comps.0.labelSolidTendedWell>
+    <FrostRay.comps.1.permanentLabel>шрам от обморожения</FrostRay.comps.1.permanentLabel>
+  <FrostRay.injuryProps.destroyedLabel>отмороженный</FrostRay.injuryProps.destroyedLabel>
+  <FrostRay.injuryProps.destroyedOutLabel>Разрушенно</FrostRay.injuryProps.destroyedOutLabel>
+
+  <Snowball.label>Снежный шар</Snowball.label>
+  <Snowball.description>Утрамбованный лед и снег.</Snowball.description>
+  <Snowball.comps.0.labelTendedWell>перебинтовано</Snowball.comps.0.labelTendedWell>
+  <Snowball.comps.0.labelTendedWellInner>зашито</Snowball.comps.0.labelTendedWellInner>
+  <Snowball.comps.0.labelSolidTendedWell>зажило</Snowball.comps.0.labelSolidTendedWell>
+    <Snowball.comps.1.permanentLabel>шрам от обморожения</Snowball.comps.1.permanentLabel>
+  <Snowball.injuryProps.destroyedLabel>отмороженно</Snowball.injuryProps.destroyedLabel>
+  <Snowball.injuryProps.destroyedOutLabel>Разрушенно</Snowball.injuryProps.destroyedOutLabel>
+
+  <Blizzard.label>Метель</Blizzard.label>
+  <Blizzard.description>Шторм из льда и снега.</Blizzard.description>
+  <Blizzard.comps.0.labelTendedWell>перебинтовано</Blizzard.comps.0.labelTendedWell>
+  <Blizzard.comps.0.labelTendedWellInner>зашито</Blizzard.comps.0.labelTendedWellInner>
+  <Blizzard.comps.0.labelSolidTendedWell>зажило</Blizzard.comps.0.labelSolidTendedWell>
+    <Blizzard.comps.1.permanentLabel>разрушен в снежную бурю</Blizzard.comps.1.permanentLabel>
+  <Blizzard.injuryProps.destroyedLabel>замороженно</Blizzard.injuryProps.destroyedLabel>
+  <Blizzard.injuryProps.destroyedOutLabel>Разрушенно</Blizzard.injuryProps.destroyedOutLabel>
+
+  <Iceshard.label>ледокол</Iceshard.label>
+  <Iceshard.description>Выступающий кусок льда образовался с острыми, как бритва, краями.</Iceshard.description>
+  <Iceshard.comps.0.labelTendedWell>перебинтовано</Iceshard.comps.0.labelTendedWell>
+  <Iceshard.comps.0.labelTendedWellInner>зашито</Iceshard.comps.0.labelTendedWellInner>
+  <Iceshard.comps.0.labelSolidTendedWell>зажило</Iceshard.comps.0.labelSolidTendedWell>
+    <Iceshard.comps.1.permanentLabel>шрам от ледяного осколка</Iceshard.comps.1.permanentLabel>
+  <Iceshard.injuryProps.destroyedLabel>Измельченный</Iceshard.injuryProps.destroyedLabel>
+  <Iceshard.injuryProps.destroyedOutLabel>Разорванный в клочья</Iceshard.injuryProps.destroyedOutLabel>
+
+  <TM_GrapplingHook.label>Крюк для захвата</TM_GrapplingHook.label>
+  <TM_GrapplingHook.description>Притягивает цели ближе.</TM_GrapplingHook.description>
+  <TM_GrapplingHook.comps.0.labelTendedWell>перебинтовано</TM_GrapplingHook.comps.0.labelTendedWell>
+  <TM_GrapplingHook.comps.0.labelTendedWellInner>зашито</TM_GrapplingHook.comps.0.labelTendedWellInner>
+  <TM_GrapplingHook.comps.0.labelSolidTendedWell>зажило</TM_GrapplingHook.comps.0.labelSolidTendedWell>
+    <TM_GrapplingHook.comps.2.permanentLabel>оторвано</TM_GrapplingHook.comps.2.permanentLabel>
+  <TM_GrapplingHook.injuryProps.destroyedLabel>оторвано</TM_GrapplingHook.injuryProps.destroyedLabel>
+  <TM_GrapplingHook.injuryProps.destroyedOutLabel>оторвано</TM_GrapplingHook.injuryProps.destroyedOutLabel>
+
+  <TM_Whirlwind_Knockdown.label>Вихревой нокаут</TM_Whirlwind_Knockdown.label>
+  <TM_Whirlwind_Knockdown.description>Ошеломленный шквалом атак.</TM_Whirlwind_Knockdown.description>
+  <TM_Whirlwind_Knockdown.comps.0.labelTendedWell>перебинтовано</TM_Whirlwind_Knockdown.comps.0.labelTendedWell>
+  <TM_Whirlwind_Knockdown.comps.0.labelTendedWellInner>зашито</TM_Whirlwind_Knockdown.comps.0.labelTendedWellInner>
+  <TM_Whirlwind_Knockdown.comps.0.labelSolidTendedWell>зажило</TM_Whirlwind_Knockdown.comps.0.labelSolidTendedWell>
+    <TM_Whirlwind_Knockdown.comps.2.permanentLabel>отрезано</TM_Whirlwind_Knockdown.comps.2.permanentLabel>
+  <TM_Whirlwind_Knockdown.injuryProps.destroyedLabel>отрезано</TM_Whirlwind_Knockdown.injuryProps.destroyedLabel>
+  <TM_Whirlwind_Knockdown.injuryProps.destroyedOutLabel>отрезано</TM_Whirlwind_Knockdown.injuryProps.destroyedOutLabel>
+
+  <TM_DisablingShot_HD.label>отключающий выстрел</TM_DisablingShot_HD.label>
+  <TM_DisablingShot_HD.description>Снаряд, предназначенный скорее для обезвреживания, чем для убийства.</TM_DisablingShot_HD.description>
+  <TM_DisablingShot_HD.comps.0.labelTendedWell>перебинтовано</TM_DisablingShot_HD.comps.0.labelTendedWell>
+  <TM_DisablingShot_HD.comps.0.labelTendedWellInner>зашито</TM_DisablingShot_HD.comps.0.labelTendedWellInner>
+  <TM_DisablingShot_HD.comps.0.labelSolidTendedWell>зажило</TM_DisablingShot_HD.comps.0.labelSolidTendedWell>
+    <TM_DisablingShot_HD.comps.2.permanentLabel>отстрелено</TM_DisablingShot_HD.comps.2.permanentLabel>
+  <TM_DisablingShot_HD.injuryProps.destroyedLabel>отстрелено</TM_DisablingShot_HD.injuryProps.destroyedLabel>
+  <TM_DisablingShot_HD.injuryProps.destroyedOutLabel>отстрелено</TM_DisablingShot_HD.injuryProps.destroyedOutLabel>
+
+  <TM_arcaneSpectre.label>духовный порез</TM_arcaneSpectre.label>
+  <TM_arcaneSpectre.description>Духовный урон от призрака.</TM_arcaneSpectre.description>
+  <TM_arcaneSpectre.comps.0.labelTendedWell>перебинтовано</TM_arcaneSpectre.comps.0.labelTendedWell>
+  <TM_arcaneSpectre.comps.0.labelTendedWellInner>зашито</TM_arcaneSpectre.comps.0.labelTendedWellInner>
+  <TM_arcaneSpectre.comps.0.labelSolidTendedWell>зажило</TM_arcaneSpectre.comps.0.labelSolidTendedWell>
+    <TM_arcaneSpectre.comps.2.permanentLabel>бледный шрам</TM_arcaneSpectre.comps.2.permanentLabel>
+  <TM_arcaneSpectre.injuryProps.destroyedLabel>отрезано</TM_arcaneSpectre.injuryProps.destroyedLabel>
+  <TM_arcaneSpectre.injuryProps.destroyedOutLabel>отрезано</TM_arcaneSpectre.injuryProps.destroyedOutLabel>
+  <TM_arcaneSpectre.labelNoun>отрезано</TM_arcaneSpectre.labelNoun>
+
+  <TM_BloodyCutHD.label>кровавый порез</TM_BloodyCutHD.label>
+  <TM_BloodyCutHD.description>Глубокий порез, который сильно кровоточит.</TM_BloodyCutHD.description>
+  <TM_BloodyCutHD.comps.0.labelTendedWell>перебинтовано</TM_BloodyCutHD.comps.0.labelTendedWell>
+  <TM_BloodyCutHD.comps.0.labelTendedWellInner>зашито</TM_BloodyCutHD.comps.0.labelTendedWellInner>
+  <TM_BloodyCutHD.comps.0.labelSolidTendedWell>зажило</TM_BloodyCutHD.comps.0.labelSolidTendedWell>
+    <TM_BloodyCutHD.comps.2.permanentLabel>рубец от пореза</TM_BloodyCutHD.comps.2.permanentLabel>
+  <TM_BloodyCutHD.injuryProps.destroyedLabel>отрезано</TM_BloodyCutHD.injuryProps.destroyedLabel>
+  <TM_BloodyCutHD.injuryProps.destroyedOutLabel>отрезано</TM_BloodyCutHD.injuryProps.destroyedOutLabel>
+  <TM_BloodyCutHD.labelNoun>кровавый порез</TM_BloodyCutHD.labelNoun>
+
+  <TM_DisablingBlowHD.label>отключающий удар</TM_DisablingBlowHD.label>
+  <TM_DisablingBlowHD.description>Удар ближнего боя должен был скорее вывести из строя, чем убить.</TM_DisablingBlowHD.description>
+  <TM_DisablingBlowHD.comps.0.labelTendedWell>перебинтовано</TM_DisablingBlowHD.comps.0.labelTendedWell>
+  <TM_DisablingBlowHD.comps.0.labelTendedWellInner>зашито</TM_DisablingBlowHD.comps.0.labelTendedWellInner>
+  <TM_DisablingBlowHD.comps.0.labelSolidTendedWell>зажило</TM_DisablingBlowHD.comps.0.labelSolidTendedWell>
+    <TM_DisablingBlowHD.comps.2.permanentLabel>разбито</TM_DisablingBlowHD.comps.2.permanentLabel>
+  <TM_DisablingBlowHD.injuryProps.destroyedLabel>разбито</TM_DisablingBlowHD.injuryProps.destroyedLabel>
+  <TM_DisablingBlowHD.injuryProps.destroyedOutLabel>раздавленно</TM_DisablingBlowHD.injuryProps.destroyedOutLabel>
+
+  <TM_ChiBurnHD.label>Огонь Ци</TM_ChiBurnHD.label>
+  <TM_ChiBurnHD.description>Урон, полученный от взрыва энергии ци.</TM_ChiBurnHD.description>
+  <TM_ChiBurnHD.comps.0.labelTendedWell>перебинтовано</TM_ChiBurnHD.comps.0.labelTendedWell>
+  <TM_ChiBurnHD.comps.0.labelTendedWellInner>зашито</TM_ChiBurnHD.comps.0.labelTendedWellInner>
+  <TM_ChiBurnHD.comps.0.labelSolidTendedWell>зажило</TM_ChiBurnHD.comps.0.labelSolidTendedWell>
+  <TM_ChiBurnHD.comps.1.permanentLabel>уничтожено</TM_ChiBurnHD.comps.1.permanentLabel>
+  <TM_ChiBurnHD.injuryProps.destroyedLabel>сожженный</TM_ChiBurnHD.injuryProps.destroyedLabel>
+  <TM_ChiBurnHD.injuryProps.destroyedOutLabel>распался на части</TM_ChiBurnHD.injuryProps.destroyedOutLabel>
+
+  <TM_ChiFistHD.label>Удар Ци</TM_ChiFistHD.label>
+  <TM_ChiFistHD.description>Удар в ближнем бою от монаха.</TM_ChiFistHD.description>
+  <TM_ChiFistHD.comps.0.labelTendedWell>перебинтовано</TM_ChiFistHD.comps.0.labelTendedWell>
+  <TM_ChiFistHD.comps.0.labelTendedWellInner>зашито</TM_ChiFistHD.comps.0.labelTendedWellInner>
+  <TM_ChiFistHD.comps.0.labelSolidTendedWell>зажило</TM_ChiFistHD.comps.0.labelSolidTendedWell>
+  <TM_ChiFistHD.comps.1.permanentLabel>уничтожено</TM_ChiFistHD.comps.1.permanentLabel>																						   
+  <TM_ChiFistHD.injuryProps.destroyedLabel>сломанный</TM_ChiFistHD.injuryProps.destroyedLabel>
+  <TM_ChiFistHD.injuryProps.destroyedOutLabel>удаленный</TM_ChiFistHD.injuryProps.destroyedOutLabel>
+
+  <TM_ToxinHD.label>токсин</TM_ToxinHD.label>
+  <TM_ToxinHD.labelNoun>токсин</TM_ToxinHD.labelNoun>
+  <TM_ToxinHD.description>ущерб от токсинов.</TM_ToxinHD.description>
+  <TM_ToxinHD.comps.0.labelTendedWell>обработано</TM_ToxinHD.comps.0.labelTendedWell>
+  <TM_ToxinHD.comps.0.labelTendedWellInner>обработано</TM_ToxinHD.comps.0.labelTendedWellInner>
+  <TM_ToxinHD.comps.0.labelSolidTendedWell>обработано</TM_ToxinHD.comps.0.labelSolidTendedWell>
+  <TM_ToxinHD.comps.2.permanentLabel>токсичная плоть</TM_ToxinHD.comps.2.permanentLabel>
+  <TM_ToxinHD.injuryProps.destroyedLabel>уничтожено</TM_ToxinHD.injuryProps.destroyedLabel>
+
+  <TM_LightDD.label>Свет</TM_LightDD.label>
+  <TM_LightDD.description>Разрушительная энергия из области света.</TM_LightDD.description>
+  <TM_LightDD.comps.0.labelTendedWell>перевязанно</TM_LightDD.comps.0.labelTendedWell>
+  <TM_LightDD.comps.0.labelTendedWellInner>зашито</TM_LightDD.comps.0.labelTendedWellInner>
+  <TM_LightDD.comps.0.labelSolidTendedWell>зажило</TM_LightDD.comps.0.labelSolidTendedWell>
+  <TM_LightDD.comps.1.permanentLabel>сожженно светом</TM_LightDD.comps.1.permanentLabel>
+  <TM_LightDD.injuryProps.destroyedLabel>сгорело дотла</TM_LightDD.injuryProps.destroyedLabel>
+  <TM_LightDD.injuryProps.destroyedOutLabel>сгорело дотла</TM_LightDD.injuryProps.destroyedOutLabel>
+ 
+  <TM_Dismember.label>расчленение</TM_Dismember.label>
+  <TM_Dismember.description>Атака, которая отрывает конечность (или голову) от цели.</TM_Dismember.description>
+  <TM_Dismember.comps.0.labelTendedWell>перевязанный</TM_Dismember.comps.0.labelTendedWell>
+  <TM_Dismember.comps.0.labelTendedWellInner>зашито</TM_Dismember.comps.0.labelTendedWellInner>
+  <TM_Dismember.comps.0.labelSolidTendedWell>зажило</TM_Dismember.comps.0.labelSolidTendedWell>
+  <TM_Dismember.injuryProps.destroyedLabel>оторвано</TM_Dismember.injuryProps.destroyedLabel>
+  <TM_Dismember.injuryProps.destroyedOutLabel>оторвано</TM_Dismember.injuryProps.destroyedOutLabel>
+  <TM_Dismember.labelNoun>обширная рана</TM_Dismember.labelNoun>
+
+  <TM_PartRemovalHD.label>потерянно</TM_PartRemovalHD.label>
+  <TM_PartRemovalHD.description>Отсутствующая часть тела.</TM_PartRemovalHD.description>
+  <TM_PartRemovalHD.injuryProps.destroyedLabel>потерянно</TM_PartRemovalHD.injuryProps.destroyedLabel>
+  <TM_PartRemovalHD.injuryProps.destroyedOutLabel>потерянно</TM_PartRemovalHD.injuryProps.destroyedOutLabel>
+  <TM_PartRemovalHD.labelNoun>потерянно</TM_PartRemovalHD.labelNoun>
+
+  <TM_DecayDamage.label>Распад</TM_DecayDamage.label>
+  <TM_DecayDamage.description>Органический распад.</TM_DecayDamage.description>
+  <TM_DecayDamage.comps.0.labelTendedWell>перевязанный</TM_DecayDamage.comps.0.labelTendedWell>
+  <TM_DecayDamage.comps.0.labelTendedWellInner>зашито</TM_DecayDamage.comps.0.labelTendedWellInner>
+  <TM_DecayDamage.comps.0.labelSolidTendedWell>обработанно</TM_DecayDamage.comps.0.labelSolidTendedWell>
+  <TM_DecayDamage.injuryProps.destroyedLabel>безжизненный</TM_DecayDamage.injuryProps.destroyedLabel>
+  <TM_DecayDamage.injuryProps.destroyedOutLabel>разложившийся</TM_DecayDamage.injuryProps.destroyedOutLabel>
+
+  <TM_SymbiosisDamage.label>симбиоз</TM_SymbiosisDamage.label>
+  <TM_SymbiosisDamage.description>Урон, нанесенный в результате симбиозной связи.</TM_SymbiosisDamage.description>
+  <TM_SymbiosisDamage.comps.0.labelTendedWell>зашито</TM_SymbiosisDamage.comps.0.labelTendedWell>
+  <TM_SymbiosisDamage.comps.0.labelTendedWellInner>зашито</TM_SymbiosisDamage.comps.0.labelTendedWellInner>
+  <TM_SymbiosisDamage.comps.0.labelSolidTendedWell>собрано</TM_SymbiosisDamage.comps.0.labelSolidTendedWell>
+  <TM_SymbiosisDamage.injuryProps.destroyedLabel>уничтожен</TM_SymbiosisDamage.injuryProps.destroyedLabel>
+  <TM_SymbiosisDamage.injuryProps.destroyedOutLabel>отделенный</TM_SymbiosisDamage.injuryProps.destroyedOutLabel>
+  <TM_SymbiosisDamage.labelNoun>симбиотический перенос</TM_SymbiosisDamage.labelNoun>
+ 
+</LanguageData>

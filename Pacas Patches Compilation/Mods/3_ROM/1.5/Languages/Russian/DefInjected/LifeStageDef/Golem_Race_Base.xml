@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STONE GOLEM -->
+
+  <TM_StoneGolemLS.label>каменный голем</TM_StoneGolemLS.label>
+  <TM_StoneGolemLS1.label>каменный голем</TM_StoneGolemLS1.label>
+  <TM_StoneGolemLS2.label>каменный голем</TM_StoneGolemLS2.label>
+  <TM_StoneGolemLS3.label>каменный голем</TM_StoneGolemLS3.label>
+
+
+  <!-- MECHA GOLEM -->
+
+  <TM_MechaGolemLS.label>меха-голем</TM_MechaGolemLS.label>
+  <TM_MechaGolemLS_FS1.label>Меха-голем с осколком огня</TM_MechaGolemLS_FS1.label>
+  <TM_MechaGolemLS_FS2.label>Меха-голем с осколком огня</TM_MechaGolemLS_FS2.label>
+  <TM_MechaGolemLS_FS3.label>Меха-голем с осколком огня</TM_MechaGolemLS_FS3.label>
+  <TM_MechaGolemLS_WS1.label>Меха-голем с осколком воды</TM_MechaGolemLS_WS1.label>
+  <TM_MechaGolemLS_WS2.label>Меха-голем с осколком воды</TM_MechaGolemLS_WS2.label>
+  <TM_MechaGolemLS_WS3.label>Меха-голем с осколком воды</TM_MechaGolemLS_WS3.label>
+  <TM_MechaGolemLS_ES1.label>Меха-голем с осколком земли</TM_MechaGolemLS_ES1.label>
+  <TM_MechaGolemLS_ES2.label>Меха-голем с осколком земли</TM_MechaGolemLS_ES2.label>
+  <TM_MechaGolemLS_ES3.label>Меха-голем с осколком земли</TM_MechaGolemLS_ES3.label>
+  <TM_MechaGolemLS_LS1.label>Меха-голем с осколком молнии</TM_MechaGolemLS_LS1.label>
+  <TM_MechaGolemLS_LS2.label>Меха-голем с осколком молнии</TM_MechaGolemLS_LS2.label>
+  <TM_MechaGolemLS_LS3.label>Меха-голем с осколком молнии</TM_MechaGolemLS_LS3.label>
+
+
+  <!-- FLESH GOLEM -->
+
+  <TM_FleshGolemLS.label>голем из плоти</TM_FleshGolemLS.label>
+  <TM_FleshGolemLS1.label>голем из плоти</TM_FleshGolemLS1.label>
+  <TM_FleshGolemLS2.label>голем из плоти</TM_FleshGolemLS2.label>
+  <TM_FleshGolemLS3.label>голем из плоти</TM_FleshGolemLS3.label>
+
+
+  <!-- HOLLOW GOLEM -->
+
+  <TM_HollowGolemLS.label>пустотелый голем</TM_HollowGolemLS.label>
+  <TM_HollowGolemLS_FA1.label>сродство огня I</TM_HollowGolemLS_FA1.label>
+  <TM_HollowGolemLS_FA2.label>сродство огня II</TM_HollowGolemLS_FA2.label>
+  <TM_HollowGolemLS_FA3.label>сродство огня III</TM_HollowGolemLS_FA3.label>
+  <TM_HollowGolemLS_IA1.label>сродство воды I</TM_HollowGolemLS_IA1.label>
+  <TM_HollowGolemLS_IA2.label>сродство воды II</TM_HollowGolemLS_IA2.label>
+  <TM_HollowGolemLS_IA3.label>сродство воды III</TM_HollowGolemLS_IA3.label>
+  <TM_HollowGolemLS_AA1.label>сродство магии I</TM_HollowGolemLS_AA1.label>
+  <TM_HollowGolemLS_AA2.label>сродство магии II</TM_HollowGolemLS_AA2.label>
+  <TM_HollowGolemLS_AA3.label>сродство магии III</TM_HollowGolemLS_AA3.label>
+  <TM_HollowGolemLS_DA1.label>сродство смерти I</TM_HollowGolemLS_DA1.label>
+  <TM_HollowGolemLS_DA2.label>сродство смерти II</TM_HollowGolemLS_DA2.label>
+  <TM_HollowGolemLS_DA3.label>сродство смерти III</TM_HollowGolemLS_DA3.label>
+
+
+  <!-- MAHARAL GOLEM -->
+
+  <TM_MaharalGolemLS.label>голем махарала</TM_MaharalGolemLS.label>
+  <TM_MaharalGolemLS1.label>голем махарала</TM_MaharalGolemLS1.label>
+  <TM_MaharalGolemLS2.label>голем махарала</TM_MaharalGolemLS2.label>
+  <TM_MaharalGolemLS3.label>голем махарала</TM_MaharalGolemLS3.label>
+
+
+</LanguageData>

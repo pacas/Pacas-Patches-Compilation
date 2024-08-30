@@ -1,0 +1,10 @@
+<LanguageData>
+
+  <AG_RemoveImplantation.label>Удалить паразитарную имплантацию</AG_RemoveImplantation.label>
+  <AG_RemoveImplantation.description>Удалить паразитическую имплантацию.</AG_RemoveImplantation.description>
+  <AG_RemoveImplantation.jobString>Удаление паразитической имплантации.</AG_RemoveImplantation.jobString>
+  <AG_RemoveImplantation.successfullyRemovedHediffMessage>{0} успешно удалено {1}'паразитарная имплантация.</AG_RemoveImplantation.successfullyRemovedHediffMessage>
+
+
+<!--1.4/Defs/RecipeDefs/RecipeDefs.xml-->
+</LanguageData>

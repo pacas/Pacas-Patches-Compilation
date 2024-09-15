@@ -107,12 +107,62 @@
                 <defaultValue>false</defaultValue>
                 <caseTrue>
                     <Operation Class="PatchOperationReplace">
-                        <xpath>Defs/ThingDef[defName = "ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]</xpath>
+                        <xpath>Defs/ThingDef[defName="ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]</xpath>
                         <value>
                             <li Class="SK.CompProperties_ColdPusher">
                                 <ColdPerSecond>-45</ColdPerSecond>
                                 <ColdPushMinTemperature>-5</ColdPushMinTemperature>
                             </li>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Cheaper_Rimfeller_Pipes</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="OilPipeline"]/costStuffCount</xpath>
+                        <value>
+                            <costStuffCount>5</costStuffCount>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Cheaper_Bunker_Roofs</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="BunkerRoofFraming"]/costStuffCount</xpath>
+                        <value>
+                            <costStuffCount>20</costStuffCount>
+                        </value>
+                    </Operation>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="ThickStoneRoofFraming"]/costList/ReinforcedConcrete</xpath>
+                        <value>
+                            <ReinforcedConcrete>20</ReinforcedConcrete>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
+                <key>Cheaper_Solar_Roofs</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="RoofSolarFraming"]/costList</xpath>
+                        <value>
+                            <costList>
+                                <Glass>5</Glass>
+                                <ComponentIndustrial>2</ComponentIndustrial>
+                                <Mechanism>1</Mechanism>
+                                <ElectronicComponents>1</ElectronicComponents>
+                            </costList>
                         </value>
                     </Operation>
                 </caseTrue>

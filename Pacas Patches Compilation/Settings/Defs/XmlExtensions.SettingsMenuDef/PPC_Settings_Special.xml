@@ -52,6 +52,39 @@
                                 <spacing>12</spacing>
                             </li>
                             <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Cheaper_Rimfeller_Pipes</key>
+                                <label>Cheaper Rimfeller Pipes</label>
+                                <tKey>Cheaper_Rimfeller_Pipes</tKey>
+                                <defaultValue>false</defaultValue>
+                                <tooltip>Modifies cost of pipe (15 to 5)</tooltip>
+                                <tKeyTip>Cheaper_Rimfeller_Pipes_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Cheaper_Bunker_Roofs</key>
+                                <label>Cheaper Bunker and Thick Roofs</label>
+                                <tKey>Cheaper_Bunker_Roofs</tKey>
+                                <defaultValue>false</defaultValue>
+                                <tooltip>Modifies cost of bunker and thick roofs (40 to 20)</tooltip>
+                                <tKeyTip>Cheaper_Bunker_Roofs_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Cheaper_Solar_Roofs</key>
+                                <label>Cheaper Solar Roofs</label>
+                                <tKey>Cheaper_Solar_Roofs</tKey>
+                                <defaultValue>false</defaultValue>
+                                <tooltip>Modifies cost of solar roofs</tooltip>
+                                <tKeyTip>Cheaper_Solar_Roofs_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
                                 <key>Ammo_Multiplier_Active</key>
                                 <label>Use Ammo Craft Multiplier?</label>
                                 <tKey>Ammo_Multiplier_Active</tKey>

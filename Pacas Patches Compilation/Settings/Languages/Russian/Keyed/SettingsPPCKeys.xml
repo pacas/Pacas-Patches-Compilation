@@ -16,6 +16,15 @@
     <Colder_Coldstone>Более холодный хладокамень</Colder_Coldstone>
     <Colder_Coldstone_Tooltip>Хладокаменная батарея выделяет больше мороза</Colder_Coldstone_Tooltip>
     
+    <Cheaper_Rimfeller_Pipes>Более дешевые трубы для нефти</Cheaper_Rimfeller_Pipes>
+    <Cheaper_Rimfeller_Pipes_Tooltip>Удешевляет трубы (с 15 до 5)</Cheaper_Rimfeller_Pipes_Tooltip>
+    
+    <Cheaper_Bunker_Roofs>Более дешевые толстые и бункерные крыши</Cheaper_Bunker_Roofs>
+    <Cheaper_Bunker_Roofs_Tooltip>Удешевляет крыши (с 40 до 20)</Cheaper_Bunker_Roofs_Tooltip>
+    
+    <Cheaper_Solar_Roofs>Более дешевые солнечные крыши</Cheaper_Solar_Roofs>
+    <Cheaper_Solar_Roofs_Tooltip>Удешевляет крыши</Cheaper_Solar_Roofs_Tooltip>
+    
     <Ammo_Multiplier_Active>Использовать множитель крафта патронов?</Ammo_Multiplier_Active>
     <Ammo_Multiplier_Active_Tooltip>При включении количество создаваемых патронов будет увеличено в X раз</Ammo_Multiplier_Active_Tooltip>
     <Ammo_Multiplier>Множитель - {Ammo_Multiplier}</Ammo_Multiplier>

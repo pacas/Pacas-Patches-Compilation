@@ -136,13 +136,13 @@
                 <defaultValue>false</defaultValue>
                 <caseTrue>
                     <Operation Class="PatchOperationReplace">
-                        <xpath>Defs/ThingDef[defName="BunkerRoofFraming"]/costStuffCount</xpath>
+                        <xpath>Defs/ThingDef[defName="ThickStoneRoofFraming"]/costStuffCount</xpath>
                         <value>
                             <costStuffCount>20</costStuffCount>
                         </value>
                     </Operation>
                     <Operation Class="PatchOperationReplace">
-                        <xpath>Defs/ThingDef[defName="ThickStoneRoofFraming"]/costList/ReinforcedConcrete</xpath>
+                        <xpath>Defs/ThingDef[defName="BunkerRoofFraming"]/costList/ReinforcedConcrete</xpath>
                         <value>
                             <ReinforcedConcrete>20</ReinforcedConcrete>
                         </value>

@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>RimForge - Only Power Poles</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="RF_WallConnector"]/costList</xpath>
-                    <value>
-                        <costList>
-                            <Plasteel>5</Plasteel>
-                            <Wire>5</Wire>
-                            <Rubber>1</Rubber>
-                        </costList>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="RF_PowerPole"]/costList</xpath>
-                    <value>
-                        <costList>
-                            <WoodLog>15</WoodLog>
-                            <Plasteel>10</Plasteel>
-                            <Wire>10</Wire>
-                            <Rubber>3</Rubber>
-                        </costList>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="RF_PowerPole"]/description</xpath>
-                    <value>
-                        <description>A wooden power pole, using tin or copper cables to carry an electrical current. Connect to other power poles using the 'link' button, or select multiple power poles and press the 'auto-link' button.</description>
-                    </value>
-                </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="RF_WallConnector"]/description</xpath>
-                    <value>
-                        <description>An endpoint for power cables that is built into a wall. This is a good way to connect power poles up to a building's power grid. Make sure that there is not already a power cable in the spot you are trying to build this in!</description>
-                    </value>
-                </li>
-            </operations>
-        </match>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RF_WallConnector"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>5</Plasteel>
+                        <Wire>5</Wire>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RF_PowerPole"]/costList</xpath>
+                <value>
+                    <costList>
+                        <WoodLog>15</WoodLog>
+                        <Plasteel>10</Plasteel>
+                        <Wire>10</Wire>
+                    </costList>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RF_PowerPole"]/description</xpath>
+                <value>
+                    <description>A wooden power pole, using tin or copper cables to carry an electrical current. Connect to other power poles using the 'link' button, or select multiple power poles and press the 'auto-link' button.</description>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RF_WallConnector"]/description</xpath>
+                <value>
+                    <description>An endpoint for power cables that is built into a wall. This is a good way to connect power poles up to a building's power grid. Make sure that there is not already a power cable in the spot you are trying to build this in!</description>
+                </value>
+            </li>
+        </operations>
     </Operation>
 </Patch>

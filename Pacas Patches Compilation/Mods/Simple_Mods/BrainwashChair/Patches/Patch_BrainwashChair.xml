@@ -16,6 +16,12 @@
                     <uninstallWork>700</uninstallWork>
                 </value>
             </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/costStuffCount</xpath>
+                <value>
+                    <costStuffCount>50</costStuffCount>
+                </value>
+            </li>
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]</xpath>
                 <value>
@@ -66,8 +72,8 @@
                         </li>
                     </damageMultipliers>
                     <costList>
-                        <ComponentSpacer>3</ComponentSpacer>
-                        <AdvMechanism>3</AdvMechanism>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Mechanism>2</Mechanism>
                     </costList>
                 </value>
             </li>

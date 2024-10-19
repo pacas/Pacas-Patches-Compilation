@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="Mote_HolyHymnBuff"]/stages</xpath>
+                    <value>
+                        <stages>
+                            <li>
+                                <statOffsets>
+                                    <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+                                    <AimingAccuracy>0.2</AimingAccuracy>
+                                    <ReloadSpeed>0.2</ReloadSpeed>
+                                    <MeleeCritChance>0.2</MeleeCritChance>
+                                    <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                                    <MeleeParryChance>0.2</MeleeParryChance>
+                                </statOffsets>
+                            </li>
+                        </stages>
+                    </value>
+                </li>
+                <!--<li Class="PatchOperationReplace">
+                    <xpath>Defs/HediffDef[defName="AngelGraceHigh"]/stages</xpath>
+                    <value>
+                        <stages>
+                            <li>
+                                <statOffsets>
+                                    <SocialImpact>0.15</SocialImpact>
+                                    <MeleeCritChance>0.2</MeleeCritChance>
+                                    <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                                    <MeleeParryChance>0.2</MeleeParryChance>
+                                </statOffsets>
+                            </li>
+                        </stages>
+                    </value>
+                </li>-->
+        </operations>
+    </Operation>
+</Patch>

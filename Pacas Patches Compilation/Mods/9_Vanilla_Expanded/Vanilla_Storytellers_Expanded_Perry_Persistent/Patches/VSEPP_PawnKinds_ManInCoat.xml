@@ -20,6 +20,28 @@
                     <invNutrition>6</invNutrition>
                 </value>
             </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="VSE_ManInTheCoat"]/weaponMoney</xpath>
+                <value>
+                    <weaponMoney>1200~2500</weaponMoney>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="VSE_ManInTheCoat"]/combatPower</xpath>
+                <value>
+                    <combatPower>200</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="VSE_ManInTheCoat"]/weaponTags</xpath>
+                <value>
+                    <weaponTags>
+                        <li>RF3</li>
+                        <li>PT3</li>
+                        <li>SMG2</li>
+                    </weaponTags>
+                </value>
+            </li>
             <li Class="PatchOperationAdd">
                 <xpath>Defs/PawnKindDef[defName="VSE_ManInTheCoat"]/apparelRequired</xpath>
                 <value>

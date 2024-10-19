@@ -32,11 +32,14 @@
         <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
         <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
+        <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
+        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.4</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
         <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
-        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/1.4</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/Common</li>
         <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
         <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
@@ -77,11 +80,14 @@
         <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
         <!--<li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>-->
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
+        <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
+        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.5</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
         <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
-        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/1.5</li>
+        <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/Common</li>
         <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
         <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>

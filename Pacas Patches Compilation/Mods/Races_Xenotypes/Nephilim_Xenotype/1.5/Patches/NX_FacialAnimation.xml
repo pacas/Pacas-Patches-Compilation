@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[NL] Facial Animation - WIP</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <FacialAnimation.EyeballColorDef>
+                            <defName>Yellow_EyeColor</defName>
+                            <geneDef>GS_Eyes_Yellowy</geneDef>
+                            <eyeballColor>RGB(229,203,108)</eyeballColor>
+                        </FacialAnimation.EyeballColorDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef[defName="GS_Eyes_Yellowy"]/renderNodeProperties</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

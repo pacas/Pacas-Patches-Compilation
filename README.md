@@ -41,14 +41,14 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | - | [Jewelry](https://discord.com/channels/272340793174392832/1061698507720900768) | 1.5 | --- | --- |
 | - | [Lombax](https://steamcommunity.com/sharedfiles/filedetails/?id=2384986421) | 1.4 | --- | --- |
 | - | [Medical System Expansion 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586) | 1.4  | Ignore 2 errors | :radio_button: |
-| :star: | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | 1.5 | --- | :radio_button: |
+| :star: | [MiningCo. Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=955561873) | 1.4 | Not yet updated | :radio_button: |
 | - | [More Persona Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2863308112) | 1.5 | --- | --- |
 | :star: | [Nephilim Xenotype](https://steamcommunity.com/workshop/filedetails/?id=2997308585) | 1.5 | --- | :radio_button: |
 | - | [RimCities](https://steamcommunity.com/sharedfiles/filedetails/?id=1775170117) | 1.5 | --- | --- |
 | :star: | [RimForge - Only Power Poles](https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460) | 1.5 | --- | :radio_button: |
 | - | [RJW / Sexperience / Menstruation / Milking / S16 / Licentia](https://discord.com/channels/374305025486225409/374778646432448530) | 1.5 | Mods are compatible, only additional compatibility | --- |
 | - | [Seren from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783) | 1.4 | --- | --- |
-| :star: | [Simple Slavery Collars](https://steamcommunity.com/sharedfiles/filedetails/?id=2557274194) | 1.5 | --- | --- |
+| :star: | [Simple Slavery Collars](https://steamcommunity.com/sharedfiles/filedetails/?id=2557274194) | 1.5 | Ignore error or remove file v1.5\Patches\HARPatch.xml in mod folder (1.5) | --- |
 | - | [Simple Storage](https://discord.com/channels/272340793174392832/1063821520423633016) | 1.4 | Get the mod in addons, this is addon for the mod | --- | 
 | - | [Sylveon](https://steamcommunity.com/sharedfiles/filedetails/?id=2800815182) | 1.4 | --- | --- |
 | - | [Uncle Boris' - Brainwash Chair](https://steamcommunity.com/sharedfiles/filedetails/?id=2885223720) | 1.5 | --- | --- |

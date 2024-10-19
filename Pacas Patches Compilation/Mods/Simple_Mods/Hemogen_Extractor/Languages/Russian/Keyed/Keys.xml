@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!--Settings-->
+	<HemogenExtractorSettings>Экстрактор гемогена</HemogenExtractorSettings>
+	<ResetSettings>Сбросить настройки</ResetSettings>
+	<RestartTheGameForSettingsToApply>Перезапустите игру, чтобы применить настройки</RestartTheGameForSettingsToApply>
+	
+	<DaysToSpawnHemogenPart1>Дней для получения гемогена (</DaysToSpawnHemogenPart1>
+	<DaysToSpawnHemogenPart2> дней)</DaysToSpawnHemogenPart2>		<!--so it looks like this: "Days to spawn hemogen ({number} days)"-->
+	
+	<AmountOfSpawnedHemogenPart1>Количество полученных пакетов гемогена (</AmountOfSpawnedHemogenPart1>
+	<AmountOfSpawnedHemogenPart2> пакетов)</AmountOfSpawnedHemogenPart2>
+	
+	<DaysUntilAutoEjectPart1>Дней для авто-извлечения (</DaysUntilAutoEjectPart1>
+	<DaysUntilAutoEjectPart2> дней)</DaysUntilAutoEjectPart2>
+	
+	<MaximumFuelPart1>Максимум еды (</MaximumFuelPart1>
+	<MaximumFuelPart2> единиц)</MaximumFuelPart2>
+	
+	<FuelConsumptionPart1>Потребление еды (</FuelConsumptionPart1>  
+	<FuelConsumptionPart2> единиц в день)</FuelConsumptionPart2>	
+
+	<!--UI-->
+	<CommandCopyHemogenExtractorSettingsLabel>Скопировать настройки</CommandCopyHemogenExtractorSettingsLabel>
+	<CommandCopyHemogenExtractorSettingsDesc>Скопировать настройки этого экстрактора в буфер.</CommandCopyHemogenExtractorSettingsDesc>
+	<CommandPasteHemogenExtractorSettingsLabel>Вставить настройки</CommandPasteHemogenExtractorSettingsLabel>
+	<CommandPasteHemogenExtractorSettingsDesc>Перезаписать настройки этого экстрактора ранее скопированными настройками из буфера.</CommandPasteHemogenExtractorSettingsDesc>
+	<EjectTimerLabel>Авто-извлечение через: </EjectTimerLabel>
+	
+	<!--Orders-->
+	<EnterHemogenExtractor>Войти в экстрактор</EnterHemogenExtractor>
+	<CarryToHemogenExtractor>Поместить {1_label} в экстрактор</CarryToHemogenExtractor>
+	<CannotCarryToHemogenExtractor>Невозможно поместить в экстрактор</CannotCarryToHemogenExtractor>
+	<NoHemogenExtractor>нет доступных экстракторов</NoHemogenExtractor>
+
+	<!--Notifications-->
+	<AutoEjected>Поселенец был авто-извлечён из экстрактора гемогена, чтобы предотвратить смерть от недоедания.</AutoEjected>
+
+</LanguageData>

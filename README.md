@@ -25,9 +25,9 @@ Dont forget to check mod settigns in XMLExtentions menu!
 | --- | --- | --- | --- | --- |
 | - | HSK Core | 1.5 | Check mod settings | --- |
 | :star: | [A RimWorld of Magic](https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956) | 1.5 | --- | :radio_button: |
-| :star: | [Alpha Bees](https://steamcommunity.com/sharedfiles/filedetails/?id=1558161673) | 1.4 | --- | :radio_button: |
-| - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | 1.4 | --- | --- |
-| :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | 1.4 | --- | :radio_button: |
+| :star: | [Alpha Bees](https://steamcommunity.com/sharedfiles/filedetails/?id=1558161673) | 1.5 | --- | :radio_button: |
+| - | [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502) | 1.5 | --- | --- |
+| :star: | [Alpha Mechs](https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158) | 1.5 | --- | :radio_button: |
 | - | [Air Generator](https://steamcommunity.com/sharedfiles/filedetails/?id=2999510318) | 1.5 | --- | :radio_button: |
 | - | [Archotech Expanded Prosthetics](https://steamcommunity.com/sharedfiles/filedetails/?id=1467604976) | 1.4 | --- | :radio_button: |
 | - | [Better Infestations](https://steamcommunity.com/sharedfiles/filedetails/?id=1319614331) | 1.5 | --- | --- |

@@ -97,6 +97,15 @@
                     </thingCategories>
                 </value>
             </li>
+            <li Class="XmlExtensions.PatchOperationSafeReplace">
+                <xpath>Defs/ThingDef[defName="RB_BunkerBeehouse"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Stony</li>
+                        <li>Bricks</li>
+                    </stuffCategories>
+                </value>
+            </li>
             <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
                 <xpath>Defs/ThingDef[defName="RB_ClimatizedBeehouse"]</xpath>
                 <safetyDepth>0</safetyDepth>

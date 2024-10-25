@@ -16,7 +16,7 @@
                     <uninstallWork>700</uninstallWork>
                 </value>
             </li>
-            <li Class="PatchOperationReplace">
+            <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="RH2_BrainwashChair"]/costStuffCount</xpath>
                 <value>
                     <costStuffCount>50</costStuffCount>

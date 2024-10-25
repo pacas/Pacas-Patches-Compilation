@@ -88,8 +88,8 @@
                     <Leather_Plain>20</Leather_Plain>
                 </value>
             </li>
-            <li Class="XmlExtensions.PatchOperationSafeReplace">
-                <xpath>Defs/ThingDef[defName="RB_Culinary_Honeycomb"]/butcherProducts/MealNutrientPaste</xpath>
+            <li Class="XmlExtensions.PatchOperationSafeAdd">
+                <xpath>Defs/ThingDef[defName="RB_Culinary_Honeycomb"]/butcherProducts</xpath>
                 <value>
                     <MealNutrientPaste>3</MealNutrientPaste>
                 </value>

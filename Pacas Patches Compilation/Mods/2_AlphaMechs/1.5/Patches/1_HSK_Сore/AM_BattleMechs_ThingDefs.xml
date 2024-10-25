@@ -58,6 +58,7 @@
                         <receivesSignals>true</receivesSignals>
                         <tradeability>None</tradeability>
                         <race>
+                            <renderTree>Misc</renderTree>
                             <fleshType>Mechanoid</fleshType>
                             <needsRest>false</needsRest>
                             <hasGenders>false</hasGenders>

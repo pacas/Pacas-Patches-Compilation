@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- DryadOrgans -->
+    <DryadOrgan.label>dryad organ</DryadOrgan.label>
+    <DryadOrgan.description>A weird amalgamation of a organ.</DryadOrgan.description>
+    <DryadicOrgan.label>dryadic organ</DryadicOrgan.label>
+    <DryadicOrgan.description>A weird amalgamation of a organ.</DryadicOrgan.description>
+    <!-- Heart -->
+    <DryadicHeart.label>dryadic heart</DryadicHeart.label>
+    <DryadicHeart.description>A dryadic heart, artisticly crafted.</DryadicHeart.description>
+    <!-- Lung -->
+    <DryadicLung.label>dryadic lung</DryadicLung.label>
+    <DryadicLung.description>A dryadic lung, artisticly crafted.</DryadicLung.description>
+    <!-- Liver -->
+    <DryadicLiver.label>dryadic liver</DryadicLiver.label>
+    <DryadicLiver.description>A dryadic liver, artisticly crafted.</DryadicLiver.description>
+    <!-- Kidney -->
+    <DryadicKidney.label>dryadic kidney</DryadicKidney.label>
+    <DryadicKidney.description>A dryadic kidney, artisticly crafted.</DryadicKidney.description>
+    <!-- Eye -->
+    <DryadicEye.label>dryadic eye</DryadicEye.label>
+    <DryadicEye.description>A dryadic eye, artisticly crafted.</DryadicEye.description>
+    <!-- Nose -->
+    <DryadicNose.label>dryadic nose</DryadicNose.label>
+    <DryadicNose.description>A dryadic nose, artisticly crafted.</DryadicNose.description>
+    <!-- Ear -->
+    <DryadicEar.label>dryadic ear</DryadicEar.label>
+    <DryadicEar.description>A dryadic ear, artisticly crafted.</DryadicEar.description>
+    <!-- Hand -->
+    <DryadicHand.label>dryadic hand</DryadicHand.label>
+    <DryadicHand.description>A dryadic hand, artisticly crafted.</DryadicHand.description>
+    <!-- Foot -->
+    <DryadicFoot.label>dryadic foot</DryadicFoot.label>
+    <DryadicFoot.description>A dryadic foot, artisticly crafted.</DryadicFoot.description>
+    <!-- Leg -->
+    <DryadLeg.label>dryad leg</DryadLeg.label>
+    <DryadLeg.description>The leg of a dryad.</DryadLeg.description>
+    <!-- Arm -->
+    <DryadArm.label>dryad arm</DryadArm.label>
+    <DryadArm.description>The arm of a dryad.</DryadArm.description>
+</LanguageData>

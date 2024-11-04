@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadCircle.label>круг дриад</DryadCircle.label>
+  <DryadCircle.description>Круг дриад. Здесь можно изготавливать части дриад и самих дриад. Должен быть в контакте с землей (вскапываемая земля).</DryadCircle.description>
+  <DryadCircle_Blueprint.label>круг дриад (чертеж)</DryadCircle_Blueprint.label>
+  <DryadCircle_Frame.label>круг дриад (строение)</DryadCircle_Frame.label>
+  <DryadCircle_Frame.description>Круг дриад. Здесь можно изготавливать части дриад и самих дриад. Должен быть в контакте с землей (вскапываемая земля).</DryadCircle_Frame.description>
+
+
+</LanguageData>

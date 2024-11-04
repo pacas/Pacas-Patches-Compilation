@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MeleeWeapon_SylScythe.label>коса дриад</MeleeWeapon_SylScythe.label>
+  <MeleeWeapon_SylScythe.description>Длинная и смертоносная коса, используемая дриадами Атель-Лорена.</MeleeWeapon_SylScythe.description>
+  <MeleeWeapon_SylScythe.tools.0.label>handle</MeleeWeapon_SylScythe.tools.0.label>
+  <MeleeWeapon_SylScythe.tools.1.label>edge</MeleeWeapon_SylScythe.tools.1.label>
+
+
+</LanguageData>

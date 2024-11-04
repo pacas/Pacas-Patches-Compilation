@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KTDryadFlower.title>цветок</KTDryadFlower.title>
+  <KTDryadFlower.titleShort>цветок</KTDryadFlower.titleShort>
+  <KTDryadFlower.baseDesc>[PAWN_nameDef] is a loving flower of a dryad. [PAWN_nameDef] seems to radiate a warming heat.</KTDryadFlower.baseDesc>
+
+  <KTDryadWeird.title>странная</KTDryadWeird.title>
+  <KTDryadWeird.titleShort>странная</KTDryadWeird.titleShort>
+  <KTDryadWeird.baseDesc>[PAWN_nameDef] seems to be irrational, with sporadic movements and actions. [PAWN_nameDef] seems to sway with the wind.</KTDryadWeird.baseDesc>
+
+  <KTDryadAgreeable.title>покладистая</KTDryadAgreeable.title>
+  <KTDryadAgreeable.titleShort>покладистая</KTDryadAgreeable.titleShort>
+  <KTDryadAgreeable.baseDesc>[PAWN_nameDef] seems to be agreeable for a dryad.</KTDryadAgreeable.baseDesc>
+
+  <KTDryadCold.title>равнодушная</KTDryadCold.title>
+  <KTDryadCold.titleShort>равнодушная</KTDryadCold.titleShort>
+  <KTDryadCold.baseDesc>[PAWN_nameDef] is cold like the truest essensce of nature. [PAWN_nameDef] is seen as cruel by man and it does little to correct it.</KTDryadCold.baseDesc>
+
+  <KTDryadHarsh.title>резкая</KTDryadHarsh.title>
+  <KTDryadHarsh.titleShort>резкая</KTDryadHarsh.titleShort>
+  <KTDryadHarsh.baseDesc>[PAWN_nameDef] is harsh and viscious. Seemingly ready to pounce on all and everything, if [PAWN_nameDef] wishes to.</KTDryadHarsh.baseDesc>
+
+  <KTDryadHostile.title>враждебная</KTDryadHostile.title>
+  <KTDryadHostile.titleShort>враждебная</KTDryadHostile.titleShort>
+  <KTDryadHostile.baseDesc>[PAWN_nameDef] is hostile to almost anything. [PAWN_nameDef] hates man and everything mankind brings.</KTDryadHostile.baseDesc>
+
+  <KTDryadWildrose.title>дикая роза</KTDryadWildrose.title>
+  <KTDryadWildrose.titleShort>дикая роза</KTDryadWildrose.titleShort>
+  <KTDryadWildrose.baseDesc>[PAWN_nameDef] is seemingly hostile and cold, but with the right actions [PAWN_nameDef] would be able bud out into a beautiful rose.</KTDryadWildrose.baseDesc>
+
+  <KTDryadMagic.title>невообразимая</KTDryadMagic.title>
+  <KTDryadMagic.titleShort>невообразимая</KTDryadMagic.titleShort>
+  <KTDryadMagic.baseDesc>What [PAWN_nameDef] is or was is not clear.</KTDryadMagic.baseDesc>
+
+
+</LanguageData>

@@ -30,17 +30,17 @@
         <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Simple_Mods/Door_Lockdown</li>
         <li IfModActive="bichang.kyulen">Mods/Simple_Mods/Kyulen</li>
         <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
-        <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>
+        <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers/1.4</li>
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
-        <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
+        <li IfModActive="uveren.hemogenextractor.1">Mods/Simple_Mods/Hemogen_Extractor</li>
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.4</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
-        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
-        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
+        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.4</li>
+        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust/1.4</li>
         <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/1.4</li>
         <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/Common</li>
-        <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads/1.4</li>
         <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
@@ -74,21 +74,20 @@
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/Simple_Mods/BrainwashChair</li>
         <li IfModActive="kikohi.jewelry">Mods/Simple_Mods/Jewelry</li>
         <li IfModActive="rabbit.stuncastervpe2">Mods/Simple_Mods/EoD_Stuncaster</li>
-        <li IfModActive="rikiki.miningco.projector">Mods/Simple_Mods/MiningCo_Projector</li>
         <li IfModActive="eldiarc.utilities.doorlockdown">Mods/Simple_Mods/Door_Lockdown</li>
         <li IfModActive="bichang.kyulen">Mods/Simple_Mods/Kyulen</li>
         <li IfModActive="vesper.egihologramsandprojectors">Mods/Simple_Mods/EGI_Holograms</li>
-        <!--<li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers</li>-->
+        <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers/1.5</li>
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.5</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
-        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax</li>
-        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust</li>
+        <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.5</li>
+        <li IfModActive="odysseylotus.seren">Mods/Races_Xenotypes/Seren_from_Stardust/1.5</li>
         <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/1.5</li>
         <li IfModActive="sov.elseudpathf">Mods/Races_Xenotypes/Nephilim_Xenotype/Common</li>
-        <li IfModActive="mlie.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads</li>
+        <li IfModActive="sans.warhammerishdryad">Mods/Races_Xenotypes/Warhammer_Dryads/1.5</li>
         <li IfModActive="mlie.warhammerskaven">Mods/Races_Xenotypes/Skavens</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
@@ -101,6 +100,7 @@
         
         <!--Not updated(yet?)-->
         <!--
+        <li IfModActive="rikiki.miningco.projector">Mods/Simple_Mods/MiningCo_Projector</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>

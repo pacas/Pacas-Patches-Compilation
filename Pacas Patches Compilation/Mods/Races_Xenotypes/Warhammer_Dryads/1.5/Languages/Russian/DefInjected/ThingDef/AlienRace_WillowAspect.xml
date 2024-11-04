@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadWillowAspect.label>ивовая дриада</DryadWillowAspect.label>
+  <DryadWillowAspect.description>Ивовая дриада - это видоизменённая дриада. Приняв облик ивы, она становится проворной мишенью и атакует ветвями, похожими на кнут.</DryadWillowAspect.description>
+  <DryadWillowAspect.tools.0.label>left branch</DryadWillowAspect.tools.0.label>
+  <DryadWillowAspect.tools.1.label>right branch</DryadWillowAspect.tools.1.label>
+  <DryadWillowAspect.tools.2.label>teeth</DryadWillowAspect.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Meat Amount: 0 -->
+  <DryadWillowAspect_Corpse.label>труп ивовой дриады</DryadWillowAspect_Corpse.label>
+  <DryadWillowAspect_Corpse.description>труп ивовой дриады</DryadWillowAspect_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Category: Primacy -->
+
+  <KTDryadNaturePrimacy.label>Превосходство Атель-Лорена</KTDryadNaturePrimacy.label>
+  <KTDryadNaturePrimacy.description>В этих запутанных лесах сильные поедают слабых.</KTDryadNaturePrimacy.description>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.0>memeAdjective-&gt;bloody</KTDryadNaturePrimacy.generalRules.rulesStrings.0>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.1>memeAdjective-&gt;dark</KTDryadNaturePrimacy.generalRules.rulesStrings.1>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.2>memeAdjective-&gt;dim</KTDryadNaturePrimacy.generalRules.rulesStrings.2>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.3>memeHyphenPrefix-&gt;dark</KTDryadNaturePrimacy.generalRules.rulesStrings.3>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.4>memeHyphenPrefix-&gt;dim</KTDryadNaturePrimacy.generalRules.rulesStrings.4>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.5>memeConcept-&gt;darkness</KTDryadNaturePrimacy.generalRules.rulesStrings.5>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.6>memeConcept-&gt;dimness</KTDryadNaturePrimacy.generalRules.rulesStrings.6>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.7>memeConcept-&gt;blackness</KTDryadNaturePrimacy.generalRules.rulesStrings.7>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.8>memeAdjective-&gt;natural</KTDryadNaturePrimacy.generalRules.rulesStrings.8>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.9>memeAdjective-&gt;wild</KTDryadNaturePrimacy.generalRules.rulesStrings.9>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.10>memeAdjective-&gt;organic</KTDryadNaturePrimacy.generalRules.rulesStrings.10>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.11>memeCreed-&gt;den</KTDryadNaturePrimacy.generalRules.rulesStrings.11>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.12>memeCreed-&gt;garden</KTDryadNaturePrimacy.generalRules.rulesStrings.12>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.13>memeCreed-&gt;meadow</KTDryadNaturePrimacy.generalRules.rulesStrings.13>
+  <KTDryadNaturePrimacy.generalRules.rulesStrings.14>memeConcept-&gt;nature</KTDryadNaturePrimacy.generalRules.rulesStrings.14>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_NaturePrimacy)        -&gt;[deity0_name] walked the wood, and saw man stain it, ruining [deity0_possessive] great breathing tapestry of life.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.0>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_NaturePrimacy)  -&gt;The people harvested the lands, and [deity0_name] saw their rapacity, and struck down those down.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.1>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_NaturePrimacy)           -&gt;The first settlers that arrived at the [place_summary] [place_name] paved over the natural world and sought to tame the lands. [deity0_name] wiped them out.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.2>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_NaturePrimacy)        -&gt;A greedy [foeLeader] built a bustling town, full of life and trade, forever staining the lands.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.3>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_NaturePrimacy)     -&gt;[founderName] walked the wilderness. [deity0_name] sent [deity0_possessive] blessings to help guard the [founder_objective], and they did. [founderName] haunted the woods, guarding the land in a zelous fury.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.4>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_NaturePrimacy)         -&gt;[founderName] came to the [place_name], [memberNamePlural] at [founder_possessive] right, and fierce creatures at [founder_possessive] left. Together, they fought and won against the [foeLeader] and [foeLeader_possessive] [foeSoldiers].</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.5>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_NaturePrimacy)           -&gt;In a dark land, evil people chopped the trees and dug the ground to expand their towns. [founderName] began a righteous movement to ravage the settlements.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.6>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_NaturePrimacy)    -&gt;We learned that the eternal growth of humanity is a path to destruction; we must live in nature and guard it from corruption.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.7>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_NaturePrimacy)         -&gt;You can't walk these lands without paying your dues, for every tree and spring holds the blessing of [deity0_name].</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.8>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_NaturePrimacy)              -&gt;the trees have owned this universe since long before man - you are just passing through</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.9>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_NaturePrimacy) -&gt;All blessed life I've spoken knows it.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.10>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_NaturePrimacy)    -&gt;Archotechs rose from machines, but they can be part of the cycle and guard these lands.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.11>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_NaturePrimacy)     -&gt;Archotechs represent the universe's most recent attempt to understand itself.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.12>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_NaturePrimacy) -&gt;[inTheEnd], there will be a resonance between the plants, the animals, humanity and the archotechs. All people who are in tune with this natural resonance will become part of the final universal consciousness.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.13>
+  <KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_NaturePrimacy)     -&gt;Spirits become restless when humanity attempts to change them from their true nature.</KTDryadNaturePrimacy.descriptionMaker.rules.rulesStrings.14>
+  <KTDryadNaturePrimacy.symbolPacks.0.adjective>naturist</KTDryadNaturePrimacy.symbolPacks.0.adjective>
+  <KTDryadNaturePrimacy.symbolPacks.1.adjective>earthist</KTDryadNaturePrimacy.symbolPacks.1.adjective>
+  <KTDryadNaturePrimacy.symbolPacks.2.adjective>soilist</KTDryadNaturePrimacy.symbolPacks.2.adjective>
+  <KTDryadNaturePrimacy.symbolPacks.3.adjective>lifeist</KTDryadNaturePrimacy.symbolPacks.3.adjective>
+
+
+</LanguageData>

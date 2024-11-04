@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[
+                @Name="KTDryadBase" or 
+                defName="DryadWillowAspect" or 
+                defName="DryadCorpseRevenant"
+                ]/combatPower</xpath>
+                <value>
+                    <combatPower>120</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[
+                defName="BranchHunter" or
+                defName="DryadSpiteRevenant"
+                ]/combatPower</xpath>
+                <value>
+                    <combatPower>180</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="DryadTribal_ChiefMelee"]/combatPower</xpath>
+                <value>
+                    <combatPower>270</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[
+                defName="DryadTribal_Warrior" or 
+                defName="DryadTribal_Berserker" or 
+                defName="DryadOakAspect" or 
+                defName="BranchWraith"
+                ]/combatPower</xpath>
+                <value>
+                    <combatPower>210</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="DryadTribal_Penitent"]/combatPower</xpath>
+                <value>
+                    <combatPower>100</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="DryadTribal_Penitent"]/weaponMoney</xpath>
+                <value>
+                    <weaponMoney>100~150</weaponMoney>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

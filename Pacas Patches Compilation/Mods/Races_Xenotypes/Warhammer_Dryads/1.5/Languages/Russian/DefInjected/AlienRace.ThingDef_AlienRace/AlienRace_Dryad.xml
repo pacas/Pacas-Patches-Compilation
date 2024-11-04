@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_Dryad.label>дриада</Alien_Dryad.label>
+  <Alien_Dryad.description>Существо с холодным сердцем, олицетворяющее дикую природу. У них манящая речь, а их ветви постоянно меняются. Едят они редко, но когда они едят, то едят только мясо.</Alien_Dryad.description>
+  <Alien_Dryad.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Alien_Dryad.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_Dryad.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Alien_Dryad.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Alien_Dryad.tools.0.label>left branch</Alien_Dryad.tools.0.label>
+  <Alien_Dryad.tools.1.label>right branch</Alien_Dryad.tools.1.label>
+  <Alien_Dryad.tools.2.label>left branch</Alien_Dryad.tools.2.label>
+  <Alien_Dryad.tools.3.label>right branch</Alien_Dryad.tools.3.label>
+  <Alien_Dryad.tools.4.label>teeth</Alien_Dryad.tools.4.label>
+
+
+</LanguageData>

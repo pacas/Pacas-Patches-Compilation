@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Seed Embedd -->
+
+  <DryadSeedImplantWildDead.label>embedded seed</DryadSeedImplantWildDead.label>
+  <DryadSeedImplantWildDead.description>A seed poking the brain. Unknown source, might prove detrimental.</DryadSeedImplantWildDead.description>
+  <DryadSeedImplantWildDead.labelNoun>embedded seed</DryadSeedImplantWildDead.labelNoun>
+
+  <DryadSeedImplantWild.label>embedded seed</DryadSeedImplantWild.label>
+  <DryadSeedImplantWild.description>A seed poking the brain. Unknown source, might prove detrimental.</DryadSeedImplantWild.description>
+  <DryadSeedImplantWild.labelNoun>embedded seed</DryadSeedImplantWild.labelNoun>
+
+  <DryadSeedClusterImplantWild.label>embedded cluster</DryadSeedClusterImplantWild.label>
+  <DryadSeedClusterImplantWild.description>Whole back stuffed with seeds, might prove detrimental.</DryadSeedClusterImplantWild.description>
+  <DryadSeedClusterImplantWild.labelNoun>embedded cluster</DryadSeedClusterImplantWild.labelNoun>
+
+
+</LanguageData>

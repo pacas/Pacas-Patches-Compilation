@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadDeadRevenantWild.label>corpse-revenant</DryadDeadRevenantWild.label>
+  <DryadDeadRevenantWild.labelPlural>corpse-revenants</DryadDeadRevenantWild.labelPlural>
+  <DryadDeadRevenantWild.lifeStages.0.label>corpse-revenant</DryadDeadRevenantWild.lifeStages.0.label>
+  <DryadDeadRevenantWild.lifeStages.0.labelPlural>corpse-revenant</DryadDeadRevenantWild.lifeStages.0.labelPlural>
+  <DryadDeadRevenantWild.lifeStages.1.label>corpse-revenant</DryadDeadRevenantWild.lifeStages.1.label>
+  <DryadDeadRevenantWild.lifeStages.1.labelPlural>corpse-revenant</DryadDeadRevenantWild.lifeStages.1.labelPlural>
+  <DryadDeadRevenantWild.lifeStages.2.label>corpse-revenant</DryadDeadRevenantWild.lifeStages.2.label>
+  <DryadDeadRevenantWild.lifeStages.2.labelPlural>corpse-revenant</DryadDeadRevenantWild.lifeStages.2.labelPlural>
+
+
+</LanguageData>

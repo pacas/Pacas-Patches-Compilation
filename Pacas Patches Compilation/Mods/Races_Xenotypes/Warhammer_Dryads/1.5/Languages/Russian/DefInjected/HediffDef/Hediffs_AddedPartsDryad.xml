@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- DryadOrgans -->
+    <DryadicOrgan.label>dryadic organ</DryadicOrgan.label>
+    <DryadicOrgan.description>A large and weird mass seemingly sculpted by hand.</DryadicOrgan.description>
+    <DryadicOrgan.labelNoun>a dryadic organ</DryadicOrgan.labelNoun>
+    <!-- Heart -->
+    <DryadicHeart.label>dryadic heart</DryadicHeart.label>
+    <DryadicHeart.description>A heart sculpted by hand. Something stirs within it.</DryadicHeart.description>
+    <DryadicHeart.labelNoun>a dryadic heart</DryadicHeart.labelNoun>
+    <!-- Lung -->
+    <DryadicLung.label>dryadic Lung</DryadicLung.label>
+    <DryadicLung.description>A lung artisticly sculpted by hand. Air flows through it.</DryadicLung.description>
+    <DryadicLung.labelNoun>a dryadic lung</DryadicLung.labelNoun>
+    <!-- Liver -->
+    <DryadicLiver.label>dryadic liver</DryadicLiver.label>
+    <DryadicLiver.description>A liver artisticly sculpted by hand. Blood filters through it.</DryadicLiver.description>
+    <DryadicLiver.labelNoun>a dryadic liver</DryadicLiver.labelNoun>
+    <!-- Kidney -->
+    <DryadicKidney.label>dryadic kidney</DryadicKidney.label>
+    <DryadicKidney.description>A kidney artisticly sculpted by hand. Waste filters through it.</DryadicKidney.description>
+    <DryadicKidney.labelNoun>a dryadic kidney</DryadicKidney.labelNoun>
+    <!-- Eye -->
+    <DryadicEye.label>dryadic Eye</DryadicEye.label>
+    <DryadicEye.description>A beautiful eye, far to beautiful. Leaves a uncanny valley feeling.</DryadicEye.description>
+    <DryadicEye.labelNoun>a dryadic eye</DryadicEye.labelNoun>
+    <!-- Nose -->
+    <DryadicNose.label>dryadic nose</DryadicNose.label>
+    <DryadicNose.description>A perfect nose, it's just so perfect.</DryadicNose.description>
+    <DryadicNose.labelNoun>a dryadic nose</DryadicNose.labelNoun>
+    <!-- Ear -->
+    <DryadicEar.label>dryadic ear</DryadicEar.label>
+    <DryadicEar.description>The perfect ear.</DryadicEar.description>
+    <DryadicEar.labelNoun>a dryadic ear</DryadicEar.labelNoun>
+    <!-- Hand -->
+    <DryadicHand.label>dryadic hand</DryadicHand.label>
+    <DryadicHand.description>A Beautiful hand, but one can swear it shifts when no one is paying attention.</DryadicHand.description>
+    <DryadicHand.comps.0.tools.0.label>branch</DryadicHand.comps.0.tools.0.label>
+    <DryadicHand.labelNoun>a dryadic hand</DryadicHand.labelNoun>
+    <!-- Foot -->
+    <DryadicFoot.label>dryadic foot</DryadicFoot.label>
+    <DryadicFoot.description>A beautiful foot, it craves to feel the earth undearneath it.</DryadicFoot.description>
+    <DryadicFoot.labelNoun>a dryadic foot</DryadicFoot.labelNoun>
+    <!-- Leg -->
+    <DryadLeg.label>dryadic leg</DryadLeg.label>
+    <DryadLeg.description>The perfect leg, craves to feel the sun.</DryadLeg.description>
+    <DryadLeg.labelNoun>a dryad leg</DryadLeg.labelNoun>
+    <!-- Arm -->
+    <DryadArm.label>dryad arm</DryadArm.label>
+    <DryadArm.description>The perfect arm, craves to feel the sun.</DryadArm.description>
+    <DryadArm.comps.0.tools.0.label>branch</DryadArm.comps.0.tools.0.label>
+    <DryadArm.labelNoun>a dryad arm</DryadArm.labelNoun>
+    <!-- Seed Embedd -->
+    <DryadSeedImplant.label>embedded seed</DryadSeedImplant.label>
+    <DryadSeedImplant.description>A seed poking the brain.</DryadSeedImplant.description>
+    <DryadSeedImplant.labelNoun>embedded seed</DryadSeedImplant.labelNoun>
+    <DryadSeedClusterImplant.label>embedded cluster</DryadSeedClusterImplant.label>
+    <DryadSeedClusterImplant.description>Whole back stuffed with seeds.</DryadSeedClusterImplant.description>
+    <DryadSeedClusterImplant.labelNoun>embedded cluster</DryadSeedClusterImplant.labelNoun>
+</LanguageData>

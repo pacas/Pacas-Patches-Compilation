@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KTDryad_StandradScenario.label>Ожившая дриада</KTDryad_StandradScenario.label>
+  <KTDryad_StandradScenario.description>Начало одинокой дриадой.</KTDryad_StandradScenario.description>
+  <KTDryad_StandradScenario.scenario.name>Ожившая дриада</KTDryad_StandradScenario.scenario.name>
+  <KTDryad_StandradScenario.scenario.summary>Начните игру в качестве одинокой дриады. Большинство исследований дриад завершены, но не хватает остальных.</KTDryad_StandradScenario.scenario.summary>
+  <KTDryad_StandradScenario.scenario.description>Начало одинокой дриадой.</KTDryad_StandradScenario.scenario.description>
+  <KTDryad_StandradScenario.scenario.parts.14.text>Одинокая дриада оказалась в одиночестве, отрезанная от остальных. В результате было решено основать новый Атель-Лорен.</KTDryad_StandradScenario.scenario.parts.14.text>
+
+
+</LanguageData>

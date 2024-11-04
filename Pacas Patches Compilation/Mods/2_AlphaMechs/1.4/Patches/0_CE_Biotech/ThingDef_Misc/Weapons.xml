@@ -842,8 +842,8 @@
 							<hasStandardCommand>true</hasStandardCommand>
 							<defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
 							<warmupTime>1</warmupTime>
-							<range>40</range>
-							<minRange>5</minRange>
+							<range>60</range>
+							<minRange>10</minRange>
 							<soundCast>InfernoCannon_Fire</soundCast>
 							<muzzleFlashScale>9</muzzleFlashScale>
 							<ai_IsBuildingDestroyer>True</ai_IsBuildingDestroyer>

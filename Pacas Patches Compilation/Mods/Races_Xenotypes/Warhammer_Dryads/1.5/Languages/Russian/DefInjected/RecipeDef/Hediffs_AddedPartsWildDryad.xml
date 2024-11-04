@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Seed Embedd -->
+
+  <InstallDryadSeedWildDead.label>embed seed</InstallDryadSeedWildDead.label>
+  <InstallDryadSeedWildDead.description>Embed a dryad seed.</InstallDryadSeedWildDead.description>
+  <InstallDryadSeedWildDead.jobString>Embedding seed.</InstallDryadSeedWildDead.jobString>
+
+  <InstallDryadSeedWild.label>embed seed</InstallDryadSeedWild.label>
+  <InstallDryadSeedWild.description>Embed a dryad seed.</InstallDryadSeedWild.description>
+  <InstallDryadSeedWild.jobString>Embedding seed.</InstallDryadSeedWild.jobString>
+
+  <InstallDryadSeedClusterWild.label>embed cluster</InstallDryadSeedClusterWild.label>
+  <InstallDryadSeedClusterWild.description>Embed the spine.</InstallDryadSeedClusterWild.description>
+  <InstallDryadSeedClusterWild.jobString>Embedding seeds.</InstallDryadSeedClusterWild.jobString>
+
+
+</LanguageData>

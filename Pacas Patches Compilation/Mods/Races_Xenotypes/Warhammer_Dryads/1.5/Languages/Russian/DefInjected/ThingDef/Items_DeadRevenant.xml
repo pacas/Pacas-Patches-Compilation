@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadCorpseRevenant.label>тело мстителя</DryadCorpseRevenant.label>
+  <DryadCorpseRevenant.description>Дремлющее тело мстителя. Используйте его, чтобы пробудить.</DryadCorpseRevenant.description>
+  <DryadCorpseRevenant.comps.1.useLabel>Пробудить мстителя</DryadCorpseRevenant.comps.1.useLabel>
+
+
+</LanguageData>

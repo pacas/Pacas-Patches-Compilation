@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Alien_DryadWild.label>дикая дриада</Alien_DryadWild.label>
+  <Alien_DryadWild.description>Дриады, злобные защитницы леса. Истинная форма холодных сердцем призраков Атель Лорен.</Alien_DryadWild.description>
+  <Alien_DryadWild.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Alien_DryadWild.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Alien_DryadWild.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Alien_DryadWild.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Alien_DryadWild.tools.0.label>left branch</Alien_DryadWild.tools.0.label>
+  <Alien_DryadWild.tools.1.label>right branch</Alien_DryadWild.tools.1.label>
+  <Alien_DryadWild.tools.2.label>left branch</Alien_DryadWild.tools.2.label>
+  <Alien_DryadWild.tools.3.label>right branch</Alien_DryadWild.tools.3.label>
+  <Alien_DryadWild.tools.4.label>teeth</Alien_DryadWild.tools.4.label>
+
+
+</LanguageData>

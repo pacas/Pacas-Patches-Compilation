@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.PatchOperationSafeRemove">
+                <xpath>Defs/GeneDef[
+                defName="GET_SleepRegular" or
+                defName="GET_ViolenceNormal" or
+                defName="GET_Learning_Normal" or
+                defName="GET_HumanLegs" or
+                defName="GET_AverageApperance" or
+                defName="GET_Aggressive_normal" or
+                defName="GET_BodySizeNormal" or
+                defName="GET_RegularAddiction" or
+                defName="GET_RegularHair" or
+                defName="GET_RegularBodyShape"]
+                </xpath>
+            </li>
+            
+            <li Class="PatchOperation.FindModByID">
+                <mods>
+                    <li>RedMattis.BigSmall.Core</li>
+                </mods>
+                <nomatch Class="XmlExtensions.PatchOperationSafeRemove">
+                    <xpath>Defs/GeneCategoryDef[defName="Body_Size"]</xpath>
+                </nomatch>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GET_GeneExtractor_II"]/building/defaultStorageSettings/filter/disallowedThingDefs</xpath>
+				<value>
+					<disallowedThingDefs>
+                        <li>RottedMeat</li>
+                        <li>RottedMush</li>
+                        <li>PoisonGland</li>
+					</disallowedThingDefs>
+				</value>
+            </li>
+                
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GeneExtractor_II"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>180</costStuffCount>
+					<costList>
+						<ComponentAdvanced>5</ComponentAdvanced>
+						<ElectronicComponents>10</ElectronicComponents>
+						<Electronics>3</Electronics>
+						<Glass>5</Glass>
+						<Plastic>15</Plastic>
+						<TitaniumBar>10</TitaniumBar>
+					</costList>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GeneExtractor_III"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>120</costStuffCount>
+					<costList>
+						<ComponentAdvanced>3</ComponentAdvanced>
+						<ComponentSpacer>4</ComponentSpacer>
+						<ElectronicComponents>10</ElectronicComponents>
+						<Electronics>3</Electronics>
+						<Glass>5</Glass>
+						<AlphaPoly>25</AlphaPoly>
+						<BetaPoly>25</BetaPoly>
+						<PobediteAlloy>10</PobediteAlloy>
+						<StelliteAlloy>10</StelliteAlloy>
+						<GoldBar>10</GoldBar>
+						<ArchiteCapsule>3</ArchiteCapsule>
+					</costList>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GeneExtractor_IV"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>120</costStuffCount>
+					<costList>
+						<ComponentAdvanced>3</ComponentAdvanced>
+						<ComponentSpacer>4</ComponentSpacer>
+						<ElectronicComponents>10</ElectronicComponents>
+						<Electronics>3</Electronics>
+						<Glass>5</Glass>
+						<AlphaPoly>25</AlphaPoly>
+						<BetaPoly>25</BetaPoly>
+						<PobediteAlloy>10</PobediteAlloy>
+						<StelliteAlloy>10</StelliteAlloy>
+						<GoldBar>10</GoldBar>
+						<ArchiteCapsule>3</ArchiteCapsule>
+                        <AIPersonaCore>1</AIPersonaCore>
+					</costList>
+				</value>
+			</li>
+                
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="GET_GeneNodeBase"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>50</costStuffCount>
+					<costList>
+						<Silver>2500</Silver>
+						<ComponentAdvanced>2</ComponentAdvanced>
+						<ElectronicComponents>5</ElectronicComponents>
+						<Electronics>1</Electronics>
+						<Plastic>10</Plastic>
+                        <Genepack>3</Genepack>
+					</costList>
+				</value>
+			</li>
+                
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="GET_GeneNodeBaseArchite"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>50</costStuffCount>
+					<costList>
+						<Silver>5000</Silver>
+						<ComponentAdvanced>2</ComponentAdvanced>
+						<ElectronicComponents>5</ElectronicComponents>
+						<Electronics>1</Electronics>
+						<Plastic>10</Plastic>
+                        <Genepack>3</Genepack>
+                        <ArchiteCapsule>3</ArchiteCapsule>
+					</costList>
+				</value>
+			</li>
+                
+            <li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="GET_GN_ViperSpecial"]/costList</xpath>
+			</li>
+                
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GN_WeaknessOfMind" or defName="GET_GN_WeaknessOfBody"]/costList</xpath>
+				<value>
+					<stuffCategories>
+						<li>RuggedMetallic</li>
+					</stuffCategories>
+					<costStuffCount>50</costStuffCount>
+					<costList>
+						<Silver>5000</Silver>
+						<ComponentAdvanced>2</ComponentAdvanced>
+						<ElectronicComponents>5</ElectronicComponents>
+						<Electronics>1</Electronics>
+						<Plastic>10</Plastic>
+                        <Genepack>3</Genepack>
+                        <ArchiteCapsule>3</ArchiteCapsule>
+					</costList>
+				</value>
+			</li>
+                
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GN_BasicBody"]/descriptionHyperlinks</xpath>
+				<value>
+                    <descriptionHyperlinks>
+                        <GeneDef>Beauty_Ugly</GeneDef>
+                        <GeneDef>Body_Hulk</GeneDef>
+                        <GeneDef>Body_Fat</GeneDef>
+                        <GeneDef>Body_Thin</GeneDef>
+                        <GeneDef>Body_Standard</GeneDef>
+                    </descriptionHyperlinks>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GET_GN_BasicBody"]/comps</xpath>
+				<value>
+                    <comps>
+                        <li Class="GeneExtractorTiers.CompProperties_GeneNode">
+                            <geneList>
+                                <li>Beauty_Ugly</li>
+                                <li>Body_Hulk</li>
+                                <li>Body_Fat</li>
+                                <li>Body_Thin</li>
+                                <li>Body_Standard</li>
+                            </geneList>
+                        </li>
+                    </comps>
+				</value>
+			</li>
+        </operations>
+    </Operation>
+</Patch>

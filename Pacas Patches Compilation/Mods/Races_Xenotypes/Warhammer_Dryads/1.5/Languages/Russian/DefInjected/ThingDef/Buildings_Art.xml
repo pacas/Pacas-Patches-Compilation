@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sculptures -->
+
+  <DryadSculptureSmall.label>небольшая дриадская скульптура</DryadSculptureSmall.label>
+  <DryadSculptureSmall.description>A small statue.</DryadSculptureSmall.description>
+  <DryadSculptureSmall_Blueprint_Install.label>small dryadic sculpture (чертеж)</DryadSculptureSmall_Blueprint_Install.label>
+
+  <DryadSculptureLarge.label>большая дриадская скульптура</DryadSculptureLarge.label>
+  <DryadSculptureLarge.description>A large statue.</DryadSculptureLarge.description>
+  <DryadSculptureLarge_Blueprint_Install.label>large dryadic sculpture (чертеж)</DryadSculptureLarge_Blueprint_Install.label>
+
+  <DryadMassiveStatue.label>огромная дриадская скульптура</DryadMassiveStatue.label>
+  <DryadMassiveStatue.description>A massive statue.</DryadMassiveStatue.description>
+  <DryadMassiveStatue_Blueprint_Install.label>massive dryadic statue (чертеж)</DryadMassiveStatue_Blueprint_Install.label>
+
+  <DryadPillarLarge.label>большой дриадский столб</DryadPillarLarge.label>
+  <DryadPillarLarge.description>A large pillar capable of holding a roof.</DryadPillarLarge.description>
+  <DryadPillarLarge_Blueprint_Install.label>large dryadic pillar (чертеж)</DryadPillarLarge_Blueprint_Install.label>
+
+  <DryadBasin.label>декоративная чаща</DryadBasin.label>
+  <DryadBasin.description>Декоративная чаща для цветов.</DryadBasin.description>
+  <DryadBasin_Blueprint_Install.label>>декоративная чаща (чертеж)</DryadBasin_Blueprint_Install.label>
+
+  <DryadTable.label>декоративный стол</DryadTable.label>
+  <DryadTable.description>Декоративный стол.</DryadTable.description>
+  <DryadTable_Blueprint_Install.label>декоративный стол (чертеж)</DryadTable_Blueprint_Install.label>
+
+  <DryadStool.label>декоративный стул</DryadStool.label>
+  <DryadStool.description>Декоративный стул.</DryadStool.description>
+  <DryadStool_Blueprint_Install.label>decorative stool (чертеж)</DryadStool_Blueprint_Install.label>
+
+  <DryadOrbStand.label>декоративная статуя</DryadOrbStand.label>
+  <DryadOrbStand.description>Декоративная статуя-подставка для сфер. Пусть дриада посадит сферу, чтобы она выполняла роль лампы.</DryadOrbStand.description>
+  <DryadOrbStand_Blueprint_Install.label>декоративная статуя (чертеж)</DryadOrbStand_Blueprint_Install.label>
+
+
+</LanguageData>

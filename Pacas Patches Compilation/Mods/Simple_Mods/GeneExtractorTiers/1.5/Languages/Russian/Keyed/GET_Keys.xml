@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GET_GeneExtractorTiers>Gene Extractor Tiers</GET_GeneExtractorTiers>
+  <GET_MultipackChance>Шанс увеличенного набора</GET_MultipackChance>
+  <GET_MegapackChance>Шанс большого набора</GET_MegapackChance>
+  <GET_SplitZeroCostChance>Возможность отделить гены с нулевой стоимостью в собственный пакет</GET_SplitZeroCostChance>
+  <GET_DidSplitZeroCost>Генопак был успешно разделен во время извлечения, чтобы отделить неметаболические гены от остальных.</GET_DidSplitZeroCost>
+  <GET_ExtractionTime>Время извлечения</GET_ExtractionTime>
+  <GET_NutritionUseMultiplier>Множитель потребления ресурсов</GET_NutritionUseMultiplier>
+  <GET_GenesRegrowingTime>Время восстановления генов</GET_GenesRegrowingTime>
+  
+  <GET_DeactivateOverdrive>Выключить перегрузку</GET_DeactivateOverdrive>
+  <GET_DeactivateOverdriveDesc>Отключает перегрузку</GET_DeactivateOverdriveDesc>
+  <GET_ActivateOverdrive>Перегрузка</GET_ActivateOverdrive>
+  <GET_ActivateOverdriveDesc>Переведите генный экстрактор в режим ускоренной работы: экстракция происходит в два раза быстрее, но при этом расходуется в 4 раза больше энергии и в 3 раза больше нутриентов.</GET_ActivateOverdriveDesc>
+  <GET_TargetGene>Целевой ген: {0}</GET_TargetGene>
+  <GET_SelectGene>Выбрать ген</GET_SelectGene>
+  <GET_SelectGeneDesc>Выбрать конкретный ген для извлечения.</GET_SelectGeneDesc>
+  <GET_AllVatsCanTargetGenes>Все экстракторы могут выбирать гены для извлечения.</GET_AllVatsCanTargetGenes>
+</LanguageData>

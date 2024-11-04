@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadSleepingSpot.label>руна покоя дриад</DryadSleepingSpot.label>
+  <DryadSleepingSpot.description>Дриада, отдыхающая в этом месте, будет восстанавливаться после травм быстрее, чем обычно. Должен быть контакт с землей (вскапываемая земля).</DryadSleepingSpot.description>
+  <DryadSleepingSpot_Blueprint.label>руна покоя дриад (чертеж)</DryadSleepingSpot_Blueprint.label>
+  <DryadSleepingSpot_Frame.label>руна покоя дриад (строение)</DryadSleepingSpot_Frame.label>
+  <DryadSleepingSpot_Frame.description>Дриада, отдыхающая в этом месте, будет восстанавливаться после травм быстрее, чем обычно. Должен быть контакт с землей (вскапываемая земля).</DryadSleepingSpot_Frame.description>
+
+  <DryadSleepingSpotDouble.label>двойная руна покоя дриад</DryadSleepingSpotDouble.label>
+  <DryadSleepingSpotDouble.description>Место отдыха для пары дриад. Дриада, отдыхающая в этом месте, будет восстанавливаться после травм быстрее, чем обычно. Должен быть контакт с землей (вскапываемая земля).</DryadSleepingSpotDouble.description>
+  <DryadSleepingSpotDouble_Blueprint.label>двойная руна покоя дриад (чертеж)</DryadSleepingSpotDouble_Blueprint.label>
+  <DryadSleepingSpotDouble_Frame.label>двойная руна покоя дриад (строение)</DryadSleepingSpotDouble_Frame.label>
+  <DryadSleepingSpotDouble_Frame.description>Место отдыха для пары дриад. Дриада, отдыхающая в этом месте, будет восстанавливаться после травм быстрее, чем обычно. Должен быть контакт с землей (вскапываемая земля).</DryadSleepingSpotDouble_Frame.description>
+
+  <DryadSculptureSpot.label>круг скульптур дриад</DryadSculptureSpot.label>
+  <DryadSculptureSpot.description>Место для создания скульптур дриад. Должен быть контакт с землей (вскапываемая земля).</DryadSculptureSpot.description>
+  <DryadSculptureSpot_Blueprint.label>круг скульптур дриад (чертеж)</DryadSculptureSpot_Blueprint.label>
+  <DryadSculptureSpot_Frame.label>круг скульптур дриад (строение)</DryadSculptureSpot_Frame.label>
+  <DryadSculptureSpot_Frame.description>Место для создания скульптур дриад. Должен быть контакт с землей (вскапываемая земля).</DryadSculptureSpot_Frame.description>
+
+  <DryadFurnitureSpot.label>круг строений дриад</DryadFurnitureSpot.label>
+  <DryadFurnitureSpot.description>Место для создания мебели дриад. Должен быть контакт с землей (вскапываемая земля).</DryadFurnitureSpot.description>
+  <DryadFurnitureSpot_Blueprint.label>круг строений дриад (чертеж)</DryadFurnitureSpot_Blueprint.label>
+  <DryadFurnitureSpot_Frame.label>круг строений дриад (строение)</DryadFurnitureSpot_Frame.label>
+  <DryadFurnitureSpot_Frame.description>Место для создания мебели дриад. Должен быть контакт с землей (вскапываемая земля).</DryadFurnitureSpot_Frame.description>
+
+  <DryadResearchSpot.label>круг знаний дриад</DryadResearchSpot.label>
+  <DryadResearchSpot.description>Место для проведения исследований. Должен быть контакт с землей (вскапываемая земля).</DryadResearchSpot.description>
+  <DryadResearchSpot_Blueprint.label>круг знаний дриад (чертеж)</DryadResearchSpot_Blueprint.label>
+  <DryadResearchSpot_Frame.label>круг знаний дриад (строение)</DryadResearchSpot_Frame.label>
+  <DryadResearchSpot_Frame.description>Место для проведения исследований. Должен быть контакт с землей (вскапываемая земля).</DryadResearchSpot_Frame.description>
+
+
+</LanguageData>

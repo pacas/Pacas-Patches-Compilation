@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DryadGood.label>дриада</DryadGood.label>
+  <DryadGood.labelPlural>дриады</DryadGood.labelPlural>
+  <DryadGood.labelMale>дриада</DryadGood.labelMale>
+  <DryadGood.labelMalePlural>дриады</DryadGood.labelMalePlural>
+  <DryadGood.labelFemale>дриада</DryadGood.labelFemale>
+  <DryadGood.labelFemalePlural>дриады</DryadGood.labelFemalePlural>
+
+  <DryadBad.label>дриада</DryadBad.label>
+  <DryadBad.labelPlural>дриады</DryadBad.labelPlural>
+  <DryadBad.labelMale>дриада</DryadBad.labelMale>
+  <DryadBad.labelMalePlural>дриады</DryadBad.labelMalePlural>
+  <DryadBad.labelFemale>дриада</DryadBad.labelFemale>
+  <DryadBad.labelFemalePlural>дриады</DryadBad.labelFemalePlural>
+
+  <WildDryadGood.label>дикая дриада</WildDryadGood.label>
+  <WildDryadGood.labelPlural>дикие дриады</WildDryadGood.labelPlural>
+  <WildDryadGood.labelMale>дикая дриада</WildDryadGood.labelMale>
+  <WildDryadGood.labelMalePlural>дикие дриады</WildDryadGood.labelMalePlural>
+  <WildDryadGood.labelFemale>дикая дриада</WildDryadGood.labelFemale>
+  <WildDryadGood.labelFemalePlural>дикие дриады</WildDryadGood.labelFemalePlural>
+
+  <WildDryadBad.label>дикая дриада</WildDryadBad.label>
+  <WildDryadBad.labelPlural>дикие дриады</WildDryadBad.labelPlural>
+  <WildDryadBad.labelMale>дикая дриада</WildDryadBad.labelMale>
+  <WildDryadBad.labelMalePlural>дикие дриады</WildDryadBad.labelMalePlural>
+  <WildDryadBad.labelFemale>дикая дриада</WildDryadBad.labelFemale>
+  <WildDryadBad.labelFemalePlural>дикие дриады</WildDryadBad.labelFemalePlural>
+
+
+</LanguageData>

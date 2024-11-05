@@ -5,7 +5,6 @@
 		<li>1.4</li>
 		<li>Common</li>
 		<li>Optional_Stuff</li>
-		<li>Multiversion_Patches</li>
 		<li>Settings</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
         <!-- Order semi-important mods -->
@@ -56,7 +55,6 @@
 		<li>1.5</li>
         <li>Common</li>
 		<li>Optional_Stuff</li>
-		<li>Multiversion_Patches</li>
 		<li>Settings</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
         <!-- Order semi-important mods -->

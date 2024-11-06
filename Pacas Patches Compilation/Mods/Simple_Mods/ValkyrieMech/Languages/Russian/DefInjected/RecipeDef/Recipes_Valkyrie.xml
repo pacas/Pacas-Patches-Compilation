@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ranged_Valkyrie.label>вырастить валькирию (дальний бой)</Ranged_Valkyrie.label>
+  <Ranged_Valkyrie.description>Вырастить валькирию, которая будет сражаться в дальнем бою.</Ranged_Valkyrie.description>
+  
+  <Melee_Valkyrie.label>вырастить  валькирию (ближний бой)</Melee_Valkyrie.label>
+  <Melee_Valkyrie.description>Вырастить валькирию, которая будет сражаться в ближнем бою.</Melee_Valkyrie.description>
+
+</LanguageData>

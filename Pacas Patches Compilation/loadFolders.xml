@@ -33,6 +33,7 @@
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <li IfModActive="uveren.hemogenextractor.1">Mods/Simple_Mods/Hemogen_Extractor</li>
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.4</li>
+        <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.4</li>
@@ -79,6 +80,7 @@
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.5</li>
+        <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.5</li>

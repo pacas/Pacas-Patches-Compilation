@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_BaseMechanoidWalker</value>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]</xpath>
+                <value>
+                    <li Class="CombatExtended.RacePropertiesExtensionCE">
+                        <bodyShape>Humanoid</bodyShape>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]/statBases</xpath>
+                <value>
+                    <statBases>
+                        <MoveSpeed>5.7</MoveSpeed>
+                        <MeleeDodgeChance>0.5</MeleeDodgeChance>
+                        <MeleeCritChance>0.24</MeleeCritChance>
+                        <MeleeParryChance>0.33</MeleeParryChance>
+                        <MaxHitPoints>200</MaxHitPoints>
+                        <ArmorRating_Blunt>12</ArmorRating_Blunt>
+                        <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                        <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">3</BandwidthCost>
+                    </statBases>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_ArmorDurability">
+                        <Durability>300</Durability>
+                        <Regenerates>true</Regenerates>
+                        <RegenInterval>750</RegenInterval>
+                        <RegenValue>10</RegenValue>
+                        <Repairable>true</Repairable>
+                        <RepairIngredients>
+                            <TitaniumBar>3</TitaniumBar>
+                            <CarbonAlloy>3</CarbonAlloy>
+                        </RepairIngredients>
+                        <RepairTime>300</RepairTime>
+                        <RepairValue>200</RepairValue>
+                        <CanOverHeal>false</CanOverHeal>
+                        <MinArmorPct>0.5</MinArmorPct>
+                        <MinArmorValueSharp>3</MinArmorValueSharp>
+                        <MinArmorValueBlunt>8</MinArmorValueBlunt>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>left fist</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>15</power>
+                            <cooldownTime>2</cooldownTime>
+                            <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                            <armorPenetrationBlunt>11</armorPenetrationBlunt>
+                            <armorPenetrationSharp>3</armorPenetrationSharp>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>right fist</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>15</power>
+                            <cooldownTime>2</cooldownTime>
+                            <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                            <armorPenetrationBlunt>11</armorPenetrationBlunt>
+                            <armorPenetrationSharp>3</armorPenetrationSharp>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>head</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>4</cooldownTime>
+                            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                            <chanceFactor>0.2</chanceFactor>
+                            <armorPenetrationBlunt>3</armorPenetrationBlunt>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]</xpath>
+                <value>
+                    <butcherProducts>
+                        <TitaniumBar>10</TitaniumBar>
+                        <DepletedUranium>5</DepletedUranium>
+                        <CarbonAlloy>5</CarbonAlloy>
+                    </butcherProducts>
+                </value>
+            </li>
+            <li Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>Biotech</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="XmlExtensions.PatchOperationAdd">
+                        <xpath>Defs/RecipeDef[defName="Ranged_Valkyrie" or defName="Melee_Valkyrie"]</xpath>
+                        <value>
+                            <ingredients Inherit="False">
+                                <TitaniumBar>10</TitaniumBar>
+                            </ingredients>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.ApplyPatch">
+                        <patchName>MechRecipeCost_Regular</patchName>
+                        <arguments>
+                            <li>Ranged_Valkyrie</li>
+                            <li>2</li>
+                            <li>2</li>
+                        </arguments>
+                    </Operation>
+                    <Operation Class="XmlExtensions.ApplyPatch">
+                        <patchName>MechRecipeCost_Regular</patchName>
+                        <arguments>
+                            <li>Melee_Valkyrie</li>
+                            <li>2</li>
+                            <li>2</li>
+                        </arguments>
+                    </Operation>
+                </caseTrue>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
+

@@ -14,8 +14,9 @@
         <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.4</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.4</li>      
         <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.4</li>
-        <!-- Special mods -->
-        <li IfModActive="rim.job.world">Mods/RJW/CoreMod</li>
+        <!-- RJW mods -->
+        <li IfModActive="rim.job.world">Mods/RJW/CoreMod/1.4</li>
+        <li IfModActive="rjw.sexperience">Mods/RJW/Sexperience/1.4</li>
         <!-- Simple mods -->
         <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
@@ -65,8 +66,9 @@
         <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.5</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.5</li>     
         <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.5</li> 
-        <!-- Special mods -->
-        <li IfModActive="rim.job.world">Mods/RJW/CoreMod</li>
+        <!-- RJW mods -->
+        <li IfModActive="rim.job.world">Mods/RJW/CoreMod/1.5</li>
+        <li IfModActive="rjw.sexperience">Mods/RJW/Sexperience/1.5</li>
         <!-- Simple mods -->
         <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/Simple_Mods/RimForge_Power_Poles</li>

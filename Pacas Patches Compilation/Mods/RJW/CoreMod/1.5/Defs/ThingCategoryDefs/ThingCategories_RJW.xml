@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingCategoryDef>
+        <defName>RJWDrugs</defName>
+        <label>Sexual stuff</label>
+        <parent>Drugs</parent>
+        <resourceReadoutRoot>true</resourceReadoutRoot>
+        <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
+    </ThingCategoryDef>
+    <ThingCategoryDef>
+        <defName>RJWBondageAdd</defName>
+        <label>Sexual gear</label>
+        <parent>Manufactured</parent>
+        <resourceReadoutRoot>true</resourceReadoutRoot>
+        <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
+    </ThingCategoryDef>
+</Defs>

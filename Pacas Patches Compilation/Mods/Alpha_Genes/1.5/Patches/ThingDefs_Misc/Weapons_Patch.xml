@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- ======= AG_ForsakenHydra ======= -->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenHydra"]/recipeMaker</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <li Class="PatchOperationAdd">
+            <li Class="PatchOperationReplace">
                 <xpath>Defs/ScenarioDef[defName="AG_ForsakenCrashlanded"]/scenario/parts/li[@Class="ScenPart_StartingAnimal"]/animalKind</xpath>
                 <value>
                     <animalKind>Nightling</animalKind>

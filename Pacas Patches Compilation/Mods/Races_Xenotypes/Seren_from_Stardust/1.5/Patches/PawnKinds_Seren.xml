@@ -24,7 +24,13 @@
                     </li>
                 </value>
             </li>
-            <li Class="XmlExtensions.PatchOperationSafeReplace">
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[@Name="SerenModel"]/combatPower</xpath>
+                <value>
+                    <combatPower>60</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
                 <xpath>Defs/PawnKindDef[@Name="SerenModel"]/combatPower</xpath>
                 <value>
                     <combatPower>60</combatPower>

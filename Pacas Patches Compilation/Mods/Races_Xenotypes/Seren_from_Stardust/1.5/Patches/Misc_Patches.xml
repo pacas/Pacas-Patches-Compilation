@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- Add ammunition to RimCities starting scenarios -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ScenarioDef[defName="SerenRelocated"]/scenario/parts</xpath>
+                <value>
+                    <li Class="ScenPart_StartingThing_Defined">
+                        <def>StartingThing_Defined</def>
+                        <thingDef>Ammo_303British_FMJ</thingDef>
+                        <count>120</count>
+                    </li>
+                    <li Class="ScenPart_StartingThing_Defined">
+                        <def>StartingThing_Defined</def>
+                        <thingDef>Ammo_45ACP_FMJ</thingDef>
+                        <count>90</count>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Alpha Animals</li>
+                </mods>
+                <match Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[defName="SerenCivilBase" or defName="SerenRoughBase"]/disallowedMemes/li[text()="AA_BiologicalCorruptors"]</xpath>
+                </match>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Vanilla Traits Expanded</li>
+                </mods>
+                <match Class="PatchOperationRemove">
+                    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="SerenConfectioner"]/forcedTraitsChance/li[2]</xpath>
+                </match>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Anomaly</li>
+                </mods>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/CreepJoinerFormKindDef[defName="OL_SerenCreepDrifter"]/weaponMoney</xpath>
+                    <value>
+                        <weaponMoney>80~400</weaponMoney>
+                    </value>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

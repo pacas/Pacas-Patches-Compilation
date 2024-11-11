@@ -91,5 +91,24 @@
             </match>
         </match>
     </Operation>
+    
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/MainButtonDef[defName="WarCrimes"]</xpath>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/MainButtonDef[defName="WarCrimes"]/iconPath</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/MainButtonDef[defName="WarCrimes"]</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/WarCrimes</iconPath>
+                </value>
+            </nomatch>
+            <match Class="PatchOperationReplace">
+                <xpath>Defs/MainButtonDef[defName="WarCrimes"]/iconPath</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/WarCrimes</iconPath>
+                </value>
+            </match>
+        </match>
+    </Operation>
 
 </Patch>

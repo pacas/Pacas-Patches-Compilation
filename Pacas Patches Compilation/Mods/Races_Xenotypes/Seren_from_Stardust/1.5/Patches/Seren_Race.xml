@@ -2,6 +2,11 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>BaseHumanlikePawn</value>
+            </li>
             <li Class="PatchOperationAddModExtension">
                 <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]</xpath>
                 <value>

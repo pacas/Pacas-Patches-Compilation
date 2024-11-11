@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ResearchProjectDef[defName="VRecyclingE_ComplexRecycling"]/requiredResearchBuilding</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ResearchProjectDef[defName="VRecyclingE_BasicRecycling"]</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Metals_C2</li>
+                        <li>Electricity</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="VRecyclingE_ComplexRecycling"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Electronics_D1</li>
+                        <li>Metals_D1</li>
+                        <li>VRecyclingE_BasicRecycling</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="VRecyclingE_BasicRecycling" or defName="VRecyclingE_ComplexRecycling"]/tab</xpath>
+                <value>
+                    <tab>Craft_SK</tab>
+                </value>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>VRecyclingE_BasicRecycling</li>
+                    <li>1000</li>
+                    <li>9</li>
+                    <li>20</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_Industrial</patchName>
+                <arguments>
+                    <li>VRecyclingE_BasicRecycling</li>
+                </arguments>
+            </li>
+            
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Cost</patchName>
+                <arguments>
+                    <li>VRecyclingE_ComplexRecycling</li>
+                    <li>2000</li>
+                    <li>18</li>
+                    <li>25</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_HitechMulti</patchName>
+                <arguments>
+                    <li>VRecyclingE_ComplexRecycling</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ResearchDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                    defName="Wastepack" or
+                    defName="VRecyclingE_ReclaimedBiopack" or
+                    defName="VRecyclingE_ReactiveChempack" or
+                    defName="VRecyclingE_StabilizedAlloypack" or
+                    defName="VRecyclingE_VolatileToxpack" or
+                    defName="VRecyclingE_RadioactiveIsotopack" or
+                    defName="VRecyclingE_Trash"
+                ]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>VRE_Trash</li>
+                    </thingCategories>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingCategoryDef[defName="VRecyclingE_SpecializedPacks"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -48,6 +48,7 @@
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
         <!-- VE mods -->
+        <li IfModActive="vanillaexpanded.recycling">Mods/9_Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
         <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
         <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
         <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
@@ -98,6 +99,7 @@
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
         <!-- VE mods -->
+        <li IfModActive="vanillaexpanded.recycling">Mods/9_Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
         <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
         <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
         <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>

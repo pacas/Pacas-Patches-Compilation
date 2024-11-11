@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_PollPumps.label>Очистные помпы</SubCategory_PollPumps.label>
+    <SubCategory_PollPumps.description>Очистка загрязнения со стилем.</SubCategory_PollPumps.description>
+    
+    <SubCategory_Recyclers.label>Переработчики</SubCategory_Recyclers.label>
+    <SubCategory_Recyclers.description>Извлеките из отходов все до последней капли.</SubCategory_Recyclers.description>
+    
+</LanguageData>

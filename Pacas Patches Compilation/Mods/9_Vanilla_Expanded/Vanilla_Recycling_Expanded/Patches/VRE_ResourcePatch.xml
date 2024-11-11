@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_TrashBrick"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>ConstructionParts</li>
+                    </thingCategories>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_TrashBrick"]/stackLimit</xpath>
+            </li>
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_TrashBrick"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_ResourceBase</value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_TrashBrick"]/stuffProps/categories</xpath>
+                <value>
+                    <categories>
+                        <li>Bricks</li>
+                    </categories>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PipeSystem.ProcessDef[defName="VRecyclingE_SplitStabilizedAlloypack"]/description</xpath>
+                <value>
+                    <description>Turns 1 stabilized alloypack into 1 Titanium, 1 Gold and 5 Steel Bars.</description>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PipeSystem.ProcessDef[defName="VRecyclingE_SplitStabilizedAlloypack"]/results</xpath>
+                <value>
+                    <results>
+                        <li>
+                            <thing>Plasteel</thing>
+                            <count>5</count>
+                            <outputCellOffset>(1,0,-1)</outputCellOffset>
+                        </li>
+                        <li>
+                            <thing>Titanium</thing>
+                            <count>1</count>
+                            <outputCellOffset>(0,0,-1)</outputCellOffset>
+                        </li>
+                        <li>
+                            <thing>GoldBar</thing>
+                            <count>1</count>
+                            <outputCellOffset>(-1,0,-1)</outputCellOffset>
+                        </li>
+                    </results>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PipeSystem.ProcessDef[defName="VRecyclingE_TrashToBricks"]/description</xpath>
+                <value>
+                    <description>Turns 10 trash into 50 trashbricks.</description>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PipeSystem.ProcessDef[defName="VRecyclingE_TrashToBricks"]/results</xpath>
+                <value>
+                    <results>
+                        <li>
+                            <thing>VRecyclingE_TrashBrick</thing>
+                            <count>50</count>
+                        </li>
+                    </results>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

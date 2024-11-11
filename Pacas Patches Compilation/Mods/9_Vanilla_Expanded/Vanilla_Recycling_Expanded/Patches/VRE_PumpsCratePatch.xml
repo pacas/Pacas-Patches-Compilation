@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                    defName="VRecyclingE_LargePollutionPump" or
+                    defName="VRecyclingE_PollutionFastPump"
+                ]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>MoisturePump</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_LargePollutionPump"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>Metallic</li>
+                    </stuffCategories>
+                    <costStuffCount>120</costStuffCount>
+                    <costList>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ElectronicComponents>5</ElectronicComponents>
+                        <Electronics>1</Electronics>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_LargePollutionPump"]/constructionSkillPrerequisite</xpath>
+                <value>
+                    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_LargePollutionPump"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>750</basePowerConsumption>
+                </value>
+            </li>
+            
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_PollutionFastPump"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>75</costStuffCount>
+                    <costList>
+                        <ComponentIndustrial>7</ComponentIndustrial>
+                        <ElectronicComponents>3</ElectronicComponents>
+                        <Electronics>1</Electronics>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_PollutionFastPump"]/constructionSkillPrerequisite</xpath>
+                <value>
+                    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_PollutionFastPump"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                <value>
+                    <basePowerConsumption>1700</basePowerConsumption>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VRecyclingE_WasteCrate"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>60</costStuffCount>
+                    <costList>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <Mechanism>2</Mechanism>
+                    </costList>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

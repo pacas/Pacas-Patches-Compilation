@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>VRE_Trash</defName>
+        <label>recycling packs</label>
+        <parent>Items</parent>
+        <iconPath>UI/Icons/ThingCategories/Wastepacks</iconPath>
+    </ThingCategoryDef>
+    
+</Defs>

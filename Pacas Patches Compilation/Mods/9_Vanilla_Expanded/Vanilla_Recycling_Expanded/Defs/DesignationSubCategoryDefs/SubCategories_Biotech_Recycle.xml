@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_PollPumps</defName>
+		<label>Pollution Pumps</label>
+		<description>Fight pollution with style.</description>
+		<defNames>
+			<li>PollutionPump</li>
+			<li>VRecyclingE_LargePollutionPump</li>
+			<li>VRecyclingE_PollutionFastPump</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Recyclers</defName>
+		<label>Recyclers</label>
+		<description>Extract every last drop of value from your waste.</description>
+		<defNames>
+			<li>VRecyclingE_RecyclingWorkbench</li>
+			<li>VRecyclingE_ElectricRecyclingWorkbench</li>
+			<li>VRecyclingE_GarbageCompactor</li>
+			<li>VRecyclingE_AlloypackSplitter</li>
+		</defNames>
+		<designationCategory>Biotech</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+</Defs>	

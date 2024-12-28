@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechCommanderHelm" or 
+                    defName="AM_MechCommanderSuit"]
+                    /recipeMaker</xpath>
+                    <value>
+                        <recipeMaker>
+                            <researchPrerequisite>AM_MechanoidBeamcasting</researchPrerequisite>
+                            <workSpeedStat>SmithingSpeed</workSpeedStat>
+                            <workSkill>Crafting</workSkill>
+                            <effectWorking>Smith</effectWorking>
+                            <soundWorking>Recipe_Machining</soundWorking>
+                            <recipeUsers>
+                                <li>HyperTailoringBench</li>
+                            </recipeUsers>
+                            <skillRequirements>
+                                <Crafting>17</Crafting>
+                            </skillRequirements>
+                            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                        </recipeMaker>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechBreakerHelm" or 
+                    defName="AM_MechBreakerArmor"]
+                    /recipeMaker</xpath>
+                    <value>
+                        <recipeMaker>
+                            <researchPrerequisite>AM_QuantumPulseMessaging</researchPrerequisite>
+                            <workSpeedStat>SmithingSpeed</workSpeedStat>
+                            <workSkill>Crafting</workSkill>
+                            <effectWorking>Smith</effectWorking>
+                            <soundWorking>Recipe_Machining</soundWorking>
+                            <recipeUsers>
+                                <li>HyperTailoringBench</li>
+                            </recipeUsers>
+                            <skillRequirements>
+                                <Crafting>18</Crafting>
+                            </skillRequirements>
+                            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                        </recipeMaker>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechCommanderSuit" or 
+                    defName="AM_MechBreakerArmor"]/tradeTags</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>Armor</li>
+                        </tradeTags>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechCommanderHelm" or 
+                    defName="AM_MechBreakerHelm"]</xpath>
+                    <value>
+                        <tradeTags>
+                            <li>Armor</li>
+                        </tradeTags>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechCommanderHelm" or 
+                    defName="AM_MechCommanderSuit" or 
+                    defName="AM_MechBreakerHelm" or 
+                    defName="AM_MechBreakerArmor"]</xpath>
+                    <value>
+                        <thingClass>Apparel</thingClass>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit" or defName="AM_MechBreakerArmor"]/apparel</xpath>
+                    <value>
+                        <bodyPartGroups>
+                            <li>Torso</li>
+                            <li>Neck</li>
+                            <li>Shoulders</li>
+                            <li>Arms</li>
+                            <li>Hands</li>
+                            <li>Legs</li>
+                            <li>Feet</li>
+                        </bodyPartGroups>
+                        <layers>
+                            <li>Shell</li>
+                            <li>Middle</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm" or defName="AM_MechBreakerHelm"]/apparel</xpath>
+                    <value>
+                        <bodyPartGroups>
+                            <li>FullHead</li>
+                        </bodyPartGroups>
+                        <layers>
+                            <li>Overhead</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>Defs/ThingDef[
+                    defName="AM_MechCommanderHelm" or 
+                    defName="AM_MechCommanderSuit" or 
+                    defName="AM_MechBreakerHelm" or 
+                    defName="AM_MechBreakerArmor"]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>SK.ArmorSpacerBaseDummy</value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit" or defName="AM_MechBreakerArmor"]</xpath>
+                    <value>
+                        <thingCategories Inherit="false">
+                            <li>MediumUpperArmorCat</li>
+                            <li>Setpowerarmor</li>
+                        </thingCategories>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>RuggedMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>120</costStuffCount>
+                        <costList>
+                            <NanostructuringChip>1</NanostructuringChip>
+                            <PowerfocusChip>1</PowerfocusChip>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <ComponentSpacer>2</ComponentSpacer>
+                            <Carbon>10</Carbon>
+                            <MagneticMaterial>2</MagneticMaterial>
+                            <SyntheticFibers>6</SyntheticFibers>
+                            <Hexcell>2</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>RuggedMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>120</costStuffCount>
+                        <costList>
+                            <AM_QuantumMatrixChip>1</AM_QuantumMatrixChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <ComponentSpacer>2</ComponentSpacer>
+                            <Carbon>10</Carbon>
+                            <MagneticMaterial>2</MagneticMaterial>
+                            <SyntheticFibers>6</SyntheticFibers>
+                            <Hexcell>2</Hexcell>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit" or defName="AM_MechBreakerArmor"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <WorkToMake>60000</WorkToMake>
+                            <MaxHitPoints>120</MaxHitPoints>
+                            <Flammability>0.4</Flammability>
+                            <Mass>3.5</Mass>
+                            <Bulk>25</Bulk>
+                            <WornBulk>10</WornBulk>
+                            <EquipDelay>11</EquipDelay>
+                            <Insulation_Cold>32</Insulation_Cold>
+                            <Insulation_Heat>9</Insulation_Heat>
+                            <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+                            <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+                            <StuffEffectMultiplierArmor>3.47</StuffEffectMultiplierArmor>
+                            <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15.96</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.125</ArmorRating_Heat>
+                        </statBases>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderSuit"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <CarryWeight>20</CarryWeight>
+                            <CarryBulk>15</CarryBulk>
+                            <MoveSpeed>-0.3</MoveSpeed>
+                            <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <MechBandwidth>18</MechBandwidth>
+                            <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                            <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                            <Suppressability>-0.2</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.04</GermResistance>
+                            <GermContainment>0.04</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerArmor"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <CarryWeight>20</CarryWeight>
+                            <CarryBulk>15</CarryBulk>
+                            <MoveSpeed>-0.3</MoveSpeed>
+                            <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.1</PsychicSensitivity>
+                            <MechBandwidth>24</MechBandwidth>
+                            <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                            <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                            <Suppressability>-0.2</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.04</GermResistance>
+                            <GermContainment>0.04</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm" or defName="AM_MechBreakerHelm"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                          <li>MediumHelmetsCat</li>
+                        </thingCategories>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>RuggedMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>60</costStuffCount>
+                        <costList>
+                            <NanostructuringChip>1</NanostructuringChip>
+                            <PowerfocusChip>1</PowerfocusChip>
+                            <ComponentIndustrial>4</ComponentIndustrial>
+                            <ComponentAdvanced>2</ComponentAdvanced>
+                            <ElectronicComponents>1</ElectronicComponents>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]/costList</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>RuggedMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>60</costStuffCount>
+                        <costList>
+                            <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                            <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                            <ComponentIndustrial>4</ComponentIndustrial>
+                            <ComponentAdvanced>2</ComponentAdvanced>
+                            <ElectronicComponents>1</ElectronicComponents>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm" or defName="AM_MechBreakerHelm"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <WorkToMake>45000</WorkToMake>
+                            <MaxHitPoints>270</MaxHitPoints>
+                            <Flammability>0.3</Flammability>
+                            <Mass>3.0</Mass>
+                            <Bulk>5</Bulk>
+                            <WornBulk>7</WornBulk>
+                            <EquipDelay>11</EquipDelay>
+                            <Insulation_Cold>32</Insulation_Cold>
+                            <Insulation_Heat>9</Insulation_Heat>
+                            <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+                            <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+                            <StuffEffectMultiplierArmor>3.47</StuffEffectMultiplierArmor>
+                            <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15.96</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+                        </statBases>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.05</MoveSpeed>
+                            <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.2</PsychicSensitivity>
+                            <MechBandwidth>18</MechBandwidth>
+                            <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                            <Suppressability>-0.2</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.3</GermResistance>
+                            <GermContainment>0.3</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AM_MechBreakerHelm"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.05</MoveSpeed>
+                            <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+                            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                            <PsychicSensitivity>-0.2</PsychicSensitivity>
+                            <MechBandwidth>24</MechBandwidth>
+                            <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                            <Suppressability>-0.2</Suppressability>
+                            <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                            <GermResistance>0.3</GermResistance>
+                            <GermContainment>0.3</GermContainment>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Royalty</li>
+            </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige"]
+                        /recipeMaker</xpath>
+                        <value>
+                            <recipeMaker>
+                                <researchPrerequisite>UltraMechtech</researchPrerequisite>
+                                <workSpeedStat>SmithingSpeed</workSpeedStat>
+                                <workSkill>Crafting</workSkill>
+                                <effectWorking>Smith</effectWorking>
+                                <soundWorking>Recipe_Machining</soundWorking>
+                                <recipeUsers>
+                                    <li>HyperTailoringBench</li>
+                                </recipeUsers>
+                                <skillRequirements>
+                                    <Crafting>16</Crafting>
+                                </skillRequirements>
+                                <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                            </recipeMaker>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_PrestigeMechCommanderSuit"]
+                        /recipeMaker</xpath>
+                        <value>
+                            <recipeMaker>
+                                <researchPrerequisite>AM_MechanoidBeamcasting</researchPrerequisite>
+                                <workSpeedStat>SmithingSpeed</workSpeedStat>
+                                <workSkill>Crafting</workSkill>
+                                <effectWorking>Smith</effectWorking>
+                                <soundWorking>Recipe_Machining</soundWorking>
+                                <recipeUsers>
+                                    <li>HyperTailoringBench</li>
+                                </recipeUsers>
+                                <skillRequirements>
+                                    <Crafting>17</Crafting>
+                                </skillRequirements>
+                                <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                            </recipeMaker>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_PrestigeMechBreakerHelm" or 
+                        defName="AM_PrestigeMechBreakerArmor"]
+                        /recipeMaker</xpath>
+                        <value>
+                            <recipeMaker>
+                                <researchPrerequisite>AM_QuantumPulseMessaging</researchPrerequisite>
+                                <workSpeedStat>SmithingSpeed</workSpeedStat>
+                                <workSkill>Crafting</workSkill>
+                                <effectWorking>Smith</effectWorking>
+                                <soundWorking>Recipe_Machining</soundWorking>
+                                <recipeUsers>
+                                    <li>HyperTailoringBench</li>
+                                </recipeUsers>
+                                <skillRequirements>
+                                    <Crafting>18</Crafting>
+                                </skillRequirements>
+                                <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+                            </recipeMaker>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige" or 
+                        defName="AM_PrestigeMechBreakerArmor"]/tradeTags</xpath>
+                        <value>
+                            <tradeTags>
+                                <li>Armor</li>
+                            </tradeTags>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_PrestigeMechBreakerHelm"]</xpath>
+                        <value>
+                            <tradeTags>
+                                <li>Armor</li>
+                            </tradeTags>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige" or 
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_PrestigeMechBreakerHelm" or 
+                        defName="AM_PrestigeMechBreakerArmor"]</xpath>
+                        <value>
+                            <thingClass>Apparel</thingClass>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_PrestigeMechBreakerArmor" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige"]/apparel</xpath>
+                        <value>
+                            <bodyPartGroups>
+                                <li>Torso</li>
+                                <li>Neck</li>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
+                                <li>Hands</li>
+                                <li>Legs</li>
+                                <li>Feet</li>
+                            </bodyPartGroups>
+                            <layers>
+                                <li>Shell</li>
+                                <li>Middle</li>
+                            </layers>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_PrestigeMechBreakerHelm"]/apparel</xpath>
+                        <value>
+                            <bodyPartGroups>
+                                <li>FullHead</li>
+                            </bodyPartGroups>
+                            <layers>
+                                <li>Overhead</li>
+                            </layers>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAttributeSet">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige" or 
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_PrestigeMechBreakerHelm" or 
+                        defName="AM_PrestigeMechBreakerArmor"]</xpath>
+                        <attribute>ParentName</attribute>
+                        <value>SK.ArmorSpacerBaseDummy</value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige" or 
+                        defName="AM_PrestigeMechBreakerArmor"]</xpath>
+                        <value>
+                            <thingCategories Inherit="false">
+                                <li>MediumUpperArmorCat</li>
+                                <li>Setpowerarmor</li>
+                            </thingCategories>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>120</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <NanostructuringChip>2</NanostructuringChip>
+                                <PowerfocusChip>1</PowerfocusChip>
+                                <ComponentSpacer>2</ComponentSpacer>
+                                <Carbon>10</Carbon>
+                                <MagneticMaterial>2</MagneticMaterial>
+                                <SyntheticFibers>6</SyntheticFibers>
+                                <Hexcell>2</Hexcell>
+                            </costList>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>120</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <NanostructuringChip>1</NanostructuringChip>
+                                <PowerfocusChip>1</PowerfocusChip>
+                                <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                                <ComponentSpacer>2</ComponentSpacer>
+                                <Carbon>10</Carbon>
+                                <MagneticMaterial>2</MagneticMaterial>
+                                <SyntheticFibers>6</SyntheticFibers>
+                                <Hexcell>2</Hexcell>
+                            </costList>
+                        </value>
+                    </li>
+                    
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>120</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <AM_QuantumMatrixChip>1</AM_QuantumMatrixChip>
+                                <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                                <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                                <ComponentSpacer>2</ComponentSpacer>
+                                <Carbon>10</Carbon>
+                                <MagneticMaterial>2</MagneticMaterial>
+                                <SyntheticFibers>6</SyntheticFibers>
+                                <Hexcell>2</Hexcell>
+                            </costList>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_PrestigeMechCommanderSuit" or 
+                        defName="AM_Apparel_MechlordSuit_Prestige" or 
+                        defName="AM_PrestigeMechBreakerArmor"]/statBases</xpath>
+                        <value>
+                            <statBases>
+                                <WorkToMake>60000</WorkToMake>
+                                <MaxHitPoints>120</MaxHitPoints>
+                                <Flammability>0.4</Flammability>
+                                <Mass>3.5</Mass>
+                                <Bulk>25</Bulk>
+                                <WornBulk>10</WornBulk>
+                                <EquipDelay>11</EquipDelay>
+                                <Insulation_Cold>32</Insulation_Cold>
+                                <Insulation_Heat>9</Insulation_Heat>
+                                <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+                                <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+                                <StuffEffectMultiplierArmor>3.47</StuffEffectMultiplierArmor>
+                                <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                                <ArmorRating_Blunt>15.96</ArmorRating_Blunt>
+                                <ArmorRating_Heat>0.125</ArmorRating_Heat>
+                            </statBases>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <CarryWeight>20</CarryWeight>
+                                <CarryBulk>15</CarryBulk>
+                                <MoveSpeed>-0.3</MoveSpeed>
+                                <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>12</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.04</GermResistance>
+                                <GermContainment>0.04</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <CarryWeight>20</CarryWeight>
+                                <CarryBulk>15</CarryBulk>
+                                <MoveSpeed>-0.3</MoveSpeed>
+                                <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>18</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.04</GermResistance>
+                                <GermContainment>0.04</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+                    
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <CarryWeight>20</CarryWeight>
+                                <CarryBulk>15</CarryBulk>
+                                <MoveSpeed>-0.3</MoveSpeed>
+                                <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>24</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.04</GermResistance>
+                                <GermContainment>0.04</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+                    
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_PrestigeMechBreakerHelm"]</xpath>
+                        <value>
+                            <thingCategories Inherit="false">
+                              <li>MediumHelmetsCat</li>
+                            </thingCategories>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>60</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <NanostructuringChip>2</NanostructuringChip>
+                                <ComponentIndustrial>4</ComponentIndustrial>
+                                <ComponentAdvanced>2</ComponentAdvanced>
+                                <ElectronicComponents>1</ElectronicComponents>
+                            </costList>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>60</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                                <PowerfocusChip>1</PowerfocusChip>
+                                <ComponentIndustrial>4</ComponentIndustrial>
+                                <ComponentAdvanced>2</ComponentAdvanced>
+                                <ElectronicComponents>1</ElectronicComponents>
+                            </costList>
+                        </value>
+                    </li>
+                    
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/costList</xpath>
+                        <value>
+                            <stuffCategories>
+                                <li>RuggedMetallic</li>
+                            </stuffCategories>
+                            <costStuffCount>60</costStuffCount>
+                            <costList>
+                                <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">1</VPE_Eltex>
+                                <AM_HyperLinkageChip>1</AM_HyperLinkageChip>
+                                <AM_StellarProcessingChip>1</AM_StellarProcessingChip>
+                                <ComponentIndustrial>4</ComponentIndustrial>
+                                <ComponentAdvanced>2</ComponentAdvanced>
+                                <ElectronicComponents>1</ElectronicComponents>
+                            </costList>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[
+                        defName="AM_MechCommanderHelm_Prestige" or 
+                        defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or 
+                        defName="AM_PrestigeMechBreakerHelm"]/statBases</xpath>
+                        <value>
+                            <statBases>
+                                <WorkToMake>45000</WorkToMake>
+                                <MaxHitPoints>270</MaxHitPoints>
+                                <Flammability>0.3</Flammability>
+                                <Mass>3.0</Mass>
+                                <Bulk>5</Bulk>
+                                <WornBulk>7</WornBulk>
+                                <EquipDelay>11</EquipDelay>
+                                <Insulation_Cold>32</Insulation_Cold>
+                                <Insulation_Heat>9</Insulation_Heat>
+                                <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+                                <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+                                <StuffEffectMultiplierArmor>3.47</StuffEffectMultiplierArmor>
+                                <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                                <ArmorRating_Blunt>15.96</ArmorRating_Blunt>
+                                <ArmorRating_Heat>0.25</ArmorRating_Heat>
+                            </statBases>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <MoveSpeed>-0.05</MoveSpeed>
+                                <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>12</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.3</GermResistance>
+                                <GermContainment>0.3</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <MoveSpeed>-0.05</MoveSpeed>
+                                <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>18</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.3</GermResistance>
+                                <GermContainment>0.3</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+                    
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/equippedStatOffsets</xpath>
+                        <value>
+                            <equippedStatOffsets>
+                                <MoveSpeed>-0.05</MoveSpeed>
+                                <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+                                <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+                                <PainShockThreshold>0.05</PainShockThreshold>
+                                <PsychicSensitivity>0.075</PsychicSensitivity>
+                                <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+                                <MechBandwidth>24</MechBandwidth>
+                                <ShootingAccuracyPawn>-0.08</ShootingAccuracyPawn>
+                                <AimingDelayFactor>0.05</AimingDelayFactor>
+                                <MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+                                <Suppressability>-0.2</Suppressability>
+                                <ArmorRating_Toxin>0.16</ArmorRating_Toxin>
+                                <GermResistance>0.3</GermResistance>
+                                <GermContainment>0.3</GermContainment>
+                            </equippedStatOffsets>
+                        </value>
+                    </li>
+
+                </operations>
+            </match>
+        </match>
+    </Operation>
+</Patch>

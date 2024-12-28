@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_ArmorHelmetMechCommander.label>шлем мех-лорда</Apparel_ArmorHelmetMechCommander.label>
+  <Apparel_ArmorHelmetMechCommander.description>Тяжёлый шлем из укрепленных материалов, оснащённый вспомогательными приспособлениями для механитора. Шлем мехлорда значительно увеличивает пропускную способность владельца, однако защищает хуже, чем специализированная тяжёлая броня.</Apparel_ArmorHelmetMechCommander.description>
+
+  <AM_MechCommanderHelm.label>шлем мех-мастера</AM_MechCommanderHelm.label>
+  <AM_MechCommanderHelm.description>Тяжёлый силовой шлем для механиторов чтобы защитить голову и улучшить пропускную способность.</AM_MechCommanderHelm.description>
+
+  <AM_MechBreakerHelm.label>шлем мех-разрушителя</AM_MechBreakerHelm.label>
+  <AM_MechBreakerHelm.description>Модифицированная версия шлема штурмовика, предназначенная для еще большего улучшения способностей механитора.</AM_MechBreakerHelm.description>
+
+  <AM_Apparel_ArmorHelmetMechlordHelmet_Prestige.label>роскошный шлем мех-лорда</AM_Apparel_ArmorHelmetMechlordHelmet_Prestige.label>
+  <AM_Apparel_ArmorHelmetMechlordHelmet_Prestige.description>Тяжёлый шлем из укрепленных материалов, оснащённый вспомогательными приспособлениями для механитора. Шлем мехлорда значительно увеличивает пропускную способность владельца, однако защищает хуже, чем специализированная тяжёлая броня. Подходит для знати.</AM_Apparel_ArmorHelmetMechlordHelmet_Prestige.description>
+
+  <AM_MechCommanderHelm_Prestige.label>роскошный шлем мех-мастера</AM_MechCommanderHelm_Prestige.label>
+  <AM_MechCommanderHelm_Prestige.description>Тяжёлый силовой шлем для механиторов чтобы защитить голову и улучшить пропускную способность. Подходит для знати.</AM_MechCommanderHelm_Prestige.description>
+
+  <AM_PrestigeMechBreakerHelm.label>роскошный шлем мех-разрушителя</AM_PrestigeMechBreakerHelm.label>
+  <AM_PrestigeMechBreakerHelm.description>Модифицированная версия шлема штурмовика, предназначенная для еще большего улучшения способностей механитора. Подходит для знати.</AM_PrestigeMechBreakerHelm.description>
+
+
+</LanguageData>

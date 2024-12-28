@@ -16,6 +16,9 @@
     <Colder_Coldstone>Более холодный хладокамень</Colder_Coldstone>
     <Colder_Coldstone_Tooltip>Хладокаменная батарея выделяет больше мороза</Colder_Coldstone_Tooltip>
     
+    <Cheaper_Vents>Более дешевые вентиляции</Cheaper_Vents>
+    <Cheaper_Vents_Tooltip>Удешевляет вентиляции</Cheaper_Vents_Tooltip>
+    
     <Cheaper_Rimfeller_Pipes>Более дешевые трубы для нефти</Cheaper_Rimfeller_Pipes>
     <Cheaper_Rimfeller_Pipes_Tooltip>Удешевляет трубы (с 15 до 5)</Cheaper_Rimfeller_Pipes_Tooltip>
     

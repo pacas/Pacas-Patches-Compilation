@@ -33,7 +33,7 @@
         <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers/1.4</li>
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <li IfModActive="uveren.hemogenextractor.1">Mods/Simple_Mods/Hemogen_Extractor</li>
-        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.4</li>
+        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Collars/1.4</li>
         <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <li IfModActive="sl4vp0wer.dominantgene">Mods/Simple_Mods/Dominant_Gene/1.4</li>
         <!-- Races mods -->
@@ -48,12 +48,12 @@
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
         <!-- VE mods -->
-        <li IfModActive="vanillaexpanded.recycling">Mods/9_Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
-        <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
-        <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
-        <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
-        <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
-        <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <li IfModActive="vanillaexpanded.recycling">Mods/Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
+        <li IfModActive="vse.perrypersistent">Mods/Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
+        <li IfModActive="vanillaracesexpanded.genie">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
+        <li IfModActive="vanillaracesexpanded.hussar">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
+        <li IfModActive="vanillaracesexpanded.phytokin">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
+        <li IfModActive="vanillaracesexpanded.saurid">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
 	</v1.4>
     <v1.5>
 		<li>/</li>
@@ -72,6 +72,9 @@
         <!-- RJW mods -->
         <li IfModActive="rim.job.world">Mods/RJW/CoreMod/1.5</li>
         <li IfModActive="rjw.sexperience">Mods/RJW/Sexperience/1.5</li>
+        <li IfModActive="rim.job.world.onahole.ext">Mods/RJW/Onahole/1.5</li>
+        <li IfModActive="shauaputa.lewdtrader">Mods/RJW/Traders/1.5</li>
+        <li IfModActive="archersaiter.rjw.races.tribal">Mods/RJW/Unleashed_Tribals/1.5</li>
         <!-- Simple mods -->
         <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/Simple_Mods/RimForge_Power_Poles</li>
@@ -84,7 +87,7 @@
         <li IfModActive="redmattis.geneextractor">Mods/Simple_Mods/GeneExtractorTiers/1.5</li>
         <li IfModActive="mlie.eggincubator">Mods/Simple_Mods/Egg_Incubator</li>
         <li IfModActive="uveren.hemogenextractor">Mods/Simple_Mods/Hemogen_Extractor</li>
-        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Columns/1.5</li>
+        <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Collars/1.5</li>
         <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <li IfModActive="redmattis.bettergeneinheritance">Mods/Simple_Mods/BetterGeneInheritance/1.5</li>
         <!-- Races mods -->
@@ -99,12 +102,19 @@
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="arpomo6.hmc.project">Mods/Races_Xenotypes/Skavens/NoHMC</li>
         <li IfModActive="mlie.warhammerskaven" IfModNotActive="ViTech.MedievalOverhaul">Mods/Races_Xenotypes/Skavens/NoVPI</li>
         <!-- VE mods -->
-        <li IfModActive="vanillaexpanded.recycling">Mods/9_Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
-        <li IfModActive="vse.perrypersistent">Mods/9_Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
-        <li IfModActive="vanillaracesexpanded.genie">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
-        <li IfModActive="vanillaracesexpanded.hussar">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
-        <li IfModActive="vanillaracesexpanded.phytokin">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
-        <li IfModActive="vanillaracesexpanded.saurid">Mods/9_Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <li IfModActive="vanillaexpanded.recycling">Mods/Vanilla_Expanded/Vanilla_Recycling_Expanded</li>
+        <li IfModActive="vanillaexpanded.vpersonaweaponse">Mods/Vanilla_Expanded/Vanilla_Persona_Weapons_Expanded</li>
+        <li IfModActive="vanillaexpanded.vnutriente">Mods/Vanilla_Expanded/Vanilla_Nutient_Paste_Expanded/1.5</li>
+        <li IfModActive="vanillaexpanded.vnutriente" IfModNotActive="regex.skp">Mods/Vanilla_Expanded/Vanilla_Nutient_Paste_Expanded/NoMasaki</li>
+        <li IfModActive="vse.perrypersistent">Mods/Vanilla_Expanded/Vanilla_Storytellers_Expanded_Perry_Persistent</li>
+        <li IfModActive="vanillaracesexpanded.genie">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Genie</li>
+        <li IfModActive="vanillaracesexpanded.hussar">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Hussar</li>
+        <li IfModActive="vanillaracesexpanded.phytokin">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Phytokin</li>
+        <li IfModActive="vanillaracesexpanded.saurid">Mods/Vanilla_Expanded/Vanilla_Races_Expanded_Saurid</li>
+        <!-- B&S mods -->
+        <li IfModActive="redmattis.betterprerequisites">Mods/BigAndSmall/Core/1.5</li>
+        <li IfModActive="redmattis.bigsmall.core">Mods/BigAndSmall/Genes/1.5</li>
+        <li IfModActive="redmattis.bigsmall.core" IfModNotActive="arpomo6.hmc.project">Mods/BigAndSmall/Genes/NoHMC</li>
         
         <!--Not updated(yet?)-->
         <!--

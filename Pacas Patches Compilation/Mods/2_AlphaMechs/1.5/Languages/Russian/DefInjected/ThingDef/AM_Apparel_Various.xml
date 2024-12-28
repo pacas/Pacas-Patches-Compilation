@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_MechlordSuit.label>броня мех-лорда</Apparel_MechlordSuit.label>
+  
+  <AM_MechCommanderSuit.label>броня мех-мастера</AM_MechCommanderSuit.label>
+  <AM_MechCommanderSuit.description>Силовой бронекостюм, оснащённый вспомогательным оборудованием для механиторов. Значительно увеличивает пропускную способность механитора, однако защищает хуже, чем специализированная тяжёлая броня.</AM_MechCommanderSuit.description>
+
+  <AM_MechBreakerArmor.label>броня мех-разрушителя</AM_MechBreakerArmor.label>
+  <AM_MechBreakerArmor.description>Модифицированный костюм брони разрушителя, предназначенный для ещё большего улучшения способностей механитора.</AM_MechBreakerArmor.description>
+  
+  <AM_Apparel_MechlordSuit_Prestige.label>роскошная броня мех-лорда</AM_Apparel_MechlordSuit_Prestige.label>
+  <AM_Apparel_MechlordSuit_Prestige.description>Силовой бронекостюм, оснащённый вспомогательным оборудованием для механиторов. Значительно увеличивает пропускную способность механитора, однако защищает хуже, чем специализированная тяжёлая броня. Подходит для знати.</AM_Apparel_MechlordSuit_Prestige.description>
+
+  <AM_PrestigeMechCommanderSuit.label>роскошная броня мех-мастера</AM_PrestigeMechCommanderSuit.label>
+  <AM_PrestigeMechCommanderSuit.description>Силовой бронекостюм, оснащённый вспомогательным оборудованием для механиторов. Значительно увеличивает пропускную способность механитора, однако защищает хуже, чем специализированная тяжёлая броня. Подходит для знати.</AM_PrestigeMechCommanderSuit.description>
+
+  <AM_PrestigeMechBreakerArmor.label>роскошная броня мех-разрушителя</AM_PrestigeMechBreakerArmor.label>
+  <AM_PrestigeMechBreakerArmor.description>Модифицированный костюм брони разрушителя, предназначенный для еще большего улучшения способностей механитора. Подходит для знати.</AM_PrestigeMechBreakerArmor.description>
+
+
+</LanguageData>

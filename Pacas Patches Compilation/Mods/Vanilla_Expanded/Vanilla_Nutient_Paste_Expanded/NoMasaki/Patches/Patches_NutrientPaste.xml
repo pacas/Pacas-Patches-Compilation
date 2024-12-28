@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Nutrient Paste Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 营养膏管道 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipe"]/constructEffect</xpath>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipe"]/costList</xpath>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipe"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>2</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipe"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏地下管道 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_UndergroundNutrientPastePipe"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_UndergroundNutrientPastePipe"]/costList</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_UndergroundNutrientPastePipe"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>2</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_UndergroundNutrientPastePipe"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏阀门 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteValve"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteValve"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>1</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteValve"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>10</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteValve"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏碾制机 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteGrinder"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteGrinder"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ElectronicComponents>3</ElectronicComponents>
+                            <Mechanism>3</Mechanism>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteGrinder"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>100</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteGrinder"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏供给器 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteTap"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteTap"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <Glass>50</Glass>
+                            <ElectronicComponents>2</ElectronicComponents>
+                            <Mechanism>2</Mechanism>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteTap"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>25</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteTap"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏排出口 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteFeeder"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>1</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteFeeder"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>25</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteFeeder"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏滴喂器 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteDripper"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>1</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteDripper"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>25</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteDripper"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- 营养膏冷储藏罐 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>4</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>150</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

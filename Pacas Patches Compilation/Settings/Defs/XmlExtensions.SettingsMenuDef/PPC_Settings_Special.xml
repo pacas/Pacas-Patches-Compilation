@@ -52,6 +52,17 @@
                                 <spacing>12</spacing>
                             </li>
                             <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>Cheaper_Vents</key>
+                                <label>Cheaper Vents</label>
+                                <tKey>Cheaper_Vents</tKey>
+                                <defaultValue>false</defaultValue>
+                                <tooltip>Modifies cost of vent (35 to 15)</tooltip>
+                                <tKeyTip>Cheaper_Vents_Tooltip</tKeyTip>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Gap">
+                                <spacing>12</spacing>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
                                 <key>Cheaper_Rimfeller_Pipes</key>
                                 <label>Cheaper Rimfeller Pipes</label>
                                 <tKey>Cheaper_Rimfeller_Pipes</tKey>

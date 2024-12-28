@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ScenarioDef[defName="BS_CrashlandedXenoPlus"]</xpath>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[
+        defName="BS_MakeAndroidFuelFromChemfuel_CookingStation" or 
+        defName="BS_MakeAndroidFuelFromWood_CookingStation" or 
+        defName="BS_MakeAndroidFuelFromChemfuel_Refinery" or 
+        defName="BS_MakeAndroidFuelFromWood_Refinery"]
+        </xpath>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BS_AndroidFuel"]</xpath>
+    </Operation>
+    
+    <!--<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[@Name="BS_DefaultHumanlike"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>SK_Human</value>
+	</Operation>-->
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="BS_DefaultHumanlike"]/race</xpath>
+        <value>
+            <useMeatFrom>Human</useMeatFrom>
+            <leatherDef>Leather_Human</leatherDef>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/PawnCapacityDef[defName="Breathing"]/labelMechanoids[text()="Cooling capacity"]</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/PawnCapacityDef[defName="Breathing"]/labelMechanoids[text()="Cooling capacity"]</xpath>
+        </match>
+    </Operation>
+    
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/PawnCapacityDef[defName="Metabolism"]/labelMechanoids[text()="Fuel efficiency"]</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/PawnCapacityDef[defName="Metabolism"]/labelMechanoids[text()="Fuel efficiency"]</xpath>
+        </match>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <BS_SurtrSword_Persona.label>Синхромеч Сурта</BS_SurtrSword_Persona.label>
+    <BS_SurtrSword_Persona.description>Огромный одноручный меч с лезвием, полным едва сдерживаемой силой солнца. Меч обжигает, режет и расплавляет всё, что, на свою беду, встретится с его лезвием.\n\nЭтот меч настолько большой и тяжёлый, что даже гигантам часто бывает трудно им сражаться.</BS_SurtrSword_Persona.description>
+    <BS_SurtrSword_Persona.tools.0.label>рукоять</BS_SurtrSword_Persona.tools.0.label>
+    <BS_SurtrSword_Persona.tools.1.label>остриё</BS_SurtrSword_Persona.tools.1.label>
+    <BS_SurtrSword_Persona.tools.2.label>лезвие</BS_SurtrSword_Persona.tools.2.label>
+
+    <BS_SkrymirHammer_Persona.label>Синхромолот Скрюмира</BS_SkrymirHammer_Persona.label>
+    <BS_SkrymirHammer_Persona.description>Абсурдно большой и тяжёлый молот неизвестного происхождения. Утверждается, что он обладает силой зимнего шторма.\n\nТе немногие вещи, которые громовые удары молота не превращают в пыль одной лишь своей силой, становятся хрупкими от мороза и оглушаются мощной ударной волной.</BS_SkrymirHammer_Persona.description>
+    <BS_SkrymirHammer_Persona.tools.0.label>рукоять</BS_SkrymirHammer_Persona.tools.0.label>
+    <BS_SkrymirHammer_Persona.tools.1.label>головка</BS_SkrymirHammer_Persona.tools.1.label>
+  
+</LanguageData>

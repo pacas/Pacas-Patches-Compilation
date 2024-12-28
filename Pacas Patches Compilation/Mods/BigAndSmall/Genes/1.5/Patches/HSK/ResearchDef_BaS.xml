@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Tab_Cost</patchName>
+                <arguments>
+                    <li>BS_AnimalGrowthSerums</li>
+                    <li>13</li>
+                    <li>64</li>
+                    <li>Buildings_SK</li>
+                    <li>1500</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_Hitech</patchName>
+                <arguments>
+                    <li>BS_AnimalGrowthSerums</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Tab_Cost</patchName>
+                <arguments>
+                    <li>BS_GeneScience</li>
+                    <li>13</li>
+                    <li>65</li>
+                    <li>Buildings_SK</li>
+                    <li>2000</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_Hitech</patchName>
+                <arguments>
+                    <li>BS_GeneScience</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="BS_AnimalGrowthSerums" or defName="BS_GeneScience"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                      <li>Xenogermination</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Tab_Cost_Techlevel</patchName>
+                <arguments>
+                    <li>BS_MadScienceField</li>
+                    <li>19</li>
+                    <li>68</li>
+                    <li>Buildings_SK</li>
+                    <li>2500</li>
+                    <li>Spacer</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_HitechMulti</patchName>
+                <arguments>
+                    <li>BS_MadScienceField</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.PatchOperationReplace">
+                <xmlDoc>ResearchDoc</xmlDoc>
+                <xpath>ResearchDoc/ResearchProjectDef[defName="BS_MadScienceField"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>BS_AnimalGrowthSerums</li>
+                        <li>BS_GeneScience</li>
+                        <li>GeneProcessor</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Positions_Tab_Cost_Techlevel</patchName>
+                <arguments>
+                    <li>BS_ArchiteGeneScience</li>
+                    <li>20</li>
+                    <li>68</li>
+                    <li>Buildings_SK</li>
+                    <li>3500</li>
+                    <li>Spacer</li>
+                </arguments>
+            </li>
+            <li Class="XmlExtensions.ApplyPatch">
+                <patchName>Research_Tables_HitechLabStation</patchName>
+                <arguments>
+                    <li>BS_ArchiteGeneScience</li>
+                </arguments>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="Archogenetics"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>BS_ArchiteGeneScience</li>
+                    </prerequisites>
+                </value>
+            </li>
+            
+            
+            <li Class="XmlExtensions.MergeDocument">
+                <docName>ResearchDoc</docName>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

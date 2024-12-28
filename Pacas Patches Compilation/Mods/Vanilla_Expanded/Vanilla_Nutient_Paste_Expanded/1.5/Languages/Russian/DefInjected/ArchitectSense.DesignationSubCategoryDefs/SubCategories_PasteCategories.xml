@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_NutrientPastePipes.label>Трубы подачи пасты</SubCategory_NutrientPastePipes.label>
+    <SubCategory_NutrientPastePipes.description>Легкие трубы для транспортировки пасты.</SubCategory_NutrientPastePipes.description>
+
+    <SubCategory_PasteVats.label>Баки питательной пасты</SubCategory_PasteVats.label>
+    <SubCategory_PasteVats.description>Большие емкости для хранения запасов пищи колонии.</SubCategory_PasteVats.description>
+
+    <SubCategory_PasteGrinders.label>Синтезаторы пасты</SubCategory_PasteGrinders.label>
+    <SubCategory_PasteGrinders.description>Аппараты для синтеза питательной пасты.</SubCategory_PasteGrinders.description>
+    
+</LanguageData>

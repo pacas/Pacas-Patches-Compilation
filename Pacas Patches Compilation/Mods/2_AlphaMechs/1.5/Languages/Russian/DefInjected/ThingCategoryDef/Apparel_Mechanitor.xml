@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SetMechanitor.label>комплект механитора</SetMechanitor.label>
+    <SetMechanitor.label>комплект механитора</SetMechanitor.label>
+    <AM_ChipsCores.label>чипы и ядра</AM_ChipsCores.label>
 
 </LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[
+        defName="BS_MealLargeSurvivalPack" or
+        defName="BS_MealLargeSimple" or
+        defName="BS_MealLargeFine" or
+        defName="BS_MealLargeFine_Veg" or
+        defName="BS_MealLargeFine_Meat" or
+        defName="BS_MealLargeLavish" or
+        defName="BS_MealLargeLavish_Veg" or
+        defName="BS_MealLargeLavish_Meat" or
+        @Name="BS_MealLargeLavishBase" or
+        @Name="BS_MealLargeFineBase"]</xpath>
+	</Operation>
+    
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[
+        defName="BS_CookLargeMealSimple" or
+        defName="BS_CookLargeMealSimpleBulk" or
+        defName="BS_CookLargeMealFine" or
+        defName="BS_CookLargeMealFine_Veg" or
+        defName="BS_CookLargeMealFine_Meat" or
+        defName="BS_CookLargeMealFineBulk" or
+        defName="BS_CookLargeMealFineBulk_Meat" or
+        defName="BS_CookLargeMealFineBulk_Veg" or
+        defName="BS_CookLargeMealLavish" or
+        defName="BS_CookLargeMealLavish_Meat" or
+        defName="BS_CookLargeMealLavish_Veg" or
+        defName="BS_CookLargeMealLavishBulk" or
+        defName="BS_CookLargeMealLavishBulk_Veg" or
+        defName="BS_CookLargeMealLavishBulk_Meat" or
+        defName="BS_CookLargeMealSurvival" or
+        defName="BS_CookLargeMealSurvivalBulk"]</xpath>
+	</Operation>
+    
+</Patch>

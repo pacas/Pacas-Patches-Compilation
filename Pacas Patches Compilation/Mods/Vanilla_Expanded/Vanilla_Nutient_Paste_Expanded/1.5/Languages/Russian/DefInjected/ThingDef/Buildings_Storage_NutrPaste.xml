@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VNPE_NutrientPasteVat_Small.label>малый бак для пасты</VNPE_NutrientPasteVat_Small.label>
+    <VNPE_NutrientPasteVat_Small.description>Большая ёмкость для хранения питательной пасты, в ней помещается до 75 порций. При уничтожении оставляет после себя много грязи.</VNPE_NutrientPasteVat_Small.description>
+
+    <VNPE_NutrientPasteVat.label>средний бак для пасты</VNPE_NutrientPasteVat.label>
+    <VNPE_NutrientPasteVat.description>Большая ёмкость для хранения питательной пасты, в ней помещается до 360 порций. При уничтожении оставляет после себя много грязи.</VNPE_NutrientPasteVat.description>
+
+    <VNPE_NutrientPasteVat_Giant.label>большой бак для пасты</VNPE_NutrientPasteVat_Giant.label>
+    <VNPE_NutrientPasteVat_Giant.description>Большая ёмкость для хранения питательной пасты, в ней помещается до 1215 порций. При уничтожении оставляет после себя много грязи.</VNPE_NutrientPasteVat_Giant.description>
+
+    <VNPE_NutrientPasteVat_XL.label>огромный бак для пасты</VNPE_NutrientPasteVat_XL.label>
+    <VNPE_NutrientPasteVat_XL.description>Большая ёмкость для хранения питательной пасты, в ней помещается до 2880 порций. При уничтожении оставляет после себя много грязи.</VNPE_NutrientPasteVat_XL.description>
+
+    <VNPE_NutrientPasteVat_XXL.label>гигантский бак для пасты</VNPE_NutrientPasteVat_XXL.label>
+    <VNPE_NutrientPasteVat_XXL.description>Большая ёмкость для хранения питательной пасты, в ней помещается до 5625 порций. При уничтожении оставляет после себя много грязи.</VNPE_NutrientPasteVat_XXL.description>
+    
+</LanguageData>

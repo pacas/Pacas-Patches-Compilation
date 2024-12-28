@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Connected Bed</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 营养膏滴喂医疗床 -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_ConnectedBed"]/costStuffCount</xpath>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_ConnectedBed"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <Cloth>50</Cloth>
+                            <MedicineIndustrial>10</MedicineIndustrial>
+                            <ComponentIndustrial>3</ComponentIndustrial>
+                            <Mechanism>1</Mechanism>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_ConnectedBed"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                            <li>Plastic</li>
+                        </stuffCategories>
+                        <costStuffCount>60</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_ConnectedBed"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_ConnectedBed"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>HospitalBed</li>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

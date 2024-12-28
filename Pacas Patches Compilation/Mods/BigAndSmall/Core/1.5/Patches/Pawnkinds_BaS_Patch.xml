@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="BS_ColonistXenoPlus"]</xpath>
+        <value>
+            <PawnKindDef ParentName="SK_BasePlayerPawnKind">
+                <defName>BS_ColonistXenoPlus</defName>
+                <label>colonist</label>
+                <defaultFactionType>PlayerColony</defaultFactionType>
+                <chemicalAddictionChance>0.06</chemicalAddictionChance>
+                <apparelTags>
+                    <li>CryptosleepSpacer</li>
+                    <li>Apparel_Ushanka</li>
+                </apparelTags>
+                <apparelMoney>1800~2400</apparelMoney>
+                <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+                <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+                <initialResistanceRange>13~21</initialResistanceRange>
+                    <xenotypeSet Inherit="False">
+                      <xenotypeChances>
+                        <Hussar>1</Hussar>
+                        <Waster>0.5</Waster>
+                        <Dirtmole>0.25</Dirtmole>
+                        <Genie>2</Genie>
+                        <Pigskin>0.5</Pigskin>
+                        <Yttakin>0.1</Yttakin>
+                        <Impid>0.1</Impid>
+                        <Neanderthal>0.25</Neanderthal>
+                        <VRE_Boarskin MayRequire="vanillaracesexpanded.pigskin">0.5</VRE_Boarskin>
+                        <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">1</VRE_Lowmate>
+                        <BS_Lilim MayRequire="RedMattis.Heaven">0.5</BS_Lilim>
+                        <VU_Imp MayRequire="RedMattis.Heaven">0.25</VU_Imp>
+                        <LoS_Lamia MayRequire="RedMattis.LamiasAndOtherSnakes">1</LoS_Lamia>
+                        <LoS_Siren MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Siren>
+                        <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Gorgon>
+                        <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">1</Naga>
+                        <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</Nagaraj>
+                        <BS_PinkSlime MayRequire="RedMattis.BSSlimes">0.5</BS_PinkSlime>
+                        <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.25</BS_ElixirSlime>
+                        <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.5</BS_BananaSplitSlime>
+                        <BS_RedOni MayRequire="RedMattis.Yokai">1</BS_RedOni>
+                        <BS_BlueOni MayRequire="RedMattis.Yokai">1</BS_BlueOni>
+                        <BS_GreatRedOni MayRequire="RedMattis.Yokai">0.25</BS_GreatRedOni>
+                        <BS_GreatBlueOni MayRequire="RedMattis.Yokai">0.25</BS_GreatBlueOni>
+                        <BS_Nekomata MayRequire="RedMattis.Yokai">0.50</BS_Nekomata>
+                        <BS_Kitsune MayRequire="RedMattis.Yokai">0.50</BS_Kitsune>
+                        <BS_Weaver MayRequire="RedMattis.MoreXenos">1</BS_Weaver>
+                        <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.5</BS_Devilspider>
+                        <BS_Redcap MayRequire="RedMattis.BigSmall">0.5</BS_Redcap>
+                        <BS_Svartalf MayRequire="RedMattis.BigSmall">0.5</BS_Svartalf>
+                        <BS_FrostJotun MayRequire="RedMattis.BigSmall">1</BS_FrostJotun>
+                        <BS_Ymir MayRequire="RedMattis.BigSmall">0.5</BS_Ymir>
+                        <BS_Surtr MayRequire="RedMattis.BigSmall">0.5</BS_Surtr>
+                        <BS_FireJotun MayRequire="RedMattis.BigSmall">1</BS_FireJotun>
+                        <BS_Jotun MayRequire="RedMattis.BigSmall">1</BS_Jotun>
+                        <BS_Half_Jotun MayRequire="RedMattis.BigSmall">1</BS_Half_Jotun>
+                        <BS_Dwarf MayRequire="RedMattis.BigSmall">1</BS_Dwarf>
+                        <BS_Gnome MayRequire="RedMattis.BigSmall">1</BS_Gnome>
+                        <VU_WhiteRose MayRequire="Redmattis.Undead">0.5</VU_WhiteRose>
+                        <VU_Lycantrope MayRequire="Redmattis.Undead">1</VU_Lycantrope>
+                      </xenotypeChances>
+                    </xenotypeSet>
+            </PawnKindDef>
+        </value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="BS_TribespersonXenoPlus"]</xpath>
+        <value>
+            <PawnKindDef ParentName="SK_BasePlayerPawnKind">
+                <defName>BS_TribespersonXenoPlus</defName>
+                <label>member</label>
+                <race>Human</race>
+                <defaultFactionType>PlayerTribe</defaultFactionType>
+                <chemicalAddictionChance>0.05</chemicalAddictionChance>
+                <apparelTags>
+                    <li>Tribal</li>
+                </apparelTags>
+                <apparelMoney>200~400</apparelMoney>
+                <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+                <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+                <techHediffsMoney>50~50</techHediffsMoney>
+                <techHediffsTags Inherit="false">
+                    <li>Poor</li>
+                </techHediffsTags>
+                <techHediffsChance>0.02</techHediffsChance>
+                <techHediffsDisallowTags>
+                    <li>PainCauser</li>
+                </techHediffsDisallowTags>
+                <initialResistanceRange>9~15</initialResistanceRange>
+                    <xenotypeSet Inherit="False">
+                      <xenotypeChances>
+                        <Hussar>1</Hussar>
+                        <Waster>0.5</Waster>
+                        <Dirtmole>0.25</Dirtmole>
+                        <Genie>2</Genie>
+                        <Pigskin>0.5</Pigskin>
+                        <Yttakin>0.1</Yttakin>
+                        <Impid>0.1</Impid>
+                        <Neanderthal>0.25</Neanderthal>
+                        <VRE_Boarskin MayRequire="vanillaracesexpanded.pigskin">0.5</VRE_Boarskin>
+                        <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">1</VRE_Lowmate>
+                        <BS_Lilim MayRequire="RedMattis.Heaven">0.5</BS_Lilim>
+                        <VU_Imp MayRequire="RedMattis.Heaven">0.25</VU_Imp>
+                        <LoS_Lamia MayRequire="RedMattis.LamiasAndOtherSnakes">1</LoS_Lamia>
+                        <LoS_Siren MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Siren>
+                        <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Gorgon>
+                        <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">1</Naga>
+                        <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</Nagaraj>
+                        <BS_PinkSlime MayRequire="RedMattis.BSSlimes">0.5</BS_PinkSlime>
+                        <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.25</BS_ElixirSlime>
+                        <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.5</BS_BananaSplitSlime>
+                        <BS_RedOni MayRequire="RedMattis.Yokai">1</BS_RedOni>
+                        <BS_BlueOni MayRequire="RedMattis.Yokai">1</BS_BlueOni>
+                        <BS_GreatRedOni MayRequire="RedMattis.Yokai">0.25</BS_GreatRedOni>
+                        <BS_GreatBlueOni MayRequire="RedMattis.Yokai">0.25</BS_GreatBlueOni>
+                        <BS_Nekomata MayRequire="RedMattis.Yokai">0.50</BS_Nekomata>
+                        <BS_Kitsune MayRequire="RedMattis.Yokai">0.50</BS_Kitsune>
+                        <BS_Weaver MayRequire="RedMattis.MoreXenos">1</BS_Weaver>
+                        <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.5</BS_Devilspider>
+                        <BS_Redcap MayRequire="RedMattis.BigSmall">0.5</BS_Redcap>
+                        <BS_Svartalf MayRequire="RedMattis.BigSmall">0.5</BS_Svartalf>
+                        <BS_FrostJotun MayRequire="RedMattis.BigSmall">1</BS_FrostJotun>
+                        <BS_Ymir MayRequire="RedMattis.BigSmall">0.5</BS_Ymir>
+                        <BS_Surtr MayRequire="RedMattis.BigSmall">0.5</BS_Surtr>
+                        <BS_FireJotun MayRequire="RedMattis.BigSmall">1</BS_FireJotun>
+                        <BS_Jotun MayRequire="RedMattis.BigSmall">1</BS_Jotun>
+                        <BS_Half_Jotun MayRequire="RedMattis.BigSmall">1</BS_Half_Jotun>
+                        <BS_Dwarf MayRequire="RedMattis.BigSmall">1</BS_Dwarf>
+                        <BS_Gnome MayRequire="RedMattis.BigSmall">1</BS_Gnome>
+                        <VU_WhiteRose MayRequire="Redmattis.Undead">0.5</VU_WhiteRose>
+                        <VU_Lycantrope MayRequire="Redmattis.Undead">1</VU_Lycantrope>
+                      </xenotypeChances>
+                    </xenotypeSet>
+            </PawnKindDef>
+        </value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="BS_VillagerXenoPlus"]</xpath>
+        <value>
+            <PawnKindDef ParentName="SK_OutlanderBase">
+                <defName>BS_VillagerXenoPlus</defName>
+                <label>Villager</label>
+                <race>Human</race>
+                <combatPower>105</combatPower>
+                <itemQuality>Poor</itemQuality>
+                <isFighter>false</isFighter>
+                <gearHealthRange>
+                    <min>0.2</min>
+                    <max>2.0</max>
+                </gearHealthRange>
+                <apparelMoney>
+                    <min>370</min>
+                    <max>900</max>
+                </apparelMoney>
+                <apparelRequired>
+                    <li>Norballo_Shirt</li>
+                </apparelRequired>
+                <apparelTags>
+                    <li>BanditsLight</li>
+                    <li>WoodenShield</li>
+                </apparelTags>
+                <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+                <weaponMoney>220~320</weaponMoney>
+                <weaponTags>
+                    <li>MedievalMelee</li>
+                </weaponTags>
+                <techHediffsChance>0.06</techHediffsChance>
+                <techHediffsMoney>50~600</techHediffsMoney>
+                <techHediffsTags>
+                    <li>Poor</li>
+                    <li>Simple</li>
+                    <li>ImplantEmpireCommon</li>
+                </techHediffsTags>
+                <initialWillRange>0~1</initialWillRange>
+                <initialResistanceRange>10~17</initialResistanceRange>
+                <inventoryOptions>
+                    <skipChance>0.65</skipChance>
+                    <subOptionsChooseOne>
+                        <li>
+                            <choiceChance>90</choiceChance>
+                            <thingDef>Silver</thingDef>
+                            <countRange>
+                                <min>255</min>
+                                <max>450</max>
+                            </countRange>
+                        </li>
+                        <li>
+                            <thingDef>vodka</thingDef>
+                            <countRange>
+                                <min>2</min>
+                                <max>5</max>
+                            </countRange>
+                        </li>
+                    </subOptionsChooseOne>
+                </inventoryOptions>
+                <initialResistanceRange>9~15</initialResistanceRange>
+                    <xenotypeSet Inherit="False">
+                      <xenotypeChances>
+                        <Hussar>1</Hussar>
+                        <Waster>0.5</Waster>
+                        <Dirtmole>0.25</Dirtmole>
+                        <Genie>2</Genie>
+                        <Pigskin>0.5</Pigskin>
+                        <Yttakin>0.1</Yttakin>
+                        <Impid>0.1</Impid>
+                        <Neanderthal>0.25</Neanderthal>
+                        <VRE_Boarskin MayRequire="vanillaracesexpanded.pigskin">0.5</VRE_Boarskin>
+                        <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">1</VRE_Lowmate>
+                        <BS_Lilim MayRequire="RedMattis.Heaven">0.5</BS_Lilim>
+                        <VU_Imp MayRequire="RedMattis.Heaven">0.25</VU_Imp>
+                        <LoS_Lamia MayRequire="RedMattis.LamiasAndOtherSnakes">1</LoS_Lamia>
+                        <LoS_Siren MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Siren>
+                        <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Gorgon>
+                        <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">1</Naga>
+                        <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</Nagaraj>
+                        <BS_PinkSlime MayRequire="RedMattis.BSSlimes">0.5</BS_PinkSlime>
+                        <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.25</BS_ElixirSlime>
+                        <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.5</BS_BananaSplitSlime>
+                        <BS_RedOni MayRequire="RedMattis.Yokai">1</BS_RedOni>
+                        <BS_BlueOni MayRequire="RedMattis.Yokai">1</BS_BlueOni>
+                        <BS_GreatRedOni MayRequire="RedMattis.Yokai">0.25</BS_GreatRedOni>
+                        <BS_GreatBlueOni MayRequire="RedMattis.Yokai">0.25</BS_GreatBlueOni>
+                        <BS_Nekomata MayRequire="RedMattis.Yokai">0.50</BS_Nekomata>
+                        <BS_Kitsune MayRequire="RedMattis.Yokai">0.50</BS_Kitsune>
+                        <BS_Weaver MayRequire="RedMattis.MoreXenos">1</BS_Weaver>
+                        <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.5</BS_Devilspider>
+                        <BS_Redcap MayRequire="RedMattis.BigSmall">0.5</BS_Redcap>
+                        <BS_Svartalf MayRequire="RedMattis.BigSmall">0.5</BS_Svartalf>
+                        <BS_FrostJotun MayRequire="RedMattis.BigSmall">1</BS_FrostJotun>
+                        <BS_Ymir MayRequire="RedMattis.BigSmall">0.5</BS_Ymir>
+                        <BS_Surtr MayRequire="RedMattis.BigSmall">0.5</BS_Surtr>
+                        <BS_FireJotun MayRequire="RedMattis.BigSmall">1</BS_FireJotun>
+                        <BS_Jotun MayRequire="RedMattis.BigSmall">1</BS_Jotun>
+                        <BS_Half_Jotun MayRequire="RedMattis.BigSmall">1</BS_Half_Jotun>
+                        <BS_Dwarf MayRequire="RedMattis.BigSmall">1</BS_Dwarf>
+                        <BS_Gnome MayRequire="RedMattis.BigSmall">1</BS_Gnome>
+                        <VU_WhiteRose MayRequire="Redmattis.Undead">0.5</VU_WhiteRose>
+                        <VU_Lycantrope MayRequire="Redmattis.Undead">1</VU_Lycantrope>
+                      </xenotypeChances>
+                    </xenotypeSet>
+            </PawnKindDef>
+        </value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="BS_SpaceRefugeeXenoPlus"]</xpath>
+        <value>
+            <PawnKindDef ParentName="SpaceRefugeeBase">
+                <defName>BS_SpaceRefugeeXenoPlus</defName>
+                <label>space refugee</label>
+                <apparelMoney>0~1000</apparelMoney>
+                <initialWillRange>1~3</initialWillRange>
+                <initialResistanceRange>12~19</initialResistanceRange>
+                <xenotypeSet Inherit="False">
+                  <xenotypeChances>
+                    <Hussar>1</Hussar>
+                    <Waster>0.5</Waster>
+                    <Dirtmole>0.25</Dirtmole>
+                    <Genie>2</Genie>
+                    <Pigskin>0.5</Pigskin>
+                    <Yttakin>0.1</Yttakin>
+                    <Impid>0.1</Impid>
+                    <Neanderthal>0.25</Neanderthal>
+                    <VRE_Boarskin MayRequire="vanillaracesexpanded.pigskin">0.5</VRE_Boarskin>
+                    <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">1</VRE_Lowmate>
+                    <BS_Lilim MayRequire="RedMattis.Heaven">0.5</BS_Lilim>
+                    <VU_Imp MayRequire="RedMattis.Heaven">0.25</VU_Imp>
+                    <LoS_Lamia MayRequire="RedMattis.LamiasAndOtherSnakes">1</LoS_Lamia>
+                    <LoS_Siren MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Siren>
+                    <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</LoS_Gorgon>
+                    <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">1</Naga>
+                    <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.5</Nagaraj>
+                    <BS_PinkSlime MayRequire="RedMattis.BSSlimes">0.5</BS_PinkSlime>
+                    <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.25</BS_ElixirSlime>
+                    <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.5</BS_BananaSplitSlime>
+                    <BS_RedOni MayRequire="RedMattis.Yokai">1</BS_RedOni>
+                    <BS_BlueOni MayRequire="RedMattis.Yokai">1</BS_BlueOni>
+                    <BS_GreatRedOni MayRequire="RedMattis.Yokai">0.25</BS_GreatRedOni>
+                    <BS_GreatBlueOni MayRequire="RedMattis.Yokai">0.25</BS_GreatBlueOni>
+                    <BS_Nekomata MayRequire="RedMattis.Yokai">0.50</BS_Nekomata>
+                    <BS_Kitsune MayRequire="RedMattis.Yokai">0.50</BS_Kitsune>
+                    <BS_Weaver MayRequire="RedMattis.MoreXenos">1</BS_Weaver>
+                    <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.5</BS_Devilspider>
+                    <BS_Redcap MayRequire="RedMattis.BigSmall">0.5</BS_Redcap>
+                    <BS_Svartalf MayRequire="RedMattis.BigSmall">0.5</BS_Svartalf>
+                    <BS_FrostJotun MayRequire="RedMattis.BigSmall">1</BS_FrostJotun>
+                    <BS_Ymir MayRequire="RedMattis.BigSmall">0.5</BS_Ymir>
+                    <BS_Surtr MayRequire="RedMattis.BigSmall">0.5</BS_Surtr>
+                    <BS_FireJotun MayRequire="RedMattis.BigSmall">1</BS_FireJotun>
+                    <BS_Jotun MayRequire="RedMattis.BigSmall">1</BS_Jotun>
+                    <BS_Half_Jotun MayRequire="RedMattis.BigSmall">1</BS_Half_Jotun>
+                    <BS_Dwarf MayRequire="RedMattis.BigSmall">1</BS_Dwarf>
+                    <BS_Gnome MayRequire="RedMattis.BigSmall">1</BS_Gnome>
+                    <VU_WhiteRose MayRequire="Redmattis.Undead">0.5</VU_WhiteRose>
+                    <VU_Lycantrope MayRequire="Redmattis.Undead">1</VU_Lycantrope>
+                  </xenotypeChances>
+                </xenotypeSet>
+            </PawnKindDef>
+        </value>
+	</Operation>
+
+</Patch>

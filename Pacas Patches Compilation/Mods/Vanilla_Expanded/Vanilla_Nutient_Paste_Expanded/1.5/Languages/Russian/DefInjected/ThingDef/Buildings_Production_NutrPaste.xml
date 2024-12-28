@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VNPE_NutrientPasteMicroGrinder.label>малый синтезатор пасты</VNPE_NutrientPasteMicroGrinder.label>
+    <VNPE_NutrientPasteMicroGrinder.description>Аппарат для синтеза питательной пасты из сырья, помещённого в примыкающие воронки. Требует меньше ингредиентов и времени, чем приготовление пищи, но пасту никто не любит. С грубым растительным волокном (например, сеном) не работает.\nТребуется питательности на порцию - 0.4.</VNPE_NutrientPasteMicroGrinder.description>
+
+    <VNPE_NutrientPasteMiniGrinder.label>средний синтезатор пасты</VNPE_NutrientPasteMiniGrinder.label>
+    <VNPE_NutrientPasteMiniGrinder.description>Аппарат для синтеза питательной пасты из сырья, помещённого в примыкающие воронки. Требует меньше ингредиентов и времени, чем приготовление пищи, но пасту никто не любит. С грубым растительным волокном (например, сеном) не работает. \nТребуется питательности на порцию - 0.35.</VNPE_NutrientPasteMiniGrinder.description>
+
+    <VNPE_NutrientPasteGrinder.label>большой синтезатор пасты</VNPE_NutrientPasteGrinder.label>
+    <VNPE_NutrientPasteGrinder.description>Аппарат для синтеза питательной пасты из сырья, помещённого в примыкающие воронки. Требует меньше ингредиентов и времени, чем приготовление пищи, но пасту никто не любит. С грубым растительным волокном (например, сеном) не работает. \nТребуется питательности на порцию - 0.3.</VNPE_NutrientPasteGrinder.description>
+    
+    <VNPE_NutrientPasteTap.label>кран питательной пасты</VNPE_NutrientPasteTap.label>
+    <VNPE_NutrientPasteTap.description>Резервуар, похожий на воронку. Предназначен для выдачи порций питательной пасты из баков хранения. Им могут пользоваться поселенцы, пленники и животные. Уже выданная порция питательной пасты может испортиться.</VNPE_NutrientPasteTap.description>
+    
+    <VNPE_NutrientPasteFeeder.label>раздатчик питательной пасты</VNPE_NutrientPasteFeeder.label>
+    <VNPE_NutrientPasteFeeder.description>Небольшая выпускная трубка, позволяющая поселенцам забирать питательную пасту.</VNPE_NutrientPasteFeeder.description>
+    
+    <VNPE_NutrientPasteDripper.label>капельница питательной пасты</VNPE_NutrientPasteDripper.label>
+    <VNPE_NutrientPasteDripper.description>Прикроватное устройство, позволяющее кормить лежачего пациента, при условии подключения к баку хранения пасты. Должно быть расположено непосредственно рядом с изголовьем кровати. Установка второй капельницы питательной пасты не принесёт дополнительного эффекта.</VNPE_NutrientPasteDripper.description>
+    
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Bondages</defName>
+		<label>Bondage Devices</label>
+		<description>Deep dark fantasies...</description>
+		<defNames>
+			<li>OnaholeCross</li>
+			<li>OnaholeHanger</li>
+			<li>OnaholeHorseMount</li>
+            <li>OnaholeMetalFrame</li>
+			<li>OnaholePillory</li>
+			<li>OnaholePole</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	
+</Defs>	

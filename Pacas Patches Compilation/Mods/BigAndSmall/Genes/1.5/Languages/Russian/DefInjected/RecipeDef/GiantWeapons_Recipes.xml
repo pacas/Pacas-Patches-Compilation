@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<MakeAmmo_BS_JotunJavelin.label>Сделать гиганский пилум</MakeAmmo_BS_JotunJavelin.label>
+	<MakeAmmo_BS_JotunJavelin.description>Сделать гиганский пилум.</MakeAmmo_BS_JotunJavelin.description>
+	<MakeAmmo_BS_JotunJavelin.jobString>Делает гиганский пилум</MakeAmmo_BS_JotunJavelin.jobString>
+    
+	<Build_BS_Sniper.label>Собрать КСВ класса Warmech</Build_BS_Sniper.label>
+	<Build_BS_Sniper.description>Сделать КСВ класса Warmech.</Build_BS_Sniper.description>
+	<Build_BS_Sniper.jobString>Делает КСВ класса Warmech</Build_BS_Sniper.jobString>
+    
+	<Build_BS_MachineGun.label>Собрать пулемёт класса Warmech</Build_BS_MachineGun.label>
+	<Build_BS_MachineGun.description>Сделать пулемёт класса Warmech.</Build_BS_MachineGun.description>
+	<Build_BS_MachineGun.jobString>Делает пулемёт класса Warmech</Build_BS_MachineGun.jobString>
+    
+	<Build_BS_Launcher.label>Собрать гранатомёт класса Warmech</Build_BS_Launcher.label>
+	<Build_BS_Launcher.description>Сделать гранатомёт класса Warmech.</Build_BS_Launcher.description>
+	<Build_BS_Launcher.jobString>Делает гранатомёт класса Warmech</Build_BS_Launcher.jobString>
+    
+	<Build_BS_ShrinkRay.label>Собрать уменьшающий лазер</Build_BS_ShrinkRay.label>
+	<Build_BS_ShrinkRay.description>Сделать уменьшающий лазер.</Build_BS_ShrinkRay.description>
+	<Build_BS_ShrinkRay.jobString>Делает уменьшающий лазер</Build_BS_ShrinkRay.jobString>
+    
+	<Build_BS_GrowthRay.label>Собрать увеличивающий лазер</Build_BS_GrowthRay.label>
+	<Build_BS_GrowthRay.description>Сделать увеличивающий лазер.</Build_BS_GrowthRay.description>
+	<Build_BS_GrowthRay.jobString>Делает увеличивающий лазер</Build_BS_GrowthRay.jobString>
+  
+</LanguageData>

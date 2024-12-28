@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- === Shrink Turret === -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[
+        defName="BMAD_ShrinkTurret" or
+        defName="BMAD_GrowthTurret" or
+        defName="BMAD_Gun_ShrinkTurret" or
+        defName="BMAD_Gun_GrowthTurret"]</xpath>
+	</Operation>
+
+</Patch>

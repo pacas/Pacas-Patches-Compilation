@@ -119,6 +119,19 @@
             </li>
             <li Class="XmlExtensions.OptionalPatch">
                 <modId>PPC.Pacas.Settings</modId>
+                <key>Cheaper_Vents</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="Vent"]/costStuffCount</xpath>
+                        <value>
+                            <costStuffCount>15</costStuffCount>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>PPC.Pacas.Settings</modId>
                 <key>Cheaper_Rimfeller_Pipes</key>
                 <defaultValue>false</defaultValue>
                 <caseTrue>

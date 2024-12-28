@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <ThingCategoryDef>
+        <defName>BS_GiantMelee</defName>
+        <label>Giant Weapons</label>
+        <parent>WeaponsMelee</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>BS_GiantRanged</defName>
+        <label>Giant Weapons</label>
+        <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+    
+</Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>    
+    <Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Lesser_Succubus_Pawn"]/combatPower</xpath>
+                <value>
+                    <combatPower>65</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Higher_Succubus_Pawn"]/combatPower</xpath>
+                <value>
+                    <combatPower>105</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Catgirl_Pawn"]/combatPower</xpath>
+                <value>
+                    <combatPower>50</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Breacher"]/combatPower</xpath>
+                <value>
+                    <combatPower>60</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Fighter"]/combatPower</xpath>
+                <value>
+                    <combatPower>80</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Warrior"]/combatPower</xpath>
+                <value>
+                    <combatPower>120</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Enforcer"]/combatPower</xpath>
+                <value>
+                    <combatPower>205</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Chief"]/combatPower</xpath>
+                <value>
+                    <combatPower>450</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Settler"]/combatPower</xpath>
+                <value>
+                    <combatPower>50</combatPower>
+                </value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="RJW_Races_Tribal_Trader"]/combatPower</xpath>
+                <value>
+                    <combatPower>50</combatPower>
+                </value>
+            </li>
+		</operations>
+	</Operation>
+    
+</Patch>

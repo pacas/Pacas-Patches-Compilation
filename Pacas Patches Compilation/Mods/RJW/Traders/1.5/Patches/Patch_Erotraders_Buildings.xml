@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RJW_portable_computer_building"]/costList</xpath>
+		<value>
+			<costList>
+                <Glass>5</Glass>
+                <Plastic>10</Plastic>
+                <AluminiumBar>5</AluminiumBar>
+                <ElectronicComponents>1</ElectronicComponents>
+                <ComponentIndustrial>4</ComponentIndustrial>
+            </costList>
+		</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RJW_portable_computer_building"]/researchPrerequisites</xpath>
+		<value>
+            <researchPrerequisites>
+                <li>Electronics_C2</li>
+            </researchPrerequisites>
+		</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RJW_bodypillow"]</xpath>
+		<value>
+            <ThingDef ParentName="SK_SansComfortBedBase">
+                <defName>RJW_bodypillow</defName>
+                <label>body pillow</label>
+                <tradeability>Buyable</tradeability>
+                <description>A large, confortable pillow that serves as a cozy surface to rest, hug, pat, and some other degeneracies. Imprinted on it there's a picture of a small, cutesy, petite woman.</description>
+                <graphicData>
+                    <texPath>Things/Building/Pillow/bodypillow</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>(2,2)</drawSize>
+                    <damageData>
+                        <rect>(0,0.05,1,1.95)</rect>
+                    </damageData>
+                </graphicData>
+                <statBases>
+                    <Beauty>14</Beauty>
+                    <WorkToBuild>800</WorkToBuild>
+                    <Comfort>0.45</Comfort>
+                    <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+                    <BedRestEffectiveness>0.85</BedRestEffectiveness>
+                    <SurgerySuccessChanceFactor>0.85</SurgerySuccessChanceFactor>
+                    <Bulk>4</Bulk>
+                    <Mass>2</Mass>
+                </statBases>
+                <size>(1,2)</size>
+                <stuffCategories>
+                    <li>Leathery</li>
+                    <li>Fabric</li>
+                </stuffCategories>
+                <costList>
+                    <Hay>20</Hay>
+                    <Dye>2</Dye>
+                </costList>
+                <costStuffCount>15</costStuffCount>
+                <building>
+                    <bed_showSleeperBody>True</bed_showSleeperBody>
+                    <bed_healPerDay>6</bed_healPerDay>
+                    <bed_caravansCanUse>true</bed_caravansCanUse>
+                    <destroySound>BuildingDestroyed_Soft_Medium</destroySound>
+                    <destroyShakeAmount>0</destroyShakeAmount>
+                </building>
+                <researchPrerequisites>
+                    <li>Beds_B1</li>
+                </researchPrerequisites>
+                <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+            </ThingDef>
+		</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationInsert">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_StandartBeds"]/defNames/li[text()="industrial_single_bed"]</xpath>
+		<value>
+            <li>RJW_bodypillow</li>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Nutrient Paste Expanded: Deep Vat</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Giant"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Giant"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>18</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Giant"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>400</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Giant"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Small"]/constructEffect</xpath>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Small"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ComponentIndustrial>2</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Small"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>100</costStuffCount>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteVat_Small"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

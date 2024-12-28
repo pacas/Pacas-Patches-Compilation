@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OnaholeCross"]/stuffCategories</xpath>
+		<value>
+            <li>Woody</li>
+		</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[
+        defName="OnaholeCross" or
+        defName="OnaholeHorseMount" or
+        defName="OnaholePillory"
+        ]/costList</xpath>
+		<value>
+            <costList>
+                <ComponentIndustrial>8</ComponentIndustrial>
+                <ElectronicComponents>3</ElectronicComponents>
+            </costList>
+		</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[
+        defName="OnaholeHanger" or
+        defName="OnaholeMetalFrame" or
+        defName="OnaholePole"
+        ]</xpath>
+		<value>
+            <costList>
+                <ComponentIndustrial>8</ComponentIndustrial>
+                <ElectronicComponents>3</ElectronicComponents>
+            </costList>
+		</value>
+	</Operation>
+</Patch>

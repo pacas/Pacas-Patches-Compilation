@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/RecipeDef[defName="InstallBS_IndestructibelApparel"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>SK_SurgeryFlesh</value>
+	</Operation>
+    
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallBS_IndestructibelApparel"]/ingredients</xpath>
+                <value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>Medicine</li>
+                                </categories>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BS_IndestructibelApparel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="InstallBS_IndestructibelApparel"]/fixedIngredientFilter</xpath>
+                <value>
+                    <fixedIngredientFilter>
+                        <categories>
+                            <li>Medicine</li>
+                        </categories>
+                        <thingDefs>
+                            <li>BS_IndestructibelApparel</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[defName="InstallBS_IndestructibelApparel"]</xpath>
+                <value>
+                    <skillRequirements>
+                        <Medicine>16</Medicine>
+                    </skillRequirements>
+                    <researchPrerequisite>Prosthesis_install_E2</researchPrerequisite>
+                </value>
+            </li>
+        </operations>
+	</Operation>
+</Patch>

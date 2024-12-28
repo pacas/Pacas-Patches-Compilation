@@ -4,15 +4,41 @@
         <mods>
             <li>Biotech</li>
         </mods>
-        <match Class="PatchOperationAdd">
-            <xpath>Defs</xpath>
-            <value>
-                <ThingCategoryDef>
-                    <defName>SetMechanitor</defName>
-                    <label>Mechanitor Set</label>
-                    <parent>Sets</parent>
-                </ThingCategoryDef>
-            </value>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <ThingCategoryDef>
+                            <defName>AM_ChipsCores</defName>
+                            <label>Chips and Cores</label>
+                            <parent>Manufactured</parent>
+                        </ThingCategoryDef>
+                        <ThingCategoryDef>
+                            <defName>SetMechanitor</defName>
+                            <label>Mechanitor Set</label>
+                            <parent>Sets</parent>
+                        </ThingCategoryDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[
+                    defName="SubcoreBasic" or 
+                    defName="SubcoreRegular" or 
+                    defName="SubcoreHigh" or 
+                    defName="SignalChip" or 
+                    defName="PowerfocusChip" or 
+                    defName="NanostructuringChip" or 
+                    defName="AM_HyperLinkageChip" or 
+                    defName="AM_StellarProcessingChip" or 
+                    defName="AM_QuantumMatrixChip"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                          <li>AM_ChipsCores</li>
+                        </thingCategories>
+                    </value>
+                </li>
+            </operations>
         </match>
     </Operation>
 </Patch>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <BS_JotunJavelin.label>гигантский пилум</BS_JotunJavelin.label>
+
+    <BS_OgreClub.label>гигантская дубина</BS_OgreClub.label>
+    <BS_OgreClub.description>Огромная и тяжёлая дубина, которую не способен удержать обычный человек.</BS_OgreClub.description>
+    <BS_OgreClub.tools.0.label>рукоять</BS_OgreClub.tools.0.label>
+    <BS_OgreClub.tools.1.label>головка</BS_OgreClub.tools.1.label>
+
+    <BS_GiantHammer.label>гигантский молот</BS_GiantHammer.label>
+    <BS_GiantHammer.description>Огромный одноручный каменный молот, который не способен удержать обычный человек.</BS_GiantHammer.description>
+    <BS_GiantHammer.tools.0.label>боевая часть</BS_GiantHammer.tools.0.label>
+    <BS_GiantHammer.tools.1.label>боёк</BS_GiantHammer.tools.1.label>
+
+    <BS_JotunHammer.label>гигантский боевой молот</BS_JotunHammer.label>
+    <BS_JotunHammer.description>Массивный боевой молот, который не способен удержать обычный человек.</BS_JotunHammer.description>
+    <BS_JotunHammer.tools.0.label>рукоять</BS_JotunHammer.tools.0.label>
+    <BS_JotunHammer.tools.1.label>боевая часть</BS_JotunHammer.tools.1.label>
+
+    <BS_JotunSword.label>гигантский меч</BS_JotunSword.label>
+    <BS_JotunSword.description>Очень большой одноручный меч, который не способен удержать обычный человек.</BS_JotunSword.description>
+    <BS_JotunSword.tools.0.label>рукоять</BS_JotunSword.tools.0.label>
+    <BS_JotunSword.tools.1.label>остриё</BS_JotunSword.tools.1.label>
+    <BS_JotunSword.tools.2.label>лезвие</BS_JotunSword.tools.2.label>
+
+    <BS_SurtrSword.label>меч Сурта</BS_SurtrSword.label>
+    <BS_SurtrSword.description>Огромный одноручный меч с лезвием, полным едва сдерживаемой силой солнца. Меч обжигает, режет и расплавляет всё, что, на свою беду, встретится с его лезвием.\n\nЭтот меч настолько большой и тяжёлый, что даже гигантам часто бывает трудно им сражаться.</BS_SurtrSword.description>
+    <BS_SurtrSword.tools.0.label>рукоять</BS_SurtrSword.tools.0.label>
+    <BS_SurtrSword.tools.1.label>остриё</BS_SurtrSword.tools.1.label>
+    <BS_SurtrSword.tools.2.label>лезвие</BS_SurtrSword.tools.2.label>
+
+    <BS_SkrymirHammer.label>молот Скрюмира</BS_SkrymirHammer.label>
+    <BS_SkrymirHammer.description>Абсурдно большой и тяжёлый молот неизвестного происхождения. Утверждается, что он обладает силой зимнего шторма.\n\nТе немногие вещи, которые громовые удары молота не превращают в пыль одной лишь своей силой, становятся хрупкими от мороза и оглушаются мощной ударной волной.</BS_SkrymirHammer.description>
+    <BS_SkrymirHammer.tools.0.label>рукоять</BS_SkrymirHammer.tools.0.label>
+    <BS_SkrymirHammer.tools.1.label>головка</BS_SkrymirHammer.tools.1.label>
+    
+</LanguageData>

@@ -4,31 +4,109 @@
         <operations>
             <!-- Wort ?-->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName = "Wort"]/thingCategories</xpath>
+                <xpath>Defs/ThingDef[defName="Wort"]/thingCategories</xpath>
                 <value>
-					<thingCategories>
+                    <thingCategories>
                         <li>CookingSupplies</li>
                     </thingCategories>
-				</value>
+                </value>
             </li>
-
-            <!-- Alcohol -->
-            <!-- <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName = "cider" or defName = "rum" or
-                                      defName = "Wine" or defName = "strawberrywine" or
-                                      defName = "saki" or defName = "vodka" or
-                                      defName = "tequila" or defName = "whisky" or
-                                      defName = "Moonshine" or defName = "Gin" or
-                                      defName = "Brandy" or defName = "Cognac" or
-                                      defName = "Kahlua" or defName = "Arak" or
-                                      defName = "Applejack" or defName = "Patreonbrew"]/thingCategories
-                </xpath>
+            
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Pila" and @Class="CombatExtended.AmmoDef"]/thingCategories</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Pila" and @Class="CombatExtended.AmmoDef"]</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>ThrownRanged</li>
+                        </thingCategories>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Pila" and @Class="CombatExtended.AmmoDef"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories Inherit="False">
+                            <li>ThrownRanged</li>
+                        </thingCategories>
+                    </value>
+                </match>
+            </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_BinocularsRadio"]</xpath>
                 <value>
-					<thingCategories Inherit="False">
-                        <li>Alcohol</li>
+                    <thingCategories Inherit="False">
+                        <li>Specialranged</li>
                     </thingCategories>
-				</value>
-            </li>-->
+                </value>
+            </li>
         </operations>
+    </Operation>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Anomaly</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="Gun_HellcatRifle"]/thingCategories</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Gun_HellcatRifle"]</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>Rifles</li>
+                            </thingCategories>
+                        </value>
+                    </nomatch>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="Gun_HellcatRifle"]/thingCategories</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>Rifles</li>
+                            </thingCategories>
+                        </value>
+                    </match>
+                </li>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="NerveSpiker"]/thingCategories</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="NerveSpiker"]</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>CrossbarRanged</li>
+                            </thingCategories>
+                        </value>
+                    </nomatch>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="NerveSpiker"]/thingCategories</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>CrossbarRanged</li>
+                            </thingCategories>
+                        </value>
+                    </match>
+                </li>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="Gun_Incinerator"]/thingCategories</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Gun_Incinerator"]</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>Glaunchers</li>
+                            </thingCategories>
+                        </value>
+                    </nomatch>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="Gun_Incinerator"]/thingCategories</xpath>
+                        <value>
+                            <thingCategories Inherit="False">
+                                <li>Glaunchers</li>
+                            </thingCategories>
+                        </value>
+                    </match>
+                </li>
+            </operations>
+        </match>
     </Operation>
 </Patch>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName ="VNPE_NutrientPasteVat"]/comps/li[@Class="PipeSystem.CompProperties_ResourceStorage"]/storageCapacity</xpath>
+                <value>
+                    <storageCapacity>360</storageCapacity>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/DesignationCategoryDef[defName="VCHE_PipeNetworks"]/order</xpath>
+                <value>
+                    <order>150</order>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/DesignatorDropdownGroupDef[defName="VNPE_NutrientPastePipes"]</xpath>
+            </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[
+                    defName ="VNPE_NutrientPastePipe" or
+                    defName ="VNPE_UndergroundNutrientPastePipe"
+                    ]/designatorDropdown</xpath>
+                </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_NutrientPastePipes</defName>
+                        <label>Nutrient Paste Pipes</label>
+                        <description>Light pipes for transporting paste.</description>
+                        <defNames>
+                            <li>VNPE_NutrientPastePipe</li>
+                            <li>VNPE_UndergroundNutrientPastePipe</li>
+                            <li>VNPE_NutrientPasteValve</li>
+                        </defNames>
+                        <designationCategory>VCHE_PipeNetworks</designationCategory>
+                        <debug>false</debug>
+                    </ArchitectSense.DesignationSubCategoryDef>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

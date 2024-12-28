@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Nutrient Paste Expanded: MiniGrinder</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteMicroGrinder"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <ElectronicComponents>1</ElectronicComponents>
+                            <Mechanism>1</Mechanism>
+                        </costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteMicroGrinder"]</xpath>
+                    <value>
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>35</costStuffCount>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VNPE_NutrientPasteMicroGrinder"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Food_C3</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <ArchitectSense.DesignationSubCategoryDef>
+                            <defName>SubCategory_PasteGrinders</defName>
+                            <label>Grinders</label>
+                            <description>Machines for synthesizing nutrient paste.</description>
+                            <defNames>
+                                <li>VNPE_NutrientPasteMicroGrinder</li>
+                                <li>VNPE_NutrientPasteMiniGrinder</li>
+                                <li>VNPE_NutrientPasteGrinder</li>
+                            </defNames>
+                            <designationCategory>VCHE_PipeNetworks</designationCategory>
+                            <debug>false</debug>
+                        </ArchitectSense.DesignationSubCategoryDef>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

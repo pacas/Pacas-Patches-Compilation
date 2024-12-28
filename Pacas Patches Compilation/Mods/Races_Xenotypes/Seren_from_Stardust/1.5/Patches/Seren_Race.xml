@@ -92,28 +92,18 @@
                     </tools>
                 </value>
             </li>
-            <!-- Checking if "Seren" has a <comps> node and adding it if it doesn't exist -->
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/comps</xpath>
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]</xpath>
-                    <value>
-                        <comps/>
-                    </value>
-                </nomatch>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/comps</xpath>
-                <value>
-                    <li>
-                        <compClass>CombatExtended.CompPawnGizmo</compClass>
-                    </li>
-                    <li Class="CombatExtended.CompProperties_Suppressable"/>
-                </value>
-            </li>
-            
             <li Class="XmlExtensions.PatchOperationSafeRemove">
                 <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/alienRace/generalSettings/ageSkillFactorCurve</xpath>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/race/litterSizeCurve</xpath>
+                <attribute>Inherit</attribute>
+                <value>False</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/race/lifeStageAges</xpath>
+                <attribute>Inherit</attribute>
+                <value>False</value>
             </li>
         </operations>
     </Operation>

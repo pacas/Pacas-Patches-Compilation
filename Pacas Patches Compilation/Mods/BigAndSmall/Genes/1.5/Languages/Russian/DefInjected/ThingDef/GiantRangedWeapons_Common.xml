@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BS_JotunRifle.label>КСВ класса Warmech</BS_JotunRifle.label>
+  <BS_JotunRifle.description>Тяжёлая винтовка, предназначенная для использования боевой машиной против других машин и прочей тяжёлой военной техники.\n\nЭто оружие слишком велико, чтобы им мог владеть обычный человек, даже если бы он каким-то образом смог справиться с ужасной отдачей.\n\nМожет использоваться только гигантами, геркулесами или персонажами в броне мертвеца.\n\nИспользует боеприпасы: 14.5x114mm</BS_JotunRifle.description>
+  <BS_JotunRifle.tools.0.label>приклад</BS_JotunRifle.tools.0.label>
+  <BS_JotunRifle.tools.1.label>ствол</BS_JotunRifle.tools.1.label>
+
+  <BS_GiantMinigun.label>Пулемёт класса Warmech</BS_GiantMinigun.label>
+  <BS_GiantMinigun.description>Чрезвычайно большой многоствольный пулемёт. Он громоздкий и явно сделан для установки на какою-то боевую машину. Оружие предназначено для ведения подавляющего огня и не требует прицеливания, а благодаря ленточной подаче патронов оружие стреляет в течение длительного времени без перезарядки.\n\nМожет использоваться только гигантами, геркулесами или персонажами в броне мертвеца.\n\nИспользует боеприпасы: 12.7x108mm</BS_GiantMinigun.description>
+  <BS_GiantMinigun.tools.0.label>стволы</BS_GiantMinigun.tools.0.label>
+
+  <BS_JotunRocketLauncher.label>Гранатомёт класса Warmech</BS_JotunRocketLauncher.label>
+  <BS_JotunRocketLauncher.description>Тяжёлая ракетная установка, предназначенная для использования боевой машиной против других машин и прочей тяжёлой военной техники.\n\nЭто оружие слишком велико, чтобы им мог владеть обычный человек, даже если бы он каким-то образом смог справиться с ужасной отдачей.\n\nМожет использоваться только гигантами, геркулесами или персонажами в броне мертвеца.\n\nИспользует боеприпасы: 40х105mm граната</BS_JotunRocketLauncher.description>
+  <BS_JotunRocketLauncher.tools.0.label>приклад</BS_JotunRocketLauncher.tools.0.label>
+  <BS_JotunRocketLauncher.tools.1.label>ствол</BS_JotunRocketLauncher.tools.1.label>
+  
+</LanguageData>

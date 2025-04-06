@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Speed.xml-->
+	<!--                    armoured speed -->
+	<AG_ArmouredSpeed.label>скорость в броне</AG_ArmouredSpeed.label>
+	<!--                          Carriers of this gene move faster while wearing heavy armor. -->
+	<AG_ArmouredSpeed.description>Носители этого гена двигаются быстрее, пока носят тяжёлую броню.</AG_ArmouredSpeed.description>
+	
+	<!--                         thermal speed -->
+	<AG_SpeedByTemperature.label>температурный отклик</AG_SpeedByTemperature.label>
+	<!--                               Carriers of this gene move fast at high temperatures, at the cost of getting much more tired. Low temperatures will reduce their metabolism, making them slower, but also making them spend less energy staying awake. -->
+	<AG_SpeedByTemperature.description>Носители этого гена движутся быстрее при высоких температурах, но устают гораздо быстрее. Низкие температуры замедляют их обмен веществ, снижая скорость передвижения, но при этом уменьшают расход энергии на поддержание бодрствования.</AG_SpeedByTemperature.description>
+	
+	<!--                    water striding -->
+	<AG_WaterStriding.label>хождение по воде</AG_WaterStriding.label>
+	<!--                          Carriers of this gene move without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains. -->
+	<AG_WaterStriding.description>Носители этого гена не получают штрафов при движении по воде и игнорируют стоимость перемещения по водным участкам.</AG_WaterStriding.description>
+	
+	<!--                    light striding -->
+	<AG_LightStriding.label>зависимость от света</AG_LightStriding.label>
+	<!--                          Carriers of this gene move much faster when exposed to the light (50% lit or above), and slower in the dark. -->
+	<AG_LightStriding.description>Носители этого гена двигаются гораздо быстрее при ярком освещении (50% или выше), но становятся медленнее в темноте.</AG_LightStriding.description>
+	
+	<!--                    night striding -->
+	<AG_NightStriding.label>зависимость от темноты</AG_NightStriding.label>
+	<!--                          Carriers of this gene move much faster when under darkness (below 50% lit), and slower in the light. -->
+	<AG_NightStriding.description>Носители этого гена двигаются гораздо быстрее в темноте (при освещённости менее 50%), но становятся медленнее при свете.</AG_NightStriding.description>
+	
+	<!--                        pollution striding -->
+	<AG_PollutionStriding.label>зависимость от загрязнений</AG_PollutionStriding.label>
+	<!--                              Carriers of this gene move much faster when traversing polluted terrain. -->
+	<AG_PollutionStriding.description>Носители этого гена двигаются гораздо быстрее по загрязнённым территориям.</AG_PollutionStriding.description>
+</LanguageData>

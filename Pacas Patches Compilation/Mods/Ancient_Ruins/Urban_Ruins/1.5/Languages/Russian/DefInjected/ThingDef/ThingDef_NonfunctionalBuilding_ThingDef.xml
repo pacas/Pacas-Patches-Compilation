@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_NonfunctionalBuilding.xml-->
+	<!-- EN: ancient armored gate -->
+	<AM_ArmoredGate_invincible.label>древние бронированные ворота</AM_ArmoredGate_invincible.label>
+	<!-- EN: A structure commonly found in some underground military facilities. -->
+	<AM_ArmoredGate_invincible.description>Такие ворота обычно встречаются на некоторых подземных военных объектах.</AM_ArmoredGate_invincible.description>
+	
+	<!-- EN: parterre -->
+	<AM_ParterreD_East.label>клумба</AM_ParterreD_East.label>
+	<!-- EN: An ancient rectangular parterre -->
+	<AM_ParterreD_East.description>Древняя прямоугольная клумба.</AM_ParterreD_East.description>
+	
+	<!-- EN: ancient amublance -->
+	<AM_Amublance.label>древняя машина скорой помощи</AM_Amublance.label>
+	<!-- EN: A damaged and corroded ancient vehicle. -->
+	<AM_Amublance.description>Повреждённый и ржавый древний автомобиль.</AM_Amublance.description>
+	
+	<!-- EN: ancient fire truck -->
+	<AM_FireTruck.label>древняя пожарная машина</AM_FireTruck.label>
+	<!-- EN: A damaged and corroded ancient vehicle. -->
+	<AM_FireTruck.description>Повреждённый и ржавый древний автомобиль.</AM_FireTruck.description>
+	
+	<!-- EN: parterre -->
+	<AM_ParterreD_north.label>клумба</AM_ParterreD_north.label>
+	<!-- EN: An ancient rectangular parterre -->
+	<AM_ParterreD_north.description>Древняя прямоугольная клумба.</AM_ParterreD_north.description>
+	
+	<!-- EN: collapsed shelves -->
+	<AM_DamagedEmptyShelves.label>развалившиеся полки</AM_DamagedEmptyShelves.label>
+	<!-- EN: Some dilapidated shelves. -->
+	<AM_DamagedEmptyShelves.description>Несколько обветшалых полок.</AM_DamagedEmptyShelves.description>
+	
+	<!-- EN: ancient truck carriages -->
+	<AM_AncientTruckCarriages.label>древний грузовой вагон</AM_AncientTruckCarriages.label>
+	<!-- EN: The carriages of ancient trucks. -->
+	<AM_AncientTruckCarriages.description>Вагон древних грузовиков.</AM_AncientTruckCarriages.description>
+	
+	<!-- EN: freight train carriages -->
+	<AM_FreightTrainCarriages.label>вагон грузового поезда</AM_FreightTrainCarriages.label>
+	<!-- EN: The carriages of ancient freight trains. -->
+	<AM_FreightTrainCarriages.description>Вагон древних товарных поездов.</AM_FreightTrainCarriages.description>
+	
+	<!-- EN: ancient armored gate -->
+	<AM_ArmoredGate.label>древние бронированные ворота</AM_ArmoredGate.label>
+	<!-- EN: Armored gates, commonly found in some underground military facilities. -->
+	<AM_ArmoredGate.description>Бронированные ворота, часто встречающиеся на некоторых подземных военных объектах.</AM_ArmoredGate.description>
+	
+	<!-- EN: ancient armored gate -->
+	<AM_ArmoredGateL.label>древние бронированные ворота</AM_ArmoredGateL.label>
+	<!-- EN: Armored gates, commonly found in some underground military facilities. -->
+	<AM_ArmoredGateL.description>Бронированные ворота, часто встречающиеся на некоторых подземных военных объектах.</AM_ArmoredGateL.description>
+	
+	<!-- EN: ancient armored gate -->
+	<AM_ArmoredGateS.label>древние бронированные ворота</AM_ArmoredGateS.label>
+	<!-- EN: Armored gates, commonly found in some underground military facilities. -->
+	<AM_ArmoredGateS.description>Бронированные ворота, часто встречающиеся на некоторых подземных военных объектах.</AM_ArmoredGateS.description>
+	
+	<!-- EN: ancient armored gate -->
+	<AM_ArmoredGateXS.label>древние бронированные ворота</AM_ArmoredGateXS.label>
+	<!-- EN: Armored gates, commonly found in some underground military facilities. -->
+	<AM_ArmoredGateXS.description>Бронированные ворота, часто встречающиеся на некоторых подземных военных объектах.</AM_ArmoredGateXS.description>
+	
+	<!-- EN: rolling shutter door -->
+	<AM_RollingShutter.label>роллетные ворота</AM_RollingShutter.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter.description>
+	
+	<!-- EN: blocked staircase -->
+	<AM_BlockedStairs.label>заблокированная лестница</AM_BlockedStairs.label>
+	<!-- EN: An inaccessible staircase piled with debris. Entirely inaccessible. -->
+	<AM_BlockedStairs.description>Недоступная лестница, заваленная обломками. Никак не пройти.</AM_BlockedStairs.description>
+	
+	<!-- EN: blocked staircase -->
+	<AM_BlockedStairsD.label>заблокированная лестница</AM_BlockedStairsD.label>
+	<!-- EN: An inaccessible staircase piled with debris. Entirely inaccessible. -->
+	<AM_BlockedStairsD.description>Недоступная лестница, заваленная обломками. Никак не пройти.</AM_BlockedStairsD.description>
+	
+	<!-- EN: blocked escalator -->
+	<AM_BlockedElevators.label>заблокированный эскалатор</AM_BlockedElevators.label>
+	<!-- EN: This escalator is blocked by debris and cannot pass through from here. -->
+	<AM_BlockedElevators.description>Этот эскалатор заблокирован обломками и через них не пройти.</AM_BlockedElevators.description>
+	
+	<!-- EN: blocked escalator -->
+	<AM_BlockedElevatorsD.label>заблокированный эскалатор</AM_BlockedElevatorsD.label>
+	<!-- EN: This escalator is blocked by debris and cannot pass through from here. -->
+	<AM_BlockedElevatorsD.description>Этот эскалатор заблокирован обломками и через них не пройти.</AM_BlockedElevatorsD.description>
+	
+	<!-- EN: blocked escalator -->
+	<AM_BlockedElevatorsA.label>заблокированный эскалатор</AM_BlockedElevatorsA.label>
+	<!-- EN: This escalator is blocked by debris and cannot pass through from here. -->
+	<AM_BlockedElevatorsA.description>Этот эскалатор заблокирован обломками и через них не пройти.</AM_BlockedElevatorsA.description>
+	
+	<!-- EN: blocked escalator -->
+	<AM_BlockedElevatorsDA.label>заблокированный эскалатор</AM_BlockedElevatorsDA.label>
+	<!-- EN: This escalator is blocked by debris and cannot pass through from here. -->
+	<AM_BlockedElevatorsDA.description>Этот эскалатор заблокирован обломками и через них не пройти.</AM_BlockedElevatorsDA.description>
+	
+	<!-- EN: mall bench -->
+	<AM_MallBench.label>скамейка торгового центра</AM_MallBench.label>
+	<!-- EN: Badly rusted mall bench. -->
+	<AM_MallBench.description>Сильно проржавевшая скамейка торгового центра.</AM_MallBench.description>
+	
+	<!-- EN: mall pew -->
+	<AM_MallPew.label>скамейка торгового центра</AM_MallPew.label>
+	<!-- EN: A bench at the mall. -->
+	<AM_MallPew.description>Скамейка торгового центра.</AM_MallPew.description>
+	
+	<!-- EN: mall wooden bench -->
+	<AM_MallWoodenBench.label>деревянная скамейка торгового центра</AM_MallWoodenBench.label>
+	<!-- EN: Wooden benches at the mall. -->
+	<AM_MallWoodenBench.description>Деревянная скамейка торгового центра.</AM_MallWoodenBench.description>
+	
+	<!-- EN: slide Sign -->
+	<AM_SlideSign.label>табличка «Мокрый пол!»</AM_SlideSign.label>
+	<!-- EN: Caution! Wet Floor -->
+	<AM_SlideSign.description>Осторожно! Мокрый пол!</AM_SlideSign.description>
+	
+	<!-- EN: shopping guide map -->
+	<AM_SmallShoppingGuideMapA.label>навигация по торговому центру</AM_SmallShoppingGuideMapA.label>
+	<!-- EN: Small shopping guide map -->
+	<AM_SmallShoppingGuideMapA.description>Навигация по торговому центру.</AM_SmallShoppingGuideMapA.description>
+	
+	<!-- EN: shopping guide map -->
+	<AM_SmallShoppingGuideMapB.label>навигация по торговому центру</AM_SmallShoppingGuideMapB.label>
+	<!-- EN: Small shopping guide map -->
+	<AM_SmallShoppingGuideMapB.description>Навигация по торговому центру.</AM_SmallShoppingGuideMapB.description>
+	
+	<!-- EN: shopping guide map -->
+	<AM_SmallShoppingGuideMapC.label>навигация по торговому центру</AM_SmallShoppingGuideMapC.label>
+	<!-- EN: Small shopping guide map -->
+	<AM_SmallShoppingGuideMapC.description>Навигация по торговому центру.</AM_SmallShoppingGuideMapC.description>
+	
+	<!-- EN: floor signage -->
+	<AM_FloorSignageA.label>напольная вывеска</AM_FloorSignageA.label>
+	<!-- EN: Floor guide map of the shopping mall -->
+	<AM_FloorSignageA.description>Схема этажа торгового центра.</AM_FloorSignageA.description>
+	
+	<!-- EN: floor signage -->
+	<AM_FloorSignageB.label>напольная вывеска</AM_FloorSignageB.label>
+	<!-- EN: Floor guide map of the shopping mall -->
+	<AM_FloorSignageB.description>Схема этажа торгового центра.</AM_FloorSignageB.description>
+	
+	<!-- EN: floor signage -->
+	<AM_FloorSignageC.label>напольная вывеска</AM_FloorSignageC.label>
+	<!-- EN: Floor guide map of the shopping mall -->
+	<AM_FloorSignageC.description>Схема этажа торгового центра.</AM_FloorSignageC.description>
+	
+	<!-- EN: floor signage -->
+	<AM_FloorSignageD.label>напольная вывеска</AM_FloorSignageD.label>
+	<!-- EN: Floor guide map of the shopping mall -->
+	<AM_FloorSignageD.description>Схема этажа торгового центра.</AM_FloorSignageD.description>
+	
+	<!-- EN: hall signage -->
+	<AM_HallSignage.label>вывеска зала</AM_HallSignage.label>
+	<!-- EN: Signs in the halls of ancient shopping malls -->
+	<AM_HallSignage.description>Вывеска зала древнего торгового центра.</AM_HallSignage.description>
+	
+	<!-- EN: bus route sign -->
+	<AM_BusRouteSignA.label>знак автобусного маршрута</AM_BusRouteSignA.label>
+	<!-- EN: Ancient bus route signs -->
+	<AM_BusRouteSignA.description>Древний указатель автобусных маршрутов.</AM_BusRouteSignA.description>
+	
+	<!-- EN: bus route sign -->
+	<AM_BusRouteSignB.label>знак автобусного маршрута</AM_BusRouteSignB.label>
+	<!-- EN: Ancient bus route signs -->
+	<AM_BusRouteSignB.description>Древний указатель автобусных маршрутов.</AM_BusRouteSignB.description>
+	
+	<!-- EN: spiritual fortress -->
+	<AM_SpiritualFortressA.label>рекламная башня</AM_SpiritualFortressA.label>
+	<!-- EN: A giant ancient shopping mall iconic sculpture with some advertisements on it -->
+	<AM_SpiritualFortressA.description>Гигантская башня древнего торгового центра с рекламой на ней.</AM_SpiritualFortressA.description>
+	
+	<!-- EN: spiritual fortress -->
+	<AM_SpiritualFortressB.label>рекламная башня</AM_SpiritualFortressB.label>
+	<!-- EN: A giant ancient shopping mall iconic sculpture with some advertisements on it -->
+	<AM_SpiritualFortressB.description>Гигантская башня древнего торгового центра с рекламой на ней.</AM_SpiritualFortressB.description>
+	
+	<!-- EN: spiritual fortress -->
+	<AM_SpiritualFortressC.label>рекламная башня</AM_SpiritualFortressC.label>
+	<!-- EN: A giant ancient shopping mall iconic sculpture with some advertisements on it -->
+	<AM_SpiritualFortressC.description>Гигантская башня древнего торгового центра с рекламой на ней.</AM_SpiritualFortressC.description>
+	
+	<!-- EN: spiritual fortress -->
+	<AM_SpiritualFortressD.label>рекламная башня</AM_SpiritualFortressD.label>
+	<!-- EN: A giant ancient shopping mall iconic sculpture with some advertisements on it -->
+	<AM_SpiritualFortressD.description>Гигантская башня древнего торгового центра с рекламой на ней.</AM_SpiritualFortressD.description>
+	
+	<!-- EN: shopping mall guide map -->
+	<AM_ShoppingMallGuideMap.label>Навигация по торговому центру.</AM_ShoppingMallGuideMap.label>
+	<!-- EN: A guide map for guiding the internal zoning of the shopping mall -->
+	<AM_ShoppingMallGuideMap.description>Схема внутренней зоны торгового центра.</AM_ShoppingMallGuideMap.description>
+	
+	<!-- EN: parking lot signage -->
+	<AM_ParkingLotSignage.label>вывеска парковки</AM_ParkingLotSignage.label>
+	<!-- EN: A parking Lot Signage -->
+	<AM_ParkingLotSignage.description>Вывеска парковки.</AM_ParkingLotSignage.description>
+	
+	<!-- EN: bus stop -->
+	<AM_BusStop.label>автобусная остановка</AM_BusStop.label>
+	<!-- EN: An ancient bus stop -->
+	<AM_BusStop.description>Древняя автобусная остановка.</AM_BusStop.description>
+	
+	<!-- EN: ancient roadblocks -->
+	<AM_AncientRoadblocks.label>древнее заграждение</AM_AncientRoadblocks.label>
+	<!-- EN: Ancient roadblocks -->
+	<AM_AncientRoadblocks.description>Древнее заграждение.</AM_AncientRoadblocks.description>
+	
+	<!-- EN: ancient revolving door -->
+	<AM_AncientRevolvingDoorA.label>древняя вращающаяся дверь</AM_AncientRevolvingDoorA.label>
+	<!-- EN: An ancient glass revolving door, now it's stuck -->
+	<AM_AncientRevolvingDoorA.description>Древняя стеклянная вращающаяся дверь, похоже она давно застряла.</AM_AncientRevolvingDoorA.description>
+	
+	<!-- EN: ancient revolving door -->
+	<AM_AncientRevolvingDoorB.label>древняя вращающаяся дверь</AM_AncientRevolvingDoorB.label>
+	<!-- EN: An ancient glass revolving door, now it's stuck -->
+	<AM_AncientRevolvingDoorB.description>Древняя стеклянная вращающаяся дверь, похоже она давно застряла.</AM_AncientRevolvingDoorB.description>
+	
+	<!-- EN: ancient revolving door -->
+	<AM_AncientRevolvingDoorC.label>древняя вращающаяся дверь</AM_AncientRevolvingDoorC.label>
+	<!-- EN: An ancient glass revolving door, now it's stuck -->
+	<AM_AncientRevolvingDoorC.description>Древняя стеклянная вращающаяся дверь, похоже она давно застряла.</AM_AncientRevolvingDoorC.description>
+	
+	<!-- EN: mall column -->
+	<AM_MallColumn.label>колонна торгового центра</AM_MallColumn.label>
+	<!-- EN: The structural support columns of the shopping mall -->
+	<AM_MallColumn.description>Несущая колонна торгового центра.</AM_MallColumn.description>
+	
+	<!-- EN: parking lot column -->
+	<AM_ParkingLotColumn.label>колонна парковки</AM_ParkingLotColumn.label>
+	<!-- EN: Structural support columns for parking lots -->
+	<AM_ParkingLotColumn.description>Несущая колонна парковки.</AM_ParkingLotColumn.description>
+	
+	<!-- EN: ancient cash register -->
+	<AM_AncientCashRegister.label>древний кассовый аппарат</AM_AncientCashRegister.label>
+	<!-- EN: The cash register commonly found in ancient supermarkets has been damaged. -->
+	<AM_AncientCashRegister.description>Кассовый аппарат, обычно встречающийся в древних супермаркетах, похоже он повреждён.</AM_AncientCashRegister.description>
+	
+	<!-- EN: cardboard box -->
+	<AM_CardboardBox_Impassable.label>картонные коробки</AM_CardboardBox_Impassable.label>
+	<!-- EN: Stacked densely with cardboard boxes, it's hard to tell what's inside. -->
+	<AM_CardboardBox_Impassable.description>Плотно уложенные картонные коробки, не позволяют определить, что находится внутри.</AM_CardboardBox_Impassable.description>
+	
+	<!-- EN: broked logistics terminal -->
+	<AM_brokedLogisticsTerminal.label>сломанный терминал логистики</AM_brokedLogisticsTerminal.label>
+	<!-- EN: Damaged ancient logistics terminal, this is part of the ancient underground automatic logistics system. -->
+	<AM_brokedLogisticsTerminal.description>Повреждённый древний терминал логистики, это часть древней подземной автоматической логистической системы.</AM_brokedLogisticsTerminal.description>
+	
+	<!-- EN: abandoned big bread -->
+	<AM_AbandonedBigBread.label>древний фургон</AM_AbandonedBigBread.label>
+	<!-- EN: Damaged ancient van. -->
+	<AM_AbandonedBigBread.description>Повреждённый древний фургон.</AM_AbandonedBigBread.description>
+	
+	<!-- EN: abandoned bus -->
+	<AM_AbandonedBus.label>древний автобус</AM_AbandonedBus.label>
+	<!-- EN: Damaged ancient buses. -->
+	<AM_AbandonedBus.description>Повреждённый древний автобус.</AM_AbandonedBus.description>
+	
+	<!-- EN: abandoned forklift -->
+	<AM_AbandonedForklift.label>древний погрузчик</AM_AbandonedForklift.label>
+	<!-- EN: An ancient forklift, whose parts are completely useless, was abandoned. -->
+	<AM_AbandonedForklift.description>Древний вилочный погрузчик, детали которого совершенно бесполезны.</AM_AbandonedForklift.description>
+	
+	<!-- EN: atrium -->
+	<AM_AtriumA.label>атриум</AM_AtriumA.label>
+	<!-- EN: The atrium of an ancient shopping mall, where light can penetrate from the ceiling, makes the entire mall bright. -->
+	<AM_AtriumA.description>Атриум древнего торгового центра, куда свет проникает с потолка, делает весь торговый центр ярким.</AM_AtriumA.description>
+	
+	<!-- EN: atrium -->
+	<AM_AtriumB.label>атриум</AM_AtriumB.label>
+	<!-- EN: The atrium of an ancient shopping mall, where light can penetrate from the ceiling, makes the entire mall bright. -->
+	<AM_AtriumB.description>Атриум древнего торгового центра, куда свет проникает с потолка, делает весь торговый центр ярким.</AM_AtriumB.description>
+	
+	<!-- EN: atrium -->
+	<AM_AtriumC.label>атриум</AM_AtriumC.label>
+	<!-- EN: The atrium of an ancient shopping mall, where light can penetrate from the ceiling, makes the entire mall bright. -->
+	<AM_AtriumC.description>Атриум древнего торгового центра, куда свет проникает с потолка, делает весь торговый центр ярким.</AM_AtriumC.description>
+	
+	<!-- EN: atrium -->
+	<AM_AtriumCorridorEast.label>атриум</AM_AtriumCorridorEast.label>
+	<!-- EN: The atrium of an ancient shopping mall, where light can penetrate from the ceiling, makes the entire mall bright. -->
+	<AM_AtriumCorridorEast.description>Атриум древнего торгового центра, куда свет проникает с потолка, делает весь торговый центр ярким.</AM_AtriumCorridorEast.description>
+	
+	<!-- EN: atrium -->
+	<AM_AtriumCorridorNorth.label>атриум</AM_AtriumCorridorNorth.label>
+	<!-- EN: The atrium of an ancient shopping mall, where light can penetrate from the ceiling, makes the entire mall bright. -->
+	<AM_AtriumCorridorNorth.description>Атриум древнего торгового центра, куда свет проникает с потолка, делает весь торговый центр ярким.</AM_AtriumCorridorNorth.description>
+	
+	<!-- EN: empty cans -->
+	<AM_EmptyCans.label>пустые банки</AM_EmptyCans.label>
+	<!-- EN: A pile of beverage cans thrown on the ground that have been consumed by someone unknown -->
+	<AM_EmptyCans.description>Куча банок с напитками, которые были кем-то употреблены.</AM_EmptyCans.description>
+	
+	<!-- EN: cardboard box -->
+	<AM_CardboardBox.label>картонные коробки</AM_CardboardBox.label>
+	<!-- EN: A pile of disorganized cardboard boxes -->
+	<AM_CardboardBox.description>Куча разбросанных картонных коробок.</AM_CardboardBox.description>
+	
+	<!-- EN: parterre -->
+	<AM_ParterreA.label>клумба</AM_ParterreA.label>
+	<!-- EN: Decorative parterre in shopping malls. -->
+	<AM_ParterreA.description>Декоративная клумба торгового центра.</AM_ParterreA.description>
+	
+	<!-- EN: parterre -->
+	<AM_ParterreB.label>клумба</AM_ParterreB.label>
+	<!-- EN: Decorative parterre in shopping malls. -->
+	<AM_ParterreB.description>Декоративная клумба торгового центра.</AM_ParterreB.description>
+	
+	<!-- EN: parterre -->
+	<AM_ParterreC.label>клумба</AM_ParterreC.label>
+	<!-- EN: Decorative parterre in shopping malls. -->
+	<AM_ParterreC.description>Декоративная клумба торгового центра.</AM_ParterreC.description>
+	
+	<!-- EN: modern art sculpture -->
+	<AM_Effigy.label>скульптура современного искусства</AM_Effigy.label>
+	<!-- EN: Modern art sculptures inside ancient shopping malls. -->
+	<AM_Effigy.description>Скульптура современного искусства древнего торгового центра.</AM_Effigy.description>
+	
+	<!-- EN: THICC -->
+	<AM_THICC.label>толстые ящики</AM_THICC.label>
+	<!-- EN: Some large capacity storage boxes "thicc" are piled up on the ground. -->
+	<AM_THICC.description>Несколько ящиков большой вместимости.</AM_THICC.description>
+	
+	<!-- EN: oil drum -->
+	<AM_OilDrum.label>бочки с маслом</AM_OilDrum.label>
+	<!-- EN: A pile of haphazardly stacked iron drums -->
+	<AM_OilDrum.description>Куча беспорядочно сложенных железных бочек</AM_OilDrum.description>
+	
+	<!-- EN: refrigerator -->
+	<AM_RefrigeratorEmpty.label>холодильник</AM_RefrigeratorEmpty.label>
+	<!-- EN: The refrigerator containing various foods has long been powered off. -->
+	<AM_RefrigeratorEmpty.description>Холодильник с различными продуктами, давно отключен.</AM_RefrigeratorEmpty.description>
+	
+	<!-- EN: ancient vending machine -->
+	<AM_AVendingMachine.label>древний торговый автомат</AM_AVendingMachine.label>
+	<!-- EN: Damaged ancient vending machines. -->
+	<AM_AVendingMachine.description>Поврежденный древний торговый автомат.</AM_AVendingMachine.description>
+	
+	<!-- EN: model dummy -->
+	<AM_ModelEmpty.label>манекен</AM_ModelEmpty.label>
+	<!-- EN: A clothing model dummy. -->
+	<AM_ModelEmpty.description>Манекен для одежды.</AM_ModelEmpty.description>
+	
+	<!-- EN: model dummy -->
+	<AM_ModelfEmpty.label>манекен</AM_ModelfEmpty.label>
+	<!-- EN: A clothing model dummy. -->
+	<AM_ModelfEmpty.description>Манекен для одежды.</AM_ModelfEmpty.description>
+	
+	<!-- EN: weathered rolling shutter door -->
+	<AM_RollingShutter_I_HP.label>выветренные роллетные ворота</AM_RollingShutter_I_HP.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_I_HP.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_I_HP.description>
+	
+	<!-- EN: rolling shutter door -->
+	<AM_RollingShutter_I.label>роллетные ворота</AM_RollingShutter_I.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_I.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_I.description>
+	
+	<!-- EN: weathered rolling shutter door -->
+	<AM_RollingShutter_II_HP.label>выветренные роллетные ворота</AM_RollingShutter_II_HP.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_II_HP.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_II_HP.description>
+	
+	<!-- EN: rolling shutter door -->
+	<AM_RollingShutter_II.label>роллетные ворота</AM_RollingShutter_II.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_II.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_II.description>
+	
+	<!-- EN: weathered rolling shutter door -->
+	<AM_RollingShutter_III_HP.label>выветренные роллетные ворота</AM_RollingShutter_III_HP.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_III_HP.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_III_HP.description>
+	
+	<!-- EN: rolling shutter door -->
+	<AM_RollingShutter_III.label>роллетные ворота</AM_RollingShutter_III.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_III.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_III.description>
+	
+	<!-- EN: rolling shutter door -->
+	<AM_RollingShutter_NoHP.label>роллетные ворота</AM_RollingShutter_NoHP.label>
+	<!-- EN: Rolling shutter doors, commonly found in warehouses. -->
+	<AM_RollingShutter_NoHP.description>Роллетные ворота, часто встречающиеся на складах.</AM_RollingShutter_NoHP.description>
+	
+	<!-- EN: construction site -->
+	<AM_ConstructionSite.label>табличка «Идёт строительство!»</AM_ConstructionSite.label>
+	<!-- EN: Hot work in progress. -->
+	<AM_ConstructionSite.description>Идут горячие работы.</AM_ConstructionSite.description>
+	
+	<!-- EN: cone -->
+	<AM_Cone.label>конус</AM_Cone.label>
+	<!-- EN: Triangular obstacle. -->
+	<AM_Cone.description>Треугольное препятствие.</AM_Cone.description>
+	
+	<!-- EN: concrete barrier -->
+	<AM_Palisade.label>бетонный барьер</AM_Palisade.label>
+	<!-- EN: Concrete barriers marked with warning signs -->
+	<AM_Palisade.description>Бетонный барьер с предупреждающими знаками.</AM_Palisade.description>
+</LanguageData>

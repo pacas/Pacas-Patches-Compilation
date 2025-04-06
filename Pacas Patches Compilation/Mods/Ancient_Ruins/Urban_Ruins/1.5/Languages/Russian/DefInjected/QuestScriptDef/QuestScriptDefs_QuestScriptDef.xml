@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\QuestScriptDefs\QuestScriptDefs.xml-->
+	<!-- EN: Location cleared -->
+	<AM_Quest_Street.root.nodes.Signal.node.nodes.Letter.label>Место зачищено</AM_Quest_Street.root.nodes.Signal.node.nodes.Letter.label>
+	<!-- EN: The ancient architectural complex has been searched and wiped out, and it will disappear into the tide of history. -->
+	<AM_Quest_Street.root.nodes.Signal.node.nodes.Letter.text>Древний архитектурный комплекс был обыскан и стёрт с лица земли, и он исчезнет в потоке истории.</AM_Quest_Street.root.nodes.Signal.node.nodes.Letter.text>
+	<!-- EN: 
+		<li>questDescription -> We have discovered the site of an ancient block ruins, where the streets were once lined with shops. The map also indicates the presence of an entrance to an underground commercial street, promising the discovery of numerous high-value items.</li>
+	 -->
+	<AM_Quest_Street.questDescriptionRules.rulesStrings>
+		<li>questDescription -> Мы обнаружили место, где находятся руины древнего квартала, на улицах которого когда-то располагались магазины. Карта также указывает на наличие входа в подземную торговую улицу, что обещает находку множества ценных предметов.</li>
+	</AM_Quest_Street.questDescriptionRules.rulesStrings>
+	<!-- EN: 
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->secret</li>
+		<li>complexAdj->ancient</li>
+		<li>complexAdj->old</li>
+		<li>complexAdj->hidden</li>
+		<li>complexAdj->dusty</li>
+		<li>complexAdj->dangerous</li>
+		<li>complexAdj->hidden</li>
+		<li>complex->block ruins</li>
+		<li>complex->neighbourhood ruins</li>
+		<li>complex->street ruins</li>
+	 -->
+	<AM_Quest_Street.questNameRules.rulesStrings>
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->секретные</li>
+		<li>complexAdj->древние</li>
+		<li>complexAdj->старые</li>
+		<li>complexAdj->спрятанные</li>
+		<li>complexAdj->пыльные</li>
+		<li>complexAdj->опасные</li>
+		<li>complexAdj->спрятанные</li>
+		<li>complex->руины квартала</li>
+		<li>complex->руины района</li>
+		<li>complex->руины улицы</li>
+	</AM_Quest_Street.questNameRules.rulesStrings>
+	
+	<!-- EN: Location cleared -->
+	<AM_Quest_Reserve.root.nodes.Signal.node.nodes.Letter.label>Место зачищено</AM_Quest_Reserve.root.nodes.Signal.node.nodes.Letter.label>
+	<!-- EN: The ancient architectural complex has been searched and wiped out, and it will disappear into the tide of history. -->
+	<AM_Quest_Reserve.root.nodes.Signal.node.nodes.Letter.text>Древний архитектурный комплекс был обыскан и стёрт с лица земли, и он исчезнет в потоке истории.</AM_Quest_Reserve.root.nodes.Signal.node.nodes.Letter.text>
+	<!-- EN: 
+		<li>questDescription -> We have discovered the location of an ancient military Reservation Station, which is heavily fortified and rumored to be manned by well-equipped ancient elite soldiers. Infiltrating this location carries extreme risk, but also offers equally significant rewards.</li>
+	 -->
+	<AM_Quest_Reserve.questDescriptionRules.rulesStrings>
+		<li>questDescription -> Мы обнаружили местоположение древней военной резервной станции, которая сильно укреплена и, по слухам, укомплектована хорошо оснащёнными древними элитными солдатами. Проникновение в это место сопряжено с огромным риском, но и обещает не менее значительную награду.</li>
+	</AM_Quest_Reserve.questDescriptionRules.rulesStrings>
+	<!-- EN: 
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->secret</li>
+		<li>complexAdj->ancient</li>
+		<li>complexAdj->old</li>
+		<li>complexAdj->hidden</li>
+		<li>complexAdj->dusty</li>
+		<li>complexAdj->dangerous</li>
+		<li>complexAdj->hidden</li>
+		<li>complex->Reservation Station</li>
+		<li>complex->Storage station</li>
+		<li>complex->military base</li>
+		<li>complex->base</li>
+		<li>complex->Military warehouse</li>
+	 -->
+	<AM_Quest_Reserve.questNameRules.rulesStrings>
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->секретная</li>
+		<li>complexAdj->древняя</li>
+		<li>complexAdj->старая</li>
+		<li>complexAdj->спрятанная</li>
+		<li>complexAdj->пыльная</li>
+		<li>complexAdj->опасная</li>
+		<li>complexAdj->спрятанная</li>
+		<li>complex->Резервная станция</li>
+		<li>complex->Станция хранения</li>
+		<li>complex->военная база</li>
+		<li>complex->база</li>
+		<li>complex->Военная складская база</li>
+	</AM_Quest_Reserve.questNameRules.rulesStrings>
+	
+	<!-- EN: Location cleared -->
+	<AM_Quest_Mall_S.root.nodes.Signal.node.nodes.Letter.label>Место зачищено</AM_Quest_Mall_S.root.nodes.Signal.node.nodes.Letter.label>
+	<!-- EN: The ancient architectural complex has been searched and wiped out, and it will disappear into the tide of history. -->
+	<AM_Quest_Mall_S.root.nodes.Signal.node.nodes.Letter.text>Древний архитектурный комплекс был обыскан и стёрт с лица земли, и он исчезнет в потоке истории.</AM_Quest_Mall_S.root.nodes.Signal.node.nodes.Letter.text>
+	<!-- EN: 
+		<li>questDescription -> We have discovered an ancient giant shopping mall that is remarkably well-preserved and abundant in resources. Undoubtedly, other factions have also discovered this location, making a conflict inevitable.</li>
+	 -->
+	<AM_Quest_Mall_S.questDescriptionRules.rulesStrings>
+		<li>questDescription -> Мы обнаружили древний гигантский торговый центр, который удивительно хорошо сохранился и изобилует ресурсами. Несомненно, другие фракции также обнаружили это место, что делает конфликт неизбежным.</li>
+	</AM_Quest_Mall_S.questDescriptionRules.rulesStrings>
+	<!-- EN: 
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->giant</li>
+		<li>complexAdj->ancient</li>
+		<li>complexAdj->old</li>
+		<li>complexAdj->huge</li>
+		<li>complexAdj->dusty</li>
+		<li>complex->shopping mall</li>
+		<li>complex->supermarket</li>
+		<li>complex->shopping plaza</li>
+		<li>complex->mall</li>
+	 -->
+	<AM_Quest_Mall_S.questNameRules.rulesStrings>
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->гигантский</li>
+		<li>complexAdj->древний</li>
+		<li>complexAdj->старый</li>
+		<li>complexAdj->огромный</li>
+		<li>complexAdj->пыльный</li>
+		<li>complex->торговый центр</li>
+		<li>complex->супермаркет</li>
+		<li>complex->торговый комплекс</li>
+		<li>complex->молл</li>
+	</AM_Quest_Mall_S.questNameRules.rulesStrings>
+	
+	<!-- EN: Location cleared -->
+	<AM_Quest_Mall_L.root.nodes.Signal.node.nodes.Letter.label>Место зачищено</AM_Quest_Mall_L.root.nodes.Signal.node.nodes.Letter.label>
+	<!-- EN: The ancient architectural complex has been searched and wiped out, and it will disappear into the tide of history. -->
+	<AM_Quest_Mall_L.root.nodes.Signal.node.nodes.Letter.text>Древний архитектурный комплекс был обыскан и стёрт с лица земли, и он исчезнет в потоке истории.</AM_Quest_Mall_L.root.nodes.Signal.node.nodes.Letter.text>
+	<!-- EN: 
+		<li>questDescription ->  We have discovered an ancient giant shopping mall that is remarkably well-preserved and abundant in resources. Undoubtedly, other factions have also discovered this location, making a conflict inevitable.</li>
+	 -->
+	<AM_Quest_Mall_L.questDescriptionRules.rulesStrings>
+		<li>questDescription -> Мы обнаружили древний гигантский торговый центр, который удивительно хорошо сохранился и изобилует ресурсами. Несомненно, другие фракции также обнаружили это место, что делает конфликт неизбежным.</li>
+	</AM_Quest_Mall_L.questDescriptionRules.rulesStrings>
+	<!-- EN: 
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->giant</li>
+		<li>complexAdj->ancient</li>
+		<li>complexAdj->old</li>
+		<li>complexAdj->huge</li>
+		<li>complexAdj->dusty</li>
+		<li>complex->shopping mall</li>
+		<li>complex->supermarket</li>
+		<li>complex->shopping plaza</li>
+		<li>complex->mall</li>
+	 -->
+	<AM_Quest_Mall_L.questNameRules.rulesStrings>
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->гигантский</li>
+		<li>complexAdj->древний</li>
+		<li>complexAdj->старый</li>
+		<li>complexAdj->огромный</li>
+		<li>complexAdj->пыльный</li>
+		<li>complex->торговый центр</li>
+		<li>complex->супермаркет</li>
+		<li>complex->торговый комплекс</li>
+		<li>complex->молл</li>
+	</AM_Quest_Mall_L.questNameRules.rulesStrings>
+</LanguageData>

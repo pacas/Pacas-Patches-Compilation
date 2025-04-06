@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\QuestScriptDefs\QuestScriptDefs_Random.xml-->
+	
+	<!-- EN: architectural ruins -->
+	<ACM_AncientRandomComplex.label>архитектурные руины</ACM_AncientRandomComplex.label>
+	<!-- EN: An ancient complex containing the corpse of a mechanitor. You can try to penetrate this dangerous structure to extract the mechanitor's mechlink for your own use. -->
+	<ACM_AncientRandomComplex.description>Древний комплекс, внутри которого находится труп механитора. Вы можете попытаться проникнуть в это опасное сооружение, чтобы извлечь мехлинк механитора для собственного использования.</ACM_AncientRandomComplex.description>
+	<!-- EN: Investigate {0} -->
+	<ACM_AncientRandomComplex.approachOrderString>Исследовать {0}</ACM_AncientRandomComplex.approachOrderString>
+	<!-- EN: Investigate {0} -->
+	<ACM_AncientRandomComplex.approachingReportString>Исследовать {0}</ACM_AncientRandomComplex.approachingReportString>
+</LanguageData>

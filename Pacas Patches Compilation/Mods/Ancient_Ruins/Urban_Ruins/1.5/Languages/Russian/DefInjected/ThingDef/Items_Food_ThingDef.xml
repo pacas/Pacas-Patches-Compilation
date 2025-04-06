@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Food\Items_Food.xml-->
+	<!-- EN: classic potato chips -->
+	<AM_PotatoChipsA.label>чипсы</AM_PotatoChipsA.label>
+	<!-- EN: An ancient bag of classic thin cut salted potato chips. and packaged with nitrogen gas making it difficult to spoil. -->
+	<AM_PotatoChipsA.description>Древний пакетик классических тонко нарезанных солёных картофельных чипсов. Упакован с газообразным азотом, что затрудняет порчу.</AM_PotatoChipsA.description>
+	
+	<!-- EN: Coca-Cola -->
+	<AM_Coca.label>Кока-Кола</AM_Coca.label>
+	<!-- EN: An ancient sparkling beverage with high sugar content. Just a sip could make someone happy for an entire day. -->
+	<AM_Coca.description>Древний газированный напиток с высоким содержанием сахара. Всего один глоток может сделать человека счастливым на целый день.</AM_Coca.description>
+	<!-- EN: Drinking {0}. -->
+	<AM_Coca.ingestible.ingestReportString>Пьёт {0}</AM_Coca.ingestible.ingestReportString>
+	<!-- EN: Drink {0} -->
+	<AM_Coca.ingestible.ingestCommandString>Пить {0}</AM_Coca.ingestible.ingestCommandString>
+	
+	<!-- EN: fanta -->
+	<AM_Fanta.label>Фанта</AM_Fanta.label>
+	<!-- EN: An ancient carbonated orange-flavored soft drink, sweet and delicious. -->
+	<AM_Fanta.description>Древний газированный безалкогольный напиток со вкусом апельсина, сладкий и вкусный.</AM_Fanta.description>
+	<!-- EN: Drinking {0}. -->
+	<AM_Fanta.ingestible.ingestReportString>Пьёт {0}</AM_Fanta.ingestible.ingestReportString>
+	<!-- EN: Drink {0} -->
+	<AM_Fanta.ingestible.ingestCommandString>Пить {0}</AM_Fanta.ingestible.ingestCommandString>
+	
+	<!-- EN: Pepsi -->
+	<AM_Pepsi.label>Пепси</AM_Pepsi.label>
+	<!-- EN: An ancient, slightly inferior carbonated soft drink. Seems sweeter than the others. -->
+	<AM_Pepsi.description>Древний, немного низкокачественный газированный безалкогольный напиток. Кажется слаще остальных.</AM_Pepsi.description>
+	<!-- EN: Drinking {0}. -->
+	<AM_Pepsi.ingestible.ingestReportString>Пьёт {0}</AM_Pepsi.ingestible.ingestReportString>
+	<!-- EN: Drink {0} -->
+	<AM_Pepsi.ingestible.ingestCommandString>Пить {0}</AM_Pepsi.ingestible.ingestCommandString>
+	
+	<!-- EN: Sprite -->
+	<AM_Sprite.label>Спрайт</AM_Sprite.label>
+	<!-- EN: An ancient lemon-lime flavored soft drink with a strong sour taste. -->
+	<AM_Sprite.description>Древний безалкогольный напиток со вкусом лимона и лайма с ярко выраженным кисловатым вкусом.</AM_Sprite.description>
+	<!-- EN: Drinking {0}. -->
+	<AM_Sprite.ingestible.ingestReportString>Пьёт {0}</AM_Sprite.ingestible.ingestReportString>
+	<!-- EN: Drink {0} -->
+	<AM_Sprite.ingestible.ingestCommandString>Пить {0}</AM_Sprite.ingestible.ingestCommandString>
+</LanguageData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                          repulsive -->
+	<AG_Beauty_VeryVeryUgly.label>непостижимое уродство</AG_Beauty_VeryVeryUgly.label>
+	<!--                                  repulsive -->
+	<AG_Beauty_VeryVeryUgly.labelShortAdj>уродливый</AG_Beauty_VeryVeryUgly.labelShortAdj>
+	<!--                                Carriers of this gene are so unfathomably ugly and grotesque that merely looking at them is enough to make other people nauseous. -->
+	<AG_Beauty_VeryVeryUgly.description>Носители этого гена обладают такой ужасающей и отвратительной внешностью, что один взгляд на них вызывает у окружающих рвоту.</AG_Beauty_VeryVeryUgly.description>
+	<!--                                               Any other colonist coming nearby will be subject to a negative mood impact due to sheer disgust. -->
+	<AG_Beauty_VeryVeryUgly.customEffectDescriptions.0>Каждый поселенец вблизи будет испытывать негативные эмоции из-за сильного отвращения к внешности носителя гена.</AG_Beauty_VeryVeryUgly.customEffectDescriptions.0>
+	
+	<!--                     angelic beauty -->
+	<AG_Beauty_Angelic.label>ангельская красота</AG_Beauty_Angelic.label>
+	<!--                             angelic -->
+	<AG_Beauty_Angelic.labelShortAdj>ангельская</AG_Beauty_Angelic.labelShortAdj>
+	<!--                           Carriers of this gene possess an unnatural, almost pristine beauty that makes them stand out among others of their kind. -->
+	<AG_Beauty_Angelic.description>Носители этого гена обладают необычной, почти мифической красотой, которая выделяет их среди окружающих.</AG_Beauty_Angelic.description>
+	<!--                                          Any other colonist coming nearby will be subject to a positive mood impact due to basking in their uncanny beauty. -->
+	<AG_Beauty_Angelic.customEffectDescriptions.0>Каждый поселенец вблизи будет испытывать положительные эмоции, ощущая тепло и умиротворение от ослепительной красоты носителя.</AG_Beauty_Angelic.customEffectDescriptions.0>
+	<!--                                          Can't be disfigured. Disfigurement doesn't cause beauty to drop, and other people won't think less of them. -->
+	<AG_Beauty_Angelic.customEffectDescriptions.1>Носители этого гена не могут быть обезображены, так как это не влияет на их красоту, и мнение окружающих о них не ухудшается.</AG_Beauty_Angelic.customEffectDescriptions.1>
+	
+	<!--                           unsettling appearance -->
+	<AG_UnsettlingAppearance.label>тревожная внешность</AG_UnsettlingAppearance.label>
+	<!--                                   unsettling -->
+	<AG_UnsettlingAppearance.labelShortAdj>тревожный</AG_UnsettlingAppearance.labelShortAdj>
+	<!--                                 Going beyond mundane notions of beauty or ugliness, the carrier of this gene has such an unsettling appearance that it inspires a certain sense of unease on other people. -->
+	<AG_UnsettlingAppearance.description>Выходя за пределы обычных представлений о красоте и уродстве, носитель этого гена обладает такой тревожной внешностью, что вызывает у окружающих чувство настороженности и беспокойства.</AG_UnsettlingAppearance.description>
+	<!--                                                Any person without this gene will get a -60 social penalty towards people who have it. -->
+	<AG_UnsettlingAppearance.customEffectDescriptions.0>Каждый, кто не обладает этим геном, получает штраф -60 к социальным отношениям с его носителями.</AG_UnsettlingAppearance.customEffectDescriptions.0>
+	
+	<!--                     eldritch visage -->
+	<AG_EldritchVisage.label>ужасающая внешность</AG_EldritchVisage.label>
+	<!--                             eldritch -->
+	<AG_EldritchVisage.labelShortAdj>ужасающий</AG_EldritchVisage.labelShortAdj>
+	<!--                           The carrier of this gene has an appearance that terrifies other people to the very core of their being. They will always be despised. -->
+	<AG_EldritchVisage.description>Носитель этого гена обладает такой внешностью, которая ужасает других людей до глубины души. Его всегда будут презирать.</AG_EldritchVisage.description>
+	<!--                                          Any person without this gene will get a -500 social penalty towards people who have it, basically ensuring they'll always be at -100 relationship opinion. -->
+	<AG_EldritchVisage.customEffectDescriptions.0>Каждый, кто не обладает этим геном, получает штраф -500 к социальным отношениям с его носителями, что неизбежно устанавливает мнение на -100.</AG_EldritchVisage.customEffectDescriptions.0>
+	
+	<!--                   teratophilia -->
+	<AG_Teratophilia.label>тератофилия</AG_Teratophilia.label>
+	<!--                         The carrier of this gene doesn't care about ugliness, feeling equally attracted to ugly colonists. Beauty is in the eye of the beholder after all (the person looking, not the D&amp;D monster). 
+	Прим. FatTresh - Beholder: Наблюдатель, Бехолдер, монстр в D&D, уточнение в скобках не нужно так как использовано другое слово-->
+	<AG_Teratophilia.description>Носителя этого гена не заботит внешность. Его привлекают уродливые поселенцы, поскольку, в конечном счёте, красота — в глазах смотрящего.</AG_Teratophilia.description>
+</LanguageData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                slime body -->
+	<AG_SlimeBody.label>слизистое телосложение</AG_SlimeBody.label>
+	<!--                        slime bodied -->
+	<AG_SlimeBody.labelShortAdj>слизистый</AG_SlimeBody.labelShortAdj>
+	<!--                      Carriers of this gene have gelatinous, constantly dripping blue skin. -->
+	<AG_SlimeBody.description>У носителей этого гена студенистая, постоянно капающая синяя кожа.</AG_SlimeBody.description>
+	
+	<!--               slug body -->
+	<AG_SlugBody.label>телосложение слизня</AG_SlugBody.label>
+	<!--                       slug-like -->
+	<AG_SlugBody.labelShortAdj>слизнеподобный</AG_SlugBody.labelShortAdj>
+	<!--                     Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist. -->
+	<AG_SlugBody.description>Носители этого гена обладают толстым, слизистым хвостом, растущим из копчика, а их тело остается вечно мягким и влажным.</AG_SlugBody.description>
+	
+	<!--                scaly body -->
+	<AG_ScalyBody.label>чешуйчатое телосложение</AG_ScalyBody.label>
+	<!--                        scaled -->
+	<AG_ScalyBody.labelShortAdj>чешуйчатый</AG_ScalyBody.labelShortAdj>
+	<!--                      Carriers of this gene have wet scales over all their body. -->
+	<AG_ScalyBody.description>Носители этого гена покрыты мокрыми чешуйками, распределёнными по всему телу.</AG_ScalyBody.description>
+	<!--                                     Can move very fast across shallow water -->
+	<AG_ScalyBody.customEffectDescriptions.0>Носители гена передвигаются очень быстро по мелководью</AG_ScalyBody.customEffectDescriptions.0>
+	
+	<!--                rocky body -->
+	<AG_RockyBody.label>каменное телосложение</AG_RockyBody.label>
+	<!--                        rocky -->
+	<AG_RockyBody.labelShortAdj>каменный</AG_RockyBody.labelShortAdj>
+	<!--                      Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin. -->
+	<AG_RockyBody.description>У носителей этого гена каменистая, с проступающими минеральными отложениями кожа.</AG_RockyBody.description>
+	
+	<!--                    cancerous body -->
+	<AG_CancerousBody.label>раковое телосложение</AG_CancerousBody.label>
+	<!--                            cancerous -->
+	<AG_CancerousBody.labelShortAdj>раковый</AG_CancerousBody.labelShortAdj>
+	<!--                          Carriers of this gene have a lumpy, cancerous looking body with loose skin and pockmarks. -->
+	<AG_CancerousBody.description>Носителей этого гена обладают бугристым, раковым на вид телом с рыхлой кожей и язвами.</AG_CancerousBody.description>
+	
+	<!--                gaunt body -->
+	<AG_GauntBody.label>изможденное телосложение</AG_GauntBody.label>
+	<!--                        gaunt -->
+	<AG_GauntBody.labelShortAdj>изможденный</AG_GauntBody.labelShortAdj>
+	<!--                      Carriers of this gene have a pinched, gaunt appearance in their body. -->
+	<AG_GauntBody.description>Носители этого гена обладают щуплым, изможденным на вид телом.</AG_GauntBody.description>
+	
+	<!--                    drakonori body -->
+	<AG_DrakonoriBody.label>телосложение драконори</AG_DrakonoriBody.label>
+	<!--                            drakonori -->
+	<AG_DrakonoriBody.labelShortAdj>драконори</AG_DrakonoriBody.labelShortAdj>
+	<!--                          Carriers of this gene have a draconic and scaly appearance in their body. -->
+	<AG_DrakonoriBody.description>Носители этого гена покрыты чешуей и имеют драконий вид тела.</AG_DrakonoriBody.description>
+	
+	<!--                 nereid body -->
+	<AG_NereidBody.label>телосложение нереиды</AG_NereidBody.label>
+	<!--                         nereid -->
+	<AG_NereidBody.labelShortAdj>нереидовый</AG_NereidBody.labelShortAdj>
+	<!--                       Carriers of this gene have a scaly appearance in their body, with bioluminescent spots. -->
+	<AG_NereidBody.description>Носители этого гена покрыты чешуёй с биолюминесцентными пятнами</AG_NereidBody.description>
+	
+	<!--                   forsaken body -->
+	<AG_ForsakenBody.label>телосложение забытых</AG_ForsakenBody.label>
+	<!--                           forsaken -->
+	<AG_ForsakenBody.labelShortAdj>забытый</AG_ForsakenBody.labelShortAdj>
+	<!--                         Carriers of this gene have a body that seems to have deep valleys around their bodies and ribs visible beneath the skin in certain places, yet are otherwise healthy in appearance. This results in a slightly lower weight and a significantly more fragile body. -->
+	<AG_ForsakenBody.description>Носители этого гена обладают телом с глубокими впадинами и выступающими рёбрами, видимыми под кожей в некоторых местах. При этом их общий вид остается здоровым, но тело становится значительно более хрупким и лёгким.</AG_ForsakenBody.description>
+	
+	<!--                  digitigrade legs -->
+	<AG_Digitigrade.label>пальцеходящие ноги</AG_Digitigrade.label>
+	<!--                          digitigrade -->
+	<AG_Digitigrade.labelShortAdj>пальцеходящий</AG_Digitigrade.labelShortAdj>
+	<!--                        Carriers of this gene have digitigrade legs, meaning they stand or walk with their toes (metatarsals) touching the ground, and the rest of their foot lifted. -->
+	<AG_Digitigrade.description>Носители этого гена обладают пальцеходящими ногами, то есть они стоят или ходят, касаясь земли пальцами (метатарзалами), а остальная часть стопы приподнята.</AG_Digitigrade.description>
+	<!--                                       Carrying capacity on the map reduced to 60%. -->
+	<AG_Digitigrade.customEffectDescriptions.0>Грузоподъемность на местности снижена до 60%.</AG_Digitigrade.customEffectDescriptions.0>
+	<!--                                       Carrying capacity while caravaning reduced to 80%. -->
+	<AG_Digitigrade.customEffectDescriptions.1>Грузоподъемность в составе каравана снижена до 80%.</AG_Digitigrade.customEffectDescriptions.1>
+</LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Ears.xml-->
+	<!--                 radyak ears -->
+	<AG_RadYakEars.label>уши рад-яка</AG_RadYakEars.label>
+	<!--                       Carriers of this gene will grow pointed radyak ears. -->
+	<AG_RadYakEars.description>Носители этого гена обладают заостренными ушами рад-яка.</AG_RadYakEars.description>
+	
+	<!--                 animus ears -->
+	<AG_AnimusEars.label>уши духолиса</AG_AnimusEars.label>
+	<!--                       Carriers of this gene will grow animus vox ears. -->
+	<AG_AnimusEars.description>Носители этого гена обладают ушами духолиса.</AG_AnimusEars.description>
+	
+	<!--                single ear -->
+	<AG_SingleEar.label>одиночное ухо</AG_SingleEar.label>
+	<!--                      Carriers of this gene will grow a single malformed, drooping ear. -->
+	<AG_SingleEar.description>Носители этого гена обладают одним деформированным ухом, которое слегка опущено.</AG_SingleEar.description>
+	
+	<!--               long ears -->
+	<AG_LongEars.label>длинные уши</AG_LongEars.label>
+	<!--                     Carriers of this gene will grow long ears. -->
+	<AG_LongEars.description>Носители этого гена обладают длинными ушами.</AG_LongEars.description>
+	
+	<!--                demon ears -->
+	<AG_DemonEars.label>демонические уши</AG_DemonEars.label>
+	<!--                      Carriers of this gene will grow long demon ears. -->
+	<AG_DemonEars.description>Носители этого гена обладают длинными демоническими ушами.</AG_DemonEars.description>
+	
+	<!--               ear wings -->
+	<AG_EarWings.label>ушные крылья</AG_EarWings.label>
+	<!--                     Carriers of this gene will grow large bat wing ears. These are purely cosmetic, not allowing for any sort of flight. -->
+	<AG_EarWings.description>Носители этого гена обладают крупными ушами в форме крыльев летучей мыши. Эти уши имеют чисто декоративный характер и не дают способности летать.</AG_EarWings.description>
+	
+	<!--                 nereid fins -->
+	<AG_NereidFins.label>плавники нереиды</AG_NereidFins.label>
+	<!--                       Carriers of this gene will grow ears that are elongated and fin-like, tapering to a point. They extend outward from the sides of the head, much like the pectoral fins of a fish. -->
+	<AG_NereidFins.description>Носители этого гена обладают удлинёнными ушами, напоминающими плавники, которые сужаются к острию. Они расположены по бокам головы, как грудные плавники рыбы.</AG_NereidFins.description>
+</LanguageData>

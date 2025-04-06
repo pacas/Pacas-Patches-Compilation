@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Items\ThingDef_Useable.xml-->
+	<!-- EN: surgical bag -->
+	<AM_SurgicalBag.label>санитарная сумка</AM_SurgicalBag.label>
+	<!-- EN: A medical kit with the necessary tools for emergency surgery on the battlefield. -->
+	<AM_SurgicalBag.description>Медицинская аптечка с необходимыми инструментами для экстренной хирургии на поле боя.</AM_SurgicalBag.description>
+	<!-- EN: Taking {0}. -->
+	<AM_SurgicalBag.ingestible.ingestReportString>Принимает {0}</AM_SurgicalBag.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_SurgicalBag.ingestible.ingestCommandString>Принять {0}</AM_SurgicalBag.ingestible.ingestCommandString>
+	
+	<!-- EN: survival kit -->
+	<AM_BigSurgicalBag.label>комплект выживания</AM_BigSurgicalBag.label>
+	<!-- EN: A set of medical kits with tools required for emergency surgery on the battlefield. This style is larger than a typical surgical bag and can be used more times. -->
+	<AM_BigSurgicalBag.description>Комплект медицинских аптечек с инструментами, необходимыми для экстренной хирургической помощи на поле боя. Он больше, чем обычный хирургический мешок, и его можно использовать несколько раз.</AM_BigSurgicalBag.description>
+	<!-- EN: Taking {0}. -->
+	<AM_BigSurgicalBag.ingestible.ingestReportString>Принимает {0}</AM_BigSurgicalBag.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_BigSurgicalBag.ingestible.ingestCommandString>Принять {0}</AM_BigSurgicalBag.ingestible.ingestCommandString>
+	
+	<!-- EN: AI2A -->
+	<AM_AI2A.label>аптечка АИ-2</AM_AI2A.label>
+	<!-- EN: Some emergency medicines packaged in a small plastic box. -->
+	<AM_AI2A.description>Некоторые лекарства для неотложной помощи, упакованные в небольшую пластиковую коробочку.</AM_AI2A.description>
+	
+	<!-- EN: hemostatic agent -->
+	<AM_HemostaticAgent.label>кровоостанавливающее средство</AM_HemostaticAgent.label>
+	<!-- EN: An injestible agent that can stop bleeding in emergency situations. -->
+	<AM_HemostaticAgent.description>Инъекционное средство, способное остановить кровотечение в экстренных ситуациях.</AM_HemostaticAgent.description>
+	
+	<!-- EN: first aid kit -->
+	<AM_FirstAidKit.label>аптечка</AM_FirstAidKit.label>
+	<!-- EN: A medical kit commonly used as a backup in cars. It contains basic drugs, tools for suturing and bone setting, diagnostic devices, and various pads and fluids. -->
+	<AM_FirstAidKit.description>Медицинская аптечка, обычно используемая в качестве запасного средства в автомобилях. Содержит основные медикаменты, бинты, тампоны, материалы и инструменты для наложения швов, вправления переломов и диагностики.</AM_FirstAidKit.description>
+	
+	<!-- EN: salewa kit -->
+	<AM_Salewa.label>аптечка «Salewa»</AM_Salewa.label>
+	<!-- EN: A first aid kit containing insulation blankets, various types of bandages and dressings, and medical tools. -->
+	<AM_Salewa.description>Аптечка первой помощи, содержащая изоляционные одеяла, различные виды повязок и повязок, а также медицинские инструменты.</AM_Salewa.description>
+	
+	<!-- EN: grizzly kit -->
+	<AM_Grizzly.label>аптечка «Grizzly»</AM_Grizzly.label>
+	<!-- EN: Considered one of the best first aid kits. It contains all medical supplies one could need in extreme situations. -->
+	<AM_Grizzly.description>Считается одной из лучших аптечек первой помощи. В ней есть все медицинские принадлежности, которые могут понадобиться в экстремальных ситуациях.</AM_Grizzly.description>
+	
+	<!-- EN: ancient grizzly kit -->
+	<AM_AncientGrizzly.label>древняя аптечка «Grizzly»</AM_AncientGrizzly.label>
+	<!-- EN: Considered one of the best first aid kits. It contains all medical supplies one could need in extreme situations. Its packaging is dilapidated, but it seems the medicine can still be used. -->
+	<AM_AncientGrizzly.description>Считается одной из лучших аптечек первой помощи. В ней есть все медицинские принадлежности, которые могут понадобиться в экстремальных ситуациях. Упаковка ветхая, но, кажется, лекарства всё ещё можно использовать.</AM_AncientGrizzly.description>
+	
+	<!-- EN: metalblood injector -->
+	<AM_MetalbloodInjector.label>инжектор металлической крови</AM_MetalbloodInjector.label>
+	<!-- EN: A blood stimulant used in combat. It was discovered that it does not cause discoloration of the skin at a special concentration dose, which improves the ability of muscle tissue to withstand impact damage and to some extent increases movement speed. However, it is also can make its user susceptible to fire damage and hightens their metabolism. -->
+	<AM_MetalbloodInjector.description>Стимулятор крови, используемый в бою. Было обнаружено, что он не вызывает изменения цвета кожи в специальной концентрационной дозе, что повышает способность мышечной ткани противостоять ударным повреждениям, и в некоторой степени увеличивает скорость движения. Тем не менее, он также может сделать пользователя восприимчивым к повреждению от огня и повысить его метаболизм.</AM_MetalbloodInjector.description>
+	<!-- EN: Taking {0}. -->
+	<AM_MetalbloodInjector.ingestible.ingestReportString>Принимает {0}</AM_MetalbloodInjector.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_MetalbloodInjector.ingestible.ingestCommandString>Принять {0}</AM_MetalbloodInjector.ingestible.ingestCommandString>
+	<!-- EN: inject {0} -->
+	<AM_MetalbloodInjector.ingestible.ingestCommandString>Ввести {0}</AM_MetalbloodInjector.ingestible.ingestCommandString>
+	<!-- EN: injecting {0}. -->
+	<AM_MetalbloodInjector.ingestible.ingestReportString>Вводит {0}</AM_MetalbloodInjector.ingestible.ingestReportString>
+	<!-- EN: Use {0_label} -->
+	<AM_MetalbloodInjector.comps.2.useLabel>Использовать {0_label}</AM_MetalbloodInjector.comps.2.useLabel>
+	
+	<!-- EN: analgesic regeneration injector -->
+	<AM_AnalgesicRegenerationInjector.label>инжектор анальгетической регенерации</AM_AnalgesicRegenerationInjector.label>
+	<!-- EN: An injector that stimulates the regeneration process by increasing the biosynthesis of purine and pyrimidine bases, RNA, and functional enzymes to promote cellular elements. It says there might be side effects within a few days of injection. -->
+	<AM_AnalgesicRegenerationInjector.description>Инжектор, стимулирующий процесс регенерации за счет увеличения биосинтеза пуриновых и пиримидиновых оснований, РНК и функциональных ферментов для продвижения клеточных элементов. На этикетке говорится, что в течение нескольких дней после инъекции могут возникнуть побочные эффекты.</AM_AnalgesicRegenerationInjector.description>
+	<!-- EN: Taking {0}. -->
+	<AM_AnalgesicRegenerationInjector.ingestible.ingestReportString>Принимает {0}</AM_AnalgesicRegenerationInjector.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_AnalgesicRegenerationInjector.ingestible.ingestCommandString>Принять {0}</AM_AnalgesicRegenerationInjector.ingestible.ingestCommandString>
+	<!-- EN: inject {0} -->
+	<AM_AnalgesicRegenerationInjector.ingestible.ingestCommandString>Ввести {0}</AM_AnalgesicRegenerationInjector.ingestible.ingestCommandString>
+	<!-- EN: injecting {0}. -->
+	<AM_AnalgesicRegenerationInjector.ingestible.ingestReportString>Вводит {0}</AM_AnalgesicRegenerationInjector.ingestible.ingestReportString>
+	<!-- EN: Use {0_label} -->
+	<AM_AnalgesicRegenerationInjector.comps.2.useLabel>Использовать {0_label}</AM_AnalgesicRegenerationInjector.comps.2.useLabel>
+	
+	<!-- EN: cell regeneration injector -->
+	<AM_CellRegenerationInjector.label>инжектор регенерации клеток</AM_CellRegenerationInjector.label>
+	<!-- EN: A powerful regeneration promoter. Once used for rapid recovery of injured or severely injured individuals during transportation, despite its strong side effects. -->
+	<AM_CellRegenerationInjector.description>Мощный стимулятор регенерации. Когда-то использовался для быстрого восстановления раненых или тяжелораненых людей во время транспортировки, несмотря на сильные побочные эффекты.</AM_CellRegenerationInjector.description>
+	<!-- EN: Taking {0}. -->
+	<AM_CellRegenerationInjector.ingestible.ingestReportString>Принимает {0}</AM_CellRegenerationInjector.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_CellRegenerationInjector.ingestible.ingestCommandString>Принять {0}</AM_CellRegenerationInjector.ingestible.ingestCommandString>
+	<!-- EN: inject {0} -->
+	<AM_CellRegenerationInjector.ingestible.ingestCommandString>Ввести {0}</AM_CellRegenerationInjector.ingestible.ingestCommandString>
+	<!-- EN: injecting {0}. -->
+	<AM_CellRegenerationInjector.ingestible.ingestReportString>Вводит {0}</AM_CellRegenerationInjector.ingestible.ingestReportString>
+	<!-- EN: Use {0_label} -->
+	<AM_CellRegenerationInjector.comps.2.useLabel>Использовать {0_label}</AM_CellRegenerationInjector.comps.2.useLabel>
+	
+	<!-- EN: essential balm -->
+	<AM_EssentialBalm.label>эфирный бальзам</AM_EssentialBalm.label>
+	<!-- EN: An ointment that can stimulate nerves and make people more energetic. -->
+	<AM_EssentialBalm.description>Мазь, которая стимулирует нервы и делает людей более энергичными. Та самая. Со звездочкой.</AM_EssentialBalm.description>
+	<!-- EN: Taking {0}. -->
+	<AM_EssentialBalm.ingestible.ingestReportString>Принимает {0}</AM_EssentialBalm.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_EssentialBalm.ingestible.ingestCommandString>Принять {0}</AM_EssentialBalm.ingestible.ingestCommandString>
+	<!-- EN: apply {0} -->
+	<AM_EssentialBalm.ingestible.ingestCommandString>применить {0}</AM_EssentialBalm.ingestible.ingestCommandString>
+	<!-- EN: applying {0}. -->
+	<AM_EssentialBalm.ingestible.ingestReportString>применяет {0}</AM_EssentialBalm.ingestible.ingestReportString>
+	
+	<!-- EN: ibuprofen -->
+	<AM_Ibuprofen.label>ибупрофен</AM_Ibuprofen.label>
+	<!-- EN: A non steroidal anti-inflammatory drug that can relieve fever and pain. May cause drowsiness. -->
+	<AM_Ibuprofen.description>Нестероидный противовоспалительный препарат, который может облегчить жар и боль. Может вызвать сонливость.</AM_Ibuprofen.description>
+	<!-- EN: Taking {0}. -->
+	<AM_Ibuprofen.ingestible.ingestReportString>Принимает {0}</AM_Ibuprofen.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_Ibuprofen.ingestible.ingestCommandString>Принять {0}</AM_Ibuprofen.ingestible.ingestCommandString>
+	
+	<!-- EN: antibiotic -->
+	<AM_Antibiotic.label>антибиотик</AM_Antibiotic.label>
+	<!-- EN: A common tool used to combat various bacterial diseases. -->
+	<AM_Antibiotic.description>Распространенное средство, используемое для борьбы с различными бактериальными заболеваниями.</AM_Antibiotic.description>
+	<!-- EN: Taking {0}. -->
+	<AM_Antibiotic.ingestible.ingestReportString>Принимает {0}</AM_Antibiotic.ingestible.ingestReportString>
+	<!-- EN: Take {0} -->
+	<AM_Antibiotic.ingestible.ingestCommandString>Принять {0}</AM_Antibiotic.ingestible.ingestCommandString>
+</LanguageData>

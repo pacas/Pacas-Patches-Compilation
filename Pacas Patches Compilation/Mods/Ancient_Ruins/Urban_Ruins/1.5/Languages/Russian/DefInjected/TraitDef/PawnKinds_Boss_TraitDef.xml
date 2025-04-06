@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\PawnKindDefs\PawnKinds_Boss.xml-->
+	
+	<!-- EN: Successful products -->
+	<AM_Elite.degreeDatas.0.label>Успешный продукт</AM_Elite.degreeDatas.0.label>
+	<!-- EN: {PAWN_nameDef} is a successful product of an ancient experimental project, {PAWN_pronoun} almost entirely specialized for combat. {PAWN_pronoun} is extremely hard to defeat. -->
+	<AM_Elite.degreeDatas.0.description>{PAWN_nameDef} — успешный продукт древнего экспериментального проекта, {PAWN_pronoun} почти полностью {PAWN_gender ? специализирован : специализирована} для боя, поэтому {PAWN_possessive} чрезвычайно сложно убить.</AM_Elite.degreeDatas.0.description>
+	<!-- EN: Successful products -->
+	<AM_Elite.degreeDatas.0.labelFemale>Успешный продукт</AM_Elite.degreeDatas.0.labelFemale>
+	
+	<!-- EN: fashion guy -->
+	<AM_MallGuards.degreeDatas.0.label>модный парень</AM_MallGuards.degreeDatas.0.label>
+	<!-- EN: {PAWN_nameDef} is a fashion guy who is skilled at shooting in a slide shovel, {PAWN_pronoun} can use gun to blast everything he sees. -->
+	<AM_MallGuards.degreeDatas.0.description>{PAWN_nameDef} – модный парень, умеющий стрелять из скользящей лопаты. {PAWN_pronoun} может использовать пистолет, чтобы взорвать все, что видит.</AM_MallGuards.degreeDatas.0.description>
+	<!-- EN: fashion guy -->
+	<AM_MallGuards.degreeDatas.0.labelFemale>модный парень</AM_MallGuards.degreeDatas.0.labelFemale>
+	
+	<!-- EN: parasitic failed product -->
+	<AM_Slaughter.degreeDatas.0.label>паразитный провальный продукт</AM_Slaughter.degreeDatas.0.label>
+	<!-- EN: {PAWN_nameDef} was implanted with an excessive amount of parasites, which completely destroyed {PAWN_possessive} sanity but greatly increased {PAWN_possessive} strength. -->
+	<AM_Slaughter.degreeDatas.0.description>В {PAWN_nameDef} было имплантировано чрезмерное количество паразитов, что полностью лишило {PAWN_possessive} здравомыслия, но значительно увеличило {PAWN_possessive} силу.</AM_Slaughter.degreeDatas.0.description>
+	<!-- EN: parasitic failed product -->
+	<AM_Slaughter.degreeDatas.0.labelFemale>паразитный провальный продукт</AM_Slaughter.degreeDatas.0.labelFemale>
+</LanguageData>

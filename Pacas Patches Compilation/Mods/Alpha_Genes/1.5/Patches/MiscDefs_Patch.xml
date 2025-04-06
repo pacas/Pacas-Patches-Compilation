@@ -8,6 +8,12 @@
                     <animalKind>Nightling</animalKind>
                 </value>
             </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Smithy"]/defNames</xpath>
+                <value>
+                    <li>AG_ForsakenForge</li>
+                </value>
+            </li>
         </operations>
     </Operation>
 </Patch>

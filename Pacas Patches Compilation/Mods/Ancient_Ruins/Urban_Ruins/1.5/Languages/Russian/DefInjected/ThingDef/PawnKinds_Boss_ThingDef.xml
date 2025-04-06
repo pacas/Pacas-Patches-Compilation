@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\PawnKindDefs\PawnKinds_Boss.xml-->
+	
+	<!-- EN: Integrated parasite armor -->
+	<AM_IntegratedTorsoArmor.label>интегрированная паразитная броня</AM_IntegratedTorsoArmor.label>
+	<!-- EN: An ancient, specialized implant involved introducing carefully selected parasites into the body, endowing the subject with a body akin to bulletproof fibers and enhancing muscular strength. However, the technology behind it has been entirely lost and cannot be replicated. -->
+	<AM_IntegratedTorsoArmor.description>Древний специализированный имплантат, включающий в себя введение в организм тщательно отобранных паразитов, наделяющих человека телом, напоминающим пуленепробиваемые волокна, и увеличивающим мышечную силу. Однако технология его создания была полностью утрачена и не может быть воспроизведена.</AM_IntegratedTorsoArmor.description>
+	
+	<!-- EN: rampage parasite -->
+	<AM_RampageParasite.label>буйный паразит</AM_RampageParasite.label>
+	<!-- EN: An unsuccessful outcome of ancient parasitic experiments, though it greatly enhances combat effectiveness, the victim lacks any semblance of intelligence and is utterly uncontrollable.. -->
+	<AM_RampageParasite.description>Неудачный результат древних паразитических экспериментов, хоть и значительно повышает боевую эффективность, жертва лишена всякого подобия интеллекта и совершенно неуправляема.</AM_RampageParasite.description>
+</LanguageData>

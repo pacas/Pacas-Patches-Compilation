@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Misc\Filth_Various.xml-->
+	<!--                 slimy blood -->
+	<AG_FilthMucus.label>слизистая кровь</AG_FilthMucus.label>
+	<!--                     noxious vomit -->
+	<AG_FilthSlimyPuke.label>токсичная рвота</AG_FilthSlimyPuke.label>
+	<!--               tarlike blood -->
+	<AG_TarBlood.label>смоляная кровь</AG_TarBlood.label>
+	<!--                 chemfuel puddle -->
+	<AG_Filth_Fuel.label>лужа химтоплива</AG_Filth_Fuel.label>
+	<!--                       A puddle of flammable chemfuel. -->
+	<AG_Filth_Fuel.description>Лужа горючего химтоплива.</AG_Filth_Fuel.description>
+	<!--                       pebble blood -->
+	<AG_Filth_RubbleRock.label>камнеобразная кровь</AG_Filth_RubbleRock.label>
+	<!--                 rat filth -->
+	<AG_Filth_Rats.label>крысиный помет</AG_Filth_Rats.label>
+	<!--                 neutralized acidic blood -->
+	<AG_Filth_Acid.label>нейтрализованная кислотная кровь</AG_Filth_Acid.label>
+	<!--                      cryo vomit -->
+	<AG_Filth_CryoVomit.label>крио-рвота</AG_Filth_CryoVomit.label>
+	<!--                               cryo vomit -->
+	<AG_Filth_CryoVomitPermanent.label>крио-рвота</AG_Filth_CryoVomitPermanent.label>
+	<!--                      cryo blood -->
+	<AG_Filth_CryoBlood.label>крио-кровь</AG_Filth_CryoBlood.label>
+	<!--                               cryo blood -->
+	<AG_Filth_CryoBloodPermanent.label>крио-кровь</AG_Filth_CryoBloodPermanent.label>
+	<!--                        cryo residue -->
+	<AG_Filth_CryoResidue.label>крио-осадок</AG_Filth_CryoResidue.label>
+	<!--                                 cryo residue -->
+	<AG_Filth_CryoResiduePermanent.label>крио-осадок</AG_Filth_CryoResiduePermanent.label>
+	<!--                                chemfuel smear -->
+	<AG_Filth_BloodSmear_Chemfuel.label>размазанное химтопливо</AG_Filth_BloodSmear_Chemfuel.label>
+	<!--                             slime smear -->
+	<AG_Filth_BloodSmear_Slime.label>размазанная слизь</AG_Filth_BloodSmear_Slime.label>
+	<!--                            acid smear -->
+	<AG_Filth_BloodSmear_Acid.label>размазанная кислота</AG_Filth_BloodSmear_Acid.label>
+	<!--                           tar smear -->
+	<AG_Filth_BloodSmear_Tar.label>размазанная смола</AG_Filth_BloodSmear_Tar.label>
+	<!--                              insect blood smear -->
+	<AG_Filth_BloodSmear_Insect.label>размазанная кровь насекомых</AG_Filth_BloodSmear_Insect.label>
+	<!--                                insect blood smear -->
+	<AG_Filth_BloodSmear_FireFoam.label>размазанная кровь насекомых</AG_Filth_BloodSmear_FireFoam.label>
+	<!--                            cryo smear -->
+	<AG_Filth_BloodSmear_Cryo.label>размазаная крио-кровь</AG_Filth_BloodSmear_Cryo.label>
+	<!--                              yellow blood smear -->
+	<AG_Filth_BloodSmear_Yellow.label>размазанная жёлтая кровь</AG_Filth_BloodSmear_Yellow.label>
+	<!--                              inert sterilizing foam -->
+	<AG_Filth_SterilizingBreath.label>инертная стерилизующая пена</AG_Filth_SterilizingBreath.label>
+	<!--                        yellow blood -->
+	<AG_Filth_YellowBlood.label>желтая кровь</AG_Filth_YellowBlood.label>
+</LanguageData>

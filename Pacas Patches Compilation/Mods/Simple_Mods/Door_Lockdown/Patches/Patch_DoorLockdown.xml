@@ -33,6 +33,27 @@
                         </value>
                     </match>
                 </li>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Frontline - Bunkers</li>
+                    </mods>
+                    <match Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[
+                            defName="Bunkerdoor_S" or
+                            defName="Bunkerdoor_N" or
+                            defName="Bunkerdoor_E" or
+                            defName="Bunkerdoor_W"
+                        ]/comps</xpath>
+                        <value>
+                            <li>
+                                <compClass>DoorLockdown.DoorButtonAddToLockdown</compClass>
+                            </li>
+                            <li>
+                                <compClass>DoorLockdown.DoorButtonStartLockdown</compClass>
+                            </li>
+                        </value>
+                    </match>
+                </li>
             </operations>
         </match>
 	</Operation>

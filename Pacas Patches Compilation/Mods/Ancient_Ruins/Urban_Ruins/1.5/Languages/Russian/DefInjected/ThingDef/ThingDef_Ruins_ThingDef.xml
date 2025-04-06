@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Ruins.xml-->
+	<!-- EN: ancient locker bank -->
+	<AM_AncientLockerBank.label>ряд древних шкафов</AM_AncientLockerBank.label>
+	<!-- EN: An ancient, rusted bank of lockers. All of the lockers have been forced open with nothing valuable left behind. -->
+	<AM_AncientLockerBank.description>Ряд древних проржавевших шкафчиков. Все они давно взломаны, ничего ценного внутри не осталось.</AM_AncientLockerBank.description>
+	
+	<!-- EN: ancient barrel -->
+	<AM_AncientBarrel.label>древняя бочка</AM_AncientBarrel.label>
+	<!-- EN: An ancient, broken barrel that looks like it once contained waste of some sort. The only thing it contains now is a smear of dried sludge. -->
+	<AM_AncientBarrel.description>Древняя дырявая бочка, выглядит, как будто в ней хранились какие-то отходы. Единственное, что в ней сейчас — это размазанная засохшая грязь.</AM_AncientBarrel.description>
+	
+	<!-- EN: ancient crate -->
+	<AM_AncientCrate.label>древний ящик</AM_AncientCrate.label>
+	<!-- EN: An ancient, broken crate. Any valuables it once contained have degraded to uselessness. -->
+	<AM_AncientCrate.description>Древний сломанный ящик. Всё ценное, что в нём было, пришло в негодность.</AM_AncientCrate.description>
+	
+	<!-- EN: ancient generator -->
+	<AM_AncientGenerator.label>древний генератор</AM_AncientGenerator.label>
+	<!-- EN: An ancient electrical generator. Its usable parts were smashed or looted long ago, and the rest has rusted into uselessness. -->
+	<AM_AncientGenerator.description>Древний электрический генератор. Пригодные для использования части давно изъяты или разбиты, а остальное — заржавело.</AM_AncientGenerator.description>
+	
+	<!-- EN: ancient pipes -->
+	<AM_AncientPipes.label>древние трубы</AM_AncientPipes.label>
+	<!-- EN: A bunch of rusted old pipes. It is hard to say how these ended up here. -->
+	<AM_AncientPipes.description>Куча старых ржавых труб. Трудно сказать, как они здесь оказались.</AM_AncientPipes.description>
+	
+	<!-- EN: ancient razor wire -->
+	<AM_AncientRazorWire.label>древняя колючая проволока</AM_AncientRazorWire.label>
+	<!-- EN: A piece of ancient razor wire. It has been deteriorating for many years and no longer poses any danger. -->
+	<AM_AncientRazorWire.description>Кусок древней колючей проволоки. Она ветшала в течение многих лет и больше не представляет никакой опасности.</AM_AncientRazorWire.description>
+	
+	<!-- EN: ancient security turret -->
+	<AM_AncientSecurityTurret.label>древняя охранная турель</AM_AncientSecurityTurret.label>
+	<!-- EN: An ancient, broken security turret. The valuable parts have all been looted or smashed. -->
+	<AM_AncientSecurityTurret.description>Сломанная древняя охранная турель. Все ценные части изъяты или разбиты.</AM_AncientSecurityTurret.description>
+	
+	<!-- EN: ancient tank trap -->
+	<AM_AncientTankTrap.label>древний противотанковый ёж</AM_AncientTankTrap.label>
+	<!-- EN: An defensive fortification for stopping vehicles. It's been deteriorating for many years. -->
+	<AM_AncientTankTrap.description>Оборонительное сооружение для остановки транспортных средств. Оно ветшало в течение многих лет.</AM_AncientTankTrap.description>
+	
+	<!-- EN: ancient unstable fuel node -->
+	<AM_AncientFuelNode.label>древний нестабильный топливный узел</AM_AncientFuelNode.label>
+	<!-- EN: An ancient, unstable fuel node once used to charge machines with fuel. It has become unstable over the years due to lack of maintenance. -->
+	<AM_AncientFuelNode.description>Древний топливный узел, который когда-то использовался для заправки машин. С годами он стал нестабилен из-за отсутствия технического обслуживания.</AM_AncientFuelNode.description>
+	
+	<!-- EN: ancient car -->
+	<AM_AncientRustedCar.label>древний автомобиль</AM_AncientRustedCar.label>
+	<!-- EN: An ancient, broken car. Everything that isn't rusted away was looted long ago. -->
+	<AM_AncientRustedCar.description>Древний разбитый автомобиль. Всё, что не заржавело, давным-давно растащили.</AM_AncientRustedCar.description>
+	
+	<!-- EN: ancient shopping cart -->
+	<AM_AncientShoppingCart.label>древняя тележка для покупок</AM_AncientShoppingCart.label>
+	<!-- EN: An ancient, rusted shopping cart. How exactly it got here is a mystery, but the story is long and probably quite sad. -->
+	<AM_AncientShoppingCart.description>Древняя ржавая тележка для покупок. Как она попала сюда — загадка, но это история давняя и, возможно, весьма печальная.</AM_AncientShoppingCart.description>
+	
+	<!-- EN: ancient wheel -->
+	<AM_AncientWheel.label>древнее колесо</AM_AncientWheel.label>
+	<!-- EN: An ancient wheel from some kind of vehicle. The rubber has deteriorated away and the metal is twisted and rusted. -->
+	<AM_AncientWheel.description>Древнее колесо от какого-то транспортного средства. Резина испорчена, а металл искорёжен и ржав.</AM_AncientWheel.description>
+	
+	<!-- EN: ancient air conditioner -->
+	<AM_AncientAirConditioner.label>древний кондиционер</AM_AncientAirConditioner.label>
+	<!-- EN: An ancient air conditioning machine. Its internals were smashed long ago and what wasn't looted has rusted away in the time since. -->
+	<AM_AncientAirConditioner.description>Древняя машина для охлаждения воздуха. Её внутренности были разбиты давным-давно, а то, что не растащили, с тех пор проржавело.</AM_AncientAirConditioner.description>
+	
+	<!-- EN: ancient ATM -->
+	<AM_AncientATM.label>древний банкомат</AM_AncientATM.label>
+	<!-- EN: An ancient ATM. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientATM.description>Разбитый и заржавевший, теперь совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientATM.description>
+	
+	<!-- EN: ancient bed -->
+	<AM_AncientBed.label>древняя кровать</AM_AncientBed.label>
+	<!-- EN: An old, rotted mattress on a rusty frame. Though uncomfortable, it can still be used, but it's too dilapidated to restore. -->
+	<AM_AncientBed.description>Старый гнилой матрас на ржавой раме. Несмотря на неудобство, кровать всё ещё можно использовать по прямому назначению, но починить уже не получится.</AM_AncientBed.description>
+	
+	<!-- EN: ancient fence -->
+	<AM_AncientFence.label>древний забор</AM_AncientFence.label>
+	<!-- EN: An ancient fence made of reinforced concrete posts joined by concrete panels. -->
+	<AM_AncientFence.description>Древний забор из железобетонных столбов, соединенных бетонными панелями.</AM_AncientFence.description>
+	
+	<!-- EN: ancient container -->
+	<AM_AncientContainer.label>древний контейнер</AM_AncientContainer.label>
+	<!-- EN: A shipping container from some ancient freight-carrying vehicle. It has long since deteriorated into uselessness. -->
+	<AM_AncientContainer.description>Большой контейнер для какого-то древнего грузового транспортного средства. Он уже давно пришёл в негодность.</AM_AncientContainer.description>
+	
+	<!-- EN: ancient hydrant -->
+	<AM_AncientHydrant.label>древний гидрант</AM_AncientHydrant.label>
+	<!-- EN: An ancient hydrant. Heavily rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientHydrant.description>Древний гидрант. Сильно заржавевший, теперь он совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientHydrant.description>
+	
+	<!-- EN: ancient microwave -->
+	<AM_AncientMicrowave.label>древняя микроволновка</AM_AncientMicrowave.label>
+	<!-- EN: An ancient device for heating food. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientMicrowave.description>Древнее устройство для разогрева пищи. Разбитый и заржавевший, теперь совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientMicrowave.description>
+	
+	<!-- EN: ancient oven -->
+	<AM_AncientOven.label>древняя духовка</AM_AncientOven.label>
+	<!-- EN: An ancient oven. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientOven.description>Древняя духовка. Разбитый и заржавевший, теперь совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientOven.description>
+	
+	<!-- EN: ancient toilet -->
+	<AM_AncientToilet.label>древний унитаз</AM_AncientToilet.label>
+	<!-- EN: An ancient toilet. Smashed long ago, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientToilet.description>Древний унитаз. Давным-давно разбитый, теперь он совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientToilet.description>
+	
+	<!-- EN: ancient refrigerator -->
+	<AM_AncientRefrigerator.label>древний холодильник</AM_AncientRefrigerator.label>
+	<!-- EN: An ancient refrigerator. It was stripped of interesting parts long ago. -->
+	<AM_AncientRefrigerator.description>Древний холодильник. Из него давно выдраны все полезные части.</AM_AncientRefrigerator.description>
+	
+	<!-- EN: ancient kitchen sink -->
+	<AM_AncientKitchenSink.label>древняя раковина</AM_AncientKitchenSink.label>
+	<!-- EN: An ancient kitchen sink made of some non-metallic fiber-sheet material. It is badly deteriorated and there's no way to salvage anything from it.\n\nHow it got here must be a long story. -->
+	<AM_AncientKitchenSink.description>Древняя кухонная раковина, сделанная из листов неметаллического волокна. Она совсем испорчена и ничего ценного не содержит.\n\nКак здесь оказалась раковина, — должно быть, интересная история.</AM_AncientKitchenSink.description>
+	
+	<!-- EN: ancient pipeline section -->
+	<AM_AncientPipelineSection.label>древний участок трубопровода</AM_AncientPipelineSection.label>
+	<!-- EN: A section from an ancient pipeline. It once carried some valuable fluid over long distances. Now it's been looted and deteriorated to uselessness. -->
+	<AM_AncientPipelineSection.description>Участок древнего трубопровода. Когда-то транспортировал ценную жидкость на большие расстояния. Теперь он разграблен и пришёл в негодность.</AM_AncientPipelineSection.description>
+	
+	<!-- EN: ancient pod car -->
+	<AM_AncientPodCar.label>древний автомобиль-капсула</AM_AncientPodCar.label>
+	<!-- EN: An ancient pod car once capable of automated flight. Its valuable parts were looted long ago, and the rest is badly deteriorated. -->
+	<AM_AncientPodCar.description>Древний автомобиль-капсула, когда-то способный к автоматическому полёту. Его ценные части давно изъяты, а остальное пришло в негодность.</AM_AncientPodCar.description>
+	
+	<!-- EN: ancient car frame -->
+	<AM_AncientRustedCarFrame.label>древняя рама автомобиля</AM_AncientRustedCarFrame.label>
+	<!-- EN: An ancient, rusted car frame. The body shell has long since rusted away to nothing. -->
+	<AM_AncientRustedCarFrame.description>Древняя ржавая рама автомобиля, кузов которого уже давно проржавел и рассыпался в прах.</AM_AncientRustedCarFrame.description>
+	
+	<!-- EN: ancient troop carrier -->
+	<AM_AncientRustedJeep.label>древний бронеавтомобиль</AM_AncientRustedJeep.label>
+	<!-- EN: An ancient, broken troop carrier. Everything that isn't rusted away was looted long ago. -->
+	<AM_AncientRustedJeep.description>Древний разбитый бронеавтомобиль. Всё, что не заржавело, давным-давно растащили.</AM_AncientRustedJeep.description>
+	
+	<!-- EN: ancient truck -->
+	<AM_AncientRustedTruck.label>древний грузовик</AM_AncientRustedTruck.label>
+	<!-- EN: An ancient, broken truck. Everything useful either rusted away or was looted long ago. -->
+	<AM_AncientRustedTruck.description>Древний разбитый грузовик. Всё полезное либо заржавело, либо давно изъято.</AM_AncientRustedTruck.description>
+	
+	<!-- EN: ancient stove -->
+	<AM_AncientStove.label>древняя кухонная плита</AM_AncientStove.label>
+	<!-- EN: An ancient stove. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+	<AM_AncientStove.description>Древняя кухонная плита. Разбитый и заржавевший, теперь совершенно бесполезен.\n\nКак он здесь оказался — трудно сказать.</AM_AncientStove.description>
+	
+	<!-- EN: ancient vending machine -->
+	<AM_AncientVendingMachine.label>древний торговый автомат</AM_AncientVendingMachine.label>
+	<!-- EN: An ancient vending machine. It was smashed ages ago and generations of looters have taken every conceivably useful part. How it ended up here is a mystery. -->
+	<AM_AncientVendingMachine.description>Древний торговый автомат. Он был разбит много веков назад, и поколения мародёров растащили все полезные детали. Как он оказался здесь — остаётся загадкой.</AM_AncientVendingMachine.description>
+	
+	<!-- EN: ancient military crate -->
+	<AM_AncientMilitaryCrate.label>древний военный ящик</AM_AncientMilitaryCrate.label>
+	<!-- EN: An ancient, military-looking crate. It was broken long ago and any valuables it once contained were looted. -->
+	<AM_AncientMilitaryCrate.description>Древний ящик с армейскими отметками. Он давным-давно взломан, а всё ценное из него — растащено.</AM_AncientMilitaryCrate.description>
+	
+	<!-- EN: ancient operating table -->
+	<AM_AncientOperatingTable.label>древний операционный стол</AM_AncientOperatingTable.label>
+	<!-- EN: A table once used for surgical operations. It has long since deteriorated into uselessness. -->
+	<AM_AncientOperatingTable.description>Стол, когда-то использовавшийся для хирургических операций. Он уже давно пришёл в негодность.</AM_AncientOperatingTable.description>
+	
+	<!-- EN: ancient equipment blocks -->
+	<AM_AncientEquipmentBlocks.label>древние ящики с оборудованием</AM_AncientEquipmentBlocks.label>
+	<!-- EN: A collection of ancient equipment blocks of unknown function. Valuable parts are missing, and everything else is degraded to uselessness. -->
+	<AM_AncientEquipmentBlocks.description>Несколько древних ящиков с оборудованием неизвестного назначения. Ценные части отсутствуют, а всё остальное прогнило до бесполезного состояния.</AM_AncientEquipmentBlocks.description>
+	
+	<!-- EN: ancient display bank -->
+	<AM_AncientDisplayBank.label>ряд древних дисплеев</AM_AncientDisplayBank.label>
+	<!-- EN: An ancient computer interface. Valuable parts are missing, and everything else is degraded to uselessness. -->
+	<AM_AncientDisplayBank.description>Древняя система экранов. Ценные части отсутствуют, а всё остальное прогнило до бесполезного состояния.</AM_AncientDisplayBank.description>
+	
+	<!-- EN: ancient machine -->
+	<AM_AncientMachine.label>древняя машина</AM_AncientMachine.label>
+	<!-- EN: A large ancient machine case filled with unknown machinery. Valuable parts are missing, and everything else is degraded to uselessness. -->
+	<AM_AncientMachine.description>Громоздкий корпус древней машины, заполненный непонятными механизмами. Ценные части отсутствуют, а всё остальное прогнило до бесполезного состояния.</AM_AncientMachine.description>
+	
+	<!-- EN: ancient giant helicopter -->
+	<AM_MI26_D.label>древний гигантский вертолёт</AM_MI26_D.label>
+	<!-- EN: An ancient giant helicopter that has crashed, with a vague identification number on its body: mi26. -->
+	<AM_MI26_D.description>Разбившийся древний гигантский вертолёт с непонятным идентификационным номером на корпусе: mi26.</AM_MI26_D.description>
+</LanguageData>

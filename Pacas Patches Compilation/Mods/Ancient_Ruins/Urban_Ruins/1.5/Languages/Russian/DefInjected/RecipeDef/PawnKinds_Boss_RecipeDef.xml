@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\PawnKindDefs\PawnKinds_Boss.xml-->
+	
+	<!-- EN: install Integrated parasite armor -->
+	<InstallIntegratedTorsoArmor.label>вживить интегрированную паразитную броню</InstallIntegratedTorsoArmor.label>
+	<!-- EN: Install a integrated parasite armor. -->
+	<InstallIntegratedTorsoArmor.description>Вживить интегрированную паразитную броню.</InstallIntegratedTorsoArmor.description>
+	<!-- EN: Installing integrated parasite armor. -->
+	<InstallIntegratedTorsoArmor.jobString>Вживляет интегрированную паразитную броню</InstallIntegratedTorsoArmor.jobString>
+	
+	<!-- EN: install rampage parasite -->
+	<InstallRampageParasite.label>вживить буйного паразита</InstallRampageParasite.label>
+	<!-- EN: Install rampage parasite. -->
+	<InstallRampageParasite.description>Вживить буйного паразита.</InstallRampageParasite.description>
+	<!-- EN: Installing rampage parasite. -->
+	<InstallRampageParasite.jobString>Вживляет буйного паразита</InstallRampageParasite.jobString>
+</LanguageData>

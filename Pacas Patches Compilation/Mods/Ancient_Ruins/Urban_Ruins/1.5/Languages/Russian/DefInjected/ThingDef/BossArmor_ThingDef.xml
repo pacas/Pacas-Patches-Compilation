@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Apparel\BossArmor.xml-->
+	<!-- EN: composite flak suit -->
+	<AM_CompFlakSuit.label>композитный зенитный костюм</AM_CompFlakSuit.label>
+	<!-- EN: Combat clothing made of aramid material, when paired with a composite bulletproof vest, offers the benefits of lightweight mobility and significant protection. This type of attire was frequently worn by ancient soldiers. -->
+	<AM_CompFlakSuit.description>Боевая одежда из арамидного материала в сочетании с композитным бронежилетом обеспечивает преимущества лёгкой мобильности и значительной защиты. Этот тип одежды часто носили древние солдаты.</AM_CompFlakSuit.description>
+	
+	<!-- EN: fully enclosed helmet -->
+	<AM_FullyEnclosedHelmet.label>полностью закрытый шлем</AM_FullyEnclosedHelmet.label>
+	<!-- EN: An aramid bulletproof helmet, paired with a fully enclosed polyurethane gas mask, effectively mitigates the dangers of toxic environments and offers superior protection,often equipped by ancient soldiers. -->
+	<AM_FullyEnclosedHelmet.description>Арамидный пуленепробиваемый шлем в сочетании с полностью закрытым полиуретановым противогазом эффективно снижает опасность токсичной среды и обеспечивает превосходную защиту, которой часто пользовались древние солдаты.</AM_FullyEnclosedHelmet.description>
+	
+	<!-- EN: night vision helmet -->
+	<AM_NightVisionHelmet.label>шлем ночного видения</AM_NightVisionHelmet.label>
+	<!-- EN: An aramid bulletproof helmet, used in conjunction with night vision goggles, enhances the wearer's shooting accuracy. It was commonly worn by ancient soldiers. -->
+	<AM_NightVisionHelmet.description>Арамидный пуленепробиваемый шлем, используемый в сочетании с очками ночного видения, повышает точность стрельбы. Его обычно носили древние солдаты.</AM_NightVisionHelmet.description>
+	
+	<!-- EN: cataphract helmet “Fashion” -->
+	<AM_CataphractHelmetFashion.label>катафрактарский шлем «Модный»</AM_CataphractHelmetFashion.label>
+	<!-- EN: A cataphract helmet, which was secretly modified by a fashionable person, was painted with the logo of a famous ancient clothing store. -->
+	<AM_CataphractHelmetFashion.description>Катафрактарский шлем, тайно модифицированный модной личностью, был расписан логотипом известного древнего магазина одежды.</AM_CataphractHelmetFashion.description>
+	
+	<!-- EN: cataphract helmet “Slaughter” -->
+	<AM_CataphractHelmetSlaughter.label>катафрактарский шлем «Убойный»</AM_CataphractHelmetSlaughter.label>
+	<!-- EN: A cataphract helmet, which was secretly modified by a deranged killer, was adorned with a skull and the word 'Slaughter'. -->
+	<AM_CataphractHelmetSlaughter.description>Катафрактарский шлем, тайно модифицированный невменяемым убийцей, был украшен черепом и надписью «Убойный».</AM_CataphractHelmetSlaughter.description>
+	
+	<!-- EN: closed oxygen cylinder -->
+	<AM_ClosedOxygenCylinder.label>закрытый кислородный баллон</AM_ClosedOxygenCylinder.label>
+	<!-- EN: The sealed oxygen cylinder, designed for combat in severe environments, contains a minor amount of doping gas, enhancing the user's combat effectiveness. -->
+	<AM_ClosedOxygenCylinder.description>Герметичный кислородный баллон, предназначенный для боя в суровых условиях, содержит незначительное количество допинг-газа, повышающего боевую эффективность пользователя.</AM_ClosedOxygenCylinder.description>
+</LanguageData>

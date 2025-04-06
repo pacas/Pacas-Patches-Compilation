@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Building.xml-->
+	
+	<!-- EN: take apart at dismantling table -->
+	<AM_DoBillsMachiningTable.label>разобрать на демонтажном столе</AM_DoBillsMachiningTable.label>
+	<!-- EN: work -->
+	<AM_DoBillsMachiningTable.verb>работать</AM_DoBillsMachiningTable.verb>
+	<!-- EN: working at -->
+	<AM_DoBillsMachiningTable.gerund>работать, используя</AM_DoBillsMachiningTable.gerund>
+	
+	<!-- EN: Add TargetA to TargetB -->
+	<AM_WorkGiver_AddGPU.label>Установить TargetA в TargetB</AM_WorkGiver_AddGPU.label>
+	<!-- EN: add -->
+	<AM_WorkGiver_AddGPU.verb>установить</AM_WorkGiver_AddGPU.verb>
+	<!-- EN: Adding -->
+	<AM_WorkGiver_AddGPU.gerund>устанавливать</AM_WorkGiver_AddGPU.gerund>
+</LanguageData>

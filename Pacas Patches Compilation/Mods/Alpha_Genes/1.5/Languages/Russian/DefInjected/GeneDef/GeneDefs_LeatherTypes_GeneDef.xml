@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_LeatherTypes.xml-->
+	<!--                   plain leather -->
+	<AG_PlainLeather.label>обычная кожа</AG_PlainLeather.label>
+	<!--                         Carriers of this gene will yield plainleather when butchered. -->
+	<AG_PlainLeather.description>Кожа носителей этого гена при разделке представляет собой обычную кожу.</AG_PlainLeather.description>
+	
+	<!--                  wool leather -->
+	<AG_WoolLeather.label>шерстяная кожа</AG_WoolLeather.label>
+	<!--                        Carriers of this gene will yield wool when butchered. -->
+	<AG_WoolLeather.description>Кожа носителей этого гена при разделке представляет собой шерсть.</AG_WoolLeather.description>
+	
+	<!--                  wood leather -->
+	<AG_WoodLeather.label>кожная древесина</AG_WoodLeather.label>
+	<!--                        Carriers of this gene will yield wood logs when butchered. -->
+	<AG_WoodLeather.description>Кожа носителей этого гена при разделке представляет собой древесину.</AG_WoodLeather.description>
+	
+	<!--                   cloth leather -->
+	<AG_ClothLeather.label>тканевая кожа</AG_ClothLeather.label>
+	<!--                         Carriers of this gene will yield cloth when butchered. -->
+	<AG_ClothLeather.description>Кожа носителей этого гена при разделке представляет собой ткань.</AG_ClothLeather.description>
+</LanguageData>

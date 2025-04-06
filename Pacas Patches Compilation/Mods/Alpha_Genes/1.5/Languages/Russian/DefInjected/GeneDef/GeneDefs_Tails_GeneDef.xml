@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Tails.xml-->
+	<!--              fox tail -->
+	<AG_FoxTail.label>лисий хвост</AG_FoxTail.label>
+	<!--                    Carriers of this gene grow a large fox tail which partially protects them from cold temperatures. -->
+	<AG_FoxTail.description>Носители этого гена обладают большими лисими хвостами, дающими некоторую защиту от холода.</AG_FoxTail.description>
+	
+	<!--                demon tail -->
+	<AG_DemonTail.label>демонический хвост</AG_DemonTail.label>
+	<!--                      Carriers of this gene grow a large demon tail which can act as a dexterous fifth limb. -->
+	<AG_DemonTail.description>Носители этого гена обладают большими демоническими хвостами, которые выступают в качестве ловкой пятой конечности.</AG_DemonTail.description>
+	
+	<!--                     drakonori tail -->
+	<AG_Drakonori_Tail.label>хвост драконори</AG_Drakonori_Tail.label>
+	<!--                           Carriers of this gene grow a large draconic tail which can be used to grapple and immobilize a target. -->
+	<AG_Drakonori_Tail.description>Носители этого гена обладают большими драконьми хвостами, которые могут быть использованы для захвата и обездвиживания цели.</AG_Drakonori_Tail.description>
+	
+	<!--                 nereid tail -->
+	<AG_NereidTail.label>хвост нереиды</AG_NereidTail.label>
+	<!--                       Carriers of this gene grow a large fish-like tail. -->
+	<AG_NereidTail.description>Носители этого гена обладают большими рыбьими хвостами.</AG_NereidTail.description>
+</LanguageData>

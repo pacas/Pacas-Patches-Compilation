@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Instability.xml-->
+	<!--                         lethal cell instability -->
+	<AG_Instability_Lethal.label>смертельная нестабильность клеток</AG_Instability_Lethal.label>
+	<!--                               Carriers of this gene need considerably less metabolic energy to stay alive, at the cost of outrageously-reduced stability in their cell-replication machinery, and a very, VERY limited lifespan that can't be expanded in any way. -->
+	<AG_Instability_Lethal.description>Носителям этого гена требуется гораздо меньше энергии для поддержания жизни, однако это достигается за счёт крайне низкой стабильности клеточной репликации и очень ограниченной продолжительности жизни, которую невозможно продлить никакими способами.</AG_Instability_Lethal.description>
+	<!--                                              Carrier will die in three natural years. -->
+	<AG_Instability_Lethal.customEffectDescriptions.0>Носитель этого гена погибнет через три года.</AG_Instability_Lethal.customEffectDescriptions.0>
+</LanguageData>

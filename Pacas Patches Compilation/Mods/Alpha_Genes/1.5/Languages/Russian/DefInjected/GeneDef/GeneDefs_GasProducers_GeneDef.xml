@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_GasProducers.xml-->
+	<!--                    smoke producer -->
+	<AG_SmokeProducer.label>дымообразователь</AG_SmokeProducer.label>
+	<!--                          The carrier of this gene will periodically exhale clouds of dense smoke, providing a deterrent to ranged attacks, both against them and produced by them. -->
+	<AG_SmokeProducer.description>Носители этого гена периодически выдыхают облака густого дыма, которые ограничивают эффективность дальних атак — как в их сторону, так и с их стороны.</AG_SmokeProducer.description>
+	
+	<!--                       rot stink producer -->
+	<AG_RotStinkProducer.label>образователь трупного газа</AG_RotStinkProducer.label>
+	<!--                             The carrier of this gene will periodically exhale clouds of rot stink. Nasty! -->
+	<AG_RotStinkProducer.description>Носители этого гена периодически выдыхают облака трупного газа. Омерзительно!</AG_RotStinkProducer.description>
+	<!--                                            This doesn't make the carrier immune to the effects of rot stink! -->
+	<AG_RotStinkProducer.customEffectDescriptions.0>Этот ген не делает носителя невосприимчивым к воздействию трупного газа!</AG_RotStinkProducer.customEffectDescriptions.0>
+	
+	<!--                     tox gas producer -->
+	<AG_ToxGasProducer.label>образователь токсичного газа</AG_ToxGasProducer.label>
+	<!--                           The carrier of this gene will periodically exhale clouds of tox gas. -->
+	<AG_ToxGasProducer.description>Носители этого гена периодически выдыхают облака токсичного газа.</AG_ToxGasProducer.description>
+	<!--                                          This doesn't make the carrier immune to the effects of tox gas! -->
+	<AG_ToxGasProducer.customEffectDescriptions.0>Этот ген не делает носителя невосприимчивым к воздействию токсичного газа!</AG_ToxGasProducer.customEffectDescriptions.0>
+</LanguageData>

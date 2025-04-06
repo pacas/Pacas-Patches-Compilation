@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_VanillaWeapons"]/root/options/li[5]/thingSetMaker/options/li[6]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_VanillaWeapons"]/root/options/li[5]/thingSetMaker/options/li[5]</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_FlakApparel"]/root/options/li[5]/thingSetMaker/fixedParams/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>CE_Apparel_BallisticShield</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_FlakApparel"]/root/options/li[6]/thingSetMaker/fixedParams/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>CE_Apparel_SimpleNightVision</li>
+                        <li>Apparello_Gas</li>
+                        <li>CE_Apparel_BallisticShield</li>
+                        <li>CE_Apparel_ImprovGasMask</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_OrdinaryWeapons"]/root/options/li[1]/thingSetMaker/fixedParams/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Gun_M4A1Gun</li>
+                        <li>RF_Gun_93R</li>
+                        <li>RF_Gun_VektorCP</li>
+                        <li>Gun_AssaultRifle</li>
+                        <li>Gun_FAMAS</li>
+                        <li>Gun_AK47Gun</li>
+                        <li>RF_Gun_Skorpion</li>
+                        <li>RF_Gun_Vector</li>
+                        <li>Gun_MP5Gun</li>
+                        <li>Gun_UMP45Gun</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_AdvancedWeapons"]/root/options/li[1]/thingSetMaker/fixedParams/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Gun_HeavyCombatRifle</li>
+                        <li>Gun_SCAR_H</li>
+                        <li>Gun_SniperRifle</li>
+                        <li>Gun_M42A_USCM</li>
+                        <li>RF_Gun_ARFifty</li>
+                        <li>Gun_MilkorMGL</li>
+                        <li>Gun_Minigun</li>
+                    </thingDefs>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingSetMakerDef[defName="AM_AdvancedWeapons"]/root/options/li[2]/thingSetMaker/fixedParams/filter/thingDefs</xpath>
+                <value>
+                    <thingDefs>
+                        <li>Gun_AssaultRifle</li>
+                        <li>RF_Gun_XMeight</li>
+                        <li>Gun_FAMAS</li>
+                        <li>Gun_AK47Gun</li>
+                        <li>Gun_MarineSturmRifle</li>
+                        <li>Gun_SG553Gun</li>
+                        <li>Gun_AUG</li>
+                        <li>RF_Gun_Tecnine</li>
+                        <li>Gun_MachinePistol</li>
+                        <li>RF_Gun_Skorpion</li>
+                        <li>RF_Gun_Vector</li>
+                        <li>Gun_MP5Gun</li>
+                        <li>Gun_UMP45Gun</li>
+                        <li>Gun_HeavySMG</li>
+                    </thingDefs>
+                </value>
+            </li>
+            
+            <!--SSAAP-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="Ammo_556x45mmNATO_SSAAP" or
+                defName="Bullet_556x45mmNATO_SSAAP"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_SSAAP"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_556x45mmSSAAP"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/CombatExtended.AmmoCategoryDef[defName="SSAAP"]</xpath>
+            </li>
+            
+            <!--Everything-->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[@ParentName="AMGun"]</xpath>
+            </li>
+
+            
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/PawnKindDef[defName="AM_Megascarab" or defName="AM_Spelopede" or defName="AM_Megaspider"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_AnimalKindBase</value>
+            </li>
+            <li Class="PatchOperationAttributeSet">
+                <xpath>Defs/PawnKindDef[@Name="AM_PirateBase"]</xpath>
+                <attribute>ParentName</attribute>
+                <value>SK_PirateBase</value>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Megascarab"]/combatPower</xpath>
+                <value>
+                    <combatPower>70</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Megascarab"]/lifeStages</xpath>
+                <value>
+                    <lifeStages>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megascarab/Megascarab</texPath>
+                                <drawSize>0.8</drawSize>
+                                <color>(114,107,84)</color>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+                                <drawSize>0.8</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megascarab/Megascarab</texPath>
+                                <drawSize>1.1</drawSize>
+                                <color>(114,107,84)</color>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+                                <drawSize>1.1</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megascarab/Megascarab</texPath>
+                                <drawSize>1.3</drawSize>
+                                <color>(114,107,84)</color>
+                                <shadowData>
+                                    <volume>(0.2, 0.3, 0.2)</volume>
+                                    <offset>(0,0,0)</offset>
+                                </shadowData>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+                                <drawSize>1.3</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                    </lifeStages>
+                    <modExtensions>
+                        <li Class="SK.PawnGraphicExtension">
+                            <colors>				
+                                <li>(165,155,140)</li>
+                                <!-- light beige -->
+                                <li>(70,60,50)</li>
+                                <!-- light brown -->
+                                <li>(85,85,85)</li>
+                                <!-- light grey -->
+                                <li>(55,55,55)</li>
+                                <!-- medium grey -->
+                                <li>(35,35,35)</li>
+                                <!-- dark grey -->
+                            </colors>
+                            <shaderType>Cutout</shaderType>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Spelopede"]/combatPower</xpath>
+                <value>
+                    <combatPower>140</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Spelopede"]/lifeStages</xpath>
+                <value>
+                    <lifeStages>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Spelopede/Spelopede</texPath>
+                                <drawSize>1.3</drawSize>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+                                <drawSize>1.3</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Spelopede/Spelopede</texPath>
+                                <drawSize>1.75</drawSize>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+                                <drawSize>1.75</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Spelopede/Spelopede</texPath>
+                                <drawSize>2.1</drawSize>
+                                <shadowData>
+                                    <volume>(0.4, 0.5, 0.37)</volume>
+                                    <offset>(0,0,-0.15)</offset>
+                                </shadowData>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+                                <drawSize>2.1</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                    </lifeStages>
+                    <modExtensions>
+                        <li Class="SK.PawnGraphicExtension">
+                            <colors>				
+                                <li>(165,155,140)</li>
+                                <!-- light beige -->
+                                <li>(70,60,50)</li>
+                                <!-- light brown -->
+                                <li>(85,85,85)</li>
+                                <!-- light grey -->
+                                <li>(55,55,55)</li>
+                                <!-- medium grey -->
+                                <li>(35,35,35)</li>
+                                <!-- dark grey -->
+                            </colors>
+                            <shaderType>Cutout</shaderType>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Megaspider"]/combatPower</xpath>
+                <value>
+                    <combatPower>220</combatPower>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Megaspider"]/lifeStages</xpath>
+                <value>
+                    <lifeStages>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megaspider/Megaspider</texPath>
+                                <drawSize>1.1</drawSize>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+                                <drawSize>1.1</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megaspider/Megaspider</texPath>
+                                <drawSize>1.5</drawSize>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+                                <drawSize>1.5</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                        <li>
+                            <bodyGraphicData>
+                                <graphicClass>SK.PawnGraphic</graphicClass>
+                                <texPath>Things/Pawn/ExtendedGraphic/Animal/Megaspider/Megaspider</texPath>
+                                <drawSize>2.1</drawSize>
+                                <shadowData>
+                                    <volume>(0.5, 0.7, 0.43)</volume>
+                                    <offset>(0,0,-0.1)</offset>
+                                </shadowData>
+                            </bodyGraphicData>
+                            <dessicatedBodyGraphicData>
+                                <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+                                <drawSize>2.1</drawSize>
+                            </dessicatedBodyGraphicData>
+                        </li>
+                    </lifeStages>
+                    <modExtensions>
+                        <li Class="SK.PawnGraphicExtension">
+                            <colors>				
+                                <li>(165,155,140)</li>
+                                <!-- light beige -->
+                                <li>(70,60,50)</li>
+                                <!-- light brown -->
+                                <li>(85,85,85)</li>
+                                <!-- light grey -->
+                                <li>(55,55,55)</li>
+                                <!-- medium grey -->
+                                <li>(35,35,35)</li>
+                                <!-- dark grey -->
+                            </colors>
+                            <shaderType>Cutout</shaderType>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Drifter"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_Drifter</defName>
+                        <label>drifter</label>
+                        <race>Human</race>
+                        <combatPower>125</combatPower>
+                        <canBeSapper>true</canBeSapper>
+                        <gearHealthRange>0.2~0.6</gearHealthRange>
+                        <itemQuality>Poor</itemQuality>
+                        <apparelMoney>650~980</apparelMoney>
+                        <apparelRequired>
+                            <li>Apparel_BasicShirt</li>
+                        </apparelRequired>
+                        <apparelTags>
+                            <li>Outlander</li>
+                            <li>WoodenShield</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+                        <weaponMoney>115~250</weaponMoney>
+                        <weaponTags>
+                            <li>NeolithicMeleeBasic</li>
+                            <li>MedievalMelee</li>
+                        </weaponTags>
+                        <initialWillRange>0~1</initialWillRange>
+                        <initialResistanceRange>7~12</initialResistanceRange>
+                        <inventoryOptions>
+                            <skipChance>0.9</skipChance>
+                            <subOptionsChooseOne>
+                                <li>
+                                    <thingDef>Silver</thingDef>
+                                    <countRange>
+                                        <min>30</min>
+                                        <max>70</max>
+                                    </countRange>
+                                </li>
+                                <li>
+                                    <thingDef>MedicineIndustrial</thingDef>
+                                    <countRange>
+                                        <min>1</min>
+                                        <max>1</max>
+                                    </countRange>
+                                </li>
+                            </subOptionsChooseOne>
+                        </inventoryOptions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Thrasher"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_Thrasher</defName>
+                        <label>thrasher</label>
+                        <race>Human</race>
+                        <combatPower>130</combatPower>
+                        <canBeSapper>true</canBeSapper>
+                        <itemQuality>Poor</itemQuality>
+                        <maxGenerationAge>48</maxGenerationAge>
+                        <factionLeader>true</factionLeader>
+                        <gearHealthRange>0.4~1.1</gearHealthRange>
+                        <apparelMoney>600~1200</apparelMoney>
+                        <weaponMoney>110~270</weaponMoney>
+                        <initialResistanceRange>14~23</initialResistanceRange>
+                        <apparelRequired>
+                            <li>Apparel_BasicShirt</li>
+                        </apparelRequired>
+                        <apparelTags>
+                            <li>Outlander</li>
+                            <li>WoodenShield</li>
+                            <li>MedievalShield</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+                        <weaponTags>
+                            <li>NeolithicMeleeBasic</li>
+                            <li>MedievalMelee</li>
+                        </weaponTags>
+                        <skills>
+                            <li>
+                                <skill>Melee</skill>
+                                <range>4~20</range>
+                            </li>
+                        </skills>
+                        <inventoryOptions>
+                            <skipChance>0.9</skipChance>
+                            <subOptionsChooseOne>
+                                <li>
+                                    <thingDef>Silver</thingDef>
+                                    <countRange>
+                                        <min>25</min>
+                                        <max>50</max>
+                                    </countRange>
+                                </li>
+                                <li>
+                                    <thingDef>MedicineIndustrial</thingDef>
+                                    <countRange>
+                                        <min>1</min>
+                                        <max>1</max>
+                                    </countRange>
+                                </li>
+                            </subOptionsChooseOne>
+                        </inventoryOptions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_EnemyScavenger"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_EnemyScavenger</defName>
+                        <label>scavenger</label>
+                        <race>Human</race>
+                        <combatPower>155</combatPower>
+                        <gearHealthRange>0.4~1.1</gearHealthRange>
+                        <itemQuality>Poor</itemQuality>
+                        <apparelMoney>500~1100</apparelMoney>
+                        <apparelRequired>
+                            <li>Apparel_CollarShirt</li>
+                        </apparelRequired>
+                        <apparelTags>
+                            <li>Outlander</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+                        <weaponMoney>1400~1900</weaponMoney>
+                        <weaponTags>
+                            <li>RF1</li>
+                            <li>RF2</li>
+                        </weaponTags>
+                        <disallowedTraits>
+                            <li>Brawler</li>
+                        </disallowedTraits>
+                        <skills>
+                            <li>
+                                <skill>Shooting</skill>
+                                <range>4~20</range>
+                            </li>
+                        </skills>
+                        <initialResistanceRange>17~26</initialResistanceRange>
+                        <modExtensions>
+                            <li Class="CombatExtended.LoadoutPropertiesExtension">
+                                <primaryMagazineCount>
+                                    <min>8</min>
+                                    <max>13</max>
+                                </primaryMagazineCount>
+                                <sidearms>
+                                    <li>
+                                        <generateChance>0.3</generateChance>
+                                        <sidearmMoney>
+                                            <min>0</min>
+                                            <max>50</max>
+                                        </sidearmMoney>
+                                        <weaponTags>
+                                            <li>GrenadeTierZero</li>
+                                            <li>GrenadeTierOne</li>
+                                            <li>GrenadeTierTwo</li>
+                                        </weaponTags>
+                                        <magazineCount>
+                                            <min>2</min>
+                                            <max>3</max>
+                                        </magazineCount>
+                                    </li>
+                                    <li>
+                                        <generateChance>0.7</generateChance>
+                                        <sidearmMoney>
+                                            <min>10</min>
+                                            <max>60</max>
+                                        </sidearmMoney>
+                                        <weaponTags>
+                                            <li>CE_Sidearm_Melee</li>
+                                        </weaponTags>
+                                    </li>
+                                </sidearms>
+                            </li>
+                        </modExtensions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_PirateBoss"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_PirateBoss</defName>
+                        <label>pirate bomber</label>
+                        <race>Human</race>
+                        <combatPower>200</combatPower>
+                        <canBeSapper>true</canBeSapper>
+                        <isGoodBreacher>true</isGoodBreacher>
+                        <gearHealthRange>0.6~1.5</gearHealthRange>
+                        <apparelMoney>600~1200</apparelMoney>
+                        <initialWillRange>1~3</initialWillRange>
+                        <initialResistanceRange>7~12</initialResistanceRange>
+                        <apparelTags>
+                            <li>Outlander</li>
+                            <li>BanditsLight</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+                        <weaponMoney>1500~1900</weaponMoney>
+                        <weaponTags>
+                            <li>GLT1</li>
+                        </weaponTags>
+                        <disallowedTraits>
+                            <li>Brawler</li>
+                        </disallowedTraits>
+                        <skills>
+                            <li>
+                                <skill>Shooting</skill>
+                                <range>5~20</range>
+                            </li>
+                        </skills>
+                        <modExtensions>
+                            <li Class="CombatExtended.LoadoutPropertiesExtension">
+                                <primaryMagazineCount>
+                                    <min>2</min>
+                                    <max>3</max>
+                                </primaryMagazineCount>
+                                <sidearms>
+                                    <li>
+                                        <generateChance>0.5</generateChance>
+                                        <sidearmMoney>
+                                            <min>10</min>
+                                            <max>100</max>
+                                        </sidearmMoney>
+                                        <weaponTags>
+                                            <li>CE_Sidearm_Melee</li>
+                                        </weaponTags>
+                                    </li>
+                                    <li>
+                                        <generateChance>0.15</generateChance>
+                                        <sidearmMoney>
+                                            <min>10</min>
+                                            <max>100</max>
+                                        </sidearmMoney>
+                                        <weaponTags>
+                                            <li>CE_FlareLauncher</li>
+                                        </weaponTags>
+                                        <magazineCount>
+                                            <min>2</min>
+                                            <max>5</max>
+                                        </magazineCount>
+                                    </li>
+                                </sidearms>
+                            </li>
+                        </modExtensions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Pirate"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_Pirate</defName>
+                        <label>pirate gunner</label>
+                        <race>Human</race>
+                        <combatPower>195</combatPower>
+                        <maxGenerationAge>50</maxGenerationAge>
+                        <gearHealthRange>0.7~2.3</gearHealthRange>
+                        <apparelMoney>500~1100</apparelMoney>
+                        <apparelRequired>
+                            <li>Apparello_Urbulence</li>
+                        </apparelRequired>
+                        <apparelTags>
+                            <li>Outlander</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+                        <weaponMoney>500~1200</weaponMoney>
+                        <weaponTags>
+                            <li>SMG2</li>
+                            <li>PT2</li>
+                        </weaponTags>
+                        <disallowedTraits>
+                            <li>Brawler</li>
+                        </disallowedTraits>
+                        <skills>
+                            <li>
+                                <skill>Shooting</skill>
+                                <range>4~20</range>
+                            </li>
+                        </skills>
+                        <techHediffsChance>0.04</techHediffsChance>
+                        <techHediffsMoney>50~800</techHediffsMoney>
+                        <techHediffsTags>
+                            <li>Poor</li>
+                            <li>Simple</li>
+                            <li>ImplantEmpireCommon</li>
+                        </techHediffsTags>
+                        <initialWillRange>2~3</initialWillRange>
+                        <initialResistanceRange>7~12</initialResistanceRange>
+                        <modExtensions>
+                            <li Class="CombatExtended.LoadoutPropertiesExtension">
+                                <primaryMagazineCount>
+                                    <min>6</min>
+                                    <max>7</max>
+                                </primaryMagazineCount>
+                                <sidearms>
+                                    <li>
+                                        <generateChance>0.15</generateChance>
+                                        <sidearmMoney>
+                                            <min>0</min>
+                                            <max>50</max>
+                                        </sidearmMoney>
+                                        <weaponTags>
+                                            <li>GrenadeTierOne</li>
+                                            <li>GrenadeTierTwo</li>
+                                        </weaponTags>
+                                        <magazineCount>
+                                            <min>2</min>
+                                            <max>3</max>
+                                        </magazineCount>
+                                    </li>
+                                </sidearms>
+                            </li>
+                        </modExtensions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Mercenary_Slasher"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="AM_PirateBase">
+                        <defName>AM_Mercenary_Slasher</defName>
+                        <label>crunchesher</label>
+                        <race>Human</race>
+                        <combatPower>130</combatPower>
+                        <canBeSapper>true</canBeSapper>
+                        <itemQuality>Poor</itemQuality>
+                        <maxGenerationAge>48</maxGenerationAge>
+                        <gearHealthRange>0.4~1.1</gearHealthRange>
+                        <apparelMoney>600~1200</apparelMoney>
+                        <weaponMoney>200~550</weaponMoney>
+                        <apparelRequired>
+                            <li>Apparel_BasicShirt</li>
+                            <li>Apparello_Sombrero</li>
+                        </apparelRequired>
+                        <apparelTags>
+                            <li>Outlander</li>
+                        </apparelTags>
+                        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+                        <weaponTags>
+                            <li>PT1</li>
+                        </weaponTags>
+                        <initialResistanceRange>13~23</initialResistanceRange>
+                        <modExtensions>
+                            <li Class="CombatExtended.LoadoutPropertiesExtension">
+                                <primaryMagazineCount>
+                                    <min>4</min>
+                                    <max>6</max>
+                                </primaryMagazineCount>
+                            </li>
+                        </modExtensions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/PawnKindDef[@Name="AM_MercenaryBase" or @Name="AM_MercenaryMidTierBase" or @Name="AM_MercenaryEliteTierBase"]</xpath>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

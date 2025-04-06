@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/SpecialThingFilterDef[defName="AM_Test_Filter" or defName="AM_AMGuns_Filter"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/WorkGiverDef[defName="AM_DoBillsMachiningTable"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/RecipeDef[
+                defName="AM_DecomposingWeapons" or 
+                defName="AM_DecomposingWeaponsI" or 
+                defName="AM_DisassembleLightArmor" or 
+                defName="AM_DisassembleHeavyArmor" or 
+                defName="Make_AM_AI2A" or 
+                defName="Make_AM_HemostaticAgent" or 
+                defName="Make_AM_FirstAidKit"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AM_Grizzly" or 
+                defName="AM_Salewa"]/thingCategories</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/DesignationCategoryDef[defName="AM_FLOOR"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AM_Grizzly" or 
+                defName="AM_MetalbloodInjector" or 
+                defName="AM_AnalgesicRegenerationInjector" or 
+                defName="AM_CellRegenerationInjector" or 
+                defName="AM_Salewa"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AM_Grizzly" or 
+                defName="AM_MetalbloodInjector" or 
+                defName="AM_AnalgesicRegenerationInjector" or 
+                defName="AM_CellRegenerationInjector" or 
+                defName="AM_Salewa"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AM_ComponentWeapon" or 
+                defName="AM_227FURYComponents" or 
+                defName="AM_338PrecisionComponents" or 
+                defName="AM_PKPMagazineComponents" or 
+                defName="AM_PotatoChipsB" or 
+                defName="AM_PotatoChipsC" or 
+                defName="AM_PotatoChipsD" or 
+                defName="AM_PotatoChipsE" or 
+                defName="AM_PotatoChipsF" or 
+                defName="AM_MRE" or 
+                defName="AM_CannedBraisedPorkbelly" or 
+                defName="AM_CannedHerring" or 
+                defName="AM_CannedPeas" or 
+                defName="AM_CannedStewedBeef" or 
+                defName="AM_DeliciousCannedBeef" or 
+                defName="AM_TsingtaoBeer" or 
+                defName="AM_Budweiser" or 
+                defName="AM_MilkBeer" or 
+                defName="AM_AncientGrizzly" or 
+                defName="AM_Ibuprofen" or 
+                defName="AM_AI2A" or 
+                defName="AM_HemostaticAgent" or 
+                defName="AM_Antibiotic" or 
+                defName="AM_FirstAidKit"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/SoundDef[
+                defName="AM_Shot_54R" or 
+                defName="AM_Shot_227A" or 
+                defName="AM_Shot_227SD" or 
+                defName="AM_Shot_338LM" or 
+                defName="AM_Shot_556SD" or 
+                defName="AM_Shot_762SD"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingCategoryDef[defName="AM_MedicalSupplies"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ResearchProjectDef[defName="AM_RecyclingAssembly"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

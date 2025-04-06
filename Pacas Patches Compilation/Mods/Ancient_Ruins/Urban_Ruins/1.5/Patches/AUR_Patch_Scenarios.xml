@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ScenarioDef[defName="AM_SafeHouse"]/scenario/parts</xpath>
+                <value>
+                    <parts>
+                        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                            <def>ConfigPage_ConfigureStartingPawns</def>
+                            <pawnChoiceCount>8</pawnChoiceCount>
+                            <pawnCount>1</pawnCount>
+                        </li>
+                        <li Class="ScenPart_PlayerPawnsArriveMethod">
+                            <def>PlayerPawnsArriveMethod</def>
+                        </li>
+                        <li Class="ScenPart_ForcedHediff">
+                            <def>ForcedHediff</def>
+                            <chance>0.5</chance>
+                            <context>PlayerStarter</context>
+                            <hideOffMap>True</hideOffMap>
+                            <hediff>Malnutrition</hediff>
+                            <severityRange>0.0176001787~0.143733606</severityRange>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>WoodPlank</thingDef>
+                            <count>20</count>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>BlocksSandstone</thingDef>
+                            <count>30</count>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>ShipChunk</thingDef>
+                            <count>10</count>
+                            <allowRoofed>false</allowRoofed>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>ShipMechChunk</thingDef>
+                            <count>6</count>
+                            <allowRoofed>false</allowRoofed>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <thingDef>MealSurvivalPack</thingDef>
+                            <count>7</count>
+                            <allowRoofed>True</allowRoofed>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <thingDef>MeleeWeapon_Knife</thingDef>
+                            <stuff>Plasteel</stuff>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <thingDef>Apparel_SimpleHelmet</thingDef>
+                            <stuff>Plasteel</stuff>
+                            <quality>Good</quality>
+                        </li>
+                        <li Class="ScenPart_GameStartDialog">
+                            <def>GameStartDialog</def>
+                            <text>You have discovered an ancient, abandoned small underground facility that could potentially serve as a shelter.</text>
+                            <textKey>GameStartDialog</textKey>
+                            <closeSound>GameStartSting</closeSound>
+                        </li>
+                        <li Class="AncientMarket_Libraray.ScenPart_GenerateCustomMap">
+                            <def>AM_StartWithStructure</def>
+                            <maps>
+                                <li>AM_Start_A</li>
+                                <li>AM_Start_B</li>
+                                <li>AM_Start_C</li>
+                            </maps>
+                        </li>
+                    </parts>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ScenarioDef[defName="AM_ScavengerGroup"]/scenario/parts</xpath>
+                <value>
+                    <parts>
+                        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                            <def>ConfigPage_ConfigureStartingPawns</def>
+                            <pawnChoiceCount>8</pawnChoiceCount>
+                            <pawnCount>3</pawnCount>
+                        </li>
+                        <li Class="ScenPart_PlayerPawnsArriveMethod">
+                            <def>PlayerPawnsArriveMethod</def>
+                        </li>
+                        <li Class="ScenPart_ForcedHediff">
+                            <def>ForcedHediff</def>
+                            <chance>0.5</chance>
+                            <context>PlayerStarter</context>
+                            <hideOffMap>True</hideOffMap>
+                            <hediff>Malnutrition</hediff>
+                            <severityRange>0.0176001787~0.143733606</severityRange>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>ShipChunk</thingDef>
+                            <count>15</count>
+                            <allowRoofed>false</allowRoofed>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>ShipMechChunk</thingDef>
+                            <count>11</count>
+                            <allowRoofed>false</allowRoofed>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>WoodPlank</thingDef>
+                            <count>20</count>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <visible>false</visible>
+                            <thingDef>BlocksSandstone</thingDef>
+                            <count>30</count>
+                        </li>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>MealSurvivalPack</thingDef>
+                            <count>12</count>
+                        </li>
+                        <li Class="ScenPart_ScatterThingsAnywhere">
+                            <def>ScatterThingsAnywhere</def>
+                            <thingDef>MeleeWeapon_Knife</thingDef>
+                            <stuff>Plasteel</stuff>
+                        </li>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>RF_Gun_VektorCP</thingDef>
+                            <count>2</count>
+                        </li>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>Ammo_9x19mmPara_FMJ</thingDef>
+                            <count>180</count>
+                        </li>
+                        <li Class="ScenPart_GameStartDialog">
+                            <def>GameStartDialog</def>
+                            <text>You have discovered an ancient underground parking lot that could serve as your stronghold, but there seems to be a strange noise underground....</text>
+                            <textKey>GameStartDialog</textKey>
+                            <closeSound>GameStartSting</closeSound>
+                        </li>
+                        <li Class="AncientMarket_Libraray.ScenPart_GenerateCustomMap">
+                            <def>AM_StartWithStructure</def>
+                            <maps>
+                                <li>AM_ParkingLot1F_A</li>
+                                <li>AM_ParkingLot1F_B</li>
+                            </maps>
+                        </li>
+                    </parts>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

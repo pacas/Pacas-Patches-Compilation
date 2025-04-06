@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Buildings\Buildings_Production.xml-->
+	<!--                    forsaken forge -->
+	<AG_ForsakenForge.label>кузница забытых</AG_ForsakenForge.label>
+	<!--                          An electric-powered forge for smithing forsaken weapons and tools. Can only be built by a colonist with the Forsaken Knowledge gene. -->
+	<AG_ForsakenForge.description>Электрическая кузница для изготовления оружия и инструментов забытых. Может быть построена только поселенцем с геном «знания забытых».</AG_ForsakenForge.description>
+</LanguageData>

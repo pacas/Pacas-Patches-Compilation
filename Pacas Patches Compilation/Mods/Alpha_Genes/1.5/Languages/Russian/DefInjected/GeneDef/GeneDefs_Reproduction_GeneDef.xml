@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Reproduction.xml-->
+	<!--                    fast gestation -->
+	<AG_FastGestation.label>ускоренная беременность</AG_FastGestation.label>
+	<!--                          Carriers of this gene will have shorter gestation periods by 25%. -->
+	<AG_FastGestation.description>У носителей этого гена цикл беременности короче на 25%.</AG_FastGestation.description>
+	
+	<!--                    slow gestation -->
+	<AG_SlowGestation.label>замедленная беременность</AG_SlowGestation.label>
+	<!--                          Carriers of this gene will have longer gestation periods by 25%. -->
+	<AG_SlowGestation.description>У носителей этого гена цикл беременности длиннее на 25%.</AG_SlowGestation.description>
+	
+	<!--                     reduced fertility -->
+	<AG_ReducedFertile.label>пониженная фертильность</AG_ReducedFertile.label>
+	<!--                           Carriers of this gene have a reduced chance of becoming pregnant or impregnating others. -->
+	<AG_ReducedFertile.description>У носителей этого гена пониженная вероятность забеременеть или оплодотворить других.</AG_ReducedFertile.description>
+	
+	<!--                        fertility in darkness -->
+	<AG_FertilityDarkness.label>фертильность в темноте</AG_FertilityDarkness.label>
+	<!--                              Carriers of this gene have an increased chance of becoming pregnant or impregnating others while in darkness (below 50% light level), while having the opposite effects in the light. -->
+	<AG_FertilityDarkness.description>У носителей этого гена повышенная вероятность забеременеть или оплодотворить других в темноте (при уровне освещения ниже 50%), однако их шансы имеют обратный эффект на свету.</AG_FertilityDarkness.description>
+	
+	<!--                     fertility in the light -->
+	<AG_FertilityLight.label>фертильность на свету</AG_FertilityLight.label>
+	<!--                           Carriers of this gene have an increased chance of becoming pregnant or impregnating others while in the light (50% light level or above), while having the opposite effects in the dark. -->
+	<AG_FertilityLight.description>У носителей этого гена повышенная вероятность забеременеть или оплодотворить других на свету (при уровне освещения 50% или выше), однако их шансы имеют обратный эффект в темноте.</AG_FertilityLight.description>
+	
+	<!--                        fertility while outdoors -->
+	<AG_FertilityOutdoors.label>фертильность на открытом воздухе</AG_FertilityOutdoors.label>
+	<!--                              Carriers of this gene have an increased chance of becoming pregnant or impregnating others while outdoors, while having the opposite effects indoors. -->
+	<AG_FertilityOutdoors.description>У носителей этого гена повышенная вероятность забеременеть или оплодотворить других на открытом воздухе, однако их шансы имеют обратный эффект в помещении.</AG_FertilityOutdoors.description>
+	
+	<!--                       fertility while indoors -->
+	<AG_FertilityIndoors.label>фертильность в помещении</AG_FertilityIndoors.label>
+	<!--                             Carriers of this gene have an increased chance of becoming pregnant or impregnating others while indoors, while having the opposite effects outdoors. -->
+	<AG_FertilityIndoors.description>У носителей этого гена повышенная вероятность забеременеть или оплодотворить других в помещении, однако их шансы имеют обратный эффект на открытом воздухе.</AG_FertilityIndoors.description>
+	<!--                                            Yes, the icon of this gene means "Make mountain pregnant". -->
+	<AG_FertilityIndoors.customEffectDescriptions.0>Да, иконка этого гена символизирует "забеременеть от горы".</AG_FertilityIndoors.customEffectDescriptions.0>
+	
+	<!--                egg laying -->
+	<AG_EggLaying.label>яйцеклад</AG_EggLaying.label>
+	<!--                      Carriers of this gene will reproduce oviparously, which is as disgusting as it sounds. This has its advantages and disadvantages. -->
+	<AG_EggLaying.description>Носители этого гена размножаются яйцекладным способом, что выглядит так же неприятно, как и звучит. Однако этот процесс имеет как свои преимущества, так и недостатки.</AG_EggLaying.description>
+	<!--                                     Mother won't be subject to pregnancy moods, morning sickness, etc. -->
+	<AG_EggLaying.customEffectDescriptions.0>Матери не будут испытывать перепады настроения, утреннюю тошноту и другие эффекты беременности.</AG_EggLaying.customEffectDescriptions.0>
+	<!--                                     Once laid, the egg will be vulnerable until hatching. Human eggs are not edible. -->
+	<AG_EggLaying.customEffectDescriptions.1>После откладывания яйцо остаётся уязвимым до вылупления, а человеческие яйца несъедобны.</AG_EggLaying.customEffectDescriptions.1>
+	<!--                                     The whole process takes longer (24 days total). -->
+	<AG_EggLaying.customEffectDescriptions.2>Весь процесс занимает больше времени (всего 24 дня).</AG_EggLaying.customEffectDescriptions.2>
+</LanguageData>

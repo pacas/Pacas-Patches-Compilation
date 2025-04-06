@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Plants\ThingDef_Plants.xml-->
+	<!--               septimum -->
+	<AG_Septimum.label>септимум</AG_Septimum.label>
+	<!--                     A mid-size crop that yields ultima fibers. The fibers are used in the making of forsaken armor. Only colonists with the Forsaken Knowledge gene will be able to sow this plant. -->
+	<AG_Septimum.description>Среднего размера растение, дающее волокно ультима. Эти волокна используются для создания брони Забытых. Только поселенцы с геном «знания забытых» могут сеять это растение.</AG_Septimum.description>
+	
+	<!--            gamma -->
+	<AG_Gamma.label>гамма</AG_Gamma.label>
+	<!--                  A beautiful alien plant. Often used by Forsaken as a light source. It is ill advised to eat this, as it is extremely toxic. Only colonists with the Forsaken Knowledge gene will be able to sow this plant. -->
+	<AG_Gamma.description>Красивое инопланетное растение, часто используемое Забытыми как источник света. Оно крайне токсично, поэтому не рекомендуется его употреблять в пищу. Только поселенцы с геном «знания забытых» могут сеять это растение.</AG_Gamma.description>
+	
+	<!--                dark gamma -->
+	<AG_DarkGamma.label>тёмная гамма</AG_DarkGamma.label>
+	<!--                      A beautiful alien plant. Often used by Forsaken as a darklight source. It is ill advised to eat this, as it is extremely toxic. Only colonists with the Forsaken Knowledge gene will be able to sow this plant. -->
+	<AG_DarkGamma.description>Красивое инопланетное растение, часто используемое Забытыми как источник тёмного света. Оно крайне токсично, поэтому не рекомендуется его употреблять в пищу. Только поселенцы с геном «знания забытых» могут сеять это растение.</AG_DarkGamma.description>
+</LanguageData>

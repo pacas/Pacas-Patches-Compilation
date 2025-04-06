@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Items\ThingDef_Special comp.xml-->
+	<!-- EN: weapon Component -->
+	<AM_ComponentWeapon.label>компонент оружия</AM_ComponentWeapon.label>
+	<!-- EN: A bundle of weapon components, including barrels, mechanisms, and other essential parts. -->
+	<AM_ComponentWeapon.description>Комплект компонентов оружия, включая стволы, механизмы и другие важные детали.</AM_ComponentWeapon.description>
+	
+	<!-- EN: 6.8 upper receiver components -->
+	<AM_227FURYComponents.label>верхние компоненты ствольной коробки 6,8 калибра</AM_227FURYComponents.label>
+	<!-- EN: 6.8 caliber modification components, including a barrel, magazine, and bolt. -->
+	<AM_227FURYComponents.description>Компоненты модификации 6,8 калибра, включая ствол, магазин и затвор.</AM_227FURYComponents.description>
+	
+	<!-- EN: .338 precision components -->
+	<AM_338PrecisionComponents.label>прецизионные компоненты .338 калибра</AM_338PrecisionComponents.label>
+	<!-- EN: Some core components of the .338LM sniper rifle, including a precision barrel, upper receiver, magazine, and sight. -->
+	<AM_338PrecisionComponents.description>Некоторые основные компоненты снайперской винтовки .338LM калибра, включая высокоточный ствол, верхнюю часть ствольной коробки, магазин и прицел.</AM_338PrecisionComponents.description>
+	
+	<!-- EN: PKP components -->
+	<AM_PKPMagazineComponents.label>компоненты PKP</AM_PKPMagazineComponents.label>
+	<!-- EN: Components of the PKM and PKP machine guns, including bolts and two full ammunition chain boxes. -->
+	<AM_PKPMagazineComponents.description>Компоненты пулеметов PKM и PKP, включая затворы и две цепные коробки с боекомплектом.</AM_PKPMagazineComponents.description>
+	
+	<!-- EN: aramid cloth -->
+	<AM_AramidCloth.label>арамидная ткань</AM_AramidCloth.label>
+	<!-- EN: The bulletproof aramid fiber fabric produced by Urban World has a structure that can effectively absorb impacts and resist sharp weapons. However, the disadvantage is that it is relatively heavy and cannot be produced without professional equipment. -->
+	<AM_AramidCloth.description>Пуленепробиваемая ткань из арамидного волокна производства урбанизированного мира имеет структуру, способную эффективно поглощать удары и противостоять острому оружию. Однако недостатком является то, что она относительно тяжёлая и её невозможно изготовить без профессионального оборудования.</AM_AramidCloth.description>
+	<!-- EN: Adjective aramid cloth -->
+	<AM_AramidCloth.stuffProps.stuffAdjective>арамидной ткани</AM_AramidCloth.stuffProps.stuffAdjective>
+	
+	<!-- EN: heavy composite plate -->
+	<AM_HeavyCompositePlate.label>тяжёлая композитная пластина</AM_HeavyCompositePlate.label>
+	<!-- EN: A bulletproof armor plate made of heavy-duty ceramic composite materials is a necessary component for producing high-performance flak vests. -->
+	<AM_HeavyCompositePlate.description>Пуленепробиваемая бронепластина из сверхпрочных керамических композиционных материалов является необходимой деталью для изготовления высокоэффективных бронежилетов.</AM_HeavyCompositePlate.description>
+	
+	<!-- EN: UHMWpe plate -->
+	<AM_UHMWPEPlate.label>пластина из СВМПЭ</AM_UHMWPEPlate.label>
+	<!-- EN: An ultra-light armor plate made of ultra-high molecular weight polyethylene is very lightweight and has good protective performance. -->
+	<AM_UHMWPEPlate.description>Сверхлёгкая бронепластина из сверхвысокомолекулярного полиэтилена, очень лёгкая и обладает хорошими защитными характеристиками.</AM_UHMWPEPlate.description>
+</LanguageData>

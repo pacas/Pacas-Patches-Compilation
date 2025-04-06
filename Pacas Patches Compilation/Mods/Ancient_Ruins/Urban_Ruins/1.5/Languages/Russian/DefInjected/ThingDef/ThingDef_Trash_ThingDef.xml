@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Trash.xml-->
+	<!-- EN: potato chips -->
+	<AM_PotatoChips.label>картофельные чипсы</AM_PotatoChips.label>
+	<!-- EN: dried blood -->
+	<AM_Filth_DriedBlood.label>засохшая кровь</AM_Filth_DriedBlood.label>
+	<!-- EN: scattered documents -->
+	<AM_Filth_ScatteredDocuments.label>разбросанные документы</AM_Filth_ScatteredDocuments.label>
+	<!-- EN: ragged uniform -->
+	<AM_Filth_MoldyUniform.label>рваная униформа</AM_Filth_MoldyUniform.label>
+	<!-- EN: oil smear -->
+	<AM_Filth_OilSmear.label>масляное пятно</AM_Filth_OilSmear.label>
+</LanguageData>

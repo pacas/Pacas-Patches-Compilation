@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                     larger -->
+	<AG_LargerBodySize.label>крупность</AG_LargerBodySize.label>
+	<!--                           Carriers of this gene have a larger body size than usual. This has its advantages and disadvantages. -->
+	<AG_LargerBodySize.description>Носители этого гена обладают более крупным телосложением, чем обычно, что приносит как преимущества, так и недостатки.</AG_LargerBodySize.description>
+	
+	<!--                      smaller -->
+	<AG_SmallerBodySize.label>маленькость</AG_SmallerBodySize.label>
+	<!--                            Carriers of this gene have a smaller body size than usual. This has its advantages and disadvantages. -->
+	<AG_SmallerBodySize.description>Носители этого гена обладают более мелким телосложением, чем обычно, что приносит как преимущества, так и недостатки.</AG_SmallerBodySize.description>
+</LanguageData>

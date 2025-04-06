@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Fangs.xml-->
+	<!--                 venom fangs -->
+	<AG_VenomFangs.label>ядовитые клыки</AG_VenomFangs.label>
+	<!--                       Carriers of this gene grow large fangs that can be used in melee combat to inject a powerful venom. -->
+	<AG_VenomFangs.description>Носители этого гена обладают большими клыками, которые могут быть использованы в ближнем бою для впрыскивания сильнодействующего яда.</AG_VenomFangs.description>
+	
+	<!--                acid fangs -->
+	<AG_AcidFangs.label>кислотные клыки</AG_AcidFangs.label>
+	<!--                      Carriers of this gene grow large fangs that can be used in melee combat to inject a powerful acid. -->
+	<AG_AcidFangs.description>Носители этого гена обладают большими клыками, которые могут быть использованы в ближнем бою для впрыскивания сильнодействующей кислоты.</AG_AcidFangs.description>
+</LanguageData>

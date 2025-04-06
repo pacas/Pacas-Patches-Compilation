@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_MeatTypes.xml-->
+	<!--                 insect jelly flesh -->
+	<AG_JellyFlesh.label>плоть из желе насекомых</AG_JellyFlesh.label>
+	<!--                       Carriers of this gene have jelly flesh. Consuming insect jelly by them is classed as cannibalism. -->
+	<AG_JellyFlesh.description>Носители этого гена обладают желеобразной плотью. Употребление ими желе насекомых считается каннибализмом.</AG_JellyFlesh.description>
+	
+	<!--                     chocolate flesh -->
+	<AG_ChocolateFlesh.label>плоть из шоколада</AG_ChocolateFlesh.label>
+	<!--                           Carriers of this gene have chocolate instead of meat. Does this make sense? Yes, of course it does. Consuming chocolate by them is classed as cannibalism. -->
+	<AG_ChocolateFlesh.description>У носителей этого гена вместо плоти - шоколад. Имеет ли это смысл? Да, безусловно, имеет. Употребление ими шоколада считается каннибализмом.</AG_ChocolateFlesh.description>
+</LanguageData>

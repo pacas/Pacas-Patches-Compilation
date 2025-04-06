@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Items\ThingDef_HighValueItem.xml-->
+	<!-- EN: baking thermometer -->
+	<AM_BakingThermometer.label>термометр для выпечки</AM_BakingThermometer.label>
+	<!-- EN: Some thermometers for cooking, maybe traders could be interested. -->
+	<AM_BakingThermometer.description>Несколько термометров для приготовления пищи, возможно торговцам будет интересно.</AM_BakingThermometer.description>
+	
+	<!-- EN: CPU -->
+	<AM_CPU.label>процессор</AM_CPU.label>
+	<!-- EN: An ancient computer component with specifications completely different from modern devices. -->
+	<AM_CPU.description>Древний компьютерный компонент, характеристики которого совершенно отличаются от современных устройств.</AM_CPU.description>
+	
+	<!-- EN: aluminum splint -->
+	<AM_AluminumSplint.label>алюминиевая шина</AM_AluminumSplint.label>
+	<!-- EN: A medical fracture splint, which needs to be used in conjunction with other items in the medical kit. It is not very useful if it is the only one. -->
+	<AM_AluminumSplint.description>Медицинская шина для переломов, которую необходимо использовать вместе с другими предметами аптечки. Она не очень полезна, если она единственная.</AM_AluminumSplint.description>
+	
+	<!-- EN: pelvic hammock -->
+	<AM_PelvicHammock.label>тазовый гамак</AM_PelvicHammock.label>
+	<!-- EN: A clamp for thigh fractures in emergency situations, which needs to be used in conjunction with other items in the medical kit, is not very useful on its own. -->
+	<AM_PelvicHammock.description>Зажим для переломов бедра в экстренных ситуациях, который необходимо использовать совместно с другими предметами аптечки, сам по себе мало полезен.</AM_PelvicHammock.description>
+	
+	<!-- EN: packaged CPU -->
+	<AM_PackagedCPU.label>упакованный процессор</AM_PackagedCPU.label>
+	<!-- EN: An unopened ancient computer component, once a very rare commodity. -->
+	<AM_PackagedCPU.description>Неоткрытый древний компьютерный компонент, когда-то бывавший очень редким товаром.</AM_PackagedCPU.description>
+	
+	<!-- EN: GPU -->
+	<AM_GPU.label>видеокарта</AM_GPU.label>
+	<!-- EN: An ancient graphics display card. May still be usable. -->
+	<AM_GPU.description>Древняя видеокарта. Возможно ещё можно использовать.</AM_GPU.description>
+	
+	<!-- EN: packaged GPU -->
+	<AM_PackagedGPU.label>упакованная видеокарта</AM_PackagedGPU.label>
+	<!-- EN: A well packaged ancient graphics display card, brand new. -->
+	<AM_PackagedGPU.description>Хорошо упакованная древняя видеокарта, совершенно новая.</AM_PackagedGPU.description>
+	
+	<!-- EN: HDD -->
+	<AM_HDD.label>жёсткий диск</AM_HDD.label>
+	<!-- EN: Mechanical hard drives used in ancient computers. -->
+	<AM_HDD.description>Механические жёсткие диски, используемые в древних компьютерах.</AM_HDD.description>
+	
+	<!-- EN: SSD -->
+	<AM_SSD.label>SSD</AM_SSD.label>
+	<!-- EN: A solid-state drive used in ancient computers. Appears to still function. -->
+	<AM_SSD.description>Твердотельный накопитель, использовавшийся в древних компьютерах. Кажется, всё ещё функционирует.</AM_SSD.description>
+	
+	<!-- EN: credit card -->
+	<AM_CreditCard.label>кредитные карты</AM_CreditCard.label>
+	<!-- EN: A set of various abandoned credit cards. Unclear whether they can still be used. -->
+	<AM_CreditCard.description>Набор различных кредитных карт. Неясно, можно ли их ещё использовать.</AM_CreditCard.description>
+	
+	<!-- EN: key card -->
+	<AM_KeyCard.label>ключ-карты</AM_KeyCard.label>
+	<!-- EN: A discarded key card used for an unknown door. May have interest from traders. -->
+	<AM_KeyCard.description>Выброшенные ключ-карты от неизвестной двери. Могут заинтересовать торговцев.</AM_KeyCard.description>
+	
+	<!-- EN: electrical tape -->
+	<AM_ElectricalTape.label>изолента</AM_ElectricalTape.label>
+	<!-- EN: A roll of electrical tape. -->
+	<AM_ElectricalTape.description>Рулон изоленты.</AM_ElectricalTape.description>
+	
+	<!-- EN: game console -->
+	<AM_GameConsole.label>игровая консоль</AM_GameConsole.label>
+	<!-- EN: A strange game console. Internals seem to be fried. -->
+	<AM_GameConsole.description>Странная игровая консоль. Внутренности как будто поджарились.</AM_GameConsole.description>
+	
+	<!-- EN: glass adhesive -->
+	<AM_OneLiterGlassAdhesive.label>клей для стекла</AM_OneLiterGlassAdhesive.label>
+	<!-- EN: One tube of glass adhesive, one liter pack. -->
+	<AM_OneLiterGlassAdhesive.description>Один тюбик клея для стекла, одна литровая упаковка.</AM_OneLiterGlassAdhesive.description>
+	
+	<!-- EN: LEDX -->
+	<AM_LEDX.label>LEDX</AM_LEDX.label>
+	<!-- EN: A device designed to accurately confirm the position of subcutaneous veins, which is very useful for emergency treatment. -->
+	<AM_LEDX.description>Устройство, предназначенное для точного подтверждения положения подкожных вен, что очень полезно при неотложной помощи.</AM_LEDX.description>
+	
+	<!-- EN: radio intercom -->
+	<AM_RadioIntercom.label>радиодомофон</AM_RadioIntercom.label>
+	<!-- EN: An ancient radio intercom is already out of power. -->
+	<AM_RadioIntercom.description>Древний радиодомофон уже вышел из строя.</AM_RadioIntercom.description>
+	
+	<!-- EN: tape measure -->
+	<AM_TapeMeasure.label>рулетка</AM_TapeMeasure.label>
+	<!-- EN: Common tape measures on construction sites. -->
+	<AM_TapeMeasure.description>Рулетки, распространенные на строительных площадках.</AM_TapeMeasure.description>
+	
+	<!-- EN: way bill -->
+	<AM_WayBill.label>накладная</AM_WayBill.label>
+	<!-- EN: A shopping mall supply waybill, maybe it can be used to find the source warehouse. -->
+	<AM_WayBill.description>Накладная торгового центра, возможно, по ней можно найти склад-источник.</AM_WayBill.description>
+	<!-- EN: Read -->
+	<AM_WayBill.comps.1.useLabel>Прочитать</AM_WayBill.comps.1.useLabel>
+	
+	<!-- EN: intel map -->
+	<AM_IntelMap.label>разведкарта</AM_IntelMap.label>
+	<!-- EN: An intelligence map that records a certain location. -->
+	<AM_IntelMap.description>Разведкарта, на которой отмечено определённое место.</AM_IntelMap.description>
+	<!-- EN: Read -->
+	<AM_IntelMap.comps.1.useLabel>Прочитать</AM_IntelMap.comps.1.useLabel>
+	
+	<!-- EN: confidential intel map -->
+	<AM_ConfidentialIntelMapA.label>конфиденциальная разведкарта</AM_ConfidentialIntelMapA.label>
+	<!-- EN: An confidential intelligence map that records a certain location. -->
+	<AM_ConfidentialIntelMapA.description>Конфиденциальная разведкарта, на которой отмечено определённое место.</AM_ConfidentialIntelMapA.description>
+	<!-- EN: Read -->
+	<AM_ConfidentialIntelMapA.comps.1.useLabel>Прочитать</AM_ConfidentialIntelMapA.comps.1.useLabel>
+	
+	<!-- EN: confidential intel map -->
+	<AM_ConfidentialIntelMapB.label>конфиденциальная разведкарта</AM_ConfidentialIntelMapB.label>
+	<!-- EN: An confidential intelligence map that records a certain location. -->
+	<AM_ConfidentialIntelMapB.description>Конфиденциальная разведкарта, на которой отмечено определённое место.</AM_ConfidentialIntelMapB.description>
+	<!-- EN: Read -->
+	<AM_ConfidentialIntelMapB.comps.1.useLabel>Прочитать</AM_ConfidentialIntelMapB.comps.1.useLabel>
+	
+	<!-- EN: dilapidated map -->
+	<AM_DilapidatedMap.label>порванная карта</AM_DilapidatedMap.label>
+	<!-- EN: An dilapidated map that records a certain location. -->
+	<AM_DilapidatedMap.description>Порванная карта, на которой отмечено определённое место.</AM_DilapidatedMap.description>
+	<!-- EN: Read -->
+	<AM_DilapidatedMap.comps.1.useLabel>Прочитать</AM_DilapidatedMap.comps.1.useLabel>
+	
+	<!-- EN: golden egg -->
+	<AM_GoldenEgg.label>золотое яйцо</AM_GoldenEgg.label>
+	<!-- EN: Hollow egg ornaments made of gold. -->
+	<AM_GoldenEgg.description>Полое украшение в виде яйца из золота.</AM_GoldenEgg.description>
+	
+	<!-- EN: MeditationFocusPerSculpture -->
+	<AM_BrassLionStatue.comps.0.offsets.1.explanationKey>MeditationFocusPerSculpture</AM_BrassLionStatue.comps.0.offsets.1.explanationKey>
+	<!-- EN: brass lion statue -->
+	<AM_BrassLionStatue.label>латунная статуя льва</AM_BrassLionStatue.label>
+	<!-- EN: A lion ornaments made of brass. -->
+	<AM_BrassLionStatue.description>Украшение в виде льва из латуни.</AM_BrassLionStatue.description>
+	
+	<!-- EN: MeditationFocusPerSculpture -->
+	<AM_GoldenRoosterStatue.comps.0.offsets.1.explanationKey>MeditationFocusPerSculpture</AM_GoldenRoosterStatue.comps.0.offsets.1.explanationKey>
+	<!-- EN: golden rooster statue -->
+	<AM_GoldenRoosterStatue.label>статуя золотого петуха</AM_GoldenRoosterStatue.label>
+	<!-- EN: A rooster ornament made of gold. -->
+	<AM_GoldenRoosterStatue.description>Украшение в виде петуха из золота.</AM_GoldenRoosterStatue.description>
+	
+	<!-- EN: SICC -->
+	<AM_SICC.label>небольшая сумка</AM_SICC.label>
+	<!-- EN: A small soft bag used to store various small items such as keycards, banknotes, coins, as well as dog tags and metal keys, popular brands, and loved by collectors. -->
+	<AM_SICC.description>Небольшая мягкая сумка, используемая для хранения различных мелких предметов, таких как ключ-карты, купюры, монеты, а также жетоны и металлические ключи популярных брендов, любимая коллекционерами.</AM_SICC.description>
+	
+	<!-- EN: briefcase -->
+	<AM_BriefCase.label>портфель</AM_BriefCase.label>
+	<!-- EN: A leather briefcase from a well-known brand that collectors will love. -->
+	<AM_BriefCase.description>Кожаный портфель от известного бренда, который понравится коллекционерам.</AM_BriefCase.description>
+	
+	<!-- EN: LEGO giant rock excavator -->
+	<AM_LEGO_GiantRockExcavator_NotOpen.label>гигантский каменный экскаватор из LEGO</AM_LEGO_GiantRockExcavator_NotOpen.label>
+	<!-- EN: A plastic building block toy for a giant excavator. -->
+	<AM_LEGO_GiantRockExcavator_NotOpen.description>Пластиковый конструктор гигантского экскаватора.</AM_LEGO_GiantRockExcavator_NotOpen.description>
+	
+	<!-- EN: LEGO heavy crane -->
+	<AM_LEGO_HeavyCrane_NotOpen.label>тяжёлый кран из LEGO</AM_LEGO_HeavyCrane_NotOpen.label>
+	<!-- EN: A plastic building block toy for a heavy crane. -->
+	<AM_LEGO_HeavyCrane_NotOpen.description>Пластиковый конструктор тяжелого крана.</AM_LEGO_HeavyCrane_NotOpen.description>
+	
+	<!-- EN: LEGO landmark building -->
+	<AM_LEGO_LandmarkBuilding_NotOpen.label>достопримечательность из LEGO</AM_LEGO_LandmarkBuilding_NotOpen.label>
+	<!-- EN: A plastic building block toy for a landmark building. -->
+	<AM_LEGO_LandmarkBuilding_NotOpen.description>Пластиковый конструктор достопримечательности.</AM_LEGO_LandmarkBuilding_NotOpen.description>
+	
+	<!-- EN: LEGO light crane -->
+	<AM_LEGO_LightCrane_NotOpen.label>лёгкий кран из LEGO</AM_LEGO_LightCrane_NotOpen.label>
+	<!-- EN: A plastic building block toy for a light crane. -->
+	<AM_LEGO_LightCrane_NotOpen.description>Пластиковый конструктор легкого крана.</AM_LEGO_LightCrane_NotOpen.description>
+	
+	<!-- EN: LEGO medium crane -->
+	<AM_LEGO_MediumCrane_NotOpen.label>средний кран из LEGO</AM_LEGO_MediumCrane_NotOpen.label>
+	<!-- EN: A plastic building block toy for a medium crane. -->
+	<AM_LEGO_MediumCrane_NotOpen.description>Пластиковый конструктор среднего крана.</AM_LEGO_MediumCrane_NotOpen.description>
+	
+	<!-- EN: LEGO palace -->
+	<AM_LEGO_Palace_NotOpen.label>дворец из LEGO</AM_LEGO_Palace_NotOpen.label>
+	<!-- EN: A plastic building block toy for a palace. -->
+	<AM_LEGO_Palace_NotOpen.description>Пластиковый конструктор дворца.</AM_LEGO_Palace_NotOpen.description>
+	
+	<!-- EN: empty box -->
+	<AM_EmptyBox.label>пустая коробка</AM_EmptyBox.label>
+	<!-- EN: Empty LEGO box. -->
+	<AM_EmptyBox.description>Пустая коробка для LEGO</AM_EmptyBox.description>
+	
+	<!-- EN: LEGO giant rock excavator -->
+	<LEGO_GiantRockExcavator_Accomplish.label>гигантский каменный экскаватор из LEGO</LEGO_GiantRockExcavator_Accomplish.label>
+	<!-- EN: A plastic building block toy for a giant excavator. -->
+	<LEGO_GiantRockExcavator_Accomplish.description>Пластиковый конструктор гигантского экскаватора.</LEGO_GiantRockExcavator_Accomplish.description>
+	
+	<!-- EN: LEGO heavy crane -->
+	<LEGO_HeavyCrane_Accomplish.label>тяжёлый кран из LEGO</LEGO_HeavyCrane_Accomplish.label>
+	<!-- EN: A plastic building block toy for a heavy crane. -->
+	<LEGO_HeavyCrane_Accomplish.description>Пластиковый конструктор тяжелого крана.</LEGO_HeavyCrane_Accomplish.description>
+	
+	<!-- EN: LEGO landmark building -->
+	<LEGO_LandmarkBuilding_Accomplish.label>достопримечательность из LEGO</LEGO_LandmarkBuilding_Accomplish.label>
+	<!-- EN: A plastic building block toy for a landmark building. -->
+	<LEGO_LandmarkBuilding_Accomplish.description>Пластиковый конструктор достопримечательности.</LEGO_LandmarkBuilding_Accomplish.description>
+	
+	<!-- EN: LEGO light crane -->
+	<LEGO_LightCrane_Accomplish.label>лёгкий кран из LEGO</LEGO_LightCrane_Accomplish.label>
+	<!-- EN: A plastic building block toy for a light crane. -->
+	<LEGO_LightCrane_Accomplish.description>Пластиковый конструктор легкого крана.</LEGO_LightCrane_Accomplish.description>
+	
+	<!-- EN: LEGO medium crane -->
+	<LEGO_MediumCrane_Accomplish.label>средний кран из LEGO</LEGO_MediumCrane_Accomplish.label>
+	<!-- EN: A plastic building block toy for a medium crane. -->
+	<LEGO_MediumCrane_Accomplish.description>Пластиковый конструктор среднего крана.</LEGO_MediumCrane_Accomplish.description>
+	
+	<!-- EN: LEGO palace -->
+	<LEGO_Palace_Accomplish.label>дворец из LEGO</LEGO_Palace_Accomplish.label>
+	<!-- EN: A plastic building block toy for a palace. -->
+	<LEGO_Palace_Accomplish.description>Пластиковый конструктор дворца.</LEGO_Palace_Accomplish.description>
+	
+	<!-- EN: unfinished Lego -->
+	<UnfinishedLEGO.label>незавершённое LEGO</UnfinishedLEGO.label>
+	<!-- EN: unfinished Lego. -->
+	<UnfinishedLEGO.description>Незавершённое LEGO.</UnfinishedLEGO.description>
+</LanguageData>

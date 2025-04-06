@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Presence.xml-->
+	<!--                     no raid presence -->
+	<AG_NoRaidPresence.label>без налётов</AG_NoRaidPresence.label>
+	<!--                           Carriers of this gene are completely ignored when it comes to raids. Raiders will not consider them a significant threat when preparing to raid the colony, sending less raiders to attack. -->
+	<AG_NoRaidPresence.description>Носители этого гена полностью игнорируются при нападениях. Налётчики не воспринимают их как значительную угрозу и отправляют меньше сил при подготовке налёта на поселение.</AG_NoRaidPresence.description>
+	<!--                                          The market value of this pawn will not count in total colony wealth when calculating it for raid points. -->
+	<AG_NoRaidPresence.customEffectDescriptions.0>Рыночная стоимость этого персонажа не будет учитываться при расчёте общего богатства поселения для определения очков налёта.</AG_NoRaidPresence.customEffectDescriptions.0>
+	
+	<!--                          reduced raid presence -->
+	<AG_ReducedRaidPresence.label>уменьшенные налёты</AG_ReducedRaidPresence.label>
+	<!--                                Carriers of this gene are considered less powerful when it comes to raids. Raiders will not consider them a huge threat when preparing to raid the colony, sending less raiders to attack. -->
+	<AG_ReducedRaidPresence.description>Носители этого гена считаются менее опасными при нападениях. Налётчики не воспринимают их как серьёзную угрозу и отправляют меньше сил при подготовке налёта на поселение.</AG_ReducedRaidPresence.description>
+	<!--                                               Only 50% of the market value of this pawn will count in total colony wealth when calculating it for raid points. -->
+	<AG_ReducedRaidPresence.customEffectDescriptions.0>Только 50% рыночной стоимости этого персонажа будет учитываться при расчёте общего богатства поселения для определения очков налёта.</AG_ReducedRaidPresence.customEffectDescriptions.0>
+	
+	<!--                            dangerous raid presence -->
+	<AG_DangerousRaidPresence.label>опасные налёты</AG_DangerousRaidPresence.label>
+	<!--                                  Carriers of this gene are considered very powerful when it comes to raids. Raiders will consider them a huge threat when preparing to raid the colony, sending more raiders to attack. -->
+	<AG_DangerousRaidPresence.description>Носители этого гена считаются очень опасными при нападениях. Налётчики воспринимают их как серьёзную угрозу и отправляют гораздо больше сил при подготовке налёта на поселение.</AG_DangerousRaidPresence.description>
+	<!--                                                 The market value of this pawn will be multiplied by 1,5x when counting total colony wealth for raid points calculations. -->
+	<AG_DangerousRaidPresence.customEffectDescriptions.0>Рыночная стоимость этого персонажа будет увеличена в 1,5 раз при расчёте общего богатства поселения для определения очков налёта.</AG_DangerousRaidPresence.customEffectDescriptions.0>
+	
+	<!--                         deadly raid presence -->
+	<AG_DeadlyRaidPresence.label>смертельные налёты</AG_DeadlyRaidPresence.label>
+	<!--                               Carriers of this gene are considered extremely powerful when it comes to raids. Raiders will consider them an insane threat when preparing to raid the colony, sending A LOT more raiders to attack. -->
+	<AG_DeadlyRaidPresence.description>Носители этого гена считаются чрезвычайно опасными при нападениях. Налётчики воспринимают их как серьёзную угрозу и отправляют гораздо больше сил при подготовке налёта на поселение.</AG_DeadlyRaidPresence.description>
+	<!--                                              The market value of this pawn will be multiplied by 4x when counting total colony wealth for raid points calculations. -->
+	<AG_DeadlyRaidPresence.customEffectDescriptions.0>Рыночная стоимость этого персонажа будет увеличена в 4 раза при расчёте общего богатства поселения для определения очков налёта.</AG_DeadlyRaidPresence.customEffectDescriptions.0>
+</LanguageData>

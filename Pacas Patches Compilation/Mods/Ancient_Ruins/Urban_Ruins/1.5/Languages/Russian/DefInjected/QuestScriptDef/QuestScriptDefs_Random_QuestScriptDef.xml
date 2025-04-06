@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\QuestScriptDefs\QuestScriptDefs_Random.xml-->
+	<!-- EN: 
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->secret</li>
+		<li>complexAdj->ancient</li>
+		<li>complexAdj->old</li>
+		<li>complexAdj->hidden</li>
+		<li>complexAdj->dusty</li>
+		<li>complexAdj->dangerous</li>
+		<li>complexAdj->hidden</li>
+		<li>complex->construction site</li>
+		<li>complex->architectural ruins</li>
+		<li>complex->construction work site</li>
+		<li>complex->ruin</li>
+	 -->
+	<ACM_AncientRandomSite.questNameRules.rulesStrings>
+		<li>questName(p=3)->[complexAdj] [complex]</li>
+		<li>questName->[complex]</li>
+		<li>complexAdj->секретные</li>
+		<li>complexAdj->древние</li>
+		<li>complexAdj->старые</li>
+		<li>complexAdj->спрятанные</li>
+		<li>complexAdj->пыльные</li>
+		<li>complexAdj->опасные</li>
+		<li>complexAdj->спрятанные</li>
+		<li>complex->строительные площадки</li>
+		<li>complex->архитектурные руины</li>
+		<li>complex->строительные площадки</li>
+		<li>complex->руины</li>
+	</ACM_AncientRandomSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->We've discovered the location of an abandoned construction site, rumored to hold an entrance to the ancient city's underground system. A group of guards, clad in equipment stolen from an old bunker, are stationed there. They appear oblivious to the fact that they've been discovered.</li>
+	 -->
+	<ACM_AncientRandomSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Мы обнаружили местоположение заброшенной строительной площадки, где, по слухам, находится вход в подземную систему древнего города. Там расположилась группа охранников, одетых в снаряжение, украденное из старого бункера. Похоже, они не обращают внимания на тот факт, что их обнаружили.</li>
+	</ACM_AncientRandomSite.questDescriptionRules.rulesStrings>
+</LanguageData>

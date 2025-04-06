@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                    chemfuel blood -->
+	<AG_ChemfuelBlood.label>химтопливная кровь</AG_ChemfuelBlood.label>
+	<!--                          Carriers of this gene have a chemfuel powered metabolism, and as such will bleed chemfuel instead of normal human blood. This blood is flammable. -->
+	<AG_ChemfuelBlood.description>У носителей этого гена метаболизм работает на химтопливе, поэтому вместо обычной человеческой крови у них течет химтопливо, которое легко воспламеняется.</AG_ChemfuelBlood.description>
+	
+	<!--                 slime blood -->
+	<AG_SlimeBlood.label>слизистая кровь</AG_SlimeBlood.label>
+	<!--                       Carriers of this gene have slimy, green coloured blood. This blood is thick, exceptionally ugly, and doesn't go away on its own. -->
+	<AG_SlimeBlood.description>У носителей этого гена слизистая кровь, зеленого цвета. Она густая, крайне некрасивая и не смывается сама по себе.</AG_SlimeBlood.description>
+	
+	<!--                  acidic blood -->
+	<AG_AcidicBlood.label>кислотная кровь</AG_AcidicBlood.label>
+	<!--                        Carriers of this gene have extremely acidic blood. This blood doesn't harm them, but it will spill everywhere when they are slain, hurting all people nearby. -->
+	<AG_AcidicBlood.description>У носителей этого гена чрезвычайно кислотная кровь. Она не причиняет им вреда, но при смерти проливается повсюду, раня всех, кто находится поблизости.</AG_AcidicBlood.description>
+	
+	<!--               tarlike blood -->
+	<AG_TarBlood.label>смолянистая кровь</AG_TarBlood.label>
+	<!--                     Carriers of this gene have very thick, dark and sticky blood, similar to tar. This blood impedes movement. -->
+	<AG_TarBlood.description>У носителей этого гена очень густая, темная и липкая кровь, похожая на дёготь. Она затрудняет движение.</AG_TarBlood.description>
+	
+	<!--                  insect blood -->
+	<AG_InsectBlood.label>кровь насекомого</AG_InsectBlood.label>
+	<!--                        Carriers of this gene have insect blood. -->
+	<AG_InsectBlood.description>У носителей этого гена кровь насекомого.</AG_InsectBlood.description>
+	
+	<!--                    firefoam blood -->
+	<AG_FirefoamBlood.label>пенная кровь</AG_FirefoamBlood.label>
+	<!--                          Carriers of this gene have a weird fire retardant mixture for blood. This blood is not potent enough to put down fires, but it will not let flames spread. -->
+	<AG_FirefoamBlood.description>У носителей этого гена в крови присутствует странная огнезащитная смесь. Такая кровь не настолько сильна, чтобы тушить пожары, но она не позволяет пламени распространяться.</AG_FirefoamBlood.description>
+	
+	<!--                  pebble blood -->
+	<AG_PebbleBlood.label>кристаллизованная кровь</AG_PebbleBlood.label>
+	<!--                        Carriers of this gene have partially crystallized blood, that takes the form of small stone-like pebbles as soon as it comes into contact with air. This blood affects much less the beauty and cleanliness of its surroundings, but takes more time to go away and more work to clean. -->
+	<AG_PebbleBlood.description>У носителей этого гена кровь частично кристаллизована, и при контакте с воздухом она принимает форму небольших камушков. Такая кровь гораздо меньше влияет на красоту и чистоту окружающей среды, но требует больше времени для растворения и больше труда для очистки.</AG_PebbleBlood.description>
+	
+	<!--                 water blood -->
+	<AG_WaterBlood.label>водянистая кровь</AG_WaterBlood.label>
+	<!--                       Carriers of this gene have watered down blood. Their blood is so thin that puddles of it will be virtually indistinguishable from water. -->
+	<AG_WaterBlood.description>У носителей этого гена кровь крайне водянистая. Она настолько жидкая, что её лужицы практически неотличимы от воды.</AG_WaterBlood.description>
+	
+	<!--                cryo blood -->
+	<AG_CryoBlood.label>криогенная кровь</AG_CryoBlood.label>
+	<!--                      Carriers of this gene have a cryogenic fluid for blood. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal blood but can't be cleaned. -->
+	<AG_CryoBlood.description>У носителей этого гена кровь состоит из криогенной жидкости. Эта жидкость быстро понижает температуру окружающей среды, что делает её одновременно полезной и невероятно опасной. Растворяется быстрее, чем обычная кровь, но не поддается очистке.</AG_CryoBlood.description>
+	
+	<!--                    yellow blood -->
+	<AG_ForsakenBlood.label>жёлтая кровь</AG_ForsakenBlood.label>
+	<!--                          Carriers of this gene have yellow blood. -->
+	<AG_ForsakenBlood.description>У носителей этого гена кровь жёлтого цвета.</AG_ForsakenBlood.description>
+</LanguageData>

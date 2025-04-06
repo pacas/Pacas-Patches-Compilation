@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Sunlight.xml-->
+	<!--                          minor UV sensitivity -->
+	<AG_UVSensitivity_Minor.label>лёгкая чувствительность к солнцу</AG_UVSensitivity_Minor.label>
+	<!--                                  UV-sensitive -->
+	<AG_UVSensitivity_Minor.labelShortAdj>чувствительность к солнцу</AG_UVSensitivity_Minor.labelShortAdj>
+	<!--                                Carriers of this gene have eyes that are sensitive to UV radiation, making them mildly uncomfortable when in direct sunlight. -->
+	<AG_UVSensitivity_Minor.description>Носители этого гена обладают чувствительными к ультрафиолету глазами, что вызывает у них лёгкий дискомфорт при прямом солнечном свете.</AG_UVSensitivity_Minor.description>
+	<!--                                               -10% Sight when in direct sunlight. -->
+	<AG_UVSensitivity_Minor.customEffectDescriptions.0>-10% зрения при прямом солнечном свете.</AG_UVSensitivity_Minor.customEffectDescriptions.0>
+	
+	<!--                          vicious UV sensitivity -->
+	<AG_Sensitivity_Vicious.label>гиперчувствительность к солнцу</AG_Sensitivity_Vicious.label>
+	<!--                                  UV-hypersensitive -->
+	<AG_Sensitivity_Vicious.labelShortAdj>гиперчувствительность к солнцу</AG_Sensitivity_Vicious.labelShortAdj>
+	<!--                                Carriers of this gene have biological compounds in their skin that react viciously to UV radiation. They are so sensitive to sunlight that standing under the sun will knock them unconscious. -->
+	<AG_Sensitivity_Vicious.description>Носители этого гена обладают биологическими соединениями в коже, которые сильно уязвимы к ультрафиолету. Их чувствительность к солнечному свету настолько велика, что находясь под солнцем, они теряют сознание.</AG_Sensitivity_Vicious.description>
+	<!--                                               Will be knocked unconscious under direct sunlight -->
+	<AG_Sensitivity_Vicious.customEffectDescriptions.0>Потеряет сознание при прямом солнечном свете</AG_Sensitivity_Vicious.customEffectDescriptions.0>
+	<!--                                               Bear in mind that adding this gene at game start will mean the colonist will fall unconscious as soon as it lands, and remain so until night -->
+	<AG_Sensitivity_Vicious.customEffectDescriptions.1>Учтите, что добавление этого гена в начале игры приведёт к тому, что поселенец потеряет сознание сразу после посадки и останется в таком состоянии до наступления ночи.</AG_Sensitivity_Vicious.customEffectDescriptions.1>
+	
+	<!--                         lethal UV sensitivity -->
+	<AG_Sensitivity_Lethal.label>смертельная чувствительность к солнцу</AG_Sensitivity_Lethal.label>
+	<!--                                 UV-hypersensitive -->
+	<AG_Sensitivity_Lethal.labelShortAdj>гиперчувствительность к солнцу</AG_Sensitivity_Lethal.labelShortAdj>
+	<!--                               Carriers of this gene have biological compounds in their skin that react lethally to UV radiation. They are so sensitive to sunlight that standing under the sun will burn them and kill them in a few minutes. -->
+	<AG_Sensitivity_Lethal.description>Носители этого гена обладают биологическими соединениями в коже, которые крайне уязвимы к ультрафиолету. Они настолько чувствительны к солнечному свету, что при нахождении под прямыми солнечными лучами их кожа мгновенно начинает обгорать, что приводит к летальному исходу всего за несколько минут.</AG_Sensitivity_Lethal.description>
+	<!--                                              Will be burned to death under direct sunlight -->
+	<AG_Sensitivity_Lethal.customEffectDescriptions.0>Будут сожжены до смерти при прямом солнечном свете</AG_Sensitivity_Lethal.customEffectDescriptions.0>
+	<!--                                              Bear in mind that adding this gene at game start might mean the colonist will just burn to death when landing unless you can IMMEDIATELY find or build cover -->
+	<AG_Sensitivity_Lethal.customEffectDescriptions.1>Имейте в виду, что добавление этого гена в начале игры может привести к тому, что поселенец сгорит заживо сразу после приземления, если вы не сможете НЕЗАМЕДЛИТЕЛЬНО найти или построить укрытие.</AG_Sensitivity_Lethal.customEffectDescriptions.1>
+	
+	<!--                     UV powered -->
+	<AG_UVPowered_Mild.label>питание солнцем</AG_UVPowered_Mild.label>
+	<!--                             UV-powered -->
+	<AG_UVPowered_Mild.labelShortAdj>питание солнцем</AG_UVPowered_Mild.labelShortAdj>
+	<!--                           Carriers of this gene have biological compounds in their skin that are rejuvenated and recharged when subject to UV radiation. They'll be reinvigorated when exposed to sunlight, but lethargic when away from it. -->
+	<AG_UVPowered_Mild.description>Носители этого гена обладают биологическими соединениями в коже, которые восстанавливаются и заряжаются при воздействии ультрафиолета. При солнечном свете они становятся бодрыми и энергичными, но при его отсутствии становятся вялыми.</AG_UVPowered_Mild.description>
+	
+	<!--                      UV powered, major -->
+	<AG_UVPowered_Major.label>сильное питание солнцем</AG_UVPowered_Major.label>
+	<!--                              UV-powered -->
+	<AG_UVPowered_Major.labelShortAdj>питание солнцем</AG_UVPowered_Major.labelShortAdj>
+	<!--                            Carriers of this gene have biological compounds in their skin that are rejuvenated and recharged when subject to UV radiation. They'll be reinvigorated when exposed to sunlight, but very lethargic and subdued when away from it. -->
+	<AG_UVPowered_Major.description>Носители этого гена обладают биологическими соединениями в коже, которые восстанавливаются и заряжаются при воздействии ультрафиолета. При солнечном свете они становятся бодрыми и энергичными, но при его отсутствии становятся вялыми и подавленными.</AG_UVPowered_Major.description>
+</LanguageData>

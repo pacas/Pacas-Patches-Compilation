@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Effects.xml-->
+	<!--                  chemfuel nodules -->
+	<AG_BoomNodules.label>химтопливные мешки</AG_BoomNodules.label>
+	<!--                        Huge pustules filled with chemfuel make this person quite disgusting to look at. The nodules will explode if the person dies. -->
+	<AG_BoomNodules.description>Носители этого гена обладают огромными наростами, наполненными химтопливом, которые придают им крайне отталкивающий внешний вид. Эти наросты взрываются в случае их смерти.</AG_BoomNodules.description>
+	<!--                                       Colonist will explode on death in a flame explosion with 2 tiles radius -->
+	<AG_BoomNodules.customEffectDescriptions.0>Носитель гена при смерти взорвется пламенем радиусом в 2 клетки.</AG_BoomNodules.customEffectDescriptions.0>
+	
+	<!--                 tetra coils -->
+	<AG_TetraCoils.label>катушки тесла</AG_TetraCoils.label>
+	<!--                       Techno-organic coils of wireless energy are wired into the carrier's genome, allowing them to recharge batteries nearby. -->
+	<AG_TetraCoils.description>Носители этого гена обладают техноорганическими катушками беспроводной энергии, встроенными в их организм. Эти катушки позволяют подзаряжать аккумуляторы в непосредственной близости.</AG_TetraCoils.description>
+	<!--                                      Colonist will recharge nearby batteries. Most modded batteries are supported -->
+	<AG_TetraCoils.customEffectDescriptions.0>Носитель гена будет заряжать ближайшие аккумуляторы. Поддерживается большинство модовых батарей.</AG_TetraCoils.customEffectDescriptions.0>
+	
+	<!--                            jelly sacs -->
+	<AG_InsectJellyProduction.label>желейные мешочки</AG_InsectJellyProduction.label>
+	<!--                                  The carrier of this gene possesses a tube-like organ within the body. It allows humans to produce low quantities of insect jelly over time. -->
+	<AG_InsectJellyProduction.description>Носители этого гена обладают органом, напоминающим трубку, который встроен в их тело. Этот орган позволяет им вырабатывать небольшое количество желе насекомых через определённые промежутки времени.</AG_InsectJellyProduction.description>
+	<!--                                                 Produces 12 units of insect jelly per day -->
+	<AG_InsectJellyProduction.customEffectDescriptions.0>Вырабатывает 12 единиц желе насекомых в день</AG_InsectJellyProduction.customEffectDescriptions.0>
+	<!--                                                 This gene is balanced to produce more nutrition (0.05 * 12 = 0.6) than its metabolic impact (-1 -> 25%, which for a normal pawn is 0.4 nutrition per day) -->
+	<AG_InsectJellyProduction.customEffectDescriptions.1>Этот ген сбалансирован таким образом, что производит больше питательных веществ (0,05 * 12 = 0,6), чем требуется для покрытия его метаболического воздействия (-1 -> 25%, что для обычного персонажа составляет 0,4 питания в день).</AG_InsectJellyProduction.customEffectDescriptions.1>
+	
+	<!--               polluter -->
+	<AG_Polluter.label>загрязнитель</AG_Polluter.label>
+	<!--                     The carrier of this gene constantly pollutes the surrounding terrain, eventually turning the landscape into a desolate wasteland. -->
+	<AG_Polluter.description>Носители этого гена постоянно загрязняют окружающую среду, со временем превращая местность в безжизненную пустошь.</AG_Polluter.description>
+	<!--                                    This doesn't make the carrier immune to the effects of pollution! -->
+	<AG_Polluter.customEffectDescriptions.0>Это не даёт носителю иммунитет к воздействию загрязнения!</AG_Polluter.customEffectDescriptions.0>
+</LanguageData>

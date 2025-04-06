@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Hair.xml-->
+	<!--                   deep red hair -->
+	<AG_Hair_DeepRed.label>тёмно-красные волосы</AG_Hair_DeepRed.label>
+	<!--                                        Just the way General Pain likes it. -->
+	<AG_Hair_DeepRed.customEffectDescriptions.0>Именно так, как любит Генерал Пэйн.</AG_Hair_DeepRed.customEffectDescriptions.0>
+	<!--                      deep orange hair -->
+	<AG_Hair_DeepOrange.label>тёмно-оранжевые волосы</AG_Hair_DeepOrange.label>
+	<!--                     pale green hair -->
+	<AG_Hair_PaleGreen.label>бледно-зелёные волосы</AG_Hair_PaleGreen.label>
+	<!--                  golden hair -->
+	<AG_Hair_Golden.label>золотистые волосы</AG_Hair_Golden.label>
+</LanguageData>

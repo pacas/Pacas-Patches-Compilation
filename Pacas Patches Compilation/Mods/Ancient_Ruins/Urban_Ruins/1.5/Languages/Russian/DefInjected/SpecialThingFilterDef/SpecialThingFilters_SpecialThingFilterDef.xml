@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\SpecialThingFilterDefs\SpecialThingFilters.xml-->
+	<!-- EN: allow -->
+	<AM_Test_Filter.label>разрешить</AM_Test_Filter.label>
+	<!-- EN: Allow the dead bodies of friendly mechanoids. -->
+	<AM_Test_Filter.description>Разрешить трупы дружественных механоидов.</AM_Test_Filter.description>
+	
+	<!-- EN: allow -->
+	<AM_AMGuns_Filter.label>разрешить</AM_AMGuns_Filter.label>
+	<!-- EN: Allow the dead bodies of friendly mechanoids. -->
+	<AM_AMGuns_Filter.description>Разрешить трупы дружественных механоидов.</AM_AMGuns_Filter.description>
+</LanguageData>

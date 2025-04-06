@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Building.xml-->
+	<!-- EN: Ancient escalator -->
+	<AM_Exit_L.label>древний эскалатор</AM_Exit_L.label>
+	<!-- EN: An upward escalator that has ceased operation. -->
+	<AM_Exit_L.description>Неработающий эскалатор.</AM_Exit_L.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Exit_S.label>древний эскалатор</AM_Exit_S.label>
+	<!-- EN: An upward escalator that has ceased operation. -->
+	<AM_Exit_S.description>Неработающий эскалатор.</AM_Exit_S.description>
+	
+	<!-- EN: Ancient construction site staircase -->
+	<AM_DownwardStairs.label>древняя лестница стройплощадки</AM_DownwardStairs.label>
+	<!-- EN: A staircase descends into the basement, where it is quite dark. -->
+	<AM_DownwardStairs.description>Лестница спускается в подвал, где довольно темно.</AM_DownwardStairs.description>
+	
+	<!-- EN: ancient logistics terminal -->
+	<AM_Trader.label>древний терминал логистики</AM_Trader.label>
+	<!-- EN: Ancient logistics terminal, this is part of the ancient underground automatic logistics system.You can purchase goods from ancient material storage stations through the interactive panel, which constitutes a logistics system within an ancient city. -->
+	<AM_Trader.description>Древний терминал логистики, это часть древней подземной автоматической логистической системы. Вы можете приобретать товары на древних станциях хранения материалов через интерактивную панель, которая представляет собой логистическую систему внутри древнего города.</AM_Trader.description>
+	
+	<!-- EN: transport pod -->
+	<AM_TransportPod.label>транспортная капсула</AM_TransportPod.label>
+	<!-- EN: A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles. -->
+	<AM_TransportPod.description>Запускаемая суборбитальная грузовая капсула, способная перевозить людей, предметы или животных. Помимо переброски грузов, животных или людей, может быть использована для внезапных атак или подкрепления в битве.</AM_TransportPod.description>
+	
+	<!-- EN: small fuel generator -->
+	<AM_SmallGenerator.label>небольшой топливный генератор</AM_SmallGenerator.label>
+	<!-- EN: Small scale fuel generator. -->
+	<AM_SmallGenerator.description>Топливный генератор небольшого размера.</AM_SmallGenerator.description>
+	
+	<!-- EN: ancient dismantling table -->
+	<AM_AncientDismantlingWorkbench.label>древний стол для разборки</AM_AncientDismantlingWorkbench.label>
+	<!-- EN: An ancient dismantling table that integrates machinery and sewing. -->
+	<AM_AncientDismantlingWorkbench.description>Древний стол для разборки, объединяющий в себе машинное и швейное производство.</AM_AncientDismantlingWorkbench.description>
+	
+	<!-- EN: dining chair -->
+	<AM_DiningChair.label>стул</AM_DiningChair.label>
+	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
+	<AM_DiningChair.description>Удобный и привлекательный стул. Можно ставить рядом со столами, рабочими станками и в любых других местах.</AM_DiningChair.description>
+	
+	<!-- EN: large-screen television -->
+	<AM_LargeScreenTelevision.label>телевизор с большим экраном</AM_LargeScreenTelevision.label>
+	<!-- EN: A super large ancient television capable of displaying 3D images, providing an entertainment experience akin to a 3D cinema. -->
+	<AM_LargeScreenTelevision.description>Сверхбольшой древний телевизор, способный отображать 3D-изображения, обеспечивая развлечения, подобные 3D-кинотеатру.</AM_LargeScreenTelevision.description>
+	
+	<!-- EN: electrical box -->
+	<AM_ElectricalBox.label>электрическая коробка</AM_ElectricalBox.label>
+	<!-- EN: A electrical box used to supply power to multi story building facilities, which can adjust the output power of each floor freely. -->
+	<AM_ElectricalBox.description>Электрическая коробка для подачи электроэнергии в многоэтажные здания, которая может свободно регулировать выходную мощность каждого этажа.</AM_ElectricalBox.description>
+</LanguageData>

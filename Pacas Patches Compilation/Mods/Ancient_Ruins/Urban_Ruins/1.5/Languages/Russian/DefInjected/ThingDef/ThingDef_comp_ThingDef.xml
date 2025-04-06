@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_comp.xml-->
+	<!-- EN: computation center -->
+	<AM_VirutalMiner.label>вычислительный центр</AM_VirutalMiner.label>
+	<!-- EN: A computing center pieced together from ancient high-performance computer components, with parallel computing power from multiple GPUs, automatically analyzes intelligence locations, meteorological data, mechanical swarm data, and even writes books from known information. -->
+	<AM_VirutalMiner.description>Вычислительный центр из древних высокопроизводительных компьютерных компонентов, с параллельными вычислениями на базе нескольких графических процессоров, автоматически анализирует местоположения с разведданных, метеорологические данные, данные роя механоидов и даже пишет книги на основе известной ему информации.</AM_VirutalMiner.description>
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Pain.xml-->
+	<!--               painless -->
+	<AG_Painless.label>безболезненность</AG_Painless.label>
+	<!--                       painless -->
+	<AG_Painless.labelShortAdj>безболезненность</AG_Painless.labelShortAdj>
+	<!--                     Carriers of this gene feel almost no pain compared to a baseliner. Reduced neuron activity in the brain's nociception centers makes pain almost nonexistent. This can be advantageous sometimes, and dangerous other times. -->
+	<AG_Painless.description>Носители этого гена практически не ощущают боли, благодаря сниженной активности нейронов в центрах её восприятия в мозге. Боли для них почти не существует, что может быть как преимуществом, так и недостатком в различных ситуациях.</AG_Painless.description>
+	
+	<!--                   brittle bones -->
+	<AG_BrittleBones.label>хрупкие кости</AG_BrittleBones.label>
+	<!--                         Carriers of this gene have very frail, brittle bone structure. If they are downed in any way they'll suffer cracks and fractures in their bones. -->
+	<AG_BrittleBones.description>У носителей этого гена крайне слабая и хрупкая костная структура, из-за чего любое падение приводит к трещинам и переломам.</AG_BrittleBones.description>
+	<!--                                        Being downed (in any way, even medically supervised) will cause bone fractures -->
+	<AG_BrittleBones.customEffectDescriptions.0>Любое падение, даже под медицинским наблюдением, приводит к переломам костей.</AG_BrittleBones.customEffectDescriptions.0>
+</LanguageData>

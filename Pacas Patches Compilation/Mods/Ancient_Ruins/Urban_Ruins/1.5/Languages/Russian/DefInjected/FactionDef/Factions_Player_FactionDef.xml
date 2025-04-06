@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\FactionDefs\Factions_Player.xml-->
+	<!-- EN: Safe House -->
+	<AM_PlayerColony.label>Убежище</AM_PlayerColony.label>
+	<!-- EN: Poor scavengers who found an underground safe house. -->
+	<AM_PlayerColony.description>Бедные мусорщики, нашедшие подземное убежище.</AM_PlayerColony.description>
+	<!-- EN: scavenger -->
+	<AM_PlayerColony.pawnSingular>мусорщик</AM_PlayerColony.pawnSingular>
+	<!-- EN: scavengers -->
+	<AM_PlayerColony.pawnsPlural>мусорщики</AM_PlayerColony.pawnsPlural>
+</LanguageData>

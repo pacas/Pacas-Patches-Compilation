@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Teratogenic.xml-->
+	<!--                    teratogenesis -->
+	<AG_Teratogenesis.label>тератогенез</AG_Teratogenesis.label>
+	<!--                          Carriers of this gene constantly generate tumors all over their body. They are not immune to death from these tumors. -->
+	<AG_Teratogenesis.description>Носители этого гена постоянно образуют опухоли по всему телу. Эти опухоли представляют серьёзную угрозу, так как ген не защищает от смерти, вызванной их развитием.</AG_Teratogenesis.description>
+	<!--                                         A new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body. -->
+	<AG_Teratogenesis.customEffectDescriptions.0>Новая карцинома появляется каждые 42000-72000 тиков (0.7-1.2 дня), при этом на теле не может быть более десяти карцином одновременно.</AG_Teratogenesis.customEffectDescriptions.0>
+	<!--                                         Starts taking effect when a Taukai becomes an adult. -->
+	<AG_Teratogenesis.customEffectDescriptions.1>Начинает действовать, когда Таукай становится взрослым.</AG_Teratogenesis.customEffectDescriptions.1>
+	
+	<!--                         teratogenic healing -->
+	<AG_TeratogenicHealing.label>тератогенное исцеление</AG_TeratogenicHealing.label>
+	<!--                               Carriers of this gene can repurpose their tumors to heal them, consuming the cancerous masses in the process. -->
+	<AG_TeratogenicHealing.description>Носители этого гена способны перераспределять свои опухоли, используя их для исцеления собственного организма, поглощая злокачественные опухоли в процессе.</AG_TeratogenicHealing.description>
+	
+	<!--                   healing touch -->
+	<AG_HealingTouch.label>целительное прикосновение</AG_HealingTouch.label>
+	<!--                         Carriers of this gene can repurpose their tumors to heal other people, consuming the cancerous masses in the process. -->
+	<AG_HealingTouch.description>Носители этого гена способны перераспределять свои опухоли, чтобы исцелять других, поглощая злокачественные опухоли в процессе.</AG_HealingTouch.description>
+	
+	<!--                              teratogenic coordination -->
+	<AG_TeratogenicManipulation.label>тератогенная координация</AG_TeratogenicManipulation.label>
+	<!--                                    Carriers of this gene can repurpose their tumors to provide them a huge boost to their manipulation and dexterity. -->
+	<AG_TeratogenicManipulation.description>Носители этого гена способны перераспределять свои опухоли, чтобы получить значительный прирост к работе и ловкости.</AG_TeratogenicManipulation.description>
+	
+	<!--                           teratogenic swiftness -->
+	<AG_TeratogenicSwiftness.label>тератогенная скорость</AG_TeratogenicSwiftness.label>
+	<!--                                 Carriers of this gene can repurpose their tumors to provide them a huge boost to their movement and working speed. -->
+	<AG_TeratogenicSwiftness.description>Носители этого гена способны перераспределять свои опухоли, чтобы получить значительный прирост к скорости передвижения и скорости работы.</AG_TeratogenicSwiftness.description>
+	
+	<!--                         teratogenic stamina -->
+	<AG_TeratogenicStamina.label>тератогенная выносливость</AG_TeratogenicStamina.label>
+	<!--                               Carriers of this gene can repurpose their tumors to provide them a huge boost to their immune system, and overall stamina. -->
+	<AG_TeratogenicStamina.description>Носители этого гена способны перераспределять свои опухоли, чтобы повысить иммунную систему и общую выносливость.</AG_TeratogenicStamina.description>
+	
+	<!--                       teratogenic touch -->
+	<AG_TeratogenicBurst.label>тератогенное прикосновение</AG_TeratogenicBurst.label>
+	<!--                             Carriers of this gene can transfer their tumors to another person, which is generally as painful and dangerous as it sounds. -->
+	<AG_TeratogenicBurst.description>Носители этого гена способны передавать свои опухоли другим, что обычно так же болезненно и опасно, как это может показаться.</AG_TeratogenicBurst.description>
+</LanguageData>

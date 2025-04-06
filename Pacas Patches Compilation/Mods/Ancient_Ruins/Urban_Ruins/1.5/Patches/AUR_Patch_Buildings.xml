@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                @Name="AM_FloorLabeling" or
+                defName="AM_IndicatorLine_Yellow" or
+                defName="AM_IndicatorLine" or
+                defName="AM_Rail" or
+                defName="AM_Crosstie" or
+                defName="AM_SmallGenerator"
+                ]/designationCategory</xpath>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/TerrainDef[@Name="AM_FloorBase"]</xpath>
+                <value>
+                    <TerrainDef Name="AM_FloorBase" ParentName="SK_FloorBase" Abstract="True">
+                        <renderPrecedence>230</renderPrecedence>
+                        <statBases>
+                            <WorkToBuild>400</WorkToBuild>
+                            <Beauty>2</Beauty>
+                        </statBases>
+                        <costList>
+                            <ConcreteResource>1</ConcreteResource>
+                            <Ceramics>1</Ceramics>
+                        </costList>
+                        <researchPrerequisites>
+                            <li>Ceramic_floor_C1</li>
+                        </researchPrerequisites>
+                        <designationCategory>OutsideFloors</designationCategory>
+                    </TerrainDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_Entrance_LargeElevator" or
+                defName="AM_MaterialElevatorA" or
+                defName="AM_MaterialElevatorB" or
+                defName="AM_MaterialElevatorC" or
+                defName="AM_MaterialElevatorD"
+                ]/designationCategory</xpath>
+                <value>
+                    <designationCategory>Structure</designationCategory>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_BlockedStairsX"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>50</Plasteel>
+                        <ReinforcedConcrete>50</ReinforcedConcrete>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_Entrance_LargeElevator" or
+                defName="AM_MaterialElevatorA" or
+                defName="AM_MaterialElevatorB" or
+                defName="AM_MaterialElevatorC" or
+                defName="AM_MaterialElevatorD"
+                ]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>500</Plasteel>
+                        <ReinforcedConcrete>200</ReinforcedConcrete>
+                        <ComponentIndustrial>35</ComponentIndustrial>
+                        <Mechanism>10</Mechanism>
+                        <ElectronicComponents>20</ElectronicComponents>
+                        <Electronics>2</Electronics>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_VirutalMiner"]/costList</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>100</costStuffCount>
+                    <costList>
+                        <ElectronicComponents>10</ElectronicComponents>
+                        <Electronics>5</Electronics>
+                        <AM_ElectricalTape>3</AM_ElectricalTape>
+                        <AM_CPU>1</AM_CPU>
+                        <AM_SSD>2</AM_SSD>
+                        <AM_HDD>2</AM_HDD>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_VirutalMiner"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>Misc</designationCategory>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="AM_VirutalMiner"]/constructEffect</xpath>
+            </li>
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]</xpath>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_SmallGenerator"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>120</Plasteel>
+                        <ReinforcedConcrete>25</ReinforcedConcrete>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <Mechanism>4</Mechanism>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_ElectricalBox"]/costList</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>120</Plasteel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <ElectronicComponents>10</ElectronicComponents>
+                        <Electronics>1</Electronics>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_LargeScreenTelevision"]</xpath>
+                <value>
+                    <ThingDef ParentName="BuildingJoyBase">
+                        <defName>AM_LargeScreenTelevision</defName>
+                        <label>large-screen television</label>
+                        <description>A super large ancient television capable of displaying 3D images, providing an entertainment experience akin to a 3D cinema.</description>
+                        <graphicData>
+                            <texPath>Things/Building/LargeScreenTelevision</texPath>
+                            <graphicClass>Graphic_Multi</graphicClass>
+                            <drawSize>(7,1)</drawSize>
+                        </graphicData>
+                        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+                        <rotatable>true</rotatable>
+                        <fillPercent>0.35</fillPercent>
+                        <size>(7,1)</size>
+                        <statBases>
+                            <Mass>9</Mass>
+                            <MaxHitPoints>85</MaxHitPoints>
+                            <Flammability>1.0</Flammability>
+                            <MarketValue>2000</MarketValue>
+                            <JoyGainFactor>1.45</JoyGainFactor>
+                        </statBases>
+                        <costList>
+                            <Glass>100</Glass>
+                            <Rubber>50</Rubber>
+                            <Plastic>150</Plastic>
+                            <Electronics>20</Electronics>
+                            <ComponentIndustrial>50</ComponentIndustrial>
+                        </costList>
+                        <building>
+                            <joyKind>Television</joyKind>
+                            <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+                            <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+                            <watchBuildingStandDistanceRange>3~14</watchBuildingStandDistanceRange>
+                            <watchBuildingStandRectWidth>11</watchBuildingStandRectWidth>
+                            <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+                            <effectWatching>WatchingTelevision</effectWatching>
+                        </building>
+                        <placeWorkers>
+                            <li>PlaceWorker_WatchArea</li>
+                        </placeWorkers>
+                        <comps>
+                            <li Class="CompProperties_Power">
+                                <compClass>CompPowerTrader</compClass>
+                                <shortCircuitInRain>true</shortCircuitInRain>
+                                <basePowerConsumption>700</basePowerConsumption>
+                            </li>
+                            <li Class="CompProperties_Flickable"/>
+                        </comps>
+                        <tradeTags>
+                            <li>Television</li>
+                        </tradeTags>
+                        <designationCategory Inherit="False" IsNull="True"/>
+                        <defaultPlacingRot>South</defaultPlacingRot>
+                    </ThingDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_DiningChair"]</xpath>
+                <value>
+                    <ThingDef ParentName="SK_ArtableFurnitureBase">
+                        <defName>AM_DiningChair</defName>
+                        <label>dining chair</label>
+                        <description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
+                        <graphicData>
+                            <texPath>Things/Building/RFCDiningChair</texPath>
+                            <graphicClass>Graphic_Multi</graphicClass>
+                            <drawSize>(1,1)</drawSize>
+                            <damageData>
+                                <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+                                <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+                                <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+                                <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+                            </damageData>
+                            <shadowData>
+                                <volume>(0.23, 0.26, 0.23)</volume>
+                            </shadowData>
+                        </graphicData>
+                        <size>(1,1)</size>
+                        <altitudeLayer>Building</altitudeLayer>
+                        <passability>Standable</passability>
+                        <defaultPlacingRot>South</defaultPlacingRot>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <WorkToBuild>900</WorkToBuild>
+                            <Flammability>0.7</Flammability>
+                            <Beauty>4</Beauty>
+                            <Comfort>0.45</Comfort>
+                            <Bulk>41</Bulk>
+                            <Mass>16</Mass>
+                            <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+                        </statBases>
+                        <socialPropernessMatters>true</socialPropernessMatters>
+                        <stuffCategories>
+                            <li>Metallic</li>
+                        </stuffCategories>
+                        <costStuffCount>40</costStuffCount>
+                        <costList>
+                            <ComponentIndustrial>6</ComponentIndustrial>
+                            <Cloth>20</Cloth>
+                        </costList>
+                        <pathCost>30</pathCost>
+                        <designationCategory>Furniture</designationCategory>
+                        <fillPercent>0.35</fillPercent>
+                        <building>
+                            <isSittable>true</isSittable>
+                            <paintable>true</paintable>
+                        </building>
+                        <researchPrerequisites>
+                            <li>Tables_B2</li>
+                        </researchPrerequisites>
+                        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+                        <comps>
+                            <li Class="CompProperties_Styleable"/>
+                        </comps>
+                    </ThingDef>
+                </value>
+            </li>
+            <li Class="PatchOperationInsert">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Seats"]/defNames/li[text()="DiningChair"]</xpath>
+                <value>
+                    <li>AM_DiningChair</li>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="AM_TransportPod"]</xpath>
+            </li>
+            
+            <!--<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_TransportPod"]</xpath>
+                <value>
+                    <ThingDef ParentName="StandartBuilding">
+                        <defName>AM_TransportPod</defName>
+                        <label>transport pod</label>
+                        <description>A launchable suborbital-travel cargo pod capable of carrying people, items, or animals. Can be used for transport, surprise attacks, or reinforcing battles.</description>
+                        <graphicData>
+                            <texPath>Things/Special/DropPod</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <drawSize>(2,2)</drawSize>
+                            <shadowData>
+                                <volume>(0.7,1,0.7)</volume>
+                            </shadowData>
+                        </graphicData>
+                        <size>(1,1)</size>
+                        <rotatable>false</rotatable>
+                        <tickerType>Normal</tickerType>
+                        <altitudeLayer>BuildingOnTop</altitudeLayer>
+                        <castEdgeShadows>false</castEdgeShadows>
+                        <canOverlapZones>false</canOverlapZones>
+                        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+                        <designationCategory>Misc</designationCategory>
+                        <statBases>
+                            <MaxHitPoints>250</MaxHitPoints>
+                            <WorkToBuild>5000</WorkToBuild>
+                            <Flammability>0.5</Flammability>
+                        </statBases>
+                        <stuffCategories>
+                            <li>RuggedMetallic</li>
+                        </stuffCategories>
+                        <costStuffCount>60</costStuffCount>
+                        <costList>
+                            <Glass>15</Glass>
+                            <Plastic>15</Plastic>
+                            <ComponentIndustrial>5</ComponentIndustrial>
+                        </costList>
+                        <comps>
+                            <li Class="AncientMarket_Libraray.CompProperties_TransporterRequiredDialog">
+                                <restEffectiveness>0.8</restEffectiveness>
+                                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+                            </li>
+                            <li Class="CompProperties_Launchable">
+                                <skyfallerLeaving>DropPodLeaving</skyfallerLeaving>
+                            </li>
+                            <li Class="AncientMarket_Libraray.CompPropertiesDialogable">
+                                <dialog>AM_Test</dialog>
+                            </li>
+                        </comps>
+                        <inspectorTabs>
+                            <li>ITab_ContentsTransporter</li>
+                        </inspectorTabs>
+                        <placeWorkers>
+                            <li>PlaceWorker_NeedsFuelingPort</li>
+                            <li>PlaceWorker_NotUnderRoof</li>
+                        </placeWorkers>
+                        <researchPrerequisites>
+                            <li>TransportPod</li>
+                        </researchPrerequisites>
+                        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+                        <uiIconScale>0.65</uiIconScale>
+                    </ThingDef>
+                </value>
+            </li>-->
+        </operations>
+    </Operation>
+</Patch>

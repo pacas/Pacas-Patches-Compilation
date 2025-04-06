@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_EmptyShelves.xml-->
+	<!-- EN: Empty clothes hanger -->
+	<AM_ClothesHangerEmpty_Decoration.label>пустая вешалка для одежды</AM_ClothesHangerEmpty_Decoration.label>
+	<!-- EN: Clothing racks in clothing stores. -->
+	<AM_ClothesHangerEmpty_Decoration.description>Стеллаж для одежды магазина.</AM_ClothesHangerEmpty_Decoration.description>
+	
+	<!-- EN: Empty shelves -->
+	<AM_EmptyShelves_Decoration.label>пустые полки</AM_EmptyShelves_Decoration.label>
+	<!-- EN: Empty supermarket shelves. -->
+	<AM_EmptyShelves_Decoration.description>Пустая полка супермаркета.</AM_EmptyShelves_Decoration.description>
+	
+	<!-- EN: Old freezer -->
+	<AM_OldFreezer_Decoration.label>старый морозильник</AM_OldFreezer_Decoration.label>
+	<!-- EN: Empty supermarket freezer. -->
+	<AM_OldFreezer_Decoration.description>Пустая морозильная камера супермаркета.</AM_OldFreezer_Decoration.description>
+	
+	<!-- EN: Rusty empty shelves -->
+	<AM_RustyEmptyShelves_Decoration.label>ржавая пустая полка</AM_RustyEmptyShelves_Decoration.label>
+	<!-- EN: Collapsed supermarket shelves. -->
+	<AM_RustyEmptyShelves_Decoration.description>Разрушенная полка супермаркета.</AM_RustyEmptyShelves_Decoration.description>
+	
+	<!-- EN: empty vegetable shelf -->
+	<AM_VegetableShelfEmpty_Decoration.label>пустая овощная полка</AM_VegetableShelfEmpty_Decoration.label>
+	<!-- EN: Empty vegetable shelves. -->
+	<AM_VegetableShelfEmpty_Decoration.description>Пустая овощная полка.</AM_VegetableShelfEmpty_Decoration.description>
+	
+	<!-- EN: Big case -->
+	<AM_BigCase_Open_Decoration.label>большой кейс</AM_BigCase_Open_Decoration.label>
+	<!-- EN: The opened case has nothing inside. -->
+	<AM_BigCase_Open_Decoration.description>В открытом кейсе внутри ничего нет.</AM_BigCase_Open_Decoration.description>
+	
+	<!-- EN: opened weapon case -->
+	<AM_WeaponCase_Open_Decoration.label>открытый оружейный кейс</AM_WeaponCase_Open_Decoration.label>
+	<!-- EN: The opened Weapon case has nothing inside. -->
+	<AM_WeaponCase_Open_Decoration.description>В открытом оружейном кейсе внутри ничего нет.</AM_WeaponCase_Open_Decoration.description>
+	
+	<!-- EN: Small case -->
+	<AM_SmallCase_Open_Decoration.label>маленький кейс</AM_SmallCase_Open_Decoration.label>
+	<!-- EN: The opened case has nothing inside. -->
+	<AM_SmallCase_Open_Decoration.description>В открытом кейсе внутри ничего нет.</AM_SmallCase_Open_Decoration.description>
+	
+	<!-- EN: cardboard box -->
+	<AM_PaperBox_A_Open_Decoration.label>картонные коробки</AM_PaperBox_A_Open_Decoration.label>
+	<!-- EN: The opened cardboard box has nothing inside. -->
+	<AM_PaperBox_A_Open_Decoration.description>В открытой картонной коробке внутри ничего нет.</AM_PaperBox_A_Open_Decoration.description>
+	
+	<!-- EN: cardboard box -->
+	<AM_PaperBox_B_Open_Decoration.label>картонные коробки</AM_PaperBox_B_Open_Decoration.label>
+	<!-- EN: The opened cardboard box has nothing inside. -->
+	<AM_PaperBox_B_Open_Decoration.description>В открытой картонной коробке внутри ничего нет.</AM_PaperBox_B_Open_Decoration.description>
+	
+	<!-- EN: cardboard box -->
+	<AM_PaperBox_C_Open_Decoration.label>картонные коробки</AM_PaperBox_C_Open_Decoration.label>
+	<!-- EN: The opened cardboard box has nothing inside. -->
+	<AM_PaperBox_C_Open_Decoration.description>В открытой картонной коробке внутри ничего нет.</AM_PaperBox_C_Open_Decoration.description>
+	
+	<!-- EN: Vending machine -->
+	<AM_VendingMachine_Decoration.label>торговый автомат</AM_VendingMachine_Decoration.label>
+	<!-- EN: The vending machine that has been destroyed. -->
+	<AM_VendingMachine_Decoration.description>Торговый автомат, который был уничтожен.</AM_VendingMachine_Decoration.description>
+	
+	<!-- EN: Damaged large shelves -->
+	<AM_BDAShelfA_Open_Decoration.label>повреждённая большая полка</AM_BDAShelfA_Open_Decoration.label>
+	<!-- EN: The damaged large shelf is now empty of goods. -->
+	<AM_BDAShelfA_Open_Decoration.description>На повреждённой большой полке теперь нет товаров.</AM_BDAShelfA_Open_Decoration.description>
+	
+	<!-- EN: Damaged large shelves -->
+	<AM_BDAShelfB_Open_Decoration.label>повреждённая большая полка</AM_BDAShelfB_Open_Decoration.label>
+	<!-- EN: The damaged large shelf is now empty of goods. -->
+	<AM_BDAShelfB_Open_Decoration.description>На повреждённой большой полке теперь нет товаров.</AM_BDAShelfB_Open_Decoration.description>
+	
+	<!-- EN: Damaged large shelves -->
+	<AM_DoubleDeckRacks_Open_Decoration.label>повреждённая большая полка</AM_DoubleDeckRacks_Open_Decoration.label>
+	<!-- EN: The damaged large shelf is now empty of goods. -->
+	<AM_DoubleDeckRacks_Open_Decoration.description>На повреждённой большой полке теперь нет товаров.</AM_DoubleDeckRacks_Open_Decoration.description>
+	
+	<!-- EN: Damaged large shelves -->
+	<AM_ThreeLayerRacks_Open_Decoration.label>повреждённая большая полка</AM_ThreeLayerRacks_Open_Decoration.label>
+	<!-- EN: The damaged large shelf is now empty of goods. -->
+	<AM_ThreeLayerRacks_Open_Decoration.description>На повреждённой большой полке теперь нет товаров.</AM_ThreeLayerRacks_Open_Decoration.description>
+</LanguageData>

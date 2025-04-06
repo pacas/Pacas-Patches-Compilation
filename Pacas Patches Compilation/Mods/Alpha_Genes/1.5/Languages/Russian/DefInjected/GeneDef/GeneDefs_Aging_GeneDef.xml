@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                  faster aging -->
+	<AG_FasterAging.label>ускоренное старение</AG_FasterAging.label>
+	<!--                        Carriers of this gene will age at an increased rate. This applies to both children and adults. This has its advantages and disadvantages. -->
+	<AG_FasterAging.description>Носители этого гена стареют быстрее, что затрагивает как детей, так и взрослых. Это явление приносит как преимущества, так и недостатки.</AG_FasterAging.description>
+	<!--                                       Age will advance 50% faster. -->
+	<AG_FasterAging.customEffectDescriptions.0>Возраст будет прогрессировать на 50% быстрее.</AG_FasterAging.customEffectDescriptions.0>
+	
+	<!--                  slower aging -->
+	<AG_SlowerAging.label>замедленное старение</AG_SlowerAging.label>
+	<!--                        Carriers of this gene will age at a decreased rate. This applies to both children and adults. This has its advantages and disadvantages. -->
+	<AG_SlowerAging.description>Носители этого гена стареют медленнее, что затрагивает как детей, так и взрослых. Это явление приносит как преимущества, так и недостатки.</AG_SlowerAging.description>
+	<!--                                       Age will advance 50% slower. -->
+	<AG_SlowerAging.customEffectDescriptions.0>Возраст будет прогрессировать на 50% медленнее.</AG_SlowerAging.customEffectDescriptions.0>
+</LanguageData>

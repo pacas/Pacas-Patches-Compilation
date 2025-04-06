@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Backstorys.xml-->
+	<!-- EN: former athlete -->
+	<AM_FormerAthlete.title>бывший атлет</AM_FormerAthlete.title>
+	<!-- EN: former athlete -->
+	<AM_FormerAthlete.titleFemale>бывший атлет</AM_FormerAthlete.titleFemale>
+	<!-- EN: athlete -->
+	<AM_FormerAthlete.titleShort>атлет</AM_FormerAthlete.titleShort>
+	<!-- EN: athlete -->
+	<AM_FormerAthlete.titleShortFemale>атлет</AM_FormerAthlete.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] was a former athlete. [PAWN_pronoun] had won multiple sports championships before injury.[PAWN_pronoun] had a twin brother who started working in a chemical factory during his youth, but has never heard from him since. -->
+	<AM_FormerAthlete.description>{PAWN_nameDef} является бывшим атлетом. До травмы {PAWN_pronoun} неоднократно {PAWN_gender ? выигрывал : выигрывала} спортивные чемпионаты. У н{PAWN_possessive} также есть брат-близнец, который в юности начал работать на химическом заводе, но с тех пор о нём ничего не слышно.</AM_FormerAthlete.description>
+	
+	<!-- EN: fashion guy -->
+	<AM_FashionGuy.title>модный парень</AM_FashionGuy.title>
+	<!-- EN: fashion guy -->
+	<AM_FashionGuy.titleShort>модный парень</AM_FashionGuy.titleShort>
+	<!-- EN: After being injured,[PAWN_nameDef] was no longer able to continue [PAWN_pronoun] career as an athlete. Disappointed, [PAWN_pronoun] was hired as a security guard by a shopping mall. This fashionable guy liked to patrol the mall at night in his classic black striped sportswear and use a machine gun to knock out every sneaky thief. -->
+	<AM_FashionGuy.description>Получив травму, {PAWN_nameDef} больше не {PAWN_gender ? мог : могла} продолжать карьеру атлета. Разочаровавшись, {PAWN_pronoun} {PAWN_gender ? устроился : устроилась} охранником в торговом центре. {PAWN_pronoun} {PAWN_gender ? любил : любила} патрулировать торговый центр по ночам в своём классическом спортивном костюме в чёрную полоску и с помощью автомата избавляться от всех пронырливых воришек.</AM_FashionGuy.description>
+	<!-- EN: fashion guy -->
+	<AM_FashionGuy.titleFemale>модный парень</AM_FashionGuy.titleFemale>
+	<!-- EN: fashion guy -->
+	<AM_FashionGuy.titleShortFemale>модный парень</AM_FashionGuy.titleShortFemale>
+	
+	<!-- EN: chemical plant intern -->
+	<AM_ChemicalPlantIntern.title>стажёр хим. завода</AM_ChemicalPlantIntern.title>
+	<!-- EN: chemical plant intern -->
+	<AM_ChemicalPlantIntern.titleFemale>стажёр хим. завода</AM_ChemicalPlantIntern.titleFemale>
+	<!-- EN: intern -->
+	<AM_ChemicalPlantIntern.titleShort>стажёр</AM_ChemicalPlantIntern.titleShort>
+	<!-- EN: intern -->
+	<AM_ChemicalPlantIntern.titleShortFemale>стажёр</AM_ChemicalPlantIntern.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] is an intern at a chemical plant, tasked with handling certain chemical agents and learning to operate the factory equipment. [PAWN_pronoun] learns rapidly and occasionally assists workers in treating injuries sustained while on the job.[PAWN_pronoun] also enjoys drawing in his spare time. -->
+	<AM_ChemicalPlantIntern.description>{PAWN_nameDef} — стажёр на химическом заводе, который работал с определенными химическими веществами и учился работать с заводским оборудованием. {PAWN_pronoun} быстро учился и иногда помогал работникам лечить травмы, полученные на работе. {PAWN_pronoun} также любила рисовать в свободное время.</AM_ChemicalPlantIntern.description>
+	
+	<!-- EN: failed subjects -->
+	<AM_FailedExperimentalSubjects.title>подопытный</AM_FailedExperimentalSubjects.title>
+	<!-- EN: failed subjects -->
+	<AM_FailedExperimentalSubjects.titleShort>подопытный</AM_FailedExperimentalSubjects.titleShort>
+	<!-- EN: [PAWN_nameDef] inhaled a large amount of toxic gas during a chemical plant accident .[PAWN_possessive] twin brother sent [PAWN_pronoun] to the hospital affiliated with the chemical plant to save [PAWN_pronoun], but the hospital did not treat [PAWN_nameDef]. Instead, they lied to [PAWN_possessive] family that [PAWN_pronoun] had died and used [PAWN_nameDef] as an experimental subject in a parasite experiment. This failed experiment destroyed [PAWN_possessive] mind. -->
+	<AM_FailedExperimentalSubjects.description>{PAWN_nameDef} {PAWN_gender ? вдохнул : вдохнула} большое количество токсичного газа во время аварии на химическом заводе. После этого {PAWN_possessive} брат-близнец отправил {PAWN_possessive} в больницу при химическом заводе, чтобы спасти {PAWN_possessive}, но больница не оказала {PAWN_objective} помощь. Вместо этого они солгали {PAWN_possessive} семье, что {PAWN_pronoun} {PAWN_gender ? умер : умерла}, и использовали {PAWN_nameDef} в качестве подопытного в эксперименте с паразитами. Этот неудавшийся эксперимент уничтожил {PAWN_possessive} разум.</AM_FailedExperimentalSubjects.description>
+	<!-- EN: failed subjects -->
+	<AM_FailedExperimentalSubjects.titleFemale>подопытный</AM_FailedExperimentalSubjects.titleFemale>
+	<!-- EN: failed subjects -->
+	<AM_FailedExperimentalSubjects.titleShortFemale>подопытный</AM_FailedExperimentalSubjects.titleShortFemale>
+	
+	<!-- EN: laboratory kid -->
+	<AM_LaboratoryKid.title>дитя лаборатории</AM_LaboratoryKid.title>
+	<!-- EN: laboratory kid -->
+	<AM_LaboratoryKid.titleFemale>дитя лаборатории</AM_LaboratoryKid.titleFemale>
+	<!-- EN: lab kid -->
+	<AM_LaboratoryKid.titleShort>дитя лаборатории</AM_LaboratoryKid.titleShort>
+	<!-- EN: lab kid -->
+	<AM_LaboratoryKid.titleShortFemale>дитя лаборатории</AM_LaboratoryKid.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] was conceived in a test tube in a secret laboratory, where every child underwent military-style education and was frequently administered drugs. There, [PAWN_nameDef] acquired a great deal of knowledge. -->
+	<AM_LaboratoryKid.description>{PAWN_nameDef} {PAWN_gender ? был зачат: была зачата} в пробирке секретной лаборатории, где каждый ребенок проходил военное образование и часто принимал наркотики. Там {PAWN_nameDef} {PAWN_gender ? приобрёл : приобрела} много знаний.</AM_LaboratoryKid.description>
+	
+	<!-- EN: Special units -->
+	<AM_SpecialUnits.title>Спец. подразделение</AM_SpecialUnits.title>
+	<!-- EN: Special units -->
+	<AM_SpecialUnits.titleShort>Спец. подразделение</AM_SpecialUnits.titleShort>
+	<!-- EN: Following a specialized "consensual" parasite experiment, [PAWN_nameDef] was enhanced and designated as a unique unit, frequently undertaking covert missions. -->
+	<AM_SpecialUnits.description>После специализированного «согласованного» эксперимента с паразитами {PAWN_nameDef} {PAWN_gender ? был улучшен и обозначен : была улучшена и обозначена} как уникальное подразделение, часто выполняющее секретные миссии.</AM_SpecialUnits.description>
+	<!-- EN: Special units -->
+	<AM_SpecialUnits.titleFemale>Спец. подразделение</AM_SpecialUnits.titleFemale>
+	<!-- EN: Special units -->
+	<AM_SpecialUnits.titleShortFemale>Спец. подразделение</AM_SpecialUnits.titleShortFemale>
+	
+	<!-- EN: disaster orphans -->
+	<AM_DisasterOrphans.title>сирота катастрофы</AM_DisasterOrphans.title>
+	<!-- EN: disaster orphans -->
+	<AM_DisasterOrphans.titleFemale>сирота катастрофы</AM_DisasterOrphans.titleFemale>
+	<!-- EN: orphans -->
+	<AM_DisasterOrphans.titleShort>сирота</AM_DisasterOrphans.titleShort>
+	<!-- EN: orphans -->
+	<AM_DisasterOrphans.titleShortFemale>сирота</AM_DisasterOrphans.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] lost [PAWN_possessive] parents in the insect infestation and lived alone in an underground network of caves.  [PAWN_pronoun] often went hungry until one day [PAWN_pronoun] discovered the back door of a secret laboratory warehouse. [PAWN_pronoun] broke in and stole the food inside, but was caught on [PAWN_possessive] second attempt. -->
+	<AM_DisasterOrphans.description>{PAWN_nameDef} {PAWN_gender ? потерял : потеряла} своих родителей из-за нашествия насекомых и {PAWN_gender ? жил один: жила одна} в подземной сети пещер. {PAWN_pronoun} часто {PAWN_gender ? голодал : голодала}, пока однажды не {PAWN_gender ? обнаружил : обнаружила} заднюю дверь секретного лабораторного склада. {PAWN_pronoun} {PAWN_gender ? проник внутрь и украл еду внутри, но был пойман на второй попытке : проникла внутрь и украла еду внутри, но была поймана на второй попытке}.</AM_DisasterOrphans.description>
+	
+	<!-- EN: researcher's child -->
+	<AM_ResearchersChild.title>дитя учёного</AM_ResearchersChild.title>
+	<!-- EN: researcher's child -->
+	<AM_ResearchersChild.titleFemale>дитя учёного</AM_ResearchersChild.titleFemale>
+	<!-- EN: researcher's child -->
+	<AM_ResearchersChild.titleShort>дитя учёного</AM_ResearchersChild.titleShort>
+	<!-- EN: researcher's child -->
+	<AM_ResearchersChild.titleShortFemale>дитя учёного</AM_ResearchersChild.titleShortFemale>
+	<!-- EN: [PAWN_nameDef]'s father was a researcher at an ancient laboratory, with an unnatural fondness for experimentation. Consequently, [PAWN_nameDef] was frequently administered unauthorized drugs, inflicting severe pain upon [PAWN_nameDef]. -->
+	<AM_ResearchersChild.description>Отцом {PAWN_nameDef} был учёным древней лаборатории с неестественной любовью к экспериментам. Следовательно, в {PAWN_nameDef} часто вводили запрещенные наркотики, причиняя {PAWN_objective} сильную боль.</AM_ResearchersChild.description>
+	
+	<!-- EN: runaway child -->
+	<AM_RunawayChild.title>сбежавшее дитя</AM_RunawayChild.title>
+	<!-- EN: runaway child -->
+	<AM_RunawayChild.titleFemale>сбежавшее дитя</AM_RunawayChild.titleFemale>
+	<!-- EN: runaway child -->
+	<AM_RunawayChild.titleShort>сбежавшее дитя</AM_RunawayChild.titleShort>
+	<!-- EN: runaway child -->
+	<AM_RunawayChild.titleShortFemale>сбежавшее дитя</AM_RunawayChild.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] was frequently mistreated by [PAWN_possessive] parents, leading [PAWN_pronoun] to leave home in a fit of rage. Tragically, [PAWN_pronoun] was soon kidnapped by individuals and spirited away to a covert laboratory. -->
+	<AM_RunawayChild.description>{PAWN_nameDef} часто {PAWN_gender ? подвергался : подвергалась} плохому обращению со стороны родителей, из-за чего {PAWN_pronoun} в приступе ярости {PAWN_gender ? сбежал : сбежала} из дома. К сожалению, {PAWN_pronoun} вскоре {PAWN_gender ? был похищен: была похищена} неизвестными людьми и тайно {PAWN_gender ? увезен : увезена} в секретную лабораторию.</AM_RunawayChild.description>
+	
+	<!-- EN: rising star of the military academy -->
+	<AM_RisingStar.title>восходящая звезда военной академии</AM_RisingStar.title>
+	<!-- EN: rising star of the military academy -->
+	<AM_RisingStar.titleFemale>восходящая звезда военной академии</AM_RisingStar.titleFemale>
+	<!-- EN: rising star -->
+	<AM_RisingStar.titleShort>восходящая звезда</AM_RisingStar.titleShort>
+	<!-- EN: rising star -->
+	<AM_RisingStar.titleShortFemale>восходящая звезда</AM_RisingStar.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] is a rising star in the military academy with excellent physical fitness and combat skills, which led to [PAWN_pronoun] being kidnapped and sent to a secret laboratory, where a clone was sent to [PAWN_possessive] family as a substitute. -->
+	<AM_RisingStar.description>{PAWN_nameDef} — восходящая звезда военной академии с отличной физической подготовкой и боевыми навыками, что привело к тому, что {PAWN_pronoun} {PAWN_gender ? был похищен и отправлен : была похищена и отправлена} в секретную лабораторию, где в качестве замены в {PAWN_possessive} семью был отправлен клон.</AM_RisingStar.description>
+</LanguageData>

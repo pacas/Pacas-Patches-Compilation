@@ -120,11 +120,27 @@
                         </value>
                     </match>
                 </li>
+                
                 <!--Категории-->
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="TrayRackSingle" or defName="FoodDisplayCounter"]/building/fixedStorageSettings/filter/categories</xpath>
                     <value>
                         <li>Energetics</li>
+                    </value>
+                </li>
+                
+                <!--Хранение-->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="PalletRack"]/building/fixedStorageSettings/filter</xpath>
+                    <value>
+                        <filter>
+                            <categories>
+                                <li>Root</li>
+                            </categories>
+                            <disallowedCategories>
+                                <li>Corpses</li>
+                            </disallowedCategories>
+                        </filter>
                     </value>
                 </li>
             </operations>

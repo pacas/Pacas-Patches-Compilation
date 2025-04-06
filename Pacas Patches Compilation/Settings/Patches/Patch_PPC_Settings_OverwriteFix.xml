@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- This only catches top-level TabViews, but that shouldn't be a problem -->
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/XmlExtensions.SettingsMenuDef/settings/li[@Class="XmlExtensions.Setting.TabView"]</xpath>
+        <storeIn>tabViewXpath</storeIn>
+        <prefixLength>4</prefixLength>
+        <apply>
+            <Operation Class="XmlExtensions.ForEach">
+                <xpath>{tabViewXpath}/tabs/li</xpath>
+                <storeIn>tabXpath</storeIn>
+                <prefixLength>6</prefixLength>
+                <apply>
+                    <!-- Copy label and contents -->
+                    <Operation Class="XmlExtensions.CreateVariable">
+                        <storeIn>tabLabel</storeIn>
+                        <value>{tabXpath}/label</value>
+                        <fromXml>true</fromXml>
+                        <apply>
+                            <Operation Class="XmlExtensions.PatchOperationInsert">
+                                <xpath>{tabViewXpath}</xpath>
+                                <order>Append</order>
+                                <value>
+                                    <li Class="XmlExtensions.Setting.Group">
+                                        <settings>
+                                            <li Class="XmlExtensions.Setting.GapLine"/>
+                                            <li Class="XmlExtensions.Setting.Text">
+                                                <text>{tabLabel}</text>
+                                                <anchor>Middle</anchor>
+                                            </li>
+                                        </settings>
+                                    </li>
+                                </value>
+                            </Operation>
+                            <Operation Class="XmlExtensions.PatchOperationCopy">
+                                <xpath>{tabXpath}/settings/li</xpath>
+                                <paste>{tabViewXpath}/../li[settings/li/text="{tabLabel}"]/settings</paste>
+                            </Operation>
+                        </apply>
+                    </Operation>
+                    <!-- Copy tKey if the node exists -->
+                    <Operation Class="XmlExtensions.IfStatement">
+                        <condition Class="XmlExtensions.Boolean.Conditional">
+                            <xpath>{tabXpath}/tKey</xpath>
+                        </condition>
+                        <caseTrue>
+                            <Operation Class="XmlExtensions.PatchOperationCopy">
+                                <xpath>{tabXpath}/tKey</xpath>
+                                <paste>{tabViewXpath}/../li[settings/li/text="{tabLabel}"]</paste>
+                            </Operation>
+                        </caseTrue>
+                    </Operation>
+                </apply>
+            </Operation>
+            <!-- Since the above PatchOperationInsert added a node we need to remove
+           the TabView nodes individually so that indexes are correct again for
+           the next iteration. -->
+            <Operation Class="XmlExtensions.PatchOperationRemove">
+                <xpath>{tabViewXpath}</xpath>
+            </Operation>
+        </apply>
+    </Operation>
+</Patch>

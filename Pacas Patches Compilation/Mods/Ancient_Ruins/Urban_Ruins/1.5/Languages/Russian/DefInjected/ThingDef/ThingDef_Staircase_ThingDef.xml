@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Staircase.xml-->
+	<!-- EN: Ancient staircase -->
+	<AM_Entrance_Bunker.label>древняя лестница</AM_Entrance_Bunker.label>
+	<!-- EN: A staircase descends into the basement, where it is quite dark. -->
+	<AM_Entrance_Bunker.description>Лестница спускается в подвал, где довольно темно.</AM_Entrance_Bunker.description>
+	
+	<!-- EN: Ancient staircase -->
+	<AM_Entrance_ReserveBunker.label>древняя лестница</AM_Entrance_ReserveBunker.label>
+	<!-- EN: A staircase descends into the basement, where it is quite dark. -->
+	<AM_Entrance_ReserveBunker.description>Лестница спускается в подвал, где довольно темно.</AM_Entrance_ReserveBunker.description>
+	
+	<!-- EN: Ancient staircase -->
+	<AM_Entrance_Shelter.label>древняя лестница</AM_Entrance_Shelter.label>
+	<!-- EN: A staircase descends into the basement, where it is quite dark. -->
+	<AM_Entrance_Shelter.description>Лестница спускается в подвал, где довольно темно.</AM_Entrance_Shelter.description>
+	<!-- EN: Landfilling underground facilities -->
+	<AM_Entrance_Shelter.comps.0.gizmoName>Закопать подземное сооружение</AM_Entrance_Shelter.comps.0.gizmoName>
+	<!-- EN: Cancel landfill -->
+	<AM_Entrance_Shelter.comps.0.disgizmoName>Отменить закапывание</AM_Entrance_Shelter.comps.0.disgizmoName>
+	
+	<!-- EN: blocked staircase -->
+	<AM_BlockedStairsX.label>заблокированная лестница</AM_BlockedStairsX.label>
+	<!-- EN: An inaccessible staircase piled with debris. Entirely inaccessible. -->
+	<AM_BlockedStairsX.description>Недоступная лестница, заваленная обломками. Никак не пройти.</AM_BlockedStairsX.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Entrance_Subway.label>древний эскалатор</AM_Entrance_Subway.label>
+	<!-- EN: A stopped escalator, its destination unknown. -->
+	<AM_Entrance_Subway.description>Остановившийся эскалатор, пункт назначения неизвестен.</AM_Entrance_Subway.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Entrance_Mall_A.label>древний эскалатор</AM_Entrance_Mall_A.label>
+	<!-- EN: An upward escalator that has ceased operation. -->
+	<AM_Entrance_Mall_A.description>Неработающий эскалатор.</AM_Entrance_Mall_A.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Entrance_Mall_B.label>древний эскалатор</AM_Entrance_Mall_B.label>
+	<!-- EN: An upward escalator that has ceased operation. -->
+	<AM_Entrance_Mall_B.description>Неработающий эскалатор.</AM_Entrance_Mall_B.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Entrance_CommercialStreet.label>древний эскалатор</AM_Entrance_CommercialStreet.label>
+	<!-- EN: A stopped escalator, its destination unknown. -->
+	<AM_Entrance_CommercialStreet.description>Остановившийся эскалатор, пункт назначения неизвестен.</AM_Entrance_CommercialStreet.description>
+	
+	<!-- EN: Ancient staircase -->
+	<AM_Exit_Staircase.label>древняя лестница</AM_Exit_Staircase.label>
+	<!-- EN: An ancient upward staircase. -->
+	<AM_Exit_Staircase.description>Древняя лестница вверх.</AM_Exit_Staircase.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Exit_DoubleElevator.label>древний эскалатор</AM_Exit_DoubleElevator.label>
+	<!-- EN: An upward escalator that has ceased operation. -->
+	<AM_Exit_DoubleElevator.description>Неработающий эскалатор.</AM_Exit_DoubleElevator.description>
+	
+	<!-- EN: Ancient escalator -->
+	<AM_Exit_Elevator.label>древний эскалатор</AM_Exit_Elevator.label>
+	<!-- EN: A stopped escalator, its destination unknown. -->
+	<AM_Exit_Elevator.description>Остановившийся эскалатор, пункт назначения неизвестен.</AM_Exit_Elevator.description>
+</LanguageData>

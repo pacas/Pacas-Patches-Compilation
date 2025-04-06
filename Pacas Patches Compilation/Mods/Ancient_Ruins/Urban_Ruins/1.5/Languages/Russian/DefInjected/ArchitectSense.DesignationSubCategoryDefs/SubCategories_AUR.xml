@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+
+    <SubCategory_AUR_Elevators.label>Лифты</SubCategory_AUR_Elevators.label>
+    <SubCategory_AUR_Elevators.description>Лифты для переноса вещей и колонистов между этажами.</SubCategory_AUR_Elevators.description>
+
+    <SubCategory_AUR_CeramicFloors.label>Керамическая плитка</SubCategory_AUR_CeramicFloors.label>
+    <SubCategory_AUR_CeramicFloors.description>Керамическая плитка, которая обычно распространена в городах.</SubCategory_AUR_CeramicFloors.description>
+  
+</LanguageData>

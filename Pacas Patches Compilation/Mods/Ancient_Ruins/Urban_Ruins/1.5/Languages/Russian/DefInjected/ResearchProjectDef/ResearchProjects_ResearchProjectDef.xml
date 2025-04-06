@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ResearchProjects.xml-->
+	<!-- EN: Recycling assembly -->
+	<AM_RecyclingAssembly.label>Сборка вторичной переработки</AM_RecyclingAssembly.label>
+	<!-- EN: Learning how to basic disassemble and reassemble weapons, assembly is an easy task when using standardized components. -->
+	<AM_RecyclingAssembly.description>Научившись элементарно разбирать и собирать оружие, сборка становится простой задачей при использовании стандартизированных компонентов.</AM_RecyclingAssembly.description>
+</LanguageData>

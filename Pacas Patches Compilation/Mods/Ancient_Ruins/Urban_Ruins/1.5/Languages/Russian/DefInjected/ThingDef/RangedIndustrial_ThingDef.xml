@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Weapons\RangedIndustrial.xml-->
+	<!-- EN: Hybird bullet -->
+	<Bullet_277A.label>гибридная пуля</Bullet_277A.label>
+	
+	<!-- EN: .338AP bullet -->
+	<Bullet_338LM.label>пуля .338AP</Bullet_338LM.label>
+	
+	<!-- EN: SP5 bullet -->
+	<Bullet_939A.label>пуля SP5</Bullet_939A.label>
+	
+	<!-- EN: 7N37 bullet -->
+	<Bullet_54R.label>пуля 7N37</Bullet_54R.label>
+	
+	<!-- EN: M80bullet -->
+	<Bullet_51N.label>пуля М80</Bullet_51N.label>
+	
+	<!-- EN: .300 BLK bullet -->
+	<Bullet_300BLK.label>пуля .300 BLK</Bullet_300BLK.label>
+	
+	<!-- EN: 7N31 bullet -->
+	<Bullet_9AP.label>пуля 7N31</Bullet_9AP.label>
+	
+	<!-- EN: Luger CCI bullet -->
+	<Bullet_CCI.label>пуля Люгера CCI</Bullet_CCI.label>
+	
+	<!-- EN: 556 WG bullet -->
+	<Bullet_WG.label>пуля .556 WG</Bullet_WG.label>
+	
+	<!-- EN: 556 SSAAP bullet -->
+	<Bullet_SSAAP.label>пуля .556 SSAAP</Bullet_SSAAP.label>
+	
+	<!-- EN: APSX bullet -->
+	<Bullet_APSX.label>пуля APSK</Bullet_APSX.label>
+	
+	<!-- EN: SS190 bullet -->
+	<Bullet_190SS.label>пуля SS190</Bullet_190SS.label>
+	
+	<!-- EN: 6.8 spear short rifle -->
+	<AM_Spear68C.label>короткая винтовка 6,8 «Spear»</AM_Spear68C.label>
+	<!-- EN: A short barreled spear rifle originating from some ancient military supplier. Has a fast firing rate, but a compromising range. -->
+	<AM_Spear68C.description>Короткоствольная винтовка, изготовленная неизвестным древним военным поставщиком. Имеет высокую скорострельность, но компромиссную дальность стрельбы.</AM_Spear68C.description>
+	<!-- EN: ㅤ -->
+	<AM_Spear68C.verbs.0.label>ㅤ</AM_Spear68C.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_Spear68C.tools.0.label>приклад</AM_Spear68C.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_Spear68C.tools.1.label>ствол</AM_Spear68C.tools.1.label>
+	
+	<!-- EN: 6.8 spear rifle -->
+	<AM_Spear68A.label>винтовка 6,8 «Spear»</AM_Spear68A.label>
+	<!-- EN: A 6.8 caliber standard rifle originating from some ancient military supplier. Equipped with a variable magnification sight. -->
+	<AM_Spear68A.description>Стандартная винтовка 6,8 калибра, произведённая неизвестным древним военным поставщиком. Оснащена прицелом переменной кратности.</AM_Spear68A.description>
+	<!-- EN: ㅤ -->
+	<AM_Spear68A.verbs.0.label>ㅤ</AM_Spear68A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_Spear68A.tools.0.label>приклад</AM_Spear68A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_Spear68A.tools.1.label>ствол</AM_Spear68A.tools.1.label>
+	
+	<!-- EN: Heavy Barrel Assault Rifle -->
+	<AM_M5A3LT.label>тяжёлая штурмовая винтовка</AM_M5A3LT.label>
+	<!-- EN: A modified heavy barrel MCXspear originating from some ancient military supplier. It's been modified to be .300 caliber, suitable for medium range combat. -->
+	<AM_M5A3LT.description>Модифицированный тяжёлый ствол MCXspear, произведённый неизвестным древним военным поставщиком. Он был модифицирован для .300 калибра, подходящего для боя на средней дистанции.</AM_M5A3LT.description>
+	<!-- EN: ㅤ -->
+	<AM_M5A3LT.verbs.0.label>ㅤ</AM_M5A3LT.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M5A3LT.tools.0.label>приклад</AM_M5A3LT.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M5A3LT.tools.1.label>ствол</AM_M5A3LT.tools.1.label>
+	
+	<!-- EN: 6.8 bullpup short rifle -->
+	<AM_TKB68A.label>короткая винтовка буллпап 6,8</AM_TKB68A.label>
+	<!-- EN: A TKB022 rifle originating from some ancient military supplier. It's been modded with a modified caliber of 6.8. Its accuracy is somewhat questionable as it is not designed for this caliber. -->
+	<AM_TKB68A.description>Винтовка TKB022 от неизвестного древнего военного поставщика. Она был модифицирована модифицированным 6,8 калибром. Её точность несколько сомнительна, поскольку она не предназначен для этого калибра.</AM_TKB68A.description>
+	<!-- EN: ㅤ -->
+	<AM_TKB68A.verbs.0.label>ㅤ</AM_TKB68A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_TKB68A.tools.0.label>приклад</AM_TKB68A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_TKB68A.tools.1.label>ствол</AM_TKB68A.tools.1.label>
+	
+	<!-- EN: 6.8 short rifle -->
+	<AM_AK68A.label>короткая винтовка 6,8</AM_AK68A.label>
+	<!-- EN: An AK rifle originating from some ancient military supplier. With a caliber of 6.8, its been modified to have high power and fast firing rate. Due to the short barrel, the range is not optimal. -->
+	<AM_AK68A.description>Автомат AK от неизвестного древнего военного поставщика. Имея 6,8 калибр, он был модифицирован для обеспечения высокой мощности и высокой скорострельности. Из-за короткого ствола дальность не оптимальна.</AM_AK68A.description>
+	<!-- EN: ㅤ -->
+	<AM_AK68A.verbs.0.label>ㅤ</AM_AK68A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_AK68A.tools.0.label>приклад</AM_AK68A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_AK68A.tools.1.label>ствол</AM_AK68A.tools.1.label>
+	
+	<!-- EN: 6.8 combat rifle -->
+	<AM_MK68A.label>боевая винтовка 6,8</AM_MK68A.label>
+	<!-- EN: A 6.8 caliber SCAR originating from some ancient military supplier. Poses a terrifying threat at medium range. -->
+	<AM_MK68A.description>SCAR 6,8 калибра, произведённый неизвестным древним военным поставщиком. Представляет ужасающую угрозу на средней дистанции.</AM_MK68A.description>
+	<!-- EN: ㅤ -->
+	<AM_MK68A.verbs.0.label>ㅤ</AM_MK68A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_MK68A.tools.0.label>приклад</AM_MK68A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MK68A.tools.1.label>ствол</AM_MK68A.tools.1.label>
+	
+	<!-- EN: 6.8 bullpup rifle -->
+	<AM_RM68A.label>винтовка буллпап 6,8</AM_RM68A.label>
+	<!-- EN: A buttless experimental 6.8 caliber weapon originating from some ancient military supplier. It has a sluggish firing rate and a longer barrel that enhances its long-range accuracy. -->
+	<AM_RM68A.description>Экспериментальное оружие 6,8 калибра без приклада, произведенное каким-то древним военным поставщиком. У него низкая скорострельность и более длинный ствол, что повышает его точность на больших дистанциях.</AM_RM68A.description>
+	<!-- EN: ㅤ -->
+	<AM_RM68A.verbs.0.label>ㅤ</AM_RM68A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_RM68A.tools.0.label>приклад</AM_RM68A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_RM68A.tools.1.label>ствол</AM_RM68A.tools.1.label>
+	
+	<!-- EN: rattler assault rifle -->
+	<AM_MCX.label>штурмовая винтовка «Rattler»</AM_MCX.label>
+	<!-- EN: A close combat specialized .300BLK assault rifle originating from some ancient military supplier. This modified version uses a longer barrel and stock, enhancing mid range accuracy. -->
+	<AM_MCX.description>Специализированная штурмовая винтовка для ближнего боя .300BLK, произведённая неизвестным древним военным поставщиком. В этой модифицированной версии используются более длинный ствол и приклад, что повышает точность стрельбы на средней дистанции.</AM_MCX.description>
+	<!-- EN: ㅤ -->
+	<AM_MCX.verbs.0.label>ㅤ</AM_MCX.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_MCX.tools.0.label>приклад</AM_MCX.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MCX.tools.1.label>ствол</AM_MCX.tools.1.label>
+	
+	<!-- EN: rattler short rifle -->
+	<AM_MCXC.label>короткая винтовка «Rattler»</AM_MCXC.label>
+	<!-- EN: A specialized .300BLK assault rifle for close combat originating from some ancient military supplier. This modified version uses a short barrel and large drum for higher intensity at close range. -->
+	<AM_MCXC.description>Специализированная штурмовая винтовка .300BLK для ближнего боя от неизвестного древнего военного поставщика. В этой модифицированной версии используется короткий ствол и большой барабан для большей интенсивности стрельбы на близком расстоянии.</AM_MCXC.description>
+	<!-- EN: ㅤ -->
+	<AM_MCXC.verbs.0.label>ㅤ</AM_MCXC.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_MCXC.tools.0.label>приклад</AM_MCXC.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MCXC.tools.1.label>ствол</AM_MCXC.tools.1.label>
+	
+	<!-- EN: civilian rifle -->
+	<AM_ADAR.label>гражданская винтовка</AM_ADAR.label>
+	<!-- EN: A semi-automatic high-precision civilian AR rifle originating from some ancient military supplier. It uses special air pointed bullets and has a strong stopping effect. -->
+	<AM_ADAR.description>Полуавтоматическая высокоточная гражданская винтовка AR от неизвестного древнего военного поставщика. Она использует специальные пули с воздушным заострением и обладает сильным останавливающим действием.</AM_ADAR.description>
+	<!-- EN: ㅤ -->
+	<AM_ADAR.verbs.0.label>ㅤ</AM_ADAR.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_ADAR.tools.0.label>приклад</AM_ADAR.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_ADAR.tools.1.label>ствол</AM_ADAR.tools.1.label>
+	
+	<!-- EN: custom carbine -->
+	<AM_M4A.label>заказной карабин</AM_M4A.label>
+	<!-- EN: Customized M4A1 carbine originating from some ancient military supplier. Very light. -->
+	<AM_M4A.description>Модифицированный карабин M4A1 от неизвестного древнего военного поставщика. Очень лёгкий.</AM_M4A.description>
+	<!-- EN: ㅤ -->
+	<AM_M4A.verbs.0.label>ㅤ</AM_M4A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M4A.tools.0.label>приклад</AM_M4A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M4A.tools.1.label>ствол</AM_M4A.tools.1.label>
+	
+	<!-- EN: custom military rifle -->
+	<AM_M4ASOP.label>заказная военная винтовка</AM_M4ASOP.label>
+	<!-- EN: A new model M4A1 of military regulations originating from some ancient military supplier. It is equipped with a silencer. -->
+	<AM_M4ASOP.description>Новая модель М4А1 по военным уставам от неизвестного древнего военного поставщика. Она оснащена глушителем.</AM_M4ASOP.description>
+	<!-- EN: ㅤ -->
+	<AM_M4ASOP.verbs.0.label>ㅤ</AM_M4ASOP.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M4ASOP.tools.0.label>приклад</AM_M4ASOP.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M4ASOP.tools.1.label>ствол</AM_M4ASOP.tools.1.label>
+	
+	<!-- EN: short assault rifle -->
+	<AM_M4C.label>короткая штурмовая винтовка</AM_M4C.label>
+	<!-- EN: A self modified large drum close combat M4 originating from some ancient military supplier. It has strong firepower at close range，with a thermal imaging sight and flashlight. Great for close range indoor combat. -->
+	<AM_M4C.description>Самодельный крупнокалиберный пистолет-пулемёт ближнего боя М4, произведённый неизвестным древним военным поставщиком. Он обладает мощной огневой мощью на близком расстоянии, оснащён тепловизионным прицелом и фонариком. Отлично подходит для боя на ближней дистанции в помещении.</AM_M4C.description>
+	<!-- EN: ㅤ -->
+	<AM_M4C.verbs.0.label>ㅤ</AM_M4C.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M4C.tools.0.label>приклад</AM_M4C.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M4C.tools.1.label>ствол</AM_M4C.tools.1.label>
+	
+	<!-- EN: low visibility short rifle -->
+	<AM_M42U.label>короткая винтовка с низким уровнем видимости</AM_M42U.label>
+	<!-- EN: The ultimate form of the short barrel M4, originating from some ancient military supplier. It is equipped with a strong flashlight and large drum, along with an adjustable magnification scope to ensure range. -->
+	<AM_M42U.description>Усовершенствованная форма короткоствольного М4, созданная неизвестным древним военным поставщиком. Она оснащена мощным фонариком и большим барабаном, а также регулируемым прицелом для обеспечения дальности стрельбы.</AM_M42U.description>
+	<!-- EN: ㅤ -->
+	<AM_M42U.verbs.0.label>ㅤ</AM_M42U.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M42U.tools.0.label>приклад</AM_M42U.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M42U.tools.1.label>ствол</AM_M42U.tools.1.label>
+	
+	<!-- EN: military standard rifle -->
+	<AM_AK101A.label>винтовка военного образца</AM_AK101A.label>
+	<!-- EN: A 5.56-caliber AK assault rifle originating from some ancient military supplier with very low recoil. -->
+	<AM_AK101A.description>Автомат АК калибра 5,56 от какого-то древнего военного поставщика с очень низкой отдачей.</AM_AK101A.description>
+	<!-- EN: ㅤ -->
+	<AM_AK101A.verbs.0.label>ㅤ</AM_AK101A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_AK101A.tools.0.label>приклад</AM_AK101A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_AK101A.tools.1.label>ствол</AM_AK101A.tools.1.label>
+	
+	<!-- EN: wave rifle -->
+	<AM_ASVAL.label>волновая винтовка</AM_ASVAL.label>
+	<!-- EN: A silencing assault rifle used in special operations originating from some ancient military supplier. It is quite lethal but has limited range. -->
+	<AM_ASVAL.description>Автомат с глушителем, используемый в специальных операциях, произведённый неизвестным древним военным поставщиком. Он довольно смертоносный, но имеет ограниченный радиус действия.</AM_ASVAL.description>
+	<!-- EN: ㅤ -->
+	<AM_ASVAL.verbs.0.label>ㅤ</AM_ASVAL.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_ASVAL.tools.0.label>приклад</AM_ASVAL.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_ASVAL.tools.1.label>ствол</AM_ASVAL.tools.1.label>
+	
+	<!-- EN: vintorez special rifle -->
+	<AM_VSS.label>специальная винтовка «Винторез»</AM_VSS.label>
+	<!-- EN: A silencing sniper rifle used in special operations originating from some ancient military supplier. Can shoot automatically, which is very lethal but has limited range and a small magazine. -->
+	<AM_VSS.description>Снайперская винтовка с глушителем, используемая в специальных операциях, произведенная неизвестным древним военным поставщиком. Может стрелять автоматически, что очень смертоносно, но имеет ограниченную дальность и небольшой магазин.</AM_VSS.description>
+	<!-- EN: ㅤ -->
+	<AM_VSS.verbs.0.label>ㅤ</AM_VSS.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_VSS.tools.0.label>приклад</AM_VSS.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_VSS.tools.1.label>ствол</AM_VSS.tools.1.label>
+	
+	<!-- EN: urban assault rifle -->
+	<AM_DTMDR.label>городская штурмовая винтовка</AM_DTMDR.label>
+	<!-- EN: A .308 caliber buttless rifle MDR originating from some ancient military supplier. It has high accuracy and controllable recoil, allowing for fully automatic shooting. -->
+	<AM_DTMDR.description>Бесприкладная винтовка MDR .308 калибра, произведённая неизвестным древним военным поставщиком. Она обладает высокой точностью и контролируемой отдачей, что позволяет вести полностью автоматическую стрельбу.</AM_DTMDR.description>
+	<!-- EN: ㅤ -->
+	<AM_DTMDR.verbs.0.label>ㅤ</AM_DTMDR.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_DTMDR.tools.0.label>приклад</AM_DTMDR.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_DTMDR.tools.1.label>ствол</AM_DTMDR.tools.1.label>
+	
+	<!-- EN: combat rifle -->
+	<AM_MK17A.label>боевая винтовка</AM_MK17A.label>
+	<!-- EN: A 762 NATO caliber assault rifle originating from some ancient military supplier. It is long and not very flexible, equipped with a silencer. -->
+	<AM_MK17A.description>Автомат 762 NATO калибра, произведённый неизвестным древним военным поставщиком. Он длинный и не очень гибкий, оснащён глушителем.</AM_MK17A.description>
+	<!-- EN: ㅤ -->
+	<AM_MK17A.verbs.0.label>ㅤ</AM_MK17A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_MK17A.tools.0.label>приклад</AM_MK17A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MK17A.tools.1.label>ствол</AM_MK17A.tools.1.label>
+	
+	<!-- EN: DMR -->
+	<AM_R11A.label>DMR</AM_R11A.label>
+	<!-- EN: A semi-automatic DMR produced by an ancient company named Remington. It has high shooting accuracy. -->
+	<AM_R11A.description>Полуавтоматический DMR производства древней компании «Ремингтон». Имеет высокую точность стрельбы.</AM_R11A.description>
+	<!-- EN: ㅤ -->
+	<AM_R11A.verbs.0.label>ㅤ</AM_R11A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_R11A.tools.0.label>приклад</AM_R11A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_R11A.tools.1.label>ствол</AM_R11A.tools.1.label>
+	
+	<!-- EN: close combat DMR -->
+	<AM_SR25A.label>DMR для ближнего боя</AM_SR25A.label>
+	<!-- EN: A 7.62 NATO caliber DMR originating from some ancient military supplier. It was modified using a close range kit. -->
+	<AM_SR25A.description>DMR 7,62 NATO калибра от неизвестного древнего военного поставщика. Она был модифицирована с использованием комплекта ближнего боя.</AM_SR25A.description>
+	<!-- EN: ㅤ -->
+	<AM_SR25A.verbs.0.label>ㅤ</AM_SR25A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_SR25A.tools.0.label>приклад</AM_SR25A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_SR25A.tools.1.label>ствол</AM_SR25A.tools.1.label>
+	
+	<!-- EN: Hunter's rifle -->
+	<AM_Hunter.label>охотничье ружье</AM_Hunter.label>
+	<!-- EN: A Civil .308 single shot hunting rifle originating from some ancient military supplier. It is powerful but has very little ammunition capacity. -->
+	<AM_Hunter.description>Однозарядное охотничье гражданское ружьё .308 калибра, произведённое неизвестным древним военным поставщиком. Оно мощное, но имеет очень небольшой боезапас.</AM_Hunter.description>
+	<!-- EN: ㅤ -->
+	<AM_Hunter.verbs.0.label>ㅤ</AM_Hunter.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_Hunter.tools.0.label>приклад</AM_Hunter.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_Hunter.tools.1.label>ствол</AM_Hunter.tools.1.label>
+	
+	<!-- EN: custom sniper rifle -->
+	<AM_M700A.label>заказная снайперская винтовка</AM_M700A.label>
+	<!-- EN: A specially customized M700 bolt action sniper rifle originating from some ancient military supplier. Has good accuracy and is light weight. -->
+	<AM_M700A.description>Специально модифицированная снайперская винтовка M700 с продольно-скользящим затвором, произведённая неизвестным древним военным поставщиком. Имеет хорошую точность и небольшой вес.</AM_M700A.description>
+	<!-- EN: ㅤ -->
+	<AM_M700A.verbs.0.label>ㅤ</AM_M700A.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_M700A.tools.0.label>приклад</AM_M700A.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_M700A.tools.1.label>ствол</AM_M700A.tools.1.label>
+	
+	<!-- EN: Mjölnir sniper rifle -->
+	<AM_MK18M.label>снайперская винтовка «Мьёльнир»</AM_MK18M.label>
+	<!-- EN: A semi-automatic DMR with a caliber of .338LM originating from some ancient military supplier. With its terrifying power and massive gunfire, in ancient times it earned the nickname Mjölnir. -->
+	<AM_MK18M.description>Полуавтоматический DMR .338LM калибра от неизвестного древнего военного поставщика. За свою ужасающую силу и массированную стрельбу в древние времена он получил прозвище «Мьёльнир».</AM_MK18M.description>
+	<!-- EN: ㅤ -->
+	<AM_MK18M.verbs.0.label>ㅤ</AM_MK18M.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_MK18M.tools.0.label>приклад</AM_MK18M.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MK18M.tools.1.label>ствол</AM_MK18M.tools.1.label>
+	
+	<!-- EN: general machine gun -->
+	<AM_PKM.label>крупнокалиберный пулемёт</AM_PKM.label>
+	<!-- EN: The lightest general-purpose machine gun originating from some ancient military supplier. Paired with large caliber armor piercing shells and variable magnification sights, it gives an advantage at any distance. -->
+	<AM_PKM.description>Легчайший универсальный пулемёт от неизвестного древнего военного поставщика. В сочетании с бронебойными снарядами крупного калибра и прицелами переменной кратности он даёт преимущество на любой дистанции.</AM_PKM.description>
+	<!-- EN: ㅤ -->
+	<AM_PKM.verbs.0.label>ㅤ</AM_PKM.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_PKM.tools.0.label>приклад</AM_PKM.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_PKM.tools.1.label>ствол</AM_PKM.tools.1.label>
+	
+	<!-- EN: modified machine gun -->
+	<AM_PKP.label>модифицированный пулемёт</AM_PKP.label>
+	<!-- EN: The lightest general-purpose machine gun originating from some ancient military supplier. Paired with large caliber armor piercing shells and close combat sights, it makes a terrifying close range weapon. -->
+	<AM_PKP.description>Легчайший универсальный пулемёт от неизвестного древнего военного поставщика. В сочетании с бронебойными снарядами большого калибра и прицелами ближнего боя он представляет собой устрашающее оружие ближнего боя.</AM_PKP.description>
+	<!-- EN: ㅤ -->
+	<AM_PKP.verbs.0.label>ㅤ</AM_PKP.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_PKP.tools.0.label>приклад</AM_PKP.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_PKP.tools.1.label>ствол</AM_PKP.tools.1.label>
+	
+	<!-- EN: old auto rifle -->
+	<AM_AVT.label>старая автоматическая винтовка</AM_AVT.label>
+	<!-- EN: A fully automatic rifle originating from some ancient military supplier. Has poor accuracy but extremely powerful damage. -->
+	<AM_AVT.description>Полностью автоматическая винтовка, произведённая неизвестным древним военным поставщиком. Имеет низкую точность, но чрезвычайно мощный урон.</AM_AVT.description>
+	<!-- EN: ㅤ -->
+	<AM_AVT.verbs.0.label>ㅤ</AM_AVT.verbs.0.label>
+	<!-- EN: ложe -->
+	<AM_AVT.tools.0.label>приклад</AM_AVT.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_AVT.tools.1.label>ствол</AM_AVT.tools.1.label>
+	
+	<!-- EN: copperhead SMG -->
+	<AM_MPX.label>медноголовый SMG</AM_MPX.label>
+	<!-- EN: A medium to close range submachine gun originating from some ancient military supplier. It is equipped with a silencer, which is very flexible and uses Armor piercing pistol cartridges. -->
+	<AM_MPX.description>Пистолет-пулемёт средней и ближней дистанции, произведённый неизвестным древним военным поставщиком. Он оснащен глушителем, который очень гибок и использует бронебойные пистолетные патроны.</AM_MPX.description>
+	<!-- EN: ㅤ -->
+	<AM_MPX.verbs.0.label>ㅤ</AM_MPX.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_MPX.tools.0.label>рукоять</AM_MPX.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MPX.tools.1.label>ствол</AM_MPX.tools.1.label>
+	
+	<!-- EN: copperhead long SMG -->
+	<AM_MPXL.label>длинный медноголовый SMG</AM_MPXL.label>
+	<!-- EN: A weapon originating from some ancient military supplier. Extending the barrel of the MPX gives it a combat range similar to that of a rifle, but sacrifices some flexibility. -->
+	<AM_MPXL.description>Оружие, произведённое неизвестным древним военным поставщиком. Удлинение ствола MPX даёт ему боевую дальность, аналогичную винтовке, но жертвует некоторой гибкостью.</AM_MPXL.description>
+	<!-- EN: ㅤ -->
+	<AM_MPXL.verbs.0.label>ㅤ</AM_MPXL.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_MPXL.tools.0.label>рукоять</AM_MPXL.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_MPXL.tools.1.label>ствол</AM_MPXL.tools.1.label>
+	
+	<!-- EN: civilian carbine -->
+	<AM_STM.label>гражданский карабин</AM_STM.label>
+	<!-- EN: A civilian semi-automatic carbine originating from some ancient military supplier. It uses a heavy pistol bullet, which is very precise but it doesn't deal a lot of damage. -->
+	<AM_STM.description>Гражданский полуавтоматический карабин от неизвестного древнего военного поставщика. Он использует тяжёлую пистолетную пулю, которая очень точна, но не наносит большого урона.</AM_STM.description>
+	<!-- EN: ㅤ -->
+	<AM_STM.verbs.0.label>ㅤ</AM_STM.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_STM.tools.0.label>рукоять</AM_STM.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_STM.tools.1.label>ствол</AM_STM.tools.1.label>
+	
+	<!-- EN: custom civilian carbine -->
+	<AM_STMC.label>заказной гражданский карабин</AM_STMC.label>
+	<!-- EN: A civilian semi-automatic carbine gun originating from some ancient military supplier. It uses a heavy handgun cartridge with a modified silencing brake and magnifying glass, which increases the range compared to the original version. -->
+	<AM_STMC.description>Гражданский полуавтоматический карабин, произведённый неизвестным древним военным поставщиком. В нём используется тяжёлый пистолетный патрон с модифицированным глушителем и прицелом, что увеличивает дальность стрельбы по сравнению с исходной версией.</AM_STMC.description>
+	<!-- EN: ㅤ -->
+	<AM_STMC.verbs.0.label>ㅤ</AM_STMC.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_STMC.tools.0.label>рукоять</AM_STMC.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_STMC.tools.1.label>ствол</AM_STMC.tools.1.label>
+	
+	<!-- EN: Stechkin pistol -->
+	<AM_APS.label>пистолет Стечкина</AM_APS.label>
+	<!-- EN: A fully automatic submachine gun originating from some ancient military supplier. Very light. -->
+	<AM_APS.description>Полностью автоматический пистолет-пулемёт от неизвестного древнего военного поставщика. Очень лёгкий.</AM_APS.description>
+	<!-- EN: ㅤ -->
+	<AM_APS.verbs.0.label>ㅤ</AM_APS.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_APS.tools.0.label>рукоять</AM_APS.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_APS.tools.1.label>ствол</AM_APS.tools.1.label>
+	
+	<!-- EN: Makarov pistol -->
+	<AM_Makarov.label>пистолет Макарова</AM_Makarov.label>
+	<!-- EN: A small semi-automatic pistol originating from some ancient military supplier. -->
+	<AM_Makarov.description>Небольшой полуавтоматический пистолет, произведенный каким-то древним военным поставщиком.</AM_Makarov.description>
+	<!-- EN: ㅤ -->
+	<AM_Makarov.verbs.0.label>ㅤ</AM_Makarov.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_Makarov.tools.0.label>рукоять</AM_Makarov.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_Makarov.tools.1.label>ствол</AM_Makarov.tools.1.label>
+	
+	<!-- EN: armor piercing pistol -->
+	<AM_FNHG.label>бронебойный пистолет</AM_FNHG.label>
+	<!-- EN: A semi-automatic pistol using special ammunition. Originating from some ancient military supplier. -->
+	<AM_FNHG.description>Полуавтоматический пистолет, использующий специальные боеприпасы. Произведён неизвестным древним военным поставщиком.</AM_FNHG.description>
+	<!-- EN: ㅤ -->
+	<AM_FNHG.verbs.0.label>ㅤ</AM_FNHG.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_FNHG.tools.0.label>рукоять</AM_FNHG.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_FNHG.tools.1.label>ствол</AM_FNHG.tools.1.label>
+	
+	<!-- EN: defense pistol -->
+	<AM_CPHG.label>оборонительный пистолет</AM_CPHG.label>
+	<!-- EN: A special pistol originating from some ancient military supplier. It uses armor piercing bullets, with a large capacity and high firing rate. -->
+	<AM_CPHG.description>Особый пистолет от неизвестного древнего военного поставщика. В нём используются бронебойные пули большой мощности и высокой скорострельности.</AM_CPHG.description>
+	<!-- EN: ㅤ -->
+	<AM_CPHG.verbs.0.label>ㅤ</AM_CPHG.verbs.0.label>
+	<!-- EN: рукоятка -->
+	<AM_CPHG.tools.0.label>рукоять</AM_CPHG.tools.0.label>
+	<!-- EN: ствол -->
+	<AM_CPHG.tools.1.label>ствол</AM_CPHG.tools.1.label>
+</LanguageData>

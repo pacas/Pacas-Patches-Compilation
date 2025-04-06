@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Sites\SitePart.xml-->
+	<!-- EN: Street -->
+	<AM_StreetSite.label>Улица</AM_StreetSite.label>
+	<!-- EN: A Street. -->
+	<AM_StreetSite.description>Улица</AM_StreetSite.description>
+	<!-- EN: Investigate {0} -->
+	<AM_StreetSite.approachOrderString>Исследовать {0}</AM_StreetSite.approachOrderString>
+	<!-- EN: Investigate {0} -->
+	<AM_StreetSite.approachingReportString>Исследовать {0}</AM_StreetSite.approachingReportString>
+	
+	<!-- EN: Reserve -->
+	<AM_ReserveSite.label>Резерв</AM_ReserveSite.label>
+	<!-- EN: A Reserve. -->
+	<AM_ReserveSite.description>Резерв</AM_ReserveSite.description>
+	<!-- EN: Investigate {0} -->
+	<AM_ReserveSite.approachOrderString>Исследовать {0}</AM_ReserveSite.approachOrderString>
+	<!-- EN: Investigate {0} -->
+	<AM_ReserveSite.approachingReportString>Исследовать {0}</AM_ReserveSite.approachingReportString>
+	
+	<!-- EN: Mall -->
+	<AM_MALL_S_Site.label>Торговый центр</AM_MALL_S_Site.label>
+	<!-- EN: A Mall. -->
+	<AM_MALL_S_Site.description>Торговый центр.</AM_MALL_S_Site.description>
+	<!-- EN: Investigate {0} -->
+	<AM_MALL_S_Site.approachOrderString>Исследовать {0}</AM_MALL_S_Site.approachOrderString>
+	<!-- EN: Investigate {0} -->
+	<AM_MALL_S_Site.approachingReportString>Исследовать {0}</AM_MALL_S_Site.approachingReportString>
+	
+	<!-- EN: Mall -->
+	<AM_MALL_L_Site.label>Торговый центр</AM_MALL_L_Site.label>
+	<!-- EN: A Mall. -->
+	<AM_MALL_L_Site.description>Торговый центр.</AM_MALL_L_Site.description>
+	<!-- EN: Investigate {0} -->
+	<AM_MALL_L_Site.approachOrderString>Исследовать {0}</AM_MALL_L_Site.approachOrderString>
+	<!-- EN: Investigate {0} -->
+	<AM_MALL_L_Site.approachingReportString>Исследовать {0}</AM_MALL_L_Site.approachingReportString>
+</LanguageData>

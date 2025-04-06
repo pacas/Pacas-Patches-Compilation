@@ -19,6 +19,15 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="AM_MediumMechanoid"]/butcherProducts</xpath>
+                    <value>
+                        <butcherProducts>
+                            <Titanium>8</Titanium>
+                            <Plasteel>15</Plasteel>
+                        </butcherProducts>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
                     <xpath>Defs/PawnKindDef[@Name="AM_MediumMechanoidKind"]/combatPower</xpath>
                     <value>
                         <combatPower>450</combatPower>

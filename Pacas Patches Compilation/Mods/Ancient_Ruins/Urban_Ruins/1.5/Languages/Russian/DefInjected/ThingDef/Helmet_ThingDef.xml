@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Apparel\Helmet.xml-->
+	<!-- EN: bulletproof mask -->
+	<AM_BulletproofMask.label>пуленепробиваемая маска</AM_BulletproofMask.label>
+	<!-- EN: A fully protected bulletproof mask made of aramid fiber. Its build is lightweight and has considerable armoring. -->
+	<AM_BulletproofMask.description>Полностью защищённая пуленепробиваемая маска из арамидного волокна. Его конструкция лёгкая и имеет значительную защиту.</AM_BulletproofMask.description>
+</LanguageData>

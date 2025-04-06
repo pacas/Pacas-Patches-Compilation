@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\BiomeDefs\Biomes_Urban facilities.xml-->
+	
+	<!-- EN: facilities -->
+	<AM_Facilities.label>городские объекты</AM_Facilities.label>
+	<!-- EN: There is no weather in facilities. -->
+	<AM_Facilities.description>Здесь нет погоды.</AM_Facilities.description>
+</LanguageData>

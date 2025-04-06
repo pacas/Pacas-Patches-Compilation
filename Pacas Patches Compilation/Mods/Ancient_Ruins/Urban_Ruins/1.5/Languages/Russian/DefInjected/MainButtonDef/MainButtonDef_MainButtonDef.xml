@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\MainButtonDefs\MainButtonDef.xml-->
+	<!-- EN: level schedule -->
+	<AM_LevelSchedule.label>Этажи</AM_LevelSchedule.label>
+	<!-- EN: Schedule colonists' activities to certain times of day, and set their allowed areas. -->
+	<AM_LevelSchedule.description>Режим дня поселенцев и доступные им области.</AM_LevelSchedule.description>
+</LanguageData>

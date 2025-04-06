@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Heads.xml-->
+	<!--                    aerofleet hood -->
+	<AG_AerofleetHead.label>зонтик аэрофлита</AG_AerofleetHead.label>
+	<!--                          A gelatinous, translucent hood surrounds the carrier's head. -->
+	<AG_AerofleetHead.description>Носители этого гена обладают желатиновым, полупрозрачным зонтиком, который полностью окружает их голову.</AG_AerofleetHead.description>
+	
+	<!--               slug head -->
+	<AG_SlugFace.label>голова слизняка</AG_SlugFace.label>
+	<!--                     Both of the subject's eyes protrude from the skull in slug-like stalks. Slimy! -->
+	<AG_SlugFace.description>Носители этого гена обладают глазами, выступающими из черепа на стебельках, подобно глазам слизня. Склизко!</AG_SlugFace.description>
+	
+	<!--              fox head -->
+	<AG_FoxFace.label>лисья голова</AG_FoxFace.label>
+	<!--                    Carriers of this gene possess an elongated snout with a round nose and slit-like eyes. Ears sold separately. -->
+	<AG_FoxFace.description>У носителей этого гена удлиненная морда с круглым носом и узкими глазами. Уши, увы, идут только за отдельную плату!</AG_FoxFace.description>
+	
+	<!--                rocky ridges -->
+	<AG_RockSpurs.label>каменистые выступы</AG_RockSpurs.label>
+	<!--                      Carriers of this gene have accumulations of minerals on their head. -->
+	<AG_RockSpurs.description>Носители этого гена обладают скоплениями минералов, покрывающими их голову.</AG_RockSpurs.description>
+	
+	<!--                    cancerous head -->
+	<AG_CancerousFace.label>поражённая голова</AG_CancerousFace.label>
+	<!--                          Carriers of this gene possess a lumpy, cancerous looking head with loose skin and pockmarks. -->
+	<AG_CancerousFace.description>У носителей этого гена бугристая, покрытая злокачественными образованиями, рыхлой кожей и язвами головой.</AG_CancerousFace.description>
+	
+	<!--                    drakonori head -->
+	<AG_DrakonoriHead.label>голова драконори</AG_DrakonoriHead.label>
+	<!--                          Carriers of this gene possess a reptile-like, snouted face. -->
+	<AG_DrakonoriHead.description>У носители этого гена рептилоидное, рылообразное лицо.</AG_DrakonoriHead.description>
+	
+	<!--                    very gaunt head
+как Мёртвая голова из biotech	-->
+	<AG_VeryGauntHead.label>сильно мёртвая голова</AG_VeryGauntHead.label>
+	<!--                          Carriers of this gene have an extremely rotted, gaunt appearance in their face and head. -->
+	<AG_VeryGauntHead.description>У носителей этого гена крайне иссушённая голова.</AG_VeryGauntHead.description>
+	
+	<!--                 nereid head -->
+	<AG_NereidHead.label>голова нереиды</AG_NereidHead.label>
+	<!--                       Carriers of this gene have a plain, scaled head with bioluminescent spots. -->
+	<AG_NereidHead.description>У носителей этого гена простая, покрытая чешуей и украшенная биолюминесцентными пятнами голова.</AG_NereidHead.description>
+	
+	<!--                   forsaken head -->
+	<AG_ForsakenHead.label>голова забытых</AG_ForsakenHead.label>
+	<!--                         Carriers of this gene have valleys around their skull, yet are otherwise healthy in appearance. This does not have any functional effect. -->
+	<AG_ForsakenHead.description>У носителей этого гена впадины на черепе, однако в остальном они выглядят здоровыми. Это не влияет на их возможности.</AG_ForsakenHead.description>
+</LanguageData>

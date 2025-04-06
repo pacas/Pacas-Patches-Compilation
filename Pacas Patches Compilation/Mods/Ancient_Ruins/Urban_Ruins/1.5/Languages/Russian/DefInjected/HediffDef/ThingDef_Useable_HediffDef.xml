@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Items\ThingDef_Useable.xml-->
+	
+	<!-- EN: metalblood stimulant -->
+	<AM_Metalblood.label>стимулятор крови</AM_Metalblood.label>
+	<!-- EN: The metal blood stimulant used in combat does not cause discoloration of the skin at a special concentration dose, which improves the ability of muscle tissue to withstand impact damage and to some extent increases movement speed. However, it is also more susceptible to fire damage and metabolism becomes higher. -->
+	<AM_Metalblood.description>Стимулятор крови, используемый в бою, при специальной дозе концентрации не вызывает обесцвечивания кожи, что повышает способность мышечной ткани противостоять ударным повреждениям, и в некоторой степени увеличивает скорость передвижения. Однако она также более восприимчива к огненным повреждениям, а метаболизм становится выше.</AM_Metalblood.description>
+	
+	<!-- EN: Analgesic Regeneration -->
+	<AM_RegenerativeHormone.label>анальгетическая регенерация</AM_RegenerativeHormone.label>
+	<!-- EN: Analgesic Regeneration -->
+	<AM_RegenerativeHormone.labelNoun>Анальгетическая регенерация</AM_RegenerativeHormone.labelNoun>
+	<!-- EN: Stimulate the regeneration process by increasing the biosynthesis of purine and pyrimidine bases, RNA, and functional enzymes to promote cellular elements.But there will be side effects within a few days after injection. -->
+	<AM_RegenerativeHormone.description>Стимулирует процесс регенерации за счет увеличения биосинтеза пуриновых и пиримидиновых оснований, РНК и функциональных ферментов для продвижения клеточных элементов. Однако в течение нескольких дней после инъекции возникнут побочные эффекты.</AM_RegenerativeHormone.description>
+	<!-- EN: Exhaustion syndrome -->
+	<AM_RegenerativeHormone.stages.0.label>Синдром истощения</AM_RegenerativeHormone.stages.0.label>
+	<!-- EN: Regeneration -->
+	<AM_RegenerativeHormone.stages.1.label>Регенерация</AM_RegenerativeHormone.stages.1.label>
+	
+	<!-- EN: Cell regeneration -->
+	<AM_CellRegeneration.label>Регенерация клеток</AM_CellRegeneration.label>
+	<!-- EN: Cell Regeneration -->
+	<AM_CellRegeneration.labelNoun>Регенерация клеток</AM_CellRegeneration.labelNoun>
+	<!-- EN: Regenerated substances are rapidly repairing the body,but has strong side effects. -->
+	<AM_CellRegeneration.description>Регенерированные вещества быстро восстанавливают организм, но имеют сильные побочные эффекты.</AM_CellRegeneration.description>
+	<!-- EN: Exhaustion syndrome -->
+	<AM_CellRegeneration.stages.0.label>Синдром истощения</AM_CellRegeneration.stages.0.label>
+	<!-- EN: Regeneration -->
+	<AM_CellRegeneration.stages.1.label>Регенерация</AM_CellRegeneration.stages.1.label>
+	
+	<!-- EN: essential balm -->
+	<AM_Analgesic.label>эфирный бальзам</AM_Analgesic.label>
+	<!-- EN: Essential balm -->
+	<AM_Analgesic.labelNoun>Эфирный бальзам</AM_Analgesic.labelNoun>
+	<!-- EN: Stimulate the brain with strong essential balm to secrete endorphins for pain relief and improve focus. -->
+	<AM_Analgesic.description>Стимулирует мозг сильным эфирным бальзамом, чтобы вызвать выработку эндорфинов, которые облегчат боль и улучшат концентрацию внимания.</AM_Analgesic.description>
+	<!-- EN: Essential balm -->
+	<AM_Analgesic.stages.0.label>Эфирный бальзам</AM_Analgesic.stages.0.label>
+	<!-- EN: Essential balm -->
+	<AM_Analgesic.stages.1.label>Эфирный бальзам</AM_Analgesic.stages.1.label>
+	
+	<!-- EN: Antipyretic and analgesic -->
+	<AM_AntipyreticAnalgesic.label>Жаропонижающее и обезболивающее</AM_AntipyreticAnalgesic.label>
+	<!-- EN: Antipyretic and analgesic -->
+	<AM_AntipyreticAnalgesic.labelNoun>Жаропонижающее и обезболивающее</AM_AntipyreticAnalgesic.labelNoun>
+	<!-- EN: To exert anti-inflammatory, analgesic, and antipyretic effects by inhibiting the activity of cyclooxygenase (COX). -->
+	<AM_AntipyreticAnalgesic.description>Оказывает противовоспалительное, анальгезирующее и жаропонижающее действие за счет ингибирования активности циклооксигеназы (ЦОГ).</AM_AntipyreticAnalgesic.description>
+	<!-- EN: ibuprofen -->
+	<AM_AntipyreticAnalgesic.stages.0.label>ибупрофен</AM_AntipyreticAnalgesic.stages.0.label>
+	<!-- EN: ibuprofen -->
+	<AM_AntipyreticAnalgesic.stages.1.label>ибупрофен</AM_AntipyreticAnalgesic.stages.1.label>
+	
+	<!-- EN: Antibiotic -->
+	<AM_AntibioticS.label>Антибиотик</AM_AntibioticS.label>
+	<!-- EN: Antibiotic -->
+	<AM_AntibioticS.labelNoun>Антибиотик</AM_AntibioticS.labelNoun>
+	<!-- EN: Broad spectrum antibiotics, used to combat various bacterial diseases. -->
+	<AM_AntibioticS.description>Антибиотики широкого спектра действия, используемые для борьбы с различными бактериальными заболеваниями.</AM_AntibioticS.description>
+	<!-- EN: Antibiotic -->
+	<AM_AntibioticS.stages.0.label>Антибиотик</AM_AntibioticS.stages.0.label>
+	<!-- EN: Antibiotic -->
+	<AM_AntibioticS.stages.1.label>Антибиотик</AM_AntibioticS.stages.1.label>
+</LanguageData>

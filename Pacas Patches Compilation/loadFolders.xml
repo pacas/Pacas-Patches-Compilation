@@ -69,6 +69,7 @@
         <li IfModActive="sarg.rimbees">Mods/2_AlphaBees/1.5</li>
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.5</li>     
         <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.5</li> 
+        <li IfModActive="xmb.ancienturbanruins.mo">Mods/Ancient_Ruins/Urban_Ruins/1.5</li> 
         <!-- RJW mods -->
         <li IfModActive="rim.job.world">Mods/RJW/CoreMod/1.5</li>
         <li IfModActive="rjw.sexperience">Mods/RJW/Sexperience/1.5</li>
@@ -90,6 +91,9 @@
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Collars/1.5</li>
         <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <li IfModActive="redmattis.bettergeneinheritance">Mods/Simple_Mods/BetterGeneInheritance/1.5</li>
+        <!--<li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Framework</li>
+        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
+        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>-->
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.5</li>
@@ -119,9 +123,6 @@
         <!--Not updated(yet?)-->
         <!--
         <li IfModActive="rikiki.miningco.projector">Mods/Simple_Mods/MiningCo_Projector</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>
         -->
 	</v1.5>
 </loadFolders>

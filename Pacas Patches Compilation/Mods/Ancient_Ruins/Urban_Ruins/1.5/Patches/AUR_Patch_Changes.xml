@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                        <li>Repair_table_C1</li>
+                    </researchPrerequisites>
+                </value>
+            </li>-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="AM_SoftDrinkResourceBase"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>SoftDrinks</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_SurgicalBag" or 
+                defName="AM_BigSurgicalBag" or
+                defName="AM_MetalbloodInjector" or 
+                defName="AM_AnalgesicRegenerationInjector" or 
+                defName="AM_CellRegenerationInjector" or 
+                defName="AM_EssentialBalm"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>Medicine</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_AluminumSplint" or 
+                defName="AM_PelvicHammock"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>AM_Tool</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/HediffDef[defName="AM_Analgesic"]/stages</xpath>
+                <value>
+                    <stages>
+                        <li>
+                            <painFactor>0.75</painFactor>
+                            <hungerRateFactor>0.95</hungerRateFactor>
+                            <minSeverity>0</minSeverity>
+                            <label>Essential balm</label>
+                        </li>
+                        <li>
+                            <painFactor>0.6</painFactor>
+                            <hungerRateFactor>0.85</hungerRateFactor>
+                            <minSeverity>0.95</minSeverity>
+                            <label>Essential balm</label>
+                        </li>
+                    </stages>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/FactionDef[defName="AM_PlayerColony"]</xpath>
+                <value>
+                    <FactionDef ParentName="SK_PlayerFactionBase">
+                        <defName>AM_PlayerColony</defName>
+                        <label>Safe House</label>
+                        <description>Poor scavengers who found an underground safe house.</description>
+                        <isPlayer>true</isPlayer>
+                        <basicMemberKind>AM_Scavenger</basicMemberKind>
+                        <pawnSingular>colonist</pawnSingular>
+                        <pawnsPlural>colonists</pawnsPlural>
+                        <techLevel>Industrial</techLevel>
+                        <allowedCultures>
+                            <li>Astropolitan</li>
+                        </allowedCultures>
+                        <backstoryFilters>
+                            <li>
+                                <categories>
+                                    <li>Offworld</li>
+                                </categories>
+                            </li>
+                        </backstoryFilters>
+                        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+                        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+                        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+                        <startingResearchTags>
+                            <li>ClassicStart</li>
+                        </startingResearchTags>
+                        <apparelStuffFilter>
+                            <categories>
+                                <li>Leathers</li>
+                            </categories>
+                            <thingDefs>
+                                <li>Cloth</li>
+                                <li>Plasteel</li>
+                            </thingDefs>
+                        </apparelStuffFilter>
+                    </FactionDef>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/PawnKindDef[defName="AM_Scavenger"]</xpath>
+                <value>
+                    <PawnKindDef ParentName="SK_BasePlayerPawnKind">
+                        <defName>AM_Scavenger</defName>
+                        <label>scavenger</label>
+                        <defaultFactionType>AM_PlayerColony</defaultFactionType>
+                        <chemicalAddictionChance>0.06</chemicalAddictionChance>
+                        <apparelMoney>
+                            <min>1000</min>
+                            <max>2500</max>
+                        </apparelMoney>
+                        <apparelTags>
+                            <li>BrotherhoodLight</li>
+                        </apparelTags>
+                        <weaponMoney>
+                            <min>820</min>
+                            <max>1900</max>
+                        </weaponMoney>
+                        <weaponTags>
+                            <li>SMG2</li>
+                        </weaponTags>
+                        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+                        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+                        <forceNormalGearQuality>true</forceNormalGearQuality>
+                        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+                        <techHediffsDisallowTags>
+                            <li>PainCauser</li>
+                        </techHediffsDisallowTags>
+                        <initialResistanceRange>13~21</initialResistanceRange>
+                        <fixedInventory>
+                            <AM_AI2A>3</AM_AI2A>
+                            <MealSurvivalPack>6</MealSurvivalPack>
+                        </fixedInventory>
+                        <modExtensions>
+                            <li Class="CombatExtended.LoadoutPropertiesExtension">
+                                <primaryMagazineCount>
+                                    <min>5</min>
+                                    <max>9</max>
+                                </primaryMagazineCount>
+                            </li>
+                        </modExtensions>
+                        <inventoryOptions>
+                            <skipChance>0</skipChance>
+                            <subOptionsChooseOne>
+                                <li>
+                                    <choiceChance>50</choiceChance>
+                                    <thingDef>Pemmican</thingDef>
+                                    <countRange>
+                                        <min>80</min>
+                                        <max>200</max>
+                                    </countRange>
+                                </li>
+                                <li>
+                                    <choiceChance>50</choiceChance>
+                                    <thingDef>MealSurvivalPack</thingDef>
+                                    <countRange>
+                                        <min>4</min>
+                                        <max>9</max>
+                                    </countRange>
+                                </li>
+                            </subOptionsChooseOne>
+                        </inventoryOptions>
+                    </PawnKindDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="AM_DisassemblePolyethylenePlate"]</xpath>
+                <value>
+                    <RecipeDef>
+                        <defName>AM_DisassemblePolyethylenePlate</defName>
+                        <label>disassemble polyethylene plate</label>
+                        <description>Remove the aramid fabric layer from the polyethylene armor plate to recycle precious aramid.</description>
+                        <jobString>disassembling polyethylene plate.</jobString>
+                        <workAmount>300</workAmount>
+                        <workSkill>Crafting</workSkill>
+                        <workSpeedStat>TailoringSpeed</workSpeedStat>
+                        <effectWorking>Tailor</effectWorking>
+                        <soundWorking>Recipe_Tailor</soundWorking>
+                        <ingredients>
+                          <li>
+                            <filter>
+                              <thingDefs>
+                               <li>AM_UHMWPEPlate</li>
+                              </thingDefs>
+                            </filter>
+                            <count>1</count>
+                          </li>
+                        </ingredients>
+                        <fixedIngredientFilter>
+                              <thingDefs>
+                               <li>AM_UHMWPEPlate</li>
+                              </thingDefs>
+                        </fixedIngredientFilter>
+                        <skillRequirements>
+                            <Crafting>2</Crafting>
+                        </skillRequirements>
+                        <requiredGiverWorkType>Crafting</requiredGiverWorkType>
+                        <products>
+                          <AM_AramidCloth>10</AM_AramidCloth>
+                          <Plasteel>10</Plasteel>
+                        </products>
+                        <recipeUsers>
+                            <li>TableMachining</li>
+                        </recipeUsers>
+                    </RecipeDef>
+                </value>
+            </li>
+            
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_Salewa"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>200</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_AnalgesicRegenerationInjector"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>500</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_CellRegenerationInjector"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>1200</MarketValue>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_EssentialBalm"]/statBases/MarketValue</xpath>
+                <value>
+                    <MarketValue>100</MarketValue>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

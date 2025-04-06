@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_StreetPlate.xml-->
+	<!-- EN: notice sign -->
+	<AM_Notice.label>предупреждающий знак</AM_Notice.label>
+	<!-- EN: An old street sign warning of something. -->
+	<AM_Notice.description>Старый уличный знак, предупреждающий о чём-то.</AM_Notice.description>
+	
+	<!-- EN: Man at work sign -->
+	<AM_ManAtWork.label>знак «Идёт работа!»</AM_ManAtWork.label>
+	<!-- EN: An old street sign depicting a person doing work. -->
+	<AM_ManAtWork.description>Старый уличный знак, изображающий человека, выполняющего работу.</AM_ManAtWork.description>
+	
+	<!-- EN: Crossroad sign -->
+	<AM_Crossroad.label>знак перекрестка</AM_Crossroad.label>
+	<!-- EN: An old street sign indicating a crossroad. -->
+	<AM_Crossroad.description>Старый дорожный знак, обозначающий перекресток.</AM_Crossroad.description>
+	
+	<!-- EN: steep ascent sign -->
+	<AM_SteepAscent.label>знак крутого подъема</AM_SteepAscent.label>
+	<!-- EN: An old street sign indicating an incoming steep ascent. -->
+	<AM_SteepAscent.description>Старый уличный знак, предупреждающий о приближающемся крутом подъеме.</AM_SteepAscent.description>
+	
+	<!-- EN: watch for insects sign -->
+	<AM_WatchForBug.label>знак «Берегитесь насекомых»</AM_WatchForBug.label>
+	<!-- EN: An old street sign warning about hostile insects. -->
+	<AM_WatchForBug.description>Старый уличный знак, предупреждающий о враждебных насекомых.</AM_WatchForBug.description>
+	
+	<!-- EN: watch for Gorehulk sign -->
+	<AM_WatchForGorehulk.label>знак «Берегитесь кровавую тушу»</AM_WatchForGorehulk.label>
+	<!-- EN: An old street sign depicting an ominous warning. -->
+	<AM_WatchForGorehulk.description>Старый уличный знак со зловещим предупреждением.</AM_WatchForGorehulk.description>
+	
+	<!-- EN: watch for Mechanoid sign -->
+	<AM_WatchForMachine.label>знак «Берегитесь механоидов»</AM_WatchForMachine.label>
+	<!-- EN: An old street sign warning against hostile mechanoids. -->
+	<AM_WatchForMachine.description>Старый дорожный знак, предупреждающий о враждебных механоидах.</AM_WatchForMachine.description>
+	
+	<!-- EN: watch for Metalhorror sign -->
+	<AM_WatchForMetalhorror.label>знак «Берегитесь металлическую жуть»</AM_WatchForMetalhorror.label>
+	<!-- EN: An old street sign depicting an ominous warning. -->
+	<AM_WatchForMetalhorror.description>Старый уличный знак со зловещим предупреждением.</AM_WatchForMetalhorror.description>
+	
+	<!-- EN: watch for Noctol sign -->
+	<AM_WatchForNoctol.label>знак «Берегитесь ноктола»</AM_WatchForNoctol.label>
+	<!-- EN: An old street sign depicting an ominous warning -->
+	<AM_WatchForNoctol.description>Старый уличный знак со зловещим предупреждением.</AM_WatchForNoctol.description>
+	
+	<!-- EN: AllowableTurn -->
+	<AM_AllowableTurn.label>знак разрешённого поворота</AM_AllowableTurn.label>
+	<!-- EN: AllowableTurn -->
+	<AM_AllowableTurn.description>знак разрешённого поворота</AM_AllowableTurn.description>
+	
+	<!-- EN: forked road sign -->
+	<AM_AllowRightTurn.label>знак разветвлённой дороги</AM_AllowRightTurn.label>
+	<!-- EN: An old street sign indicating a right turn. -->
+	<AM_AllowRightTurn.description>Старый дорожный знак, указывающий поворот направо.</AM_AllowRightTurn.description>
+	
+	<!-- EN: motor vehicle lane sign -->
+	<AM_MotorVehicleLane.label>знак полосы движения автотранспорта</AM_MotorVehicleLane.label>
+	<!-- EN: An old street sign indicating a motor vehicle lane. -->
+	<AM_MotorVehicleLane.description>Старый дорожный знак, указывающий полосу движения для автотранспорта.</AM_MotorVehicleLane.description>
+	
+	<!-- EN: parking permitted sign -->
+	<AM_ParkingPermitted.label>знак «Парковка разрешена»</AM_ParkingPermitted.label>
+	<!-- EN: An old street sign indicating permitted parking. -->
+	<AM_ParkingPermitted.description>Старый дорожный знак, указывающий на разрешённую парковку.</AM_ParkingPermitted.description>
+	
+	<!-- EN: U-Turn sign -->
+	<AM_TurnAround.label>знак разворота</AM_TurnAround.label>
+	<!-- EN: An old street sign indicating a u-turn. -->
+	<AM_TurnAround.description>Старый дорожный знак, обозначающий разворот.</AM_TurnAround.description>
+	
+	<!-- EN: no access sign -->
+	<AM_NoAccess.label>знак «Доступ запрещён»</AM_NoAccess.label>
+	<!-- EN: An old street sign indicating no access. -->
+	<AM_NoAccess.description>Старый дорожный знак, указывающий, что доступ запрещен.</AM_NoAccess.description>
+	
+	<!-- EN: no Ghouls permitted sign -->
+	<AM_NoGhoul.label>знак «Гули запрещены»</AM_NoGhoul.label>
+	<!-- EN: An old street sign indicating that ghouls are not permitted. -->
+	<AM_NoGhoul.description>Старый уличный знак, указывающий, что гулям вход запрещён.</AM_NoGhoul.description>
+	
+	<!-- EN: no parking sign -->
+	<AM_NoParking.label>знак «Не парковаться»</AM_NoParking.label>
+	<!-- EN: An old street sign indicating no parking. -->
+	<AM_NoParking.description>Старый дорожный знак, запрещающий парковку.</AM_NoParking.description>
+	
+	<!-- EN: no U-Turn sign -->
+	<AM_NoTurningAaround.label>знак «Разворот запрещён»</AM_NoTurningAaround.label>
+	<!-- EN: An old street sign indicating a driver must not U-Turn. -->
+	<AM_NoTurningAaround.description>Старый дорожный знак, указывающий, что водителю запрещено разворачиваться.</AM_NoTurningAaround.description>
+	
+	<!-- EN: speed limit sign -->
+	<AM_SpeedLimit40KPH.label>знак ограничения скорости</AM_SpeedLimit40KPH.label>
+	<!-- EN: An old street sign depicting a speed limit of 40. -->
+	<AM_SpeedLimit40KPH.description>Старый дорожный знак с изображением ограничения скорости 40.</AM_SpeedLimit40KPH.description>
+</LanguageData>

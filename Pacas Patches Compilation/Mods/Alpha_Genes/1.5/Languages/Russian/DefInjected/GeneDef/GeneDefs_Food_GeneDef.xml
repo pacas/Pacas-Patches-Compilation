@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Food.xml-->
+	<!--                   frail stomach -->
+	<AG_FrailStomach.label>слабый желудок</AG_FrailStomach.label>
+	<!--                         Carriers of this gene have a very weak stomach and will suffer more often from food poisoning. -->
+	<AG_FrailStomach.description>Носители этого гена обладают чрезвычайно слабым желудком и значительно чаще подвержены пищевым отравлениям.</AG_FrailStomach.description>
+	
+	<!--                    corpse feeding -->
+	<AG_CorpseFeeding.label>питание трупами</AG_CorpseFeeding.label>
+	<!--                          Carriers of this gene constantly secrete a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The carrier is fed through the skin by contacting the liquid sludge, although they can also feed on other organic matter if needed. -->
+	<AG_CorpseFeeding.description>Носители этого гена выделяют едкий газ с неприятным запахом, который вызывает зуд и дискомфорт у живых существ. Газ сам по себе в основном безвреден, однако при контакте с разлагающейся органической материей он значительно ускоряет процессы гниения, образуя черную гнилостную жидкость, известную как «трупный яд» или трупная желчь. Носители могут поглощать питательные вещества через кожу, взаимодействуя с этой жидкостью, хотя способны питаться и другими органическими материалами при необходимости.</AG_CorpseFeeding.description>
+	<!--                                         Can feed by standing next to corpses and rotting them. Doesn't provide lung rot immunity on its own. -->
+	<AG_CorpseFeeding.customEffectDescriptions.0>Может поглощать питательные вещества, находясь рядом с трупами и ускоряя их разложение. Однако ген не предоставляет иммунитета к гниению легких.</AG_CorpseFeeding.customEffectDescriptions.0>
+	
+	<!--                      light sustenance -->
+	<AG_LightSustenance.label>питание светом</AG_LightSustenance.label>
+	<!--                            Carriers of this gene have chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. -->
+	<AG_LightSustenance.description>Носители этого гена обладают хлорофилловыми пигментами в коже, что позволяет им поглощать питательные вещества из солнечного света, избавляя их от потребности в пище, при условии постоянного нахождения под воздействием света.</AG_LightSustenance.description>
+	<!--                                           Can feed by standing in sunlight. A prolonged lack of sunlight will kill the carrier. -->
+	<AG_LightSustenance.customEffectDescriptions.0>Носитель может питаться от света, находясь под солнцем. Однако длительное отсутствие света приводит к его гибели.</AG_LightSustenance.customEffectDescriptions.0>
+	<!--                                           Artificial light of sufficient strength will also do the trick. -->
+	<AG_LightSustenance.customEffectDescriptions.1>Искусственный свет с достаточной интенсивностью также может удовлетворить потребности носителя.</AG_LightSustenance.customEffectDescriptions.1>
+	
+	<!--                         efficient mandibles -->
+	<AG_EfficientMandibles.label>сильная челюсть</AG_EfficientMandibles.label>
+	<!--                               Carriers of this gene have strong, capable teeth, and they have little difficulty tearing into hard to chew foods. -->
+	<AG_EfficientMandibles.description>Носители этого гена обладают крепкими и эффективными зубами, которые позволяют им легко разгрызать даже самую труднопережевываемую пищу.</AG_EfficientMandibles.description>
+	
+	<!--                          underdeveloped teeth -->
+	<AG_UnderdevelopedTeeth.label>недоразвитая челюсть</AG_UnderdevelopedTeeth.label>
+	<!--                                Carriers of this gene have very weak, underdeveloped teeth, finding eating to be a chore. -->
+	<AG_UnderdevelopedTeeth.description>Носители этого гена обладают слабыми и недоразвитыми зубами, что делает прием пищи трудным процессом.</AG_UnderdevelopedTeeth.description>
+	
+	<!--                            survival instinct, high -->
+	<AG_SurvivalInstinct_High.label>повышенный инстинкт выживания</AG_SurvivalInstinct_High.label>
+	<!--                                  Carriers of this gene have a strong survival instinct, intuitively knowing where to find the best forage and living off the land. -->
+	<AG_SurvivalInstinct_High.description>Носители этого гена обладают повышенным инстинктом выживания, интуитивно находя лучшие источники пищи и живя за счет окружающей природы.</AG_SurvivalInstinct_High.description>
+	
+	<!--                           survival instinct, low -->
+	<AG_SurvivalInstinct_Low.label>пониженный инстинкт выживания</AG_SurvivalInstinct_Low.label>
+	<!--                                 Carriers of this gene have a weak survival instinct, feeling quite out of their element when having to forage for food. -->
+	<AG_SurvivalInstinct_Low.description>Носители этого гена обладают пониженным инстинктом выживания и чувствуют себя неуютно, когда им приходится искать пищу.</AG_SurvivalInstinct_Low.description>
+	
+	<!--                      table resistance -->
+	<AG_TableResistance.label>устойчивость к столам</AG_TableResistance.label>
+	<!--                            Carriers of this gene have developed a GIGANTIC mental fortitude and are capable of withstanding the greatest torture of all time: eating without a table. -->
+	<AG_TableResistance.description>Носители этого гена обладают ГИГАНСТКОЙ психической стойкостью и способны выдержать величайшую пытку всех времен и народов: есть на земле.</AG_TableResistance.description>
+</LanguageData>

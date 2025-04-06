@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Voices.xml-->
+	<!--                slug voice -->
+	<AG_SlugVoice.label>голос слизняка</AG_SlugVoice.label>
+	<!--                      Carriers have a gurgling, squishing voice. -->
+	<AG_SlugVoice.description>У носителей этого гена булькающий, склизкий голос.</AG_SlugVoice.description>
+	
+	<!--                rock voice -->
+	<AG_RockVoice.label>каменный голос</AG_RockVoice.label>
+	<!--                      Carriers have a rumbling, metallic voice that sounds like two stones scratching against each other. -->
+	<AG_RockVoice.description>У носителей этого гена грохочущий, металлический, как звук трущихся друг о друга камней, голос.</AG_RockVoice.description>
+	
+	<!--                frog voice -->
+	<AG_FrogVoice.label>лягушачий голос</AG_FrogVoice.label>
+	<!--                      Carriers have a croaking voice similar to that of a frog. -->
+	<AG_FrogVoice.description>У носителей этого гена квакающий, как у лягушек, голос.</AG_FrogVoice.description>
+	
+	<!--                    guttural voice -->
+	<AG_GutturalVoice.label>гортанный голос</AG_GutturalVoice.label>
+	<!--                          Carriers have a guttural, harsh voice produced mostly on the throat. -->
+	<AG_GutturalVoice.description>У носителей этого гена гортанный, резкий, образующийся преимущественно в горле голос.</AG_GutturalVoice.description>
+	
+	<!--                    growling voice -->
+	<AG_GrowlingVoice.label>рычащий голос</AG_GrowlingVoice.label>
+	<!--                          Carriers have a growling and snarling voice with fearsome animalistic undertones. -->
+	<AG_GrowlingVoice.description>У носителей этого гена рычащий, злобный, с устрашающими животными нотками голос.</AG_GrowlingVoice.description>
+	
+	<!--                    hiveling voice -->
+	<AG_HivelingVoice.label>голос улья</AG_HivelingVoice.label>
+	<!--                          Carriers have high pitched insectoid voices. -->
+	<AG_HivelingVoice.description>У носителей этого гена высокий, напоминающий звуки насекомых голос.</AG_HivelingVoice.description>
+</LanguageData>

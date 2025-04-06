@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Psychic.xml-->
+	<!--                               master psychic -->
+	<AG_PsychicAbility_Masterful.label>пси-мастерство</AG_PsychicAbility_Masterful.label>
+	<!--                                     Carriers of this gene have extraordinary psychic abilities. -->
+	<AG_PsychicAbility_Masterful.description>Носители этого гена обладают невероятными пси-способностями.</AG_PsychicAbility_Masterful.description>
+	<!--                                                    Creates a constant psychic soothe that makes nearby colonists that don't have this same gene happy. -->
+	<AG_PsychicAbility_Masterful.customEffectDescriptions.0>Создаёт постоянное пси-успокоение, которое делает находящихся поблизости поселенцев без этого гена счастливыми.</AG_PsychicAbility_Masterful.customEffectDescriptions.0>
+	
+	<!--                       psychic remapping -->
+	<AG_PsychicRemapping.label>пси-перенастройка</AG_PsychicRemapping.label>
+	<!--                             Carriers of this gene have altered brain pathways, getting inverted effects from psychic drones. -->
+	<AG_PsychicRemapping.description>У носителей этого гена изменённые нейронные пути, благодаря чему они испытывают обратные эффекты от гула и умиротворения.</AG_PsychicRemapping.description>
+	<!--                                            Negative psychic drones will have positive mood effects, while positive psychic drones will have negative mood effects. -->
+	<AG_PsychicRemapping.customEffectDescriptions.0>Гул будет улучшать настроение, а умиротворение — ухудшать.</AG_PsychicRemapping.customEffectDescriptions.0>
+</LanguageData>

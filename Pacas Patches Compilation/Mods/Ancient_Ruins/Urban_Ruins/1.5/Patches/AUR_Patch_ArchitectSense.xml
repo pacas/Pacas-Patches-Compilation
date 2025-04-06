@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/MainButtonDef[defName="AM_LevelSchedule"]</xpath>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/MainButtonDef[defName="AM_LevelSchedule"]/iconPath</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/MainButtonDef[defName="AM_LevelSchedule"]</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/LevelSchedule</iconPath>
+                </value>
+            </nomatch>
+            <match Class="PatchOperationReplace">
+                <xpath>Defs/MainButtonDef[defName="AM_LevelSchedule"]/iconPath</xpath>
+                <value>
+                    <iconPath>UI/ArchitectIcons/LevelSchedule</iconPath>
+                </value>
+            </match>
+        </match>
+    </Operation>
+
+
+</Patch>

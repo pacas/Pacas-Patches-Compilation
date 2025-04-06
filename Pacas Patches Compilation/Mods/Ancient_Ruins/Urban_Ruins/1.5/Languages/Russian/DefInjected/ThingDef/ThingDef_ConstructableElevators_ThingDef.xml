@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_ConstructableElevators.xml-->
+	<!-- EN: large facility elevator -->
+	<AM_Entrance_LargeElevator.label>большой лифт</AM_Entrance_LargeElevator.label>
+	<!-- EN: A large facility elevator for personnel and vehicles to enter and exit. -->
+	<AM_Entrance_LargeElevator.description>Большой лифт для входа и выхода персонала и транспорта.</AM_Entrance_LargeElevator.description>
+	<!-- EN: Landfilling underground facilities -->
+	<AM_Entrance_LargeElevator.comps.0.gizmoName>Закопать подземное сооружение</AM_Entrance_LargeElevator.comps.0.gizmoName>
+	<!-- EN: Cancel landfill -->
+	<AM_Entrance_LargeElevator.comps.0.disgizmoName>Отменить закапывание</AM_Entrance_LargeElevator.comps.0.disgizmoName>
+	
+	<!-- EN: large facility elevator -->
+	<AM_Exit_Staircase_LargeElevator.label>большой лифт</AM_Exit_Staircase_LargeElevator.label>
+	<!-- EN: A large facility elevator for personnel and vehicles to enter and exit. -->
+	<AM_Exit_Staircase_LargeElevator.description>Большой лифт для входа и выхода персонала и транспорта.</AM_Exit_Staircase_LargeElevator.description>
+	
+	<!-- EN: Abandoned large elevator -->
+	<AM_BlockedLargeElevator.label>заброшенный большой лифт</AM_BlockedLargeElevator.label>
+	<!-- EN: Large elevators that have been abandoned and buried underground facilities are ready to be dismantled at any time. -->
+	<AM_BlockedLargeElevator.description>Большой заброшенный лифт подземного сооружения, готов к разборке в любой момент.</AM_BlockedLargeElevator.description>
+	
+	<!-- EN: material elevator -->
+	<AM_MaterialElevatorA.label>лифт для материалов</AM_MaterialElevatorA.label>
+	<!-- EN: A large transport elevator used for transporting goods will transport the goods to the linked exit elevator when powered on. Personnel are prohibited from standing! -->
+	<AM_MaterialElevatorA.description>Большой транспортный лифт, используемый для перевозки грузов, при включении доставит их к связанному с ним выходному лифту. Персоналу запрещено им пользоваться!</AM_MaterialElevatorA.description>
+	
+	<!-- EN: material elevator Outlet -->
+	<AM_MaterialElevatorB.label>лифт для материалов (Выход)</AM_MaterialElevatorB.label>
+	<!-- EN: A large elevator used for transporting materials from the entrance to here. -->
+	<AM_MaterialElevatorB.description>Большой лифт, используемый для перевозки материалов от входа сюда.</AM_MaterialElevatorB.description>
+	
+	<!-- EN: material elevator -->
+	<AM_MaterialElevatorC.label>лифт для материалов</AM_MaterialElevatorC.label>
+	<!-- EN: A large transport elevator used for transporting goods will transport the goods to the linked exit elevator when powered on. Personnel are prohibited from standing! -->
+	<AM_MaterialElevatorC.description>Большой транспортный лифт, используемый для перевозки грузов, при включении доставит их к связанному с ним выходному лифту. Персоналу запрещено им пользоваться!</AM_MaterialElevatorC.description>
+	
+	<!-- EN: material elevator Outlet -->
+	<AM_MaterialElevatorD.label>лифт для материалов (Выход)</AM_MaterialElevatorD.label>
+	<!-- EN: A large elevator used for transporting materials from the entrance to here. -->
+	<AM_MaterialElevatorD.description>Большой лифт, используемый для перевозки материалов от входа сюда.</AM_MaterialElevatorD.description>
+</LanguageData>

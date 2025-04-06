@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Apparel\Armor.xml-->
+	<!-- EN: composite assault dress -->
+	<AM_AScompFD.label>композитный штурмовой плащ</AM_AScompFD.label>
+	<!-- EN: Four bulletproof plates firmly protect the dress. Use four fourth level PE plates for protection, keeping its weight within an acceptable range. Due to being too bulky, flak vests cannot be worn anymore. Integrated with some tactical vest features, providing a bulletproof level of power armor. -->
+	<AM_AScompFD.description>Четыре пуленепробиваемые пластины надежно защищают этот плащ. Для защиты используются четыре четырёхслойные полиэтиленовые пластины, сохраняя при этом вес в допустимых пределах. Но из-за того, что бронежилеты слишком громоздкие, их больше нельзя носить. Интегрирован некоторыми функциями тактического жилета, обеспечивая уровень пуленепробиваемости силовой брони.</AM_AScompFD.description>
+	
+	<!-- EN: armored concealed rig -->
+	<AM_MK4aConcealed.label>бронированный камуфляжный комплект</AM_MK4aConcealed.label>
+	<!-- EN: A rig equipped with bulletproof armor plates. Its lightweight model can be concealed underneath an outer garment, providing effective protection for the entire upper body. -->
+	<AM_MK4aConcealed.description>Оснащен пуленепробиваемыми бронепластинами. Его лёгкую модель можно спрятать под верхней одеждой, обеспечивая эффективную защиту всей верхней части тела.</AM_MK4aConcealed.description>
+	
+	<!-- EN: armored defensive rig -->
+	<AM_MK4aDefensive.label>бронированный оборонительный комплект</AM_MK4aDefensive.label>
+	<!-- EN: A rig equipped with bulletproof armor plates. Its heavy-duty structure can provide effective protection but does not protect the legs. -->
+	<AM_MK4aDefensive.description>Оснащен пуленепробиваемыми бронепластинами. Его прочная конструкция может обеспечить эффективную защиту, но не защищает ноги.</AM_MK4aDefensive.description>
+</LanguageData>

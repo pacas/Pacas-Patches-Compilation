@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Items\Items_GeneTools.xml-->
+	<!--                alphapack -->
+	<AG_Alphapack.label>альфа-пакет</AG_Alphapack.label>
+	<!--                      A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate.\n\nAlphapacks only contain combinations of Alpha genes. -->
+	<AG_Alphapack.description>Небольшая капсула, содержащая в себе генетическую информацию. Генный пакет можно поместить в генный банк — тогда при помощи генного сборщика из него можно будет получить готовое к вживлению ксеносемя.\n\nВетшает, если хранить вне генного банка.\n\nАльфа-пакеты содержат только комбинации альфа-генов.</AG_Alphapack.description>
+	
+	<!--                mixedpack -->
+	<AG_Mixedpack.label>смешанный пакет</AG_Mixedpack.label>
+	<!--                      A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate.\n\nMixedpacks contain combinations of Alpha genes and standard genes. -->
+	<AG_Mixedpack.description>Небольшая капсула, содержащая в себе генетическую информацию. Генный пакет можно поместить в генный банк — тогда при помощи генного сборщика из него можно будет получить готовое к вживлению ксеносемя.\n\nВетшает, если хранить вне генного банка.\n\nСмешанные пакеты содержат комбинации альфа-генов и стандартных генов.</AG_Mixedpack.description>
+	
+	<!--                  gene remover -->
+	<AG_GeneRemover.label>удалитель генов</AG_GeneRemover.label>
+	<!--                        A genetic toolkit capable of removing a random gene from a human target. This removal is quite destructive, and will target a gene at random. As a result, the target will drop into a coma for 3 days. Using the remover on a colonist suffering from the coma will have no effect. -->
+	<AG_GeneRemover.description>Генетический инструмент, способный удалить случайный ген из человеческого организма. Процесс крайне разрушителен и вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_GeneRemover.description>
+	<!--                             Use gene remover -->
+	<AG_GeneRemover.comps.0.useLabel>Использовать удалитель генов</AG_GeneRemover.comps.0.useLabel>
+	
+	<!--                   endogenefier -->
+	<AG_Endogenefier.label>эндогенефикатор</AG_Endogenefier.label>
+	<!--                         A genetic toolkit capable of converting a random xenogene from a human target into an endogene. As a result, the target will drop into a coma for 3 days. Using the endogenefier on a colonist suffering from the coma will have no effect. -->
+	<AG_Endogenefier.description>Генетический инструмент, способный преобразовывать случайный ксеноген в эндоген. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_Endogenefier.description>
+	<!--                              Use endogenefier -->
+	<AG_Endogenefier.comps.0.useLabel>Использовать эндогенефикатор</AG_Endogenefier.comps.0.useLabel>
+	
+	<!--                   xenogenefier -->
+	<AG_Xenogenefier.label>ксеногенефикатор</AG_Xenogenefier.label>
+	<!--                         A genetic toolkit capable of converting a random endogene from a human target into a xenogene. As a result, the target will drop into a coma for 3 days. Using the xenogenefier on a colonist suffering from the coma will have no effect. -->
+	<AG_Xenogenefier.description>Генетический инструмент, способный преобразовывать случайный эндоген в ксеноген. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_Xenogenefier.description>
+	<!--                              Use xenogenefier -->
+	<AG_Xenogenefier.comps.0.useLabel>Использовать ксеногенефикатор</AG_Xenogenefier.comps.0.useLabel>
+	
+	<!--                        xenotype nullifier -->
+	<AG_XenotypeNullifier.label>обнулитель ксенотипа</AG_XenotypeNullifier.label>
+	<!--                              A genetic toolkit capable of forcefully removing all xenotype genes from the target, reverting them to baseline humanity. As a result, the target will drop into a coma for 3 days. Using the nullifier on a colonist suffering from the coma will have no effect. -->
+	<AG_XenotypeNullifier.description>Генетический инструмент, способный насильственно удалить все гены ксенотипа у цели, вернув её к базовому человеческому состоянию. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_XenotypeNullifier.description>
+	<!--                                   Use xenotype nullifier -->
+	<AG_XenotypeNullifier.comps.0.useLabel>Использовать аннулификатор ксенотипа</AG_XenotypeNullifier.comps.0.useLabel>
+	
+	<!--                       xenotype injector -->
+	<AG_XenotypeInjector.label>инъектор ксенотипа</AG_XenotypeInjector.label>
+	<!--                             A genetic toolkit capable of forcefully removing all genes from the target, both germline and xenogenes, and replacing them with a random xenotype. As a result, the target will drop into a coma for 3 days. Using the injector on a colonist suffering from the coma will have no effect. -->
+	<AG_XenotypeInjector.description>Генетический инструмент, способный насильственно удалить все гены цели, как наследуемые гены, так и ксеногены, заменив их случайным ксенотипом. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_XenotypeInjector.description>
+	<!--                                  Use xenotype injector -->
+	<AG_XenotypeInjector.comps.0.useLabel>Использовать инъектор ксенотипа</AG_XenotypeInjector.comps.0.useLabel>
+	
+	<!--                      germline mutator -->
+	<AG_GermlineMutator.label>мутатор наследуемых генов</AG_GermlineMutator.label>
+	<!--                            A genetic toolkit capable of causing random genetic mutations on the subject's germline, producing one random endogene. As a result, the target will drop into a coma for 3 days. Using the mutator on a colonist suffering from the coma will have no effect. -->
+	<AG_GermlineMutator.description>Генетический инструмент, вызывающий случайные мутации наследуемых генов цели, создавая один случайный эндоген. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_GermlineMutator.description>
+	<!--                                 Use germline mutator -->
+	<AG_GermlineMutator.comps.0.useLabel>Использовать мутатор наследуемых генов</AG_GermlineMutator.comps.0.useLabel>
+	
+	<!--                      genepack tweaker -->
+	<AG_GenepackTweaker.label>модификатор геного пакета</AG_GenepackTweaker.label>
+	<!--                            A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, adding a new, random gene to it. The targetted genepack must have 3 or less genes inside it, and this process won't add new archite genes to it. -->
+	<AG_GenepackTweaker.description>Генетический инструмент, позволяющий добавить новый случайный ген в существующий геный пакет, альфа-пакет или смешанный пакет. Целевой геный пакет должен содержать не более 3 генов, и этот процесс не добавит в него новые архитные гены.</AG_GenepackTweaker.description>
+	<!--                                 Use genepack tweaker -->
+	<AG_GenepackTweaker.comps.0.useLabel>Использовать модификатор геного пакета</AG_GenepackTweaker.comps.0.useLabel>
+	
+	<!--                        genepack disruptor -->
+	<AG_GenepackDisruptor.label>разрушитель геного пакета</AG_GenepackDisruptor.label>
+	<!--                              A genetic toolkit capable of acting upon an existing genepack, alphapack or mixedpack, deleting a random gene present on it. The targetted genepack must have 2 or more genes inside it. -->
+	<AG_GenepackDisruptor.description>Генетический инструмент, позволяющий удалить случайный ген из существующего геного пакета, альфа-пакета или смешанного пакета. Целевой геный пакет должен содержать минимум 2 гена.</AG_GenepackDisruptor.description>
+	<!--                                   Use genepack disruptor -->
+	<AG_GenepackDisruptor.comps.0.useLabel>Использовать деструктор гено-паков</AG_GenepackDisruptor.comps.0.useLabel>
+	
+	<!--                       archotech gene remover -->
+	<AG_ArchoGeneRemover.label>архотек-удалитель генов</AG_ArchoGeneRemover.label>
+	<!--                             A genetic toolkit capable of removing a specific gene from a human target. This removal is quite destructive, and as a result, the target will drop into a coma for 3 days. Using the remover on a colonist suffering from the coma will have no effect. -->
+	<AG_ArchoGeneRemover.description>Генетический инструмент, позволяющий удалить определённый ген у человеческой цели. Этот процесс довольно разрушителен, и в результате цель впадёт в кому на 3 дня. Использование инструмента на поселенце, находящемся в коме, не даст эффекта.</AG_ArchoGeneRemover.description>
+	<!--                                  Use archotech gene remover -->
+	<AG_ArchoGeneRemover.comps.0.useLabel>Использовать архотек-удалитель генов</AG_ArchoGeneRemover.comps.0.useLabel>
+	
+	<!--                        archotech endogenefier -->
+	<AG_ArchoEndogenefier.label>архотек-эндогенефикатор</AG_ArchoEndogenefier.label>
+	<!--                              A genetic toolkit capable of converting a specific xenogene from a human target into an endogene. As a result, the target will drop into a coma for 3 days. Using the archotech endogenefier on a colonist suffering from the coma will have no effect. -->
+	<AG_ArchoEndogenefier.description>Генетический инструмент, позволяющий преобразовывать определённый ксеноген у человеческой цели в эндоген. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_ArchoEndogenefier.description>
+	<!--                                   Use archotech endogenefier -->
+	<AG_ArchoEndogenefier.comps.0.useLabel>Использовать архотек-эндогенефикатор</AG_ArchoEndogenefier.comps.0.useLabel>
+	
+	<!--                        archotech xenogenefier -->
+	<AG_ArchoXenogenefier.label>архотек-ксеногенефикатор</AG_ArchoXenogenefier.label>
+	<!--                              A genetic toolkit capable of converting a specific endogene from a human target into a xenogene. As a result, the target will drop into a coma for 3 days. Using the archotech xenogenefier on a colonist suffering from the coma will have no effect. -->
+	<AG_ArchoXenogenefier.description>Генетический инструмент, преобразующий определённый эндоген у человеческой цели в ксеноген. Этот процесс вызывает кому продолжительностью в 3 дня. Использование этого устройства на поселенце, уже находящемся в коме, не даст никакого эффекта.</AG_ArchoXenogenefier.description>
+	<!--                                   Use archotech xenogenefier -->
+	<AG_ArchoXenogenefier.comps.0.useLabel>Использовать архотек-ксеногенефикатор</AG_ArchoXenogenefier.comps.0.useLabel>
+</LanguageData>

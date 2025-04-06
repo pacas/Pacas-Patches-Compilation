@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Items\Items_Resource_Eggs.xml-->
+	<!--               human egg (fert.) -->
+	<AG_HumanEgg.label>человеческое яйцо (опл.)</AG_HumanEgg.label>
+	<!--                     Fertilized human egg. If all goes well, it should hatch into a human. Must be kept between 0 and 50 ºC. -->
+	<AG_HumanEgg.description>Оплодотворённое человеческое яйцо. Если всё пойдёт хорошо, в скором времени из него вылупится человек. Необходимо поддерживать температуру от 0 до 50 ºC.</AG_HumanEgg.description>
+</LanguageData>

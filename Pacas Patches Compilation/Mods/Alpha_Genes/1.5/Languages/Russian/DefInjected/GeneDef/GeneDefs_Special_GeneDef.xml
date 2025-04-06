@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Special.xml-->
+	<!--                         randomizer -->
+	<AlphaGenes_Randomizer.label>рандомизатор</AlphaGenes_Randomizer.label>
+	<!--                               Once a pawn receives this gene, it will transform its xenotype into one of the custom xenotypes made by the player. -->
+	<AlphaGenes_Randomizer.description>После получения этого гена ксенотип персонажа изменится на один из пользовательских ксенотипов, созданных игроком.</AlphaGenes_Randomizer.description>
+	
+	<!--                             exotic organism -->
+	<AlphaGenes_ExoticOrganism.label>экзотический организм</AlphaGenes_ExoticOrganism.label>
+	<!--                                   Once a custom player created xenotype receives this gene, that xenotype will never be automatically loaded into the two factions added by this mod. -->
+	<AlphaGenes_ExoticOrganism.description>После получения этого гена, пользовательский ксенотип больше не будет автоматически добавляться в состав двух фракций, добавленных этим модом.</AlphaGenes_ExoticOrganism.description>
+</LanguageData>

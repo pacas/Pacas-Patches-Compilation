@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Misc\Armors.xml-->
+	<!--                    forsaken hood -->
+	<AG_Forsaken_Hood.label>капюшон забытых</AG_Forsaken_Hood.label>
+	<!--                          This Forsaken-style hood gives protection, while helping the wearer keep calm and focused. -->
+	<AG_Forsaken_Hood.description>Капюшон, выполненный в стиле забытых. Обеспечивает защиту и помогает носителю сохранять спокойствие и концентрацию.</AG_Forsaken_Hood.description>
+	
+	<!--                          forsaken kid hood -->
+	<AG_Forsaken_Hood_Child.label>детский капюшон забытых</AG_Forsaken_Hood_Child.label>
+	<!--                                This Forsaken-style hood gives protection, while helping the wearer keep calm and focused. -->
+	<AG_Forsaken_Hood_Child.description>Капюшон, выполненный в стиле забытых. Обеспечивает защиту и помогает носителю сохранять спокойствие и концентрацию.</AG_Forsaken_Hood_Child.description>
+	
+	<!--                          This cloak has been fabricated by Forsaken for all of their hunting needs. -->
+	<AG_ForsakenCloak.description>Плащ, изготовленный забытыми для их охотничьих нужд.</AG_ForsakenCloak.description>
+	<!--                    forsaken cloak -->
+	<AG_ForsakenCloak.label>плащ забытых</AG_ForsakenCloak.label>
+	
+	<!--                                This cloak has been fabricated by Forsaken for all of their hunting needs. -->
+	<AG_ForsakenCloak_Child.description>Плащ, изготовленный забытыми для их охотничьих нужд.</AG_ForsakenCloak_Child.description>
+	<!--                          forsaken kid cloak -->
+	<AG_ForsakenCloak_Child.label>детский плащ забытых</AG_ForsakenCloak_Child.label>
+	
+	<!--                           forsaken helmet -->
+	<AG_ForsakenMarineHelmet.label>шлем забытых</AG_ForsakenMarineHelmet.label>
+	<!--                                 An ultratech Forsaken helmet designed for combat. Extremely durable and heightens focus. -->
+	<AG_ForsakenMarineHelmet.description>Ультратехнологичный шлем забытых, предназначенный для боевых действий. Обладает высокой прочностью и усиливает концентрацию.</AG_ForsakenMarineHelmet.description>
+	
+	<!--                              forsaken psycaster helmet -->
+	<AG_ForsakenMarineHelmetPsy.label>пси-шлем забытых</AG_ForsakenMarineHelmetPsy.label>
+	<!--                                    An ultratech Forsaken helmet designed for combat. Extremely durable and heightens focus. This particular design enhances psycic sensitivity instead of suppressing it. -->
+	<AG_ForsakenMarineHelmetPsy.description>Ультратехнологичный шлем забытых, предназначенный для боевых действий. Обладает высокой прочностью и усиливает концентрацию. Этот конкретный дизайн усиливает пси-чувствительность, а не подавляет её.</AG_ForsakenMarineHelmetPsy.description>
+	
+	<!--                          forsaken armor -->
+	<AG_ForsakenMarineArmor.label>броня забытых</AG_ForsakenMarineArmor.label>
+	<!--                                An ultratech Forsaken armor designed for combat. Extremely durable and comfortable. -->
+	<AG_ForsakenMarineArmor.description>Ультратехнологичная броня забытых, предназначенная для ведения боевых действий. Обладает высокой прочностью и комфортом.</AG_ForsakenMarineArmor.description>
+</LanguageData>

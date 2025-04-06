@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Misc\Projectiles.xml-->
+	<!--            mineral clump -->
+	<AG_Rocks.label>минеральный сгусток</AG_Rocks.label>
+	<!--          web -->
+	<AG_Web.label>паутина</AG_Web.label>
+	<!--                             sterilizing foam -->
+	<AG_SterilizingBreath_Proj.label>стерилизующая пена</AG_SterilizingBreath_Proj.label>
+	<!--                    sonic burst -->
+	<AG_BansheeScream.label>звуковой взрыв</AG_BansheeScream.label>
+	<!--                          freezing breath -->
+	<AG_FreezingBreath_Proj.label>ледяное дыхание</AG_FreezingBreath_Proj.label>
+	<!--                         noxious breath -->
+	<AG_NoxiousBreath_Proj.label>зловонное дыхание</AG_NoxiousBreath_Proj.label>
+</LanguageData>

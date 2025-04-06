@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_EmptyPackage.xml-->
+	<!-- EN: large backpack -->
+	<AM_LargeBackpack_Decoration.label>большой рюкзак</AM_LargeBackpack_Decoration.label>
+	<!-- EN: an oversized military backpack that is already broken. -->
+	<AM_LargeBackpack_Decoration.description>огромный военный рюкзак, который уже порван.</AM_LargeBackpack_Decoration.description>
+	
+	<!-- EN: LBT -->
+	<AM_LBT_Decoration.label>медицинская сумка</AM_LBT_Decoration.label>
+	<!-- EN: The medical supplies backpack is broken. -->
+	<AM_LBT_Decoration.description>Рюкзак с медикаментами, порван.</AM_LBT_Decoration.description>
+	
+	<!-- EN: MBSS -->
+	<AM_MBSS_Decoration.label>военный рюкзак</AM_MBSS_Decoration.label>
+	<!-- EN: The small military backpack is broken. -->
+	<AM_MBSS_Decoration.description>Маленький военный рюкзак, сломан.</AM_MBSS_Decoration.description>
+	
+	<!-- EN: Postman shoulder bag -->
+	<AM_PostmanShoulderBag_Decoration.label>Почтовая сумка через плечо</AM_PostmanShoulderBag_Decoration.label>
+	<!-- EN: The postman's small shoulder bag is already broken. -->
+	<AM_PostmanShoulderBag_Decoration.description>Маленькая сумка почтальона через плечо, уже порвана.</AM_PostmanShoulderBag_Decoration.description>
+	
+	<!-- EN: Scav bag -->
+	<AM_Scav_Decoration.label>сумка для мусора</AM_Scav_Decoration.label>
+	<!-- EN: The backpack made by the scavenger is broken. -->
+	<AM_Scav_Decoration.description>Рюкзак, сделанный мусорщиком, порван.</AM_Scav_Decoration.description>
+	
+	<!-- EN: Sports bag -->
+	<AM_SportsBag_Decoration.label>спортивная сумка</AM_SportsBag_Decoration.label>
+	<!-- EN: The sports bag is already broken. -->
+	<AM_SportsBag_Decoration.description>Спортивная сумка, уже сломана.</AM_SportsBag_Decoration.description>
+	
+	<!-- EN: Travel bag -->
+	<AM_TravelBag_Decoration.label>дорожная сумка</AM_TravelBag_Decoration.label>
+	<!-- EN: The oversized and eye-catching purple travel bag is already broken. -->
+	<AM_TravelBag_Decoration.description>Огромная и привлекательная фиолетовая дорожная сумка, уже порвана.</AM_TravelBag_Decoration.description>
+	
+	<!-- EN: Burger paper bag -->
+	<AM_BurgerPaperBag.label>бумажный пакет для бургера</AM_BurgerPaperBag.label>
+	<!-- EN: Paper bags from fried chicken restaurants. -->
+	<AM_BurgerPaperBag.description>Бумажный пакет из ресторана жареной курицы.</AM_BurgerPaperBag.description>
+	
+	<!-- EN: Burger paper box -->
+	<AM_BurgerPaperBox.label>бумажная коробка для бургера</AM_BurgerPaperBox.label>
+	<!-- EN: Paper box from fried chicken restaurants. -->
+	<AM_BurgerPaperBox.description>Бумажная коробка из ресторана жареной курицы.</AM_BurgerPaperBox.description>
+</LanguageData>

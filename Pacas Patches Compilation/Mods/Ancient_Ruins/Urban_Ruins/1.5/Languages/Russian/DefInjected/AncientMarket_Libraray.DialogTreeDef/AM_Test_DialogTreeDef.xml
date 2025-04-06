@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Dialog\AM_Test.xml-->
+	<!-- EN: DefaultDialogKey -->
+	<AM_Test.title>DefaultDialogKey</AM_Test.title>
+	<!-- EN: DD -->
+	<AM_Test.nodeMoulds.0.value.text>DD</AM_Test.nodeMoulds.0.value.text>
+	<!-- EN: Yes -->
+	<AM_Test.nodeMoulds.0.value.options.0.text>Yes</AM_Test.nodeMoulds.0.value.options.0.text>
+	<!-- EN: No -->
+	<AM_Test.nodeMoulds.0.value.options.1.text>No</AM_Test.nodeMoulds.0.value.options.1.text>
+</LanguageData>

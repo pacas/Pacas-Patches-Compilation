@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Moods.xml-->
+	<!--                   volatile -->
+	<AG_VolatileMood.label>нестабильное настроение</AG_VolatileMood.label>
+	<!--                         Carriers of this gene get random mood changes every day. -->
+	<AG_VolatileMood.description>Носители этого гена ежедневно испытывают случайные изменения настроения.</AG_VolatileMood.description>
+	<!--                                        Mood will oscillate daily between -10 and +10. -->
+	<AG_VolatileMood.customEffectDescriptions.0>Настроение будет колебаться ежедневно в пределах от -10 до +10.</AG_VolatileMood.customEffectDescriptions.0>
+</LanguageData>

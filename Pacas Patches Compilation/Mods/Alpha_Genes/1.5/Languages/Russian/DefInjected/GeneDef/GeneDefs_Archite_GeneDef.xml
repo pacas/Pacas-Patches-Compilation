@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+     <!--               foodless -->
+	<AG_Foodless.label>архитный метаболизм</AG_Foodless.label>
+	<!--                     Carriers of this gene have archites in the blood which will sustain their metabolism without needing to consume food. -->
+	<AG_Foodless.description>У носителей этого гена в крови содержатся архиты, которые поддерживают метаболизм, позволяя обходиться без пищи.</AG_Foodless.description>
+	<!--                                    Reduces the need to eat to be almost negligible (not entirely zero to avoid weird mod interactions) -->
+	<AG_Foodless.customEffectDescriptions.0>Снижает потребность в пище до минимального уровня (но не до полного нуля, чтобы избежать потенциальных ошибок при взаимодействии с модами).</AG_Foodless.customEffectDescriptions.0>
+	
+	<!--                     unfeeling -->
+	<AG_Mood_Unfeeling.label>безчувственность</AG_Mood_Unfeeling.label>
+	<!--                           Carriers of this gene have no emotions. -->
+	<AG_Mood_Unfeeling.description>Носители этого гена лишены эмоций.</AG_Mood_Unfeeling.description>
+	<!--                                          This gene hasn't been 100% tested and I bet it breaks some things. weeeee! -->
+	<AG_Mood_Unfeeling.customEffectDescriptions.0>Этот ген не был полностью протестирован, и наверняка он ломает некоторые вещи. Уиии!</AG_Mood_Unfeeling.customEffectDescriptions.0>
+	
+	<!--                     asexual fission -->
+	<AG_AsexualFission.label>бесполое размножение</AG_AsexualFission.label>
+	<!--                           Carriers of this gene will periodically generate small clumps of organic matter on their backs that gradually develop into full human beings, and separate from their host / parent via a process of strobilation. This will provide an endless source of new colonists, at the risk of flooding the colony with newborns. -->
+	<AG_AsexualFission.description>Носители этого гена будут периодически образовывать на своей спине небольшие сгустки органического вещества, которые со временем превращаются в полноценного человека. Эти новорожденные отделяются от носителя/родителя через процесс стробиляции. Это может стать неиссякаемым источником новых поселенцев, однако существует риск переполнения поселения многочисленными новорожденными.</AG_AsexualFission.description>
+	<!--                                          Will produce newborns via asexual fission every 25 days -->
+	<AG_AsexualFission.customEffectDescriptions.0>Каждые 25 дней образует новорожденных путем бесполого размножения</AG_AsexualFission.customEffectDescriptions.0>
+	
+	<!--                   regeneration -->
+	<AG_Regeneration.label>регенерация</AG_Regeneration.label>
+	<!--                         Carriers of this gene have a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest. -->
+	<AG_Regeneration.description>Носители этого гена обладают распределенной сетью специализированных механитов в кровеносной системе, которые периодически обрабатывают внутренние повреждения, восстанавливая их без необходимости в отдыхе.</AG_Regeneration.description>
+	<!--                                        A random wound is reduced by 0.1 severity every 300 ticks (5 real world seconds). -->
+	<AG_Regeneration.customEffectDescriptions.0>Каждые 300 тиков (5 секунд реального времени) случайная рана восстанавливается на 0,1.</AG_Regeneration.customEffectDescriptions.0>
+	
+	<!--                   heat immunity -->
+	<AG_HeatImmunity.label>невосприимчивость к теплу</AG_HeatImmunity.label>
+	<!--                         Carriers of this gene are almost unaffected by heat. They will also not be bothered by flames, and they can't catch on fire. -->
+	<AG_HeatImmunity.description>Носители этого гена почти не подвержены воздействию жары. Они не страдают от воздействия огня и не могут загореться.</AG_HeatImmunity.description>
+	
+	<!--                   cold immunity -->
+	<AG_ColdImmunity.label>невосприимчивость к холоду</AG_ColdImmunity.label>
+	<!--                         Carriers of this gene are almost unaffected by cold. They will be simultaneously not bothered by frostbite. -->
+	<AG_ColdImmunity.description>Носители этого гена почти не подвержены воздействию холода и не страдают от обморожений.</AG_ColdImmunity.description>
+	
+	<!--                           superadaptive biology -->
+	<AG_SuperAdaptiveBiology.label>сверхадаптивная биология</AG_SuperAdaptiveBiology.label>
+	<!--                                 Carriers of this gene can completely change their very own personality, getting rid of old traits and gaining new ones. -->
+	<AG_SuperAdaptiveBiology.description>Носители этого гена могут кардинально изменить свою личность, избавляясь от старых черт и принимая новые.</AG_SuperAdaptiveBiology.description>
+	<!--                                                Ability removes five random traits (or all of them if the pawn has fewer than 5), and adds five new, random ones. -->
+	<AG_SuperAdaptiveBiology.customEffectDescriptions.0>Эта способность удаляет пять случайных черт (или все, если их меньше пяти) и добавляет пять новых, случайных.</AG_SuperAdaptiveBiology.customEffectDescriptions.0>
+	<!--                                                But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted) -->
+	<AG_SuperAdaptiveBiology.customEffectDescriptions.1>«Но мои любимые черты из модов!» Хаха, нет, хаос, говорю я. (за исключением черт брони мертвеца, они в чёрном списке)</AG_SuperAdaptiveBiology.customEffectDescriptions.1>
+</LanguageData>

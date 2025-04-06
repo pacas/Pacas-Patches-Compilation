@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Misc.xml-->
+	<!--                     heavily scarred -->
+	<AG_HeavilyScarred.label>серьёзные шрамы</AG_HeavilyScarred.label>
+	<!--                           Carriers of this gene have prominent scars on their faces, as if their skin had been cut and put together again. -->
+	<AG_HeavilyScarred.description>Носители этого гена обладают выраженными шрамами на лице, напоминающими следы от порезов, которые затем были сшиты заново.</AG_HeavilyScarred.description>
+	
+	<!--                    chainsaw hands -->
+	<AG_ChainsawHands.label>руки-бензопилы</AG_ChainsawHands.label>
+	<!--                          Carriers of this gene have chainsaws for hands. "Akkkkssstually -you say- those would be better implemented as implants, not a gene!". No, no, you misunderstand: these are biological, DNA codified chainsaw hands. Children of two people with chainsaw hands will have itty bitty chainsaw hands. It's science. -->
+	<AG_ChainsawHands.description>Носители этого гена обладают бензопилами вместо рук. "На саааамом деле, -скажете вы-, лучше бы это были протезы, а не генетическая особенность!". Но, нет, вы не поняли: это биологические, закодированные в ДНК руки-бензопилы. Дети людей с такими руками будут рождаться с маленькими бензопилами вместо обычных ручек. Это же наука!</AG_ChainsawHands.description>
+	
+	<!--                   scyther blades -->
+	<AG_ScytherHands.label>клинки жнеца</AG_ScytherHands.label>
+	<!--                         Carriers of this gene have scyther blades on their arms. These are not implants, but a biomechanical adaptation that has fused mechanites with the carrier's DNA to create the blades out of their own bone tissues. They don't completely replace the hands, so the carrier keeps their manipulation capacities mostly intact. -->
+	<AG_ScytherHands.description>Носители этого гена обладают клинками жнеца, встроенными в их руки. Это не искусственные протезы, а биомеханическая адаптация, где механиты слились с ДНК носителя, формируя лезвия из его костных тканей. При этом руки остаются функциональными, что позволяет носителю выполнять обычные задачи.</AG_ScytherHands.description>
+	
+	<!--               crab claw -->
+	<AG_CrabClaw.label>крабовая клешня</AG_CrabClaw.label>
+	<!--                     Carriers of this gene have one of their arms mutated into a gigantic crab claw. This claw is surprisingly dexterous and doesn't impede the person's manipulation. -->
+	<AG_CrabClaw.description>Носители этого гена обладают мутацией, превратившей одну из их рук в огромную крабовую клешню. Несмотря на свои размеры, клешня удивительно ловкая и не мешает носителю выполнять повседневные задачи.</AG_CrabClaw.description>
+	<!--                                    Why? Because. -->
+	<AG_CrabClaw.customEffectDescriptions.0>Почему? Потому.</AG_CrabClaw.customEffectDescriptions.0>
+
+	
+	<!--                    body tentacles -->
+	<AG_BodyTentacles.label>телесные щупальца</AG_BodyTentacles.label>
+	<!--                          Carriers of this gene have a mass of writhing tentacles sprouting from their back. -->
+	<AG_BodyTentacles.description>Носители этого гена обладают множеством извивающихся щупалец, произрастающих из их спины.</AG_BodyTentacles.description>
+	
+	<!--                proboscis -->
+	<AG_Proboscis.label>хоботок</AG_Proboscis.label>
+	<!--                      Carriers of this gene grow a large proboscis protruding from their jaw. -->
+	<AG_Proboscis.description>Носители этого гена обладают крупным хоботком, выступающим из области челюсти.</AG_Proboscis.description>
+	
+	<!--                   fungal clumps -->
+	<AG_FungalClumps.label>грибные скопления</AG_FungalClumps.label>
+	<!--                         Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over light clothing and armors. -->
+	<AG_FungalClumps.description>Носители этого гена обладают токсичными грибами, растущими по всему туловищу. Эти грибы настолько агрессивны, что способны прорастать даже сквозь легкую одежду и броню.</AG_FungalClumps.description>
+	
+	<!--                   fungal sprout -->
+	<AG_FungalSprout.label>грибной отросток</AG_FungalSprout.label>
+	<!--                         Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled pustules. -->
+	<AG_FungalSprout.description>Носители этого гена обладают штаммом злокачественных грибов, прорастающих из верхней части туловища и образующих наполненные кровью гнойники.</AG_FungalSprout.description>
+	
+	<!--                      fungal tentacles -->
+	<AG_FungalTentacles.label>грибные щупальца</AG_FungalTentacles.label>
+	<!--                            Carriers of this gene have a strain of virulent fungi that has braided itself into sickly looking tentacles that constantly twitch and move. -->
+	<AG_FungalTentacles.description>Носители этого гена обладают штаммом злокачественного грибка, покрытого извивающимися болезненными щупальцами, которые непрерывно дергаются и двигаются.</AG_FungalTentacles.description>
+</LanguageData>

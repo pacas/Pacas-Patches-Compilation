@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_WeatherCausers.xml-->
+	<!--             fogger -->
+	<AG_Fogger.label>образователь тумана</AG_Fogger.label>
+	<!--                   A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of influencing the humidity levels of the surrounding atmosphere, causing a deep, thick fog to coalesce around. -->
+	<AG_Fogger.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно изменять уровень влажности в атмосфере, образуя густой и плотный туман.</AG_Fogger.description>
+	<!--                                  Causes a foggy weather to be always present around this person -->
+	<AG_Fogger.customEffectDescriptions.0>Постоянно вызывает туманную погоду вокруг носителя</AG_Fogger.customEffectDescriptions.0>
+	<!--                                  Nanomachines, son! -->
+	<AG_Fogger.customEffectDescriptions.1>Наномашины, сынок!</AG_Fogger.customEffectDescriptions.1>
+	
+	<!--                rainmaker -->
+	<AG_RainMaker.label>образователь осадков</AG_RainMaker.label>
+	<!--                      A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation. -->
+	<AG_RainMaker.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно резко понижать атмосферное давление, вызывая постоянные осадки.</AG_RainMaker.description>
+	<!--                                     Causes rainy weather to be always present around this person -->
+	<AG_RainMaker.customEffectDescriptions.0>Постоянно вызывает дождливую погоду вокруг носителя</AG_RainMaker.customEffectDescriptions.0>
+	
+	<!--                     foggy rainmaker -->
+	<AG_FoggyRainMaker.label>образователь дождя с туманом</AG_FoggyRainMaker.label>
+	<!--                           A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around, causing constant precipitation and a deep, thick fog to coalesce. -->
+	<AG_FoggyRainMaker.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно резко понижать атмосферное давление, вызывая постоянные осадки и образуя густой, плотный тумана.</AG_FoggyRainMaker.description>
+	<!--                                          Causes foggy rain weather to be always present around this person -->
+	<AG_FoggyRainMaker.customEffectDescriptions.0>Постоянно вызывает дождливую туманную погоду вокруг носителя</AG_FoggyRainMaker.customEffectDescriptions.0>
+	
+	<!--                             rainy thundermaker -->
+	<AG_RainyThunderstormMaker.label>образователь гроз</AG_RainyThunderstormMaker.label>
+	<!--                                   A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically increasing electrostatic energy and lowering atmospheric pressure, causing a violent rainy thunderstorm to form. -->
+	<AG_RainyThunderstormMaker.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно значительно увеличивать электростатическую энергию и снижать атмосферное давление, вызывая формирование сильной грозы с дождем.</AG_RainyThunderstormMaker.description>
+	<!--                                                  Causes rainy thunderstorm weather to be always present around this person -->
+	<AG_RainyThunderstormMaker.customEffectDescriptions.0>Постоянно вызывает дождевую грозу вокруг носителя</AG_RainyThunderstormMaker.customEffectDescriptions.0>
+	
+	<!--                           thundermaker -->
+	<AG_DryThunderstormMaker.label>образователь сухих гроз</AG_DryThunderstormMaker.label>
+	<!--                                 A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically increasing electrostatic energy in the atmosphere, causing a violent dry thunderstorm to form. This does not make the carrier immune to lightning strikes! -->
+	<AG_DryThunderstormMaker.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно значительно увеличивать электростатическую энергию в атмосфере, вызывая формирование сильной сухой грозы. Однако это не делает носителя невосприимчивым к ударам молнии!</AG_DryThunderstormMaker.description>
+	<!--                                                Causes dry thunderstorm weather to be always present around this person -->
+	<AG_DryThunderstormMaker.customEffectDescriptions.0>Постоянно вызывает сухую грозу вокруг носителя</AG_DryThunderstormMaker.customEffectDescriptions.0>
+	<!--                                                I hope you like fire! -->
+	<AG_DryThunderstormMaker.customEffectDescriptions.1>Надеюсь, тебе нравится огонь!</AG_DryThunderstormMaker.customEffectDescriptions.1>
+	<!--                                                In classic RimWorld shenanigans, fires will eventually trigger rain, which will eventually turn again into a dry thunderstorm, in a never ending circle of fuckery. Ahhh, nature! -->
+	<AG_DryThunderstormMaker.customEffectDescriptions.2>В лучших традициях RimWorld, пожары в конце концов приведут к дождю, который вскоре сменится сухой грозой, порождая бесконечный цикл хаоса. Ах, эта природа!</AG_DryThunderstormMaker.customEffectDescriptions.2>
+	
+	<!--                snow maker -->
+	<AG_SnowMaker.label>образователь снега</AG_SnowMaker.label>
+	<!--                      A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering temperature in the upper atmosphere, causing snow to fall. -->
+	<AG_SnowMaker.description>Распределённое облако механитов, встроенное в ДНК носителей этого гена, способно резко понижать температуру в верхних слоях атмосферы, вызывая снегопад.</AG_SnowMaker.description>
+	<!--                                     Causes snowy weather to be always present around this person -->
+	<AG_SnowMaker.customEffectDescriptions.0>Постоянно вызывает снежную погоду вокруг носителя</AG_SnowMaker.customEffectDescriptions.0>
+</LanguageData>

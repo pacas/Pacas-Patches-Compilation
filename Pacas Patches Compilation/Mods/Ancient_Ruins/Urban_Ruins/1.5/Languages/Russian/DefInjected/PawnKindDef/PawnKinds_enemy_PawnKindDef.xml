@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\PawnKindDefs\PawnKinds_enemy.xml-->
+	<!-- EN: megascarab -->
+	<AM_Megascarab.label>мегаскарабей</AM_Megascarab.label>
+	<!-- EN: Plural megascarab -->
+	<AM_Megascarab.lifeStages.0.labelPlural>мегаскарабеи</AM_Megascarab.lifeStages.0.labelPlural>
+	<!-- EN: Male megascarab -->
+	<AM_Megascarab.lifeStages.0.labelMale>мегасракабей</AM_Megascarab.lifeStages.0.labelMale>
+	<!-- EN: Female megascarab -->
+	<AM_Megascarab.lifeStages.0.labelFemale>мегаскарабей</AM_Megascarab.lifeStages.0.labelFemale>
+	<!-- EN: Male Plural megascarab -->
+	<AM_Megascarab.lifeStages.0.labelMalePlural>мегаскарабеи</AM_Megascarab.lifeStages.0.labelMalePlural>
+	<!-- EN: Female Plural megascarab -->
+	<AM_Megascarab.lifeStages.0.labelFemalePlural>мегаскарабеи</AM_Megascarab.lifeStages.0.labelFemalePlural>
+	<!-- EN: Plural megascarab -->
+	<AM_Megascarab.lifeStages.1.labelPlural>мегаскарабеи</AM_Megascarab.lifeStages.1.labelPlural>
+	<!-- EN: Male megascarab -->
+	<AM_Megascarab.lifeStages.1.labelMale>мегасракабей</AM_Megascarab.lifeStages.1.labelMale>
+	<!-- EN: Female megascarab -->
+	<AM_Megascarab.lifeStages.1.labelFemale>мегаскарабей</AM_Megascarab.lifeStages.1.labelFemale>
+	<!-- EN: Male Plural megascarab -->
+	<AM_Megascarab.lifeStages.1.labelMalePlural>мегаскарабеи</AM_Megascarab.lifeStages.1.labelMalePlural>
+	<!-- EN: Female Plural megascarab -->
+	<AM_Megascarab.lifeStages.1.labelFemalePlural>мегаскарабеи</AM_Megascarab.lifeStages.1.labelFemalePlural>
+	<!-- EN: Plural megascarab -->
+	<AM_Megascarab.lifeStages.2.labelPlural>мегаскарабеи</AM_Megascarab.lifeStages.2.labelPlural>
+	<!-- EN: Male megascarab -->
+	<AM_Megascarab.lifeStages.2.labelMale>мегасракабей</AM_Megascarab.lifeStages.2.labelMale>
+	<!-- EN: Female megascarab -->
+	<AM_Megascarab.lifeStages.2.labelFemale>мегаскарабей</AM_Megascarab.lifeStages.2.labelFemale>
+	<!-- EN: Male Plural megascarab -->
+	<AM_Megascarab.lifeStages.2.labelMalePlural>мегаскарабеи</AM_Megascarab.lifeStages.2.labelMalePlural>
+	<!-- EN: Female Plural megascarab -->
+	<AM_Megascarab.lifeStages.2.labelFemalePlural>мегаскарабеи</AM_Megascarab.lifeStages.2.labelFemalePlural>
+	
+	<!-- EN: spelopede -->
+	<AM_Spelopede.label>пещерный жук</AM_Spelopede.label>
+	<!-- EN: Plural spelopede -->
+	<AM_Spelopede.lifeStages.0.labelPlural>пещерные жуки</AM_Spelopede.lifeStages.0.labelPlural>
+	<!-- EN: Male spelopede -->
+	<AM_Spelopede.lifeStages.0.labelMale>пещерный жук</AM_Spelopede.lifeStages.0.labelMale>
+	<!-- EN: Female spelopede -->
+	<AM_Spelopede.lifeStages.0.labelFemale>пещерный жук</AM_Spelopede.lifeStages.0.labelFemale>
+	<!-- EN: Male Plural spelopede -->
+	<AM_Spelopede.lifeStages.0.labelMalePlural>пещерные жуки</AM_Spelopede.lifeStages.0.labelMalePlural>
+	<!-- EN: Female Plural spelopede -->
+	<AM_Spelopede.lifeStages.0.labelFemalePlural>пещерные жуки</AM_Spelopede.lifeStages.0.labelFemalePlural>
+	<!-- EN: Plural spelopede -->
+	<AM_Spelopede.lifeStages.1.labelPlural>пещерные жуки</AM_Spelopede.lifeStages.1.labelPlural>
+	<!-- EN: Male spelopede -->
+	<AM_Spelopede.lifeStages.1.labelMale>пещерный жук</AM_Spelopede.lifeStages.1.labelMale>
+	<!-- EN: Female spelopede -->
+	<AM_Spelopede.lifeStages.1.labelFemale>пещерный жук</AM_Spelopede.lifeStages.1.labelFemale>
+	<!-- EN: Male Plural spelopede -->
+	<AM_Spelopede.lifeStages.1.labelMalePlural>пещерные жуки</AM_Spelopede.lifeStages.1.labelMalePlural>
+	<!-- EN: Female Plural spelopede -->
+	<AM_Spelopede.lifeStages.1.labelFemalePlural>пещерные жуки</AM_Spelopede.lifeStages.1.labelFemalePlural>
+	<!-- EN: Plural spelopede -->
+	<AM_Spelopede.lifeStages.2.labelPlural>пещерные жуки</AM_Spelopede.lifeStages.2.labelPlural>
+	<!-- EN: Male spelopede -->
+	<AM_Spelopede.lifeStages.2.labelMale>пещерный жук</AM_Spelopede.lifeStages.2.labelMale>
+	<!-- EN: Female spelopede -->
+	<AM_Spelopede.lifeStages.2.labelFemale>пещерный жук</AM_Spelopede.lifeStages.2.labelFemale>
+	<!-- EN: Male Plural spelopede -->
+	<AM_Spelopede.lifeStages.2.labelMalePlural>пещерные жуки</AM_Spelopede.lifeStages.2.labelMalePlural>
+	<!-- EN: Female Plural spelopede -->
+	<AM_Spelopede.lifeStages.2.labelFemalePlural>пещерные жуки</AM_Spelopede.lifeStages.2.labelFemalePlural>
+	
+	<!-- EN: megaspider -->
+	<AM_Megaspider.label>мегапаук</AM_Megaspider.label>
+	<!-- EN: Plural megaspider -->
+	<AM_Megaspider.lifeStages.0.labelPlural>мегапауки</AM_Megaspider.lifeStages.0.labelPlural>
+	<!-- EN: Male megaspider -->
+	<AM_Megaspider.lifeStages.0.labelMale>мегапаук</AM_Megaspider.lifeStages.0.labelMale>
+	<!-- EN: Female megaspider -->
+	<AM_Megaspider.lifeStages.0.labelFemale>мегапаук</AM_Megaspider.lifeStages.0.labelFemale>
+	<!-- EN: Male Plural megaspider -->
+	<AM_Megaspider.lifeStages.0.labelMalePlural>мегапауки</AM_Megaspider.lifeStages.0.labelMalePlural>
+	<!-- EN: Female Plural megaspider -->
+	<AM_Megaspider.lifeStages.0.labelFemalePlural>пещерные жуки</AM_Megaspider.lifeStages.0.labelFemalePlural>
+	<!-- EN: Plural megaspider -->
+	<AM_Megaspider.lifeStages.1.labelPlural>мегапауки</AM_Megaspider.lifeStages.1.labelPlural>
+	<!-- EN: Male megaspider -->
+	<AM_Megaspider.lifeStages.1.labelMale>мегапаук</AM_Megaspider.lifeStages.1.labelMale>
+	<!-- EN: Female megaspider -->
+	<AM_Megaspider.lifeStages.1.labelFemale>мегапаук</AM_Megaspider.lifeStages.1.labelFemale>
+	<!-- EN: Male Plural megaspider -->
+	<AM_Megaspider.lifeStages.1.labelMalePlural>мегапауки</AM_Megaspider.lifeStages.1.labelMalePlural>
+	<!-- EN: Female Plural megaspider -->
+	<AM_Megaspider.lifeStages.1.labelFemalePlural>пещерные жуки</AM_Megaspider.lifeStages.1.labelFemalePlural>
+	<!-- EN: Plural megaspider -->
+	<AM_Megaspider.lifeStages.2.labelPlural>мегапауки</AM_Megaspider.lifeStages.2.labelPlural>
+	<!-- EN: Male megaspider -->
+	<AM_Megaspider.lifeStages.2.labelMale>мегапаук</AM_Megaspider.lifeStages.2.labelMale>
+	<!-- EN: Female megaspider -->
+	<AM_Megaspider.lifeStages.2.labelFemale>мегапаук</AM_Megaspider.lifeStages.2.labelFemale>
+	<!-- EN: Male Plural megaspider -->
+	<AM_Megaspider.lifeStages.2.labelMalePlural>мегапауки</AM_Megaspider.lifeStages.2.labelMalePlural>
+	<!-- EN: Female Plural megaspider -->
+	<AM_Megaspider.lifeStages.2.labelFemalePlural>пещерные жуки</AM_Megaspider.lifeStages.2.labelFemalePlural>
+	
+	<!-- EN: drifter -->
+	<AM_Drifter.label>бродяга</AM_Drifter.label>
+	
+	<!-- EN: scavenger gunner -->
+	<AM_EnemyScavenger.label>мусорщик</AM_EnemyScavenger.label>
+	
+	<!-- EN: scavenger thrasher -->
+	<AM_Thrasher.label>вышибала</AM_Thrasher.label>
+	
+	<!-- EN: pirate gunner -->
+	<AM_Pirate.label>пират</AM_Pirate.label>
+	
+	<!-- EN: boss -->
+	<AM_PirateBoss.label>бомбер</AM_PirateBoss.label>
+	
+	<!-- EN: mercenary slasher -->
+	<AM_Mercenary_Slasher.label>наёмник</AM_Mercenary_Slasher.label>
+</LanguageData>

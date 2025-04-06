@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[AbsCon] Classic Animations Pack</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/AnimationDef[defName="GroupAnimation_AbsConFisting_Pawn1_Stage0"]/animationParts/li[1]/value/keyframes/li[2]/sound</xpath>
+                    <match Class="PatchOperationRemove">
+                        <xpath>Defs/AnimationDef[defName="GroupAnimation_AbsConFisting_Pawn1_Stage0"]/animationParts/li[1]/value/keyframes/li[2]/sound</xpath>
+                    </match>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+	
+</Patch>

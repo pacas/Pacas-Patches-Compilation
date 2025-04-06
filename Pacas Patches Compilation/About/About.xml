@@ -8,15 +8,21 @@
         <li>1.5</li>
     </supportedVersions>
     <packageId>pacas.patchescompilation.v1</packageId>
-    <description>
+    <description>Patched mods list: https://www.pacas.dev/mods/patches.php
 		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
 	</description>
     <modDependencies>
         <li>
-            <packageId>Imranfish.XMLExtensions</packageId>
             <displayName>XML Extensions</displayName>
+            <packageId>Imranfish.XMLExtensions</packageId>
             <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>
+        <li>
+            <displayName>ReplaceLib</displayName>
+            <packageId>ferny.replacelib</packageId>
+            <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3417393194</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
         </li>
     </modDependencies>
     <loadAfter>

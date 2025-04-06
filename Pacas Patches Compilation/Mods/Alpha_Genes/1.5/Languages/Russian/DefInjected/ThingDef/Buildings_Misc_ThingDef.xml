@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Buildings\Buildings_Misc.xml-->
+	<!--                        temporary band node -->
+	<AG_TemporaryBandNode.label>временный канальный узел</AG_TemporaryBandNode.label>
+	<!--                              A temporary mechanoid-band signal amplifier. Automatically tuned to the mechanitor that summoned it. It will provide a significant 10 bandwidth boost, but it will vanish after a week. Doesn't require power. -->
+	<AG_TemporaryBandNode.description>Временный механоидный усилитель сигналов. Автоматически настроен на механитора, который его призвал. Увеличивает пропускную способность на 10 единиц, но исчезает через неделю. Не требует энергии для работы.</AG_TemporaryBandNode.description>
+	
+	<!--                        luminescent column -->
+	<AG_LuminescentColumn.label>светящаяся колонна</AG_LuminescentColumn.label>
+	<!--                              A luminescent column made of coral. -->
+	<AG_LuminescentColumn.description>Светящаяся колонна из коралла.</AG_LuminescentColumn.description>
+	
+	<!--                             large luminescent column -->
+	<AG_LargeLuminescentColumn.label>большая светящаяся колонна</AG_LargeLuminescentColumn.label>
+	<!--                                   A luminescent column made of coral. -->
+	<AG_LargeLuminescentColumn.description>Светящаяся колонна из коралла.</AG_LargeLuminescentColumn.description>
+	
+	<!--                  coral column -->
+	<AG_CoralColumn.label>коралловая колонна</AG_CoralColumn.label>
+	<!--                        A column made of coral. -->
+	<AG_CoralColumn.description>Колонна из коралла.</AG_CoralColumn.description>
+	
+	<!--                       large coral column -->
+	<AG_LargeCoralColumn.label>большая коралловая колонна</AG_LargeCoralColumn.label>
+	<!--                             A column made of coral. -->
+	<AG_LargeCoralColumn.description>Колонна из коралла.</AG_LargeCoralColumn.description>
+	
+	<!--                     large clam -->
+	<AG_DecorativeClam.label>большая раковина</AG_DecorativeClam.label>
+	<!--                           It seems to be chilling out. -->
+	<AG_DecorativeClam.description>Кажется, она просто отдыхает.</AG_DecorativeClam.description>
+</LanguageData>

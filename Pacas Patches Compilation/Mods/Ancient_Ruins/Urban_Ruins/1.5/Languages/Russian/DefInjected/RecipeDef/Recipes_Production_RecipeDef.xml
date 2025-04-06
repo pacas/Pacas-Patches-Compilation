@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\RecipeDefs\Recipes_Production.xml-->
+	<AM_DisassemblePolyethylenePlate.label>разобрать защитную бронепластину</AM_DisassemblePolyethylenePlate.label>
+	<AM_DisassemblePolyethylenePlate.description>Снять слой арамидной ткани с защитной бронепластины, чтобы использовать драгоценный арамид повторно.</AM_DisassemblePolyethylenePlate.description>
+	<AM_DisassemblePolyethylenePlate.jobString>разбирает бронепластину</AM_DisassemblePolyethylenePlate.jobString>
+	
+	<Make_AM_Salewa.label>изготовить аптечку «Salewa»</Make_AM_Salewa.label>
+	<Make_AM_Salewa.description>изготовить аптечку первой помощи, содержащую изоляционные одеяла, различные виды повязок и повязок, а также медицинские инструменты. Производится 3.</Make_AM_Salewa.description>
+	<Make_AM_Salewa.jobString>делает аптечку «Salewa»</Make_AM_Salewa.jobString>
+	
+	<Make_AM_Grizzly.label>изготовить аптечку «Grizzly»</Make_AM_Grizzly.label>
+	<Make_AM_Grizzly.description>изготовить аптечку первой помощи, которая считается одной из лучших аптечек первой помощи. В ней есть все медицинские принадлежности, которые могут понадобиться в экстремальных ситуациях. Производится 1.</Make_AM_Grizzly.description>
+	<Make_AM_Grizzly.jobString>делает аптечку «Grizzly»</Make_AM_Grizzly.jobString>
+	
+	<Make_AM_EssentialBalm.label>изготовить эфирный бальзам</Make_AM_EssentialBalm.label>
+	<Make_AM_EssentialBalm.description>изготовить мазь, которая стимулирует нервы и делает людей более энергичными. Ту самую. Со звездочкой. Производится 2.</Make_AM_EssentialBalm.description>
+	<Make_AM_EssentialBalm.jobString>делает эфирный бальзам</Make_AM_EssentialBalm.jobString>
+	
+	<Make_AM_MetalbloodInjector.label>изготовить инжектор металлической крови</Make_AM_MetalbloodInjector.label>
+	<Make_AM_MetalbloodInjector.description>изготовить cтимулятор крови, используемый в бою. Производится 1.</Make_AM_MetalbloodInjector.description>
+	<Make_AM_MetalbloodInjector.jobString>делает инжектор</Make_AM_MetalbloodInjector.jobString>
+	
+	<Make_AM_AnalgesicRegenerationInjector.label>изготовить инжектор анальгетической регенерации</Make_AM_AnalgesicRegenerationInjector.label>
+	<Make_AM_AnalgesicRegenerationInjector.description>изготовить инжектор, стимулирующий процесс регенерации. Производится 1.</Make_AM_AnalgesicRegenerationInjector.description>
+	<Make_AM_AnalgesicRegenerationInjector.jobString>делает инжектор</Make_AM_AnalgesicRegenerationInjector.jobString>
+	
+	<Make_AM_CellRegenerationInjector.label>изготовить инжектор регенерации клеток</Make_AM_CellRegenerationInjector.label>
+	<Make_AM_CellRegenerationInjector.description>изготовить мощный стимулятор регенерации для боя. Производится 1.</Make_AM_CellRegenerationInjector.description>
+	<Make_AM_CellRegenerationInjector.jobString>делает инжектор</Make_AM_CellRegenerationInjector.jobString>
+    
+</LanguageData>

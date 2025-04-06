@@ -3,6 +3,14 @@
     <Operation Class="PatchOperationSequence">
         <operations>
             <li Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="AG_ChitinLeather"]/modExtensions/li/defsTreatedAsHumanLeather</xpath>
+                <value>
+                    <defsTreatedAsHumanLeather>
+                      <li>Chitin</li>
+                    </defsTreatedAsHumanLeather>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
                 <xpath>Defs/GeneDef[defName="AG_ChitinLeather"]/modExtensions/li/customLeatherThingDef</xpath>
                 <value>
                     <customLeatherThingDef>Chitin</customLeatherThingDef>

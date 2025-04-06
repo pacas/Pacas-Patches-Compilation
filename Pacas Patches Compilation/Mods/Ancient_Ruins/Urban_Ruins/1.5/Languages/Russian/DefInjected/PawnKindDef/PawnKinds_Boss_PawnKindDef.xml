@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\PawnKindDefs\PawnKinds_Boss.xml-->
+	<!-- EN: ancient special unit -->
+	<AncientSoldierBoss.label>древний спецназовец</AncientSoldierBoss.label>
+	
+	<!-- EN: ancient special unit -->
+	<AncientSoldierBossN.label>древний спецназовец</AncientSoldierBossN.label>
+	
+	<!-- EN: "Fashion guy" -->
+	<AncientMallGuards.label>модник</AncientMallGuards.label>
+	
+	<!-- EN: slaughter -->
+	<AncientSlaughter.label>рубака</AncientSlaughter.label>
+</LanguageData>

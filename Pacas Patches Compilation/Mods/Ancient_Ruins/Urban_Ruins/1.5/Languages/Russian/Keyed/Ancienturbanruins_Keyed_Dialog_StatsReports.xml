@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- EN: Healing -->
+	<Stat_Hediff_Regeneration_Name>Лечит</Stat_Hediff_Regeneration_Name>
+	<!-- EN: A flat amount of healing per day. -->
+	<Stat_Hediff_Regeneration_Desc>Фиксированное количество исцеления в день.</Stat_Hediff_Regeneration_Desc>
+	<!-- EN: {0} hp/day -->
+	<Stat_Hediff_Regeneration_Stat>{0} ОЗ/день</Stat_Hediff_Regeneration_Stat>
+	<!-- EN: abandon map -->
+	<AbandonQuestMap>покинуть локацию</AbandonQuestMap>
+	<!-- EN: abandon map -->
+	<RandomsiteDeleteMap>покинуть локацию</RandomsiteDeleteMap>
+	<!-- EN: Abandoning exploration of the area will result in the abandonment of personnel and items remaining within the area -->
+	<CommandViewQuestDesc>Прекращение исследования области приведет к отказу от персонала и предметов, оставшихся в этой области.</CommandViewQuestDesc>
+	<!-- EN: Please ensure that personnel and items have been evacuated. Do you want to abandon the map? -->
+	<ConfirmAbandonQuestMap>Пожалуйста, убедитесь, что персонал и предметы были эвакуированы. Хотите покинуть локацию?</ConfirmAbandonQuestMap>
+	<!-- EN: Abandoning exploration of the area will result in the abandonment of personnel and items remaining within the area -->
+	<AbandonQuestMapDesc>Прекращение исследования области приведет к отказу от персонала и предметов, оставшихся в этой области.</AbandonQuestMapDesc>
+	<!-- EN: Accept -->
+	<RandomSite_Confirm_Accept>Принять</RandomSite_Confirm_Accept>
+	<!-- EN: Please ensure that personnel and items have been evacuated. Do you want to abandon the map? -->
+	<RandomSite_Confirm>Пожалуйста, убедитесь, что персонал и предметы были эвакуированы. Хотите покинуть локацию?</RandomSite_Confirm>
+	<!-- EN: Trade with ancient logistics terminal -->
+	<AM_Trade>Торговать в древнем терминале логистики</AM_Trade>
+	<!-- EN: Ancient Urban Ruins -->
+	<AncientMarket>Древние городские руины</AncientMarket>
+	<!-- EN: Enable cross floor AI (disable this option if encountering compatibility or performance issues) -->
+	<EnableAICrossLevel>Включить межэтажный AI (отключите, если возникнут проблемы с модами или тпс).</EnableAICrossLevel>
+	<!-- EN: Permitted floors -->
+	<AllowLevel>Разрешённые этажи</AllowLevel>
+	<!-- EN: Allow -->
+	<Allow>Разрешить</Allow>
+	<!-- EN: Unallow -->
+	<Unallow>Запретить</Unallow>
+	<!-- EN: Allow Level -->
+	<AllowLevel>Разрешить уровень</AllowLevel>
+	<!-- EN: Level Power Name -->
+	<LevelPowerName>Название</LevelPowerName>
+	<!-- EN: Output Mode -->
+	<OutputMode>Режим вывода</OutputMode>
+	<!-- EN: Output -->
+	<LevelPowerOutput>Выходная мощность</LevelPowerOutput>
+	<!-- EN: Select Linked Power：{0} -->
+	<SelectLinkedPower>Выбрать подключение: {0}</SelectLinkedPower>
+	<!-- EN: Apply -->
+	<Apply>Принять</Apply>
+	<!-- EN: Enable landfilling facilities (after enabling the option, some stairs can be actively filled to abandon underground facilities) -->
+	<EnableLandfill>Включить закапывание подземок (после включения некоторые лестницы могут быть закопаны, а карты с ними убраны)</EnableLandfill>
+	<!-- EN: Receiver name -->
+	<ReceiverName>Название</ReceiverName>
+	<!-- EN: Select linked receiver：{0} -->
+	<SelectLinkedReceiver>Выбрать выход: {0}</SelectLinkedReceiver>
+	<!-- EN: Transport -->
+	<Tab_LevelTransmit>Доставка</Tab_LevelTransmit>
+
+	<!-- EN: There are{0}days left to produce the next item -->
+	<VirtualMiningProgress>\n{0_numCase ? день : дня : дней} до производства предмета</VirtualMiningProgress>
+	<!-- EN: Switch to automatic loading -->
+	<CommandToggleAllowAutoAddGraphicCard>Автоматическая загрузка</CommandToggleAllowAutoAddGraphicCard>
+	<!-- EN: Install GPU into the computing center -->
+	<CommandToggleAllowAutoAddGraphicCardDesc>Автоматически устанавливать видеокарты в вычислительный центр</CommandToggleAllowAutoAddGraphicCardDesc>
+	<!-- EN: GPU{0} -->
+	<GPUCount>Установлено видеокарт: {0}</GPUCount>
+	<!-- EN: GPU needs to be loaded to run -->
+	<NoGPU>\nНеобходима видеокарта</NoGPU>
+	<!-- EN: Add this GPU to the computing center -->
+	<AddThisToMiner>Установить эту видеокарту в вычислительный центр</AddThisToMiner>
+</LanguageData>

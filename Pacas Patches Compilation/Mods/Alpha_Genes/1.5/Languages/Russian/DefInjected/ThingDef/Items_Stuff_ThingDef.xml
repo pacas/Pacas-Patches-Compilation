@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Items\Items_Stuff.xml-->
+	<!--             ultima fabric -->
+	<AG_Ultima.label>ткань ультима</AG_Ultima.label>
+	<!--                   Ultima fabric is used in the making of Forsaken armors. Produced by septimum plant, which can only be sown by colonists with the Forsaken Knowledge gene. -->
+	<AG_Ultima.description>Ткань ультима используется для создания брони Забытых. Изготавливается из растения септимум, которое могут выращивать только поселенцы с геном «знания забытых».</AG_Ultima.description>
+	<!--                                 Adjective ultima fabric -->
+	<AG_Ultima.stuffProps.stuffAdjective>ткань ультима</AG_Ultima.stuffProps.stuffAdjective>
+</LanguageData>

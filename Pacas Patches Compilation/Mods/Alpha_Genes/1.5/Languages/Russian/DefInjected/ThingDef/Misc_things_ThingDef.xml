@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Misc\Gas_Various.xml-->
+<SubcoreEncoder.description>Аппаратура, за которой механитор может создавать базовые субъядра — мозги механоидов, необходимые для их производства. Базовые субъядра можно устанавливать только в базовых механоидов.\n\nСубъядра для механоидов более высокого уровня можно создавать при помощи церебрального анализатора или сканера извлечения субъядер.</SubcoreEncoder.description>
+  
+  <!-- EN: subcore ripscanner -->
+  <SubcoreRipscanner.label>сканер извлечения субъядра</SubcoreRipscanner.label>
+  <!-- EN: A pod with thousands of tissue probe injectors and an ultra-high-power vaporizing brain scanner. Once a person is inserted, the device will insert the probes into their body through the skin while the ripscanner chews through the brain, reading the reflected radiation and destroying the brain in the process. Ripscanning the mind generates a neuro-psychic pattern that the scanner can analog-transfer to a new high-tier mechanoid subcore.\n\nSubcores are mechanoid brains and producing any mechanoid requires one. High-tier subcores produced by this ripscanner can only power high-tier mechanoids. -->
+  <SubcoreRipscanner.description>Установка с тысячами микрозондов для анализа тканей и сверхмощным сканером церебральной активности. После того как в тело жертвы вводятся анализирующие микрозонды, сканер облучает мозг и считывает его энергетический отпечаток. В процессе сканирования мозг жертвы полностью разрушается. Результатом работы сканера извлечения субъядер является нейропсихический паттерн, который можно аналоговым способом перенести в новое продвинутое субъядро.\n\nСубъядра — мозги механоидов, необходимые для их производства. Продвинутые субъядра, созданные с помощью сканера извлечения субъядер, могут быть установлены только в продвинутых механоидов.</SubcoreRipscanner.description>
+  
+  <SubcoreHigh.description>Продвинутый мозг механоида, в котором заключена сложная психодинамическая субличность. Это самый мощный вид субъядра, способный управлять сложными сверхтяжёлыми механоидами.\n\nСубличность внутри схожа с живым человеком в сложности своей организации, хоть и устроена совсем иначе. Она обладает заметным психическим воздействием.\n\nТакое субъядро возможно произвести только при глубоком переносе мыслительных паттернов из достаточно сложно организованного разума. Сделать это вне огромных специализированных комплексов можно только с помощью сканера извлечения субъядер, переносящего в субъядро сознание живого человека и убивающего того в процессе.</SubcoreHigh.description>
+  
+  
+</LanguageData>

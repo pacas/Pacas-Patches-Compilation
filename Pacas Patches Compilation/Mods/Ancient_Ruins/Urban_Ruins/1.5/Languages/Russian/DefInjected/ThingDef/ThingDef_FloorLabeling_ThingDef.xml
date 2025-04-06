@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_FloorLabeling.xml-->
+	<!-- EN: Arrow -->
+	<AM_Arrow.label>стрелка</AM_Arrow.label>
+	<!-- EN: Bishop -->
+	<AM_Bishop.label>слон</AM_Bishop.label>
+	<!-- EN: Crown -->
+	<AM_Crown.label>корона</AM_Crown.label>
+	<!-- EN: D2 -->
+	<AM_D2A.label>Д2</AM_D2A.label>
+	<!-- EN: Knight -->
+	<AM_Knight.label>рыцарь</AM_Knight.label>
+	<!-- EN: Pawn -->
+	<AM_Pawn.label>пешка</AM_Pawn.label>
+	<!-- EN: Queen -->
+	<AM_Queen.label>королева</AM_Queen.label>
+	<!-- EN: Rook -->
+	<AM_Rook.label>ладья</AM_Rook.label>
+	<!-- EN: RFC -->
+	<AM_RFC.label>RFC</AM_RFC.label>
+	<!-- EN: DK -->
+	<AM_DK.label>DK</AM_DK.label>
+	<!-- EN: ADI -->
+	<AM_ADI.label>Адидас</AM_ADI.label>
+	<!-- EN: HG -->
+	<AM_HG.label>HG</AM_HG.label>
+	<!-- EN: VC -->
+	<AM_VC.label>VC</AM_VC.label>
+	<!-- EN: Indicator line -->
+	<AM_IndicatorLine_Yellow.label>индикаторная полоса</AM_IndicatorLine_Yellow.label>
+	<!-- EN: Indicator line -->
+	<AM_IndicatorLine.label>Индикаторная полоса</AM_IndicatorLine.label>
+	<!-- EN: Rail -->
+	<AM_Rail.label>рельс</AM_Rail.label>
+	<!-- EN: Common, rather rusty railway track. -->
+	<AM_Rail.description>Обычный, довольно ржавый железнодорожный рельс.</AM_Rail.description>
+	<!-- EN: Crosstie -->
+	<AM_Crosstie.label>шпала</AM_Crosstie.label>
+	<!-- EN: A rail road crosstie placed under the railroad tracks. -->
+	<AM_Crosstie.description>Железнодорожная шпала, которую устанавливают под железнодорожными путями.</AM_Crosstie.description>
+</LanguageData>

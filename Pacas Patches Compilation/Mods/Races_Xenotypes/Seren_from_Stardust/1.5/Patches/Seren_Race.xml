@@ -105,6 +105,23 @@
                 <attribute>Inherit</attribute>
                 <value>False</value>
             </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/race</xpath>
+                <value>
+                    <useMeatFrom>Human</useMeatFrom>
+                </value>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Anomaly</li>
+                </mods>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="OL_SerenCreepJoiner"]/race/useMeatFrom</xpath>
+                    <value>
+                        <useMeatFrom>Human</useMeatFrom>
+                    </value>
+                </match>
+            </li>
         </operations>
     </Operation>
 </Patch>

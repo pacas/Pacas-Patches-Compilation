@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Flooring.xml-->
+	<!-- EN: ceramic tile -->
+	<AM_WhiteTile.label>керамическая плитка</AM_WhiteTile.label>
+	<!-- EN: Common ceramic tiles in the city. -->
+	<AM_WhiteTile.description>Керамическая плитка, которая обычно распространена в городах.</AM_WhiteTile.description>
+	
+	<!-- EN: ceramic tile（black） -->
+	<AM_BlackTile.label>керамическая плитка (чёрная)</AM_BlackTile.label>
+	<!-- EN: Common ceramic tiles in the city. -->
+	<AM_BlackTile.description>Керамическая плитка, которая обычно распространена в городах.</AM_BlackTile.description>
+	
+	<!-- EN: Striped ceramic tiles -->
+	<AM_Tile.label>Полосатая керамическая плитка</AM_Tile.label>
+	<!-- EN: Common striped tiles in fast food restaurants. -->
+	<AM_Tile.description>Полосатая плитка, которая обычно распространена в фастфудах.</AM_Tile.description>
+	
+	<!-- EN: reinforced concrete floor -->
+	<AM_RCFloor.label>железобетонный пол</AM_RCFloor.label>
+</LanguageData>

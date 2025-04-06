@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_Appearances.xml-->
+	<!-- EN: ancient facility wall (weathered) -->
+	<AM_Wall_Atlas_AcientConcrete_HP.label>стена древнего убежища (выветренная)</AM_Wall_Atlas_AcientConcrete_HP.label>
+	<!-- EN: A long-aged wall that seems to be destroyed easily. -->
+	<AM_Wall_Atlas_AcientConcrete_HP.description>Древняя стена, которую, кажется, легко разрушить.</AM_Wall_Atlas_AcientConcrete_HP.description>
+	
+	<!-- EN: ancient facility wall -->
+	<AM_Wall_Atlas_AcientConcrete.label>стена древнего убежища</AM_Wall_Atlas_AcientConcrete.label>
+	<!-- EN: A structure with waterproof layers, commonly found in underground facilities or old buildings. -->
+	<AM_Wall_Atlas_AcientConcrete.description>Конструкция с водонепроницаемыми слоями, обычно встречающаяся в подземных сооружениях или старых зданиях.</AM_Wall_Atlas_AcientConcrete.description>
+	
+	<!-- EN: ancient load-bearing concrete walls -->
+	<AM_Wall_Atlas_LoadBearing.label>древние несущие бетонные стены</AM_Wall_Atlas_LoadBearing.label>
+	<!-- EN: A long-aged concrete load-bearing wall with thick structural steel reinforcement. -->
+	<AM_Wall_Atlas_LoadBearing.description>Старая бетонная несущая стена с толстой конструкционной стальной арматурой.</AM_Wall_Atlas_LoadBearing.description>
+	
+	<!-- EN: ancient concrete wall -->
+	<AM_Wall_Atlas_Concrete.label>древняя бетонная стена</AM_Wall_Atlas_Concrete.label>
+	<!-- EN: A long-aged reinforced concrete structure, sturdy and nearly indestructible. -->
+	<AM_Wall_Atlas_Concrete.description>Древняя железобетонная конструкция, прочная и практически неразрушимая.</AM_Wall_Atlas_Concrete.description>
+	
+	<!-- EN: ancient concrete wall(weathered) -->
+	<AM_Wall_Atlas_Concrete_HP.label>древняя бетонная стена (выветренная)</AM_Wall_Atlas_Concrete_HP.label>
+	<!-- EN: A long-aged structure, can be destroyed with force. -->
+	<AM_Wall_Atlas_Concrete_HP.description>Древняя стена, которую можно разрушить силой.</AM_Wall_Atlas_Concrete_HP.description>
+	
+	<!-- EN: ancient glass curtain wall -->
+	<AM_Wall_Atlas_Glass.label>древняя стеклянная навесная стена</AM_Wall_Atlas_Glass.label>
+	<!-- EN: A long-aged wall composed of fragile glass and metal frames. -->
+	<AM_Wall_Atlas_Glass.description>Древняя стена из хрупкого стекла и металлических рам.</AM_Wall_Atlas_Glass.description>
+	
+	<!-- EN: ancient glass counter -->
+	<AM_Counter_Atlas_Weapon.label>древний стеклянный прилавок</AM_Counter_Atlas_Weapon.label>
+	<!-- EN: A long-aged display counter. -->
+	<AM_Counter_Atlas_Weapon.description>Древний прилавок.</AM_Counter_Atlas_Weapon.description>
+	
+	<!-- EN: ancient golden glass counter -->
+	<AM_Counter_Atlas_JewelryA.label>древний золотой стеклянный прилавок</AM_Counter_Atlas_JewelryA.label>
+	<!-- EN: A long-aged display counter decorated with gold borders. -->
+	<AM_Counter_Atlas_JewelryA.description>Древний прилавок, украшенный золотыми бордюрами.</AM_Counter_Atlas_JewelryA.description>
+	
+	<!-- EN: ancient golden glass counter -->
+	<AM_Counter_Atlas_JewelryB.label>древний золотой стеклянный прилавок</AM_Counter_Atlas_JewelryB.label>
+	<!-- EN: Glass display counter decorated with gold borders. -->
+	<AM_Counter_Atlas_JewelryB.description>Стеклянная витрина, украшенная золотыми бордюрами.</AM_Counter_Atlas_JewelryB.description>
+	
+	<!-- EN: ancient front desk -->
+	<AM_FrontDesk.label>древняя стойка регистрации</AM_FrontDesk.label>
+	<!-- EN: A desk made of metal and stone. -->
+	<AM_FrontDesk.description>Стол из металла и камня.</AM_FrontDesk.description>
+	
+	<!-- EN: ancient front desk -->
+	<AM_FrontDeskB.label>древняя стойка регистрации</AM_FrontDeskB.label>
+	<!-- EN: A desk made of metal and stone. -->
+	<AM_FrontDeskB.description>Стол из металла и камня.</AM_FrontDeskB.description>
+</LanguageData>

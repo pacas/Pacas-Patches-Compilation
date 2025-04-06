@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_SalvagePoint.xml-->
+	<!-- EN: book case -->
+	<AM_BookCase.label>книжная полка</AM_BookCase.label>
+	<!-- EN: An old book case filled with books. -->
+	<AM_BookCase.description>Старая книжная полка, наполненная книгами.</AM_BookCase.description>
+	
+	<!-- EN: vegetable shelf -->
+	<AM_VegetableShelf.label>овощная полка</AM_VegetableShelf.label>
+	<!-- EN: A long forgotten shelf containing vegetables. -->
+	<AM_VegetableShelf.description>Давно забытая полка с овощами.</AM_VegetableShelf.description>
+	
+	<!-- EN: ancient suspended IFV -->
+	<AM_BTR82A.label>древняя подвесная БМП</AM_BTR82A.label>
+	<!-- EN: A damaged suspended IFV. -->
+	<AM_BTR82A.description>Повреждённая подвесная БМП.</AM_BTR82A.description>
+	
+	<!-- EN: refrigerator -->
+	<AM_Refrigerator.label>холодильник</AM_Refrigerator.label>
+	<!-- EN: A refrigerator containing various foods. Has long been powered off. -->
+	<AM_Refrigerator.description>Холодильник с различными продуктами. Питание давно отключено.</AM_Refrigerator.description>
+	
+	<!-- EN: vending machine -->
+	<AM_VendingMachine.label>дорговый автомат</AM_VendingMachine.label>
+	<!-- EN: A damaged ancient vending machine. -->
+	<AM_VendingMachine.description>Поврежденный древний торговый автомат.</AM_VendingMachine.description>
+	
+	<!-- EN: model dummy -->
+	<AM_Model.label>манекен</AM_Model.label>
+	<!-- EN: A clothing model dummy. -->
+	<AM_Model.description>Манекен для одежды.</AM_Model.description>
+	
+	<!-- EN: model dummy -->
+	<AM_Modelf.label>манекен</AM_Modelf.label>
+	<!-- EN: A clothing model dummy. -->
+	<AM_Modelf.description>Манекен для одежды.</AM_Modelf.description>
+	
+	<!-- EN: computer case -->
+	<AM_ComputerCase.label>компьютерный корпус</AM_ComputerCase.label>
+	<!-- EN: An ancient computer case. -->
+	<AM_ComputerCase.description>Древний компьютерный корпус.</AM_ComputerCase.description>
+	
+	<!-- EN: large military supplies case -->
+	<AM_BigCase.label>большой кейс для военных товаров</AM_BigCase.label>
+	<!-- EN: A large military supplies case. Maybe it has something inside. -->
+	<AM_BigCase.description>Большой кейс для военных товаров Возможно, внутри что-то есть.</AM_BigCase.description>
+	
+	<!-- EN: ancient large military supplies case -->
+	<AM_OldBigCase.label>древний большой кейс с военными принадлежностями</AM_OldBigCase.label>
+	<!-- EN: A damaged military supplies case. Maybe it has something inside. -->
+	<AM_OldBigCase.description>Повреждённый кейс с военными товарами. Возможно, внутри что-то есть.</AM_OldBigCase.description>
+	
+	<!-- EN: ancient small military Case -->
+	<AM_OldSmallCase.label>древний малый военный кейс</AM_OldSmallCase.label>
+	<!-- EN: A damaged military supplies case. Maybe it has something inside. -->
+	<AM_OldSmallCase.description>Повреждённый кейс с военными товарами. Возможно, внутри что-то есть.</AM_OldSmallCase.description>
+	
+	<!-- EN: small military Case Case -->
+	<AM_SmallCase.label>маленький военный кейс</AM_SmallCase.label>
+	<!-- EN: A military supplies case. It seems to have something inside. -->
+	<AM_SmallCase.description>Кейс с военными припасами. Похоже внутри что-то есть.</AM_SmallCase.description>
+	
+	<!-- EN: weapon case -->
+	<AM_WeaponCase.label>оружейный кейс</AM_WeaponCase.label>
+	<!-- EN: A well-worn container. It seems to have something inside. -->
+	<AM_WeaponCase.description>Изношенный контейнер. Похоже внутри что-то есть.</AM_WeaponCase.description>
+	
+	<!-- EN: opened weapon case -->
+	<AM_WeaponCaseLow.label>открытый оружейный кейс</AM_WeaponCaseLow.label>
+	<!-- EN: A weapon case that has been pried open. It seems to have something inside. -->
+	<AM_WeaponCaseLow.description>Вскрытый оружейный кейс. Похоже внутри что-то есть.</AM_WeaponCaseLow.description>
+	
+	<!-- EN: ancient weapon case -->
+	<AM_OldWeaponCase.label>древний оружейный кейс</AM_OldWeaponCase.label>
+	<!-- EN: A long forgotten container. It seems to have something inside. -->
+	<AM_OldWeaponCase.description>Давно забытый контейнер. Похоже внутри что-то есть.</AM_OldWeaponCase.description>
+	
+	<!-- EN: Cardboard box -->
+	<AM_PaperBox_A.label>картонная коробка</AM_PaperBox_A.label>
+	<!-- EN: A cardboard box. It seems to have something inside. -->
+	<AM_PaperBox_A.description>Картонная коробка. Похоже внутри что-то есть.</AM_PaperBox_A.description>
+	
+	<!-- EN: Cardboard box -->
+	<AM_PaperBox_B.label>картонная коробка</AM_PaperBox_B.label>
+	<!-- EN: A cardboard box. It seems to have something inside. -->
+	<AM_PaperBox_B.description>Картонная коробка. Похоже внутри что-то есть.</AM_PaperBox_B.description>
+	
+	<!-- EN: Cardboard box -->
+	<AM_PaperBox_C.label>картонная коробка</AM_PaperBox_C.label>
+	<!-- EN: A cardboard box. It seems to have something inside. -->
+	<AM_PaperBox_C.description>Картонная коробка. Похоже внутри что-то есть.</AM_PaperBox_C.description>
+	
+	<!-- EN: Clothes rack -->
+	<AM_ClothesHanger.label>вешалка для одежды</AM_ClothesHanger.label>
+	<!-- EN: A set of hangers holding old pieces of clothing. -->
+	<AM_ClothesHanger.description>Набор вешалок со старой одеждой.</AM_ClothesHanger.description>
+	
+	<!-- EN: injection storage racks -->
+	<AM_Injection_StorageRacks.label>стеллажи для инъекций</AM_Injection_StorageRacks.label>
+	<!-- EN: Some shelves scattered with syringes and medical supplies. -->
+	<AM_Injection_StorageRacks.description>Полки усыпаны шприцами и медикаментами.</AM_Injection_StorageRacks.description>
+	
+	<!-- EN: medical storage racks -->
+	<AM_MedicalSupplies_StorageRacks.label>медицинские стеллажи</AM_MedicalSupplies_StorageRacks.label>
+	<!-- EN: Some shelves scattered with medical supplies. -->
+	<AM_MedicalSupplies_StorageRacks.description>Полки усыпаны медикаментами.</AM_MedicalSupplies_StorageRacks.description>
+	
+	<!-- EN: snack storage racks -->
+	<AM_Snack_StorageRacks.label>стеллажи для закусок</AM_Snack_StorageRacks.label>
+	<!-- EN: Some shelves with scattered packaged snacks. -->
+	<AM_Snack_StorageRacks.description>Несколько полок с разбросанными упакованными закусками.</AM_Snack_StorageRacks.description>
+	
+	<!-- EN: storage racks -->
+	<AM_StorageRacks.label>стеллажи для хранения</AM_StorageRacks.label>
+	<!-- EN: Some shelves with scattered goods. -->
+	<AM_StorageRacks.description>Несколько полок с разбросанными товарами.</AM_StorageRacks.description>
+	
+	<!-- EN: miscellaneous storage racks -->
+	<AM_TousledStorageRacks.label>разнообразные стеллажи</AM_TousledStorageRacks.label>
+	<!-- EN: Some shelves with scattered goods. -->
+	<AM_TousledStorageRacks.description>Несколько полок с разбросанными товарами.</AM_TousledStorageRacks.description>
+	
+	<!-- EN: Military storage racks -->
+	<AM_MilitarySupplies_StorageRacks.label>военные стеллажи</AM_MilitarySupplies_StorageRacks.label>
+	<!-- EN: Some shelves with scattered military supplies. -->
+	<AM_MilitarySupplies_StorageRacks.description>Несколько полок с разбросанными военными припасами.</AM_MilitarySupplies_StorageRacks.description>
+	
+	<!-- EN: freezer -->
+	<AM_Freezer.label>морозильник</AM_Freezer.label>
+	<!-- EN: An old dessert refrigerator with unknown contents. -->
+	<AM_Freezer.description>Старый десертный холодильник с неизвестным содержимым.</AM_Freezer.description>
+	
+	<!-- EN: damaged large shelves -->
+	<AM_BDAShelfA.label>повреждённые большие полки</AM_BDAShelfA.label>
+	<!-- EN: There are still some goods on top that have not been crushed. -->
+	<AM_BDAShelfA.description>Сверху еще остались товары, которые не были раздавлены.</AM_BDAShelfA.description>
+	
+	<!-- EN: damaged large shelves -->
+	<AM_BDAShelfB.label>повреждённые большие полки</AM_BDAShelfB.label>
+	<!-- EN: There are still some goods on top that have not been crushed. -->
+	<AM_BDAShelfB.description>Сверху еще остались товары, которые не были раздавлены.</AM_BDAShelfB.description>
+	
+	<!-- EN: large shelves -->
+	<AM_DoubleDeckRacks.label>большие полки</AM_DoubleDeckRacks.label>
+	<!-- EN: The top layer of the large shelf is missing, and there are still some boxes on it. -->
+	<AM_DoubleDeckRacks.description>Верхний ярус большой полки отсутствует, а на ней еще стоят коробки.</AM_DoubleDeckRacks.description>
+	
+	<!-- EN: large shelves -->
+	<AM_ThreeLayerRacks.label>большие полки</AM_ThreeLayerRacks.label>
+	<!-- EN: A large shelf cluttered with boxes. -->
+	<AM_ThreeLayerRacks.description>Большая полка, заставленная коробками.</AM_ThreeLayerRacks.description>
+	
+	<!-- EN: briefcase -->
+	<AM_BriefCase_SalvagePoint.label>портфель</AM_BriefCase_SalvagePoint.label>
+	<!-- EN: A briefcase, probably containing something. -->
+	<AM_BriefCase_SalvagePoint.description>Портфель, в котором, вероятно, что-то содержится.</AM_BriefCase_SalvagePoint.description>
+	
+	<!-- EN: SICC -->
+	<AM_SICC_SalvagePoint.label>небольшая сумка</AM_SICC_SalvagePoint.label>
+	<!-- EN: A small soft bag that seems to hold various items. -->
+	<AM_SICC_SalvagePoint.description>Небольшая мягкая сумка, в которой, кажется, хранятся разные предметы.</AM_SICC_SalvagePoint.description>
+	
+	<!-- EN: large backpack -->
+	<AM_LargeBackpack.label>большой рюкзак</AM_LargeBackpack.label>
+	<!-- EN: An oversized military backpack that is already broken, but seems to contain something inside. -->
+	<AM_LargeBackpack.description>Огромный военный рюкзак, который уже порван, но, кажется, что-то содержит внутри.</AM_LargeBackpack.description>
+	
+	<!-- EN: LBT -->
+	<AM_LBT.label>медицинская сумка</AM_LBT.label>
+	<!-- EN: A medical supplies backpack that is broken, but seems to contain something inside. -->
+	<AM_LBT.description>Рюкзак с медицинскими принадлежностями сломан, но внутри что-то есть.</AM_LBT.description>
+	
+	<!-- EN: MBSS -->
+	<AM_MBSS.label>военный рюкзак</AM_MBSS.label>
+	<!-- EN: A small military backpack that is broken, but seems to contain something inside. -->
+	<AM_MBSS.description>Небольшой военный рюкзак, который уже порван, но, кажется, что-то содержит внутри.</AM_MBSS.description>
+	
+	<!-- EN: postman shoulder bag -->
+	<AM_PostmanShoulderBag.label>почтовая сумка</AM_PostmanShoulderBag.label>
+	<!-- EN: A mail-carrying shoulder bag. While already broken, it seems to contain something inside. -->
+	<AM_PostmanShoulderBag.description>Сумка через плечо для почтальона. Хотя она уже порвана, кажется, что внутри что-то есть.</AM_PostmanShoulderBag.description>
+	
+	<!-- EN: scav bag -->
+	<AM_Scav.label>сумка для мусора</AM_Scav.label>
+	<!-- EN: A backpack made by a scavenger. It is broken, but it seems to hold something. -->
+	<AM_Scav.description>Рюкзак, сделанный мусорщиком. Он порван, но, кажется, что-то содержит.</AM_Scav.description>
+	
+	<!-- EN: sports bag -->
+	<AM_SportsBag.label>спортивная сумка</AM_SportsBag.label>
+	<!-- EN: A sporting bag. It is already broken, but it seems to contain something inside. -->
+	<AM_SportsBag.description>Спортивная сумка. Она уже порвана, но кажется, что внутри что-то есть.</AM_SportsBag.description>
+	
+	<!-- EN: travel bag -->
+	<AM_TravelBag.label>дорожная сумка</AM_TravelBag.label>
+	<!-- EN: An oversized and eye-catching purple travel bag. It is already broken, but seems to contain something inside. -->
+	<AM_TravelBag.description>Огромная и привлекательная фиолетовая дорожная сумка уже порвана. Она уже порвана, но кажется, что внутри что-то есть.</AM_TravelBag.description>
+</LanguageData>

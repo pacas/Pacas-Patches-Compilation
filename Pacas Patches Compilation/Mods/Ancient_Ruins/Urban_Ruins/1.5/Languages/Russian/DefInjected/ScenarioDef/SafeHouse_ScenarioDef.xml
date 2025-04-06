@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ScenarioDef\SafeHouse.xml-->
+	<!-- EN: Safe House -->
+	<AM_SafeHouse.label>Убежище</AM_SafeHouse.label>
+	<!-- EN: You've wandered this rimworld, living off the spoils of ancient ruins. You traverse the desolate ruins of cities, devoid of any signs of life. On the outskirts of town, you discover an abandoned ancient underground shelter. Though its resources won't last long...\n\nNote: You have no operable colonists and lack essential survival resources. Scavengers start off starving, making this a challenging scenario. -->
+	<AM_SafeHouse.description>Вы бродили по этому окраинному миру, питаясь добычей древних руин. Вы путешествовали по пустынным руинам городов, лишённых каких-либо признаков жизни. И вот на окраине города вы обнаруживаете заброшенное древнее подземное убежище. Хотя его ресурсов хватит ненадолго...\n\nПримечание: у вас нет работоспособных поселенцев и вам не хватает необходимых ресурсов для выживания. Мусорщики начинают голодать, что усложняет сценарий.</AM_SafeHouse.description>
+	<!-- EN: A lone scavenger discovers an old underground bunker. Particularly challenging. -->
+	<AM_SafeHouse.scenario.summary>Одинокий мусорщик обнаруживает старый подземный бункер. Особенно сложно.</AM_SafeHouse.scenario.summary>
+	<!-- EN: You have discovered an ancient, abandoned small underground facility that could potentially serve as a shelter. -->
+	<AM_SafeHouse.scenario.parts.GameStartDialog.text>Вы обнаружили древнее, заброшенное небольшое подземное сооружение, которое потенциально может служить убежищем.</AM_SafeHouse.scenario.parts.GameStartDialog.text>
+	<!-- EN: GameStartDialog -->
+	<AM_SafeHouse.scenario.parts.GameStartDialog.textKey>GameStartDialog</AM_SafeHouse.scenario.parts.GameStartDialog.textKey>
+	<!-- EN: Safe House -->
+	<AM_SafeHouse.scenario.name>Убежище</AM_SafeHouse.scenario.name>
+	<!-- EN: You've wandered this rimworld, living off the spoils of ancient ruins. You traverse the desolate ruins of cities, devoid of any signs of life. On the outskirts of town, you discover an abandoned ancient underground shelter. Though its resources won't last long...\n\nNote: You have no operable colonists and lack essential survival resources. Scavengers start off starving, making this a challenging scenario. -->
+	<AM_SafeHouse.scenario.description>Вы бродили по этому окраинному миру, питаясь добычей древних руин. Вы путешествовали по пустынным руинам городов, лишённых каких-либо признаков жизни. И вот на окраине города вы обнаруживаете заброшенное древнее подземное убежище. Хотя его ресурсов хватит ненадолго...\n\nПримечание: у вас нет работоспособных поселенцев и вам не хватает необходимых ресурсов для выживания. Мусорщики начинают голодать, что усложняет сценарий.</AM_SafeHouse.scenario.description>
+	
+	<!-- EN: Scavenger Group -->
+	<AM_ScavengerGroup.label>Группа мусорщиков</AM_ScavengerGroup.label>
+	<!-- EN: In your earlier explorations, the regions nearer to the settlement were thoroughly examined. You've been left with no option but to venture into uncharted territories. On this day, you have discovered an entrance to an unknown underground facility. You have decided to settle here, but the strange odor and faint, incessant sounds seem to hint that this place is not as safe as you once imagined.... -->
+	<AM_ScavengerGroup.description>В ваших предыдущих исследованиях были тщательно исследованы районы, ближайшие к поселению. У вас не осталось другого выбора, кроме как отправиться на неизведанные территории. В этот день вы обнаружили вход в неизвестное подземное сооружение. Вы решили поселиться здесь, но странный запах и слабые, непрекращающиеся звуки, кажется, намекают, что это место не так безопасно, как вам когда-то казалось...</AM_ScavengerGroup.description>
+	<!-- EN: A group of three scavengers wandering between the ruins of a city. Particularly challenging. -->
+	<AM_ScavengerGroup.scenario.summary>Группа из трёх мусорщиков бродит среди руин города. Особенно сложно.</AM_ScavengerGroup.scenario.summary>
+	<!-- EN: You have discovered an ancient underground parking lot that could serve as your stronghold, but there seems to be a strange noise underground.... -->
+	<AM_ScavengerGroup.scenario.parts.GameStartDialog.text>Вы обнаружили древнюю подземную парковку, которая могла бы служить вашей крепостью, но, кажется, под землёй доносится странный шум...</AM_ScavengerGroup.scenario.parts.GameStartDialog.text>
+	<!-- EN: GameStartDialog -->
+	<AM_ScavengerGroup.scenario.parts.GameStartDialog.textKey>GameStartDialog</AM_ScavengerGroup.scenario.parts.GameStartDialog.textKey>
+	<!-- EN: Scavenger Group -->
+	<AM_ScavengerGroup.scenario.name>Группа мусорщиков</AM_ScavengerGroup.scenario.name>
+	<!-- EN: In your earlier explorations, the regions nearer to the settlement were thoroughly examined. You've been left with no option but to venture into uncharted territories. On this day, you have discovered an entrance to an unknown underground facility. You have decided to settle here, but the strange odor and faint, incessant sounds seem to hint that this place is not as safe as you once imagined.... -->
+	<AM_ScavengerGroup.scenario.description>В ваших предыдущих исследованиях были тщательно исследованы районы, ближайшие к поселению. У вас не осталось другого выбора, кроме как отправиться на неизведанные территории. В этот день вы обнаружили вход в неизвестное подземное сооружение. Вы решили поселиться здесь, но странный запах и слабые, непрекращающиеся звуки, кажется, намекают, что это место не так безопасно, как вам когда-то казалось...</AM_ScavengerGroup.scenario.description>
+</LanguageData>

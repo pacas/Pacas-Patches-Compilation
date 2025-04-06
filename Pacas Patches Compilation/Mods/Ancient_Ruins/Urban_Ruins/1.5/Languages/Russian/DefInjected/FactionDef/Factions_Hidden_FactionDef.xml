@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Factions_Hidden.xml-->
+	<!-- EN: pirate scavenger -->
+	<AM_EnemyPirate.label>пират-мусорщик</AM_EnemyPirate.label>
+	<!-- EN: pirate -->
+	<AM_EnemyPirate.pawnSingular>пират</AM_EnemyPirate.pawnSingular>
+	<!-- EN: pirates -->
+	<AM_EnemyPirate.pawnsPlural>пираты</AM_EnemyPirate.pawnsPlural>
+	<!-- EN: boss -->
+	<AM_EnemyPirate.leaderTitle>главарь</AM_EnemyPirate.leaderTitle>
+</LanguageData>

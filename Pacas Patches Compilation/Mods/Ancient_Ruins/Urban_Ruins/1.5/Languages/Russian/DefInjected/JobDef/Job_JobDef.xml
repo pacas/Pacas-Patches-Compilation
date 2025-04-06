@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Job\Job.xml-->
+	<!-- EN: Talking to TargetA. -->
+	<AM_StartDialog.reportString>Разговаривает с TargetA</AM_StartDialog.reportString>
+	<!-- EN: Trading with TargetA. -->
+	<AM_StartTrade.reportString>Торгует с TargetA</AM_StartTrade.reportString>
+	<!-- EN: Opening TargetA. -->
+	<AM_Open.reportString>Открывает TargetA</AM_Open.reportString>
+	<!-- EN: Filling TargetA. -->
+	<AM_FillEntrance.reportString>Заполняет TargetA</AM_FillEntrance.reportString>
+	<!-- EN: Add TargetA to TargetB. -->
+	<AM_AddGPU.reportString>Устанавливает TargetA в TargetB</AM_AddGPU.reportString>
+</LanguageData>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/AncientMarket_Libraray.CustomMapDataDef/thingDatas/li[
+                def="AM_AncientDismantlingWorkbench" or 
+                def="TableMachining" or 
+                def="Turret_Autocannon" or 
+                def="ElectricStove" or 
+                def="FueledStove" or 
+                def="ChemfuelPoweredGenerator" or 
+                def="AM_DiningChair" or 
+                def="Heater"]</xpath>
+        <prefixLength>4</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="PatchOperationAdd">
+                <xpath>{DEF}</xpath>
+                <value>
+                    <stuff>Plasteel</stuff>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/AncientMarket_Libraray.CustomMapDataDef/thingDatas/li[stuff="Steel"]</xpath>
+        <prefixLength>4</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>{DEF}/stuff</xpath>
+                <value>
+                    <stuff>Plasteel</stuff>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/AncientMarket_Libraray.CustomMapDataDef/thingDatas/li[def="Vent"]</xpath>
+        <prefixLength>4</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>{DEF}/def</xpath>
+                <value>
+                    <def>Wall</def>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/AncientMarket_Libraray.CustomMapDataDef/thingDatas/li[def="TrapSpike"]</xpath>
+        <prefixLength>4</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="PatchOperationRemove">
+                <xpath>{DEF}</xpath>
+            </Operation>
+        </apply>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/AncientMarket_Libraray.CustomMapDataDef/thingDatas/li[def="ChemfuelPoweredGenerator"]</xpath>
+        <prefixLength>4</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="PatchOperationRemove">
+                <xpath>{DEF}/storedEnergy</xpath>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>{DEF}/hitPoint</xpath>
+                <value>
+                    <hitPoint>400</hitPoint>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+    
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/ThingDef[starts-with(defName,"AM_")]/costList/Steel</xpath>
+        <prefixLength>3</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.CreateVariable">
+            <storeIn>customCountSteel</storeIn>
+            <value>{DEF}/Steel</value>
+            <fromXml>true</fromXml>
+            <apply>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>{DEF}/Steel</xpath>
+                    <value>
+                        <Plasteel>{customCountSteel}</Plasteel>
+                    </value>
+                </Operation>
+            </apply>
+        </Operation>
+        </apply>
+    </Operation>
+</Patch>

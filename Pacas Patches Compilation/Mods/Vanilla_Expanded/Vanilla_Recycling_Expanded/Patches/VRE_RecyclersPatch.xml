@@ -53,7 +53,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VRecyclingE_ElectricRecyclingWorkbench"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
                 <value>
-                    <basePowerConsumption>1500</basePowerConsumption>
+                    <basePowerConsumption>900</basePowerConsumption>
                 </value>
             </li>
             
@@ -114,7 +114,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VRecyclingE_AlloypackSplitter"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
                 <value>
-                    <basePowerConsumption>3500</basePowerConsumption>
+                    <basePowerConsumption>1500</basePowerConsumption>
                 </value>
             </li>
             
@@ -131,7 +131,7 @@
                     <results>
                         <li>
                             <thingResult>Plasteel</thingResult>
-                            <count>5</count>
+                            <count>10</count>
                             <outputCellOffset>(1,0,-1)</outputCellOffset>
                         </li>
                         <li>

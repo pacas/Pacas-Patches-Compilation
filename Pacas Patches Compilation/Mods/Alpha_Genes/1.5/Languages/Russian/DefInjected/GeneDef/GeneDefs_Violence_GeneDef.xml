@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Violence.xml-->
+	<!--                 inner peace -->
+	<AG_InnerPeace.label>внутренний покой</AG_InnerPeace.label>
+	<!--                       Carriers of this gene have achieved a certain mental peace where they don't really care much about slights from others. -->
+	<AG_InnerPeace.description>Носители этого гена обрели душевное равновесие и остаются равнодушными к обидам со стороны других.</AG_InnerPeace.description>
+	<!--                                      Immune to negative moods and opinions from social fights or insults. -->
+	<AG_InnerPeace.customEffectDescriptions.0>Носители этого гена имеют иммунитет к негативным настроениям и ухудшению отношений, вызванным социальными конфликтами или оскорблениями.</AG_InnerPeace.customEffectDescriptions.0>
+	
+	<!--            rowdy -->
+	<AG_Rowdy.label>буйность</AG_Rowdy.label>
+	<!--                  Carriers of this gene love to play fight. This might of course not be shared by the other person involved! -->
+	<AG_Rowdy.description>Носители этого гена обожают играть в драки. Разумеется, не всем окружающим это приходится по душе!</AG_Rowdy.description>
+	<!--                                 This gene will also make its carrier receive recreation after a social fight. -->
+	<AG_Rowdy.customEffectDescriptions.0>Этот ген также позволяет носителю получать развлечение после социальной драки.</AG_Rowdy.customEffectDescriptions.0>
+	
+	<!--               enforcer -->
+	<AG_Enforcer.label>блюстительность</AG_Enforcer.label>
+	<!--                     Carriers of this gene are naturally adept at controlling people getting out of line, and therefore have a better chance of arresting them. -->
+	<AG_Enforcer.description>Носители этого гена обладают врождённой способностью эффективно контролировать нарушителей порядка, что увеличивает их шанс на успешный арест.</AG_Enforcer.description>
+	<!--                                    No metabolism cost because its effect is pretty minor. "Значит, я могу добавить его к любому ксенотипу бесплатно?" Да, можешь. Это смешно для тебя или ты просто жалуешься, потому что скучный тупица? Боги, как я тебя ненавижу, мистер Соломенный Человек... -->
+	<AG_Enforcer.customEffectDescriptions.0>Ген не влияет на метаболизм, так как его эффект незначителен. «Значит, я могу добавить его к любому ксенотипу бесплатно?» Да, можешь. Это смешно для тебя или ты просто жалуешься, потому что скучный тупица? Боги, как я тебя ненавижу, мистер Соломенный Человек... </AG_Enforcer.customEffectDescriptions.0>
+	
+	<!--                      arrest avoidant -->
+	<AG_ArrestAvoidance.label>неспособность к аресту</AG_ArrestAvoidance.label>
+	<!--                            Carriers of this gene are naturally inept at controlling people getting out of line, and therefore have a much worse chance of arresting them. -->
+	<AG_ArrestAvoidance.description>Носители этого гена не обладают способностью эффективно контролировать нарушителей порядка, что значительно снижает их шанс на успешный арест.</AG_ArrestAvoidance.description>
+	
+	<!--                  tough sinews -->
+	<AG_ToughSinews.label>крепкие сухожилия</AG_ToughSinews.label>
+	<!--                        Carriers of this gene can naturally use Heavy weapons or Warcasket weapons without the need of assisting armor. -->
+	<AG_ToughSinews.description>Носители этого гена могут использовать тяжёлое оружие или оружие брони мертвеца без необходимости носить вспомогательную броню.</AG_ToughSinews.description>
+</LanguageData>

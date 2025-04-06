@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Building\ThingDef_UndergroundGarage.xml-->
+	<!-- EN: underground parking lot entrance -->
+	<AM_Entrance_UndergroundGarage.label>вход на подземную парковку</AM_Entrance_UndergroundGarage.label>
+	<!-- EN: A large ramp descending to a dark underground. It seems wide enough for vehicles. -->
+	<AM_Entrance_UndergroundGarage.description>Большой пандус, спускающийся в тёмное подземелье. Кажется, он достаточно широк для транспортных средств.</AM_Entrance_UndergroundGarage.description>
+	
+	<!-- EN: underground parking lot exit -->
+	<AM_Exit_Staircase_UndergroundGarage.label>выход из подземной парковки</AM_Exit_Staircase_UndergroundGarage.label>
+	<!-- EN: A large ramp leading to above ground. -->
+	<AM_Exit_Staircase_UndergroundGarage.description>Большой пандус, ведущий наверх.</AM_Exit_Staircase_UndergroundGarage.description>
+	
+	<!-- EN: Blocked underground parking lot entrance -->
+	<AM_BlockedUndergroundGarageEntrance.label>заблокированный въезд на подземную парковку</AM_BlockedUndergroundGarageEntrance.label>
+	<!-- EN: An entrance to an underground parking lot. It is blocked off and entirely inaccessible. -->
+	<AM_BlockedUndergroundGarageEntrance.description>Вход на подземную парковку. Он заблокирован и туда никак не пройти.</AM_BlockedUndergroundGarageEntrance.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\Food\Thoughts.xml-->
+	<!-- EN: drank soft drink -->
+	<AM_Softdrink.stages.0.label>{PAWN_gender ? выпил : выпила} безалкогольный напиток</AM_Softdrink.stages.0.label>
+	<!-- EN: That sugary taste can make me happy all day long. -->
+	<AM_Softdrink.stages.0.description>Этот сладкий вкус может сделать меня счастливым на весь день.</AM_Softdrink.stages.0.description>
+	
+	<!-- EN: ate potato chips -->
+	<AM_PotatoChips.stages.0.label>{PAWN_gender ? съел : съела} картофельные чипсы</AM_PotatoChips.stages.0.label>
+	<!-- EN: Mmmmm. Crispy. -->
+	<AM_PotatoChips.stages.0.description>Мммммм... Хрустящие.</AM_PotatoChips.stages.0.description>
+</LanguageData>

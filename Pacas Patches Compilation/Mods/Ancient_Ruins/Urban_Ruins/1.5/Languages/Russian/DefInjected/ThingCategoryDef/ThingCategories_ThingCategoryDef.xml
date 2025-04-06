@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\ThingDefs\ThingCategories.xml-->
+	<!-- EN: container -->
+	<AM_Container.label>контейнер</AM_Container.label>
+	<!-- EN: rare items -->
+	<AM_Manufactured.label>редкие предметы</AM_Manufactured.label>
+	<!-- EN: electronics -->
+	<AM_Electronics.label>электроника</AM_Electronics.label>
+	<!-- EN: tools -->
+	<AM_Tool.label>инструменты</AM_Tool.label>
+	<!-- EN: medical supplies -->
+	<AM_MedicalSupplies.label>медикаменты</AM_MedicalSupplies.label>
+	<!-- EN: Military components -->
+	<AM_SpecialComp.label>Военные компоненты</AM_SpecialComp.label>
+	<SoftDrinks.label>газировки</SoftDrinks.label>
+</LanguageData>

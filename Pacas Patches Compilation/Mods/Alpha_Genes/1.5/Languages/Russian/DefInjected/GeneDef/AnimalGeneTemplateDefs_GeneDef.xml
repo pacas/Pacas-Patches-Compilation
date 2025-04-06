@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\AnimalGeneTemplateDefs.xml-->
+	
+	<!--                                   random minor animal summon -->
+	<AG_MinorAnimalSummon_Randomizer.label>призыв случайного небольшого животного</AG_MinorAnimalSummon_Randomizer.label>
+	<!--                                           random -->
+	<AG_MinorAnimalSummon_Randomizer.labelShortAdj>случайное</AG_MinorAnimalSummon_Randomizer.labelShortAdj>
+	<!--                                         This will get swapped for a random minor animal summon. -->
+	<AG_MinorAnimalSummon_Randomizer.description>Этот ген будет заменен на случайный призыв небольшого животного.</AG_MinorAnimalSummon_Randomizer.description>
+	
+	<!--                              random animal summon -->
+	<AG_AnimalSummon_Randomizer.label>призыв случайного животного</AG_AnimalSummon_Randomizer.label>
+	<!--                                      random -->
+	<AG_AnimalSummon_Randomizer.labelShortAdj>случайное</AG_AnimalSummon_Randomizer.labelShortAdj>
+	<!--                                    This will get swapped for a random animal summon. -->
+	<AG_AnimalSummon_Randomizer.description>Этот ген будет заменен на случайный призыв животного.</AG_AnimalSummon_Randomizer.description>
+	
+	<!--                                   random major animal summon -->
+	<AG_MajorAnimalSummon_Randomizer.label>призыв случайного крупного животного</AG_MajorAnimalSummon_Randomizer.label>
+	<!--                                           random -->
+	<AG_MajorAnimalSummon_Randomizer.labelShortAdj>случайное</AG_MajorAnimalSummon_Randomizer.labelShortAdj>
+	<!--                                         This will get swapped for a random major animal summon. -->
+	<AG_MajorAnimalSummon_Randomizer.description>Этот ген будет заменен на случайный призыв крупного животного.</AG_MajorAnimalSummon_Randomizer.description>
+</LanguageData>

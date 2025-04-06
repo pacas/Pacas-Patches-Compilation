@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Sleep.xml-->
+	<!--               night owl -->
+	<AG_NightOwl.label>ночной ритм</AG_NightOwl.label>
+	<!--                     Carriers of this gene prefer staying awake during the night and sleeping during daytime. -->
+	<AG_NightOwl.description>Носители этого гена предпочитают бодрствовать ночью и спать днём.</AG_NightOwl.description>
+</LanguageData>

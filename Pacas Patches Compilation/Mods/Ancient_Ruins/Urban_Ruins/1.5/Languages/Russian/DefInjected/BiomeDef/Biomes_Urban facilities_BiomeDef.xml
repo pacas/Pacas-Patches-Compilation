@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\BiomeDefs\Biomes_Urban facilities.xml-->
+	<!-- EN: Abandoned urban facilities -->
+	<AM_UndergroundSpace.label>Заброшенные городские сооружения</AM_UndergroundSpace.label>
+	<!-- EN: An abandoned urban facility. -->
+	<AM_UndergroundSpace.description>Заброшенное городское сооружение.</AM_UndergroundSpace.description>
+</LanguageData>

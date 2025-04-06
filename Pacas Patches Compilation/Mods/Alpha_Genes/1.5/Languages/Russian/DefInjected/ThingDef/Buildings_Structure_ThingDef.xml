@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\ThingDefs_Buildings\Buildings_Structure.xml-->
+	<!--                 rusted biotech lab wall -->
+	<AG_RustedWall.label>ржавая стена биотехнологической лаборатории</AG_RustedWall.label>
+	<!--                       An impassable wall. Capable of holding up a roof. -->
+	<AG_RustedWall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</AG_RustedWall.description>
+	
+	<!--                    blue coral wall -->
+	<AG_BlueCoralWall.label>стена из синего коралла</AG_BlueCoralWall.label>
+	<!--                          An impassable wall. Capable of holding up a roof. -->
+	<AG_BlueCoralWall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</AG_BlueCoralWall.description>
+	
+	<!--              lab door -->
+	<AG_LabDoor.label>дверь лаборатории</AG_LabDoor.label>
+	<!--                    Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+	<AG_LabDoor.description>Простая дверь, которую нужно открывать и закрывать вручную. Время открывания и закрывания зависит от материала изготовления.</AG_LabDoor.description>
+</LanguageData>

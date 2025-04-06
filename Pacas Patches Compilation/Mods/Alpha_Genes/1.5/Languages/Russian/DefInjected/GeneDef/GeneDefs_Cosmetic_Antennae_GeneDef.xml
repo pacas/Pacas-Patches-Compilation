@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Antennae.xml-->
+	<!--                 no upper antennae -->
+	<AG_NoAntennae.label>нет верхних усиков</AG_NoAntennae.label>
+	<!--                       Carriers of this gene don't have upper antennae. -->
+	<AG_NoAntennae.description>У носителей этого гена не растут верхние усики.</AG_NoAntennae.description>
+	<!--                                      With this gene you can create xenotypes in which a pawn can have upper antennae or a lack of them at random -->
+	<AG_NoAntennae.customEffectDescriptions.0>С этим геном вы можете создавать ксенотипы, в которых наличие или отсутствие верхних усиков у персонажа будет определяться случайным образом.</AG_NoAntennae.customEffectDescriptions.0>
+	
+	<!--                   moth antennae -->
+	<AG_MothAntennae.label>мотыльковые усики</AG_MothAntennae.label>
+	<!--                         Carriers of this gene grow two large antennae protruding from the nose. -->
+	<AG_MothAntennae.description>Носители этого гена обладают двумя большими усиками, расположенными на границе между теменем и лбом.</AG_MothAntennae.description>
+	
+	<!--                       bee antennae -->
+	<AG_OutwardsAntennas.label>пчелиные усики</AG_OutwardsAntennas.label>
+	<!--                             Carriers of this gene grow two large bee antennae protruding from the head. -->
+	<AG_OutwardsAntennas.description>Носители этого гена обладают двумя крупными пчелиными усиками, выступающими из головы.</AG_OutwardsAntennas.description>
+	
+	<!--                        wasp antennae -->
+	<AG_DownwardsAntennas.label>осиные усики</AG_DownwardsAntennas.label>
+	<!--                              Carriers of this gene grow two large wasp antennae protruding from the head. -->
+	<AG_DownwardsAntennas.description>Носители этого гена обладают двумя большими осиными усиками, выступающими из головы.</AG_DownwardsAntennas.description>
+	
+	<!--                     formic antennae -->
+	<AG_FormicAntennas.label>муравьиные усики</AG_FormicAntennas.label>
+	<!--                           Carriers of this gene grow two large ant antennae protruding from the head. -->
+	<AG_FormicAntennas.description>Носители этого гена обладают двумя крупными муравьиными усиками, выступающими из головы.</AG_FormicAntennas.description>
+	
+	<!--                      no lower antennae -->
+	<AG_NoLowerAntennae.label>нет нижних усиков</AG_NoLowerAntennae.label>
+	<!--                            Carriers of this gene don't have lower antennae. -->
+	<AG_NoLowerAntennae.description>У носителей этого гена не растут нижние усики.</AG_NoLowerAntennae.description>
+	<!--                                           With this gene you can create xenotypes in which a pawn can have lower antennae or a lack of them at random -->
+	<AG_NoLowerAntennae.customEffectDescriptions.0>С этим геном вы можете создавать ксенотипы, в которых наличие или отсутствие нижних усиков у персонажа будет определяться случайным образом.</AG_NoLowerAntennae.customEffectDescriptions.0>
+	
+	<!--                    lower antennae -->
+	<AG_LowerAntennas.label>нижние усики</AG_LowerAntennas.label>
+	<!--                          Carriers of this gene grow two large antennae protruding from their jaw. -->
+	<AG_LowerAntennas.description>Носители этого гена обладают двумя большими усиками, выступающими из челюсти.</AG_LowerAntennas.description>
+</LanguageData>

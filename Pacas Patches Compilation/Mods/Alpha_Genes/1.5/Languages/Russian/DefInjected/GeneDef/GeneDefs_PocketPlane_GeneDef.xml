@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_PocketPlane.xml-->
+	<!--                        nereid pocket plane -->
+	<AG_NereidPocketPlane.label>карманное измерение нереиды</AG_NereidPocketPlane.label>
+	<!--                              Carriers will be able to access their own extradimensional space, having a safe haven away from the chaos of the Rim. -->
+	<AG_NereidPocketPlane.description>Носители этого гена способны получить доступ к собственному карманному измерению, предоставляющему им безопасное убежище вдали от хаоса окраинного мира.</AG_NereidPocketPlane.description>
+</LanguageData>

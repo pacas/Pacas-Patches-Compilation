@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Structure -->
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_AUR_Elevators</defName>
+		<label>Elevators</label>
+		<description>Elevators to tranfers resources between levels.</description>
+		<defNames>
+			<li>AM_Entrance_LargeElevator</li>
+			<li>AM_MaterialElevatorA</li>
+			<li>AM_MaterialElevatorB</li>
+			<li>AM_MaterialElevatorC</li>
+			<li>AM_MaterialElevatorD</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+    
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_AUR_CeramicFloors</defName>
+		<label>ceramic tiles</label>
+		<description>Common ceramic tiles for city buildings.</description>
+		<defNames>
+			<li>AM_WhiteTile</li>
+			<li>AM_BlackTile</li>
+			<li>AM_Tile</li>
+			<li>CeramicTile</li>
+		</defNames>
+		<designationCategory>OutsideFloors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+</Defs>

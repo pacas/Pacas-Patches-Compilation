@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--                       high mining yield -->
+	<AG_MiningYield_High.label>повышенная эффективность добычи</AG_MiningYield_High.label>
+	<!--                               miner -->
+	<AG_MiningYield_High.labelShortAdj>шахтёр</AG_MiningYield_High.labelShortAdj>
+	<!--                             Carriers of this gene are adept at mining and can acquire larger amounts of minerals from stone. -->
+	<AG_MiningYield_High.description>Носители этого гена обладают превосходными навыками в горном деле и могут добывать больше минералов из каменных пород.</AG_MiningYield_High.description>
+	
+	<!--                      low mining yield -->
+	<AG_MiningYield_Low.label>пониженная эффективность добычи</AG_MiningYield_Low.label>
+	<!--                              shoddy miner -->
+	<AG_MiningYield_Low.labelShortAdj>плохой шахтёр</AG_MiningYield_Low.labelShortAdj>
+	<!--                            Carriers of this gene are shoddy miners and can produce fewer amounts of minerals from stone. -->
+	<AG_MiningYield_Low.description>Носители этого гена не очень опытны в горном деле и добывают меньше минералов из каменных пород.</AG_MiningYield_Low.description>
+</LanguageData>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\GeneDefs\GeneDefs_Cosmetic_Eyes.xml-->
+	<!--                   feralisk eyes -->
+	<AG_FeraliskEyes.label>глаза фералиска</AG_FeraliskEyes.label>
+	<!--                         Carriers of this gene have four eyes, with correspondingly better vision. -->
+	<AG_FeraliskEyes.description>Носители этого гена обладают четырьмя глазами, что даёт им улучшенное зрение.</AG_FeraliskEyes.description>
+	
+	<!--               third eye -->
+	<AG_ThirdEye.label>третий глаз</AG_ThirdEye.label>
+	<!--                     Carriers of this gene will grow a third eye in their forehead. This third eye gives increased vision, and due to its, errr, psychic properties it cannot be hurt by... others... and... Look, Biotech parts are not real body parts and can't be harmed in attacks, ok? -->
+	<AG_ThirdEye.description>Носители этого гена обладают третьим глазом на лбу. Этот третий глаз даёт повышенное зрение, и благодаря своим… э-э-э… экстрасенсорным свойствам ему не могут навредить… другие… и... Послушайте, части из Biotech - это не настоящие части тела и не могут быть повреждены в битве, понятно?</AG_ThirdEye.description>
+	
+	<!--                         eye of Shub-Niggurath -->
+	<AG_EyeOfShubNiggurath.label>глаз Шуб-Ниггурата</AG_EyeOfShubNiggurath.label>
+	<!--                               Carriers of this gene will grow a vicious looking, fanged mouth instead of one of their eyes. This mouth is inexplicably capable of sight. -->
+	<AG_EyeOfShubNiggurath.description>Носители этого гена обладают злобной клыкастой пастью вместо одного из глаз. Она обладает необъяснимой способностью видеть.</AG_EyeOfShubNiggurath.description>
+	
+	<!--                    near blindness -->
+	<AG_NearBlindness.label>практически полная слепота</AG_NearBlindness.label>
+	<!--                          Carriers of this gene have almost completely useless eyes, with close to total blindness -->
+	<AG_NearBlindness.description>Носители этого гена обладают почти бесполезными глазами, которые крайне слепы.</AG_NearBlindness.description>
+
+	<!--                      chameleon vision -->
+	<AG_ChameleonVision.label>глаза хамелеона</AG_ChameleonVision.label>
+	<!--                            Carriers of this gene have protruding eyes that provide a panoramic sight, while also being able to move and focus independently. This allows the carrier to watch an approaching object while simultaneously scanning the rest of their environment. -->
+	<AG_ChameleonVision.description>Носители этого гена обладают выступающими глазами, которые обеспечивают панорамное зрение и способны двигаться и фокусироваться независимо. Благодаря этому носитель может одновременно следить за приближающимся объектом и сканировать остальное окружение.</AG_ChameleonVision.description>
+	
+	<!--                devil eyes -->
+	<AG_DevilEyes.label>демонические глаза</AG_DevilEyes.label>
+	<!--                      Carriers of this gene have large, deep yellow eyes. -->
+	<AG_DevilEyes.description>Носители этого гена обладают большими темно-жёлтыми глазами.</AG_DevilEyes.description>
+
+	
+	<!--                         bioluminescent eyes -->
+	<AG_BioluminescentEyes.label>биолюминесцентные глаза</AG_BioluminescentEyes.label>
+	<!--                               Carriers of this gene have eyes that glow in the dark due to the presence of a tapetum, a special membrane behind the retina. This allows them to see much better in the dark, but they are less useful in daylight. -->
+	<AG_BioluminescentEyes.description>Носители этого гена обладают глазами, которые светятся в темноте благодаря тапетуму - специальной мембране за сетчаткой. Это даёт им превосходное зрение в темноте, но менее полезно при ярком свете.</AG_BioluminescentEyes.description>
+	
+	<!--                   forsaken eyes -->
+	<AG_ForsakenEyes.label>глаза забытых</AG_ForsakenEyes.label>
+	<!--                         Carriers of this gene have four yellow eyes, with two smaller ones under two larger ones. -->
+	<AG_ForsakenEyes.description>Носители этого гена обладают четырьмя жёлтыми глазами, из которых два маленьких расположены под двумя большими.</AG_ForsakenEyes.description>
+
+</LanguageData>

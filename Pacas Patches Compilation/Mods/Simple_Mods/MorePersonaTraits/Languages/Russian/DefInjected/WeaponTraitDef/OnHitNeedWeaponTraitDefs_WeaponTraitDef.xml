@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_OnHit_FoodSelfUp.label>сытый</MPT_OnHit_FoodSelfUp.label>
+    <MPT_OnHit_FoodSelfUp.description>Персона этого оружия настаивает на том, что армия не может маршировать на пустой желудок.\nПри попадании в живую цель есть шанс, что потребность в пище будет немного удовлетворена.</MPT_OnHit_FoodSelfUp.description>
+    
+    <MPT_OnHit_FoodSelfDown.label>голодный</MPT_OnHit_FoodSelfDown.label>
+    <MPT_OnHit_FoodSelfDown.description>Персона этого оружия требует немного больше, чтобы его убедили вступить в бой.\nПри попадании в живое существо есть шанс увеличить потребность в пище.</MPT_OnHit_FoodSelfDown.description>
+    
+    <MPT_OnHit_RestSelfUp.label>пробуждающий</MPT_OnHit_RestSelfUp.label>
+    <MPT_OnHit_RestSelfUp.description>Персона этого оружия наслаждается острыми ощущениями битвы, пробуждая своего пользователя с каждым шагом и каждым ударом.\nПри попадании в живую цель есть шанс, что потребность в отдыхе будет немного удовлетворена.</MPT_OnHit_RestSelfUp.description>
+    
+    <MPT_OnHit_RestSelfDown.label>сонный</MPT_OnHit_RestSelfDown.label>
+    <MPT_OnHit_RestSelfDown.description>Персона этого оружия желает вернуться в стойку и коротать свое время в покое. Его владельцу придется дать ему немного собственного отдыха, если он хочет использовать его в бою.\nПри попадании в живое существо есть шанс увеличить потребность в отдыхе.</MPT_OnHit_RestSelfDown.description>
+</LanguageData>

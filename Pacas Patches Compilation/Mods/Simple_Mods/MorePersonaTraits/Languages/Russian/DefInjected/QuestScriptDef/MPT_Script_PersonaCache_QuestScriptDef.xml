@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--<MPT_OpportunitySite_Persona_Cache.questNameRules.rulesStrings>
+        <li>questName(priority=1)->[situation] [lootLabel]</li>
+        <li>questName(priority=2)->[stash] хранящий [lootLabel]</li>
+        <li>questName(priority=1)->[asker_nameDef]'s [stash] с [treasure]</li>
+        <li>questName->[stash] с [treasure]</li>
+        <li>stash->Тайник</li>
+        <li>stash->Схрон</li>
+        <li>stash->Ханилище</li>
+        <li>stash->Лачуга</li>
+        <li>treasure->Сокровищем</li>
+        <li>treasure->Ценностями</li>
+        <li>treasure->Богатством</li>
+        <li>treasure->Вкусностями</li>
+        <li>treasure->Припасами</li>
+        <li>situation->Изгнание</li>
+        <li>situation->Прокалывание</li>
+        <li>situation->Избавление</li>
+        <li>situation->Заземление</li>
+        <li>situation->Кусок</li>
+        <li>situation->Происхождение</li>
+        <li>situation->Руины</li>
+        <li>situation->Экстрадиция</li>
+        <li>situation->Окончательное место упокоения</li>
+        <li>situation->Кладбище</li>
+        <li>situation->Могильник</li>
+        <li>situation->Сад</li>
+        <li>situation->Мемориал</li>
+    </MPT_OpportunitySite_Persona_Cache.questNameRules.rulesStrings>-->
+    <MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==false)->Мы перехватили сообщения от [lootLabel] недалеко от [map_definite]. В нем говорится, что, поскольку это оружие, оно не может уйти само по себе и требует подбора.</MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.0>
+    
+    <MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.1>questDescription(askerIsNull==true)->Мы перехватили сообщения о мощном оружии недалеко от [map_definite].
+    </MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.1>
+    
+    <MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.2>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] из [asker_faction_name], сообщил нам об оружии персоны недалеко от нас.    </MPT_OpportunitySite_Persona_Cache.questDescriptionRules.rulesStrings.2>
+    
+    <MPT_OpportunitySite_Persona_Cache.LetterLabelQuestExpired.slateRef>Срок выполнения задания истек: [resolvedQuestName]</MPT_OpportunitySite_Persona_Cache.LetterLabelQuestExpired.slateRef>
+    
+    <MPT_OpportunitySite_Persona_Cache.LetterTextQuestExpired.slateRef>Перехваченные сообщения указывают на то, что оружие забрали другие лица. Срок действия задания [resolvedQuestName] истек.</MPT_OpportunitySite_Persona_Cache.LetterTextQuestExpired.slateRef>
+    
+</LanguageData>

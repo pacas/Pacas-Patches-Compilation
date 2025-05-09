@@ -29,6 +29,21 @@
                         defName="Eyes_Gray"
                         ]/renderNodeProperties</xpath>
                     </li>
+                    <li Class="PatchOperationFindMod">
+                        <mods>
+                            <li>Anomaly</li>
+                        </mods>
+                        <match Class="PatchOperationConditional">
+                            <xpath>Defs/TraitDef[defName="BodyMastery"]/renderNodeProperties</xpath>
+                            <match Class="PatchOperationSequence">
+                                <operations>
+                                    <li Class="PatchOperationRemove">
+                                        <xpath>Defs/TraitDef[defName="BodyMastery"]/renderNodeProperties</xpath>
+                                    </li>
+                                </operations>
+                            </match>
+                        </match>
+                    </li>
                 </operations>
             </match>
         </match>

@@ -1,0 +1,72 @@
+<LanguageData>
+  <!--The person this persona weapon is bonded to.-->
+  <MPT_BondedPawnDesc>Человек, с которым связано это персональное оружие.</MPT_BondedPawnDesc>
+  <!--Bonded To-->
+  <MPT_BondedTo>Связанн с</MPT_BondedTo>
+  <!--The persona weapon this person is bonded to.-->
+  <MPT_BondedWeaponDesc>Персональное оружие, с которым связан этот человек.</MPT_BondedWeaponDesc>
+  <!--Upon landing a hit, the persona weapon has a {0} chance to {1} {2}{3}.-->
+  <MPT_OnHitDesc>При нанесении удара персональное оружие имеет {0} шанс нанести {1} {2}{3}.</MPT_OnHitDesc>
+  <!-- by {0}-->
+  <MPT_MagnitudeDesc> {0}</MPT_MagnitudeDesc>
+  <!--This effect requires both the target and the wielder to be living.-->
+  <MPT_BothLivingDesc>Этот эффект требует, чтобы и цель, и ее обладатель были живы.</MPT_BothLivingDesc>
+  <!--increase the {0} of-->
+  <MPT_NeedOffsetTypeUpDesc>увеличивает {0}</MPT_NeedOffsetTypeUpDesc>
+  <!--decrease the {0} of-->
+  <MPT_NeedOffsetTypeDownDesc>уменьшает {0}</MPT_NeedOffsetTypeDownDesc>
+  <!--apply/increase the severity of {0} to-->
+  <MPT_ApplyHediffDesc>примените/увеличьте степень {0} к</MPT_ApplyHediffDesc>
+  <!--increase the {0} (if they have it) of-->
+  <MPT_ApplyGeneResourceDesc>увеличьте значение {0} (если оно у них есть) из</MPT_ApplyGeneResourceDesc>
+  <!--give {0}{1} to-->
+  <MPT_GiveThoughDesc>дать {0}{1} для</MPT_GiveThoughDesc>
+  <!-- (stacking up to {0} times)-->
+  <MPT_ThoughtStackDesc> (суммирование до {0} раз)</MPT_ThoughtStackDesc>
+  <!--the wielder-->
+  <MPT_TargetSelf>владелец</MPT_TargetSelf>
+  <!--the target-->
+  <MPT_TargetTarget>цель</MPT_TargetTarget>
+  <!--{0}'s persona weapon has filled their need for {1}-->
+  <MPT_NeedSated>персональное оружие {0} удовлетворило потребность в {1}</MPT_NeedSated>
+  <!--{0}'s bond to the persona weapon {1} has been severed-->
+  <MPT_Blade_Delinked>связь {0} с персональным оружием {1} была разорвана</MPT_Blade_Delinked>
+  <!--{0} has lost the trait {1}-->
+  <MPT_WeaponTraitLost>{0} утратил черту {1}</MPT_WeaponTraitLost>
+  <!--{0} has gained the trait {1}-->
+  <MPT_WeaponTraitGained>{0} приобрел черту {1}</MPT_WeaponTraitGained>
+  <!--{0}'s traits have been rerolled-->
+  <MPT_WeaponTraitsRerolled>черты {0} были изменены повторно</MPT_WeaponTraitsRerolled>
+  <!--{0}'s traits have been recombinated-->
+  <MPT_WeaponTraitsRecombinated>черты {0} были рекомбинированы</MPT_WeaponTraitsRecombinated>
+  <!--{0} cannot gain the trait {1}-->
+  <MPT_WeaponCannotGainTrait>{0} не может получить черту {1}</MPT_WeaponCannotGainTrait>
+  <!--{0} has caused a change in weather-->
+  <MPT_WeatherChangedBy>{0} вызвало изменение погоды</MPT_WeatherChangedBy>
+  <!--More Persona Traits, General Settings-->
+  <MPT_SettingsTitle>More Persona Traits, Общие настройки</MPT_SettingsTitle>
+  <!--Min Traits-->
+  <MPT_minTraits>Минимум черт</MPT_minTraits>
+  <!--The minimum amount of weapon traits generated when a weapon is spawned.\nIf this is defined as more than the max, it will take the max as its value.\n\nRequires a restart.-->
+  <MPT_minTraitsTooltip>Минимальное количество характеристик оружия, генерируемых при создании оружия.\nЕсли это значение определено как большее, чем Максимум, оно будет принимать Максимум в качестве своего значения.\n\nТребуется перезагрузка.</MPT_minTraitsTooltip>
+  <!--Max Traits-->
+  <MPT_maxTraits>Максимум черт</MPT_maxTraits>
+  <!--The maximum amount of weapon traits generated when a weapon is spawned.\nVanilla Rimworld default is 3.-->
+  <MPT_maxTraitsTooltip>Максимальное количество характеристик оружия, генерируемых при создании оружия.\nЗначение по умолчанию для vanilla Rimworld равно 3.</MPT_maxTraitsTooltip>
+  <!--Absolute Max Traits-->
+  <MPT_absoluteMaxTraits>Абсолютный максимум черт</MPT_absoluteMaxTraits>
+  <!--The absolute maximum amount of weapon traits that can be given to a weapon.-->
+  <MPT_absoluteMaxTraitsTooltip>Абсолютное максимальное количество характеристик оружия, которые могут быть присвоены оружию.</MPT_absoluteMaxTraitsTooltip>
+  <!--On-Hit Ranged Proc Factor-->
+  <MPT_rangedProcChanceFactor>Коэффициент шанса эффекта </MPT_rangedProcChanceFactor>
+  <!--The proc chance multiplier for on-hit effects.-->
+  <MPT_rangedProcChanceFactorTooltip>Множитель шанса эффекта при попадании.</MPT_rangedProcChanceFactorTooltip>
+  <!--More Persona Traits, Trait Spawn Settings-->
+  <MPT_SpawnSettingsTitle>More Persona Traits, Настройки появления признаков</MPT_SpawnSettingsTitle>
+  <!--A list of toggles which enables or disables a trait from spawning on a persona weapon.\nDOES NOT remove existing instances of the trait.\n\nRequires a restart.-->
+  <WeaponTraitSpawnSettingsTooltip>Список переключателей, которые включают или отключают появление признака на персональном оружии.\NНЕ удаляет существующие экземпляры признака.\n\nТребует перезапуска.</WeaponTraitSpawnSettingsTooltip>
+  <!--Select persona weapon to sacrifice-->
+  <MPT_SelectDonorWeapon>Выберите персональное-оружие для принесения в жертву</MPT_SelectDonorWeapon>
+  <!--Select target persona weapon-->
+  <MPT_SelectTargetWeapon>Выберите целевую персону-оружие</MPT_SelectTargetWeapon>
+</LanguageData>

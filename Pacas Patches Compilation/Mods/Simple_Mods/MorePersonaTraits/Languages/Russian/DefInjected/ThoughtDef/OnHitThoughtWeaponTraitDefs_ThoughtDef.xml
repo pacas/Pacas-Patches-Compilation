@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Thought_HitGood.stages.0.label>пси-удовлетворение</MPT_Thought_HitGood.stages.0.label>
+    <MPT_Thought_HitGood.stages.0.description>Слова моего связанного оружия эхом отдаются в моей голове, подталкивая меня вперед, несмотря на мои собственные желания.</MPT_Thought_HitGood.stages.0.description>
+    
+    <MPT_Thought_HitBad.stages.0.label>пси-раскаяние</MPT_Thought_HitBad.stages.0.label>
+    <MPT_Thought_HitBad.stages.0.description>Мое связанное оружие настаивает на том, что был другой способ справиться с этим. С каждым замахом мы чувствуем растущее сожаление о том, что нам не удалось остановить это противостояние.</MPT_Thought_HitBad.stages.0.description>
+</LanguageData>

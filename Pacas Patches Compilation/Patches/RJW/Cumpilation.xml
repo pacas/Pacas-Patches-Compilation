@@ -24,6 +24,39 @@
                         </thingCategories>
                     </value>
                 </li>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Semen Processor</li>
+                    </mods>
+                    <nomatch Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/RecipeDef[defName="Make_Samenstein" or defName="Make_Spermatuch"]</xpath>
+                            </li>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/ThingCategoryDef[defName="Cumpilation_BodilyFluid"]</xpath>
+                            </li>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/ThingDef[defName="Cumpilation_Samenstein" or defName="Cumpilation_Spermatuch"]</xpath>
+                            </li>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/ThingDef[defName="Campfire" or defName="FueledStove" or defName="ElectricStove" or defName="Brewery" or defName="BiofuelRefinery"]/recipes/li[text()="Make_Spermatuch" or text()="Make_Samenstein"]</xpath>
+                            </li>
+                        </operations>
+                    </nomatch>
+                </li>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Biotech</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationRemove">
+                                <xpath>Defs/ThingDef[defName="Cumpilation_Slugmorpher" or defName="Cumpilation_Sluggerdrop"]</xpath>
+                            </li>
+                        </operations>
+                    </match>
+                </li>
             </operations>
         </match>
     </Operation>

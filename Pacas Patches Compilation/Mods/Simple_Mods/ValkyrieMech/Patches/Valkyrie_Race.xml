@@ -34,7 +34,7 @@
                 <xpath>Defs/ThingDef[@Name="Mech_Valkyrie"]/comps</xpath>
                 <value>
                     <li Class="CombatExtended.CompProperties_ArmorDurability">
-                        <Durability>300</Durability>
+                        <Durability>600</Durability>
                         <Regenerates>true</Regenerates>
                         <RegenInterval>750</RegenInterval>
                         <RegenValue>10</RegenValue>

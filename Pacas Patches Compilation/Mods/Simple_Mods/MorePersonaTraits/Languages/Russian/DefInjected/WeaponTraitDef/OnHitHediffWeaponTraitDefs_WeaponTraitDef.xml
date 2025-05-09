@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_OnHit_Plague.label>несущий чуму</MPT_OnHit_Plague.label>
+    <MPT_OnHit_Plague.description>Персона этого оружия наслаждается искусством медленной и мучительной смерти.\nПри попадании в цель у этого оружия есть шанс применить/увеличить чуму цели.</MPT_OnHit_Plague.description>
+    
+    <MPT_OnHit_PlagueSelf.label>магнит чумы</MPT_OnHit_PlagueSelf.label>
+    <MPT_OnHit_PlagueSelf.description>Персона этого оружия, похоже, привлекает самых экзотических бактерий в самое неподходящее время.\nПри попадании в цель существует небольшая вероятность того, что пользователь заразится чумой.</MPT_OnHit_PlagueSelf.description>
+    
+    <MPT_OnHit_Flu.label>несущий грипп</MPT_OnHit_Flu.label>
+    <MPT_OnHit_Flu.description>Персона этого оружия однажды испытала грипп и теперь желает, чтобы все, с кем оно соприкасается, заразились "гриппом".\nПри попадании в цель у этого оружия есть шанс применить/увеличить грипп цели.</MPT_OnHit_Flu.description>
+    
+    <MPT_OnHit_FluSelf.label>магнит гриппа</MPT_OnHit_FluSelf.label>
+    <MPT_OnHit_FluSelf.description>Персона этого оружия притягивает болезни, куда бы оно ни направлялось. Их связь всегда будет страдать от насморка или одышки.\nПри попадании в цель существует небольшая вероятность того, что пользователь заразится гриппом.</MPT_OnHit_FluSelf.description>
+    
+    <MPT_OnHit_Pain.label>несущий боль</MPT_OnHit_Pain.label>
+    <MPT_OnHit_Pain.description>Персона этого оружия помогает своему владельцу в бою, чрезмерно стимулируя мозг врага; все его нейроны запускаются шквалом болезненных импульсов.\nПри попадании в цель есть вероятность, что цель будет испытывать нарастающую боль.</MPT_OnHit_Pain.description>
+    
+    <MPT_OnHit_PainSelf.label>магнит боли</MPT_OnHit_PainSelf.label>
+    <MPT_OnHit_PainSelf.description>Персона этого оружия ненавидит страдания и сделает все возможное, чтобы ее не использовали для подобных действий, даже если это означает, что вместо этого может пострадать их владелец.\nПри попадании в цель есть вероятность, что владелец почувствует усиливающуюся боль.</MPT_OnHit_PainSelf.description>
+    
+    <MPT_OnHit_DrainBlood.label>вампирический</MPT_OnHit_DrainBlood.label>
+    <MPT_OnHit_DrainBlood.description>Персона этого оружия способен поглощать кровь цели владельца с каждым попаданием.\nПри попадании в цель есть шанс, что цель понесет потерю крови и что владелец восстановит часть своей.</MPT_OnHit_DrainBlood.description>
+    
+    <MPT_OnHit_BloodLossSelf.label>магнит крови</MPT_OnHit_BloodLossSelf.label>
+    <MPT_OnHit_BloodLossSelf.description>Персона этого оружия настаивает на том, что история Края написана кровью, и требует крови, чтобы написать историю владельца.\nПри попадании в цель есть вероятность, что владелец пострадает от потери крови.</MPT_OnHit_BloodLossSelf.description>
+    
+    <MPT_OnHit_BloodLoss.label>кровопускание</MPT_OnHit_BloodLoss.label>
+    <MPT_OnHit_BloodLoss.description>Персона этого оружия вытягивает лишнюю кровь из своих жертв.\nПри попадании в цель есть вероятность, что цель пострадает от потери крови.</MPT_OnHit_BloodLoss.description>
+    
+</LanguageData>

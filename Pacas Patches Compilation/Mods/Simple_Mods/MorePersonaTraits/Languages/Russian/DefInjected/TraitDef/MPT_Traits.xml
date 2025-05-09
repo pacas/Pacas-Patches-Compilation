@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_BladeWhisperer.degreeDatas.0.label>заклинатель клинков</MPT_BladeWhisperer.degreeDatas.0.label>
+    <MPT_BladeWhisperer.degreeDatas.0.description>{PAWN_nameDef} чувствует души всех видов оружия. Если {PAWN_pronoun} ещё не имеет привязанности к оружию, при экипировке небиокодируемого оружия ближнего боя оно получит одну черту оружия персоны и привяжется к нему. Если {PAWN_nameDef} уберет оружие, оно потеряет эту черту.</MPT_BladeWhisperer.degreeDatas.0.description>
+    
+</LanguageData>

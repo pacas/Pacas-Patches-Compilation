@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MPT_OnHit_SpawnAsh.label>пыльный</MPT_OnHit_SpawnAsh.label>
+	<MPT_OnHit_SpawnAsh.description>Персона этого оружия дала бессмертную клятву понимать собственную силу. Его взмахи выбрасывают пепел как не очень тонкую метафору разрушения, которое производит его владелец.\nПри нанесении удара этим оружием есть шанс породить пепельную грязь под своим владельцем.</MPT_OnHit_SpawnAsh.description>
+    
+	<MPT_OnHit_SpawnSlime.label>слизистый</MPT_OnHit_SpawnSlime.label>
+	<MPT_OnHit_SpawnSlime.description>Персона этого оружия постоянно разбрызгивает инсектоидные жидкости, выделяемые неизвестным механизмом.\nПри попадании этим оружием есть шанс породить слизистую мерзость под своим владельцем.</MPT_OnHit_SpawnSlime.description>
+    
+	<MPT_OnHit_SpawnBlood.label>пропитанный кровью</MPT_OnHit_SpawnBlood.label>
+	<MPT_OnHit_SpawnBlood.description>Персона этого оружия видела столько кровопролития, что Вселенная, кажется, превентивно проливает кровь вслед за ней.\nПри попадании этим оружием есть шанс создать лужу крови под своим владельцем.</MPT_OnHit_SpawnBlood.description>
+    
+	<MPT_OnHit_SpawnFoam.label>пенный</MPT_OnHit_SpawnFoam.label>
+	<MPT_OnHit_SpawnFoam.description>Персона этого оружия знает о склонности к взрывоопасным сценариям в Крае. Во время боя они будут пытаться предотвратить такие сценарии.\nПри попадании этим оружием есть шанс создать пену под своим владельцем.</MPT_OnHit_SpawnFoam.description>
+    
+	<MPT_OnHit_SpawnFuel.label>горючий</MPT_OnHit_SpawnFuel.label>
+	<MPT_OnHit_SpawnFuel.description>Персона этого оружия настаивает на том, что их эфирные масла обязательно произведут фурор на любой вечеринке, предоставляя бесплатные образцы во время самых бурных посиделок.\nПри попадании этим оружием есть шанс создать лужи горючего химического топлива под своей целью.</MPT_OnHit_SpawnFuel.description>
+    
+	<MPT_OnHit_SpawnFuelSelf.label>горючее благословение</MPT_OnHit_SpawnFuelSelf.label>
+	<MPT_OnHit_SpawnFuelSelf.description>Персона этого оружия желает благословить своего владельца на удачу в опасных ситуациях. Так уж получилось, что единственное вещество, которое может вызвать персона - это химическое топливо.\nПри попадании этим оружием есть шанс создать под своим владельцем лужи горючего химического топлива.</MPT_OnHit_SpawnFuelSelf.description>
+    
+	<MPT_OnHit_Stun.label>ошеломляющий</MPT_OnHit_Stun.label>
+	<MPT_OnHit_Stun.description>Персона этого оружия придает каждому замаху размашистый характер. Враги, как правило, ошеломлены его явным щегольством.\nПри нанесении удара этим оружием есть шанс оглушить цель.</MPT_OnHit_Stun.description>
+    
+	<MPT_OnHit_ChangeWeather.label>штормовой</MPT_OnHit_ChangeWeather.label>
+	<MPT_OnHit_ChangeWeather.description>Персона этого оружия пережила изрядную долю штормов, хотя это может быть как-то связано с его способностью изменять погоду.\nПри нанесении удара этим оружием есть шанс изменить погоду, но он не изменит ее, если погода недавно изменилась или если на нее влияют другие силы.</MPT_OnHit_ChangeWeather.description>
+    
+	<MPT_OnHit_HealWielder.label>передающий жизнь</MPT_OnHit_HealWielder.label>
+	<MPT_OnHit_HealWielder.description>Персона этого оружия владеет искусством высасывать жизнь из своих врагов и говорит, что ее научила этому псайкастер третьего уровня за ее кухонным столом, используя пласталевые миниатюры.\nПри попадании этим оружием в живое существо есть шанс слегка залечить одну из травм владельца.</MPT_OnHit_HealWielder.description>
+
+	<MPT_OnHit_TeleportTarget.label>проксемальный</MPT_OnHit_TeleportTarget.label>
+	<MPT_OnHit_TeleportTarget.description>Персона этого оружия любит поддерживать сферу личного пространства и имеет средства для его обеспечения.\nПри попадании во что-либо этим оружием у него есть шанс телепортировать цель в случайное место неподалеку.</MPT_OnHit_TeleportTarget.description>
+    
+	<MPT_OnHit_TeleportSelf.label>дрожащий</MPT_OnHit_TeleportSelf.label>
+	<MPT_OnHit_TeleportSelf.description>Персона этого оружия страдает беспокойным нравом и изо всех сил старается сохранять стабильное положение в пространстве-времени.\nПри попадании во что-либо этим оружием есть вероятность случайной телепортации владельца в близлежащее место невелика.</MPT_OnHit_TeleportSelf.description>
+
+</LanguageData>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Bonded_ResearchUp.label>проницательный</MPT_Bonded_ResearchUp.label>
+    <MPT_Bonded_ResearchUp.description>Персона этого оружия говорит давно забытые истины своей связи.\nЧеловек, связанный с ним, получает дополнительную скорость исследования до тех пор, пока они связаны.</MPT_Bonded_ResearchUp.description>
+    <MPT_Bonded_ResearchDown.label>бессвязный</MPT_Bonded_ResearchDown.label>
+    <MPT_Bonded_ResearchDown.description>Персона этого оружия постоянно вбрасывает бесполезные отвлекающие факторы в сознание своей связи.\nСвязанная пешка уменьшает свою скорость исследования до тех пор, пока связь сохраняется.</MPT_Bonded_ResearchDown.description>
+    <MPT_Bonded_GlobalWorkspeedUp.label>энергичный</MPT_Bonded_GlobalWorkspeedUp.label>
+    <MPT_Bonded_GlobalWorkspeedUp.description>Персона этого оружия наполняет его связь энергией, двигая ее вперед.\nСвязанная пешка получает увеличенную глобальную скорость работы.</MPT_Bonded_GlobalWorkspeedUp.description>
+    <MPT_Bonded_GlobalWorkspeedDown.label>расслаблябщий</MPT_Bonded_GlobalWorkspeedDown.label>
+    <MPT_Bonded_GlobalWorkspeedDown.description>Персона этого оружия стремится "сохранить высокоэнергетическое состояние Вселенной", сопротивляясь изменениям энергетического состояния, добровольно вносимым ее создателями.\nСвязанная пешка теряет немного глобальной скорости работы.</MPT_Bonded_GlobalWorkspeedDown.description>
+    <MPT_Bonded_ShootingAccuracyPawnUp.label>корректировщик</MPT_Bonded_ShootingAccuracyPawnUp.label>
+    <MPT_Bonded_ShootingAccuracyPawnUp.description>Персона этого оружия преуспевает в том, чтобы давать советы по стрельбе своей пешке.\nСвязанная пешка повышает точность стрельбы.</MPT_Bonded_ShootingAccuracyPawnUp.description>
+    <MPT_Bonded_ShootingAccuracyPawnDown.label>близорукий</MPT_Bonded_ShootingAccuracyPawnDown.label>
+    <MPT_Bonded_ShootingAccuracyPawnDown.description>Персона этого оружия романтизировал идею "сюжетной брони" и предпримет шаги, чтобы воплотить ее в жизнь со своей связью.\nСвязанная пешка получает пониженную точность стрельбы.</MPT_Bonded_ShootingAccuracyPawnDown.description>
+    <MPT_Bonded_TradePriceImprovementUp.label>переговорщик</MPT_Bonded_TradePriceImprovementUp.label>
+    <MPT_Bonded_TradePriceImprovementUp.description>Персона этого оружия отлично умеет читать переговоры и шепчет своей связи советы, которые помогут заключить сделку.\nСвязанная пешка получает преимущество в переговорах и сделках.</MPT_Bonded_TradePriceImprovementUp.description>
+    <MPT_Bonded_TradePriceImprovementDown.label>отвлекающий в переговорах</MPT_Bonded_TradePriceImprovementDown.label>
+    <MPT_Bonded_TradePriceImprovementDown.description>Персона этого оружия отпускает самые неуместные шутки, когда его связь пытается общаться и заключать торговые сделки.\nСвязанной пешке труднее торговать и вести переговоры.</MPT_Bonded_TradePriceImprovementDown.description>
+    <MPT_Bonded_SurgerySuccessChanceFactorUp.label>хирургический</MPT_Bonded_SurgerySuccessChanceFactorUp.label>
+    <MPT_Bonded_SurgerySuccessChanceFactorUp.description>Персона этого оружия помогает направлять руку хирурга, к которому она привязана.\nПривязанная пешка получает увеличенный шанс успеха операции.</MPT_Bonded_SurgerySuccessChanceFactorUp.description>
+    <MPT_Bonded_SurgerySuccessChanceFactorDown.label>беспечный хирург</MPT_Bonded_SurgerySuccessChanceFactorDown.label>
+    <MPT_Bonded_SurgerySuccessChanceFactorDown.description>Персона этого оружия склонна к тому, чтобы их связь упускала критические детали.\nУ связанной пешки уменьшается шанс на успех операции.</MPT_Bonded_SurgerySuccessChanceFactorDown.description>
+    <MPT_Bonded_RestRateMultiplierUp.label>уютный</MPT_Bonded_RestRateMultiplierUp.label>
+    <MPT_Bonded_RestRateMultiplierUp.description>Персона этого оружия успокаивает пешку, к которой она привязана, помогая ей хорошо выспаться.\nСвязанная пешка имеет повышенную скорость отдыха.</MPT_Bonded_RestRateMultiplierUp.description>
+    <MPT_Bonded_RestRateMultiplierDown.label>кошмарный</MPT_Bonded_RestRateMultiplierDown.label>
+    <MPT_Bonded_RestRateMultiplierDown.description>Персона этого оружия не может не вызывать снов об ужасах, которые могут поджидать нас впереди.\nСвязанная пешка имеет пониженную эффективность отдыха.</MPT_Bonded_RestRateMultiplierDown.description>
+    <MPT_Bonded_ImmunityGainSpeedUp.label>имунный</MPT_Bonded_ImmunityGainSpeedUp.label>
+    <MPT_Bonded_ImmunityGainSpeedUp.description>Персона этого оружия обладает обширными знаниями о сворачивании белков и способна предоставить эти знания иммунной системе их связывания.\nСвязанная пешка получает повышенную скорость выработки иммунитета.</MPT_Bonded_ImmunityGainSpeedUp.description>
+    <MPT_Bonded_ImmunityGainSpeedDown.label>иммуномазохист</MPT_Bonded_ImmunityGainSpeedDown.label>
+    <MPT_Bonded_ImmunityGainSpeedDown.description>Персона этого оружия имеет странно специфическое хобби наблюдать за продолжительной болью и страданиями, которые возникают из-за попыток тела их связи бороться с инфекционными агентами, и предпримет шаги, чтобы наслаждаться этим хобби как можно дольше.\nУ связанной пешки понижена скорость выработки иммунитета.</MPT_Bonded_ImmunityGainSpeedDown.description>
+    <MPT_Bonded_MedicalTendQualityOffsetUp.label>ухаживающий</MPT_Bonded_MedicalTendQualityOffsetUp.label>
+    <MPT_Bonded_MedicalTendQualityOffsetUp.description>Персона этого оружия одновременно нежна сердцем и душой.\nПомогает связанной пешке лучше разбираться в первой медицинской помощи.</MPT_Bonded_MedicalTendQualityOffsetUp.description>
+    <MPT_Bonded_MedicalTendQualityOffsetDown.label>бальзамировщик</MPT_Bonded_MedicalTendQualityOffsetDown.label>
+    <MPT_Bonded_MedicalTendQualityOffsetDown.description>Персона этого оружия больше озабочена процессом сохранения биологических останков, чем сохранением жизни, и "услужливо" поощряет свою связь делать то же самое.\nСвязанная пешка теряет эффективность первой медицинской помощи.</MPT_Bonded_MedicalTendQualityOffsetDown.description>
+    <MPT_Bonded_GlobalLearningFactorUp.label>обучающий</MPT_Bonded_GlobalLearningFactorUp.label>
+    <MPT_Bonded_GlobalLearningFactorUp.description>Персона этого оружия дала бессмертную клятву полностью раскрыть свой потенциал и будет помогать своим подопечным в любых случаях самосовершенствования.\nСвязанная пешка получает повышенную скорость обучения.</MPT_Bonded_GlobalLearningFactorUp.description>
+    <MPT_Bonded_GlobalLearningFactorDown.label>глупый</MPT_Bonded_GlobalLearningFactorDown.label>
+    <MPT_Bonded_GlobalLearningFactorDown.description>Персона этого оружия, по-видимому, содержит обширные знания о вселенной с принципиально иными законами природы, настаивая на том, что то, как мы видим Вселенную, неверно.\nХотя это и интересно, по большей части бесполезно; из-за этого связанная пешка учится медленнее.</MPT_Bonded_GlobalLearningFactorDown.description>
+    <MPT_Bonded_MentalBreakThresholdDown.label>Ментально стойкий</MPT_Bonded_MentalBreakThresholdDown.label>
+    <MPT_Bonded_MentalBreakThresholdDown.description>Персона этого оружия пережила гораздо худшее, чем все, что мог бы обрушить на нее Край. Эта решимость, похоже, отражается на их связи.\nСвязанная пешка не так легко поддается ментальным срывам.</MPT_Bonded_MentalBreakThresholdDown.description>
+    <MPT_Bonded_MentalBreakThresholdUp.label>беспокойный</MPT_Bonded_MentalBreakThresholdUp.label>
+    <MPT_Bonded_MentalBreakThresholdUp.description>Персона этого оружия легко поддается огорчению. Его беспокойная энергия отражается на их связи.\nСвязанная пешка более восприимчива к психическим срывам.</MPT_Bonded_MentalBreakThresholdUp.description>
+    <MPT_Bonded_CookSpeedUp.label>повар</MPT_Bonded_CookSpeedUp.label>
+    <MPT_Bonded_CookSpeedUp.description>Персона этого оружия запуталась в том, что на самом деле означал пост, и провозглашает, что все должны соблюдать этот "пост".\nУ связанной пешки повышена скорость приготовления пищи.</MPT_Bonded_CookSpeedUp.description>
+    <MPT_Bonded_CookSpeedDown.label>мультиварка</MPT_Bonded_CookSpeedDown.label>
+    <MPT_Bonded_CookSpeedDown.description>Персона этого оружия утверждает, что в прошлой жизни была мультиваркой и что вся еда должна готовиться таким образом.\nУ связанной пешки понижена скорость приготовления пищи.</MPT_Bonded_CookSpeedDown.description>
+    <MPT_Bonded_MiningSpeedUp.label>Дробитель скал</MPT_Bonded_MiningSpeedUp.label>
+    <MPT_Bonded_MiningSpeedUp.description>Персона этого оружия любит упоминать, что в дополнение к инструменту войны, они также являются отличным инструментом добычи полезных ископаемых.\nУ связанной пешкой увеличена скорость добычи полезных ископаемых и бурения.</MPT_Bonded_MiningSpeedUp.description>
+    <MPT_Bonded_MiningSpeedDown.label>спелеофобия</MPT_Bonded_MiningSpeedDown.label>
+    <MPT_Bonded_MiningSpeedDown.description>Персона этого оружия имела неудачный опыт в отношении пещер и попытается помешать своей пешке копать слишком глубоко или слишком жадно.\nУ связанной пешки уменьшена скорость добычи полезных ископаемых и бурения.</MPT_Bonded_MiningSpeedDown.description>
+    <MPT_Bonded_PlantSpeedUp.label>ненавистник флоры</MPT_Bonded_PlantSpeedUp.label>
+    <MPT_Bonded_PlantSpeedUp.description>Персона этого оружия похоже имеет личную вендетту против всего, что является зеленым, и более чем счастлив помочь в его вырубке.\nУ связанной пешки повышается скорость работы с растениями и рубки деревьев.</MPT_Bonded_PlantSpeedUp.description>
+    <MPT_Bonded_PlantSpeedDown.label>бонсай-стер</MPT_Bonded_PlantSpeedDown.label>
+    <MPT_Bonded_PlantSpeedDown.description>Персона этого оружия получает больше удовольствия от процесса придания растениям красивой формы, желая, чтобы их (непрактично) срезала растения под странными углами.\nУ связанной пешки уменьшается скорость работы с растениями и рубки деревьев.</MPT_Bonded_PlantSpeedDown.description>
+    <MPT_Bonded_ConstructionUp.label>каменщик</MPT_Bonded_ConstructionUp.label>
+    <MPT_Bonded_ConstructionUp.description>Персона этого оружия обладает большими знаниями о местной тектонике, стабильности грунта и балансировке нагрузки на материалы, рассказывая вещи, которые в противном случае их связь не сразу осознала бы.\nСвязанная пешка получает увеличенную скорость строительства и сглаживания, а также шансов на успех строительства.</MPT_Bonded_ConstructionUp.description>
+    <MPT_Bonded_ConstructionDown.label>архитектурный вызов</MPT_Bonded_ConstructionDown.label>
+    <MPT_Bonded_ConstructionDown.description>Персона этого оружия утверждает, что раньше это был садовник стульев. Их связанная пешка остается в полном замешательстве, когда ей оказывается помощь в деятельности, связанной со строительством.\nСвязанная пешка получает сниженную скорость строительства и сглаживания, а также шансов на успех строительства</MPT_Bonded_ConstructionDown.description>
+    <MPT_Bonded_AimingDelayFactorDown.label>скорострельный</MPT_Bonded_AimingDelayFactorDown.label>
+    <MPT_Bonded_AimingDelayFactorDown.description>Персона этого оружия легко возбуждается, в частности, пулями. Или дело было в том, что из-за этого пули легко срабатывали? Возможно, и то, и другое.\nСвязанная пешка получает увеличенную скорость стрельбы. Это не ограничивается этим оружием.</MPT_Bonded_AimingDelayFactorDown.description>
+    <MPT_Bonded_AimingDelayFactorUp.label>замедленный выстрел</MPT_Bonded_AimingDelayFactorUp.label>
+    <MPT_Bonded_AimingDelayFactorUp.description>Персона этого оружия боготворит предположительно захватывающего хакера по имени Билл и рассказывает, как он взломал Архотек Персону с помощью пуль, изменяющих время. Решив, что это не может исказить время, эта персона отдает дань уважения своему кумиру-хакеру, просто замедляя вместо этого палец на спусковом крючке своей связи.\nСвязанная пешка получает сниженную скорость стрельбы. Это не ограничивается этим оружием.</MPT_Bonded_AimingDelayFactorUp.description>
+    <MPT_Bonded_GeneralLaborSpeedUp.label>универсальный</MPT_Bonded_GeneralLaborSpeedUp.label>
+    <MPT_Bonded_GeneralLaborSpeedUp.description>Персона этого оружия передает ощущение срочности во всех вещах, отражаясь на их связи.\nСвязанная пешка получает увеличенную общую скорость работы.</MPT_Bonded_GeneralLaborSpeedUp.description>
+    <MPT_Bonded_GeneralLaborSpeedDown.label>ленивый</MPT_Bonded_GeneralLaborSpeedDown.label>
+    <MPT_Bonded_GeneralLaborSpeedDown.description>Персона этого оружия влияет на способ работы их связи, сокращая скорость их работы до скорости улитки.\nСвязанная пешка получает сниженную общую скорость работы.</MPT_Bonded_GeneralLaborSpeedDown.description>
+    <MPT_Bonded_SocialFightChanceFactorDown.label>деэскалатор</MPT_Bonded_SocialFightChanceFactorDown.label>
+    <MPT_Bonded_SocialFightChanceFactorDown.description>Персона этого оружия желает, чтобы его вынимали только тогда, когда это действительно необходимо, а в остальном ее оставили в покое.\nСвязанная пешка с меньшей вероятностью ввяжется в социальные драки.</MPT_Bonded_SocialFightChanceFactorDown.description>
+    <MPT_Bonded_SocialFightChanceFactorUp.label>выскочка</MPT_Bonded_SocialFightChanceFactorUp.label>
+    <MPT_Bonded_SocialFightChanceFactorUp.description>Персона этого оружия желает своему владельцу быть готовым к тому, что случится трагедия, и поощряет их связь искать любую возможность отточить свои боевые навыки.\nСвязанная пешка с большей вероятностью ввяжется в социальные драки.</MPT_Bonded_SocialFightChanceFactorUp.description>
+    <MPT_Bonded_PainShockThresholdUp.label>крепкий</MPT_Bonded_PainShockThresholdUp.label>
+    <MPT_Bonded_PainShockThresholdUp.description>Персона этого оружия не позволит их связи так легко пресмыкаться. Они будут идти дальше, даже если это последнее, что они сделают.\nСвязанная пешка имеет повышенный болевой порог.</MPT_Bonded_PainShockThresholdUp.description>
+    <MPT_Bonded_PainShockThresholdDown.label>трясущийся</MPT_Bonded_PainShockThresholdDown.label>
+    <MPT_Bonded_PainShockThresholdDown.description>Персона этого оружия обладает волей, которую легко подавить. Даже малейшей боли достаточно, чтобы отправить этого персонажа и его владельца на пол.\nСвязанная пешка имеет пониженный болевой порог.</MPT_Bonded_PainShockThresholdDown.description>
+    <MPT_Bonded_HuntingStealthUp.label>скрытный</MPT_Bonded_HuntingStealthUp.label>
+    <MPT_Bonded_HuntingStealthUp.description>Персона этого оружия, кажется, окутывает свою связь тенями, давая им преимущество перед невольной игрой.\nСвязанная пешка получает повышенную скрытность при охоте.</MPT_Bonded_HuntingStealthUp.description>
+    <MPT_Bonded_HuntingStealthDown.label>громкий</MPT_Bonded_HuntingStealthDown.label>
+    <MPT_Bonded_HuntingStealthDown.description>Персона этого оружия отказывается скрывать свою славу и смело заявит о себе даже самому ничего не подозревающему зверю.\nСвязанная пешка получает сниженную скрытность при охоте.</MPT_Bonded_HuntingStealthDown.description>
+    <MPT_Bonded_RanchingUp.label>пастух</MPT_Bonded_RanchingUp.label>
+    <MPT_Bonded_RanchingUp.description>Персона этого оружия является чем-то вроде фермерского инструмента и нашептывает своей связи полезные советы относительно всего, что связано с животными.\nСвязанная пешка получает повышенную скорость приручения животных, дрессировки и т.д.</MPT_Bonded_RanchingUp.description>
+    <MPT_Bonded_RanchingDown.label>недолюблюивающий животных</MPT_Bonded_RanchingDown.label>
+    <MPT_Bonded_RanchingDown.description>Персона этого оружия просто ненавидит все животное. Они советуют своей связи проявлять крайнюю осторожность при взаимодействии со зверями.\nСвязанная пешка получает сниженную скорость приручения животных, дрессировки и т.д.</MPT_Bonded_RanchingDown.description>
+    <MPT_Bonded_WardenUp.label>пугающий</MPT_Bonded_WardenUp.label>
+    <MPT_Bonded_WardenUp.description>Персона этого оружия излучает давящую ауру, обезоруживающую всех без исключения, кто противостоит их связи в антагонистических социальных взаимодействиях.\nСвязанная пешка получает увеличенный шанс ареста, шанс вербовки, силу обращения и подавления.</MPT_Bonded_WardenUp.description>
+    <MPT_Bonded_WardenDown.label>сдержанный</MPT_Bonded_WardenDown.label>
+    <MPT_Bonded_WardenDown.description>Персона этого оружия, похоже, оказывает отчужденное влияние на присутствие их связанной пешки. Кажется, никто не воспринимает их всерьез.\nСвязанная пешка получает сниженный шанс ареста, шанс вербовки, силу обращения и подавления.</MPT_Bonded_WardenDown.description>
+    <MPT_Bonded_LifespanDown.label>недолговечный</MPT_Bonded_LifespanDown.label>
+    <MPT_Bonded_LifespanDown.description>Персона этого оружия верит, что вы либо умрете героем, либо увидите, как станете злодеем. С этой целью они стараются сделать так, чтобы их партнер оставался героем.\nСвязанная пешка имеет более короткую продолжительность жизни.</MPT_Bonded_LifespanDown.description>
+    <MPT_Bonded_LifespanUp.label>долгоживущий</MPT_Bonded_LifespanUp.label>
+    <MPT_Bonded_LifespanUp.description>Персона этого оружия сделают все, что в их силах, чтобы пески времени не смогли заявить о своих правах.\nСвязанная пешка имеет более длинную продолжительность жизни.</MPT_Bonded_LifespanUp.description>
+    <MPT_Bonded_CleaningSpeedDown.label>неопрятный</MPT_Bonded_CleaningSpeedDown.label>
+    <MPT_Bonded_CleaningSpeedDown.description>Персона этого оружия решает вести отчужденный образ жизни и извивается, когда их партнеру поручают задачи, которые он считает "скучными".\nСвязанная пешка получает сниженную скорость уборки.</MPT_Bonded_CleaningSpeedDown.description>
+    <MPT_Bonded_CleaningSpeedUp.label>чистый</MPT_Bonded_CleaningSpeedUp.label>
+    <MPT_Bonded_CleaningSpeedUp.description>Персона этого оружия напевает запоминающуюся мелодию в голове их связанной пешки. Это же так просто - чистить!\nСвязанная пешка получает увеличенную скорость уборки</MPT_Bonded_CleaningSpeedUp.description>
+    <MPT_Bonded_PsychicEntropyMaxDown.label>перегретый</MPT_Bonded_PsychicEntropyMaxDown.label>
+    <MPT_Bonded_PsychicEntropyMaxDown.description>Персона этого оружия знает, что человек не может противостоять энтропии, и даже не пытается сопротивляться.\nСвязанная пешка обладает сниженным максимальным уровнем нейроперегрева, даже когда персона не экипирована.</MPT_Bonded_PsychicEntropyMaxDown.description>
+    <MPT_Bonded_PsychicEntropyMaxUp.label>охлаждающий нейроперегрев</MPT_Bonded_PsychicEntropyMaxUp.label>
+    <MPT_Bonded_PsychicEntropyMaxUp.description>Персона этого оружия способен обуздать худшие последствия психической энтропии вдали от разума их связи.\nСвязанная пешка обладает повышенным максимальным уровнем нейроперегрева, даже когда персона не экипирована.</MPT_Bonded_PsychicEntropyMaxUp.description>
+    <MPT_Bonded_FertilityUp.label>буйный</MPT_Bonded_FertilityUp.label>
+    <MPT_Bonded_FertilityUp.description>Персона этого оружия мечтает о том, что они будут передаваться по семейной линии ИЗ ПОКОЛЕНИЯ в поколение и наполнят тело своего бонда бодрящей энергией.\nСвязанная пешка получает повышенную плодовитость.</MPT_Bonded_FertilityUp.description>
+    <MPT_Bonded_FertilityDown.label>отвращение молодости</MPT_Bonded_FertilityDown.label>
+    <MPT_Bonded_FertilityDown.description>Персона этого оружия боится детей и сделает все возможное, чтобы не находиться рядом с ними.\nСвязанная пешка получает сниженную плодовитость.</MPT_Bonded_FertilityDown.description>
+    <MPT_Bonded_MechStatsUp.label>инженер</MPT_Bonded_MechStatsUp.label>
+    <MPT_Bonded_MechStatsUp.description>Персона этого оружия - настоящий мастер создания мехов. Они часто делятся полезными советами и хитростями со своими друзьями, чтобы помочь им в их проектах, связанных с механоидами.\nУ связанной пешки увеличиваюся различные характеристики, связанные работой Мехинатором.</MPT_Bonded_MechStatsUp.description>
+    <MPT_Bonded_MechStatsDown.label>изоляционный</MPT_Bonded_MechStatsDown.label>
+    <MPT_Bonded_MechStatsDown.description>Персона этого оружия имеет затяжную травму, связанную с неудачным инцидентом с ремонтом механоида. С тех пор их руки неудержимо трясутся, когда они работают над мехом, или, по крайней мере, они бы тряслись, если бы они у них были.\nУ связанной пешки снижаются различные характеристики, связанные работой Мехинатором</MPT_Bonded_MechStatsDown.description>
+    <MPT_Bonded_CertaintyLossFactorUp.label>неопределенный</MPT_Bonded_CertaintyLossFactorUp.label>
+    <MPT_Bonded_CertaintyLossFactorUp.description>Персона этого оружия, кажется, собирает идеологии, как трумбо собирает калории.\nСвязанная пешка быстрее становится неуверенной в своей идеологии.</MPT_Bonded_CertaintyLossFactorUp.description>
+    <MPT_Bonded_CertaintyLossFactorDown.label>непоколебимый</MPT_Bonded_CertaintyLossFactorDown.label>
+    <MPT_Bonded_CertaintyLossFactorDown.description>Персона этого оружия знает, что сказать в нужное время, чтобы помочь самой проверенной пешке оставаться твердой в своей идеологии.\nСвязанная пешка становится неуверенной в своей идеологии медленнее.</MPT_Bonded_CertaintyLossFactorDown.description>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MPT_OnHit_AddedFlame_Minor.label>опалитель</MPT_OnHit_AddedFlame_Minor.label>
+	<MPT_OnHit_AddedFlame_Minor.description>Персона этого оружия обладает переменчивым темпераментом и склонен к вспышкам экзотермического характера.\nПри попадании в цель есть шанс, что цель получит небольшое количество дополнительного урона от пламени.</MPT_OnHit_AddedFlame_Minor.description>
+	<MPT_OnHit_AddedFlame.label>поджигатель</MPT_OnHit_AddedFlame.label>
+	<MPT_OnHit_AddedFlame.description>Персона этого оружия обладает отличными навыками уничтожения кустарника и может разжечь огонь практически в любом климате.\nПри попадании в цель есть вероятность, что цель получит среднее количество дополнительного урона от пламени.</MPT_OnHit_AddedFlame.description>
+	<MPT_OnHit_AddedFlame_Major.label>сжигатель</MPT_OnHit_AddedFlame_Major.label>
+	<MPT_OnHit_AddedFlame_Major.description>Персона этого оружия обладает жгучей страстью к насилию, к большому огорчению тех, кто его получает.\nПри попадании в цель есть шанс, что цель получит значительное количество дополнительного урона от пламени.</MPT_OnHit_AddedFlame_Major.description>
+	<MPT_OnHit_AddedBlunt_Minor.label>молотитель</MPT_OnHit_AddedBlunt_Minor.label>
+	<MPT_OnHit_AddedBlunt_Minor.description>Персона этого оружия поддерживает группу в социальных сетях и хорошо разбирается в использовании (бан) молота.\nПри попадании в цель есть шанс, что цель получит небольшое количество дополнительного тупого урона.</MPT_OnHit_AddedBlunt_Minor.description>
+	<MPT_OnHit_AddedBlunt.label>эффективный</MPT_OnHit_AddedBlunt.label>
+	<MPT_OnHit_AddedBlunt.description>Персона этого оружия великолепна в публичных выступлениях, а слова имеют вес. И их атаки тоже, как выясняется.\nПри попадании в цель есть вероятность, что цель получит среднее количество дополнительного тупого урона.</MPT_OnHit_AddedBlunt.description>
+	<MPT_OnHit_AddedBlunt_Major.label>сокрушительный</MPT_OnHit_AddedBlunt_Major.label>
+	<MPT_OnHit_AddedBlunt_Major.description>Персона этого оружия сражается скорее как стихийное бедствие, чем как оружие.\nПри попадании в цель существует вероятность того, что цель получит значительное количество дополнительного тупого урона.</MPT_OnHit_AddedBlunt_Major.description>
+	<MPT_OnHit_AddedCut_Minor.label>резатель</MPT_OnHit_AddedCut_Minor.label>
+	<MPT_OnHit_AddedCut_Minor.description>Персона этого оружия обладает очень хорошей техникой владения ножом и лучше всех режет морковь!\nПри попадании в цель есть шанс, что цель получит небольшое количество дополнительного режущего урона.</MPT_OnHit_AddedCut_Minor.description>
+	<MPT_OnHit_AddedCut.label>рубитель</MPT_OnHit_AddedCut.label>
+	<MPT_OnHit_AddedCut.description>Персона этого оружия показывает нездоровое любопытство к кровавым фильмам ужасов.\nПри попадании в цель есть вероятность, что цель получит среднее количество дополнительного режущего урона.</MPT_OnHit_AddedCut.description>
+	<MPT_OnHit_AddedCut_Major.label>раздирающий</MPT_OnHit_AddedCut_Major.label>
+	<MPT_OnHit_AddedCut_Major.description>Персона этого оружия на самом деле надеется, что люди примут это близко к сердцу.\nПри попадании в цель есть вероятность, что цель получит значительное количество дополнительного режущего урона.</MPT_OnHit_AddedCut_Major.description>
+	<MPT_OnHit_AddedEMP.label>пульсар</MPT_OnHit_AddedEMP.label>
+	<MPT_OnHit_AddedEMP.description>Персона этого оружия может дестабилизировать электромагнитные взаимодействия на квантовом уровне, но только когда оно расстроено.\nПри попадании в цель есть шанс, что цель получит дополнительный урон от ЭМИ.</MPT_OnHit_AddedEMP.description>
+	<MPT_OnHit_AddedBulletToxic_Minor.label>токсичный</MPT_OnHit_AddedBulletToxic_Minor.label>
+	<MPT_OnHit_AddedBulletToxic_Minor.description>Персона этого оружия особенно неприятен, когда речь заходит о театрах военных действий.\nПри попадании в цель есть шанс, что цель получит небольшое количество дополнительного токсичного урона.</MPT_OnHit_AddedBulletToxic_Minor.description>
+	<MPT_OnHit_AddedBulletToxic.label>злобный</MPT_OnHit_AddedBulletToxic.label>
+	<MPT_OnHit_AddedBulletToxic.description>Персона этого оружия все еще возмущен тем, что его однажды назвали токсичным вместо ядовоитого, и просто не может с этим смириться.\nПри попадании в цель есть шанс, что цель получит среднее количество дополнительного токсичного урона.</MPT_OnHit_AddedBulletToxic.description>
+	<MPT_OnHit_AddedBulletToxic_Major.label>разлагающий</MPT_OnHit_AddedBulletToxic_Major.label>
+	<MPT_OnHit_AddedBulletToxic_Major.description>Персона этого оружия знает, как заставить героев умереть или, по крайней мере, увидеть, как они проживут достаточно долго, чтобы стать злодеем.\nПри попадании в цель существует вероятность того, что цель получит значительное количество дополнительного токсического урона.</MPT_OnHit_AddedBulletToxic_Major.description>
+
+</LanguageData>

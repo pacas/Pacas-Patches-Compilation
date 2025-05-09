@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Bonded_ImmunePenoxycyline.label>пеноксицилированный</MPT_Bonded_ImmunePenoxycyline.label>
+    <MPT_Bonded_ImmunePenoxycyline.description>Персона этого оружия придает его связи постоянный эффект пеноксицилина до тех пор, пока связь сохраняется. Это дает иммунитет к малярии, сонной болезни и чуме.</MPT_Bonded_ImmunePenoxycyline.description>
+    
+    <MPT_Bonded_ImmuneMechanite.label>механитовый разрушитель</MPT_Bonded_ImmuneMechanite.label>
+    <MPT_Bonded_ImmuneMechanite.description>Персона этого оружия однажды вступил в жаркую полемику с роем механитов и с тех пор никогда им не доверял. Он сделает все возможное, чтобы защитить своего хозяина от любых неконсенсусных механитов.\nСвязанная пешка невосприимчива к сенсорным или волокнистым механитам до тех пор, пока сохраняется связь.</MPT_Bonded_ImmuneMechanite.description>
+    
+    <MPT_Bonded_PainOffsetUpMinor.label>разгорающийся</MPT_Bonded_PainOffsetUpMinor.label>
+    <MPT_Bonded_PainOffsetUpMinor.description>Персона этого оружия передает скрытую боль его обладателю.\nСвязанная пешка постоянно испытывает немного больше боли.</MPT_Bonded_PainOffsetUpMinor.description>
+    
+    <MPT_Bonded_PainOffsetUpMajor.label>мучительный</MPT_Bonded_PainOffsetUpMajor.label>
+    <MPT_Bonded_PainOffsetUpMajor.description>Персона этого оружия имеет на нем эмоциональный шрам. Этот шрам проявляется как физическая боль для его связи.\nСвязанная пешка постоянно испытывает больше боли.</MPT_Bonded_PainOffsetUpMajor.description>
+    
+    <MPT_Bonded_PainOffsetDownMinor.label>облегчающий</MPT_Bonded_PainOffsetDownMinor.label>
+    <MPT_Bonded_PainOffsetDownMinor.description>Персона этого оружия обеспечивает постоянное незначительное обезболивающее, которое передается по психической связи.\nСвязанная пешка постоянно испытывает немного меньшую боль.</MPT_Bonded_PainOffsetDownMinor.description>
+    
+    <MPT_Bonded_PainOffsetDownMajor.label>смягчающий</MPT_Bonded_PainOffsetDownMajor.label>
+    <MPT_Bonded_PainOffsetDownMajor.description>Персона этого оружия заглушает боль их связи, позволяя проявляться только самой сильной боли.\nСвязанная пешка постоянно испытывает меньше боли.</MPT_Bonded_PainOffsetDownMajor.description>
+    
+    <MPT_Bonded_Vomit.label>извергающий</MPT_Bonded_Vomit.label>
+    <MPT_Bonded_Vomit.description>Персона этого оружия приводит их связанную пешку в постоянное состояние тошноты.\nСвязанная пешка периодически подбрасывается вверх.</MPT_Bonded_Vomit.description>
+    
+    <MPT_Bonded_BleedFactorUp.label>гемофилия</MPT_Bonded_BleedFactorUp.label>
+    <MPT_Bonded_BleedFactorUp.description>Персона этого оружия верит в жизнь с открытым сердцем. К сожалению, он воспринял это совершенно буквально.\nСвязанная пешка истекает кровью быстрее.</MPT_Bonded_BleedFactorUp.description>
+    
+    <MPT_Bonded_BleedFactorDown.label>сгущающий</MPT_Bonded_BleedFactorDown.label>
+    <MPT_Bonded_BleedFactorDown.description>Персона этого оружия знает о важности красной жидкости, которая выделяется из большинства предметов, и сделает все возможное, чтобы их владелец сохранил свою в себе.\nСвязанная пешка истекает кровью медленнее.</MPT_Bonded_BleedFactorDown.description>
+    
+    <MPT_Bonded_NaturalHealingFactorUp.label>лечащий</MPT_Bonded_NaturalHealingFactorUp.label>
+    <MPT_Bonded_NaturalHealingFactorUp.description>Персона этого оружия, похоже, передает своего рода панацею через психическую связь.\nСвязанная пешка получает увеличенную скорость исцеления.</MPT_Bonded_NaturalHealingFactorUp.description>
+    
+    <MPT_Bonded_NaturalHealingFactorDown.label>гноящийся</MPT_Bonded_NaturalHealingFactorDown.label>
+    <MPT_Bonded_NaturalHealingFactorDown.description>Персона этого оружия оставляет раны их подопечных раздраженными и опухшими.\nСвязанная пешка теряет в скорости исцеления.</MPT_Bonded_NaturalHealingFactorDown.description>
+</LanguageData>

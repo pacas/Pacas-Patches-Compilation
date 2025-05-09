@@ -1,51 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Alpha Genes</li>
-		</mods>
+	<!-- ======= Patch-out melee stun mechanic from ranged blunt damage ======= -->
 
-			<match Class="PatchOperationSequence">
-				<operations>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/DamageDef[defName="AG_RangedBlunt"]/*[self::bluntStunDuration or self::bluntStunChancePerDamagePctOfCorePartToHeadCurve or self::bluntStunChancePerDamagePctOfCorePartToBodyCurve]</xpath>
+	</Operation>
 
-					<!-- ======= Patch-out melee stun mechanic from ranged blunt damage ======= -->
+	<!-- ======= Electric Shock ======= -->
 
-					<li Class="PatchOperationRemove">
-						<xpath>Defs/DamageDef[defName="AG_RangedBlunt"]/*[self::bluntStunDuration or self::bluntStunChancePerDamagePctOfCorePartToHeadCurve or self::bluntStunChancePerDamagePctOfCorePartToBodyCurve]</xpath>
-					</li>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/DamageDef[defName="AG_Electric"]</xpath>
+		<value>
+			<li Class="CombatExtended.DamageDefExtensionCE">
+				<isAmbientDamage>true</isAmbientDamage>
+			</li>
+		</value>
+	</Operation>
 
-					<!-- ======= Electric Shock ======= -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DamageDef[defName="AG_Electric"]/armorCategory</xpath>
+		<value>
+			<armorCategory>Electric</armorCategory>
+		</value>
+	</Operation>
 
-					<li Class="PatchOperationAddModExtension">
-						<xpath>Defs/DamageDef[defName="AG_Electric"]</xpath>
-						<value>
-							<li Class="CombatExtended.DamageDefExtensionCE">
-								<isAmbientDamage>true</isAmbientDamage>
-							</li>
-						</value>
-					</li>
+	<!-- ======= Acid Spit ======= -->
 
-					<li Class="PatchOperationReplace">
-						<xpath>Defs/DamageDef[defName="AG_Electric"]/armorCategory</xpath>
-						<value>
-							<armorCategory>Electric</armorCategory>
-						</value>
-					</li>
-
-					<!-- ======= Acid Spit ======= -->
-
-					<li Class="PatchOperationAddModExtension">
-						<xpath>Defs/DamageDef[defName="AG_AcidSpit"]</xpath>
-						<value>
-							<li Class="CombatExtended.DamageDefExtensionCE">
-								<isAmbientDamage>true</isAmbientDamage>
-							</li>
-						</value>
-					</li>
-
-				</operations>
-			</match>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/DamageDef[defName="AG_AcidSpit"]</xpath>
+		<value>
+			<li Class="CombatExtended.DamageDefExtensionCE">
+				<isAmbientDamage>true</isAmbientDamage>
+			</li>
+		</value>
 	</Operation>
 
 </Patch>

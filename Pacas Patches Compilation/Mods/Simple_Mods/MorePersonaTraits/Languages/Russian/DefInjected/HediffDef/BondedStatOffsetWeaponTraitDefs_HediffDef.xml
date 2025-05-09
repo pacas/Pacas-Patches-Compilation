@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Hediff_ResearchUp.label>пси-исследования</MPT_Hediff_ResearchUp.label>
+    <MPT_Hediff_ResearchUp.description>Скорость исследования увеличена связанным оружием.</MPT_Hediff_ResearchUp.description>
+    
+    <MPT_Hediff_ResearchDown.label>пси-отсталость</MPT_Hediff_ResearchDown.label>
+    <MPT_Hediff_ResearchDown.description>Скорость исследования снижена связанным оружием.</MPT_Hediff_ResearchDown.description>
+    
+    <MPT_Hediff_GlobalWorkspeedUp.label>пси-мотивация</MPT_Hediff_GlobalWorkspeedUp.label>
+    <MPT_Hediff_GlobalWorkspeedUp.description>Моя общая скорость работы увеличивается благодаря связанному оружию.</MPT_Hediff_GlobalWorkspeedUp.description>
+    
+    <MPT_Hediff_GlobalWorkspeedDown.label>пси-усталось</MPT_Hediff_GlobalWorkspeedDown.label>
+    <MPT_Hediff_GlobalWorkspeedDown.description>Моя общая скорость работы снижается из-за связанного оружия.</MPT_Hediff_GlobalWorkspeedDown.description>
+    
+    <MPT_Hediff_ShootingAccuracyPawnUp.label>пси-точность</MPT_Hediff_ShootingAccuracyPawnUp.label>
+    <MPT_Hediff_ShootingAccuracyPawnUp.description>Моя точность стрельбы повышается благодаря связанному оружию.</MPT_Hediff_ShootingAccuracyPawnUp.description>
+    
+    <MPT_Hediff_ShootingAccuracyPawnDown.label>пси-близорукость</MPT_Hediff_ShootingAccuracyPawnDown.label>
+    <MPT_Hediff_ShootingAccuracyPawnDown.description>Моя точность стрельбы снижается из-за связанного оружия.</MPT_Hediff_ShootingAccuracyPawnDown.description>
+    
+    <MPT_Hediff_TradePriceImprovementUp.label>пси-дипломатия</MPT_Hediff_TradePriceImprovementUp.label>
+    <MPT_Hediff_TradePriceImprovementUp.description>Мои навыки дипломатии увеличиваются благодаря связанному оружию.</MPT_Hediff_TradePriceImprovementUp.description>
+    
+    <MPT_Hediff_TradePriceImprovementDown.label>пси-ругань</MPT_Hediff_TradePriceImprovementDown.label>
+    <MPT_Hediff_TradePriceImprovementDown.description>Моим навыкам дипломатии мешает связанное оружие.</MPT_Hediff_TradePriceImprovementDown.description>
+    
+    <MPT_Hediff_SurgerySuccessChanceFactorUp.label>пси-хирургия</MPT_Hediff_SurgerySuccessChanceFactorUp.label>
+    <MPT_Hediff_SurgerySuccessChanceFactorUp.description>Мои шансы на успех операции увеличиваются благодаря связанному оружию.</MPT_Hediff_SurgerySuccessChanceFactorUp.description>
+    
+    <MPT_Hediff_SurgerySuccessChanceFactorDown.label>пси-тряска</MPT_Hediff_SurgerySuccessChanceFactorDown.label>
+    <MPT_Hediff_SurgerySuccessChanceFactorDown.description>Моим шансам на успех операции препятствует связанное оружие.</MPT_Hediff_SurgerySuccessChanceFactorDown.description>
+    
+    <MPT_Hediff_RestRateMultiplierUp.label>пси-выспание</MPT_Hediff_RestRateMultiplierUp.label>
+    <MPT_Hediff_RestRateMultiplierUp.description>Моя скорость отдыха увеличивается благодаря связанному оружию.</MPT_Hediff_RestRateMultiplierUp.description>
+    
+    <MPT_Hediff_RestRateMultiplierDown.label>пс-бессонница</MPT_Hediff_RestRateMultiplierDown.label>
+    <MPT_Hediff_RestRateMultiplierDown.description>Моему отдыху мешает связанное оружие.</MPT_Hediff_RestRateMultiplierDown.description>
+    
+    <MPT_Hediff_ImmunityGainSpeedUp.label>пси-иммунитет</MPT_Hediff_ImmunityGainSpeedUp.label>
+    <MPT_Hediff_ImmunityGainSpeedUp.description>Скорость выработки иммунитета повышается благодаря связанному оружию.</MPT_Hediff_ImmunityGainSpeedUp.description>
+    
+    <MPT_Hediff_ImmunityGainSpeedDown.label>пси-болезненность</MPT_Hediff_ImmunityGainSpeedDown.label>
+    <MPT_Hediff_ImmunityGainSpeedDown.description>Мой иммунитет слабеет из-за того, что связанное оружие мешает выработке иммунитета.</MPT_Hediff_ImmunityGainSpeedDown.description>
+    
+    <MPT_Hediff_MedicalTendQualityOffsetUp.label>пси-врачевание</MPT_Hediff_MedicalTendQualityOffsetUp.label>
+    <MPT_Hediff_MedicalTendQualityOffsetUp.description>Мои навыки первой помощи улучшаются благодаря связанному оружию.</MPT_Hediff_MedicalTendQualityOffsetUp.description>
+    
+    <MPT_Hediff_MedicalTendQualityOffsetDown.label>пси-шарлатанство</MPT_Hediff_MedicalTendQualityOffsetDown.label>
+    <MPT_Hediff_MedicalTendQualityOffsetDown.description>Моим навыкам первой помощи мешает связанное оружие.</MPT_Hediff_MedicalTendQualityOffsetDown.description>
+    
+    <MPT_Hediff_GlobalLearningFactorUp.label>пси-обучение</MPT_Hediff_GlobalLearningFactorUp.label>
+    <MPT_Hediff_GlobalLearningFactorUp.description>Моя скорость обучения повышается благодаря связанному оружию.</MPT_Hediff_GlobalLearningFactorUp.description>
+    
+    <MPT_Hediff_GlobalLearningFactorDown.label>пси-невежество</MPT_Hediff_GlobalLearningFactorDown.label>
+    <MPT_Hediff_GlobalLearningFactorDown.description>Моему темпу обучения мешает связанное оружие.</MPT_Hediff_GlobalLearningFactorDown.description>
+    
+    <MPT_Hediff_MentalBreakThresholdDown.label>пси-устойчивост</MPT_Hediff_MentalBreakThresholdDown.label>
+    <MPT_Hediff_MentalBreakThresholdDown.description>Мой порог нервного срыва повышен связанным оружием.</MPT_Hediff_MentalBreakThresholdDown.description>
+    
+    <MPT_Hediff_MentalBreakThresholdUp.label>пси-нервозность</MPT_Hediff_MentalBreakThresholdUp.label>
+    <MPT_Hediff_MentalBreakThresholdUp.description>Моему порогу психического срыва препятствует связанное оружие.</MPT_Hediff_MentalBreakThresholdUp.description>
+    
+    <MPT_Hediff_CookSpeedUp.label>пси-готовка</MPT_Hediff_CookSpeedUp.label>
+    <MPT_Hediff_CookSpeedUp.description>Моя скорость приготовления увеличена благодаря связанному оружию.</MPT_Hediff_CookSpeedUp.description>
+    
+    <MPT_Hediff_CookSpeedDown.label>пси-обжорство</MPT_Hediff_CookSpeedDown.label>
+    <MPT_Hediff_CookSpeedDown.description>Моя скорость приготовления еды ограничена связанным оружием.</MPT_Hediff_CookSpeedDown.description>
+    
+    <MPT_Hediff_MiningSpeedUp.label>пси-дварфизм</MPT_Hediff_MiningSpeedUp.label>
+    <MPT_Hediff_MiningSpeedUp.description>Моя скорость добычи полезных ископаемых и бурения увеличена благодаря связанному оружию.</MPT_Hediff_MiningSpeedUp.description>
+    
+    <MPT_Hediff_MiningSpeedDown.label>пси-эльфизм</MPT_Hediff_MiningSpeedDown.label>
+    <MPT_Hediff_MiningSpeedDown.description>Моей скорости добычи полезных ископаемых и бурения препятствует связанное оружие.</MPT_Hediff_MiningSpeedDown.description>
+    
+    <MPT_Hediff_PlantSpeedUp.label>пси-фермерство</MPT_Hediff_PlantSpeedUp.label>
+    <MPT_Hediff_PlantSpeedUp.description>связанное оружие увеличивает скорость работы с растениями.</MPT_Hediff_PlantSpeedUp.description>
+    
+    <MPT_Hediff_PlantSpeedDown.label>пси-любование</MPT_Hediff_PlantSpeedDown.label>
+    <MPT_Hediff_PlantSpeedDown.description>Моей работе с растением препятствует связанное оружие.</MPT_Hediff_PlantSpeedDown.description>
+    
+    <MPT_Hediff_ConstructionUp.label>пси-строительство</MPT_Hediff_ConstructionUp.label>
+    <MPT_Hediff_ConstructionUp.description>Моя скорость строительства, шансы на успех и скорость сглаживания увеличиваются благодаря связанному оружию.</MPT_Hediff_ConstructionUp.description>
+    
+    <MPT_Hediff_ConstructionDown.label>пси-молотилка</MPT_Hediff_ConstructionDown.label>
+    <MPT_Hediff_ConstructionDown.description>Моей скорости строительства, шансу на успех и скорости сглаживания препятствует связанное оружие.</MPT_Hediff_ConstructionDown.description>
+    
+    <MPT_Hediff_AimingDelayFactorDown.label>пси-стрелок</MPT_Hediff_AimingDelayFactorDown.label>
+    <MPT_Hediff_AimingDelayFactorDown.description>Моя скорость стрельбы увеличивается благодаря связанному оружию.</MPT_Hediff_AimingDelayFactorDown.description>
+    
+    <MPT_Hediff_AimingDelayFactorUp.label>пси-ограничитель</MPT_Hediff_AimingDelayFactorUp.label>
+    <MPT_Hediff_AimingDelayFactorUp.description>Моя скорость стрельбы ограничена связанным оружием.</MPT_Hediff_AimingDelayFactorUp.description>
+    
+    <MPT_Hediff_GeneralLaborSpeedUp.label>пси-проворность</MPT_Hediff_GeneralLaborSpeedUp.label>
+    <MPT_Hediff_GeneralLaborSpeedUp.description>Моя скорость общей работы увеличивается благодаря связанному оружию.</MPT_Hediff_GeneralLaborSpeedUp.description>
+    
+    <MPT_Hediff_GeneralLaborSpeedDown.label>пси-неловкость</MPT_Hediff_GeneralLaborSpeedDown.label>
+    <MPT_Hediff_GeneralLaborSpeedDown.description>Моей общей скорости работы препятствует связанное оружие.</MPT_Hediff_GeneralLaborSpeedDown.description>
+    
+    <MPT_Hediff_SocialFightChanceFactorDown.label>пси-спокойствие</MPT_Hediff_SocialFightChanceFactorDown.label>
+    <MPT_Hediff_SocialFightChanceFactorDown.description>Мой шанс ввязаться в социальные драки уменьшается из-за связанного оружия.</MPT_Hediff_SocialFightChanceFactorDown.description>
+    
+    <MPT_Hediff_SocialFightChanceFactorUp.label>пси-провокатор</MPT_Hediff_SocialFightChanceFactorUp.label>
+    <MPT_Hediff_SocialFightChanceFactorUp.description>Мой шанс ввязаться в социальные драки увеличивается благодаря связанному оружию.</MPT_Hediff_SocialFightChanceFactorUp.description>
+    
+    <MPT_Hediff_PainShockThresholdUp.label>пси-адреналин</MPT_Hediff_PainShockThresholdUp.label>
+    <MPT_Hediff_PainShockThresholdUp.description>Мой болевой порог повышается благодаря связанному оружию.</MPT_Hediff_PainShockThresholdUp.description>
+    
+    <MPT_Hediff_PainShockThresholdDown.label>пси-уязвимость</MPT_Hediff_PainShockThresholdDown.label>
+    <MPT_Hediff_PainShockThresholdDown.description>Мой болевой порог снижается из-за связанного оружия.</MPT_Hediff_PainShockThresholdDown.description>
+    
+    <MPT_Hediff_HuntingStealthUp.label>пси-маскировка</MPT_Hediff_HuntingStealthUp.label>
+    <MPT_Hediff_HuntingStealthUp.description>Моя охотничья скрытность повышается благодаря связанному оружию.</MPT_Hediff_HuntingStealthUp.description>
+    
+    <MPT_Hediff_HuntingStealthDown.label>пси-заметность</MPT_Hediff_HuntingStealthDown.label>
+    <MPT_Hediff_HuntingStealthDown.description>Моей охотничьей скрытности мешает связанное оружие.</MPT_Hediff_HuntingStealthDown.description>
+    
+    <MPT_Hediff_RanchingUp.label>пси-погонщик</MPT_Hediff_RanchingUp.label>
+    <MPT_Hediff_RanchingUp.description>Мои навыки работы с животными увеличиваются благодаря связанному оружию.</MPT_Hediff_RanchingUp.description>
+    
+    <MPT_Hediff_RanchingDown.label>пси-зоофобия</MPT_Hediff_RanchingDown.label>
+    <MPT_Hediff_RanchingDown.description>Моим навыкам работы с животными мешает связанное оружие.</MPT_Hediff_RanchingDown.description>
+    
+    <MPT_Hediff_WardenUp.label>пси-надзиратель</MPT_Hediff_WardenUp.label>
+    <MPT_Hediff_WardenUp.description>Мой шанс ареста, шанс вербовки, сила обращения и сила подавления увеличиваются благодаря связанному оружию.</MPT_Hediff_WardenUp.description>
+    
+    <MPT_Hediff_WardenDown.label>пси-мямля</MPT_Hediff_WardenDown.label>
+    <MPT_Hediff_WardenDown.description>Мой шанс на арест, шанс на вербовку, сила обращения и сила подавления ограничены связанным оружием.</MPT_Hediff_WardenDown.description>
+    
+    <MPT_Hediff_LifespanDown.label>пси-вампиризм</MPT_Hediff_LifespanDown.label>
+    <MPT_Hediff_LifespanDown.description>Моя продолжительность жизни сокращается из-за связанного оружия.</MPT_Hediff_LifespanDown.description>
+    
+    <MPT_Hediff_LifespanUp.label>пси-живость</MPT_Hediff_LifespanUp.label>
+    <MPT_Hediff_LifespanUp.description>Моя продолжительность жизни продлевается связанным оружием.</MPT_Hediff_LifespanUp.description>
+    
+    <MPT_Hediff_CleaningSpeedDown.label>пси-грязнуля</MPT_Hediff_CleaningSpeedDown.label>
+    <MPT_Hediff_CleaningSpeedDown.description>Моей скорости чистки препятствует связанное оружие.</MPT_Hediff_CleaningSpeedDown.description>
+    
+    <MPT_Hediff_CleaningSpeedUp.label>пси-чистюля</MPT_Hediff_CleaningSpeedUp.label>
+    <MPT_Hediff_CleaningSpeedUp.description>Моя скорость уборки увеличивается благодаря связанному оружию.</MPT_Hediff_CleaningSpeedUp.description>
+    
+    <MPT_Hediff_PsychicEntropyMaxDown.label>пси-нейроблок</MPT_Hediff_PsychicEntropyMaxDown.label>
+    <MPT_Hediff_PsychicEntropyMaxDown.description>Моему максимальному уровню нейроперегрева препятствует связанное оружие.</MPT_Hediff_PsychicEntropyMaxDown.description>
+    
+    <MPT_Hediff_PsychicEntropyMaxUp.label>пси-оверклок</MPT_Hediff_PsychicEntropyMaxUp.label>
+    <MPT_Hediff_PsychicEntropyMaxUp.description>Мой максимальный уровень нейроперегрева увеличен связанным оружием.</MPT_Hediff_PsychicEntropyMaxUp.description>
+    
+    <MPT_Hediff_FertilityUp.label>пси-фертильность</MPT_Hediff_FertilityUp.label>
+    <MPT_Hediff_FertilityUp.description>Моя фертильность увеличивается благодаря связанному оружию.</MPT_Hediff_FertilityUp.description>
+    
+    <MPT_Hediff_FertilityDown.label>пси-бесплодие</MPT_Hediff_FertilityDown.label>
+    <MPT_Hediff_FertilityDown.description>Моей фертильности препятствует связанное оружие.</MPT_Hediff_FertilityDown.description>
+    
+    <MPT_Hediff_MechStatsUp.label>пси-механизация</MPT_Hediff_MechStatsUp.label>
+    <MPT_Hediff_MechStatsUp.description>Некоторые характеристики, связанные с навыками механитора, увеличиваются с помощью связанного оружия.</MPT_Hediff_MechStatsUp.description>
+    
+    <MPT_Hediff_MechStatsDown.label>пси-глушилка</MPT_Hediff_MechStatsDown.label>
+    <MPT_Hediff_MechStatsDown.description>Некоторым моим характеристикам, связанным с навыками механитора, мешает связанное оружие.</MPT_Hediff_MechStatsDown.description>
+    
+    <MPT_Hediff_CertaintyLossFactorUp.label>пси-агностицизм</MPT_Hediff_CertaintyLossFactorUp.label>
+    <MPT_Hediff_CertaintyLossFactorUp.description>Уровень потери уверенности в моей идеологии увеличивается благодаря связанному оружию.</MPT_Hediff_CertaintyLossFactorUp.description>
+    
+    <MPT_Hediff_CertaintyLossFactorDown.label>пси-вера</MPT_Hediff_CertaintyLossFactorDown.label>
+    <MPT_Hediff_CertaintyLossFactorDown.description>Моему уровню потери уверенности в идеологии препятствует связанное оружие.</MPT_Hediff_CertaintyLossFactorDown.description>
+
+</LanguageData>

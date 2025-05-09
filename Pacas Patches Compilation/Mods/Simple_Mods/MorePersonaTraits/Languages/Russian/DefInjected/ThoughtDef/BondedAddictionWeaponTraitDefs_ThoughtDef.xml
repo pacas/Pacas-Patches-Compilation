@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Thought_PsychicWakeUpWithdrawal.stages.1.label>ломка по бодрину</MPT_Thought_PsychicWakeUpWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicWakeUpWithdrawal.stages.1.description>Я действительно {PAWN_gender ? хотел : хотела} бы немного бодрина. Я чувствую себя  {PAWN_gender ? таким расплывчатым и рассеянным. И я так устал. : такой расплывчатой и рассеянной. И я так устала.}</MPT_Thought_PsychicWakeUpWithdrawal.stages.1.description>
+    <MPT_Thought_PsychicSmokeleafWithdrawal.stages.1.label>ломка по дымолисту</MPT_Thought_PsychicSmokeleafWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicSmokeleafWithdrawal.stages.1.description>Я действительно {PAWN_gender ? хотел : хотела} бы покурить. Я чувствую нервозность, и у моего оружия постоянно возникает тревожное ощущение.</MPT_Thought_PsychicSmokeleafWithdrawal.stages.1.description>
+    <MPT_Thought_PsychicPsychiteWithdrawal.stages.1.label>ломка по психину</MPT_Thought_PsychicPsychiteWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicPsychiteWithdrawal.stages.1.description>Боже, как я {PAWN_gender ? устал : устала}. Мое оружие говорит мне, что все движется так медленно и нудно. Особенно я.</MPT_Thought_PsychicPsychiteWithdrawal.stages.1.description>
+    <MPT_Thought_PsychicGoJuiceWithdrawal.stages.1.label>ломка по Go-соку</MPT_Thought_PsychicGoJuiceWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicGoJuiceWithdrawal.stages.1.description>Боже, как я {PAWN_gender ? устал : устала}. Мое оружие говорит мне, что все движется так медленно и нудно. Особенно я.</MPT_Thought_PsychicGoJuiceWithdrawal.stages.1.description>
+    <MPT_Thought_PsychicAmbrosiaWithdrawal.stages.1.label>ломка по амброзии</MPT_Thought_PsychicAmbrosiaWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicAmbrosiaWithdrawal.stages.1.description>Мое оружие тяжелое и холодное. Я никогда не {PAWN_gender ? думал : думала}, что мне так сильно захочется съесть кусочек амброзии.</MPT_Thought_PsychicAmbrosiaWithdrawal.stages.1.description>
+    <MPT_Thought_PsychicAlcoholWithdrawal.stages.1.label>ломка по алкоголю</MPT_Thought_PsychicAlcoholWithdrawal.stages.1.label>
+    <MPT_Thought_PsychicAlcoholWithdrawal.stages.1.description>Мое оружие дрожит в руке. Меня все бесит. Я не знаю, сколько это продолжатеся, но мое оружие все продолжает говорить о выпивке.</MPT_Thought_PsychicAlcoholWithdrawal.stages.1.description>
+</LanguageData>

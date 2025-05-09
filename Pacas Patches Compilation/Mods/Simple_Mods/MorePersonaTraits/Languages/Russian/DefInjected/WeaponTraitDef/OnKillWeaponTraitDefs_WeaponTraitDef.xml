@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_OnKill_NeedFilledFood.label>сытая смерть</MPT_OnKill_NeedFilledFood.label>
+    <MPT_OnKill_NeedFilledFood.description>Персона этого оружия говорит, что оно связано с чем-то, связанным с чьей-то последней трапезой, и знает, как это воспроизвести.\nУбив этим оружием живое существо, есть шанс утолить потребность в голоде владельца.</MPT_OnKill_NeedFilledFood.description>
+    
+    <MPT_OnKill_NeedFilledComfort.label>комфортная смерть</MPT_OnKill_NeedFilledComfort.label>
+    <MPT_OnKill_NeedFilledComfort.description>Персона этого оружия знает, что жизнь трудна, и заставляет вас совершать трудные поступки. Если бы у него были руки, он бы обнял вас, когда вам приходится быть монстром, которым мир заставляет вас быть.\nУбивая живое существо этим оружием, есть шанс, что потребность в комфорте владельца будет удовлетворена.</MPT_OnKill_NeedFilledComfort.description>
+    
+    <MPT_OnKill_NeedFilledJoy.label>радостная смерть</MPT_OnKill_NeedFilledJoy.label>
+    <MPT_OnKill_NeedFilledJoy.description>Персона этого оружия дала бессмертную клятву добиваться справедливости. Они получают огромное удовольствие, верша смертоносное правосудие.\nПосле убийства живого существа этим оружием есть шанс наполнить владельца радостью.</MPT_OnKill_NeedFilledJoy.description>
+    
+    <MPT_OnKill_NeedFilledBeauty.label>красивая смерть</MPT_OnKill_NeedFilledBeauty.label>
+    <MPT_OnKill_NeedFilledBeauty.description>Персона этого оружия рассматривает гибель людей как самое изящное из искусств. В бою эта красота также открывается владельцу.\nПосле убийства живого существа этим оружием, есть шанс удовлетворить потребность владельца в красоте.</MPT_OnKill_NeedFilledBeauty.description>
+    
+    <MPT_OnKill_NeedFilledRest.label>расслабляющая смерть</MPT_OnKill_NeedFilledRest.label>
+    <MPT_OnKill_NeedFilledRest.description>Персона этого оружия потребляет энергию жертв своего владельца, превращая в свою собственную.\nПосле убийства живого существа этим оружием, есть шанс заполнить покой владельца.</MPT_OnKill_NeedFilledRest.description>
+    
+    <MPT_OnKill_NeedFilledInOutdoors.label>уютная смерть</MPT_OnKill_NeedFilledInOutdoors.label>
+    <MPT_OnKill_NeedFilledInOutdoors.description>Персона этого оружия знает, что вещи, которые оно увидит, и люди, которых оно встретит, будут приходить и уходить, как вращающаяся дверь, и учит своего владельца, что сторона двери, с которой вы находитесь, не имеет большого значения... До тех пор, пока что-то умирает.\nУбив этим оружием живое существо, есть шанс удовлетворить потребности владельца в нахождении в помещении или на свежем воздухе.</MPT_OnKill_NeedFilledInOutdoors.description>
+    
+    <MPT_OnKill_NeedFilledChemical.label>зависимая смерть</MPT_OnKill_NeedFilledChemical.label>
+    <MPT_OnKill_NeedFilledChemical.description>Персона этого оружия испытывает дьявольское высвобождение с каждым убийством, достаточно мощное, чтобы утолить самую сильную тягу.\nПосле убийства живого существа этим оружием у него появляется шанс удовлетворить потребность одной химической зависимости.</MPT_OnKill_NeedFilledChemical.description>
+    
+    <MPT_OnKill_Invis.label>невидимая смерть</MPT_OnKill_Invis.label>
+    <MPT_OnKill_Invis.description>Персона этого оружия дала бессмертную клятву овладеть истиной. Однако она также знает, что истину можно растягивать и манипулировать ею, обучая своих читателей самым холодным истинам вселенной.\nУбив кого-либо этим оружием, владелец на мгновение становится невидимым.</MPT_OnKill_Invis.description>
+</LanguageData>

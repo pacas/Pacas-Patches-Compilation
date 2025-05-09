@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_Hediff_PsychicPain.label>пси-боль</MPT_Hediff_PsychicPain.label>
+    <MPT_Hediff_PsychicPain.description>Гнев персонифицированного оружия. Хотя это и не физическая боль, в данный момент она кажется очень реальной.</MPT_Hediff_PsychicPain.description>
+    <MPT_Hediff_PsychicPain.stages.0.label>незначительная</MPT_Hediff_PsychicPain.stages.0.label>
+    <MPT_Hediff_PsychicPain.stages.1.label>небольшая</MPT_Hediff_PsychicPain.stages.1.label>
+    <MPT_Hediff_PsychicPain.stages.2.label>сильная</MPT_Hediff_PsychicPain.stages.2.label>
+    <MPT_Hediff_PsychicPain.stages.3.label>очень сильная</MPT_Hediff_PsychicPain.stages.3.label>
+    <MPT_Hediff_PsychicPain.stages.4.label>экстремальная</MPT_Hediff_PsychicPain.stages.4.label>
+    
+</LanguageData>

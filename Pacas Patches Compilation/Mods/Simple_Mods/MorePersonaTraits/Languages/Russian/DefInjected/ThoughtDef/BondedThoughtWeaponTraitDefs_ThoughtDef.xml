@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Thought_WeatherDown.stages.0.label>Штормовая депрессия {WEAPON}</MPT_Thought_WeatherDown.stages.0.label>
+    <MPT_Thought_WeatherDown.stages.0.description>Мое связанное оружие - {WEAPON}, ненавидит дождь и любую погоду, которые закрывают красоту космоса. Это трудно игнорировать.</MPT_Thought_WeatherDown.stages.0.description>
+    
+    <MPT_Thought_WeatherUp.stages.0.label>Любовь к непогоде {WEAPON}</MPT_Thought_WeatherUp.stages.0.label>
+    <MPT_Thought_WeatherUp.stages.0.description>Мое связанное оружие - {WEAPON}, любит дождь и другую неясную погоду. Его, а значит и мое настроение восхитительно.</MPT_Thought_WeatherUp.stages.0.description>
+    
+    <MPT_Thought_FemaleHate.stages.0.label>Нетерпимость {WEAPON}</MPT_Thought_FemaleHate.stages.0.label>
+    <MPT_Thought_FemaleHate.stages.0.description>Мое связанное оружие - {WEAPON}, продолжает напоминать мне, что я родился не того пола. Это действительно унизительно.</MPT_Thought_FemaleHate.stages.0.description>
+    
+    <MPT_Thought_FemaleLove.stages.0.label>Любовь {WEAPON}</MPT_Thought_FemaleLove.stages.0.label>
+    <MPT_Thought_FemaleLove.stages.0.description>Мое связанное оружие - {WEAPON}, рассказывает мне, как оно всегда хотело быть связано с женщиной. Это довольно мило.</MPT_Thought_FemaleLove.stages.0.description>
+    
+    <MPT_Thought_MaleHate.stages.0.label>Нетерпимость {WEAPON}</MPT_Thought_MaleHate.stages.0.label>
+    <MPT_Thought_MaleHate.stages.0.description>Мое связанное оружие - {WEAPON}, постоянно говорит мне, насколько я уступаю представителям другого пола. Я ненавижу это.</MPT_Thought_MaleHate.stages.0.description>
+    
+    <MPT_Thought_MaleLove.stages.0.label>Любовь {WEAPON}</MPT_Thought_MaleLove.stages.0.label>
+    <MPT_Thought_MaleLove.stages.0.description>Мое связанное оружие - {WEAPON}, кажется, поклоняется самой земле, по которой я хожу. Это приятно.</MPT_Thought_MaleLove.stages.0.description>
+    
+    <MPT_Thought_NoAnimalHate.stages.0.label>{WEAPON} хочет домашнее животное</MPT_Thought_NoAnimalHate.stages.0.label>
+    <MPT_Thought_NoAnimalHate.stages.0.description>Мое связанное оружие - {WEAPON}, не перестанет беспокоить меня по поводу того, чтобы завести домашнее животное. Это действительно раздражает.</MPT_Thought_NoAnimalHate.stages.0.description>
+    
+    <MPT_Thought_AnimalHate.stages.0.label>Зоофобия {WEAPON}</MPT_Thought_AnimalHate.stages.0.label>
+    <MPT_Thought_AnimalHate.stages.0.description>Мое связанное оружие - {WEAPON}, ненавидит находиться рядом с моими домашними животными и давит на меня, чтобы я избавился от них. Я ненавижу это.</MPT_Thought_AnimalHate.stages.0.description>
+</LanguageData>

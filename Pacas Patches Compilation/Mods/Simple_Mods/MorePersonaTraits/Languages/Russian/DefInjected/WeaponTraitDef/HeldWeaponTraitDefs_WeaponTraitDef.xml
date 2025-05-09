@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Held_MeleeHitChanceUp.label>заключительный</MPT_Held_MeleeHitChanceUp.label>
+    <MPT_Held_MeleeHitChanceUp.description>Персоне этого оружия есть чем заняться поважнее, чем быть использованным для того, чтобы размахивать предметами, и поэтому она стремится быстро заканчивать драки. Удерживаемый в руке, он дает своему владельцу повышенный шанс поразить цель.</MPT_Held_MeleeHitChanceUp.description>
+    <MPT_Held_MeleeHitChanceDown.label>брезгливый</MPT_Held_MeleeHitChanceDown.label>
+    <MPT_Held_MeleeHitChanceDown.description>Персоне этого оружия действительно не нравится прикасаться к мягким теплым внутренностям вещей.\nУдерживаемый, она дает своему владельцу меньший шанс поразить свою цель.</MPT_Held_MeleeHitChanceDown.description>
+    <MPT_Held_ArmorRatingUp.label>неньютоновский</MPT_Held_ArmorRatingUp.label>
+    <MPT_Held_ArmorRatingUp.description>Персона этого оружия тонко изменяет атомы вблизи кожи владельца, увеличивая их поглощение кинетической энергии перед ударом.\nУдерживаемый, она обеспечивает своему владельцу повышенный рейтинг брони.</MPT_Held_ArmorRatingUp.description>
+    <MPT_Held_ArmorRatingDown.label>создатель дефектов</MPT_Held_ArmorRatingDown.label>
+    <MPT_Held_ArmorRatingDown.description>Персона этого оружия ослабляет естественные силы, связывающие молекулярные структуры воедино вокруг его владельца.\nУдерживаемый, он обеспечивает своему владельцу пониженный рейтинг брони.</MPT_Held_ArmorRatingDown.description>
+    <MPT_Held_PawnBeautyUp.label>обворожительный</MPT_Held_PawnBeautyUp.label>
+    <MPT_Held_PawnBeautyUp.description>Персона этого оружия излучает притягательную психическую ауру, приводящую в замешательство любого, кто смотрит на его владельца.\nУдерживаемый, он увеличивает красоту владельца.</MPT_Held_PawnBeautyUp.description>
+    <MPT_Held_PawnBeautyDown.label>отталкивающий</MPT_Held_PawnBeautyDown.label>
+    <MPT_Held_PawnBeautyDown.description>Персона этого оружия излучает нервирующую психическую ауру, любой, кто посмотрит на владельца, немедленно поймает себя на желании уйти подальше.\nУдерживаемый, он уменьшает красоту владельца.</MPT_Held_PawnBeautyDown.description>
+    <MPT_Held_MeleeDodgeChanceUp.label>танцующий на грани</MPT_Held_MeleeDodgeChanceUp.label>
+    <MPT_Held_MeleeDodgeChanceUp.description>Персона этого оружия придает его владельцу поразительное самообладание и грацию. Даже самый неуклюжий владелец будет двигаться по полю боя, как лента на ветру.\nУдерживаемый, он обеспечивает своему владельцу увеличенный шанс уклонения в ближнем бою и уменьшенный шанс попадания в ловушку.</MPT_Held_MeleeDodgeChanceUp.description>
+    <MPT_Held_MeleeDodgeChanceDown.label>отмеченный смертью</MPT_Held_MeleeDodgeChanceDown.label>
+    <MPT_Held_MeleeDodgeChanceDown.description>Персона этого оружия, похоже, вызывает гнев всех его оружейных собратьев, разумных или нет.\nУдерживаемый, он уменьшает шанс уклонения своего владельца в ближнем бою и увеличивает шанс попадания в ловушку.</MPT_Held_MeleeDodgeChanceDown.description>
+    <MPT_Held_ComfyTempUp.label>терморегулирующий</MPT_Held_ComfyTempUp.label>
+    <MPT_Held_ComfyTempUp.description>Персона этого оружия обладает инстинктивным знанием того, как сбалансировать свою внутреннюю температуру, и может помочь своему владельцу сделать то же самое!\nУдерживаемый он обеспечивает своему владельцу расширенный диапазон комфортных температур.</MPT_Held_ComfyTempUp.description>
+    <MPT_Held_ComfyTempDown.label>термически рассеивающий</MPT_Held_ComfyTempDown.label>
+    <MPT_Held_ComfyTempDown.description>Персона этого оружия находится под большим влиянием окружающей среды, чем можно было бы предположить по его материалу.\nУдерживаемый он обеспечивает своему владельцу более низкий диапазон комфортных температур.</MPT_Held_ComfyTempDown.description>
+    <MPT_Held_ToxicSensitivityUp.label>токсичный</MPT_Held_ToxicSensitivityUp.label>
+    <MPT_Held_ToxicSensitivityUp.description>Персона этого оружия должна превратить его владельца в травоядное, потому что они очень плохо переносят токсичные загрязнения.\nУдерживаемый, он обеспечивает своему владельцу повышенную чувствительность к токсинам.</MPT_Held_ToxicSensitivityUp.description>
+    <MPT_Held_ToxicSensitivityDown.label>антитоксин</MPT_Held_ToxicSensitivityDown.label>
+    <MPT_Held_ToxicSensitivityDown.description>Персона этого оружия придает инертность его владельцу, делая его невосприимчивым даже к самой токсичной среде.\nПока он удерживается, он обеспечивает своему владельцу меньшую токсическую чувствительность.</MPT_Held_ToxicSensitivityDown.description>
+    <MPT_Held_PsychicEntropyMaxUp.label>энтропийный</MPT_Held_PsychicEntropyMaxUp.label>
+    <MPT_Held_PsychicEntropyMaxUp.description>Персона этого оружия способна помочь его владельцу противостоять некоторым побочным эффектам воздействия психических энергий.\nУдерживаемый, он увеличивает максимальный уровень нейроперегрева владельца.</MPT_Held_PsychicEntropyMaxUp.description>
+    <MPT_Held_PsychicEntropyMaxDown.label>нейросгорающий</MPT_Held_PsychicEntropyMaxDown.label>
+    <MPT_Held_PsychicEntropyMaxDown.description>Персона этого оружия особенно уязвима к хаотическим психическим энергиям. Всего лишь небольшого воздействия этих энергий достаточно, чтобы погрузить персону и ее обладателя в оцепенение.\nУдерживаемый, он уменьшает максимальный уровень нейроперегрева владельца.</MPT_Held_PsychicEntropyMaxDown.description>
+    <MPT_Held_MechBandwidthUp.label>многопоточный</MPT_Held_MechBandwidthUp.label>
+    <MPT_Held_MechBandwidthUp.description>Персона этого оружия отлично справляется с многозадачностью и поможет их владельцу сосредоточиться на множестве машин одновременно.\nУдерживаемый, он увеличивает количество подконтрольных мехов владельца.</MPT_Held_MechBandwidthUp.description>
+    <MPT_Held_MechBandwidthDown.label>слабопоточный</MPT_Held_MechBandwidthDown.label>
+    <MPT_Held_MechBandwidthDown.description>Другим машинам трудно понять Персону этого оружия. Этот эффект, похоже, передается их владельцу.\nУдерживаемый, он уменьшает количество подконтрольных мехов владельца.</MPT_Held_MechBandwidthDown.description>
+    <MPT_Held_Vomit.label>тошнотворный</MPT_Held_Vomit.label>
+    <MPT_Held_Vomit.description>Персонаж этого оружия испытывает отвращение к тому, что его держат в руках что угодно и у кого угодно. Любой, кто держит это в руках, тоже будет чувствовать то же самое .\nУдерживаемый, он обесчивает тошноту владельцу.</MPT_Held_Vomit.description>
+    <MPT_Held_StaggerDurationDown.label>бесстрашный</MPT_Held_StaggerDurationDown.label>
+    <MPT_Held_StaggerDurationDown.description>Облик этого оружия не так-то просто изменить, будь то рейдеры, чудовищные инсектоиды или механоиды.\nУдерживаемый, он значительно сокращает время, в течение которого владелец находится в ошеломленном состоянии.</MPT_Held_StaggerDurationDown.description>
+    <MPT_Held_StaggerDurationUp.label>кренящийся</MPT_Held_StaggerDurationUp.label>
+    <MPT_Held_StaggerDurationUp.description>Персона этого оружия не обладает хорошим чувством равновесия, часто оставляя своего владельца незащищенным, когда его застигают врасплох.\nУдерживаемый, он увеличивает продолжительность нахождения владельца в ошеломленном состоянии.</MPT_Held_StaggerDurationUp.description>
+    <MPT_Held_MeleeDamageFactorUp.label>беспощадный</MPT_Held_MeleeDamageFactorUp.label>
+    <MPT_Held_MeleeDamageFactorUp.description>Персона этого оружия находится в состоянии бездействия, наблюдая за плоским экраном и просматривая сообщения, и ему приходится прилагать дополнительные усилия, чтобы как можно быстрее вернуться к этому состоянию.\nУдерживаемый, он увеличивает наносимый владельцем урон в ближнем бою.</MPT_Held_MeleeDamageFactorUp.description>
+    <MPT_Held_MeleeDamageFactorDown.label>скучный</MPT_Held_MeleeDamageFactorDown.label>
+    <MPT_Held_MeleeDamageFactorDown.description>Внешность этого оружия делает его плохим собеседником и еще более плохим орудием убийства.\nПока удерживается, владелец наносит уменьшенный урон в ближнем бою.</MPT_Held_MeleeDamageFactorDown.description>
+</LanguageData>

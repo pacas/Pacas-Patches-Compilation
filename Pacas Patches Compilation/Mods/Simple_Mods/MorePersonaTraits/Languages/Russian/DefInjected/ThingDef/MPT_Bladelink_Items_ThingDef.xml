@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_BladelinkUncoder.label>разрушитель связи</MPT_BladelinkUncoder.label>
+    <MPT_BladelinkUncoder.description>Одноразовый экстрасенсорный разрушитель связи персоны. Психический всплеск разрушает связи персоны с оружием, удаляя все воспоминания о дружбе, привязанности и разрывая их психическую связь. Может быть использован только на связанном оружии.</MPT_BladelinkUncoder.description>
+    <MPT_BladelinkUncoder.comps.2.useLabel>Использовать разрушитель связи</MPT_BladelinkUncoder.comps.2.useLabel>
+    
+    <MPT_BladelinkReroller.label>реформатор связи</MPT_BladelinkReroller.label>
+    <MPT_BladelinkReroller.description>Одноразовый экстрасенсорный Реформатор связи персоны. Психический всплеск полностью подавляет персону оружия, уничтожая того, кем он был, и полностью изменяя черты персонажа оружия, сохраняя при этом их связь.</MPT_BladelinkReroller.description>
+    <MPT_BladelinkReroller.comps.2.useLabel>Использовать реформатор связи</MPT_BladelinkReroller.comps.2.useLabel>
+    
+    <MPT_BladelinkExalt.label>расширитель связи</MPT_BladelinkExalt.label>
+    <MPT_BladelinkExalt.description>Одноразовый экстрасенсорный расширитель связи персоны. Психический всплеск раскрывает ранее закрытые нейронные пути, расширяя персону целевого оружия новой чертой. Может использоваться только на оружии, имеющем допустимую черту для добавления и не превышающем абсолютного максимального количества черт (определенного в настройках).</MPT_BladelinkExalt.description>
+    <MPT_BladelinkExalt.comps.2.useLabel>Использовать расширитель связи</MPT_BladelinkExalt.comps.2.useLabel>
+    
+    <MPT_BladelinkAnnul.label>уменьшитель связи</MPT_BladelinkAnnul.label>
+    <MPT_BladelinkAnnul.description>Одноразовый экстрасенсорный уменьшитель связи персоны. Психический всплеск разрушает часть личности персоны, удаляя случайную черту из целевого оружия. Если этот элемент будет использоваться для персоны только с одной чертой или вообще без нее, вместо эта персона будет переформатирована.</MPT_BladelinkAnnul.description>
+    <MPT_BladelinkAnnul.comps.2.useLabel>Использовать уменьшитель связи</MPT_BladelinkAnnul.comps.2.useLabel>
+    
+    <MPT_BladelinkTargetedAnnul.label>очиститель связи</MPT_BladelinkTargetedAnnul.label>
+    <MPT_BladelinkTargetedAnnul.description>Очень редкий одноразовый экстрасенсорный очиститель связи. Психический всплеск нацелен на определенную часть персонажы, удаляя определенную черту из целевого оружия. Если этот элемент будет использоваться для персоны только с одной чертой или вообще без нее, вместо эта персона будет переформатирована.</MPT_BladelinkTargetedAnnul.description>
+    <MPT_BladelinkTargetedAnnul.comps.2.useLabel>Использовать очиститель связи</MPT_BladelinkTargetedAnnul.comps.2.useLabel>
+    
+    <MPT_BladelinkTargetedTraitTransferer.label>переносчик связи</MPT_BladelinkTargetedTraitTransferer.label>
+    <MPT_BladelinkTargetedTraitTransferer.description>Очень редкий одноразовый экстрасенсорный переносчик связи. Психический всплеск разрушительно перемещает часть выбранной персоны в другую, расширяя новую персону выбранной чертой из первой. Оружие-донор при этом уничтожается. Черту можно перенести только в то оружие, которое может принять добавляемую черту донора и количество черт которого не превышает абсолютного максимального значения (определенного в настройках).</MPT_BladelinkTargetedTraitTransferer.description>
+    <MPT_BladelinkTargetedTraitTransferer.comps.2.useLabel>Использовать переносчик связи</MPT_BladelinkTargetedTraitTransferer.comps.2.useLabel>
+    
+    <MPT_BladelinkRecombinator.label>рекомбинатор связи</MPT_BladelinkRecombinator.label>
+    <MPT_BladelinkRecombinator.description>Одноразовый экстрасенсорный рекомбинатор связи. Психический всплеск разрушительно объединяет персоны двух оружий, изменяя личность последнего с помощью некоторых черт, выбранных из каждого оружия. Оружие-донор при этом уничтожается. Если между обоими видами оружия обнаружено недостаточно совместимых характеристик, также могут быть добавлены некоторые новые (в зависимости от минимального количества характеристик, определенного в настройках мода).</MPT_BladelinkRecombinator.description>
+    <MPT_BladelinkRecombinator.comps.2.useLabel>Использовать рекомбинатор связи</MPT_BladelinkRecombinator.comps.2.useLabel>
+    
+</LanguageData>

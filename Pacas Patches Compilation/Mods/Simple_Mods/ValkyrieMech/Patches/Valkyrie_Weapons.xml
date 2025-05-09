@@ -7,7 +7,7 @@
                 defName="MeleeValkyrieStinger" or
                 defName="MeleeValkyrieStinger_Leapless" or
                 defName="Gun_ValkyrieChargeSpear"
-                ]/statBases</xpath>
+                ]</xpath>
             </li>
             <li Class="XmlExtensions.PatchOperationAdd">
                 <xpath>Defs</xpath>
@@ -134,6 +134,82 @@
                                 <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
                             </li>
                         </tools>
+                        <verbs>
+                            <li>
+                                <verbClass>MVCF.Verbs.Verb_CooldownJump</verbClass>
+                                <label>jump</label>
+                                <violent>true</violent>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                                <warmupTime>0.5</warmupTime>
+                                <requireLineOfSight>true</requireLineOfSight>
+                                <range>20</range>
+                                <targetParams>
+                                    <canTargetLocations>false</canTargetLocations>
+                                    <canTargetPawns>true</canTargetPawns>
+                                    <canTargetBuildings>false</canTargetBuildings>
+                                </targetParams>
+                            </li>
+                        </verbs>
+                    </ThingDef>
+                    <ThingDef ParentName="BaseGun_Other">
+                        <defName>Gun_ValkyrieChargeSpear</defName>
+                        <label>charge spear</label>
+                        <description>A long-range weapon used by mechanoids. Fires three powerful charged projectiles in a short burst.</description>
+                        <techLevel>Spacer</techLevel>
+                        <graphicData>
+                            <texPath>Weapons/ChargeSpear</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                        </graphicData>
+                        <tradeability>None</tradeability>
+                        <destroyOnDrop>true</destroyOnDrop>
+                        <relicChance>0</relicChance>
+                        <statBases>
+                            <MarketValue>1700</MarketValue>
+                            <SightsEfficiency>1</SightsEfficiency>
+                            <ShotSpread>0.1</ShotSpread>
+                            <SwayFactor>1.1</SwayFactor>
+                            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+                            <Bulk>5.20</Bulk>
+                            <Mass>3.00</Mass>
+                            <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+                            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">3</BandwidthCost>
+                        </statBases>
+                        <weaponTags>
+                            <li>MechanoidGunLongRange</li>
+                            <li>ValkyrieGun</li>
+                            <li>CE_AI_Rifle</li>
+                        </weaponTags>
+                        <weaponClasses>
+                            <li>RangedHeavy</li>
+                            <li>LongShots</li>
+                        </weaponClasses>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <recoilAmount>1.35</recoilAmount>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>Bullet_5x50mmCaseless_Sabot</defaultProjectile>
+                                <warmupTime>2.0</warmupTime>
+                                <range>54</range>
+                                <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+                                <burstShotCount>3</burstShotCount>
+                                <soundCast>ChargeLance_Fire</soundCast>
+                                <soundCastTail>GunTail_Heavy</soundCastTail>
+                                <muzzleFlashScale>9</muzzleFlashScale>
+                            </li>
+                        </verbs>
+                        <comps>
+                            <li Class="CombatExtended.CompProperties_FireModes">
+                                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                                <aiAimMode>AimedShot</aiAimMode>
+                            </li>
+                            <li Class="CombatExtended.CompProperties_AmmoUser">
+                                <magazineSize>30</magazineSize>
+                                <reloadTime>2.80</reloadTime>
+                                <ammoSet>AmmoSet_5x50mmCaseless</ammoSet>
+                            </li>
+                        </comps>
                     </ThingDef>
                 </value>
             </li>

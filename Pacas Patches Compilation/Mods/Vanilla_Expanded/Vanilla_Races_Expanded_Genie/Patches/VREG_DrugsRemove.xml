@@ -14,7 +14,7 @@
             <li Class="PatchOperationRemove">
                 <xpath>Defs/NeedDef[defName="VRE_Chemical_Antibiotics"]</xpath>
             </li>
-            <li Class="PatchOperationRemove">
+            <!--<li Class="PatchOperationRemove">
                 <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh"]</xpath>
             </li>
             <li Class="PatchOperationRemove">
@@ -25,12 +25,25 @@
             </li>
             <li Class="PatchOperationRemove">
                 <xpath>Defs/HediffDef[defName="VRE_AntibioticsHigh_Weak"]</xpath>
-            </li>
+            </li>-->
             <li Class="PatchOperationRemove">
                 <xpath>Defs/HediffDef[defName="VRE_AntibioticsTolerance"]</xpath>
             </li>
             <li Class="PatchOperationRemove">
                 <xpath>Defs/HediffDef[defName="VRE_AntibioticsAddiction"]</xpath>
+            </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="MedicalDrink"]/ingestible/outcomeDoers</xpath>
+                <value>
+                    <li Class="VanillaRacesExpandedGenies.IngestionOutcomeDoer_GiveHediff_Discriminating">
+                        <hediffDef>VRE_AntibioticsHigh</hediffDef>
+                        <firstAlternateHediffDef>VRE_AntibioticsHigh_NoImmunity</firstAlternateHediffDef>
+                        <secondAlternateHediffDef>VRE_AntibioticsHigh_VeryWeak</secondAlternateHediffDef>
+                        <thirdAlternateHediffDef>VRE_AntibioticsHigh_Weak</thirdAlternateHediffDef>
+                        <severity>1.0</severity>
+                    </li>
+                </value>
             </li>
         </operations>
     </Operation>

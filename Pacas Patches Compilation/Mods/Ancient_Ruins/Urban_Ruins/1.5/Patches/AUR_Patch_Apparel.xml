@@ -111,8 +111,7 @@
                             <countsAsClothingForNudity>false</countsAsClothingForNudity>
                             <developmentalStageFilter>Adult</developmentalStageFilter>
                             <bodyPartGroups>
-                                <li>Eyes</li>
-                                <li>Teeth</li>
+                                <li>FullHead</li>
                             </bodyPartGroups>
                             <wornGraphicPath>Things/Apparel/BulletproofMask</wornGraphicPath>
                             <layers>

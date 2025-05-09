@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_Hediff_ImmunePenoxycyline.label>пси-пеноксицилин</MPT_Hediff_ImmunePenoxycyline.label>
+    <MPT_Hediff_ImmunePenoxycyline.description>Мое связанное оружие обеспечивает меня иммунитетом к новым инфекциям малярии, чумы и сонной болезни.</MPT_Hediff_ImmunePenoxycyline.description>
+    
+    <MPT_Hediff_ImmuneMechanite.label>пси-механоразрушитель</MPT_Hediff_ImmuneMechanite.label>
+    <MPT_Hediff_ImmuneMechanite.description>Мое связанное оружие обеспечивает мне иммунитет к непрошеным волокнистым или сенсорным механизитам.</MPT_Hediff_ImmuneMechanite.description>
+    
+    <MPT_Hediff_BondedPainOffsetMinor.label>пси-боль</MPT_Hediff_BondedPainOffsetMinor.label>
+    <MPT_Hediff_BondedPainOffsetMinor.description>Мое связанное оружие доставляет мне постоянный дискомфорт.</MPT_Hediff_BondedPainOffsetMinor.description>
+    
+    <MPT_Hediff_BondedPainOffsetUpMajor.label>пси-боль (сильная)</MPT_Hediff_BondedPainOffsetUpMajor.label>
+    <MPT_Hediff_BondedPainOffsetUpMajor.description>Мое связанное оружие причиняет мне постоянную боль.</MPT_Hediff_BondedPainOffsetUpMajor.description>
+    
+    <MPT_Hediff_BondedPainOffsetDownMinor.label>пси-ибупрофен</MPT_Hediff_BondedPainOffsetDownMinor.label>
+    <MPT_Hediff_BondedPainOffsetDownMinor.description>Мое связанное оружие обеспечивает мне незначительное облегчение боли.</MPT_Hediff_BondedPainOffsetDownMinor.description>
+    
+    <MPT_Hediff_BondedPainOffsetDownMajor.label>ппси-ибупрофен (сильный)</MPT_Hediff_BondedPainOffsetDownMajor.label>
+    <MPT_Hediff_BondedPainOffsetDownMajor.description>Мое связанное оружие обеспечивает мне облегчение боли.</MPT_Hediff_BondedPainOffsetDownMajor.description>
+    
+    <MPT_Hediff_BondedVomit.label>пси-тошнота</MPT_Hediff_BondedVomit.label>
+    <MPT_Hediff_BondedVomit.description>Мое связанное оружие вызывает у меня тошноту.</MPT_Hediff_BondedVomit.description>
+    
+    <MPT_Hediff_HeldBleedFactorUp.label>пси-гемофилия</MPT_Hediff_HeldBleedFactorUp.label>
+    <MPT_Hediff_HeldBleedFactorUp.description>Мое связанное оружие заставляет меня истекать кровью быстрее.</MPT_Hediff_HeldBleedFactorUp.description>
+    
+    <MPT_Hediff_HeldBleedFactorDown.label>пси-густокровие</MPT_Hediff_HeldBleedFactorDown.label>
+    <MPT_Hediff_HeldBleedFactorDown.description>Мое связанное оружие заставляет меня истекать кровью медленнее.</MPT_Hediff_HeldBleedFactorDown.description>
+    
+    <MPT_Hediff_NaturalHealingFactorUp.label>пси-регенерация</MPT_Hediff_NaturalHealingFactorUp.label>
+    <MPT_Hediff_NaturalHealingFactorUp.description>Моя скорость исцеления увеличивается благодаря моему связанному оружию.</MPT_Hediff_NaturalHealingFactorUp.description>
+    
+    <MPT_Hediff_NaturalHealingFactorDown.label>пси-некроз</MPT_Hediff_NaturalHealingFactorDown.label>
+    <MPT_Hediff_NaturalHealingFactorDown.description>Моей скорости исцеления препятствует мое связанное оружие.</MPT_Hediff_NaturalHealingFactorDown.description>
+    
+</LanguageData>

@@ -1,39 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Alpha Genes</li>
-		</mods>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="AG_LargerBodySize"]/statFactors</xpath>
+		<value>
+			<CarryWeight>1.25</CarryWeight>
+			<CarryBulk>1.25</CarryBulk>
+		</value>
+	</Operation>
 
-			<match Class="PatchOperationSequence">
-				<operations>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GeneDef[defName="AG_LargerBodySize"]/statFactors/IncomingDamageFactor</xpath>
+		<value>
+			<IncomingDamageFactor>0.9</IncomingDamageFactor>
+		</value>
+	</Operation>
 
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/GeneDef[defName="AG_LargerBodySize"]/statFactors</xpath>
-						<value>
-							<CarryWeight>1.25</CarryWeight>
-							<CarryBulk>1.25</CarryBulk>
-						</value>
-					</li>
-
-					<li Class="PatchOperationReplace">
-						<xpath>Defs/GeneDef[defName="AG_LargerBodySize"]/statFactors/IncomingDamageFactor</xpath>
-						<value>
-							<IncomingDamageFactor>0.9</IncomingDamageFactor>
-						</value>
-					</li>
-
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/GeneDef[defName="AG_SmallerBodySize"]/statFactors</xpath>
-						<value>
-							<CarryWeight>0.75</CarryWeight>
-							<CarryBulk>0.75</CarryBulk>
-						</value>
-					</li>
-
-				</operations>
-			</match>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="AG_SmallerBodySize"]/statFactors</xpath>
+		<value>
+			<CarryWeight>0.75</CarryWeight>
+			<CarryBulk>0.75</CarryBulk>
+		</value>
 	</Operation>
 
 </Patch>

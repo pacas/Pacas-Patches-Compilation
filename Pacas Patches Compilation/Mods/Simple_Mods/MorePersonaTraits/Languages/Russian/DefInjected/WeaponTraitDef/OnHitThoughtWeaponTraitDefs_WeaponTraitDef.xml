@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_OnHit_ThoughtSelfUp.label>верный</MPT_OnHit_ThoughtSelfUp.label>
+    <MPT_OnHit_ThoughtSelfUp.description>Персона этого оружия дала бессмертную клятву быть рядом, когда в них больше всего нуждаются. Они попытаются наставить своего владельца также соблюдать эту клятву, особенно когда жизнь становится самой трудной.\nПри попадании в цель есть шанс, что владелец получит небольшое повышение настроения, складывается многократно.</MPT_OnHit_ThoughtSelfUp.description>
+    
+    <MPT_OnHit_ThoughtSelfDown.label>раскаивающийся</MPT_OnHit_ThoughtSelfDown.label>
+    <MPT_OnHit_ThoughtSelfDown.description>Персона этого оружия стремится разрешить конфликт до того, как дело дойдет до насилия. Каждый взмах напоминает их узам о том, что они потерпели неудачу.\nПри попадании в цель есть шанс, что владелец получит небольшой дебафф настроения, складывается многократно.</MPT_OnHit_ThoughtSelfDown.description>
+</LanguageData>

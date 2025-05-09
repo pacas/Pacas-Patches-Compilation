@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MPT_TurnToGold.label>превращение в золото</MPT_TurnToGold.label>
+	<MPT_TurnToGold.description>Эта пешка превратится в золото, когда умрет.</MPT_TurnToGold.description>
+    
+	<MPT_TurnToPlasteel.label>превращение в сталь</MPT_TurnToPlasteel.label>
+	<MPT_TurnToPlasteel.description>Эта пешка превратится в сталь, когда умрет.</MPT_TurnToPlasteel.description>
+    
+	<MPT_TurnToWood.label>превращение в дерево</MPT_TurnToWood.label>
+	<MPT_TurnToWood.description>Эта пешка превратится в дерево, когда умрет.</MPT_TurnToWood.description>
+
+</LanguageData>

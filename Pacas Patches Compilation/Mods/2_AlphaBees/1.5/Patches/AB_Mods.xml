@@ -62,7 +62,6 @@
                                 <AA_SkySteel_Ore>120</AA_SkySteel_Ore>
                             </value>
                         </li>
-                        
                     </operations>
                 </match>
             </li>
@@ -135,7 +134,7 @@
                     <li>HSK Watcher Content</li>
                 </mods>
                 <match Class="PatchOperationSequence">
-                    <operations> 
+                    <operations>
                         <li Class="PatchOperationReplace">
                             <xpath>Defs/ThingDef[defName="Plant_TreeHoney"]/plant/harvestedThingDef</xpath>
                             <value>
@@ -146,24 +145,27 @@
                             <mods>
                                 <li>SeedsPlease</li>
                             </mods>
-                            <match Class="PatchOperationSequence">
-                                <operations> 
-                                    <li Class="PatchOperationReplace">
-                                        <xpath>Defs/RecipeDef[defName="ExtractTreeHoneyseeds"]/ingredients/li[1]/filter/thingDefs/li</xpath>
-                                        <value>
-                                            <li>RB_BaseHoney</li>
-                                        </value>
-                                    </li>
-                                    <li Class="PatchOperationReplace">
-                                        <xpath>Defs/RecipeDef[defName="ExtractTreeHoneyseeds"]/fixedIngredientFilter/thingDefs</xpath>
-                                        <value>
-                                            <thingDefs>
+                            <match Class="PatchOperationConditional">
+                                <xpath>Defs/RecipeDef[defName="ExtractTreeHoneyseeds"]</xpath>
+                                <match Class="PatchOperationSequence">
+                                    <operations>
+                                        <li Class="PatchOperationReplace">
+                                            <xpath>Defs/RecipeDef[defName="ExtractTreeHoneyseeds"]/ingredients/li[1]/filter/thingDefs/li</xpath>
+                                            <value>
                                                 <li>RB_BaseHoney</li>
-                                                <li>WoodLog</li>
-                                            </thingDefs>
-                                        </value>
-                                    </li>
-                                </operations>
+                                            </value>
+                                        </li>
+                                        <li Class="PatchOperationReplace">
+                                            <xpath>Defs/RecipeDef[defName="ExtractTreeHoneyseeds"]/fixedIngredientFilter/thingDefs</xpath>
+                                            <value>
+                                                <thingDefs>
+                                                    <li>RB_BaseHoney</li>
+                                                    <li>WoodLog</li>
+                                                </thingDefs>
+                                            </value>
+                                        </li>
+                                    </operations>
+                                </match>
                             </match>
                         </li>
                     </operations>

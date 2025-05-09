@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Hediff_HeldVomit.label>пси-тошнота</MPT_Hediff_HeldVomit.label>
+    <MPT_Hediff_HeldVomit.description>От одного того, что я держу это оружие, меня тошнит.</MPT_Hediff_HeldVomit.description>
+    
+    <MPT_Hediff_HeldStaggerDurationDown.label>пси-решимость</MPT_Hediff_HeldStaggerDurationDown.label>
+    <MPT_Hediff_HeldStaggerDurationDown.description>Из-за моего оружия меня сложно оглушить.</MPT_Hediff_HeldStaggerDurationDown.description>
+    
+    <MPT_Hediff_HeldStaggerDurationUp.label>пси-потрясение</MPT_Hediff_HeldStaggerDurationUp.label>
+    <MPT_Hediff_HeldStaggerDurationUp.description>Мое оружие увеличивает любое оглушение.</MPT_Hediff_HeldStaggerDurationUp.description>
+    
+    <MPT_Hediff_HeldMeleeDamageFactorUp.label>пси-летальность</MPT_Hediff_HeldMeleeDamageFactorUp.label>
+    <MPT_Hediff_HeldMeleeDamageFactorUp.description>Мое оружие заставляет меня наносить гораздо больше урона.</MPT_Hediff_HeldMeleeDamageFactorUp.description>
+    
+    <MPT_Hediff_HeldMeleeDamageFactorDown.label>пси-ослабление</MPT_Hediff_HeldMeleeDamageFactorDown.label>
+    <MPT_Hediff_HeldMeleeDamageFactorDown.description>Мое оружие заставляет меня наносить меньше урона в ближнем бою.</MPT_Hediff_HeldMeleeDamageFactorDown.description>
+</LanguageData>

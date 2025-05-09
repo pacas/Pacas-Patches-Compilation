@@ -261,7 +261,7 @@
     <!-- Ben's Patches -->
 
     <BenLubarsRimBeesPatches_Alert_BeeDanger_title>Пчелы подвергаются воздействию элементов</BenLubarsRimBeesPatches_Alert_BeeDanger_title>
-    <BenLubarsRimBeesPatches_Alert_BeeDanger_desc>Пчелы наносят ущерб окружающей среде. Нажмите на предупреждение, чтобы перейти к пчелам.</BenLubarsRimBeesPatches_Alert_BeeDanger_desc>
+    <BenLubarsRimBeesPatches_Alert_BeeDanger_desc>Пчелам наносит ущерб окружающая среда. Нажмите на предупреждение, чтобы перейти к пчелам.</BenLubarsRimBeesPatches_Alert_BeeDanger_desc>
 
     <BenLubarsRimBeesPatches_showMissingBees_title>Показать иконку для отсутствующих пчел</BenLubarsRimBeesPatches_showMissingBees_title>
     <BenLubarsRimBeesPatches_showMissingBees_desc>Покажите значок на пчелиных ульях, в которых отсутствует матка или трутень и они не выбраны для добавления.</BenLubarsRimBeesPatches_showMissingBees_desc>

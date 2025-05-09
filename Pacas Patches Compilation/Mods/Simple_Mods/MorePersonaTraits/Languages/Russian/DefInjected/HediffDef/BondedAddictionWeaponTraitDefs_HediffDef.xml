@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_Hediff_BondedNeedChemicalWakeUp.label>Зависимость от бодрина (оружие)</MPT_Hediff_BondedNeedChemicalWakeUp.label>
+    <MPT_Hediff_BondedNeedChemicalWakeUp.description>Из-за пристрастия к бодрину связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalWakeUp.description>
+    <MPT_Hediff_BondedNeedChemicalWakeUp.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalWakeUp.stages.1.label>
+    
+    <MPT_Hediff_BondedNeedChemicalSmokeleaf.label>Зависимость от дымолиста (оружие)</MPT_Hediff_BondedNeedChemicalSmokeleaf.label>
+    <MPT_Hediff_BondedNeedChemicalSmokeleaf.description>Из-за пристрастия к дымолисту связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalSmokeleaf.description>
+    <MPT_Hediff_BondedNeedChemicalSmokeleaf.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalSmokeleaf.stages.1.label>
+    
+    <MPT_Hediff_BondedNeedChemicalPsychite.label>Зависимость от психина (оружие)</MPT_Hediff_BondedNeedChemicalPsychite.label>
+    <MPT_Hediff_BondedNeedChemicalPsychite.description>Из-за пристрастия к психину связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalPsychite.description>
+    <MPT_Hediff_BondedNeedChemicalPsychite.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalPsychite.stages.1.label>
+    
+    <MPT_Hediff_BondedNeedChemicalGoJuice.label>Зависимость от Go-сока (оружие)</MPT_Hediff_BondedNeedChemicalGoJuice.label>
+    <MPT_Hediff_BondedNeedChemicalGoJuice.description>Из-за пристрастия к Go-соку связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalGoJuice.description>
+    <MPT_Hediff_BondedNeedChemicalGoJuice.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalGoJuice.stages.1.label>
+    
+    <MPT_Hediff_BondedNeedChemicalAmbrosia.label>Зависимость от амброзии (оружие)</MPT_Hediff_BondedNeedChemicalAmbrosia.label>
+    <MPT_Hediff_BondedNeedChemicalAmbrosia.description>Из-за пристрастия к амброзии связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalAmbrosia.description>
+    <MPT_Hediff_BondedNeedChemicalAmbrosia.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalAmbrosia.stages.1.label>
+    
+    <MPT_Hediff_BondedNeedChemicalAlcohol.label>Зависимость от алкоголя (оружие)</MPT_Hediff_BondedNeedChemicalAlcohol.label>
+    <MPT_Hediff_BondedNeedChemicalAlcohol.description>Из-за пристрастия к алкоголю связанного оружия, этому человеку необходимо регулярно употреблять наркотик, чтобы избежать симптомов ломки.</MPT_Hediff_BondedNeedChemicalAlcohol.description>
+    <MPT_Hediff_BondedNeedChemicalAlcohol.stages.1.label>ломка</MPT_Hediff_BondedNeedChemicalAlcohol.stages.1.label>
+    
+</LanguageData>

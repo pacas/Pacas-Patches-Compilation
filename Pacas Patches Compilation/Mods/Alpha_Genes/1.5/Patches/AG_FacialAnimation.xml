@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[NL] Facial Animation - WIP</li>
+        </mods>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/GeneDef[defName="AG_DevilEyes"]/renderNodeProperties</xpath>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+                            <FacialAnimation.EyeballColorDef>
+                                <defName>EyeColor_AG_White</defName>
+                                <geneDef>AG_NearBlindness</geneDef>
+                                <eyeballColor>RGB(240,240,240)</eyeballColor>
+                            </FacialAnimation.EyeballColorDef>
+                            <FacialAnimation.EyeballColorDef>
+                                <defName>EyeColor_AG_Devil</defName>
+                                <geneDef>AG_DevilEyes</geneDef>
+                                <eyeballColor>RGB(221,234,0)</eyeballColor>
+                            </FacialAnimation.EyeballColorDef>
+                            <FacialAnimation.EyeballColorDef>
+                                <defName>EyeColor_AG_Forsaken</defName>
+                                <geneDef>AG_ForsakenEyes</geneDef>
+                                <eyeballColor>RGB(235,211,0)</eyeballColor>
+                            </FacialAnimation.EyeballColorDef>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationRemove">
+                        <xpath>Defs/GeneDef[
+                        defName="AG_NearBlindness" or
+                        defName="AG_DevilEyes"
+                        ]/renderNodeProperties</xpath>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/GeneDef[defName="AG_ForsakenEyes"]/renderNodeProperties/li/texPath</xpath>
+                        <value>
+                            <texPath>Things/Pawn/Humanlike/HeadAttachments/AG_ForsakenEyes/AG_ForsakenEyes_FA</texPath>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+        </match>
+    </Operation>
+</Patch>

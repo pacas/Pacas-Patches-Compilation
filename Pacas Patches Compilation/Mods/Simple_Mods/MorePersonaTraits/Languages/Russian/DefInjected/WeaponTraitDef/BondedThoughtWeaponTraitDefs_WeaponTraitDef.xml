@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MPT_Bonded_ThoughtWeatherDown.label>штормпрессивный</MPT_Bonded_ThoughtWeatherDown.label>
+    <MPT_Bonded_ThoughtWeatherDown.description>Персона этого оружия плачет, когда плачет небо.\nСвязанная пешка получает штраф за настроение, когда погода не ясна.</MPT_Bonded_ThoughtWeatherDown.description>
+    <MPT_Bonded_ThoughtWeatherUp.label>метеорологический</MPT_Bonded_ThoughtWeatherUp.label>
+    <MPT_Bonded_ThoughtWeatherUp.description>Персона этого оружия находит новизну в наблюдении за тем, как объекты переходят из состояний с высокой гравитационной энергией в состояния с низкой, и просто не может насытиться дождем.\nСвязанная пешка получает повышение настроения, когда погода не ясная.</MPT_Bonded_ThoughtWeatherUp.description>
+    <MPT_Bonded_ThoughtFemaleHate.label>женоненавистник</MPT_Bonded_ThoughtFemaleHate.label>
+    <MPT_Bonded_ThoughtFemaleHate.description>Персона этого оружия питает бурлящую ненависть к женщинам и никогда не останавливается, чтобы показать своё мнение.\nСвязанная пешка получает штраф за настроение, если она женского пола.</MPT_Bonded_ThoughtFemaleHate.description>
+    <MPT_Bonded_ThoughtFemaleLove.label>восхвалитель женщин</MPT_Bonded_ThoughtFemaleLove.label>
+    <MPT_Bonded_ThoughtFemaleLove.description>Персона этого оружия постоянно восхваляет женский пол, наличие связи с женской пешкой поднимает её настроение.\nСвязанная пешка получает повышение настроения, если она женского пола.</MPT_Bonded_ThoughtFemaleLove.description>
+    <MPT_Bonded_ThoughtMaleHate.label>мужененавистница</MPT_Bonded_ThoughtMaleHate.label>
+    <MPT_Bonded_ThoughtMaleHate.description>Персона этого оружия обладает жгучей ненавистью к мужчинам. Мысль о том, чтобы разделить психическую связь с кем-то из них, вызывает у них отвращение.\nСвязанная пешка получает штраф за настроение, если она мужского пола.</MPT_Bonded_ThoughtMaleHate.description>
+    <MPT_Bonded_ThoughtMaleLove.label>восхвалитель мужчин</MPT_Bonded_ThoughtMaleLove.label>
+    <MPT_Bonded_ThoughtMaleLove.description>Персона этого оружия постоянно восхваляет мужской пол, и то, что мужчина связан с ней, вызывает у неё ликование.\nСвязанная пешка получает повышение настроения, если она мужского пола.</MPT_Bonded_ThoughtMaleLove.description>
+    <MPT_Bonded_ThoughtNoAnimalHate.label>любовь к животным</MPT_Bonded_ThoughtNoAnimalHate.label>
+    <MPT_Bonded_ThoughtNoAnimalHate.description>Персона этого оружия просто обожает животных. Она хочет щенка и говорит, как это несправедливо, что у них его нет.\nСвязанная пешка получает штраф к настроению, если ее не сопровождает хотя бы один из ее питомцев.</MPT_Bonded_ThoughtNoAnimalHate.description>
+    <MPT_Bonded_ThoughtAnimalHate.label>зоофобия</MPT_Bonded_ThoughtAnimalHate.label>
+    <MPT_Bonded_ThoughtAnimalHate.description>Персона этого оружия ненавидит животных. Она не хочет иметь с ними ничего общего и следит за этим .\n Связанная пешка получает штраф к настроению, если ее сопровождает хотя бы один из их питомцев.</MPT_Bonded_ThoughtAnimalHate.description>
+</LanguageData>

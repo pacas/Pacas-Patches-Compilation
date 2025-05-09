@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MPT_OnKill_TransformToGold.label>касание Мидаса</MPT_OnKill_TransformToGold.label>
+    <MPT_OnKill_TransformToGold.description>Персона этого оружия настолько плох в том чтобы быть плохим в бизнесе, что все, что оно убивает, кажется, превращается в золото!\nУбивая кого-либо этим оружием, он превращает часть стоимости своего трупа, снаряжения и инвентаря в золото.</MPT_OnKill_TransformToGold.description>
+    
+    <MPT_OnKill_TransformToPlasteel.label>цельнометаллический</MPT_OnKill_TransformToPlasteel.label>
+    <MPT_OnKill_TransformToPlasteel.description>Персона этого оружия овладел трансмутацией материи и может создавать сталь простой ценой жизни рейдера.\nУбивая кого-либо этим оружием, оно преобразует часть стоимости его трупа, снаряжения и инвентаря в сталь.</MPT_OnKill_TransformToPlasteel.description>
+    
+    <MPT_OnKill_TransformToWood.label>лесоруб</MPT_OnKill_TransformToWood.label>
+    <MPT_OnKill_TransformToWood.description>Персона этого оружия действительно, очень хорош в логгировании (log = бревно). Он также может превращать предметы в деревянные бревна.\nУбивая кого-либо этим оружием, оно превращает часть стоимости трупа, снаряжения и инвентаря в древесину.</MPT_OnKill_TransformToWood.description>
+</LanguageData>

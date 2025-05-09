@@ -91,6 +91,7 @@
         <li IfModActive="tribeagle.simpleslaverycollars">Mods/Simple_Mods/Slavery_Collars/1.5</li>
         <li IfModActive="zal.valkyriemech">Mods/Simple_Mods/ValkyrieMech</li>
         <li IfModActive="redmattis.bettergeneinheritance">Mods/Simple_Mods/BetterGeneInheritance/1.5</li>
+        <li IfModActive="arquebus.morepersonatraits">Mods/Simple_Mods/MorePersonaTraits</li>
         <!--<li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Framework</li>
         <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
         <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>-->

@@ -1,10 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AG_RemoveImplantation.label>Удалить паразитарную имплантацию</AG_RemoveImplantation.label>
-  <AG_RemoveImplantation.description>Удалить паразитическую имплантацию.</AG_RemoveImplantation.description>
-  <AG_RemoveImplantation.jobString>Удаление паразитической имплантации.</AG_RemoveImplantation.jobString>
-  <AG_RemoveImplantation.successfullyRemovedHediffMessage>{0} успешно удалено {1}'паразитарная имплантация.</AG_RemoveImplantation.successfullyRemovedHediffMessage>
+    <Build_AG_ForsakenSniper.label>Собрать снайперскую винтовку забытых</Build_AG_ForsakenSniper.label>
+	<Build_AG_ForsakenSniper.description>Эта снайперская винтовка ценится исследователями забытых за свою дальнобойность и высокую точность.\nКалибр: 6x24 mm</Build_AG_ForsakenSniper.description>
+	<Build_AG_ForsakenSniper.jobString>Собирает снайперскую винтовку забытых.</Build_AG_ForsakenSniper.jobString>
 
+	<Build_AG_ForsakenShotgun.label>Собрать дробовик забытых</Build_AG_ForsakenShotgun.label>
+	<Build_AG_ForsakenShotgun.description>Дробовик забытых, обладающий отличной точностью на коротких дистанциях и смертельной мощью в ближнем бою.\nКалибр: 12 Gauge</Build_AG_ForsakenShotgun.description>
+	<Build_AG_ForsakenShotgun.jobString>Собирает дробовик забытых.</Build_AG_ForsakenShotgun.jobString>
+	
+	<Build_AG_ForsakenAssaultRifle.label>Собрать винтовку забытых</Build_AG_ForsakenAssaultRifle.label>
+	<Build_AG_ForsakenAssaultRifle.description>Эта штурмовая винтовка забытых использует патроны малого калибра и имеет долгую перезарядку, но компенсирует это высокой скорострельностью, отличным пробитием брони и хорошей точностью.\nКалибр: 5x50mm Caseless</Build_AG_ForsakenAssaultRifle.description>
+	<Build_AG_ForsakenAssaultRifle.jobString>Собирает винтовку забытых.</Build_AG_ForsakenAssaultRifle.jobString>
 
-<!--1.4/Defs/RecipeDefs/RecipeDefs.xml-->
+    <AG_RemoveImplantation.label>Удалить паразитарную имплантацию</AG_RemoveImplantation.label>
+    <AG_RemoveImplantation.description>Удалить паразитическую имплантацию.</AG_RemoveImplantation.description>
+    <AG_RemoveImplantation.jobString>Удаление паразитической имплантации.</AG_RemoveImplantation.jobString>
+    <AG_RemoveImplantation.successfullyRemovedHediffMessage>{0} успешно удалено {1}'паразитарная имплантация.</AG_RemoveImplantation.successfullyRemovedHediffMessage>
+    
 </LanguageData>

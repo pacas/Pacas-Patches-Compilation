@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenForge"]</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>120</costStuffCount>
+                    <costList>
+                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ElectronicComponents>5</ElectronicComponents>
+                        <Mechanism>6</Mechanism>
+                    </costList>
+                    <statBases>
+                        <WorkToBuild>3500</WorkToBuild>
+                        <MaxHitPoints>200</MaxHitPoints>
+                        <Flammability>1.0</Flammability>
+                        <Cleanliness>-4</Cleanliness>
+                    </statBases>
+                    <comps>
+                        <li Class="SK.CompProperties_LowIdleDraw">
+                            <compClass>SK.CompPowerLowIdleDraw</compClass>
+                            <idlePowerFactor>0.1</idlePowerFactor>
+                        </li>
+                        <li Class="CompProperties_Power">
+                            <compClass>CompPowerTrader</compClass>
+                            <basePowerConsumption>650</basePowerConsumption>
+                            <shortCircuitInRain>true</shortCircuitInRain>
+                        </li>
+                        <li Class="CompProperties_Flickable"/>
+                        <li Class="CompProperties_Breakdownable"/>
+                        <li Class="CompProperties_HeatPusher">
+                            <compClass>CompHeatPusherPowered</compClass>
+                            <heatPerSecond>4.5</heatPerSecond>
+                            <heatPushMaxTemperature>35</heatPushMaxTemperature>
+                        </li>
+                        <li Class="SK.CompProperties_LowIdleDraw">
+                            <compClass>SK.CompPowerLowIdleDraw</compClass>
+                            <idlePowerFactor>0.1</idlePowerFactor>
+                        </li>
+                        <li Class="CompProperties_AffectedByFacilities">
+                            <linkableFacilities>
+                                <li>ToolCabinet</li>
+                                <li>PodChair</li>
+                            </linkableFacilities>
+                        </li>
+                    </comps>
+                    <researchPrerequisites>
+                        <li>Metals_C1</li>
+                    </researchPrerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="AG_ForsakenForge"]/constructEffect</xpath>
+			</li>
+        </operations>
+    </Operation>
+</Patch>

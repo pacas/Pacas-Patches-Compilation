@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingCategoryDef>
+        <defName>AG_ForsakenMelee</defName>
+        <label>Forsaken Melee</label>
+        <parent>WeaponsMelee</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+        <defName>AG_ForsakenRanged</defName>
+        <label>Forsaken Ranged</label>
+        <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+</Defs>

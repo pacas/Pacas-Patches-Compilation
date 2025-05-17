@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                @Name="AG_BaseForsaken" or
+                defName="AG_ForsakenSniper" or
+                defName="AG_ForsakenShotgun" or
+                defName="AG_ForsakenAssaultRifle" or
+                defName="AG_ForsakenHydra" or
+                defName="AG_ForsakenBow"]/recipeMaker</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AG_ForsakenSniper" or
+                defName="AG_ForsakenShotgun" or
+                defName="AG_ForsakenAssaultRifle" or
+                defName="AG_ForsakenBow" or
+                defName="AG_ForsakenHydra"]/costList</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                defName="AG_SniperPulse" or
+                defName="AG_ShotgunPulse" or
+                defName="AG_ForsakenAssaultRiflePulse"]</xpath>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenLongBlade"]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>ForsakenMelee</li>
+                        <li>MedievalMelee2H</li>
+                    </weaponTags>
+                    <weaponClasses>
+                        <li>MeleePiercer</li>
+                    </weaponClasses>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenMelee</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>90</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>5</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>ForsakenMelee</li>
+                        <li>MedievalMelee2H</li>
+                    </weaponTags>
+                    <weaponClasses>
+                        <li>MeleePiercer</li>
+                    </weaponClasses>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenMelee</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>90</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>8</ComponentMedieval>
+                    </costList>
+                    <recipeMaker>
+                        <researchPrerequisite>Smithing</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenBulkSword"]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>ForsakenMelee</li>
+                        <li>MedievalMelee</li>
+                        <li>CE_OneHandedWeapon</li>
+                    </weaponTags>
+                    <weaponClasses>
+                        <li>MeleePiercer</li>
+                    </weaponClasses>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenMelee</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>50</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenSpear"]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>ForsakenMelee</li>
+                        <li>MedievalMelee2H</li>
+                    </weaponTags>
+                    <weaponClasses>
+                        <li>MeleePiercer</li>
+                    </weaponClasses>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenMelee</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>StrongMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>40</costStuffCount>
+                    <costList>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <recipeMaker>
+                        <researchPrerequisite>Smithing</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenBow"]</xpath>
+                <value>
+                    <weaponTags>
+                        <li>ForsakenRanged</li>
+                        <li>MedievalRanged</li>
+                        <li>CE_Bow</li>
+                    </weaponTags>
+                    <weaponClasses>
+                        <li>ShortShots</li>
+                    </weaponClasses>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenRanged</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>WoodLogs</li>
+                    </stuffCategories>
+                    <costStuffCount>50</costStuffCount>
+                    <costList>
+                        <AG_Ultima>15</AG_Ultima>
+                        <ComponentMedieval>4</ComponentMedieval>
+                    </costList>
+                    <recipeMaker>
+                        <researchPrerequisite>RecurveBow</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenHydra"]</xpath>
+                <value>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenRanged</li>
+                    </thingCategories>
+                    <stuffCategories>
+                        <li>RuggedMetallic</li>
+                    </stuffCategories>
+                    <costStuffCount>100</costStuffCount>
+                    <costList>
+                        <AG_Ultima>50</AG_Ultima>
+                        <Weapon_Parts>10</Weapon_Parts>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                    </costList>
+                    <recipeMaker>
+                        <researchPrerequisite>ChargedShot</researchPrerequisite>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationFindMod">
+                <mods>
+                    <li>Pacas Even More Content</li>
+                </mods>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AG_ForsakenHydra"]/costList</xpath>
+                    <value>
+                        <LivingFirePowder>10</LivingFirePowder>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AG_ForsakenHydra"]/costList</xpath>
+                    <value>
+                        <LivingFire>1</LivingFire>
+                    </value>
+                </nomatch>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenSniper"]</xpath>
+                <value>
+                    <smeltProducts>
+                        <AdvSniper_Component>1</AdvSniper_Component>
+                        <Weapon_Parts>7</Weapon_Parts>
+                        <Plastic>7</Plastic>
+                    </smeltProducts>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenRanged</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenShotgun"]</xpath>
+                <value>
+                    <smeltProducts>
+                        <Shotgun_Component>1</Shotgun_Component>
+                        <Weapon_Parts>10</Weapon_Parts>
+                        <Plastic>4</Plastic>
+                    </smeltProducts>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenRanged</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="AG_ForsakenAssaultRifle"]</xpath>
+                <value>
+                    <smeltProducts>
+                        <AdvRifle_Component>1</AdvRifle_Component>
+                        <Weapon_Parts>5</Weapon_Parts>
+                    </smeltProducts>
+                    <thingCategories Inherit="False">
+                        <li>AG_ForsakenRanged</li>
+                    </thingCategories>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

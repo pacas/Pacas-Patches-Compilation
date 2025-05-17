@@ -1,7 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <AG_GeneTools.label>Генные инструменты</AG_GeneTools.label>
-
-
-<!--1.4/Defs/ThingCategoryDefs/ThingCategories.xml-->
+    <AG_GeneTools.label>Генные инструменты</AG_GeneTools.label>
+    <AG_ForsakenMelee.label>Оружие забытых</AG_ForsakenMelee.label>
+    <AG_ForsakenRanged.label>Оружие забытых</AG_ForsakenRanged.label>
 </LanguageData>

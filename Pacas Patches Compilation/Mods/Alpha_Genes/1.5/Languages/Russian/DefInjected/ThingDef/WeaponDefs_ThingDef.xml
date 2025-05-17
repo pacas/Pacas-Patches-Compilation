@@ -1,97 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!--1.5\Defs\ThingDefs_Misc\Weapons\WeaponDefs.xml-->
-	<!--                     forsaken sniper rifle -->
-	<AG_ForsakenSniper.label>снайперская винтовка Забытых</AG_ForsakenSniper.label>
-	<!--                           This sniper rifle is prized by Forsaken explorers for its long range and high accuracy. -->
-	<AG_ForsakenSniper.description>Эта снайперская винтовка ценится исследователями Забытых за свою дальнобойность и высокую точность.</AG_ForsakenSniper.description>
-	<!--                             ствол -->
-	<AG_ForsakenSniper.tools.0.label>ствол</AG_ForsakenSniper.tools.0.label>
-	
-	<!--                  forsaken sniper pulse -->
-	<AG_SniperPulse.label>заряд снайперской винтовки Забытых</AG_SniperPulse.label>
-	
-	<!--                      forsaken shotgun -->
-	<AG_ForsakenShotgun.label>дробовик Забытых</AG_ForsakenShotgun.label>
-	<!--                            Forsaken shotgun, great accuracy at short distances and very deadly at close range. -->
-	<AG_ForsakenShotgun.description>Дробовик Забытых, обладающий отличной точностью на коротких дистанциях и смертельной мощью в ближнем бою.</AG_ForsakenShotgun.description>
-	<!--                              ложe -->
-	<AG_ForsakenShotgun.tools.0.label>приклад</AG_ForsakenShotgun.tools.0.label>
-	<!--                              ствол -->
-	<AG_ForsakenShotgun.tools.1.label>ствол</AG_ForsakenShotgun.tools.1.label>
-	
-	<!--                   forsaken shotgun pulse -->
-	<AG_ShotgunPulse.label>заряд дробовика Забытых</AG_ShotgunPulse.label>
-	
-	<!--                           forsaken assault rifle -->
-	<AG_ForsakenAssaultRifle.label>штурмовая винтовка Забытых</AG_ForsakenAssaultRifle.label>
-	<!--                                 This Forsaken assault rifle has a rather small calibre cartridge and a long reload time, but has a high burst shot count, high armor penetration and decent accuracy. -->
-	<AG_ForsakenAssaultRifle.description>Эта штурмовая винтовка Забытых использует патроны малого калибра и имеет долгую перезарядку, но компенсирует это высокой скорострельностью, отличным пробитием брони и хорошей точностью.</AG_ForsakenAssaultRifle.description>
-	<!--                                   ложe -->
-	<AG_ForsakenAssaultRifle.tools.0.label>приклад</AG_ForsakenAssaultRifle.tools.0.label>
-	<!--                                   ствол -->
-	<AG_ForsakenAssaultRifle.tools.1.label>ствол</AG_ForsakenAssaultRifle.tools.1.label>
-	
-	<!--                                forsaken assault rifle pulse -->
-	<AG_ForsakenAssaultRiflePulse.label>заряд штурмовой винтовки Забытых</AG_ForsakenAssaultRiflePulse.label>
-	
-	<!--                        forsaken long blade -->
-	<AG_ForsakenLongBlade.label>длинный меч Забытых</AG_ForsakenLongBlade.label>
-	<!--                              This Forsaken long sword takes little effort to lift and swing but can deal substantial damage. -->
-	<AG_ForsakenLongBlade.description>Этот длинный меч Забытых требует минимальных усилий для подъёма и взмаха, но способен наносить серьёзный урон.</AG_ForsakenLongBlade.description>
-	<!--                                рукоять -->
-	<AG_ForsakenLongBlade.tools.0.label>рукоять</AG_ForsakenLongBlade.tools.0.label>
-	<!--                                острие -->
-	<AG_ForsakenLongBlade.tools.1.label>остриё</AG_ForsakenLongBlade.tools.1.label>
-	<!--                                кромка -->
-	<AG_ForsakenLongBlade.tools.2.label>лезвие</AG_ForsakenLongBlade.tools.2.label>
-	
-	<!--                        forsaken battle axe -->
-	<AG_ForsakenBattleAxe.label>боевой топор Забытых</AG_ForsakenBattleAxe.label>
-	<!--                              The traditional Forsaken battle axe deals a lot of damage on impact, at the cost of unwealdy shape and weight. -->
-	<AG_ForsakenBattleAxe.description>Традиционный боевой топор Забытых наносит много урона при ударе, но у него неудобная форма и большой вес.</AG_ForsakenBattleAxe.description>
-	<!--                                рукоять -->
-	<AG_ForsakenBattleAxe.tools.0.label>рукоять</AG_ForsakenBattleAxe.tools.0.label>
-	<!--                                топор -->
-	<AG_ForsakenBattleAxe.tools.1.label>топор</AG_ForsakenBattleAxe.tools.1.label>
-	<!--                                кромка -->
-	<AG_ForsakenBattleAxe.tools.2.label>лезвие</AG_ForsakenBattleAxe.tools.2.label>
-	
-	<!--                        forsaken bulk sword -->
-	<AG_ForsakenBulkSword.label>массивный меч Забытых</AG_ForsakenBulkSword.label>
-	<!--                              A Forsaken equivalent of the gladius, common sidearms among Forsaken infantry. Terrible armor penetration, but easy to handle. -->
-	<AG_ForsakenBulkSword.description>Аналог гладиуса у Забытых — распространённое вспомогательное оружие их пехоты. Обладает слабым бронепробитием, но отличается простотой в обращении.</AG_ForsakenBulkSword.description>
-	<!--                                рукоять -->
-	<AG_ForsakenBulkSword.tools.0.label>рукоять</AG_ForsakenBulkSword.tools.0.label>
-	<!--                                топор -->
-	<AG_ForsakenBulkSword.tools.1.label>топор</AG_ForsakenBulkSword.tools.1.label>
-	<!--                                кромка -->
-	<AG_ForsakenBulkSword.tools.2.label>лезвие</AG_ForsakenBulkSword.tools.2.label>
-	
-	<!--                    forsaken spear -->
-	<AG_ForsakenSpear.label>копьё Забытых</AG_ForsakenSpear.label>
-	<!--                          A Forsaken spear. Deals great damage, but can be difficult to handle. -->
-	<AG_ForsakenSpear.description>Копьё Забытых. Наносит большой урон, но с ним трудно обращаться.</AG_ForsakenSpear.description>
-	<!--                            древко -->
-	<AG_ForsakenSpear.tools.0.label>древко</AG_ForsakenSpear.tools.0.label>
-	<!--                            острие -->
-	<AG_ForsakenSpear.tools.1.label>остриё</AG_ForsakenSpear.tools.1.label>
-	
-	<!--                  forsaken bow -->
-	<AG_ForsakenBow.label>лук Забытых</AG_ForsakenBow.label>
-	<!--                        This traditional Forsaken bow is very accurate and can deal decent damage. Its sharp edges make it usable in melee combat. -->
-	<AG_ForsakenBow.description>Этот традиционный лук Забытых обладает высокой точностью и способен наносить приличный урон. Благодаря острым краям его можно использовать и в ближнем бою.</AG_ForsakenBow.description>
-	<!--                          limb -->
-	<AG_ForsakenBow.tools.0.label>плечо</AG_ForsakenBow.tools.0.label>
-	
-	<!--                    forsaken arrow -->
-	<AG_ForsakenArrow.label>стрела Забытых</AG_ForsakenArrow.label>
-	
-	<!--                    forsaken black hydra -->
-	<AG_ForsakenHydra.label>чёрная гидра Забытых</AG_ForsakenHydra.label>
-	<!--                          The Forsaken Black Hydra is a special weapon system that draws lightning to the point of fire, due to an ionized electrocloud detonator. Legend says these weapons needed to contain the heart of a hydra to function. -->
-	<AG_ForsakenHydra.description>Чёрная гидра Забытых — это специальная оружейная система, которая притягивает молнии к точке выстрела благодаря ионизированному детонатору электрооблака. Легенда гласит, что для работы этого оружия требовалось сердце гидры.</AG_ForsakenHydra.description>
-	
-	<!--                        Hydra Blast -->
-	<AG_Bullet_HydraBlast.label>Гидра-взрыв</AG_Bullet_HydraBlast.label>
+    <!--1.5\Defs\ThingDefs_Misc\Weapons\WeaponDefs.xml-->
+    <AG_ForsakenSniper.label>снайперская винтовка забытых</AG_ForsakenSniper.label>
+    <AG_ForsakenSniper.description>Эта снайперская винтовка ценится исследователями забытых за свою дальнобойность и высокую точность.</AG_ForsakenSniper.description>
+    <AG_ForsakenSniper.tools.0.label>ствол</AG_ForsakenSniper.tools.0.label>
+    
+    
+    <AG_ForsakenShotgun.label>дробовик забытых</AG_ForsakenShotgun.label>
+    <AG_ForsakenShotgun.description>Дробовик забытых, обладающий отличной точностью на коротких дистанциях и смертельной мощью в ближнем бою.</AG_ForsakenShotgun.description>
+    <AG_ForsakenShotgun.tools.0.label>приклад</AG_ForsakenShotgun.tools.0.label>
+    <AG_ForsakenShotgun.tools.1.label>ствол</AG_ForsakenShotgun.tools.1.label>
+    
+    
+    <AG_ForsakenAssaultRifle.label>винтовка забытых</AG_ForsakenAssaultRifle.label>
+    <AG_ForsakenAssaultRifle.description>Эта штурмовая винтовка забытых использует патроны малого калибра и имеет долгую перезарядку, но компенсирует это высокой скорострельностью, отличным пробитием брони и хорошей точностью.</AG_ForsakenAssaultRifle.description>
+    <AG_ForsakenAssaultRifle.tools.0.label>приклад</AG_ForsakenAssaultRifle.tools.0.label>
+    <AG_ForsakenAssaultRifle.tools.1.label>ствол</AG_ForsakenAssaultRifle.tools.1.label>
+    
+    
+    <AG_ForsakenLongBlade.label>длинный меч забытых</AG_ForsakenLongBlade.label>
+    <AG_ForsakenLongBlade.description>Этот длинный меч забытых требует минимальных усилий для подъёма и взмаха, но способен наносить серьёзный урон.</AG_ForsakenLongBlade.description>
+    <AG_ForsakenLongBlade.tools.0.label>рукоять</AG_ForsakenLongBlade.tools.0.label>
+    <AG_ForsakenLongBlade.tools.1.label>остриё</AG_ForsakenLongBlade.tools.1.label>
+    <AG_ForsakenLongBlade.tools.2.label>лезвие</AG_ForsakenLongBlade.tools.2.label>
+    
+    
+    <AG_ForsakenBattleAxe.label>боевой топор забытых</AG_ForsakenBattleAxe.label>
+    <AG_ForsakenBattleAxe.description>Традиционный боевой топор забытых наносит много урона при ударе, но у него неудобная форма и большой вес.</AG_ForsakenBattleAxe.description>
+    <AG_ForsakenBattleAxe.tools.0.label>рукоять</AG_ForsakenBattleAxe.tools.0.label>
+    <AG_ForsakenBattleAxe.tools.1.label>топор</AG_ForsakenBattleAxe.tools.1.label>
+    <AG_ForsakenBattleAxe.tools.2.label>лезвие</AG_ForsakenBattleAxe.tools.2.label>
+    
+    
+    <AG_ForsakenBulkSword.label>гладиус забытых</AG_ForsakenBulkSword.label>
+    <AG_ForsakenBulkSword.description>Распространённое вспомогательное оружие пехоты забытых. Обладает слабым бронепробитием, но отличается простотой в обращении.</AG_ForsakenBulkSword.description>
+    <AG_ForsakenBulkSword.tools.0.label>рукоять</AG_ForsakenBulkSword.tools.0.label>
+    <AG_ForsakenBulkSword.tools.1.label>топор</AG_ForsakenBulkSword.tools.1.label>
+    <AG_ForsakenBulkSword.tools.2.label>лезвие</AG_ForsakenBulkSword.tools.2.label>
+    
+    
+    <AG_ForsakenSpear.label>копьё забытых</AG_ForsakenSpear.label>
+    <AG_ForsakenSpear.description>Копьё забытых. Наносит большой урон, но с ним трудно обращаться.</AG_ForsakenSpear.description>
+    <AG_ForsakenSpear.tools.0.label>древко</AG_ForsakenSpear.tools.0.label>
+    <AG_ForsakenSpear.tools.1.label>остриё</AG_ForsakenSpear.tools.1.label>
+    
+    
+    <AG_ForsakenBow.label>лук забытых</AG_ForsakenBow.label>
+    <AG_ForsakenBow.description>Этот традиционный лук забытых обладает высокой точностью и способен наносить приличный урон. Благодаря острым краям его можно использовать и в ближнем бою.</AG_ForsakenBow.description>
+    <AG_ForsakenBow.tools.0.label>плечо</AG_ForsakenBow.tools.0.label>
+    <AG_ForsakenArrow.label>стрела</AG_ForsakenArrow.label>
+    
+    
+    <AG_ForsakenHydra.label>Чёрная гидра забытых</AG_ForsakenHydra.label>
+    <AG_ForsakenHydra.description>Чёрная гидра забытых — это специальная оружейная система, которая притягивает молнии к точке выстрела благодаря ионизированному детонатору электрооблака. Легенда гласит, что для работы этого оружия требовалось сердце гидры.</AG_ForsakenHydra.description>
+    <AG_Bullet_HydraBlast.label>гидра-взрыв</AG_Bullet_HydraBlast.label>
+    
 </LanguageData>

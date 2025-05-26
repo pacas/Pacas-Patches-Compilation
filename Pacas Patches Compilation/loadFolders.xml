@@ -20,8 +20,8 @@
         <!-- Simple mods -->
         <li IfModActive="machine.betterinfestations">Mods/Simple_Mods/Better_Infestations</li>
         <li IfModActive="Zeitloser.BirdsBeyond.FW">Mods/Simple_Mods/BirdsBeyond_Framework</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
-        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/Simple_Mods/BirdsBeyond_TF</li>
+        <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/Simple_Mods/BirdsBeyond_TR</li>
         <li IfModActive="co.uk.epicguru.rimforgepoles">Mods/Simple_Mods/RimForge_Power_Poles</li>
         <li IfModActive="cp.uncle.boris.brainwash.chair">Mods/Simple_Mods/BrainwashChair</li>
         <li IfModActive="kikohi.jewelry">Mods/Simple_Mods/Jewelry</li>
@@ -93,8 +93,8 @@
         <li IfModActive="redmattis.bettergeneinheritance">Mods/Simple_Mods/BetterGeneInheritance/1.5</li>
         <li IfModActive="arquebus.morepersonatraits">Mods/Simple_Mods/MorePersonaTraits</li>
         <!--<li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Framework</li>
-        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Temperate_Forest</li>
-        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_Tropical_Rainforest</li>-->
+        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_TF</li>
+        <li IfModActive="mlie.birdsbeyond">Mods/Simple_Mods/BirdsBeyond_TR</li>-->
         <!-- Races mods -->
         <li IfModActive="yanzihko.vaf">Mods/Races_Xenotypes/Vulpes</li>
         <li IfModActive="yanzihko.ldw">Mods/Races_Xenotypes/Lombax/1.5</li>

@@ -218,7 +218,6 @@
 			<ammoSet>AmmoSet_Arrow</ammoSet>
 		</AmmoUser>
 		<FireModes />
-		<researchPrerequisite>RecurveBow</researchPrerequisite>
 		<AllowWithRunAndGun>true</AllowWithRunAndGun>
 	</Operation>
 

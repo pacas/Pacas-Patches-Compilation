@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+        
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Turret_LargeShotgun"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>500</Plasteel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                    </costList>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Rail"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>10</Plasteel>
+                    </costList>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Crosstie"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>20</Plasteel>
+                    </costList>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientAutomaticDrillingRig"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>150</Plasteel>
+                        <ReinforcedConcrete>25</ReinforcedConcrete>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <ElectronicComponents>6</ElectronicComponents>
+                        <Mechanism>4</Mechanism>
+                    </costList>
+                    <killedLeavings>
+                        <ChunkSlagSteel>4</ChunkSlagSteel>
+                        <Plasteel>30</Plasteel>
+                        <ComponentIndustrial>1</ComponentIndustrial>
+                        <Mechanism>1</Mechanism>
+                    </killedLeavings>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientGiantRockExcavator"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>450</Plasteel>
+                        <ReinforcedConcrete>100</ReinforcedConcrete>
+                        <ComponentIndustrial>15</ComponentIndustrial>
+                        <ElectronicComponents>10</ElectronicComponents>
+                        <Mechanism>10</Mechanism>
+                    </costList>
+                    <killedLeavings>
+                        <ChunkSlagSteel>9</ChunkSlagSteel>
+                        <Plasteel>90</Plasteel>
+                        <ElectronicComponents>2</ElectronicComponents>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Mechanism>3</Mechanism>
+                    </killedLeavings>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorPowerFacilities"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>120</Plasteel>
+                        <ReinforcedConcrete>25</ReinforcedConcrete>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <ElectronicComponents>15</ElectronicComponents>
+                        <Mechanism>4</Mechanism>
+                    </costList>
+                    <killedLeavings>
+                        <ChunkSlagSteel>4</ChunkSlagSteel>
+                        <Plasteel>30</Plasteel>
+                        <ElectronicComponents>2</ElectronicComponents>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                        <Mechanism>1</Mechanism>
+                    </killedLeavings>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorBucketWheel"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>40</Plasteel>
+                        <TitaniumBar>30</TitaniumBar>
+                        <SteelBar>20</SteelBar>
+                        <CarbonAlloy>10</CarbonAlloy>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                    </costList>
+                    <killedLeavings>
+                        <ChunkSlagSteel>2</ChunkSlagSteel>
+                        <Plasteel>10</Plasteel>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                    </killedLeavings>
+                </value>
+            </li>
+           
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientOreDressingMachine"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>80</Plasteel>
+                        <TitaniumBar>20</TitaniumBar>
+                        <SteelBar>20</SteelBar>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Mechanism>4</Mechanism>
+                    </costList>
+                    <killedLeavings>
+                        <ChunkSlagSteel>4</ChunkSlagSteel>
+                        <Plasteel>40</Plasteel>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                    </killedLeavings>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientElectricalEquipment"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>15</Plasteel>
+                        <ComponentIndustrial>1</ComponentIndustrial>
+                    </costList>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralConveyor"]</xpath>
+                <value>
+                    <costList>
+                        <Plasteel>5</Plasteel>
+                        <ComponentIndustrial>1</ComponentIndustrial>
+                    </costList>
+                </value>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

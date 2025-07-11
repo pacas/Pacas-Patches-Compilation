@@ -45,10 +45,27 @@
                     </ingestible>
                 </value>
             </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]</xpath>
-                <value>
-                    <comps>
+            
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]/comps</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]</xpath> 
+                    <value>
+                        <comps>
+                            <li Class="CompProperties_Drug">
+                                <addictiveness>0</addictiveness>
+                                <listOrder>1301</listOrder>
+                            </li>
+                            <li Class="CompProperties_Rottable">
+                                <daysToRotStart>1</daysToRotStart>
+                                <rotDestroys>true</rotDestroys>
+                            </li>
+                        </comps>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RB_HoneyedIcePop"]/comps</xpath> 
+                    <value>
                         <li Class="CompProperties_Drug">
                             <addictiveness>0</addictiveness>
                             <listOrder>1301</listOrder>
@@ -57,8 +74,8 @@
                             <daysToRotStart>1</daysToRotStart>
                             <rotDestroys>true</rotDestroys>
                         </li>
-                    </comps>
-                </value>
+                    </value>
+                </match>
             </li>
             
             <li Class="XmlExtensions.PatchOperationSafeAddOrReplace">

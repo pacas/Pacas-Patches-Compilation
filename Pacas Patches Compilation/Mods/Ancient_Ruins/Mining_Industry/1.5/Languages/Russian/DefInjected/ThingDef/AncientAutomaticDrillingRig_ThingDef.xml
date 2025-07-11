@@ -1,0 +1,7 @@
+<LanguageData>
+	<!--Defs\AncientAutomaticDrillingRig.xml-->
+	<!--                                     EN: Ancient Automatic Drilling Rig -->
+	<BreadMoAM_AncientAutomaticDrillingRig.label>Древняя автоматическая буровая установка</BreadMoAM_AncientAutomaticDrillingRig.label>
+	<!--                                           EN: The remains of what was an automatical drill desingned for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now. Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientAutomaticDrillingRig.description>Остатки автоматического бура, предназначенного для автоматической добычи руды, когда-то поддерживаемого множеством инфраструктур. Из-за отсутствия большей части вспомогательной инфраструктуры и, что наиболее важно, ее основных компонентов, он на данный момент не может функционировать. \nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientAutomaticDrillingRig.description>
+</LanguageData>

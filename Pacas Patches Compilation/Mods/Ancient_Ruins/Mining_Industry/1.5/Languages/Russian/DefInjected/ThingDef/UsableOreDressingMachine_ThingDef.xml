@@ -1,0 +1,7 @@
+<LanguageData>
+	<!--Defs\UsableOreDressingMachine.xml-->
+	<!--                            EN: Ore Dressing Machine -->
+	<BreadMoAM_OreDressingMachine.label>Обогатительная машина для руды</BreadMoAM_OreDressingMachine.label>
+	<!--                                  EN: An ore dressing machine brought back to life.Utilizing a mix of water washing, sieving and magnets, it screens useable metals from slags and blocks alike. -->
+	<BreadMoAM_OreDressingMachine.description>Ожившая машина для обогащения руды. Используя комбинацию водной промывки, просеивания и магнитов, она отделяет пригодные к использованию металлы как от шлаков, так и от блоков.\nПерерабатывает каменные обломки в каменные блоки и ресурсы</BreadMoAM_OreDressingMachine.description>
+</LanguageData>

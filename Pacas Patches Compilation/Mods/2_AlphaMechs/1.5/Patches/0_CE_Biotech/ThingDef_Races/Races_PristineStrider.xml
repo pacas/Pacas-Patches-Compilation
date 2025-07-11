@@ -23,7 +23,7 @@
 						</value>
 					</li>
 
-					<li Class="PatchOperationAdd">
+					<li Class="SK.PatchOperationReplaceExtended">
 						<xpath>Defs/ThingDef[defName="AM_PristineStrider"]/statBases</xpath>
 						<value>
 							<CarryWeight>200</CarryWeight>
@@ -37,7 +37,7 @@
 						</value>
 					</li>
 
-					<li Class="PatchOperationAdd">
+					<li Class="SK.PatchOperationReplaceExtended">
 						<xpath>Defs/ThingDef[defName="AM_PristineStrider"]</xpath>
 						<value>
 							<tools>

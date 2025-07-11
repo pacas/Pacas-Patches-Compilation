@@ -1,0 +1,10 @@
+<LanguageData>
+	<!--CE\Defs\Generic.xml-->
+	
+	<!--                            EN: make autocannon shell (Canister) x50 -->
+	<MakeAmmo_Autocannon_Canister.label>снаряд для автопушки (Канистра) x50</MakeAmmo_Autocannon_Canister.label>
+	<!--                                  EN: Craft 50 autocannon shell (Canister). -->
+	<MakeAmmo_Autocannon_Canister.description>Создайте 50 снарядов для автопушки (Канистра).</MakeAmmo_Autocannon_Canister.description>
+	<!--                                EN: Making autocannon shell (Canister). -->
+	<MakeAmmo_Autocannon_Canister.jobString>Изготовление снаряда автопушки (Канистра).</MakeAmmo_Autocannon_Canister.jobString>
+</LanguageData>

@@ -394,8 +394,6 @@
                 <value>
                     <equippedStatOffsets>
                         <MoveSpeed>-0.3</MoveSpeed>
-                        <SocialImpact>-0.08</SocialImpact>
-                        <TradePriceImprovement>-0.09</TradePriceImprovement>
                         <SocialImpact>-0.1</SocialImpact>
                         <TradePriceImprovement>-0.1</TradePriceImprovement>
                         <GlobalLearningFactor>0.25</GlobalLearningFactor>

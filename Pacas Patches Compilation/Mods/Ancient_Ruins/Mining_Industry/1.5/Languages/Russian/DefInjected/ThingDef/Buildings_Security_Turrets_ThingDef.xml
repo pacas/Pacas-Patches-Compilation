@@ -1,0 +1,62 @@
+<LanguageData>
+	<!--Defs\Buildings_Security_Turrets.xml-->
+	<!--                              EN: Ancient Mini Shotgun Turret -->
+	<BreadMoAM_Turret_ShotgunTurret.label>Древняя мини-турель с дробью</BreadMoAM_Turret_ShotgunTurret.label>
+	<!--                                    EN: An ancient compact mini Shotgun turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+	<BreadMoAM_Turret_ShotgunTurret.description>Древняя мини-турель с дробью. Требуется сталь для восстановления ствола после интенсивного использования. Может взорваться при повреждении. Его тупой ИИ-мозг не может управляться напрямую, поэтому остерегайтесь дружественного огня.</BreadMoAM_Turret_ShotgunTurret.description>
+	<!--                                          EN: Shots until barrel change -->
+	<BreadMoAM_Turret_ShotgunTurret.comps.5.fuelLabel>Выстрелов до смены ствола</BreadMoAM_Turret_ShotgunTurret.comps.5.fuelLabel>
+	<!--                                               EN: Barrel durability -->
+	<BreadMoAM_Turret_ShotgunTurret.comps.5.fuelGizmoLabel>Прочность ствола</BreadMoAM_Turret_ShotgunTurret.comps.5.fuelGizmoLabel>
+	<!--                                                 EN: Needs new barrel -->
+	<BreadMoAM_Turret_ShotgunTurret.comps.5.outOfFuelMessage>Нужен новый ствол</BreadMoAM_Turret_ShotgunTurret.comps.5.outOfFuelMessage>
+	
+	<!--                              EN: mini-turret bullet -->
+	<BreadMoAM_Bullet_ShotgunTurret.label>мини-турельная пуля</BreadMoAM_Bullet_ShotgunTurret.label>
+	
+	<!--                                EN: shotgun bullet -->
+	<BreadMoAM_Bullet_AMShotgunPellet.label>дробь</BreadMoAM_Bullet_AMShotgunPellet.label>
+	
+	<!--                           EN: ancient mini-turret shotgun -->
+	<BreadMoAM_Gun_ShotgunTurret.label>пушка Древней мини-турели с дробью</BreadMoAM_Gun_ShotgunTurret.label>
+	<!--                                 EN: A simple automatic gun made to be mounted on a turret. -->
+	<BreadMoAM_Gun_ShotgunTurret.description>Простая автоматическая пушка стреляющая дробью, предназначенная для крепления на турели.</BreadMoAM_Gun_ShotgunTurret.description>
+	
+	<!--                               EN: Mini Shotgun Turret -->
+	<BreadMoAM_Turret_ShotgunTurretN.label>Мини-турель с дробью</BreadMoAM_Turret_ShotgunTurretN.label>
+	<!--                                     EN: An ancient compact mini Shotgun turret.Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+	<BreadMoAM_Turret_ShotgunTurretN.description>Древняя компактная мини-турель с дробью. Для восстановления ствола после интенсивного использования требуется сталь. Может взорваться при повреждении. Его тупой ИИ-мозг не может управляться напрямую, поэтому остерегайтесь дружественного огня.</BreadMoAM_Turret_ShotgunTurretN.description>
+	<!--                                           EN: Shots until barrel change -->
+	<BreadMoAM_Turret_ShotgunTurretN.comps.5.fuelLabel>Выстрелов до смены ствола</BreadMoAM_Turret_ShotgunTurretN.comps.5.fuelLabel>
+	<!--                                                EN: Barrel durability -->
+	<BreadMoAM_Turret_ShotgunTurretN.comps.5.fuelGizmoLabel>Прочность ствола</BreadMoAM_Turret_ShotgunTurretN.comps.5.fuelGizmoLabel>
+	<!--                                                  EN: Needs new barrel -->
+	<BreadMoAM_Turret_ShotgunTurretN.comps.5.outOfFuelMessage>Нужен новый ствол</BreadMoAM_Turret_ShotgunTurretN.comps.5.outOfFuelMessage>
+	
+	<!--                            EN: mini-turret shotgun -->
+	<BreadMoAM_Gun_ShotgunTurretN.label>пушка мини-турели с дробью</BreadMoAM_Gun_ShotgunTurretN.label>
+	<!--                                  EN: A simple automatic gun made to be mounted on a turret. -->
+	<BreadMoAM_Gun_ShotgunTurretN.description>Простая автоматическая пушка стреляющая дробью, предназначенная для крепления на турели.</BreadMoAM_Gun_ShotgunTurretN.description>
+	
+	<!--                             EN: Large Caliber Shotgun Turret -->
+	<BreadMoAM_Turret_LargeShotgun.label>Крупнокалиберная турель с дробью</BreadMoAM_Turret_LargeShotgun.label>
+	<!--                                   EN: A large caliber shotgun turret, powerful enough to pose a destructive threat at medium to close range. Capable of punching through insectoid chitin with ease, it is a genuine insectoid killing machine usually deployed for defending military excavation sites. -->
+	<BreadMoAM_Turret_LargeShotgun.description>Турель с дробью большого калибра, достаточно мощная, чтобы представлять разрушительную угрозу на средней и ближней дистанции. Способна с легкостью пробивать хитин инсектоидов. Это настоящая машина для убийства инсектоидов, обычно используемая для защиты мест военных раскопок.</BreadMoAM_Turret_LargeShotgun.description>
+	<!--                                         EN: Shots until barrel change -->
+	<BreadMoAM_Turret_LargeShotgun.comps.5.fuelLabel>Выстрелов до смены ствола</BreadMoAM_Turret_LargeShotgun.comps.5.fuelLabel>
+	<!--                                              EN: Barrel durability -->
+	<BreadMoAM_Turret_LargeShotgun.comps.5.fuelGizmoLabel>Прочность ствола</BreadMoAM_Turret_LargeShotgun.comps.5.fuelGizmoLabel>
+	<!--                                                EN: Needs new barrel -->
+	<BreadMoAM_Turret_LargeShotgun.comps.5.outOfFuelMessage>Нужен новый ствол</BreadMoAM_Turret_LargeShotgun.comps.5.outOfFuelMessage>
+	
+	<!--                                   EN: large shotgun shell -->
+	<BreadMoAM_Bullet_LargeShotgunTurret.label>большой патрон для дробовика</BreadMoAM_Bullet_LargeShotgunTurret.label>
+	
+	<!--                                   EN: shotgun bullet -->
+	<BreadMoAM_BIGBullet_AMShotgunPellet.label>дробь</BreadMoAM_BIGBullet_AMShotgunPellet.label>
+	
+	<!--                                EN: large shotgun turret -->
+	<BreadMoAM_Gun_LargeShotgunTurret.label>пушка большой турели с дробью</BreadMoAM_Gun_LargeShotgunTurret.label>
+	<!--                                      EN: A self-loading large-bore shotcannon designed to be attached to a turret. -->
+	<BreadMoAM_Gun_LargeShotgunTurret.description>Самозарядный крупнокалиберный дробовик, предназначенная для крепления к башне.</BreadMoAM_Gun_LargeShotgunTurret.description>
+</LanguageData>

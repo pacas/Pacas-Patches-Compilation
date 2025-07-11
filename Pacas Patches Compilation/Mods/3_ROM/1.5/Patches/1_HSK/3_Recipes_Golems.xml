@@ -1915,8 +1915,8 @@
                     </ingredients>
                 </value>
             </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/RecipeDef[defName="TM_StoneGolem_Armor"]/ingredients</xpath>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/RecipeDef[defName="TM_StoneGolem_Armor"]</xpath>
                 <value>
                     <ingredients>
                         <li>
@@ -2653,8 +2653,8 @@
                     </ingredients>
                 </value>
             </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/RecipeDef[defName="TM_WoodGolem_Armor"]/ingredients</xpath>
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/RecipeDef[defName="TM_WoodGolem_Armor"]</xpath>
                 <value>
                     <ingredients>
                         <li>

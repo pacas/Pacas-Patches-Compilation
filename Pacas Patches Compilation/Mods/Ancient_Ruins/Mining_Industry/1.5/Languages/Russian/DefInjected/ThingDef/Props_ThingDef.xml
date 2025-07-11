@@ -1,0 +1,80 @@
+<LanguageData>
+	<!--Defs\Props.xml-->
+	<!--                            EN: Ancient Mud Carriage -->
+	<BreadMoAM_AncientMudCarriage.label>Древний вагон с грязью</BreadMoAM_AncientMudCarriage.label>
+	<!--                                  EN: A mining car loaded with mud -->
+	<BreadMoAM_AncientMudCarriage.description>Карьерная машина, загруженная грязью</BreadMoAM_AncientMudCarriage.description>
+	
+	<!--                                EN: Ancient Steel Mining Car -->
+	<BreadMoAM_AncientSteelMiningCars.label>Древний вагон со сталью</BreadMoAM_AncientSteelMiningCars.label>
+	<!--                                      EN: A mining car loaded with Steel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+	<BreadMoAM_AncientSteelMiningCars.description>Карьерная машина, загруженная сталью. Содержимое перевязано брезентом и веревками, и, возможно, разрушив вагон, можно получить некоторые ресурсы.</BreadMoAM_AncientSteelMiningCars.description>
+	
+	<!--                                  EN: Ancient Uranium Mining Car -->
+	<BreadMoAM_AncientUraniumMiningCars.label>Древний вагон с ураном</BreadMoAM_AncientUraniumMiningCars.label>
+	<!--                                        EN: A mining car loaded with Uranium，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+	<BreadMoAM_AncientUraniumMiningCars.description>Шахтерская машина, загруженная ураном. Содержимое перевязано брезентом и веревками, и, возможно, разрушив вагон, можно получить некоторые ресурсы.</BreadMoAM_AncientUraniumMiningCars.description>
+	
+	<!--                                   EN: Ancient Plasteel Mining Car -->
+	<BreadMoAM_AncientPlasteelMiningCars.label>Древний вагон с пласталью</BreadMoAM_AncientPlasteelMiningCars.label>
+	<!--                                         EN: A mining car loaded with Plasteel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+	<BreadMoAM_AncientPlasteelMiningCars.description>Карьерная машина, загруженная пласталем. Содержимое перевязано брезентом и веревками, и, возможно, разрушив вагон, можно получить некоторые ресурсы.</BreadMoAM_AncientPlasteelMiningCars.description>
+	
+	<!--                               EN: Ancient Empty Mining Car -->
+	<BreadMoAM_AncientEmptyMiningCar.label>Древний пустой вагон</BreadMoAM_AncientEmptyMiningCar.label>
+	<!--                                     EN: An empty mine car -->
+	<BreadMoAM_AncientEmptyMiningCar.description>Пустая карьерная машина</BreadMoAM_AncientEmptyMiningCar.description>
+	
+	<!--                              EN: Ancient Rock Mining Car -->
+	<BreadMoAM_AncientRockMiningCar.label>Древний вагон с камнями</BreadMoAM_AncientRockMiningCar.label>
+	<!--                                    EN: A mining car loaded with Rock -->
+	<BreadMoAM_AncientRockMiningCar.description>Карьерная машина, загруженная камнем</BreadMoAM_AncientRockMiningCar.description>
+	
+	<!--                                   EN: Ancient Indoor Fire Hydrants -->
+	<BreadMoAM_AncientIndoorFireHydrants.label>Древний пожарный гидрант</BreadMoAM_AncientIndoorFireHydrants.label>
+	<!--                                         EN: An ancient fire hydrant with no water left inside. -->
+	<BreadMoAM_AncientIndoorFireHydrants.description>Древний пожарный гидрант, внутри которого не осталось воды.</BreadMoAM_AncientIndoorFireHydrants.description>
+	
+	<!--                            EN: Ancient Barrier Gate -->
+	<BreadMoAM_AncientBarrierGate.label>Древний шлагбаум</BreadMoAM_AncientBarrierGate.label>
+	<!--                                  EN: An ancient barrier gate that's no longer functioning properly. -->
+	<BreadMoAM_AncientBarrierGate.description>Древний шлагбаум, который больше не функционирует должным образом.</BreadMoAM_AncientBarrierGate.description>
+	
+	<!--                                 EN: Ancient Truck Compartment -->
+	<BreadMoAM_AncientTruckCompartment.label>Древний кузов с грязью</BreadMoAM_AncientTruckCompartment.label>
+	<!--                                       EN: An old truck trunk was filled with dirt. -->
+	<BreadMoAM_AncientTruckCompartment.description>Старый кузов грузовика наполненный грязью.</BreadMoAM_AncientTruckCompartment.description>
+	
+	<!--                            EN: Ancient Semi Trailer -->
+	<BreadMoAM_AncientSemiTrailer.label>Древний полуприцеп</BreadMoAM_AncientSemiTrailer.label>
+	<!--                                  EN: An old truck trunk was filled with dirt. -->
+	<BreadMoAM_AncientSemiTrailer.description>Старый кузов грузовика наполненный грязью.</BreadMoAM_AncientSemiTrailer.description>
+	
+	<!--                            EN: Ancient Rusted Truck -->
+	<BreadMoAM_AncientRustedTruck.label>Древний ржавый грузовик</BreadMoAM_AncientRustedTruck.label>
+	<!--                                  EN: The trucks used to transport trucks at the mine have been stripped of their useful parts. -->
+	<BreadMoAM_AncientRustedTruck.description>Грузовик, который использовался для перевозки на руднике, был лишен полезных деталей.</BreadMoAM_AncientRustedTruck.description>
+	
+	<!--                      EN: Warning Board -->
+	<BreadMoAM_WarningBoard.label>Знак - Осторожно радиация</BreadMoAM_WarningBoard.label>
+	<!--                            EN: Beware of radiation. -->
+	<BreadMoAM_WarningBoard.description>&lt;color=#ffee00&gt;Остерегайтесь радиации!&lt;/color&gt;</BreadMoAM_WarningBoard.description>
+	
+	<!--                                EN: Discarded Radiation Suit -->
+	<BreadMoAM_DiscardedRadiationSuit.label>Выброшенный радиационный костюм</BreadMoAM_DiscardedRadiationSuit.label>
+	
+	<!--                 EN: Pick Axe -->
+	<BreadMoAM_PickAxe.label>Кирка</BreadMoAM_PickAxe.label>
+	<!--                       EN: An abandoned pickaxe. -->
+	<BreadMoAM_PickAxe.description>Брошенная кирка.</BreadMoAM_PickAxe.description>
+	
+	<!--                EN: Shovel -->
+	<BreadMoAM_Shovel.label>Лопата</BreadMoAM_Shovel.label>
+	<!--                      EN: An abandoned shovel. -->
+	<BreadMoAM_Shovel.description>Брошенная лопата.</BreadMoAM_Shovel.description>
+	
+	<!--                             EN: Ancient Broken Turret -->
+	<BreadMoAM_AncientBrokenTurret.label>Древняя сломанная турель</BreadMoAM_AncientBrokenTurret.label>
+	<!--                                   EN: The large shotgun turret, badly damaged, is no longer usable. -->
+	<BreadMoAM_AncientBrokenTurret.description>Большая турель, сильно повреждена, больше не пригодна для использования.</BreadMoAM_AncientBrokenTurret.description>
+</LanguageData>

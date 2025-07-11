@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+        
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="Ammo_40x311mmR_Canister" or defName="Ammo_Autocannon_Canister"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_Autocannon_BreadmoShotgun" or defName="AmmoSet_40x311mmR_BreadmoShotgun"]</xpath>
+            </li>
+            
+            <li Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo40x311mmRBase">
+                        <defName>Ammo_40x311mmR_Canister</defName>
+                        <label>40x311mmR (Canister)</label>
+                    </ThingDef>
+                    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo40x311mmRBase">
+                        <defName>Ammo_Autocannon_Canister</defName>
+                        <label>autocannon shell (Canister)</label>
+                    </ThingDef>
+                    <CombatExtended.AmmoSetDef>
+                        <defName>AmmoSet_Autocannon_BreadmoShotgun</defName>
+                        <label>autocannon shell</label>
+                        <ammoTypes>
+                            <Ammo_Autocannon_Canister>Bullet_40x311mmR_Canister</Ammo_Autocannon_Canister>
+                        </ammoTypes>
+                    </CombatExtended.AmmoSetDef>
+                    <CombatExtended.AmmoSetDef>
+                        <defName>AmmoSet_40x311mmR_BreadmoShotgun</defName>
+                        <label>40x311mmR (shotgun)</label>
+                        <ammoTypes>
+                            <Ammo_40x311mmR_Canister>Bullet_40x311mmR_Canister</Ammo_40x311mmR_Canister>
+                        </ammoTypes>
+                    </CombatExtended.AmmoSetDef>
+                </value>
+            </li>
+            
+            <li Class="PatchOperationInsert">
+                <xpath>Defs/ThingDef[defName="Bullet_40x311mmR_Canister"]</xpath>
+                <value>
+                    <ThingDef Name="Base40x311mmRBullet" ParentName="BaseBulletCE" Abstract="true">
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>Bullet</damageDef>
+                            <speed>120</speed>
+                            <dropsCasings>true</dropsCasings>
+                            <casingMoteDefname>Fleck_ShotgunShell</casingMoteDefname>
+                            <casingFilthDefname>Filth_ShotgunAmmoCasings</casingFilthDefname>
+                        </projectile>
+                    </ThingDef>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurret"]</xpath>
+                <value>
+                    <comps>
+                        <li Class="CompProperties_Power">
+                            <compClass>CompPowerTrader</compClass>
+                            <basePowerConsumption>500</basePowerConsumption>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]</xpath>
+                <value>
+                    <comps>
+                        <li Class="CompProperties_Power">
+                            <compClass>CompPowerTrader</compClass>
+                            <basePowerConsumption>500</basePowerConsumption>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+            
+            <li Class="SK.PatchOperationReplaceExtended">
+                <xpath>Defs/ThingDef[defName="BreadMoAM_Turret_LargeShotgun"]</xpath>
+                <value>
+                    <comps>
+                        <li Class="CompProperties_Power">
+                            <compClass>CompPowerTrader</compClass>
+                            <basePowerConsumption>750</basePowerConsumption>
+                        </li>
+                    </comps>
+                </value>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

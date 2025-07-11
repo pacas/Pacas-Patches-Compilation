@@ -25,7 +25,7 @@
                 <attribute>ParentName</attribute>
                 <value>SK_TreeBase</value>
             </li>
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[@Name="RB_TreeHiveBase"]/plant</xpath>
                 <value>
                     <sowTags Inherit="False"/>

@@ -19,7 +19,7 @@
                         </value>
                     </nomatch>
                 </li>
-                <li Class="PatchOperationAdd">
+                <li Class="SK.PatchOperationReplaceExtended">
                     <xpath>Defs/ThingDef[defName = "GeneExtractor"]/statBases</xpath>
                     <value>
                         <Mass>120</Mass>
@@ -57,7 +57,7 @@
                         </value>
                     </nomatch>
                 </li>
-                <li Class="PatchOperationAdd">
+                <li Class="SK.PatchOperationReplaceExtended">
                     <xpath>Defs/ThingDef[defName = "GeneAssembler"]/statBases</xpath>
                     <value>
                         <Mass>180</Mass>

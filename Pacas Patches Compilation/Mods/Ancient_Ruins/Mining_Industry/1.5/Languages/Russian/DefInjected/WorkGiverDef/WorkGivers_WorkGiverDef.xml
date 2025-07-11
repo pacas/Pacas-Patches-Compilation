@@ -1,0 +1,9 @@
+<LanguageData>
+	<!--Defs\WorkGivers.xml-->
+	<!--                 EN: operate ancient detection scanner -->
+	<BreadMo_QuestScan.label>использовать древний сканер обнаружения</BreadMo_QuestScan.label>
+	<!--                EN: scan -->
+	<BreadMo_QuestScan.verb>сканировать</BreadMo_QuestScan.verb>
+	<!--                  EN: scanning at -->
+	<BreadMo_QuestScan.gerund>сканировать на</BreadMo_QuestScan.gerund>
+</LanguageData>

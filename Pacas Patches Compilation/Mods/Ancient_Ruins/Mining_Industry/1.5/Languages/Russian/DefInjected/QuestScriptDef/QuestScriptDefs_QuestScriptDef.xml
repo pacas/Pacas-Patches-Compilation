@@ -1,0 +1,275 @@
+<LanguageData>
+	<!--Defs\QuestScriptDefs.xml-->
+	<!-- EN: 
+		<li>questName->Ancient Shield Mining Site</li>
+	 -->
+	<AncientShieldMiningSite.questNameRules.rulesStrings>
+		<li>questName->Древний крытый карьер</li>
+	</AncientShieldMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->Rumors have been circulating about a collapsed ancient mine that looks worthless on the outside, but has recently been saying that its interior is not completely collapsed and contains vast resources.\n\nMaybe we can find out if this myth is true.</li>
+	 -->
+	<AncientShieldMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Ходили слухи об обрушившейся древней шахте, которая снаружи выглядит бесполезной, но недавно стали говорить, что ее внутренняя часть не полностью разрушена и содержит огромные ресурсы.\n\nВозможно, мы сможем узнать, правдив ли этот миф.</li>
+	</AncientShieldMiningSite.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Ancient Shield Mining Site</li>
+	 --> 
+	<Scan_AncientShieldMiningSite.questNameRules.rulesStrings>
+		<li>questName->Древний крытый карьер</li>
+	</Scan_AncientShieldMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[worker_definite] followed the scanner's instructions to find a collapsed mine hole nearby,Others might overlook a collapsed mine, but its internal structure remains intact, and there are abundant minerals accessible with tunnel boring machines.  If we can reach it, these resources will be ours.</li>
+	 -->
+	<Scan_AncientShieldMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->[worker_definite] следовал инструкциям сканера, чтобы найти поблизости обрушившуюся шахту. Другие могут не заметить обрушившуюся шахту, но ее внутренняя структура остается неповрежденной, и с помощью туннелепроходческих машин можно получить доступ к обильным полезным ископаемым. Если мы сможем достичь этого, эти ресурсы будут нашими.</li>
+	</Scan_AncientShieldMiningSite.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Ancient Tunnel Ruins</li>
+	 -->
+	<AncientTunnelRuins.questNameRules.rulesStrings>
+		<li>questName->Руины древнего туннеля</li>
+	</AncientTunnelRuins.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->The scanner reveals the presence of an undiscovered, incomplete tunnel construction site. Facilities at that location have been damaged; however, we can still recover a large amount of raw materials and components from it.\n\nThere were still quite a few automatic turrets in the construction area, and we weren't sure if their Identification Friend or Foe system would recognize us as the enemy.</li>
+	 -->
+	<AncientTunnelRuins.questDescriptionRules.rulesStrings>
+		<li>questDescription->Сканер обнаружил наличие незавершенной строительной площадки туннеля. Объекты в этом месте были повреждены; однако мы все еще можем извлечь из него большое количество сырья и компонентов.\n\nНа строительной площадке все еще довольно много автоматических турелей, и мы не уверены, как система идентификации «свой-чужой» распознает нас.</li>
+	</AncientTunnelRuins.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Ancient Tunnel Ruins</li>
+	 -->
+	<Scan_AncientTunnelRuins.questNameRules.rulesStrings>
+		<li>questName->Руины древнего туннеля</li>
+	</Scan_AncientTunnelRuins.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->The scanner revealed an undiscovered Ancient Tunnel Ruins nearby, with varying degrees of damage to its facilities, but a significant amount of raw materials and parts being recovered.The automatic defense system in the construction area is still operating, so we need to be careful.</li>
+	 -->
+	<Scan_AncientTunnelRuins.questDescriptionRules.rulesStrings>
+		<li>questDescription->Сканер обнаружил неподалеку древние руины туннеля с разной степенью повреждения объектов, но значительное количество сырья и деталей удалось восстановить. Автоматическая система защиты в зоне строительства все еще работает, поэтому нам нужно быть осторожными.</li>
+	</Scan_AncientTunnelRuins.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Ancient Open Pit MiningSite</li>
+	 -->
+	<AncientOpenPitMiningSite.questNameRules.rulesStrings>
+		<li>questName->Древний открытый карьер</li>
+	</AncientOpenPitMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->There is news that there is an ancient open-pit mine near us, and the important thing in its interior is that the giant excavator has collapsed, although it is no longer usable, but its advanced parts are not damaged.\n\nThis may be a trap, but it may also be an opportunity.</li>
+	 -->
+	<AncientOpenPitMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Есть новости, что рядом с нами находится древний карьер, и главное что в его недрах рухнул гигантский экскаватор, хоть он и непригоден к использованию, но его передовые части не повреждены.\n\nЭто может быть быть как ловушкой так и отличной возможностью.</li>
+	</AncientOpenPitMiningSite.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Ancient Open Pit MiningSite</li>
+	 -->
+	<Scan_AncientOpenPitMiningSite.questNameRules.rulesStrings>
+		<li>questName->Древний открытый карьер</li>
+	</Scan_AncientOpenPitMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[worker_definite] have discovered an ancient open-pit mine nearby. Despite the collapse of the giant excavators due to years of disrepair, we should still be able to recover a substantial amount of resources and even salvage some advanced components. The damage to other structures is not as severe, and there might be a small amount of resources in these buildings as well. </li>
+	 -->
+	<Scan_AncientOpenPitMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->[worker_definite] обнаружил неподалеку древний карьер. Несмотря на разрушение гигантских экскаваторов из-за многолетнего простоя, мы все равно сможем восстановить значительное количество ресурсов и даже спасти некоторые современные компоненты. Ущерб другим постройкам не такой серьезный, и в этих зданиях также может быть небольшое количество ресурсов.</li>
+	</Scan_AncientOpenPitMiningSite.questDescriptionRules.rulesStrings>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Steel Mining Site</li>
+	 -->
+	<AbandonedSteelMineSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный стальной рудник</li>
+	</AbandonedSteelMineSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[asker_faction_name] tells us that [siteFaction_name] appears frequently near [map_definite] recently, By tracking them down and finding out that they're digging a hole in an ancient iron mine that collapsed, we might be able to wipe out the defenders and take the mine for ourselves, but why would they put so much effort into a collapsed iron mine?\n\nIt's not going to be easy to dig the hole open, we still have plenty of time.</li>
+	 -->
+	<AbandonedSteelMineSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->[asker_faction_name] рассказал нам, что [siteFaction_name] часто появляются рядом с [map_definite], выследив их и выяснив, что они роют яму в рухнувшей древней железной шахте, мы, возможно, сможем уничтожить защитников и забрать шахту себе, но зачем им прикладывать столько усилий только для рухнувшей железной шахта?\n\nВыкопать яму будет нелегко, но у нас еще есть много времени.</li>
+	</AbandonedSteelMineSite.questDescriptionRules.rulesStrings>
+	<!--                                                                      EN: Quest expired: [resolvedQuestName] -->
+	<AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                     EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                EN: Quest failed: [resolvedQuestName] -->
+	<AbandonedSteelMineSite.LetterLabelQuestFailed.slateRef>Квест провален: [resolvedQuestName]</AbandonedSteelMineSite.LetterLabelQuestFailed.slateRef>
+	<!--                                               EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<AbandonedSteelMineSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</AbandonedSteelMineSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Steel Mining Site</li>
+	 -->
+	<Scan_AbandonedSteelMineSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный стальной рудник</li>
+	</Scan_AbandonedSteelMineSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->We found an old steel mine whose entrance had collapsed, and the scanners told us that there was a lot of unmined steel inside the mine and a lot of broken equipment from which we could recover a lot of resources. But we are not the first to discover this steel mine, other forces are already on the move, the cave collapse may take a long time, they may be targeting more than just the mineral deposits inside.</li>
+	 -->
+	<Scan_AbandonedSteelMineSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Мы нашли старую сталелитейную шахту, вход в которую обрушился, и сканеры сообщили нам, что внутри шахты было много не добытой стали и много сломанного оборудования, из которого мы могли бы восстановить много ресурсов. Но мы не первые, кто обнаружил эту стальную шахту, другие силы уже в движении.</li>
+	</Scan_AbandonedSteelMineSite.questDescriptionRules.rulesStrings>
+	<!--                                                                           EN: Quest expired: [resolvedQuestName] -->
+	<Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                          EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                     EN: Quest failed: [resolvedQuestName] -->
+	<Scan_AbandonedSteelMineSite.LetterLabelQuestFailed.slateRef>Квест не выполнен: [resolvedQuestName]</Scan_AbandonedSteelMineSite.LetterLabelQuestFailed.slateRef>
+	<!--                                                    EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedSteelMineSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</Scan_AbandonedSteelMineSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Plasteel Mining Site</li>
+	 -->
+	<AbandonedPlasteelMineSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный пласталевый рудник</li>
+	</AbandonedPlasteelMineSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->We know from the information given by [asker_faction_name] that [siteFaction_name] got into the plasteel mine by other means, and the entrance to the mine collapsed for other reasons and they built a temporary base inside. We had no information on other routes into the mine, and if we were to seize the mine we would have to dig open the cave that had collapsed and destroy the garrison stationed at the temporary base. After some time, an expedition will be sent to bring in the spoils, and until then the defenders will be left alone to face all threats, including ours.</li>
+	 -->
+	<AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Мы знаем из информации, предоставленной [asker_faction_name] что [siteFaction_name] попали в пласталевую шахту не через главный вход т.к. он обрушился по неизвестным причинам. Они уже построили внутри временную базу. У нас нет никакой информации как по-другому попасть внуть, и если бы мы хотели захватить шахту, нам пришлось бы раскапывать обрушившуюся пещеру и уничтожать гарнизон на временной базе. Через некоторое время за добычей будет отправлена ​​экспедиция, а до тех пор защитники останутся одни перед лицом всех угроз, в том числе и нашей.</li>
+	</AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings>
+	<!--                                                                         EN: Quest expired: [resolvedQuestName] -->
+	<AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                        EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                   EN: Quest failed: [resolvedQuestName] -->
+	<AbandonedPlasteelMineSite.LetterLabelQuestFailed.slateRef>Квест не выполнен: [resolvedQuestName]</AbandonedPlasteelMineSite.LetterLabelQuestFailed.slateRef>
+	<!--                                                  EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<AbandonedPlasteelMineSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</AbandonedPlasteelMineSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Uranium Mining Site</li>
+	 -->
+	<Scan_AbandonedPlasteelMineSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный пласталевый рудник</li>
+	</Scan_AbandonedPlasteelMineSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->The scanners tell us that there is an ancient plasteel mine nearby.  Although the entrance has collapsed, the scanners show that there is still a lot of life inside. If we are going to go there, we'd better take our weapons with us.\n\nSuch a large plasteel deposit is bound to attract the attention of other powers, but most of them take a long time to assemble a mining team, and we can do it faster than them.</li>
+	 -->
+	<Scan_AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->Сканеры сообщают нам, что неподалеку находится древняя пласталевая шахта. Хотя вход обрушился, сканеры показывают, что внутри еще много жизни. Если мы собираемся туда отправиться, нам лучше взять с собой оружие.\n\nТакое большое месторождение пластали обязательно привлечет внимание других держав, но большинству из них требуется много времени, чтобы собрать команду, и мы можем сделать это быстрее, чем они.</li>
+	</Scan_AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings>
+	<!--                                                                              EN: Quest expired: [resolvedQuestName] -->
+	<Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                             EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                        EN: Quest failed: [resolvedQuestName] -->
+	<Scan_AbandonedPlasteelMineSite.LetterLabelQuestFailed.slateRef>Квест не выполнен: [resolvedQuestName]</Scan_AbandonedPlasteelMineSite.LetterLabelQuestFailed.slateRef>
+	<!--                                                       EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedPlasteelMineSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</Scan_AbandonedPlasteelMineSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Uranium MiningSite</li>
+	 -->
+	<AbandonedUraniumMiningSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный урановый рудник</li>
+	</AbandonedUraniumMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[asker_faction_name] tells us that [siteFaction_name] is occupying an ancient military uranium mine nearby that they have occupied, and we can be sure that the original defense system of the site has identified them as the new owners, and if we need the uranium mine, Then we need to take out both the garrison and the defense system.\n\n[siteFaction_name] is mining the mine, [asker_faction_name] has given us some time to deal with them, if we don't deal with them, they will take over.</li>
+	 -->
+	<AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->[asker_faction_name] рассказали нам, что [siteFaction_name] заняли расположенный неподалеку древний военный урановый рудник, и мы можем быть уверены, что первоначальная система защиты объекта идентифицировала их как новых владельцев, и если нам понадобится урановый рудник, тогда нам нужно уничтожить обоих - гарнизон [siteFaction_name] и изначальную систему обороны.\n\n[siteFaction_name] разрабатывает шахту, [asker_faction_name] дали нам время разобраться с ними, если мы не разберемся с ними, они сделают это сами.</li>
+	</AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings>
+	<!--                                                                          EN: Quest expired: [resolvedQuestName] -->
+	<AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                         EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                    EN: Quest failed: [resolvedQuestName] -->
+	<AbandonedUraniumMiningSite.LetterLabelQuestFailed.slateRef>Квест не выполнен: [resolvedQuestName]</AbandonedUraniumMiningSite.LetterLabelQuestFailed.slateRef>
+	<!--                                                   EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<AbandonedUraniumMiningSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</AbandonedUraniumMiningSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Uranium Mining Site</li>
+	 -->
+	<Scan_AbandonedUraniumMiningSite.questNameRules.rulesStrings>
+		<li>questName->Заброшенный урановый рудник</li>
+	</Scan_AbandonedUraniumMiningSite.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[worker_definite] successfully found an ancient military uranium mine on the scanner, but we are not the first to find this uranium mine, someone has occupied this uranium mine ahead of us, the original defense system identified them as the new master, we now not only have to face the defenders of the site, but also have to find a way to solve the defense facilities.\n\nThe defenders are now exploiting the remaining uranium in the mine. There is still some time before it is fully mined. We must be well prepared before we move.</li>
+	 -->
+	<Scan_AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings>
+		<li>questDescription->[worker_definite] успешно обнаружил на сканере древнюю военную урановую шахту, но мы не первые, кто нашел эту урановую шахту, кто-то занял эту урановую шахту раньше нас, первоначальная система защиты определила их как нового хозяина, нам теперь не только предстоит столкнутся с защитниками объекта, но также должны найти способ разрушить оборонительные сооружения.\n\nЗащитники сейчас эксплуатируют оставшийся уран в шахте. До того, как он будет полностью добыт, еще есть время. Мы должны быть хорошо подготовлены, прежде чем двигаться дальше.</li>
+	</Scan_AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings>
+	<!--                                                                               EN: Quest expired: [resolvedQuestName] -->
+	<Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>Срок действия квеста истек: [resolvedQuestName]</Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label>
+	<!--                                                                              EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>Минералы в шахте полностью добыты, остались только бесполезные камни. Квест [resolvedQuestName] завершен.</Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text>
+	<!--                                                         EN: Quest failed: [resolvedQuestName] -->
+	<Scan_AbandonedUraniumMiningSite.LetterLabelQuestFailed.slateRef>Квест не выполнен: [resolvedQuestName]</Scan_AbandonedUraniumMiningSite.LetterLabelQuestFailed.slateRef>
+	<!--                                                        EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+	<Scan_AbandonedUraniumMiningSite.LetterTextQuestFailed.slateRef>После нашего отступления они укрепили свою оборону, что сделало невозможным планирование новой атаки. Квест [resolvedQuestName] завершен.</Scan_AbandonedUraniumMiningSite.LetterTextQuestFailed.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Mineral Screening Station</li>
+	 -->
+	<MineralScreeningStation.questNameRules.rulesStrings>
+		<li>questName->Станция сортировки минералов</li>
+	</MineralScreeningStation.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[asker_faction_name] informed us about an mineral screening station near [map_definite]. Despite the main building being destroyed, the automatic defense system remains operational, and we won't be treated as hostile for unknown reasons.   This implies we can recover most of the resources without hindrance.\n\nIf we choose not to proceed with recycling, [asker_faction_name] will gather these ancient riches instead.</li>
+	 -->
+	<MineralScreeningStation.questDescriptionRules.rulesStrings>
+		<li>questDescription->[asker_faction_name] сообщил нам о станции сортировки полезных ископаемых недалеко от [map_definite]. Несмотря на разрушение главного здания, автоматическая система защиты продолжает работать, и по неизвестным причинам к нам не будут относиться как к врагам. Это означает, что мы можем беспрепятственно восстановить большую часть ресурсов.\n\nЕсли мы решим не продолжать переработку, [asker_faction_name] вместо этого соберет эти древние богатства.</li>
+	</MineralScreeningStation.questDescriptionRules.rulesStrings>
+	<!--                                                  EN: Quest expired: [resolvedQuestName] -->
+	<MineralScreeningStation.LetterLabelQuestExpired.slateRef>Срок действия квеста истек: [resolvedQuestName]</MineralScreeningStation.LetterLabelQuestExpired.slateRef>
+	<!--                                                 EN: The mineral screening station has been ransacked by the others. The quest [resolvedQuestName] has expired. -->
+	<MineralScreeningStation.LetterTextQuestExpired.slateRef>Станция сортировки полезных ископаемых была разграблена остальными. Квест [resolvedQuestName] был провален.</MineralScreeningStation.LetterTextQuestExpired.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Mineral Screening Station</li>
+	 -->
+	<Scan_MineralScreeningStation.questNameRules.rulesStrings>
+		<li>questName->Станция сортировки минералов</li>
+	</Scan_MineralScreeningStation.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->[worker_definite] has used scanners to locate an ancient screening station whose buildings are badly damaged, but there are still a lot of recoverable resources, and because the automatic defense system is still in operation, it somehow does not recognize us as enemies, so it can be determined that there is no threat to the site.
+            \n\nIt's only a matter of time before the sifting station is ransacked by other factions, and before that we still have [timeoutTicks_duration].</li>
+	 -->
+	<Scan_MineralScreeningStation.questDescriptionRules.rulesStrings>
+		<li>questDescription->[worker_definite] использовал сканеры, чтобы обнаружить древнюю Станцию сортировки минералов, здания которой сильно повреждены, но восстанавливаемых ресурсов еще много, а поскольку автоматическая система защиты все еще работает, она почему-то не распознает нас как врагов, поэтому можно считать что угроза отсутствует.\n\nЭто лишь вопрос времени, когда другие фракции разграбят станцию, а до этого у нас еще есть [timeoutTicks_duration].</li>
+	</Scan_MineralScreeningStation.questDescriptionRules.rulesStrings>
+	<!--                                                       EN: Quest expired: [resolvedQuestName] -->
+	<Scan_MineralScreeningStation.LetterLabelQuestExpired.slateRef>Срок действия квеста истек: [resolvedQuestName]</Scan_MineralScreeningStation.LetterLabelQuestExpired.slateRef>
+	<!--                                                      EN: The mineral screening station has been ransacked by the others.The quest [resolvedQuestName] has expired. -->
+	<Scan_MineralScreeningStation.LetterTextQuestExpired.slateRef>Остальные разграбили станцию сортировки полезных ископаемых. Квест [resolvedQuestName] был провален.</Scan_MineralScreeningStation.LetterTextQuestExpired.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Mine</li>
+	 -->
+	<AbandonedMine.questNameRules.rulesStrings>
+		<li>questName->Заброшенная шахта</li>
+	</AbandonedMine.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->We heard rumors that there was a small abandoned mine pit nearby that might contain many untapped minerals.  It has been mentioned that there may be some threats, although this is uncertain.  We need to be well prepared before we go there for an adventure.  After all, there is some truth to rumors.  While we may not be the first to discover this mine pit, we still have a chance to be the first to develop it.</li>
+	 -->
+	<AbandonedMine.questDescriptionRules.rulesStrings>
+		<li>questDescription->До нас дошли слухи, что неподалеку находится небольшой заброшенный карьер, в котором может быть много нетронутых полезных ископаемых. Было упомянуто, что хотя и могут быть некоторые угрозы это не точно. Нам нужно хорошо подготовиться, прежде чем отправиться туда за приключениями. В конце концов, в слухах есть доля правды. Хотя мы, возможно, и не первые, кто обнаружил этот карьер, у нас все же есть шанс первыми его разработать.</li>
+	</AbandonedMine.questDescriptionRules.rulesStrings>
+	<!--                                        EN: Quest expired: [resolvedQuestName] -->
+	<AbandonedMine.LetterLabelQuestExpired.slateRef>Срок действия квеста истек: [resolvedQuestName]</AbandonedMine.LetterLabelQuestExpired.slateRef>
+	<!--                                       EN: The place has been ransacked by others. There's nothing left. The quest [resolvedQuestName] has expired. -->
+	<AbandonedMine.LetterTextQuestExpired.slateRef>Это место было разграблено другими. Ничего не осталось. Квест [resolvedQuestName] был провален.</AbandonedMine.LetterTextQuestExpired.slateRef>
+	
+	<!-- EN: 
+		<li>questName->Abandoned Mine</li>
+	 -->
+	<Scan_AbandonedMine.questNameRules.rulesStrings>
+		<li>questName->Заброшенная шахта</li>
+	</Scan_AbandonedMine.questNameRules.rulesStrings>
+	<!-- EN: 
+		<li>questDescription->The scan revealed a small mine pit nearby. However, the scanner did not provide information on the minerals present.   We have received information suggesting the presence of numerous minerals inside, and the scanner also indicated a potential threat to the location.   If we intend to obtain these minerals, we must be prepared.\n\nSooner or later, others will notice this mineral deposit, and time is of the essence.   We must act swiftly.</li>
+	 -->
+	<Scan_AbandonedMine.questDescriptionRules.rulesStrings>
+		<li>questDescription->Сканирование выявило неподалеку небольшую шахту. Однако сканер не предоставил информации о типе минералов. По информации внутри множество минералов, а так же потенциальная угроза. Если мы намереваемся добыть эти минералы, мы должны быть готовы.\n\nРано или поздно другие заметят это месторождение полезных ископаемых, и время имеет решающее значение. Мы должны действовать быстро.</li>
+	</Scan_AbandonedMine.questDescriptionRules.rulesStrings>
+	<!--                                             EN: Quest expired: [resolvedQuestName] -->
+	<Scan_AbandonedMine.LetterLabelQuestExpired.slateRef>Срок действия квеста истек: [resolvedQuestName]</Scan_AbandonedMine.LetterLabelQuestExpired.slateRef>
+	<!--                                            EN: The place has been ransacked by others. There's nothing left. The quest [resolvedQuestName] has expired. -->
+	<Scan_AbandonedMine.LetterTextQuestExpired.slateRef>Это место было разграблено другими. Ничего не осталось. Квест [resolvedQuestName] был провален.</Scan_AbandonedMine.LetterTextQuestExpired.slateRef>
+</LanguageData>

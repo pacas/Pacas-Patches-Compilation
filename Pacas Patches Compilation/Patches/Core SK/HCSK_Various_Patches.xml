@@ -19,7 +19,7 @@
                         </value>
                     </nomatch>
                 </li>
-                <li Class="PatchOperationAdd">
+                <li Class="SK.PatchOperationReplaceExtended">
                     <xpath>Defs/ThingDef[defName = "CommsConsole"]/statBases</xpath>
                     <value>
                         <Bulk>70</Bulk>
@@ -57,7 +57,7 @@
                         </value>
                     </nomatch>
                 </li>
-                <li Class="PatchOperationAdd">
+                <li Class="SK.PatchOperationReplaceExtended">
                     <xpath>Defs/ThingDef[defName = "ElectricStove"]/statBases</xpath>
                     <value>
                         <Mass>80</Mass>
@@ -95,7 +95,7 @@
                         </value>
                     </nomatch>
                 </li>
-                <li Class="PatchOperationAdd">
+                <li Class="SK.PatchOperationReplaceExtended">
                     <xpath>Defs/ThingDef[defName = "ElectricStove_Pro"]/statBases</xpath>
                     <value>
                         <Mass>80</Mass>

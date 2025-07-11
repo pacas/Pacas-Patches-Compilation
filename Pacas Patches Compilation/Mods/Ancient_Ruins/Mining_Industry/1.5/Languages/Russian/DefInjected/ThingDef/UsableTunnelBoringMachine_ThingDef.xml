@@ -1,0 +1,38 @@
+<LanguageData>
+	<!--Defs\UsableTunnelBoringMachine.xml-->
+	<!--                             EN: Tunnel Boring Machine -->
+	<BreadMoAM_TunnelBoringMachine.label>Тоннелепроходческий комплекс</BreadMoAM_TunnelBoringMachine.label>
+	<!--                                   EN: A reanimated tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, this mountain-trembling beast can dig through the mountains and create tunnels. With its imposing digging disk in the front, this gigantic machine is ready to chew through any mountain at your choice. -->
+	<BreadMoAM_TunnelBoringMachine.description>Реанимированная тоннелепроходческая машина. Имея ужасный внешний вид, больше похожий на песчаного червя снаружи, этот сотрясающий горы зверь может проходить сквозь горы, одновременно прокладывая туннели. Эта гигантская машина с внушительным копающим диском спереди готова прогрызть любую гору по вашему выбору.</BreadMoAM_TunnelBoringMachine.description>
+	<!--                                         EN: Building material -->
+	<BreadMoAM_TunnelBoringMachine.comps.3.fuelLabel>Строительный материал</BreadMoAM_TunnelBoringMachine.comps.3.fuelLabel>
+	<!--                                              EN: Building material -->
+	<BreadMoAM_TunnelBoringMachine.comps.3.fuelGizmoLabel>Строительный материал</BreadMoAM_TunnelBoringMachine.comps.3.fuelGizmoLabel>
+	<!--                                                EN: Need building material -->
+	<BreadMoAM_TunnelBoringMachine.comps.3.outOfFuelMessage>Нужен строительный материал</BreadMoAM_TunnelBoringMachine.comps.3.outOfFuelMessage>
+	
+	<!--                             EN: Electrical Appliances -->
+	<BreadMoAM_ElectricalEquipment.label>Приборная панель</BreadMoAM_ElectricalEquipment.label>
+	<!--                                   EN: Miscellaneous electrical appliances used to power up the tunnel boring machine of yours. They convert electricity into hydraulic power to power the tunnel boring machine. -->
+	<BreadMoAM_ElectricalEquipment.description>Различные электроприборы, используемые для питания вашей туннелепроходческой машины. Они преобразуют электричество в гидравлическую энергию для питания туннелепроходческой машины.\n(Украшение. Не требуется для функционирования туннелепроходческой машины)</BreadMoAM_ElectricalEquipment.description>
+	
+	<!--                         EN: Mineral Conveyor -->
+	<BreadMoAM_MineralConveyor.label>Минеральный Конвейер</BreadMoAM_MineralConveyor.label>
+	<!--                               EN: A rebuilt mineral conveyor. Can be used to transport minerals to beneficiation machines or other places of choice. -->
+	<BreadMoAM_MineralConveyor.description>Восстановленный конвейер минерального сырья. Может использоваться для транспортировки минералов на обогатительные машины или в другие места по выбору.\n(Украшение. Не транспортирует ничего никуда ^_^)</BreadMoAM_MineralConveyor.description>
+	
+	<!--                                   EN: Tunnel Structural Support -->
+	<BreadMoAM_TunnelStructuralSupport_a.label>Структурная поддержка туннеля</BreadMoAM_TunnelStructuralSupport_a.label>
+	<!--                                         EN: A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. -->
+	<BreadMoAM_TunnelStructuralSupport_a.description>Часть несущей рамы туннеля, используемая для поддержки туннелей во время строительства, компактная, с коридором для облегчения доступа рабочих сверху.\n(Украшение. Не поддервивает никакие туннели)</BreadMoAM_TunnelStructuralSupport_a.description>
+	
+	<!--                                   EN: Tunnel Structural Support -->
+	<BreadMoAM_TunnelStructuralSupport_b.label>Структурная поддержка туннеля</BreadMoAM_TunnelStructuralSupport_b.label>
+	<!--                                         EN: A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top and a staircase for reaching the corridor. -->
+	<BreadMoAM_TunnelStructuralSupport_b.description>Часть несущей рамы туннеля, используемая для поддержки туннелей во время строительства, компактная, с коридором для облегчения доступа рабочих сверху и лестницей для доступа в коридор.\n(Украшение. Не поддервивает никакие туннели)</BreadMoAM_TunnelStructuralSupport_b.description>
+	
+	<!--                        EN: Mineral Outlet -->
+	<BreadMoAM_MineralExports.label>Минеральный вывод</BreadMoAM_MineralExports.label>
+	<!--                              EN: A mineral outlet, nothing more, nothing less. -->
+	<BreadMoAM_MineralExports.description>Выходной путь для минералов, ни больше, ни меньше.\n(Украшение. Не выводит никакие минералы)</BreadMoAM_MineralExports.description>
+</LanguageData>

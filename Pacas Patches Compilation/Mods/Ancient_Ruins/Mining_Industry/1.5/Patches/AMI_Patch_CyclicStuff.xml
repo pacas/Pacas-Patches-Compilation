@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="XmlExtensions.ForEach">
+        <xpath>Defs/ThingDef[starts-with(defName,"BreadMoAM_")]/costList/Steel</xpath>
+        <prefixLength>3</prefixLength>
+        <storeIn>DEF</storeIn>
+        <apply>
+            <Operation Class="XmlExtensions.CreateVariable">
+                <storeIn>customCountSteel</storeIn>
+                <value>{DEF}/Steel</value>
+                <fromXml>true</fromXml>
+                <apply>
+                    <Operation Class="PatchOperationReplace">
+                        <xpath>{DEF}/Steel</xpath>
+                        <value>
+                            <Plasteel>{customCountSteel}</Plasteel>
+                        </value>
+                    </Operation>
+                </apply>
+            </Operation>
+        </apply>
+    </Operation>
+</Patch>

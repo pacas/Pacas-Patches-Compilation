@@ -1,0 +1,9 @@
+<LanguageData>
+	<!--CE\Defs\40x311mmR.xml-->
+	<!--                           EN: make 40x311mmR (Canister) cartridge x50 -->
+	<MakeAmmo_40x311mmR_Canister.label>патрон 40х311ммR (Канистра) х50</MakeAmmo_40x311mmR_Canister.label>
+	<!--                                 EN: Craft 50 40x311mmR (Canister) cartridges. -->
+	<MakeAmmo_40x311mmR_Canister.description>Изготовьте 50 патронов 40x311 ммR (канистра).</MakeAmmo_40x311mmR_Canister.description>
+	<!--                               EN: Making 40x311mmR (Canister) cartridges. -->
+	<MakeAmmo_40x311mmR_Canister.jobString>Изготовление патронов 40х311ммR (Канистра).</MakeAmmo_40x311mmR_Canister.jobString>
+</LanguageData>

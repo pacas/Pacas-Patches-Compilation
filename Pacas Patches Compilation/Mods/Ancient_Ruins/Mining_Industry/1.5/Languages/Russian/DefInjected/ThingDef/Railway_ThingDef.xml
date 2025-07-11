@@ -1,0 +1,12 @@
+<LanguageData>
+	<!--Defs\Railway.xml-->
+	<!--              EN: Rail -->
+	<BreadMoAM_Rail.label>Рельсы</BreadMoAM_Rail.label>
+	<!--                    EN: Common, rather rusty railway track. -->
+	<BreadMoAM_Rail.description>Обычные, довольно ржавые железнодорожные рельсы.</BreadMoAM_Rail.description>
+	
+	<!--                  EN: Crosstie -->
+	<BreadMoAM_Crosstie.label>Шпалы</BreadMoAM_Crosstie.label>
+	<!--                        EN: A rail road crosstie placed under the railroad tracks. -->
+	<BreadMoAM_Crosstie.description>Железнодорожные шпалы, устанавливаются под железнодорожными рельсами.</BreadMoAM_Crosstie.description>
+</LanguageData>

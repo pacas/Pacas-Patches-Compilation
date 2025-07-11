@@ -27,7 +27,6 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[@Name="BS_DefaultHumanlike"]/race</xpath>
         <value>
-            <useMeatFrom>Human</useMeatFrom>
             <leatherDef>Leather_Human</leatherDef>
         </value>
     </Operation>

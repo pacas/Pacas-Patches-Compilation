@@ -1,0 +1,24 @@
+<LanguageData>
+	<!--Defs\WorkGivers.xml-->
+	
+	<!--                                    EN: Ancient detection scanner -->
+	<BreadMo_AncientRemoteMineralScanners.label>Древний сканер обнаружения</BreadMo_AncientRemoteMineralScanners.label>
+	<!--                                          EN: An ancient detection scanner commonly used to scan minerals and assist in locating large underground equipment. Due to the loss of key technologies, Reproductions made by colonizers often made some errors during scanning. -->
+	<BreadMo_AncientRemoteMineralScanners.description>Древний сканер-детектор, обычно используемый для сканирования минералов и помощи в обнаружении крупного подземного оборудования. Из-за потери ключевых технологий репродукции, сделанные колонистами, часто допускают ошибки при сканировании.</BreadMo_AncientRemoteMineralScanners.description>
+	<!--                                                             EN: Abandoned Uranium Mining Site -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.0.questTypeName>Заброшенный урановый рудник</BreadMo_AncientRemoteMineralScanners.comps.4.quests.0.questTypeName>
+	<!--                                                             EN: Abandoned Steel Mine Site -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.1.questTypeName>Заброшенный стальной рудник</BreadMo_AncientRemoteMineralScanners.comps.4.quests.1.questTypeName>
+	<!--                                                             EN: Abandoned Plasteel Mine Site -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.2.questTypeName>Заброшенный пласталевый рудник</BreadMo_AncientRemoteMineralScanners.comps.4.quests.2.questTypeName>
+	<!--                                                             EN: Ancient Open Pit Mining Site -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.3.questTypeName>Древний открытый карьер</BreadMo_AncientRemoteMineralScanners.comps.4.quests.3.questTypeName>
+	<!--                                                             EN: Ancient Shield Mining Site -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.4.questTypeName>Древний крытый карьер</BreadMo_AncientRemoteMineralScanners.comps.4.quests.4.questTypeName>
+	<!--                                                             EN: Ancient Tunnel Ruins -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.5.questTypeName>Древний туннель</BreadMo_AncientRemoteMineralScanners.comps.4.quests.5.questTypeName>
+	<!--                                                             EN: Mineral Screening Station -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.6.questTypeName>Станция сортировки минералов</BreadMo_AncientRemoteMineralScanners.comps.4.quests.6.questTypeName>
+	<!--                                                             EN: Abandoned Mine -->
+	<BreadMo_AncientRemoteMineralScanners.comps.4.quests.7.questTypeName>Заброшенная шахта</BreadMo_AncientRemoteMineralScanners.comps.4.quests.7.questTypeName>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!--Defs\UsableAutomaticDrillingRig.xml-->
+	<!--                              EN: Automatic Drilling Rig -->
+	<BreadMoAM_AutomaticDrillingRig.label>Автоматическая буровая установка</BreadMoAM_AutomaticDrillingRig.label>
+	<!--                                    EN: A straightforward automatic drilling system built for automated mining. Mines up ores 24/7 so long as it is properly powered and placed on a tile with discovered ore deposit. -->
+	<BreadMoAM_AutomaticDrillingRig.description>Автоматическая система бурения, созданная для автоматизированной добычи полезных ископаемых. Добывает руду 24 часа в сутки, 7 дней в неделю, пока она подключена к питанию и помещена на обнаруженное месторождение руды.</BreadMoAM_AutomaticDrillingRig.description>
+</LanguageData>

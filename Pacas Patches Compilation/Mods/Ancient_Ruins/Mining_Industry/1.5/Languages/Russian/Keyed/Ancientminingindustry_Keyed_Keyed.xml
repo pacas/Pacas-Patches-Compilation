@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- EN: switched on -->
+	<BreadMo_ToggleOn>Включено</BreadMo_ToggleOn>
+	<!-- EN: switched off -->
+	<BreadMo_ToggleOff>Выключено</BreadMo_ToggleOff>
+	<!-- EN: wall building disabled -->
+	<BreadMo_MakeWallOn>Строить стены:\nОтключено</BreadMo_MakeWallOn>
+	<!-- EN: wall building enabled -->
+	<BreadMo_MakeWallOff>Строить стены:\nВключено</BreadMo_MakeWallOff>
+</LanguageData>

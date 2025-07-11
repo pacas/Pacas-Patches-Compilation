@@ -41,21 +41,21 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">	
-					<xpath>Defs/ThingDef[defName="Condom"]/statBases</xpath>
-					<value>
-						<Bulk>0.03</Bulk>
-					</value>
+            <li Class="SK.PatchOperationReplaceExtended">	
+                <xpath>Defs/ThingDef[defName="Condom"]/statBases</xpath>
+                <value>
+                    <Bulk>0.03</Bulk>
+                </value>
             </li>
             
-            <li Class="PatchOperationAdd">	
+            <li Class="SK.PatchOperationReplaceExtended">	
                 <xpath>Defs/ThingDef[defName="UsedCondom"]/statBases</xpath>
                 <value>
                     <Bulk>0.3</Bulk>
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">	
+            <li Class="SK.PatchOperationReplaceExtended">	
                 <xpath>Defs/ThingDef[defName="RJW_Contraceptive" or defName="RJW_FertPill" or defName="Aphrodisiac"]/statBases</xpath>
                 <value>
                     <Bulk>0.05</Bulk>

@@ -10,7 +10,7 @@
                     </li>
                 </value>
             </li>
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[
 				defName="TM_StoneGolem" or
 				defName="TM_GraniteGolem" or
@@ -42,7 +42,7 @@
                     <GermContainment>1</GermContainment>
                 </value>
             </li>
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[
 				defName="TM_SandstoneGolem" or
 				defName="TM_LimestoneGolem" or
@@ -75,7 +75,7 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[defName="TM_MechaGolem"]/statBases</xpath>
                 <value>
                     <CarryWeight>50</CarryWeight>
@@ -105,7 +105,7 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[defName="TM_FleshGolem"]/statBases</xpath>
                 <value>
                     <CarryWeight>25</CarryWeight>
@@ -134,7 +134,7 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[defName="TM_HollowGolem"]/statBases</xpath>
                 <value>
                     <CarryWeight>40</CarryWeight>
@@ -163,7 +163,7 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[
                 defName="TM_MaharalGolem" or
                 defName="TM_WoodGolem" or
@@ -196,7 +196,7 @@
                 </value>
             </li>
             
-            <li Class="PatchOperationAdd">
+            <li Class="SK.PatchOperationReplaceExtended">
                 <xpath>Defs/ThingDef[defName="TM_SilkGolem"]/statBases</xpath>
                 <value>
                     <CarryWeight>24</CarryWeight>

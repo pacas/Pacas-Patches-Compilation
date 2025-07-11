@@ -1,0 +1,7 @@
+<LanguageData>
+	<!--Defs\AncientOreDressingMachine.xml-->
+	<!--                                   EN: Ancient Ore Dressing Machine -->
+	<BreadMoAM_AncientOreDressingMachine.label>Древняя обогатительная машина</BreadMoAM_AncientOreDressingMachine.label>
+	<!--                                         EN: An ancient ore dressing machine. Once capable of screening useable metal from slags or rubbles using water washing, sieving and magnets, with its core components gone, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientOreDressingMachine.description>Древняя машина для обогащения руды. Когда-то была способна отделять пригодный к использованию металл от шлаков или щебня с помощью промывки водой, просеивания и магнитов. Сейчас ее основные компоненты исчезли и использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientOreDressingMachine.description>
+</LanguageData>

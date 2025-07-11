@@ -1,0 +1,17 @@
+<LanguageData>
+	<!--Defs\AncientGiantRockExcavator.xml-->
+	<!--                                   EN: Ancient Giant Rock Excavator Chassis -->
+	<BreadMoAM_AncientGiantRockExcavator.label>Корпус древнего гигантского экскаватора</BreadMoAM_AncientGiantRockExcavator.label>
+	<!--                                         EN: The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Maybe the ancient human being hated their planet, so much that they built this piece of machinery to tear it down. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientGiantRockExcavator.description>Оболочка гигантского механического зверя, пожирающего горы, размером выше обычных зданий. Возможно, древние люди настолько ненавидели свою планету, что построили эту машину, чтобы разрушить ее. Однако, поскольку его основные компоненты проржавели и обветрились, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientGiantRockExcavator.description>
+	
+	<!--                                         EN: Ancient Excavator Power System -->
+	<BreadMoAM_AncientExcavatorPowerFacilities.label>Древняя система питания экскаватора</BreadMoAM_AncientExcavatorPowerFacilities.label>
+	<!--                                               EN: Torn power system of the ancient giant rock excavator. Back in its hayday, this electro-hydraulic driven engine ccould easily lift giant rocks or, even better, a whole mountain with ease. With its core components gone, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientExcavatorPowerFacilities.description>Разорванная энергосистема древнего гигантского каменного экскаватора. В свои лучшие времена этот двигатель с электрогидравлическим приводом мог легко поднимать гигантские камни или, что еще лучше, целую гору. Однако, поскольку его основные компоненты исчезли, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientExcavatorPowerFacilities.description>
+	
+	<!--                                     EN: Ancient Excavator Bucket Wheel -->
+	<BreadMoAM_AncientExcavatorBucketWheel.label>Древнее колесо экскаватора</BreadMoAM_AncientExcavatorBucketWheel.label>
+	<!--                                           EN: A rusted bucket wheel of ancient giant rock excavator. Made of high-strength alloy, these wheels could, at one time, grind down stone chunks with ease. With its core components lost, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientExcavatorBucketWheel.description>Ржавое ковшовое колесо древнего гигантского скального экскаватора. Изготовлено из высокопрочного сплава, это колесо когда-то могло легко перемалывать куски камня. Однако, поскольку его основные компоненты потеряны, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientExcavatorBucketWheel.description>
+</LanguageData>

@@ -62,6 +62,7 @@
 		<li>Optional_Stuff</li>
 		<li>Settings</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mods/Biotech</li>
+        <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods/Vanilla_Expanded/Vanilla_Expanded_Framework</li>
         <!-- Order semi-important mods -->
         <li IfModActive="MSE2.Core">Mods/0_MSE2/1.4</li>
         <li IfModActive="teok25.archotechexpanded.prosthetics">Mods/1_AEP/1.4</li>
@@ -70,6 +71,7 @@
         <li IfModActive="torann.arimworldofmagic">Mods/3_ROM/1.5</li>     
         <li IfModActive="sarg.alphagenes">Mods/Alpha_Genes/1.5</li> 
         <li IfModActive="xmb.ancienturbanruins.mo">Mods/Ancient_Ruins/Urban_Ruins/1.5</li> 
+        <li IfModActive="xmb.ancientminingindustry.mo">Mods/Ancient_Ruins/Mining_Industry/1.5</li> 
         <!-- RJW mods -->
         <li IfModActive="rim.job.world">Mods/RJW/CoreMod/1.5</li>
         <li IfModActive="rjw.sexperience">Mods/RJW/Sexperience/1.5</li>

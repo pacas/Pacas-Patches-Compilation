@@ -1,0 +1,57 @@
+<LanguageData>
+	<!--Defs\Site_Cluster.xml-->
+	<!--                            EN: Ancient Shield Mining Site -->
+	<AncientShieldMiningSite_Site.label>Древний крытый карьер</AncientShieldMiningSite_Site.label>
+	<!--                                  EN: A mine whose entrance had collapsed. -->
+	<AncientShieldMiningSite_Site.description>Шахта, вход в которую обрушился.</AncientShieldMiningSite_Site.description>
+	
+	<!--                       EN: Ancient Tunnel Ruins -->
+	<AncientTunnelRuins_Site.label>Древний туннель</AncientTunnelRuins_Site.label>
+	<!--                             EN: An ancient unfinished tunnel. -->
+	<AncientTunnelRuins_Site.description>Древний недостроенный туннель.</AncientTunnelRuins_Site.description>
+	
+	<!--                             EN: Ancient Open Pit Mining Site -->
+	<AncientOpenPitMiningSite_Site.label>Древний открытый карьер</AncientOpenPitMiningSite_Site.label>
+	<!--                                   EN: An abandoned mine,among them was the remains of a huge excavator. -->
+	<AncientOpenPitMiningSite_Site.description>Заброшенная шахта, в ней должны быть остатки огромного экскаватора.</AncientOpenPitMiningSite_Site.description>
+	
+	<!--                           EN: Abandoned Steel Mine Site -->
+	<AbandonedSteelMineSite_Site.label>Заброшенный стальной рудник</AbandonedSteelMineSite_Site.label>
+	<!--                                 EN: An iron mine with a lot of untapped iron ore. -->
+	<AbandonedSteelMineSite_Site.description>Рудник с большим количеством нетронутой железной руды.</AbandonedSteelMineSite_Site.description>
+	
+	<!--         EN: Enemy activity -->
+	<Soldier_S.label>Вражеская активность</Soldier_S.label>
+	<!--               EN: Enemy activity -->
+	<Soldier_S.description>Вражеская активность</Soldier_S.description>
+	
+	<!--                               EN: Abandoned Uranium Mining Site -->
+	<AbandonedUraniumMiningSite_Site.label>Заброшенный урановый рудник</AbandonedUraniumMiningSite_Site.label>
+	<!--                                     EN: An occupied military uranium mine, heavily defended. -->
+	<AbandonedUraniumMiningSite_Site.description>Занятый военными урановый рудник, хорошо защищен.</AbandonedUraniumMiningSite_Site.description>
+	
+	<!--         EN: Enemy activity -->
+	<Soldier_L.label>Вражеская активность</Soldier_L.label>
+	<!--               EN: Enemy activity -->
+	<Soldier_L.description>Вражеская активность</Soldier_L.description>
+	
+	<!--                              EN: Abandoned Plasteel Mine Site -->
+	<AbandonedPlasteelMineSite_Site.label>Заброшенный пласталевый рудник</AbandonedPlasteelMineSite_Site.label>
+	<!--                                    EN: A glass reinforced plasteel mine with a large amount of untapped glass reinforced plasteel deposits. -->
+	<AbandonedPlasteelMineSite_Site.description>Шахта с большим количеством неиспользованных залежей армированной стеклопластали.</AbandonedPlasteelMineSite_Site.description>
+	
+	<!--         EN: Enemy activity -->
+	<Soldier_M.label>Вражеская активность</Soldier_M.label>
+	<!--               EN: Enemy activity -->
+	<Soldier_M.description>Вражеская активность</Soldier_M.description>
+	
+	<!--                            EN: Mineral Screening Station -->
+	<MineralScreeningStation_Site.label>Станция сортировки минералов</MineralScreeningStation_Site.label>
+	<!--                                  EN: An abandoned sifting station with a lot of recyclable resources in the wreckage. -->
+	<MineralScreeningStation_Site.description>Заброшенная станция просеивания, среди руин которой много пригодных для вторичной переработки ресурсов.</MineralScreeningStation_Site.description>
+	
+	<!--                  EN: Abandoned Mine -->
+	<AbandonedMine_Site.label>Заброшенная шахта</AbandonedMine_Site.label>
+	<!--                        EN: An abandoned mine with a lot of unmined minerals. -->
+	<AbandonedMine_Site.description>Заброшенная шахта с большим количеством не добытых полезных ископаемых.</AbandonedMine_Site.description>
+</LanguageData>

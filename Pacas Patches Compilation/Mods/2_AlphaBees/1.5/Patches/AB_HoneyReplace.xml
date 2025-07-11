@@ -37,7 +37,7 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/RecipeDef[
                 defName="MakeMetalCannedMeat_prime"
-                ]/fixedIngredientFilter                </xpath>
+                ]/fixedIngredientFilter</xpath>
                 <value>
                     <disallowedCategories>
                         <li>RB_Honeys</li>

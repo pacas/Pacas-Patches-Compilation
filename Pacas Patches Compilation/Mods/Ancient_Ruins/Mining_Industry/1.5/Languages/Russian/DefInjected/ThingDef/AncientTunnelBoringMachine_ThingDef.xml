@@ -1,0 +1,37 @@
+<LanguageData>
+	<!--Defs\AncientTunnelBoringMachine.xml-->
+	<!--                                    EN: Ancient Tunnel Boring Machine -->
+	<BreadMoAM_AncientTunnelBoringMachine.label>Древняя туннелепроходческая машина</BreadMoAM_AncientTunnelBoringMachine.label>
+	<!--                                          EN: The rusted, gigantic husk of an ancient tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, it was used to dig through the mountains in the mean time of building tunnels. Back into its haydays, every motion of this behemoth trembles the ground more like manmade earthquake, plus its imposing digging disk that could eat through any material with ease. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientTunnelBoringMachine.description>Ржавая гигантская оболочка древней туннелепроходческой машины. Имея ужасный вид, больше похожий на песчаного червя снаружи, ее использовали для рытья гор и строительства туннелей. В свои лучшие времена каждое движение этого гиганта сотрясало землю, а его огромный копающий диск мог с легкостью разъедать любой материал. Однако, поскольку его основные компоненты проржавели и обветрились, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientTunnelBoringMachine.description>
+	
+	<!--                                    EN: Ancient Electrical Appliances -->
+	<BreadMoAM_AncientElectricalEquipment.label>Древняя приборная панель</BreadMoAM_AncientElectricalEquipment.label>
+	<!--                                          EN: Weathered electrical appliances once used in an ancient tunnel boring machines. Back in its haydays, it was capable of converting electricity into hydraulic power, thus powering up the drilling behemoth at one flick of switch. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientElectricalEquipment.description>Обветшалые электроприборы, когда-то использовавшиеся в древних туннелепроходческих машинах. В свои лучшие времена с их помощью электричество преобразовывалось в гидравлическую энергию, приводя в действие буровое чудовище одним щелчком переключателя. Однако, поскольку его основные компоненты проржавели и обветрились, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientElectricalEquipment.description>
+	
+	<!--                                EN: Ancient Mineral Conveyor -->
+	<BreadMoAM_AncientMineralConveyor.label>Древний конвейер минералов</BreadMoAM_AncientMineralConveyor.label>
+	<!--                                      EN: A torn ancient mineral conveyor once used for transporting minerals to beneficiation machines or any other locations of mind. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientMineralConveyor.description>Разломанный древний конвейер для минералов, который когда-то использовался для транспортировки минералов на обогатительные машины или в любые другие места. Однако, поскольку его основные компоненты проржавели и обветрились, использование невозможно.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientMineralConveyor.description>
+	
+	<!--                                          EN: Ancient Structural Support -->
+	<BreadMoAM_AncientTunnelStructuralSupport_a.label>Древняя структурная поддержка</BreadMoAM_AncientTunnelStructuralSupport_a.label>
+	<!--                                                EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientTunnelStructuralSupport_a.description>Кусок древней опорной конструкции туннеля, использовавшейся для поддержки туннелей во время строительства, компактный, с коридором для облегчения доступа рабочих сверху. Однако, поскольку большая часть каркаса проржавела и обветшала, на данный момент он ничего не может удерживать.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientTunnelStructuralSupport_a.description>
+	
+	<!--                                          EN: Ancient Structural Support -->
+	<BreadMoAM_AncientTunnelStructuralSupport_b.label>Древняя структурная поддержка</BreadMoAM_AncientTunnelStructuralSupport_b.label>
+	<!--                                                EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientTunnelStructuralSupport_b.description>Кусок древней опорной конструкции туннеля, использовавшейся для поддержки туннелей во время строительства, компактный, с коридором для облегчения доступа рабочих сверху. Однако, поскольку большая часть каркаса проржавела и обветшала, на данный момент он ничего не может удерживать.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientTunnelStructuralSupport_b.description>
+	
+	<!--                                          EN: Ancient Structural Support -->
+	<BreadMoAM_AncientTunnelStructuralSupport_c.label>Древняя структурная поддержка</BreadMoAM_AncientTunnelStructuralSupport_c.label>
+	<!--                                                EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientTunnelStructuralSupport_c.description>Кусок древней опорной конструкции туннеля, использовавшейся для поддержки туннелей во время строительства, компактный, с коридором для облегчения доступа рабочих сверху. Однако, поскольку большая часть каркаса проржавела и обветшала, на данный момент он ничего не может удерживать.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientTunnelStructuralSupport_c.description>
+	
+	<!--                               EN: Ancient Mineral Outlet -->
+	<BreadMoAM_AncientMineralExports.label>Древний выходной тунель минералов</BreadMoAM_AncientMineralExports.label>
+	<!--                                     EN: A piece of ancient mineral outlet. With its core components rusted and weathered, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+	<BreadMoAM_AncientMineralExports.description>Кусок древнего пути вывода минералов. Поскольку его основные компоненты проржавели и обветрились, он просто не будет функционировать на данный момент.\nУничтожение может принести некоторые полезные ресурсы.</BreadMoAM_AncientMineralExports.description>
+</LanguageData>

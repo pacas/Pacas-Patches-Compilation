@@ -17,9 +17,9 @@
                         </value>
                     </match>
                 </li>
-                <li Class="PatchOperationRemove">
+                <!--<li Class="PatchOperationRemove">
                     <xpath>Defs/ResearchProjectDef[@Name="AM_MechtechBase"]/techLevel</xpath>
-                </li>
+                </li>-->
                 <!--Vanilla-->
                 <li Class="XmlExtensions.ApplyPatch">
                     <patchName>Research_Positions_Tab</patchName>
@@ -67,45 +67,41 @@
                     </arguments>
                 </li>
                 <!--New Mechs-->
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_WorkerStandardMechtech</li>
-                        <li>250</li>
-                        <li>13</li>
-                        <li>73</li>
-                        <li>Industrial</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]</xpath>
+                    <value>
+                        <baseCost>250</baseCost>
+                        <researchViewX>13</researchViewX>
+                        <researchViewY>73</researchViewY>
+                        <techLevel>Industrial</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_StandardMechtech</li>
-                        <li>1000</li>
-                        <li>16</li>
-                        <li>73</li>
-                        <li>Industrial</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]</xpath>
+                    <value>
+                        <baseCost>1000</baseCost>
+                        <researchViewX>16</researchViewX>
+                        <researchViewY>73</researchViewY>
+                        <techLevel>Industrial</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_HeavyMechtech</li>
-                        <li>2000</li>
-                        <li>20</li>
-                        <li>73</li>
-                        <li>Spacer</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]</xpath>
+                    <value>
+                        <baseCost>2000</baseCost>
+                        <researchViewX>20</researchViewX>
+                        <researchViewY>73</researchViewY>
+                        <techLevel>Spacer</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_UltraHeavyMechtech</li>
-                        <li>3000</li>
-                        <li>22</li>
-                        <li>73</li>
-                        <li>Ultra</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]</xpath>
+                    <value>
+                        <baseCost>3000</baseCost>
+                        <researchViewX>22</researchViewX>
+                        <researchViewY>73</researchViewY>
+                        <techLevel>Ultra</techLevel>
+                    </value>
                 </li>
                 <li Class="XmlExtensions.ApplyPatch">
                     <patchName>Research_Tables_Industrial</patchName>
@@ -132,45 +128,41 @@
                     </arguments>
                 </li>
                 <!--New Techs-->
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_MechanoidBeamcasting</li>
-                        <li>500</li>
-                        <li>22</li>
-                        <li>74</li>
-                        <li>Ultra</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_MechanoidBeamcasting"]</xpath>
+                    <value>
+                        <baseCost>500</baseCost>
+                        <researchViewX>22</researchViewX>
+                        <researchViewY>74</researchViewY>
+                        <techLevel>Ultra</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_VoidLinkConnectivity</li>
-                        <li>750</li>
-                        <li>23</li>
-                        <li>74</li>
-                        <li>Ultra</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_VoidLinkConnectivity"]</xpath>
+                    <value>
+                        <baseCost>750</baseCost>
+                        <researchViewX>23</researchViewX>
+                        <researchViewY>74</researchViewY>
+                        <techLevel>Ultra</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_QuantumPulseMessaging</li>
-                        <li>1000</li>
-                        <li>24</li>
-                        <li>74</li>
-                        <li>Ultra</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_QuantumPulseMessaging"]</xpath>
+                    <value>
+                        <baseCost>1000</baseCost>
+                        <researchViewX>24</researchViewX>
+                        <researchViewY>74</researchViewY>
+                        <techLevel>Ultra</techLevel>
+                    </value>
                 </li>
-                <li Class="XmlExtensions.ApplyPatch">
-                    <patchName>Research_Positions_Cost_Techlevel</patchName>
-                    <arguments>
-                        <li>AM_Cryptoharmonization</li>
-                        <li>2000</li>
-                        <li>25</li>
-                        <li>74</li>
-                        <li>Archotech</li>
-                    </arguments>
+                <li Class="SK.PatchOperationReplaceExtended">
+                    <xpath>Defs/ResearchProjectDef[defName="AM_Cryptoharmonization"]</xpath>
+                    <value>
+                        <baseCost>2000</baseCost>
+                        <researchViewX>25</researchViewX>
+                        <researchViewY>74</researchViewY>
+                        <techLevel>Archotech</techLevel>
+                    </value>
                 </li>
                 <li Class="XmlExtensions.ApplyPatch">
                     <patchName>Research_Tables_HitechLabStation</patchName>

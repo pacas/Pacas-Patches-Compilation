@@ -223,7 +223,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Gun_AUG>1</Gun_AUG>
+			<AG_ForsakenAssaultRifle>1</AG_ForsakenAssaultRifle>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>

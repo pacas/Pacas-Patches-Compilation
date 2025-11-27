@@ -33,7 +33,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="AG_Bullet_HydraBlast"]</xpath>
                     <value>
-                        <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base8x35mmChargedBullet">
+                        <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmChargedBullet">
                             <defName>AG_Bullet_HydraBlast</defName>
                             <label>hydra blast</label>
                             <graphicData>
@@ -44,7 +44,7 @@
                                 <damageDef>Bullet</damageDef>
                                 <damageAmountBase>50</damageAmountBase>
                                 <armorPenetrationSharp>76</armorPenetrationSharp>
-                                <armorPenetrationBlunt>42.273</armorPenetrationBlunt>
+                                <armorPenetrationBlunt>42</armorPenetrationBlunt>
                                 <speed>90</speed>
                                 <ai_IsIncendiary>true</ai_IsIncendiary>
                             </projectile>

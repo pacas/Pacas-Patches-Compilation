@@ -6,43 +6,32 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "ShieldGeneratorMortar"]</xpath>
                 <value>
-					<minifiedDef>MinifiedThing</minifiedDef>
-				</value>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsSpecial</li>
+                    </thingCategories>
+                </value>
             </li>
-			<li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName = "ShieldGeneratorMortar"]</xpath>
-                <value>
-				  <thingCategories>
-					<li>BuildingsSpecial</li>
-				  </thingCategories>
-				</value>
-            </li>
-			<li Class="PatchOperationAdd">
+            <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "ShieldGeneratorMortar"]/statBases</xpath>
                 <value>
-					<Mass>7500</Mass>
-				</value>
+                    <Mass>7500</Mass>
+                </value>
             </li>
-			  <li Class="PatchOperationAdd">
+            <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "ShieldGeneratorBullets"]</xpath>
                 <value>
-					<minifiedDef>MinifiedThing</minifiedDef>
-				</value>
+                    <minifiedDef>MinifiedThing</minifiedDef>
+                    <thingCategories>
+                        <li>BuildingsSpecial</li>
+                    </thingCategories>
+                </value>
             </li>
-
-			<li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName = "ShieldGeneratorBullets"]</xpath>
-                <value>
-				  <thingCategories>
-					<li>BuildingsSpecial</li>
-				  </thingCategories>
-				</value>
-            </li>
-			<li Class="PatchOperationAdd">
+            <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName = "ShieldGeneratorBullets"]/statBases</xpath>
                 <value>
-					<Mass>7500</Mass>
-				</value>
+                    <Mass>7500</Mass>
+                </value>
             </li>
         </operations>
     </Operation>

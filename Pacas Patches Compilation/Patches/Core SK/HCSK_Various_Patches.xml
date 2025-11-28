@@ -143,6 +143,14 @@
                         </filter>
                     </value>
                 </li>
+                
+                <!--Антиабузы-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="WaterShallow-WaterDeep"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/defNames/li[text()="WaterShallow-WaterDeep"]</xpath>
+                </li>
             </operations>
         </match>
     </Operation>

@@ -20,20 +20,6 @@
             </li>
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[
-                defName="AM_SurgicalBag" or 
-                defName="AM_BigSurgicalBag" or
-                defName="AM_MetalbloodInjector" or 
-                defName="AM_AnalgesicRegenerationInjector" or 
-                defName="AM_CellRegenerationInjector" or 
-                defName="AM_EssentialBalm"]/thingCategories</xpath>
-                <value>
-                    <thingCategories>
-                        <li>Medicine</li>
-                    </thingCategories>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[
                 defName="AM_AluminumSplint" or 
                 defName="AM_PelvicHammock"]/thingCategories</xpath>
                 <value>

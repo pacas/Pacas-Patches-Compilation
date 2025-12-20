@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[
+                defName="AM_SurgicalBag" or 
+                defName="AM_BigSurgicalBag"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>Medicine</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AM_MetalbloodInjector" or 
+                defName="AM_AnalgesicRegenerationInjector" or 
+                defName="AM_CellRegenerationInjector" or 
+                defName="AM_EssentialBalm"]/thingCategories</xpath>
+                <value>
+                    <thingCategories>
+                        <li>MedicalDrugs</li>
+                    </thingCategories>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRepairScar"]/ingredients/li/filter/thingDefs</xpath>
+                <value>
+                    <li>AM_Salewa</li>
+                    <li>AM_Grizzly</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRepairScar"]/fixedIngredientFilter/thingDefs</xpath>
+                <value>
+                    <li>AM_Salewa</li>
+                    <li>AM_Grizzly</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRepairScarUltra"]/ingredients/li/filter/thingDefs</xpath>
+                <value>
+                    <li>AM_Grizzly</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/RecipeDef[@Name="SurgeryRepairScarUltra"]/fixedIngredientFilter/thingDefs</xpath>
+                <value>
+                    <li>AM_Grizzly</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

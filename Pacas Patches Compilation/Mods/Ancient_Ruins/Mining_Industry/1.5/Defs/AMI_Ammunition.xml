@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo40x311</defName>
+		<label>40x311mm</label>
+		<parent>AmmoShotguns</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberShotgun</iconPath>
+	</ThingCategoryDef>
     
     <ThingDef Class="CombatExtended.AmmoDef" Name="Ammo40x311mmRBase" ParentName="AmmoBase" Abstract="True">
 		<description>Uncommon shotgun caliber for military firearms.</description>
 		<graphicData>
-			<texPath>Things/Ammo/HighCaliber/Bofors/Canister</texPath>
+			<texPath>Things/Ammo/Shotgun/Beanbag</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<ammoClass>BuckShot</ammoClass>
@@ -19,7 +26,7 @@
 			<li>CE_AutoEnableCrafting</li>
 		</tradeTags>
 		<thingCategories>
-			<li>Ammo12Gauge</li>
+			<li>Ammo40x311</li>
 		</thingCategories>
 		<stackLimit>1000</stackLimit>
 	</ThingDef>
